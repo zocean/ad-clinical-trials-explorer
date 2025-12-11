@@ -656,8 +656,17 @@
         .trial-category-row {
             display: flex;
             gap: 0.5rem;
-            align-items: center;
+            align-items: flex-start;
             margin-bottom: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .trial-category-row > .explanation-box {
+            order: 10;
+            flex-basis: 100%;
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
         }
 
         .trial-category-label {
@@ -939,49 +948,100 @@
             font-size: 1.1rem;
         }
 
-        /* Detail tooltip for Reason/Act/Reflect */
-        .detail-tooltip {
+        /* Expandable explanation box - inline, not tooltip */
+        .explanation-trigger {
             position: relative;
-            cursor: help;
-            display: inline;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
             border-bottom: 1px dashed var(--text-muted);
+            transition: border-color 0.2s ease;
+            user-select: none;
         }
 
-        .detail-tooltip-box {
-            position: fixed !important;
-            background: var(--bg-secondary);
+        .explanation-trigger:hover {
+            border-bottom-color: var(--accent-blue);
+        }
+
+        .explanation-trigger.expanded {
+            border-bottom-color: var(--accent-blue);
+            border-bottom-style: solid;
+        }
+
+        .explanation-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: rgba(59, 130, 246, 0.15);
+            color: var(--accent-blue);
+            font-size: 0.75rem;
+            flex-shrink: 0;
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+
+        .explanation-trigger:hover .explanation-icon {
+            background: rgba(59, 130, 246, 0.25);
+            transform: scale(1.1);
+        }
+
+        .explanation-trigger.expanded .explanation-icon {
+            background: rgba(59, 130, 246, 0.3);
+            transform: rotate(180deg);
+        }
+
+        [data-theme="light"] .explanation-icon {
+            background: rgba(59, 130, 246, 0.1);
+        }
+
+        [data-theme="light"] .explanation-trigger:hover .explanation-icon {
+            background: rgba(59, 130, 246, 0.2);
+        }
+
+        .explanation-box {
+            position: relative;
+            background: var(--bg-card);
             border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 1.5rem;
-            width: 500px;
-            max-width: calc(100vw - 40px);
-            box-shadow: var(--shadow-lg);
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity 0.2s ease, visibility 0.2s ease;
-            z-index: 99999 !important;
+            border-radius: 8px;
+            padding: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%;
+            max-width: 100%;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
             font-size: 0.85rem;
-            max-height: min(450px, calc(100vh - 40px));
-            overflow-y: auto;
-            pointer-events: none;
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease, margin 0.3s ease;
             color: var(--text-primary);
         }
 
-        [data-theme="light"] .detail-tooltip-box {
-            background: #ffffff;
-            border-color: #e2e8f0;
-            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.05);
+        .explanation-box.expanded {
+            max-height: 600px;
+            opacity: 1;
+            padding: 1.5rem 2rem;
+            margin-top: 0.75rem;
+            margin-bottom: 0.5rem;
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%;
+            overflow-y: auto;
         }
 
-        .detail-tooltip:hover .detail-tooltip-box {
-            opacity: 1;
-            visibility: visible;
-            pointer-events: auto;
+        [data-theme="light"] .explanation-box {
+            background: #f8fafc;
+            border-color: #e2e8f0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
         }
         
-        /* Ensure tooltip is positioned before it becomes visible */
-        .detail-tooltip-box {
-            transition: opacity 0.15s ease, visibility 0.15s ease;
+        .explanation-box {
+            transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease, margin 0.3s ease;
         }
 
         .tooltip-exp-section {
@@ -1018,23 +1078,37 @@
             color: #475569;
         }
 
-        /* Scrollbar styling for tooltip */
-        .detail-tooltip-box::-webkit-scrollbar {
-            width: 6px;
+        /* Scrollbar styling for explanation box */
+        .explanation-box::-webkit-scrollbar {
+            width: 8px;
         }
 
-        .detail-tooltip-box::-webkit-scrollbar-track {
+        .explanation-box::-webkit-scrollbar-track {
+            background: var(--bg-primary);
+            border-radius: 4px;
+        }
+
+        [data-theme="light"] .explanation-box::-webkit-scrollbar-track {
             background: #f1f5f9;
-            border-radius: 3px;
         }
 
-        .detail-tooltip-box::-webkit-scrollbar-thumb {
-            background: #cbd5e1;
-            border-radius: 3px;
+        .explanation-box::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 4px;
         }
 
-        .detail-tooltip-box::-webkit-scrollbar-thumb:hover {
-            background: #94a3b8;
+        .explanation-box::-webkit-scrollbar-thumb:hover {
+            background: var(--text-muted);
+        }
+
+        /* Firefox scrollbar */
+        .explanation-box {
+            scrollbar-width: thin;
+            scrollbar-color: var(--border-color) var(--bg-primary);
+        }
+
+        [data-theme="light"] .explanation-box {
+            scrollbar-color: #cbd5e1 #f1f5f9;
         }
     </style>
 </head>
@@ -1426,41 +1500,64 @@
                         <div class="trial-category-section">
                             <div class="trial-category-row">
                                 <span class="trial-category-label">Target Category</span>
-                                <span class="detail-tooltip">
-                                    <span class="trial-category-value">${targetCategory}</span>
+                                <div style="flex: 1; min-width: 0;">
                                     ${targetTooltipContent ? `
-                                    <div class="detail-tooltip-box">
-                                        ${targetTooltipContent}
-                                    </div>
-                                    ` : ''}
-                                </span>
+                                    <span class="explanation-trigger" data-explanation-id="target-${trial.nct_id}">
+                                        <span class="explanation-icon" title="Click to see explanation">ℹ️</span>
+                                        <span class="trial-category-value">${targetCategory}</span>
+                                    </span>
+                                    ` : `
+                                    <span class="trial-category-value">${targetCategory}</span>
+                                    `}
+                                </div>
+                                ${targetTooltipContent ? `
+                                <div class="explanation-box" id="target-${trial.nct_id}" style="width: 100%; flex-basis: 100%;">
+                                    ${targetTooltipContent}
+                                </div>
+                                ` : ''}
                             </div>
                             
                             <div class="trial-category-row">
                                 <span class="trial-category-label">CADGO Term</span>
-                                <span class="detail-tooltip">
-                                    <span class="trial-category-value">${agentType}</span>
+                                <div style="flex: 1; min-width: 0;">
                                     ${agentTooltipContent ? `
-                                    <div class="detail-tooltip-box">
-                                        ${agentTooltipContent}
-                                    </div>
-                                    ` : ''}
-                                </span>
+                                    <span class="explanation-trigger" data-explanation-id="agent-${trial.nct_id}">
+                                        <span class="explanation-icon" title="Click to see explanation">ℹ️</span>
+                                        <span class="trial-category-value">${agentType}</span>
+                                    </span>
+                                    ` : `
+                                    <span class="trial-category-value">${agentType}</span>
+                                    `}
+                                </div>
+                                ${agentTooltipContent ? `
+                                <div class="explanation-box" id="agent-${trial.nct_id}" style="width: 100%; flex-basis: 100%;">
+                                    ${agentTooltipContent}
+                                </div>
+                                ` : ''}
                             </div>
                             
                             ${genes.length > 0 ? `
                             <div class="trial-category-row">
                                 <span class="trial-category-label">Target Genes</span>
-                                <span class="detail-tooltip">
+                                <div style="flex: 1; min-width: 0;">
+                                    ${geneTooltipContent ? `
+                                    <span class="explanation-trigger" data-explanation-id="gene-${trial.nct_id}">
+                                        <span class="explanation-icon" title="Click to see explanation">ℹ️</span>
+                                        <div class="trial-genes" style="display: inline;">
+                                            ${genes.map(g => `<span class="gene-tag">${escapeHtml(g)}</span>`).join('')}
+                                        </div>
+                                    </span>
+                                    ` : `
                                     <div class="trial-genes">
                                         ${genes.map(g => `<span class="gene-tag">${escapeHtml(g)}</span>`).join('')}
                                     </div>
-                                    ${geneTooltipContent ? `
-                                    <div class="detail-tooltip-box">
-                                        ${geneTooltipContent}
-                                    </div>
-                                    ` : ''}
-                                </span>
+                                    `}
+                                </div>
+                                ${geneTooltipContent ? `
+                                <div class="explanation-box" id="gene-${trial.nct_id}" style="width: 100%; flex-basis: 100%;">
+                                    ${geneTooltipContent}
+                                </div>
+                                ` : ''}
                             </div>
                             ` : ''}
                         </div>
@@ -1469,7 +1566,7 @@
             `;
         }
 
-        // Build tooltip content from parsed explanations
+        // Build tooltip content from parsed explanations - show full text
         function buildTooltipContent(sections) {
             let content = '';
             
@@ -1477,7 +1574,7 @@
                 content += `
                     <div class="tooltip-exp-section">
                         <div class="tooltip-exp-title">Reason:</div>
-                        <div class="tooltip-exp-content">${escapeHtml(sections.reason[0].substring(0, 400))}${sections.reason[0].length > 400 ? '...' : ''}</div>
+                        <div class="tooltip-exp-content">${escapeHtml(sections.reason[0])}</div>
                     </div>
                 `;
             }
@@ -1486,7 +1583,7 @@
                 content += `
                     <div class="tooltip-exp-section">
                         <div class="tooltip-exp-title">Act:</div>
-                        <div class="tooltip-exp-content">${escapeHtml(sections.act[0].substring(0, 400))}${sections.act[0].length > 400 ? '...' : ''}</div>
+                        <div class="tooltip-exp-content">${escapeHtml(sections.act[0])}</div>
                     </div>
                 `;
             }
@@ -1495,7 +1592,7 @@
                 content += `
                     <div class="tooltip-exp-section">
                         <div class="tooltip-exp-title">Reflect:</div>
-                        <div class="tooltip-exp-content">${escapeHtml(sections.reflect[0].substring(0, 400))}${sections.reflect[0].length > 400 ? '...' : ''}</div>
+                        <div class="tooltip-exp-content">${escapeHtml(sections.reflect[0])}</div>
                     </div>
                 `;
             }
@@ -1504,7 +1601,7 @@
                 content += `
                     <div class="tooltip-exp-section">
                         <div class="tooltip-exp-title">Selected web search results used:</div>
-                        <div class="tooltip-exp-content">${escapeHtml(sections.sources[0].substring(0, 300))}${sections.sources[0].length > 300 ? '...' : ''}</div>
+                        <div class="tooltip-exp-content">${escapeHtml(sections.sources[0])}</div>
                     </div>
                 `;
             }
@@ -1872,67 +1969,54 @@
         }
 
         function setupTooltips() {
-            // Position tooltips when they become visible
-            const positionTooltipOnHover = (trigger) => {
-                const tooltip = trigger.querySelector('.detail-tooltip-box');
-                if (!tooltip) return;
+            // Handle click on explanation triggers - use event delegation for dynamic content
+            document.addEventListener('click', (e) => {
+                // Check if clicking inside an explanation box - don't toggle
+                if (e.target.closest('.explanation-box')) {
+                    return;
+                }
                 
-                // Use multiple attempts to ensure positioning happens
-                positionTooltip(trigger, tooltip);
+                const trigger = e.target.closest('.explanation-trigger');
+                if (!trigger) {
+                    return;
+                }
                 
-                // Also position after a short delay to catch CSS hover
-                setTimeout(() => {
-                    positionTooltip(trigger, tooltip);
-                }, 10);
+                // Prevent default
+                e.preventDefault();
+                e.stopPropagation();
                 
-                // And on next frame
-                requestAnimationFrame(() => {
-                    positionTooltip(trigger, tooltip);
-                });
-            };
-            
-            // Handle mouseenter
-            document.addEventListener('mouseenter', (e) => {
-                const trigger = e.target.closest('.detail-tooltip');
-                if (trigger) {
-                    positionTooltipOnHover(trigger);
+                // Get the explanation box ID from data attribute
+                const explanationId = trigger.getAttribute('data-explanation-id');
+                if (!explanationId) return;
+                
+                const explanationBox = document.getElementById(explanationId);
+                if (!explanationBox) return;
+                
+                // Toggle expand/collapse
+                if (trigger.classList.contains('expanded')) {
+                    // Close this explanation
+                    trigger.classList.remove('expanded');
+                    explanationBox.classList.remove('expanded');
+                } else {
+                    // Open this explanation
+                    trigger.classList.add('expanded');
+                    explanationBox.classList.add('expanded');
                 }
             }, true);
             
-            // Also handle when tooltip becomes visible via CSS hover
-            const observer = new MutationObserver((mutations) => {
-                mutations.forEach((mutation) => {
-                    if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
-                        const target = mutation.target;
-                        if (target.classList.contains('detail-tooltip-box') && 
-                            target.style.visibility === 'visible') {
-                            const trigger = target.closest('.detail-tooltip');
-                            if (trigger) {
-                                positionTooltip(trigger, target);
-                            }
+            // Close explanation on Escape key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    document.querySelectorAll('.explanation-trigger.expanded').forEach(trigger => {
+                        trigger.classList.remove('expanded');
+                        const explanationId = trigger.getAttribute('data-explanation-id');
+                        if (explanationId) {
+                            const box = document.getElementById(explanationId);
+                            if (box) box.classList.remove('expanded');
                         }
-                    }
-                });
+                    });
+                }
             });
-            
-            // Observe all detail-tooltip-box elements
-            document.querySelectorAll('.detail-tooltip-box').forEach(box => {
-                observer.observe(box, { attributes: true, attributeFilter: ['style'] });
-            });
-            
-            // Re-observe after rendering - hook into renderCategories
-            const originalRenderCategories = window.renderCategories;
-            if (typeof renderCategories === 'function') {
-                const originalFn = renderCategories;
-                window.renderCategories = function() {
-                    originalFn.apply(this, arguments);
-                    setTimeout(() => {
-                        document.querySelectorAll('.detail-tooltip-box').forEach(box => {
-                            observer.observe(box, { attributes: true, attributeFilter: ['style'] });
-                        });
-                    }, 100);
-                };
-            }
         }
 
         // Initialize Cytoscape network
