@@ -1136,8 +1136,12 @@
                 title: "Neuropsychiatric Symptom Improvement",
                 description: "Treatments focused on managing behavioral and psychological symptoms of dementia (BPSD) such as agitation, depression, sleep disturbances, and anxiety, rather than cognitive decline."
             },
+            "Others": {
+                title: "Others",
+                description: "Trials that have not been categorized into a specific treatment category. This may include observational studies, diagnostic trials, or trials with insufficient classification information."
+            },
             "N/A": {
-                title: "Not Classified",
+                title: "Others",
                 description: "Trials that have not been categorized into a specific treatment category. This may include observational studies, diagnostic trials, or trials with insufficient classification information."
             }
         };
@@ -1173,6 +1177,7 @@
             "Disease-Targeted Small Molecule": { icon: "⚗️", color: "#8b5cf6" },
             "Disease-Targeted Biologic": { icon: "🧬", color: "#10b981" },
             "Neuropsychiatric Symptom Improvement": { icon: "💭", color: "#f59e0b" },
+            "Others": { icon: "📋", color: "#6b7280" },
             "N/A": { icon: "📋", color: "#6b7280" }
         };
 
@@ -1272,7 +1277,9 @@
             // Group trials by category
             const categories = {};
             filteredTrials.forEach(trial => {
-                const cat = trial.target_category || 'N/A';
+                let cat = trial.target_category || 'N/A';
+                // Convert N/A to Others for display
+                if (cat === 'N/A') cat = 'Others';
                 if (!categories[cat]) categories[cat] = [];
                 categories[cat].push(trial);
             });
@@ -1292,8 +1299,8 @@
             }
 
             container.innerHTML = sortedCategories.map(([category, trials]) => {
-                const style = CATEGORY_STYLES[category] || CATEGORY_STYLES['N/A'];
-                const desc = CATEGORY_DESCRIPTIONS[category] || CATEGORY_DESCRIPTIONS['N/A'];
+                const style = CATEGORY_STYLES[category] || CATEGORY_STYLES['Others'] || CATEGORY_STYLES['N/A'];
+                const desc = CATEGORY_DESCRIPTIONS[category] || CATEGORY_DESCRIPTIONS['Others'] || CATEGORY_DESCRIPTIONS['N/A'];
                 
                 return `
                     <div class="category-section" data-category="${category}">
@@ -1360,7 +1367,9 @@
             const drugs = trial.drug || [];
             const summary = trial.description_brief || 'No description available.';
             const agentType = trial.agent_type || 'N/A';
-            const targetCategory = trial.target_category || 'N/A';
+            let targetCategory = trial.target_category || 'N/A';
+            // Convert N/A to Others for display
+            if (targetCategory === 'N/A') targetCategory = 'Others';
             
             // Parse explanations for tooltips
             const targetExplanations = parseExplanations(trial.explanation_target || []);

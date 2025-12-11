@@ -10,6 +10,8 @@ A web-based explorer for Alzheimer's Disease clinical trials with interactive ne
 - 🕸️ **Network Visualization**: Interactive drug-cell type network
 - 🔍 **Advanced Filtering**: Search and filter trials dynamically
 
+**Demo**: [https://zocean.github.io/ad-clinical-trials-explorer/](https://zocean.github.io/ad-clinical-trials-explorer/)
+
 ## Quick Start
 
 ### Local Development
@@ -89,4 +91,5 @@ When you have new trial data:
 ## Contact
 
 [Add contact information here]
+
 
