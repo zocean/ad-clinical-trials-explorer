@@ -1,0 +1,825 @@
+{
+    "nct_id": "NCT05172128",
+    "title": "Effect of Blueberry Supplementation on Alzheimer's Biomarkers",
+    "status": "COMPLETED",
+    "last_update_time": "2024-09-13",
+    "description_brief": "The purpose of this study is to study the effects of blueberries on neuronal, glial, and pathology blood biomarkers in Mild Cognitive Impairment (MCI) and to estimate sample size for future confirmatory studies. The blood biomarkers to be measured are Neurofilament light (NfL), glial fibrillary acidic protein (GFAP), A\u00df40, A\u00df42, p-tau181, and cytokines, using an ultra-sensitive state-of-the-art immunoassay.",
+    "description_detailed": "After determining subject eligibility and after subjects have abstained from consuming all berry fruits (including red wine) for 2 weeks, subjects will have blood drawn for biomarkers and will then will undergo 12 weeks of blueberry supplementation in the form of 18 grams lyophilized blueberry powder mixed with water and taken twice daily with meals. All subjects will be asked to abstain from berry fruits (including red wine) for the duration of the 12 week trial. Subjects will receive telephone calls at 4 and 8 weeks to check compliance as well as concomitant medications and adverse events and then all subjects will return at 12 weeks for a repeat biomarker blood draw. Plasma NfL, GFAP, A\u03b240, A\u03b242, p-tau181, and cytokine biomarker assays will be done using the Quanterix SR-X instrument, a new, state-of-the-art digital immunoassay platform employing Simoa technology, which enables the detection and quantification of biomarkers previously difficult or impossible to measure.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "BASIC_SCIENCE",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Single Arm Blueberry Supplementation",
+                    "description": "single arm blueberry supplementation"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "12"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "10"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Single Arm Blueberry Supplementation",
+                    "description": "single arm blueberry supplementation"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "10"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "80.20",
+                                            "spread": "5.16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Education",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18.10",
+                                            "spread": "2.15"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Mini-Mental State Examination (MMSE)",
+                    "description": "The MMSE (Mini Mental State Examination) is a 30 question test measuring several cognitive domains including memory, orientation, attention and language. The test is scored on a scale of 0 to 30 with higher scores indicating better cognitive function. MCI range for study inclusion was 23 or higher.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "27.20",
+                                            "spread": "2.15"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Weschler Logical Memory Delay",
+                    "description": "The Weschler Logical memory test involves reading a story to the subject and asking them to recall the story verbatim immediately after presentation as well as after a 20-30 minute delay. The story has 25 discrete details and recall score ranges from 0-25. The lower the score, the greater the cognitive impairment. MCI is defined by a delayed Logical memory score of \\<12 (if \u226516 years education) or \u22649 (if 8-15 years education).",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4.80",
+                                            "spread": "3.43"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Blood Neurofilament Light (NfL) Levels as Measured by Blood Biomarker Assay",
+                    "description": "Change in NfL level from baseline to 12 weeks as measured by blood biomarker assay in pg/mL",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "pg/mL",
+                    "timeFrame": "Baseline, 12 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Blueberry Supplementation",
+                            "description": "All participants will receive 18 grams lyophilized blueberry supplement mixed with water twice daily for 12 weeks.\n\nlyophilized blueberry supplement: lyophilized blueberry supplement bid"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30.09",
+                                            "spread": "4.64"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "12 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44.25",
+                                            "spread": "16.85"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "OTHER",
+                            "pValue": ">0.05",
+                            "statisticalMethod": "t-test, 2 sided",
+                            "otherAnalysisDescription": "Paired t-test comparing baseline value to endpoint value revealed a p-value of 0.80."
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Blood Glial Fibrillary Acidic Protein (GFAP) Levels as Measured by Blood Biomarker Assay",
+                    "description": "Change in blood glial fibrillary acidic protein (GFAP) levels from baseline to 12 weeks as measured by blood biomarker assay in pg/mL",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "pg/mL",
+                    "timeFrame": "Baseline, 12 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Blueberry Supplementation",
+                            "description": "All participants will receive 18 grams lyophilized blueberry supplement mixed with water twice daily for 12 weeks.\n\nlyophilized blueberry supplement: lyophilized blueberry supplement bid"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "239.86",
+                                            "spread": "31.15"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "12 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "234.27",
+                                            "spread": "26.98"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "OTHER",
+                            "pValue": ">0.05",
+                            "statisticalMethod": "t-test, 2 sided"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Blood Amyloid Beta 42/40 as Measured by Blood Biomarker Assay",
+                    "description": "Change in blood Amyloid beta 42/40 ratio (A\u03b242 divided by A\u03b240) from baseline to 12 weeks as measured by blood biomarker assay. Lower ratios increase likelihood of AD pathology.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "ratio",
+                    "timeFrame": "Baseline, 12 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Blueberry Supplementation",
+                            "description": "All participants will receive 18 grams lyophilized blueberry supplement mixed with water twice daily for 12 weeks.\n\nlyophilized blueberry supplement: lyophilized blueberry supplement bid"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": ".050",
+                                            "spread": ".002"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "12 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": ".050",
+                                            "spread": ".002"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "OTHER",
+                            "pValue": ">0.05",
+                            "statisticalMethod": "t-test, 2 sided"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in P-tau 181 as Measured by Blood Biomarker Assay",
+                    "description": "Change in p-tau 181 from baseline to 12 weeks as measured by blood biomarker assay in pg/mL",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "pg/mL",
+                    "timeFrame": "Baseline, 12 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Blueberry Supplementation",
+                            "description": "All participants will receive 18 grams lyophilized blueberry supplement mixed with water twice daily for 12 weeks.\n\nlyophilized blueberry supplement: lyophilized blueberry supplement bid"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "37.24",
+                                            "spread": "3.31"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "12 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "38.04",
+                                            "spread": "2.58"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "OTHER",
+                            "pValue": ">0.05",
+                            "statisticalMethod": "t-test, 2 sided"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Blood Interleukin-6 (IL-6) Levels as Measured by Blood Biomarker Assay",
+                    "populationDescription": "Data not collected.",
+                    "reportingStatus": "POSTED",
+                    "timeFrame": "Baseline, 12 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Blueberry Supplementation",
+                            "description": "All participants will receive 18 grams lyophilized blueberry supplement mixed with water twice daily for 12 weeks.\n\nlyophilized blueberry supplement: lyophilized blueberry supplement bid"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Tumor Necrosis Factor (TNF-alpha) Levels as Measured by Blood Biomarker Assay",
+                    "populationDescription": "Data not collected.",
+                    "reportingStatus": "POSTED",
+                    "timeFrame": "Baseline, 12 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Blueberry Supplementation",
+                            "description": "All participants will receive 18 grams lyophilized blueberry supplement mixed with water twice daily for 12 weeks.\n\nlyophilized blueberry supplement: lyophilized blueberry supplement bid"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Brain-derived Neurotrophic Factor (BDNF)",
+                    "description": "Change in brain-derived neurotrophic factor (BDNF) from baseline to 12 weeks in pg/mL",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "pg/mL",
+                    "timeFrame": "Baseline, 12 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Blueberry Supplementation",
+                            "description": "All participants will receive 18 grams lyophilized blueberry supplement mixed with water twice daily for 12 weeks.\n\nlyophilized blueberry supplement: lyophilized blueberry supplement bid"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1685.48",
+                                            "spread": "480.43"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "12 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1850.15",
+                                            "spread": "436.63"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "OTHER",
+                            "pValue": ">0.05",
+                            "statisticalMethod": "t-test, 2 sided"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "12 weeks",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Blueberry Supplementation",
+                    "description": "All participants will receive 18 grams lyophilized blueberry supplement mixed with water twice daily for 12 weeks.\n\nlyophilized blueberry supplement: lyophilized blueberry supplement bid",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 10,
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 10,
+                    "otherNumAffected": 5,
+                    "otherNumAtRisk": 10
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "altered mental status",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "notes": "Subject admitted to hospital overnight for altered mental status and generalized weakness. Workup negative for stroke but TIA could not be ruled out. Symptoms resolved by discharge.",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "constipation",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "diarrhea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "notes": "1 episode",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "tremor/weakness",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "notes": "transient",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Covid infection",
+                    "organSystem": "Infections and infestations",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "hematemesis",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "abdominal pain",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Dr. P. Murali Doraiswamy",
+                "organization": "Duke University Medical Center",
+                "email": "murali.doraiswamy@duke.edu",
+                "phone": "9196845933"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "lyophilized blueberry supplement (blueberry powder); dosing reported as 36 g/day split as 18 g twice daily in the referenced pilot study"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention is a dietary/nutraceutical (lyophilized blueberry powder) tested for effects on blood markers of neuronal injury, glial activation, and AD pathology (NfL, GFAP, A\u00df40/42, p\u2011tau181, cytokines), not a monoclonal antibody, vaccine, or defined small\u2011molecule drug. This places it outside the provided categories for biologic or small molecule; it is also not strictly a neuropsychiatric symptom treatment or a diagnostic procedure. \ue200cite\ue202turn0search8\ue202turn0search0\ue201",
+        "Act (key details extracted): The trial titled \u201cEffect of Blueberry Supplementation on Alzheimer's Biomarkers\u201d tested a lyophilized blueberry dietary supplement (blueberry powder). In the pilot/open\u2011label study subjects consumed 36 g/day of lyophilized blueberry powder (given as 18 g twice daily) for 12 weeks and blood biomarkers were measured using ultrasensitive assays. There was no placebo arm in the referenced pilot. \ue200cite\ue202turn0search8\ue202turn0search1\ue201",
+        "Reflect: According to the category definitions you provided, this intervention does not fit 'disease\u2011targeted biologic' (not a biologic like antibody/vaccine) nor 'disease\u2011targeted small molecule' (not a defined small molecule), nor specifically 'neuropsychiatric symptom improvement'. Although blueberries have been studied for cognitive benefits in other trials (i.e., as a nutraceutical/cognitive enhancer in some studies), the current trial's focus on biomarker effects and the fact that the intervention is a whole\u2011food supplement mean it doesn't map cleanly to any of the four categories \u2014 therefore 'N/A' is the appropriate classification. \ue200cite\ue202turn0search4\ue202turn0search5\ue201",
+        "Web search / sources consulted: Clinical trial registry details and study description (lyophilized blueberry supplement; NCT05172128). \ue200cite\ue202turn0search0\ue202turn0search1\ue201",
+        "Primary publication / pilot results confirming methods, dosing, biomarkers measured, and outcomes (PMC article reporting the 12\u2011week open\u2011label pilot of blueberry powder in MCI). \ue200cite\ue202turn0search8\ue202turn0search2\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

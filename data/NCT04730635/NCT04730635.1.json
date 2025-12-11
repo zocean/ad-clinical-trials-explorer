@@ -1,0 +1,1309 @@
+{
+    "nct_id": "NCT04730635",
+    "title": "A Clinical Study to Evaluate a Cognitive Platform to Support Development of Symptomatic Therapies in Participants at Risk for Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2024-07-24",
+    "description_brief": "The main purpose of this study is to assess the ability of a repeated high-frequency site-based computerized cognitive assessment to evaluate the potential treatment effects of donepezil (MK-0000) compared with placebo among participants with mild cognitive impairment (MCI) or mild Alzheimer's Disease (AD). The primary study hypothesis is that the average percentage of correct responses on one card learning (OCL) task will be \u22652 percentage points in participants receiving donepezil compared with participants receiving placebo.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "Treatment-na\u00efve male and female participants with mild cognitive impairment (MCI) or mild Alzheimer's Disease (AD) between the ages of 55 and 85 years (inclusive) will be enrolled in this trial.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Donepezil",
+                    "description": "Participants receive donepezil in doses up to 10 mg once daily (QD), orally in a scheduled titration for Days 1-56. The total treatment duration is 56 days."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "Participants receive placebo QD, orally for Days 1-56. The total treatment duration is 56 Days."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "29"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "15"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "28"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "14"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Donepezil",
+                    "description": "Participants receive donepezil in doses up to 10 mg once daily (QD), orally in a scheduled titration for Days 1-56. The total treatment duration is 56 days."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo",
+                    "description": "Participants receive placebo QD, orally for Days 1-56. The total treatment duration is 56 Days."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "29"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "15"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "44"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "68.3",
+                                            "spread": "7.6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "68.4",
+                                            "spread": "7.7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "68.4",
+                                            "spread": "7.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "29"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "15"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "19"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "25"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "15"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "28"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline in Averaged Correct Response Rate on the One Card Learning Task to Week 8",
+                    "description": "One Card Learning (OCL) uses a pattern separation paradigm to assess visual memory. The change from baseline of correct responses on the OCL task up to Week 8 is compared in participants receiving donepezil with participants receiving placebo. Change from baseline was the averaged correct response rate at Week 8 minus the correct response rate at baseline.",
+                    "populationDescription": "All participants who received at least one dose of study medication and yielded at least one measurement for that outcome measure.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Proportion of correct response",
+                    "timeFrame": "Baseline, Up to Week 8",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Donepezil",
+                            "description": "Participants receive donepezil in doses up to 10 mg once daily (QD), orally in a scheduled titration for Days 1-56. The total treatment duration is 56 days."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receive placebo QD, orally for Days 1-56. The total treatment duration is 56 Days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "23"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.055",
+                                            "spread": "0.078"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.034",
+                                            "spread": "0.091"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "There was a threshold of \u22652 percentage points. A posterior probability value \\>55% was required to satisfy the primary hypothesis.",
+                            "nonInferiorityType": "OTHER",
+                            "paramType": "Posterior Probability",
+                            "paramValue": "46.30"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in Standard Deviation for Averaged Correct Response Rate on the OCL Task (Arcsine Square Root Transformed) to Week 8",
+                    "description": "OCL uses a pattern separation paradigm to assess visual memory. Change in standard deviation from baseline for correct response rate on the OCL task up to Week 8 is compared in participants with mild cognitive impairment (MCI) or mild Alzheimer's Disease (AD) receiving donepezil with participants receiving placebo. Change from baseline was the standard deviation for correct response rate at Week 8 minus the standard deviation for correct response rate at baseline. Standard deviations are reported in arcsine square root (sqrt) transformed correct response (CR) rate.",
+                    "populationDescription": "All participants who received at least one dose of study medication and yielded at least one measurement for that outcome measure.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Arcsine sqrt transformed proportion CR",
+                    "timeFrame": "Baseline, Up to Week 8",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Donepezil",
+                            "description": "Participants receive donepezil in doses up to 10 mg once daily (QD), orally in a scheduled titration for Days 1-56. The total treatment duration is 56 days."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receive placebo QD, orally for Days 1-56. The total treatment duration is 56 Days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "23"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "MCI",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "9"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.078"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.074"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mild AD",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.080"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.097"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "There was a threshold of \u2264 0.1 for this standard deviation change. A posterior probability value \\>70% was required to satisfy this secondary hypothesis.",
+                            "nonInferiorityType": "OTHER",
+                            "paramType": "Posterior Probability",
+                            "paramValue": "80.67"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in Averaged Correct Response Rate on the OCL Task to Week 8 in Participants Receiving Donepezil",
+                    "description": "OCL uses a pattern separation paradigm to assess visual memory. The change from baseline of correct responses on the OCL task up to Week 8 in participants receiving donepezil is presented. Change from baseline was the averaged correct response rate at Week 8 minus the correct response rate at baseline. Per protocol, the placebo group was not included in this analysis.",
+                    "populationDescription": "All participants who received at least one dose of donepezil and yielded at least one measurement for that outcome measure. Per protocol, the placebo group was not included in this analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Proportion of correct response",
+                    "timeFrame": "Baseline, Up to Week 8",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Donepezil",
+                            "description": "Participants receive donepezil in doses up to 10 mg once daily (QD), orally in a scheduled titration for Days 1-56. The total treatment duration is 56 days."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receive placebo QD, orally for Days 1-56. The total treatment duration is 56 Days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "23"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.055",
+                                            "spread": "0.078"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "OTHER",
+                            "paramType": "Posterior Probability",
+                            "paramValue": "98.8"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Up to Week 10 (up to 70 days)",
+            "description": "All-Cause Mortality (ACM) was reported for all randomized participants.\n\nSerious AEs and Other AEs were reported for the Safety Population: all randomized participants who received at least 1 dose of study medication.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Donepezil",
+                    "description": "Participants receive donepezil in doses up to 10 mg once daily (QD), orally in a scheduled titration for Days 1-56. The total treatment duration is 56 days.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 29,
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 29,
+                    "otherNumAffected": 16,
+                    "otherNumAtRisk": 29
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Participants receive placebo QD, orally for Days 1-56. The total treatment duration is 56 Days.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 15,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 15,
+                    "otherNumAffected": 4,
+                    "otherNumAtRisk": 15
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Presyncope",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Anaemia",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Vitreous floaters",
+                    "organSystem": "Eye disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Dyspepsia",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Vomiting",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Food allergy",
+                    "organSystem": "Immune system disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Otitis media",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Upper respiratory tract infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 3,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary tract infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 2,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Skin laceration",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "SARS-CoV-2 test positive",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Back pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Muscle spasms",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Myalgia",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Radiculopathy",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Abnormal dreams",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Emotional distress",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypnagogic hallucination",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Insomnia",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Nightmare",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Micturition urgency",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Pruritus",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Pruritus allergic",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Rash",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "sourceVocabulary": "MedDRA 25.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "The investigator agrees to submit all manuscripts or abstracts to the Sponsor before submission. This allows the Sponsor to protect proprietary information and to provide comments."
+            },
+            "pointOfContact": {
+                "title": "Senior Vice President, Global Clinical Development",
+                "organization": "Merck Sharp & Dohme LLC",
+                "email": "ClinicalTrialsDisclosure@merck.com",
+                "phone": "1-800-672-6372"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "donepezil (MK-0000; brand: Aricept; donepezil hydrochloride)"
+    ],
+    "placebo": [
+        "placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests donepezil vs placebo using a cognitive outcome (One Card Learning task) in MCI/mild AD, and the study title/description explicitly frame this as supporting development of symptomatic therapies \u2014 indicating the intervention is intended to improve cognition rather than to modify underlying AD pathology. \ue200cite\ue202turn1search2\ue201",
+        "Act: Donepezil is a small\u2011molecule, reversible acetylcholinesterase inhibitor used as a symptomatic treatment to enhance cholinergic neurotransmission and improve cognition in Alzheimer's disease (marketed as Aricept). The clinical registry for this study identifies the investigational agent as donepezil (MK-0000 / donepezil hydrochloride / Aricept) and lists the dosing regimen used in the trial. \ue200cite\ue202turn0search8\ue202turn1search2\ue201",
+        "Reflect: Given the mechanism (acetylcholinesterase inhibition), the drug class (small molecule), and the trial's symptomatic cognitive endpoints, the correct category is 'cognitive enhancer' rather than a disease\u2011targeted biologic or disease\u2011modifying small molecule. The registry and pharmacology sources support this classification. \ue200cite\ue202turn1search2\ue202turn0search5\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The trial tests donepezil (MK-0000 / Aricept) as a symptomatic cognitive enhancer to improve cholinergic neurotransmission in MCI / mild AD rather than to modify core AD pathology; donepezil's therapeutic effect is via inhibition of acetylcholinesterase to increase acetylcholine and thereby boost neurotransmission. \ue200cite\ue202turn2search0\ue202turn0search3\ue202turn0search5\ue201",
+        "Act: Extracted details \u2014 investigational agent: donepezil (MK-0000, donepezil hydrochloride, Aricept); trial objective: evaluate a cognitive assessment platform to detect symptomatic treatment effects (One Card Learning task) comparing donepezil vs placebo. Mechanism/classification: reversible acetylcholinesterase inhibitor that enhances cholinergic neurotransmission (a neurotransmitter-based symptomatic approach). Based on CADRO, this maps best to the Neurotransmitter Receptors category (neurotransmitter system targets including cholinergic modulation). \ue200cite\ue202turn2search0\ue202turn0search3\ue202turn0search0\ue201",
+        "Reflect: The intervention is symptomatic (cognitive enhancer) acting on the cholinergic neurotransmitter system via enzyme inhibition to increase acetylcholine; it is not directed at amyloid, tau, inflammation, synaptic growth factors, or metabolic/vascular mechanisms, nor is it clearly multi-target. Therefore the most specific CADRO category is D) Neurotransmitter Receptors. Trial registry and drug label sources support this classification. \ue200cite\ue202turn2search0\ue202turn0search3\ue201",
+        "Web search sources used (for transparency):\n- Trial registry / study record (NCT04730635 mirror): Cognition Platform Study in Participants at Risk for Alzheimer's Disease (MK-0000-413) \u2014 shows donepezil (MK-0000) vs placebo and One Card Learning cognitive endpoint. \ue200cite\ue202turn2search0\ue201\n- Aricept (donepezil) prescribing information / drug description (Drugs.com package insert summary) \u2014 identifies donepezil as a reversible acetylcholinesterase inhibitor (mechanism). \ue200cite\ue202turn0search3\ue201\n- MedlinePlus / patient drug info \u2014 notes donepezil is used to treat symptoms of Alzheimer\u2019s by enhancing cholinergic function. \ue200cite\ue202turn0search5\ue201\n- WebMD drug monograph \u2014 describes donepezil's mechanism and symptomatic use. \ue200cite\ue202turn0search0\ue201"
+    ]
+}

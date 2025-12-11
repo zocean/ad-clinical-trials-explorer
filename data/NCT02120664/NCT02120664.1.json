@@ -1,0 +1,785 @@
+{
+    "nct_id": "NCT02120664",
+    "title": "A Multicenter, Multicountry Study to Calibrate Florbetapir (18F) PET Imaging Data to the Centiloid Scale Based on 11C-PiB",
+    "status": "COMPLETED",
+    "last_update_time": "2017-01-20",
+    "description_brief": "This study is designed to demonstrate the conversion of florbetapir (18F) Positron Emission Tomography (PET) Standard Uptake Value ratio (SUVr) to Centiloid units.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "First subject enrolled: 14 April 2014; Last subject completed: 18 September 2015",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Clincally Diagnosed AD",
+                    "description": "Patients meeting clinical criteria for dementia due to probable Alzheimer's Disease (AD)"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Possible AD",
+                    "description": "Patients meeting clinical criteria for dementia due to possible Alzheimer's Disease"
+                },
+                {
+                    "id": "FG002",
+                    "title": "Mild Cognitive Impairment (MCI)",
+                    "description": "Patients with a clinical diagnosis of Mild Cognitive Impairment (MCI) and not dementia. Age is 60 years or greater"
+                },
+                {
+                    "id": "FG003",
+                    "title": "At Risk Elderly",
+                    "description": "Elderly patients, 75 years or older, who are known ApoE4 gene carriers, and cognitively normal"
+                },
+                {
+                    "id": "FG004",
+                    "title": "Young Healthy Controls (YHC)",
+                    "description": "Cognitively normal young subjects between 21 and 45 years of age (inclusive)"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "10"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "7"
+                                },
+                                {
+                                    "groupId": "FG003",
+                                    "numSubjects": "4"
+                                },
+                                {
+                                    "groupId": "FG004",
+                                    "numSubjects": "10"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "10"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "7"
+                                },
+                                {
+                                    "groupId": "FG003",
+                                    "numSubjects": "3"
+                                },
+                                {
+                                    "groupId": "FG004",
+                                    "numSubjects": "10"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG003",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG004",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG003",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG004",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "All subjects receiving at least one dose of florbetapir",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Clincally Diagnosed AD",
+                    "description": "Patients meeting clinical criteria for dementia due to probable Alzheimer's Disease (AD)"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Possible AD",
+                    "description": "Patients meeting clinical criteria for dementia due to possible Alzheimer's Disease"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Mild Cognitive Impairment (MCI)",
+                    "description": "Patients with a clinical diagnosis of Mild Cognitive Impairment (MCI) and not dementia. Age is 60 years or greater"
+                },
+                {
+                    "id": "BG003",
+                    "title": "At Risk Elderly",
+                    "description": "Elderly patients, 75 years or older, who are known ApoE4 gene carriers, and cognitively normal"
+                },
+                {
+                    "id": "BG004",
+                    "title": "Young Healthy Controls (YHC)",
+                    "description": "Cognitively normal young subjects between 21 and 45 years of age (inclusive)"
+                },
+                {
+                    "id": "BG005",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "10"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "4"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "7"
+                        },
+                        {
+                            "groupId": "BG003",
+                            "value": "4"
+                        },
+                        {
+                            "groupId": "BG004",
+                            "value": "10"
+                        },
+                        {
+                            "groupId": "BG005",
+                            "value": "35"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "69.2",
+                                            "spread": "4.94"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "66",
+                                            "spread": "4.76"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "79.9",
+                                            "spread": "8.47"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "79.3",
+                                            "spread": "2.5"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "27.3",
+                                            "spread": "4.83"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "60.1",
+                                            "spread": "22.28"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "15"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "20"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Mini Mental Status Exam",
+                    "description": "Mini Mental Status Exam (MMSE) is a brief instrument used to assess cognitive function in elderly patients. The instrument is divided into 2 sections. The first section measures orientation, memory, and attention. The maximum score for the first section is 21. The second section tests the ability of the patient to name objects, follow verbal and written commands, write a sentence, and copy figures. The maximum score for the second section is 9. The range for the total MMSE score is 0 to 30. Higher scores indicate higher cognitive function.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "23.7",
+                                            "spread": "2.45"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "21.8",
+                                            "spread": "4.92"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "26.4",
+                                            "spread": "1.27"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "29.3",
+                                            "spread": "0.96"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "29.5",
+                                            "spread": "0.53"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "26.3",
+                                            "spread": "3.55"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Florbetapir SUVr Conversion to Centiloid Units",
+                    "description": "Conversion of florbetapir (18F) positron emission tomography (PET) standard uptake value ratio (SUVr) to Centiloid units. The Centiloid is anchored at values of 0 and 100 corresponding to the median Pittsburgh Compound B (11C-PiB) SUVr value for a representative group of young (\\<45) cognitively and medically healthy control subjects (YHC) and the median SUVr value for a representative group of 11C-PiB positive patients diagnosed with Alzheimer's disease, respectively. A cortical average to cerebellum SUVr was used for this outcome measure.",
+                    "populationDescription": "All participants receiving both a florbetapir and a PiB scan per protocol. One subject in the possible AD group did not complete a florbetapir scan due to excessive movement. One subject in the at risk elderly group elected to leave the study before the second PET scan.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "centiloid",
+                    "timeFrame": "up to 70 minutes post injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Clincally Diagnosed AD",
+                            "description": "Patients meeting clinical criteria for dementia due to probable Alzheimer's Disease (AD)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Possible AD",
+                            "description": "Patients meeting clinical criteria for dementia due to possible Alzheimer's Disease"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Mild Cognitive Impairment (MCI)",
+                            "description": "Patients with a clinical diagnosis of Mild Cognitive Impairment (MCI) and not dementia. Age is 60 years or greater"
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "At Risk Elderly",
+                            "description": "Elderly patients, 75 years or older, who are known ApoE4 gene carriers, and cognitively normal"
+                        },
+                        {
+                            "id": "OG004",
+                            "title": "Young Healthy Controls (YHC)",
+                            "description": "Cognitively normal young subjects between 21 and 45 years of age (inclusive)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "3"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "7"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "3"
+                                },
+                                {
+                                    "groupId": "OG004",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "82.44",
+                                            "spread": "45.623"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "50.75",
+                                            "spread": "60.383"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "81.19",
+                                            "spread": "66.357"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "14.93",
+                                            "spread": "35.885"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "5.24",
+                                            "spread": "11.981"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Correlation of Florbetapir (18F) Centiloid and 11C-PiB Centiloid",
+                    "description": "Correlation coefficient between 11C-PiB and florbetapir (18F) SUVr as converted to centiloid units. The Centiloid is anchored at values of 0 and 100 corresponding to the median Pittsburgh Compound B (11C-PiB) SUVr value for a representative group of young (\\<45) cognitively and medically healthy control subjects (YHC) and the median SUVr value for a representative group of 11C-PiB positive patients diagnosed with Alzheimer's disease, respectively. A cortical average to cerebellum SUVr was used for this outcome measure.",
+                    "populationDescription": "All participants receiving both a florbetapir and a PiB scan per protocol. One subject in the possible AD group did not complete the florbetapir scan due to excessive movement. One subject in the at risk elderly group elected to leave the study before the second PET scan.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "centiloid",
+                    "timeFrame": "up to 70 minutes post injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Clincally Diagnosed AD",
+                            "description": "Patients meeting clinical criteria for dementia due to probable Alzheimer's Disease (AD)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Possible AD",
+                            "description": "Patients meeting clinical criteria for dementia due to possible Alzheimer's Disease"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Mild Cognitive Impairment (MCI)",
+                            "description": "Patients with a clinical diagnosis of Mild Cognitive Impairment (MCI) and not dementia. Age is 60 years or greater"
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "At Risk Elderly",
+                            "description": "Elderly patients, 75 years or older, who are known ApoE4 gene carriers, and cognitively normal"
+                        },
+                        {
+                            "id": "OG004",
+                            "title": "Young Healthy Controls (YHC)",
+                            "description": "Cognitively normal young subjects between 21 and 45 years of age (inclusive)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "3"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "7"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "3"
+                                },
+                                {
+                                    "groupId": "OG004",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Florbetapir",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "82.44",
+                                            "spread": "45.623"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "50.75",
+                                            "spread": "60.383"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "81.19",
+                                            "spread": "66.357"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "14.93",
+                                            "spread": "35.885"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "5.24",
+                                            "spread": "11.981"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "11C-PiB",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "87.18",
+                                            "spread": "41.105"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "54.52",
+                                            "spread": "56.511"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "74.33",
+                                            "spread": "57.597"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "26.39",
+                                            "spread": "37.464"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "0.73",
+                                            "spread": "2.414"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001",
+                                "OG002",
+                                "OG003",
+                                "OG004"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "statisticalMethod": "Regression, Linear",
+                            "paramType": "R squared",
+                            "paramValue": "0.907",
+                            "ciNumSides": "TWO_SIDED"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Variability of PET Images in Young Healthy Control Subjects.",
+                    "description": "Coefficient of variation for 11C-PiB and florbetapir (18F) SUVr. A cortical average to cerebellum SUVr was used for this outcome measure.",
+                    "populationDescription": "Young healthy controls enrolled in the study",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "SUVr",
+                    "timeFrame": "up to 70 minutes post injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PiB SUVR Variability",
+                            "description": "Variability of standardized uptake value ratio (SUVR) for PiB scans in young healthy controls"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Florbetapir SUVR Variability",
+                            "description": "Variability of standardized uptake value ratio (SUVR) for florbetapir scans in young healthy controls"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.01",
+                                            "spread": "0.026"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.98",
+                                            "spread": "0.066"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "paramType": "Coefficient of Variation",
+                            "paramValue": "2.53",
+                            "ciNumSides": "TWO_SIDED"
+                        },
+                        {
+                            "groupIds": [
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "paramType": "Coefficient of Variation",
+                            "paramValue": "6.69",
+                            "ciNumSides": "TWO_SIDED"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "within 48 hours of scan as noted by group title",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Florbetapir Only",
+                    "description": "Events occurring within 48 hours following florbetapir scans only",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 34,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 34
+                },
+                {
+                    "id": "EG001",
+                    "title": "PiB Only",
+                    "description": "Events occurring within 48 hours of PiB scans only",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 35,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 35
+                },
+                {
+                    "id": "EG002",
+                    "title": "Both",
+                    "description": "Events occurring within 48 hours of both florbetapir and PiB scans",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 34,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 34
+                },
+                {
+                    "id": "EG003",
+                    "title": "Total",
+                    "description": "Events following Florbetapir (florbetapir only and both)",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 34,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 34
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "GT60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Chief Medical Officer",
+                "organization": "Avid Radiopharmaceuticals, Inc.",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "Florbetapir (18F) \u2014 marketed as Amyvid; a diagnostic PET radiotracer (not a therapeutic drug)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial description and title state the study is a calibration/conversion of florbetapir (18F) PET SUVR values to the Centiloid scale using 11C\u2011PiB as the anchor. This is an imaging/quantification study (diagnostic calibration), not a therapeutic trial aimed at disease modification, cognitive enhancement, or neuropsychiatric symptom improvement. \ue200cite\ue202turn1search4\ue202turn0search6\ue201",
+        "Act \u2014 key details extracted: florbetapir (18F) (Amyvid) is a radioactive PET imaging tracer used to estimate brain beta\u2011amyloid neuritic plaque density and is an FDA\u2011approved diagnostic agent (not a treatment). \ue200cite\ue202turn0search4\ue202turn0search6\ue201",
+        "Act \u2014 additional context: 11C\u2011PiB (Pittsburgh Compound\u2011B) is the original amyloid PET tracer that binds fibrillar A\u03b2 and is used as the Centiloid anchor; the Centiloid scale was developed to standardize quantitative amyloid PET results across tracers and sites. Multiple publications describe converting non\u2011PiB tracers (including florbetapir) SUVRs to Centiloid units. \ue200cite\ue202turn0search2\ue202turn1search4\ue202turn1search0\ue201",
+        "Reflect: Given the aim (calibration of PET imaging measurements) and the nature of the intervention (a diagnostic radiotracer), the study does not fit any of the four therapeutic categories (disease\u2011targeted biologic, disease\u2011targeted small molecule, cognitive enhancer, or neuropsychiatric symptom improvement). Therefore the correct classification is 'N/A'. Primary web sources used: Amyvid (florbetapir) product/FDA information; PiB literature; the Centiloid project and florbetapir-to\u2011Centiloid conversion studies. \ue200cite\ue202turn0search6\ue202turn0search4\ue202turn0search2\ue202turn1search4\ue202turn1search0\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

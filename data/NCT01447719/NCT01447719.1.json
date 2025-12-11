@@ -1,0 +1,1050 @@
+{
+    "nct_id": "NCT01447719",
+    "title": "Autopsy Follow-up of Subjects Previously Imaged With Florbetapir F 18 (18F-AV-45) PET in Trial 18F-AV-45-A07",
+    "status": "COMPLETED",
+    "last_update_time": "2025-03-07",
+    "description_brief": "This study is designed to test the relationship between measurements of brain amyloid using florbetapir F 18 PET imaging and true levels of amyloid plaque density as measured by histopathological assessment. The study will address the following specific aims:\n\n1. To expand the number of subjects included in the A07 (NCT00857415) trial correlation analysis (measuring the correlation between the global visual rating of brain amyloid plaque density on an independent blinded read of the florbetapir F 18 PET scan and the cortical amyloid plaque density at autopsy as assessed by histopathology for subjects in the autopsy cohort).\n2. To determine the sensitivity and specificity of an independent blinded visual read assessment of the florbetapir F 18 PET scan (A\u03b2+ or A\u03b2-) versus the final blinded neuropathological assessment made at autopsy.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "Demographic results are only provided for primary analysis populations of subjects who came to autopsy. Demographic characteristics for the entire population of 152 subjects are reported with the results of study A07 (NCT00857415).",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Autopsy Cohort",
+                    "description": "End-of-life subjects consenting to brain donation at autopsy. Subjects received a single intravenous injection of 370 MBq florbetapir followed by a 10-minute PET scan 50 minutes post-injection."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "152"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Valid AV-45 Scan Acquired",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "147"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Deceased <2 Years After AV-45 Scan",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "66"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "59"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "93"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Image acquisition failure",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Invalid image or not imaged",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Subject still living at end of study",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "79"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Family withdrew autopsy consent",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "7"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "All Autopsy Population",
+                    "description": "Group of subjects with valid images who came to autopsy within 2 years of scan"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "59"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "79.4",
+                                            "spread": "12.64"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "59"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Baseline clinical diagnosis",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "AD diagnosis",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Other dementing disorder",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "No history of cognitive impairment",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mild cognitive impairment",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Sensitivity Analysis in All Autopsy Population",
+                    "description": "Sensitivity of florbetapir-PET scan to detect moderate to frequent amyloid plaques. Plaque density was calculated using CERAD (Consortium to Establish a Registry for AD) criteria. Florbetpir-PET scans were read by five independent readers blinded to clinical information using the binary read method (amyloid positive/negative).",
+                    "populationDescription": "39 of 59 subjects from all autopsy population had moderate to frequent neuritic plaques at autopsy",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "timeFrame": "at autopsy within 24 months of florbetapir PET scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Subjects With Moderate or Frequent Plaques at Autopsy",
+                            "description": "Group of subjects with valid images who came to autopsy within 2 years of scan and had moderate to frequent neuritic plaques at autopsy (probable AD or definite AD)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Florbetapir PET positive (majority interpretation)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "36"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Florbetapir PET negative (majority interpretation)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Proportion of subjects who had a positive scan based on majority of 5 blinded readers",
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+                            "paramType": "Sensitivity",
+                            "paramValue": "92",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "78",
+                            "ciUpperLimit": "98",
+                            "estimateComment": "95% CI calculated by Wilson score method"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Specificity Analysis in All Autopsy Population",
+                    "description": "Specificity of florbetapir-PET scan to detect moderate to frequent amyloid plaques. Plaque density was calculated using CERAD criteria. Florbetpir-PET scans were read by five independent readers blinded to clinical information using the binary read method (amyloid positive/negative).",
+                    "populationDescription": "20 of 59 subjects from the all autopsy population had no or sparse neuritic plaques at autopsy",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "timeFrame": "at autopsy within 24 months of florbetapir PET scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Subjects With no or Sparse Plaques at Autopsy",
+                            "description": "Group of subjects with valid images who came to autopsy within 2 years of scan and had no or sparse neuritic plaques at autopsy (no AD or possible AD)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Florbetapir PET positive (majority interpretation)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Florbetapir PET negative (majority interpretation)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "20"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Proportion of subjects who had a negative scan based on majority of 5 blinded readers",
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+                            "paramType": "Specificity",
+                            "paramValue": "100",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "80",
+                            "ciUpperLimit": "100",
+                            "estimateComment": "95% CI calculated by Wilson score method"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Correlation of Florbetapir-PET Image and Amyloid Plaque Density",
+                    "description": "Spearman's rank order correlation of the median visual read of the florbetapir-PET image and the amyloid plaque density assessed post-mortem by quantitative immunohistochemistry (IHC) averaged across 6 brain regions (precuneus, parietal cortex, frontal cortex, temporal cortex, posterior cingulate, anterior cingulate). Spearman's rank order correlation ranges from -1 to +1. A value of -1 indicates perfect negative correlation, and a value of +1 indicates a perfect positive correlation.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "Correlation coefficient",
+                    "timeFrame": "at autopsy within 24 months of florbetapir PET scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "All Autopsy Population",
+                            "description": "Group of subjects with valid images who came to autopsy within 2 years of scan"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "59"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.76",
+                                            "lowerLimit": "0.62",
+                                            "upperLimit": "0.85"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Spearman's Rank Order Correlation of the median semiquantitative read (three readers) and the quantitative IHC measurement of cortical amyloid plaque density averaged across six brain regions.",
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+                            "pValue": "<0.0001",
+                            "pValueComment": "A one-sided test (rho \\> 0) was performed with a significance level of alpha=0.05 to assess a significant correlation.",
+                            "statisticalMethod": "Spearman's Rank Order Correlation test",
+                            "statisticalComment": "Asymptotic standard error and 95 percent CI used Fisher z-transformation.",
+                            "paramType": "Correlation coefficient",
+                            "paramValue": "0.76",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.62",
+                            "ciUpperLimit": "0.85",
+                            "dispersionType": "STANDARD_ERROR_OF_MEAN",
+                            "dispersionValue": "0.133"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Sensitivity Analysis in Subjects With Autopsy Within 1 Year of Scan",
+                    "description": "Sensitivity of florbetapir-PET scan to detect moderate to frequent amyloid plaques. Plaque density was calculated using CERAD criteria. Florbetpir-PET scans were read by five independent readers blinded to clinical information using the binary read method (amyloid positive/negative).",
+                    "populationDescription": "28 of 46 subjects who died within 1 year of scan had moderate to frequent neuritic plaques at autopsy",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "timeFrame": "at autopsy within 12 months of florbetapir PET scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Subjects With Moderate or Frequent Plaques at Autopsy",
+                            "description": "Group of subjects with valid images who came to autopsy within 1 years of scan and had moderate to frequent neuritic plaques at autopsy (probable AD or definite AD)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Florbetapir PET positive (majority interpretation)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "27"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Florbetapir PET negative (majority interpretation)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Proportion of subjects who had a positive scan based on majority of 5 blinded readers",
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+                            "paramType": "Sensitivity",
+                            "paramValue": "96",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "80",
+                            "ciUpperLimit": "100"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Specificity Analysis in Subjects With Autopsy Within 1 Year of Scan",
+                    "description": "Specificity of florbetapir-PET scan to detect moderate to frequent amyloid plaques. Plaque density was calculated using CERAD criteria. Florbetpir-PET scans were read by five independent readers blinded to clinical information using the binary read method (amyloid positive/negative).",
+                    "populationDescription": "18 of 46 subjects who died within 1 year of scan had no or sparse neuritic plaques at autopsy",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "timeFrame": "at autopsy within 12 months of florbetapir PET scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Subjects With no or Sparse Plaques at Autopsy",
+                            "description": "Group of subjects with valid images who came to autopsy within 1 year of scan and had no or sparse neuritic plaques at autopsy (no AD or possible AD)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "18"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Florbetapir PET positive (majority interpretation)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Florbetapir PET negative (majority interpretation)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Proportion of subjects who had a negative scan based on majority of 5 blinded readers",
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+                            "paramType": "Specificity",
+                            "paramValue": "100",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "78",
+                            "ciUpperLimit": "100"
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Median Sensitivity and Specificity vs. CERAD Diagnosis",
+                    "description": "Median sensitivity and specificity for 5 independent readers to detect moderate to frequent amyloid plaques (per CERAD criteria).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "Full Range",
+                    "unitOfMeasure": "percentage of true positives/negatives",
+                    "timeFrame": "at autopsy within 24 months of florbetapir PET scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "All Autopsy Population",
+                            "description": "Group of subjects with valid images who came to autopsy within 2 years of scan"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "59"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Sensitivity",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "92",
+                                            "lowerLimit": "69",
+                                            "upperLimit": "95"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Specificity",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "95",
+                                            "lowerLimit": "90",
+                                            "upperLimit": "100"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Individual Reader Results (All Scans With Autopsy)",
+                    "description": "Reader results (number of false negatives and number of false positives) for blinded independent readers. There were a total of 39 positive and 20 negative scans based on histopathology at autopsy.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "florbetapir PET scans",
+                    "timeFrame": "at autopsy within 24 months of florbetapir PET scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "All Autopsy Population",
+                            "description": "Group of subjects with valid images who came to autopsy within 2 years of scan"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "59"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1 - False Negatives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 1 - False Positives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 - False Negatives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 - False Positives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3 - False Negatives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3 - False Positives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4 - False Negatives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4 - False Positives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5 - False Negatives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5 - False Positives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Individual Reader Results (Autopsy Within 1 Year of Scan)",
+                    "description": "Reader results (number of false negatives and number of false positives) for blinded independent readers. There were a total of 28 positive and 18 negative scans based on histopathology at autopsy.",
+                    "populationDescription": "Includes only those subjects with time from scan to autopsy less than one year.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "florbetapir PET scans",
+                    "timeFrame": "at autopsy within 12 months of florbetapir PET scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Autopsy Within 1 Year of Scan",
+                            "description": "Group of subjects with valid images who came to autopsy within 1 year of scan"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "46"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1 - False Negatives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 1 - False Positives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 - False Negatives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 - False Positives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3 - False Negatives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3 - False Positives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4 - False Negatives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4 - False Positives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5 - False Negatives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5 - False Positives",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "No adverse events were collected in this study, as this study only followed study A07(NCT01447719) subjects to autopsy. Adverse events are reported with study A07 (NCT00857415).",
+            "description": "No adverse events were collected in this study, as this study only followed study A07(NCT01447719) subjects to autopsy. Adverse events are reported with study A07 (NCT00857415).",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Autopsy Cohort",
+                    "description": "End-of-life subjects consenting to brain donation at autopsy. Subjects received a single intravenous injection of 370 MBq florbetapir followed by a 10-minute PET scan 50 minutes post-injection.",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 0,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 0
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "GT60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Chief Medical Officer",
+                "organization": "Avid Radiopharmaceuticals",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "Florbetapir F 18 (18F\u2011AV\u201145; brand name Amyvid) \u2014 a radioactive PET imaging tracer that binds \u03b2\u2011amyloid plaques"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention described (florbetapir F 18 / 18F\u2011AV\u201145, aka Amyvid) is a radioactive PET tracer used to image \u03b2\u2011amyloid plaque density in the brain \u2014 a diagnostic imaging agent, not a therapeutic intended to modify disease, improve cognition, or treat neuropsychiatric symptoms. \ue200cite\ue202turn0search4\ue202turn0search1\ue201",
+        "Act (extracted details): Trial IDs and purpose \u2014 the autopsy follow\u2011up expands the A07 (NCT00857415 / 18F\u2011AV\u201145\u2011A07) cohort to compare florbetapir PET reads with neuropathology at autopsy; the intervention is a single IV dose of florbetapir F 18 prior to PET imaging. This confirms the study is diagnostic/validation in purpose. \ue200cite\ue202turn1search5\ue202turn1search3\ue201",
+        "Reflect: Classification \u2014 because the study tests a diagnostic PET tracer (binding amyloid) and seeks to validate imaging against histopathology, it does not fit the four therapeutic categories (disease\u2011targeted biologic, disease\u2011targeted small molecule, cognitive enhancer, or neuropsychiatric symptom improvement). Therefore the correct category is 'N/A'. Key supporting references: FDA/Lilly Amyvid information (diagnostic indication and mechanism) and the clinicaltrials registry entries for NCT00857415 and the autopsy follow\u2011up. \ue200cite\ue202turn0search0\ue202turn0search4\ue202turn1search5\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

@@ -1,0 +1,442 @@
+{
+    "nct_id": "NCT00855868",
+    "title": "Evaluation of the Ability of a Novel [18F] Amyloid Ligand ([18F]-AV-45) to Distinguish Patients With a Clinical Diagnosis of Alzheimer's Disease From Cognitively Normal Elderly Individuals",
+    "status": "COMPLETED",
+    "last_update_time": "2012-06-19",
+    "description_brief": "This study will evaluate the performance characteristics of a novel \\[18F\\] amyloid detection ligand (18F\\]-AV-45) with respect to its ability to distinguish patients with clinically-diagnosed probable Alzheimer's disease from cognitively normal elderly subjects and to independently compare its diagnostic performance characteristics with the ability of \\[11C\\]PIB to correctly categorize the same subjects.\n\nSPECIFIC HYPOTHESES\n\n1. Individuals with a clinical diagnosis of probable Alzheimer's disease will have increased brain retention of \\[18F\\]-AV-45 compared to cognitively normal elderly individuals.\n2. There will be no clinically meaningful difference in the amyloid retention performance characteristics of \\[18F\\]-AV-45 and \\[l1C\\]PIB.",
+    "description_detailed": "15 patients with a clinical diagnosis of probable Alzheimer's disease and 15 cognitively normal elderly control subjects will receive both \\[18F\\]-AV-45 and \\[11C\\]PIB to compare the diagnostic performance characteristics of each amyloid ligand to distinguish AD from normal subjects. In addition to clinical diagnostic category, ligand retention will be evaluated with respect to measures of symptom severity and cerebrospinal fluid levels of amyloid and tau.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Alzheimer's Disease",
+                    "description": "Mini-mental state examination (MMSE) 18-26, clinical dementia rating (CDR) \\>=0.5, University of Pennsylvania Alzheimer's Disease Center consensus diagnosis of probable AD, absence of abnormalities on MRI and age 55-90"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Healthy Controls",
+                    "description": "Cognitively normal with MMSE of 27 or higher, CDR=0, no symptoms of depression and age 55-90 years."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "13"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "15"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "12"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "14"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Alzheimer's Disease",
+                    "description": "Mini-mental state examination (MMSE) 18-26, clinical dementia rating (CDR) \\>=0.5, University of Pennsylvania Alzheimer's Disease Center consensus diagnosis of probable AD, absence of abnormalities on MRI and age 55-90"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Healthy Controls",
+                    "description": "Cognitively normal with MMSE of 27 or higher, CDR=0, no symptoms of depression and age 55-90 years."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "13"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "15"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "28"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "69.8",
+                                            "spread": "9.88"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "71.5",
+                                            "spread": "9.23"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "70.7",
+                                            "spread": "9.39"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "19"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "28"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Differences in Standard Uptake Value Ratio (SUVR) for Frontal Cortex/Cerebellum and Whole Brain/Cerebellum of the Positron Emission Tomography (PET) Scan With [18F]-AV-45 for Probable Alzheimer's Disease (AD) Versus Cognitively Normal Subjects.",
+                    "description": "Standardized Uptake Value ratio (SUVR) as measured in this study indicates the ratio of tracer uptake in the frontal cortex relative to the cerebellum or the ratio of tracer uptake in the whole brain relative to the cerebellum.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "SUVR",
+                    "timeFrame": "28 d",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Alzheimer's Disease",
+                            "description": "Mini-mental state examination (MMSE) 18-26, clinical dementia rating (CDR) \\>=0.5, University of Pennsylvania Alzheimer's Disease Center consensus diagnosis of probable AD, absence of abnormalities on MRI and age 55-90"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Healthy Controls",
+                            "description": "Cognitively normal with MMSE of 27 or higher, CDR=0, no symptoms of depression and age 55-90 years."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "14"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Frontal cortex to cerebellum SUVR",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.33",
+                                            "spread": ".20"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.00",
+                                            "spread": ".18"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Whole brain to cerebellum SUVR",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.38",
+                                            "spread": ".15"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.06",
+                                            "spread": ".17"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Alzheimer's Disease",
+                    "description": "Mini-mental state examination (MMSE) 18-26, clinical dementia rating (CDR) \\>=0.5, University of Pennsylvania Alzheimer's Disease Center consensus diagnosis of probable AD, absence of abnormalities on MRI and age 55-90",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 13,
+                    "otherNumAffected": 4,
+                    "otherNumAtRisk": 13
+                },
+                {
+                    "id": "EG001",
+                    "title": "Healthy Controls",
+                    "description": "Cognitively normal with MMSE of 27 or higher, CDR=0, no symptoms of depression and age 55-90 years.",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 15,
+                    "otherNumAffected": 1,
+                    "otherNumAtRisk": 15
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Visual Disturbance",
+                    "organSystem": "Eye disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Injection Site Pain",
+                    "organSystem": "General disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypertension",
+                    "organSystem": "Vascular disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Chief Medical Officer",
+                "organization": "Avid Radiopharmaceuticals",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "[18F]-AV-45 (florbetapir, marketed as Amyvid)",
+        "[11C]PIB (Pittsburgh Compound B)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The description tests a novel 18F amyloid detection ligand ([18F]-AV-45) versus [11C]PIB to distinguish clinically-diagnosed probable Alzheimer's disease from cognitively normal elderly \u2014 this is an imaging/diagnostic study evaluating tracer performance (amyloid PET), not a therapeutic intervention aimed at modifying disease or symptoms.",
+        "Act: Extracted agents and roles \u2014 [18F]-AV-45 is an 18F-labeled amyloid PET tracer (also called florbetapir, trade name Amyvid) used as a diagnostic radiopharmaceutical for imaging beta-amyloid; [11C]PIB is the carbon-11\u2013labeled Pittsburgh Compound B, a well-known amyloid PET tracer used to image fibrillar A\u03b2. \ue200cite\ue202turn0search13\ue202turn0search12\ue201",
+        "Reflect: By the category definitions \u2014 Disease-targeted biologic: biologic therapeutics (e.g., antibodies/vaccines) targeting pathology; Disease-targeted small molecule: therapeutics targeting pathology; Cognitive enhancer: drugs improving cognition without targeting pathology; Neuropsychiatric symptom improvement: interventions for behavioral/psychiatric symptoms \u2014 this trial is none of those because it evaluates diagnostic imaging agents (radioligands) rather than administering a therapeutic to change disease course, cognition, or behavior. Studies using PET tracers to discriminate AD from controls are diagnostic performance studies. \ue200cite\ue202turn0search1\ue202turn0search3\ue201",
+        "Web search results (sources used): identification of [18F]-AV-45 as florbetapir/Amyvid and its diagnostic PET use. \ue200cite\ue202turn0search13\ue201",
+        "Web search results (sources used): description of [11C]PIB (Pittsburgh Compound B) as an amyloid PET tracer used to image A\u03b2 plaques in vivo. \ue200cite\ue202turn0search12\ue202turn0search1\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

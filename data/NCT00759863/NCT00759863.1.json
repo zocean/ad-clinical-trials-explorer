@@ -1,0 +1,454 @@
+{
+    "nct_id": "NCT00759863",
+    "title": "LifeZig System for Individuals With Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2010-02-22",
+    "description_brief": "The LifeZig Project is a research study of a new reminiscence activity for individuals with Alzheimer's Disease (AD) and other types of dementia, based on the LifeZig system, with personalized video channels containing old photographs and music on television.\n\nThe goal of the LifeZig study is to enhance the quality of life for dementia patients and their families/caregivers, decrease the burden of care, and contribute to positive interaction between dementia patients and families/caregivers.",
+    "description_detailed": "This program creates personalized TV channels with old photographs of AD patients, music, narration and relaxing sounds; as an activity to relax dementia patients.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "SUPPORTIVE_CARE",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Lifezig",
+                    "description": "Subjects watch personalized reminiscence video channels developed by program staff with the help of family members/caregivers (using the LifeZig system)"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Usual Care",
+                    "description": "Subjects follow routine activities applied by nurses or caregivers, such as traditional reminiscence, crafts, singing, recreational activities, and other activities."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "144"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "98"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "124"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "80"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "20"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "18"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Death, moved, or lost contact",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "20"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "18"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Lifezig",
+                    "description": "Subjects watch personalized reminiscence video channels developed by program staff with the help of family members/caregivers (using the LifeZig system)"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Usual Care",
+                    "description": "Subjects follow routine activities applied by nurses or caregivers, such as traditional reminiscence, crafts, singing, recreational activities, and other activities."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "144"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "98"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "242"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "84.02",
+                                            "spread": "7.31"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "84.48",
+                                            "spread": "7.03"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "84.21",
+                                            "spread": "7.16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "116"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "80"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "196"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "28"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "46"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "144"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "98"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "242"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Multidimensional Observation Scale for Elderly Subject",
+                    "description": "This scale reflects the overall well-being of dementia patients. The construct being assessed is the quality of life of dementia patients, related to patient functioning, disoriented behavior, depression/anxiety, irritable behavior, and withdrawn behavior, consisting of 32 items, divided in four sub-scales: \"Personal Care\", \"Communication, Awareness \\& Memory\", \"Mood\", and \"Interpersonal Awareness Behaviors\". The overall score provides an indication of the overall perceived well-being of the dementia patient. Best value = 32. Worst Value = 144.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Units on a scale",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Lifezig",
+                            "description": "Subjects watch personalized reminiscence video channels developed by program staff with the help of family members/caregivers (using the LifeZig system)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Usual Care",
+                            "description": "Subjects follow routine activities applied by nurses or caregivers, such as traditional reminiscence, crafts, singing, recreational activities, and other activities."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "124"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "80"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "69.75",
+                                            "spread": "19.05"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "77.99",
+                                            "spread": "15.17"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Revised Memory and Behavior Problems Checklist",
+                    "description": "This scale measures the type/number of dementia patients disturbing behaviors, and how much they bother caregivers with 24 items describing possible troublesome behaviors that the patient might evidence in the past month. Caregivers are first asked whether the dementia patient had displayed any of these in the time period, and secondly to rate on a 5-point scale (0=not at all; 4= extremely) how much this \"bothered or upset\" them. A \"conditional bother\" score is calculated which is the \"upset\" or \"bother\" ratings for only the problematic behavior that occurred. Best value = 0. Worst Value = 96.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Units on a scale",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Lifezig",
+                            "description": "Subjects watch personalized reminiscence video channels developed by program staff with the help of family members/caregivers (using the LifeZig system)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Usual Care",
+                            "description": "Subjects follow routine activities applied by nurses or caregivers, such as traditional reminiscence, crafts, singing, recreational activities, and other activities."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "124"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "80"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "11.39",
+                                            "spread": "10.82"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "15.55",
+                                            "spread": "11.66"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Center for Epidemiologic Studies Depression Scale",
+                    "description": "The Center for Epidemiological Studies Depression scale (CES-D) is a 20-item measure that asks about the frequency of depressive symptoms (affective, psychological, and somatic) within the past week. The construct being assessed is the caregiver depression. Best value = 0. Worst Value = 60.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Units on a scale",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Lifezig",
+                            "description": "Subjects watch personalized reminiscence video channels developed by program staff with the help of family members/caregivers (using the LifeZig system)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Usual Care",
+                            "description": "Subjects follow routine activities applied by nurses or caregivers, such as traditional reminiscence, crafts, singing, recreational activities, and other activities."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "124"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "80"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "11.00",
+                                            "spread": "8.35"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "10.43",
+                                            "spread": "8.74"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Lifezig",
+                    "description": "Subjects watch personalized reminiscence video channels developed by program staff with the help of family members/caregivers (using the LifeZig system)",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 144,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 144
+                },
+                {
+                    "id": "EG001",
+                    "title": "Usual Care",
+                    "description": "Subjects follow routine activities applied by nurses or caregivers, such as traditional reminiscence, crafts, singing, recreational activities, and other activities.",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 98,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 98
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "Bruno Kajiyama",
+                "organization": "Photozig, Inc.",
+                "email": "lifezig@photozig.com",
+                "phone": "650-694-7496",
+                "phoneExt": "3"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The described intervention is a non\u2011pharmacologic reminiscence activity (personalized video channels with old photographs, music, narration shown on television) intended to improve quality of life, reduce caregiver burden, and promote positive interactions for people with Alzheimer\u2019s/dementia \u2014 not a drug or biologic therapy.",
+        "Act: I searched for the LifeZig project and confirmed it is a behavioral/remembrance therapy (LifeZig website and trial listings). The ClinicalTrials entry (NCT00759863) and project descriptions identify the intervention as a behavioral LifeZig program (personalized slideshows/videos) rather than any medication. The NIH/Grant abstract describes the TOM\u2011VC (Therapeutic Old Memories\u2011Video Channels) intervention and notes NIA funding; participant information and press materials likewise describe a 6\u2011month personalized video reminiscence program. \ue200cite\ue202turn0search0\ue202turn0search1\ue202turn0search7\ue202turn0search2\ue202turn0search6\ue201",
+        "Reflect: Classification: 'N/A' \u2014 the trial tests a psychosocial/behavioral reminiscence intervention (not a disease\u2011targeted biologic, disease\u2011targeted small molecule, cognitive\u2011enhancing drug, or a pharmacologic treatment for neuropsychiatric symptoms). While the intervention aims to improve mood/behavior and quality of life, it is non\u2011pharmacologic; therefore it does not fit the four drug/biologic categories and is best labeled 'N/A'."
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

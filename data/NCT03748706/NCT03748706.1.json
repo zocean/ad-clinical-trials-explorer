@@ -1,0 +1,926 @@
+{
+    "nct_id": "NCT03748706",
+    "title": "A Phase 2a, Open-label, Multiple Dose, Safety, Pharmacokinetic and Biomarker Study of PTl-125 in Mild-to-moderate Alzheimer's Disease Patients",
+    "status": "COMPLETED",
+    "last_update_time": "2021-06-12",
+    "description_brief": "This is a Phase 2a, multi-center, open-label study of PTI-125 in mild-to-moderate Alzheimer's disease patients.",
+    "description_detailed": "This is a Phase 2a, multi-center, open-label study of PTI-125 in mild-to-moderate AD patients, 50-85 years of age. A total of twelve (12) patients will be enrolled into the study. Patients will receive 100 mg b.i.d. of PTI-125. The objectives of this study are to investigate the safety, pharmacokinetics and effect on biomarkers of PTI-125 following 28-day repeat-dose oral administration.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "PTI-125",
+                    "description": "PTI-125 100 mg oral tablets administered twice daily (BID)\n\nPTI-125, 100 mg tablets: PTI-125, 100 mg tablets taken twice a day for 28 days"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "13"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "12"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "PTI-125",
+                    "description": "PTI-125 100 mg oral tablets administered twice daily (BID)\n\nPTI-125, 100 mg tablets: PTI-125, 100 mg tablets taken twice a day for 28 days"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "13"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "FULL_RANGE",
+                    "unitOfMeasure": "Years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "67.8",
+                                            "lowerLimit": "56",
+                                            "upperLimit": "81"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Maximum Plasma Concentration (Cmax)",
+                    "description": "Blood draws will be done to evaluate levels of PTI-125 in the plasma using non-compartmental methods in WinNonlin.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ng/mL",
+                    "timeFrame": "Study Day 1 and Day 28 at 20, 40, and 60 min and at 1.5, 2, 2.5, 3, 4, 6, 8, 10 and 12 h post-dose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PTI-125",
+                            "description": "PTI-125 100 mg oral tablets administered twice daily (BID)\n\nPTI-125, 100 mg tablets: PTI-125, 100 mg tablets taken twice a day for 28 days"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Day 1 Cmax",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1020",
+                                            "spread": "442"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 28 Cmax",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1100",
+                                            "spread": "417"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Time to Maximum Plasma Concentration (Tmax)",
+                    "description": "Levels of PTI-125 will be assessed to determine how long it takes to reach the Cmax",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "Full Range",
+                    "unitOfMeasure": "hours",
+                    "timeFrame": "Study Day 1 and Day 28 at 20, 40, and 60 min and at 1.5, 2, 2.5, 3, 4, 6, 8, 10 and 12 h post-dose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PTI-125",
+                            "description": "PTI-125 100 mg oral tablets administered twice daily (BID)\n\nPTI-125, 100 mg tablets: PTI-125, 100 mg tablets taken twice a day for 28 days"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Day 1 Tmax",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.00",
+                                            "lowerLimit": "1.00",
+                                            "upperLimit": "3.00"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 28 Tmax",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.06",
+                                            "lowerLimit": "1.00",
+                                            "upperLimit": "5.93"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Last Quantifiable Plasma Concentration (Clast)",
+                    "description": "Levels of PTI-125 will be assessed to determine the last time point where PTI-125 can be detected.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ng/mL",
+                    "timeFrame": "Study Day 1 and Day 28 at 20, 40, and 60 min and at 1.5, 2, 2.5, 3, 4, 6, 8, 10 and 12 h post-dose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PTI-125",
+                            "description": "PTI-125 100 mg oral tablets administered twice daily (BID)\n\nPTI-125, 100 mg tablets: PTI-125, 100 mg tablets taken twice a day for 28 days"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Day 1 Clast",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "176",
+                                            "spread": "112"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 28 Clast",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "238",
+                                            "spread": "168"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Time to Last Quantifiable Plasma Concentration (Tlast)",
+                    "description": "Levels of PTI-125 will be assessed to determine the elapsed time to where PTI-125 can last be detected in the plasma.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "hours",
+                    "timeFrame": "Study Day 1 and Day 28 at 20, 40, and 60 min and at 1.5, 2, 2.5, 3, 4, 6, 8, 10 and 12 h post-dose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PTI-125",
+                            "description": "PTI-125 100 mg oral tablets administered twice daily (BID)\n\nPTI-125, 100 mg tablets: PTI-125, 100 mg tablets taken twice a day for 28 days"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Day 1 Tlast",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12.0",
+                                            "spread": "0.0150"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 28 Tlast",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12.0",
+                                            "spread": "0.0285"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Area Under the Curve (AUClast)",
+                    "description": "AUC for PTI-125 plasma concentration from time zero to the last quantifiable plasma concentration.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "h*ng/mL",
+                    "timeFrame": "Study Day 1 and Day 28 at 20, 40, and 60 min and at 1.5, 2, 2.5, 3, 4, 6, 8, 10 and 12 h post-dose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PTI-125",
+                            "description": "PTI-125 100 mg oral tablets administered twice daily (BID)\n\nPTI-125, 100 mg tablets: PTI-125, 100 mg tablets taken twice a day for 28 days"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Day 1 AUClast",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5320",
+                                            "spread": "2230"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 28 AUClast",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6700",
+                                            "spread": "3240"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Plasma Half-life (T1/2)",
+                    "description": "Assessment of the half-life in plasma of PTI-125",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "hours",
+                    "timeFrame": "Study Day 1 and Day 28 at 20, 40, and 60 min and at 1.5, 2, 2.5, 3, 4, 6, 8, 10 and 12 h post-dose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PTI-125",
+                            "description": "PTI-125 100 mg oral tablets administered twice daily (BID)\n\nPTI-125, 100 mg tablets: PTI-125, 100 mg tablets taken twice a day for 28 days"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Day 1 T1/2",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4.51",
+                                            "spread": "2.43"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 28 T1/2",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4.35",
+                                            "spread": "1.39"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "SavaDx (Biomarker)",
+                    "description": "Blood samples will be tested for the complementary diagnostic/biomarker for Alzheimer's disease.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "% change from baseline",
+                    "timeFrame": "Study Day 1 and Day 28",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PTI-125",
+                            "description": "PTI-125 100 mg oral tablets administered twice daily (BID)\n\nPTI-125, 100 mg tablets: PTI-125, 100 mg tablets taken twice a day for 28 days"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-39.8",
+                                            "spread": "0.19"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "CSF Biomarkers",
+                    "description": "A cerebrospinal fluid sample collection will be performed for A\u03b242, tau, YKL40 and other potential CSF biomarkers",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "% change from baseline",
+                    "timeFrame": "Change from Baseline to Day 28",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PTI-125",
+                            "description": "PTI-125 100 mg oral tablets administered twice daily (BID)\n\nPTI-125, 100 mg tablets: PTI-125, 100 mg tablets taken twice a day for 28 days"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Total tau",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-19.8",
+                                            "spread": "0.04"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Abeta42",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4.3",
+                                            "spread": "0.05"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "p-tau181",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-34.4",
+                                            "spread": "0.05"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Neurogranin",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-32",
+                                            "spread": "0.02"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Neurofilament light chain",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-22",
+                                            "spread": "0.02"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "YKL-40",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-9",
+                                            "spread": "0.01"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "IL-6",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-14",
+                                            "spread": "0.01"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "IL-1 beta",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-11",
+                                            "spread": "0.01"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "TNF alpha",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-5",
+                                            "spread": "0.01"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "Within the 28-day treatment period.",
+            "description": "Moderate; mild; severe Serious; not serious Unlikely; likely; possibly related to drug treatment",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "PTI-125",
+                    "description": "PTI-125 100 mg oral tablets administered twice daily (BID)\n\nPTI-125, 100 mg tablets: PTI-125, 100 mg tablets taken twice a day for 28 days",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 13,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 13,
+                    "otherNumAffected": 1,
+                    "otherNumAtRisk": 13
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Fall",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Moderate severity; rated as unlikely to be related to treatment.",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "B12 deficiency",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypercalcemia",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Renal colic",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Dehydration",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Flu",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "Top enrolling PIs are included as authors on Cassava publications, but no individual PI has the right to publish alone without Cassava authorization."
+            },
+            "pointOfContact": {
+                "title": "Lindsay Burns, SVP of Neuroscience",
+                "organization": "Cassava Sciences",
+                "email": "lburns@cassavasciences.com",
+                "phone": "512-501-2484"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "PTI-125 (oral small molecule; binds and restores altered filamin A conformation)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The description and title identify PTI-125 as an investigational therapeutic evaluated in mild-to-moderate Alzheimer\u2019s disease. Published and company sources describe PTI-125 as an oral small-molecule that binds an altered conformation of the scaffolding protein filamin A (FLNA) and restores its native shape, thereby blocking A\u03b242 toxic signaling, reducing tau hyperphosphorylation and neuroinflammation \u2014 i.e., it targets disease biology rather than only symptomatic cognition. \ue200cite\ue202turn0search0\ue202turn0search2\ue201",
+        "Act (extracted key details): This is a Phase 2a, multi-center, open-label, multiple-dose safety, PK and biomarker study of PTI-125 in mild-to-moderate AD patients (28-day dosing in the published Phase 2a). The drug is described repeatedly as a small molecule with a disease-modifying mechanism (filamin A target) in peer-reviewed and company publications. \ue200cite\ue202turn0search0\ue202turn0search1\ue201",
+        "Web search results (sources supporting the above): - Phase 2a publication showing biomarker reductions and describing PTI-125 as an oral small molecule that reverses altered filamin A conformation. \ue200cite\ue202turn0search0\ue201 - Mechanistic preclinical paper describing PTI-125 binding/reversing altered filamin A and downstream effects on \u03b17-nAChR and TLR4 signaling. \ue200cite\ue202turn0search2\ue201 - Cassava Sciences press release / clinical-trial summary reporting the Phase 2a study design and results (safety, PK, biomarker endpoints). \ue200cite\ue202turn0search1\ue201",
+        "Reflect: Given PTI-125 is a small molecule that directly targets a disease-related protein and reduces core AD biomarkers (tau, neurodegeneration and neuroinflammation markers) in patients, the correct category is 'disease-targeted small molecule'. There is no indication PTI-125 is a biologic, a purely symptomatic cognitive enhancer, or an agent aimed only at neuropsychiatric symptoms. \ue200cite\ue202turn0search0\ue202turn0search2\ue201"
+    ],
+    "agent_type": "I) Proteostasis/Proteinopathies",
+    "explanation_agent": [
+        "Reason: The investigational drug PTI-125 is described as an oral small molecule that preferentially binds an altered (misfolded/conformationally-changed) form of the scaffolding protein filamin A (FLNA) and restores its native conformation, thereby blocking A\u03b242 toxic signaling and reducing downstream tau hyperphosphorylation and neuroinflammation. This direct action on the conformation/state of a disease-associated protein aligns with proteostasis/proteinopathy mechanisms. \ue200cite\ue202turn0search1\ue202turn0search4\ue201",
+        "Act (extracted key details & assignment): PTI-125 \u2014 oral small molecule, binds altered filamin A and restores its shape; Phase 2a was an open-label, multiple-dose (28-day) safety, PK and biomarker study in mild-to-moderate AD showing reductions in P-tau, total tau, NfL and neuroinflammatory markers. Because the primary molecular target is a misfolded/altered endogenous protein (FLNA) and the drug restores protein conformation/function, the most specific CADRO classification is I) Proteostasis/Proteinopathies. \ue200cite\ue202turn0search0\ue202turn0search1\ue201",
+        "Reflect: This classification was chosen because CADRO asks to map the direct biological target/mechanism. Although PTI-125 produces downstream effects on A\u03b242 signaling, tau phosphorylation and inflammation, its proximal mechanism is restoration of a disease-altered protein's conformation (proteostasis). An alternative interpretation could consider the compound multi-target because of downstream impacts on amyloid signaling, tau and inflammation; however, CADRO guidance favors the most specific direct target category, so I) is the best fit. \ue200cite\ue202turn0search1\ue202turn0search2\ue201",
+        "Web search results (supporting sources cited above): - JPAD / Cassava announcement of Phase 2a publication reporting biomarker reductions and Phase 2a study details (open-label, 28 days). \ue200cite\ue202turn0search0\ue201 - PubMed / mechanistic paper describing PTI-125 binding/reversing altered filamin A and reducing \u03b17-nAChR/TLR4-mediated pathology in preclinical models. \ue200cite\ue202turn0search1\ue201 - Cassava Sciences press releases summarizing Phase 2a results and Phase 2b plans. \ue200cite\ue202turn0search2\ue202turn0search4\ue201"
+    ]
+}

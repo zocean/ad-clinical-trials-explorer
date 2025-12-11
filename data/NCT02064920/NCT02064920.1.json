@@ -1,0 +1,716 @@
+{
+    "nct_id": "NCT02064920",
+    "title": "A Clinical Trial to Assess Cognitive Function by Repeated Computerized Testing in Patients With Mild Alzheimer's Disease Treated With Donepezil",
+    "status": "COMPLETED",
+    "last_update_time": "2018-09-14",
+    "description_brief": "This study aims to determine whether the Cogstate testing battery can detect improvements in cognitive function in participants with mild AD. The primary hypothesis is that for one of the Cogstate battery tests, One Card Learning (OCL), the standard deviation associated with the change from baseline in OCL measurements after 12 weeks of donepezil and placebo treatments is =\\<0.1",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "Males and females with mild Alzheimer's Disease (AD) between the ages of 55 and 85 years (inclusive) were enrolled in this trial.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Placebo",
+                    "description": "Placebo for donepezil hydrochloride capsule administered orally once a day for 16 weeks."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Donepezil",
+                    "description": "During the first 4 weeks, participants received placebo for donepezil. Over the following 2 weeks, participants were treated with donepezil at 5 mg per day. Then, over the remaining 10 weeks were titrated to up to 10 mg per day donepezil based on tolerability."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "6"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "30"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Treated",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "6"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "comment": "Two participants discontinued from study prior to treatment",
+                                    "numSubjects": "28"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "5"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "21"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "9"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Adverse Event",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Physician Decision",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Technical Problems",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Placebo",
+                    "description": "Placebo for donepezil hydrochloride capsule administered orally once a day for 16 weeks."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Donepezil",
+                    "description": "During the first 4 weeks, participants received placebo for donepezil. Over the following 2 weeks, participants were treated with donepezil at 5 mg per day. Then, over the remaining 10 weeks were titrated to up to 10 mg per day donepezil based on tolerability."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "6"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "30"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "36"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "76.7",
+                                            "spread": "8.6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "72.7",
+                                            "spread": "8.7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "73.4",
+                                            "spread": "8.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "17"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "19"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "One-card Learning (OCL) Measurement Over 12 Weeks of Treatment",
+                    "description": "OCL is one of the Cogstate battery of tests, and is a continuous visual recognition task that assesses visual recognition, memory and attention using a pattern separation algorithm. OCL is a score defined as the arcsine transformation of the square root of the proportion of correct responses to 80 OCL questions. The score ranges from 0 to 1.5708 where a higher score means better performance.",
+                    "populationDescription": "All participants who received study medication and yielded at least one measurement for that endpoint.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Score on a scale",
+                    "timeFrame": "Weeks 4, 8, 12 and 16",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Placebo for donepezil hydrochloride capsule administered orally once a day for 16 weeks."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Donepezil",
+                            "description": "During the first 4 weeks, participants received placebo for donepezil. Over the following 2 weeks, participants were treated with donepezil at 5 mg per day. Then, over the remaining 10 weeks were titrated to up to 10 mg per day donepezil based on tolerability."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "5"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 4 (n = 5, 28)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.954",
+                                            "spread": "0.091"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.942",
+                                            "spread": "0.112"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8 (n = 5, 22)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.822",
+                                            "spread": "0.179"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.969",
+                                            "spread": "0.104"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 12 (n = 5, 21)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.849",
+                                            "spread": "0.132"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.984",
+                                            "spread": "0.118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 16 (n = 5, 21)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.961",
+                                            "spread": "0.123"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.993",
+                                            "spread": "0.112"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Change from Week 4 to Week 16 in Standard Deviation (SD) of OCL for Placebo + Donezepil treatment groups combined",
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "paramType": "Change in SD from Week 4 to Week 16",
+                            "paramValue": "0.005",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-0.031",
+                            "ciUpperLimit": "0.039",
+                            "estimateComment": "SD of average OCL repeated measurements after 12 weeks of treatment for Placebo + Donezepil treatment groups combined is hypothesized to be \u2264 0.1."
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Percentage of Correct Responses in the OCL Task Over 12 Weeks of Treatment",
+                    "description": "OCL is one of the Cogstate battery of tests, and is a continuous visual recognition task that assesses visual recognition, memory and attention using a pattern separation algorithm. The percentage of correct responses to 80 OCL questions is defined as the number of correct responses x 100 divided by the number of total responses; and ranges from 0 to 100, where 100 is best, and 0 is the worst outcome.",
+                    "populationDescription": "All participants who received study medication and yielded at least one measurement for that endpoint.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Percentage of Corrrect Responses",
+                    "timeFrame": "Weeks 4, 8, 12 and 16",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Placebo for donepezil hydrochloride capsule administered orally once a day for 16 weeks."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Donepezil",
+                            "description": "During the first 4 weeks, participants received placebo for donepezil. Over the following 2 weeks, participants were treated with donepezil at 5 mg per day. Then, over the remaining 10 weeks were titrated to up to 10 mg per day donepezil based on tolerability."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "5"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 4 (n = 5, 28)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "66.2",
+                                            "spread": "8.3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "64.9",
+                                            "spread": "10.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8 (n = 5, 22)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "53.7",
+                                            "spread": "17.1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "67.4",
+                                            "spread": "9.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 12 (n = 5, 21)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "56.1",
+                                            "spread": "12.7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "68.6",
+                                            "spread": "10.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 16 (n = 5, 21)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "66.7",
+                                            "spread": "11.6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "69.5",
+                                            "spread": "9.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "Up to Week 18 (approximately up to 129 days)",
+            "description": "All participants who received study medication.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Placebo",
+                    "description": "Placebo for donepezil hydrochloride capsule administered orally once a day for 16 weeks.",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 6,
+                    "otherNumAffected": 3,
+                    "otherNumAtRisk": 6
+                },
+                {
+                    "id": "EG001",
+                    "title": "Donepezil",
+                    "description": "During the first 4 weeks, participants received placebo for donepezil. Over the following 2 weeks, participants were treated with donepezil at 5 mg per day. Then, over the remaining 10 weeks were titrated to up to 10 mg per day donepezil based on tolerability.",
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 28,
+                    "otherNumAffected": 9,
+                    "otherNumAtRisk": 28
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Chest pain",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 19.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 6
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 28
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Diarrhoea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 19.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 6
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 28
+                        }
+                    ]
+                },
+                {
+                    "term": "Nasopharyngitis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 19.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 6
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 28
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood urea increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 19.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 6
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 28
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 19.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 6
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 28
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 19.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 6
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 28
+                        }
+                    ]
+                },
+                {
+                    "term": "Insomnia",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 19.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 6
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 2,
+                            "numAtRisk": 28
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "The Sponsor must have the opportunity to review all proposed abstracts, manuscripts or presentations regarding this trial 45 days prior to submission for publication/presentation. Any information identified by the Sponsor as confidential must be deleted prior to submission; this confidentiality does not include efficacy and safety results."
+            },
+            "pointOfContact": {
+                "title": "Senior Vice President, Global Clinical Development",
+                "organization": "Merck Sharp & Dohme Corp.",
+                "email": "ClinicalTrialsDisclosure@merck.com",
+                "phone": "1-800-672-6372"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "donepezil"
+    ],
+    "placebo": [
+        "placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests whether repeated computerized cognitive testing (Cogstate OCL) detects improvements in cognition after 12 weeks of donepezil versus placebo, so the intended effect is symptomatic cognitive improvement rather than modifying Alzheimer pathology. Donepezil is a centrally acting, reversible acetylcholinesterase inhibitor used as a symptomatic treatment to improve cognition in AD. \ue200cite\ue202turn0search1\ue202turn0search7\ue201",
+        "Act: Key extracted details \u2014 intervention: donepezil (oral cholinesterase inhibitor) vs placebo; outcome: change in Cogstate One Card Learning (OCL) score over 12 weeks to detect cognitive improvement. Donepezil is an approved symptomatic cognitive therapy for Alzheimer\u2019s (Aricept). \ue200cite\ue202turn1search0\ue202turn0search1\ue201",
+        "Reflect: Classification rationale \u2014 although donepezil is a small-molecule drug, its clinical role is to improve cognitive function symptomatically (not a biologic and not primarily intended as a disease-modifying anti-amyloid/tau agent). Under the provided category definitions this trial fits 'cognitive enhancer.' Sources noting donepezil's symptomatic cognitive effects and mechanism (AChE inhibition) are cited. \ue200cite\ue202turn0search4\ue202turn0search1\ue201",
+        "Web search results used (brief): 1) Donepezil pharmacodynamic/pharmacokinetic and clinical profile (PubMed review) \u2014 describes donepezil as a reversible acetylcholinesterase inhibitor developed for symptomatic treatment of AD. \ue200cite\ue202turn0search1\ue201 2) JAMA/clinical review noting donepezil approval and symptomatic therapy (pharmacology/clinical trial results). \ue200cite\ue202turn0search4\ue201 3) FDA Drugs@FDA (Aricept donepezil approval/drug approval package). \ue200cite\ue202turn1search0\ue201 4) Cambridge/Core review summarizing symptomatic benefits and clinical trial findings for donepezil. \ue200cite\ue202turn0search7\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The trial tests donepezil, a centrally acting, reversible acetylcholinesterase inhibitor intended to improve cognition symptomatically by increasing acetylcholine availability at synapses \u2014 i.e., modulating cholinergic neurotransmission rather than targeting amyloid, tau, inflammation, or other disease-modifying pathways. \ue200cite\ue202turn0search7\ue202turn0search0\ue201",
+        "Act: Extracted details \u2014 intervention: donepezil (oral acetylcholinesterase inhibitor) vs placebo; outcome: change in computerized cognitive testing (Cogstate OCL) over 12 weeks to detect symptomatic cognitive improvement. Based on its mechanism (enhancing cholinergic neurotransmission) the most specific CADRO match is D) Neurotransmitter Receptors. \ue200cite\ue202turn0search7\ue202turn0search2\ue201",
+        "Reflect: Confirmation \u2014 donepezil\u2019s primary action is modulation of the cholinergic neurotransmitter system (via AChE inhibition) and it is used as a symptomatic cognitive enhancer, so CADRO category D is appropriate. I considered M) Synaptic Plasticity/Neuroprotection, but the trial and drug aim for symptomatic neurotransmitter modulation rather than direct neuroprotective or disease-modifying effects, and there is no indication of multi-target or diagnostic-only intent, so R) Multi-target and T) Other do not apply. \ue200cite\ue202turn0search1\ue202turn0search5\ue201",
+        "Web search results (sources used): 1) Donepezil pharmacology and symptomatic use (review summarizing donepezil as a reversible AChE inhibitor and symptomatic treatment). \ue200cite\ue202turn0search7\ue201 2) Evidence-based review of donepezil in AD (symptomatic cognitive benefits). \ue200cite\ue202turn0search0\ue201 3) Review article on donepezil pharmacology and clinical profile. \ue200cite\ue202turn0search2\ue201 4) Company/FDA summary of donepezil (Aricept) dosing and clinical findings (approval history and formulations). \ue200cite\ue202turn0search4\ue201 5) Alzforum summary noting donepezil is symptomatic and not disease-modifying. \ue200cite\ue202turn0search5\ue201"
+    ]
+}

@@ -1,0 +1,790 @@
+{
+    "nct_id": "NCT06134180",
+    "title": "An AI-Embedded Intervention to Promote Financial Wellbeing Among Latino Family Caregivers",
+    "status": "COMPLETED",
+    "last_update_time": "2025-07-10",
+    "description_brief": "The intervention being tested, CONFIDENCE-AI is a refined version of the original CONFIDENCE intervention made to reduce psychological financial strain and improve management of out-of-pocket care costs while increasing caregiver resourcefulness skills. Participants will be asked to participate in a 4-week intervention that includes participation in four, synchronous group-based Zoom sessions as well as between-session activities to apply learning. Participants will also receive tailored text message notifications from the NeuViCare AI-powered app via text and will be able to submit questions to the app to receive financial well-being information related to caregiving.",
+    "description_detailed": "N/A",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "OTHER",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "CONFIDENCE AI",
+                    "description": "Participants will attend the 4-week CONFIDENCE-AI Program. This program will include attending 4 group-based sessions delivered by videoconference. Each session will last approximately 1.5 hours each and will cover topics such as how to budget, accessing community resources to displace the out-of-pocket costs of caregiving, asking for help, and more. Participation will be supplemented by access to a digital app to support engagement, such as through text messaging and resources navigation support.\n\nCONFIDENCE-AI: Multicomponent psychoeducational intervention focused on financial wellbeing"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "14"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Completed Baseline",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "14"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Completed First Follow up Survey",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "11"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Completed Second Follow up Survey",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "10"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "14 caregivers enrolled and completed the baseline survey. 11 complted the first follow up survey. 10 completed the second follow up survey.",
+                                    "numSubjects": "10"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "CONFIDENCE AI",
+                    "description": "Participants will attend the 4-week CONFIDENCE-AI Program. This program will include attending 4 group-based sessions delivered by videoconference. Each session will last approximately 1.5 hours each and will cover topics such as how to budget, accessing community resources to displace the out-of-pocket costs of caregiving, asking for help, and more. Participation will be supplemented by access to a digital app to support engagement, such as through text messaging and resources navigation support.\n\nCONFIDENCE-AI: Multicomponent psychoeducational intervention focused on financial wellbeing"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "14"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "54.3",
+                                            "spread": "7.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Financial Strain",
+                    "populationDescription": "One participant skipped a survey item at baseline required to calculate financial strain score.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "28.4",
+                                            "spread": "5.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Resourcefulness",
+                    "populationDescription": "One caregiver skipped a survey item required to calculate a score on this measure at baseline.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "75.3",
+                                            "spread": "34.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Self-Efficacy",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "32.0",
+                                            "spread": "16.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Financial Strain",
+                    "description": "Financial strain will be measured using the 11-item Comprehensive Score for Financial Toxicity (COST) Scale. A modified version of COST demonstrates validity and reliability when tested among cancer caregivers (\u03b1=0.91; range: 0 to 44). COST items are generic enough to be applicable to caregivers to persons PLWD without further modification (e.g., \"I feel financially stressed\"). Caregivers are asked to indicate if each statement applies to them \"Not at all\" (0) to \"Very much\" (4). Higher scores indicate higher levels of financial strain.",
+                    "populationDescription": "From baseline to the post-intervention data collection point, three participants were lost to follow up and one participant was missing a survey item response required to calculate this score. Thus, data is available for 10 of 14 participants.\n\nFrom baseline to the 2-month post-intervention data collection point, one more case was lost to follow up and another was missing a survey item response required to calculate this score. Thus, data is available for 9 of 14 participants.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "The outcome measure will use the average change score from baseline scores until post-intervention (1 month post-baseline) and 2 months post-intervention (3-months after the baseline).",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "CONFIDENCE AI",
+                            "description": "Participants will attend the 4-week CONFIDENCE-AI Program. This program will include attending 4 group-based sessions delivered by videoconference. Each session will last approximately 1.5 hours each and will cover topics such as how to budget, accessing community resources to displace the out-of-pocket costs of caregiving, asking for help, and more. Participation will be supplemented by access to a digital app to support engagement, such as through text messaging and resources navigation support.\n\nCONFIDENCE-AI: Multicomponent psychoeducational intervention focused on financial wellbeing"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change score from baseline scores until post-intervention",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-3.4",
+                                            "spread": "4.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change score from baseline scores until 2-months post-intervention",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "9"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-4.7",
+                                            "spread": "6.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Resourcefulness",
+                    "description": "Resourcefulness is measured using the 28-item Caregiver Resourcefulness Scale (alpha=0.85). This scale has two factors: one focused on help-seeking and another on self-help. Caregivers are asked the frequency at which they use different strategies to manage challenges, and may respond: Not at all like me (0), Pretty much not like me (1), A little bit not like me (2), A little bit like me (3), Pretty much like much like me (4), or Very much like me (5). Items are added together to create a total score. Scores range from 0 to 140, where higher scores indicate higher levels of resourcefulness. The outcome measure will use the average change score from baseline scores",
+                    "populationDescription": "From baseline to the post-intervention data collection point, three participants were lost to follow up and one participant was missing a survey item response required to calculate this score. Thus, data is available for 10 of 14 participants.\n\nFrom baseline to the 2-month post-intervention data collection point, one more case was lost to follow up and two more cases were missing a survey item response required to calculate this score. Thus, data is available for 8 of 14 participants.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "The outcome measure will use the average change score from baseline scores until post-intervention (1 month post-baseline) and 2 months post-intervention (3-months after the baseline).",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "CONFIDENCE AI",
+                            "description": "Participants will attend the 4-week CONFIDENCE-AI Program. This program will include attending 4 group-based sessions delivered by videoconference. Each session will last approximately 1.5 hours each and will cover topics such as how to budget, accessing community resources to displace the out-of-pocket costs of caregiving, asking for help, and more. Participation will be supplemented by access to a digital app to support engagement, such as through text messaging and resources navigation support.\n\nCONFIDENCE-AI: Multicomponent psychoeducational intervention focused on financial wellbeing"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "14"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change score from baseline scores until post-intervention",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "13.2",
+                                            "spread": "25.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change score from baseline scores until 2-months post-intervention",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "11.3",
+                                            "spread": "13.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Self-Efficacy",
+                    "description": "Self-efficacy is measured using the Caregiver Self-Efficacy Scale. This 8-item scale asks about multiple domains of self-efficacy (e.g., managing behavioral symptoms, accessing respite, and controlling upsetting thoughts). It demonstrates high reliability (alpha=0.89) and good test-retest reliability (0.73). Participants rate the extent to which they are \"Not confident at all\" (1) to \"Totally confident\" (10). Scores range from 8 (lowest level of self-efficacy) to 80 (highest level of self-efficacy).",
+                    "populationDescription": "From baseline to the post-intervention data collection point, three participants were lost to follow up. Thus, data is available for 10 of 14 participants.\n\nFrom baseline to the 2-month post-intervention data collection point, one more case was lost to follow up and another was missing a survey item response required to calculate this score. Thus, data is available for 9 of 14 participants.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "The outcome measure will use the average change score from baseline scores until post-intervention (1 month post-baseline) and 2 months post-intervention (3-months after the baseline).",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "CONFIDENCE AI",
+                            "description": "Participants will attend the 4-week CONFIDENCE-AI Program. This program will include attending 4 group-based sessions delivered by videoconference. Each session will last approximately 1.5 hours each and will cover topics such as how to budget, accessing community resources to displace the out-of-pocket costs of caregiving, asking for help, and more. Participation will be supplemented by access to a digital app to support engagement, such as through text messaging and resources navigation support.\n\nCONFIDENCE-AI: Multicomponent psychoeducational intervention focused on financial wellbeing"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "14"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change score from baseline scores until post-intervention",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "11"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "16.3",
+                                            "spread": "15.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change score from baseline scores until 2-months post-intervention",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "9"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "13.2",
+                                            "spread": "10.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Through study completion, approximately 4 months",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "CONFIDENCE-AI",
+                    "description": "Participants will attend the 4-week CONFIDENCE-AI Program. This program will include attending 4 group-based sessions delivered by videoconference. Each session will last approximately 1.5 hours each and will cover topics such as how to budget, accessing community resources to displace the out-of-pocket costs of caregiving, asking for help, and more. Participation will be supplemented by access to a digital app to support engagement, such as through text messaging and resources navigation support.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 14,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 14,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 14
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Kylie Meyer",
+                "organization": "Case Western Reserve Unviersity",
+                "email": "knm77@case.edu",
+                "phone": "2163681928"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention is a behavioral/psychoeducational program (CONFIDENCE-AI) with an AI-powered app (NeuViCare) to reduce caregiver financial strain and improve caregiver resourcefulness \u2014 it does not involve a drug, biologic, or a direct intervention targeting Alzheimer pathology, cognition, or neuropsychiatric symptoms. \ue200cite\ue202turn0search1\ue202turn0search0\ue201",
+        "Act: Key extracted details \u2014 intervention name: CONFIDENCE-AI; format: 4 weekly synchronous group Zoom sessions (\u22481.5 hrs each) + between-session activities; adjunct: tailored text-message notifications and Q&A via the NeuViCare AI app; population: Latino/Hispanic family caregivers of persons with probable Alzheimer\u2019s/dementia; intervention type listed as Behavioral/Psychoeducational (no pharmacologic agent). \ue200cite\ue202turn0search1\ue202turn0search4\ue201",
+        "Reflect: Classification rationale \u2014 because the study tests a caregiver-focused behavioral/AI-embedded financial-wellbeing intervention rather than a biologic or small-molecule therapy against AD pathology, a cognitive-enhancing drug, or a treatment for neuropsychiatric symptoms, it does not fit any of the four therapeutic target categories and is therefore classified as 'N/A'. \ue200cite\ue202turn0search8\ue202turn0search5\ue201",
+        "Web search results / sources used: 1) Trial summary listing CONFIDENCE-AI (Medifind). \ue200cite\ue202turn0search0\ue201 2) Trial registry/summary (MedPath / NCT06134180 entry) with intervention details. \ue200cite\ue202turn0search1\ue201 3) Clinical-trials registry entry (ICH GCP) summarizing CONFIDENCE-AI. \ue200cite\ue202turn0search2\ue201 4) Preliminary results / feasibility of CONFIDENCE (Alzheimer\u2019s & Dementia abstract). \ue200cite\ue202turn0search3\ue201 5) PMC article reporting preliminary feasibility results of CONFIDENCE. \ue200cite\ue202turn0search5\ue201 6) PMC paper describing lessons and the CONFIDENCE intervention framework. \ue200cite\ue202turn0search8\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

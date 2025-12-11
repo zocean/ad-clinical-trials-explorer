@@ -1,0 +1,502 @@
+{
+    "nct_id": "NCT05827094",
+    "title": "Pilot Evaluation of a Mobile Intervention to Support Mediterranean Diet (MedD) for Persons With Mild Alzheimer Disease and Alzheimer Disease Related Dementia's (AD/ADRD) and Frailty",
+    "status": "COMPLETED",
+    "last_update_time": "2025-02-24",
+    "description_brief": "In this project, we propose to build on our Stage I formative work (according to the NIH Stage Model for Behavioral Intervention Development), where we developed fully functional prototypes of a mobile intervention aimed at improving adherence to Mediterranean Diet (MedD) for older adults with frailty and early dementia to complete the Stage II exploratory work, where the intervention will undergo further feasibility, acceptability, and preliminary efficacy tests. The intervention includes a patient-facing app that allows users to track their diet and receive personalized feedback concerning opportunities for improvement and recipes for breakfast, lunch, dinner, and snacks, informational materials about MedD, and a chat feature. On the other end, a web-based provider interface allows clinicians to review patient progress, suggest meal plans, and send and receive messages. The pilot randomized controlled trial, conducted over three months, will compare usual care to usual care plus mobile intervention to gather preliminary efficacy data concerning a change in adherence to MedD score (primary outcome). Mechanistic and secondary outcomes will include MedD knowledge, constructs from Social Cognitive Theory (self-efficacy, outcome expectation, self-regulation, and social support), platform use, anthropometric, and functional measures. Feasibility will be evaluated in terms of recruitment and retention outcomes. Acceptability will be determined through post-intervention semi-structured interviews and structured survey measures.",
+    "description_detailed": "N/A",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "SUPPORTIVE_CARE",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Mobile",
+                    "description": "Were asked to use Mindful Meals mobile app at least once a week"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Control",
+                    "description": "Received educational materials on healthy eating"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "10"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "9"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "9"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "9"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Mobile Intervention",
+                    "description": "Participants randomized to the intervention arm will receive verbal and written instructions as well as one-on-one demonstration of the app features. Participants will have an option of either receiving the study mobile device or will be able to use their own device with an installed app. Following the training, participants will be asked to use the app at least once a week.\n\nMobile app: The main mobile intervention features. Tracking and immediate feedback: Pressing the icon launches a short series of questions with multiple-choice response options focusing on recent meals . The survey items are modeled after the 14-item Mediterranean Adherence Screener using simplified language and intuitive visuals to lower cognitive load. Based on responses to the survey, the app provides an intuitive visualization of the survey results, personalized feedback, and recipes on how to improve the person's diet. On-demand resources: individuals are able to access on-demand resources about the MedD diet, its benefits, and best dietary practices. The recipe page includes a personalized list of simple breakfast, lunch, dinner, and snack recipes based on the survey results with step by step instructions on how to prepare Mediterranean foods. In-app messaging: Individuals are able to receive notifications and send and receive messages."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Usual Care",
+                    "description": "Participants randomly allocated to the control group will receive educational materials on healthy eating, as provided on the NIA web page (https://www.nia.nih.gov/health/healthy-eating).\n\nUsual Care: Participants randomly allocated to the control group will receive educational materials on healthy eating, as provided on the NIA web page (https://www.nia.nih.gov/health/healthy-eating)."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "10"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "9"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "19"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "75",
+                                            "spread": "9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "74",
+                                            "spread": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "74",
+                                            "spread": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "18"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "19"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Adherence to Mediterranean Diet (aMed) Score. The Change Was Calculated From Two Time Points as the Value at the Later Time Point Minus the Value at the Earlier Time Point",
+                    "description": "Mediterranean Diet adherence was measured using an Food Frequency Questionnaire (FFQ) adherence to Mediterranean Diet (aMED) score. The self-administered FFQ asks participants to report the frequency of consumption and portion size of approximately 125-line items over the last 3 months. A series of foods or beverages define each line item. The aMED score was designed to assess adherence to a Mediterranean dietary pattern. aMED scores range from 0 (nonadherence) to 9 (perfect adherence)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline; 12 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Mobile Intervnetion",
+                            "description": "Participants randomized to the intervention arm will receive verbal and written instructions as well as one-on-one demonstration of the app features. Participants will have an option of either receiving the study mobile device or will be able to use their own device with an installed app. Following the training, participants will be asked to use the app at least once a week.\n\nMobile app: The main mobile intervention features. Tracking and immediate feedback: Pressing the icon launches a short series of questions with multiple-choice response options focusing on recent meals . The survey items are modeled after the 14-item Mediterranean Adherence Screener using simplified language and intuitive visuals to lower cognitive load. Based on responses to the survey, the app provides an intuitive visualization of the survey results, personalized feedback, and recipes on how to improve the person's diet. On-demand resources: individuals are able to access on-demand resources about the MedD diet, its benefits, and best dietary practices. The recipe page includes a personalized list of simple breakfast, lunch, dinner, and snack recipes based on the survey results with step by step instructions on how to prepare Mediterranean foods. In-app messaging: Individuals are able to receive notifications and send and receive messages."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Usual Care",
+                            "description": "Participants randomly allocated to the control group will receive educational materials on healthy eating, as provided on the NIA web page (https://www.nia.nih.gov/health/healthy-eating).\n\nUsual Care: Participants randomly allocated to the control group will receive educational materials on healthy eating, as provided on the NIA web page (https://www.nia.nih.gov/health/healthy-eating)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "9"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0",
+                                            "spread": "2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.2",
+                                            "spread": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Short Physical Performance Battery",
+                    "description": "The Short Physical Performance Battery (SPPB) is designed to measure functional status and physical performance. The scale is a composite measure assessing walking speed, standing balance, and sit-to-stand performance. The three tests are summed to give a total score, with a maximum of 12 and a minimum of 0, with a higher score indicating higher function.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "Baseline; 12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Mediterranean Diet Nutrition Knowledge (MDNK) Questionnaire",
+                    "description": "Items include questions focused on knowledge about foods and nutrients that are important in the MedD.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "Baseline; 12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Waist Circumference (WC)",
+                    "description": "WC at the natural waist or narrowest part of the torso will also be measured to the nearest 0.1 cm",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "Baseline; 12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Body Mass Index",
+                    "description": "Weight to the nearest 0.1 kg and height to the nearest 0.1 cm will be measured and used to compute BMI.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "Baseline; 12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Social Cognitive Theory",
+                    "description": "Social-cognitive theory (SCT) mechanistic variables will be measured using the Food Beliefs Survey and modified to focus on MedD",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "Baseline; 12 weeks",
+                    "denomUnitsSelected": "Participants"
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "3 months",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Mobile",
+                    "description": "Were asked to use Mindful Meals mobile app at least once a week",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 10,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 10,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 10
+                },
+                {
+                    "id": "EG001",
+                    "title": "Control",
+                    "description": "Received educational materials on healthy eating",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 9,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 9,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 9
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Associate Professor",
+                "organization": "University of Washington School of Nursing",
+                "email": "ozasl@uw.edu",
+                "phone": "2068493301"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention is a behavioral mobile app to improve adherence to the Mediterranean Diet (MedD) for older adults with frailty and early/mild AD/ADRD; it is not a biologic or small-molecule drug, nor a pharmacologic cognitive enhancer, nor an intervention aimed primarily at treating neuropsychiatric symptoms. The stated intent is to change diet/adherence and test feasibility, acceptability, and preliminary efficacy on diet adherence and mechanistic behavioral constructs (self-efficacy, self-regulation, etc.).",
+        "Act: Key extracted details \u2014 intervention: patient-facing mobile app + web-based provider interface to track diet, provide personalized feedback, recipes, informational materials, and chat; population: persons with mild AD/ADRD and frailty; primary outcome: change in Mediterranean Diet (aMED) adherence score; design: 3-month pilot RCT comparing usual care vs. usual care + mobile intervention. No drug or biologic is mentioned in the description. Evidence of the trial listing and similar prior pilot (Olitor) found online. \ue200cite\ue202turn0search3\ue202turn0search2\ue201",
+        "Reflect: Classification check \u2014 per the category definitions: (1) Disease-targeted biologic = biologic agents (mAbs, vaccines) targeting AD pathology \u2014 not applicable; (2) Disease-targeted small molecule = small-molecule drugs targeting pathology \u2014 not applicable; (3) Cognitive enhancer = drug/intervention intended to pharmacologically improve cognition \u2014 not applicable; (4) Neuropsychiatric symptom improvement = interventions focused on behavioral/psychiatric symptom relief (agitation, depression, etc.) \u2014 not applicable. The trial is a behavioral/dietary intervention, so it does not fit any of the four specified categories; therefore 'N/A' is appropriate. \ue200cite\ue202turn0search3\ue201",
+        "Web search results (supporting sources found): - Trial listing matching the provided description (Pilot Mobile for Dementia and Frailty; NCT05827094) \u2014 clinical trial listing summarizing the mobile MedD intervention and outcomes. \ue200cite\ue202turn0search3\ue201 - Prior/related pilot RCT of a similar MedD mobile app for older adults with frailty (Olitor) published in JMIR Formative Research / PubMed Central, describing an app with feedback, recipes, and messaging and showing improvement in aMED adherence \u2014 supports that this is a behavioral/dietary mobile intervention rather than a drug trial. \ue200cite\ue202turn0search2\ue202turn0search0\ue201",
+        "Notes / Ambiguity: No drug name, biologic, or placebo is present in the protocol description. If you want this classified under a different taxonomy (for example, 'behavioral intervention' or 'lifestyle/dietary intervention'), I can re-label it accordingly."
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

@@ -1,0 +1,661 @@
+{
+    "nct_id": "NCT05227820",
+    "title": "Anti-Inflammatory, Insulin-Sensitizing Agent for Treatment of Cognitive Decline Due to Degenerative Dementias",
+    "status": "COMPLETED",
+    "last_update_time": "2024-07-03",
+    "description_brief": "This study seeks to measure changes in cognition through verbal and visual test procedures and changes in biomarkers of Alzheimer's disease and inflammatory and metabolic parameters that can be measure in the central nervous system (CNS) with advanced neuroimaging techniques in patients treated with NE3107 (17a-ethynyl-androst-5-3b,7b,17b-triol).",
+    "description_detailed": "Considering how many people are in a state of mild cognitive impairment (MCI) and frank dementia, there is a substantial cost to society in terms of financial burden and suffering. Degenerative conditions that result in cognitive change in middle and late life are frequently associated with abnormal deposits of protein material (e.g., amyloid, phospho-tau) which interfere with neuronal function and viability. Inflammation and insulin resistance in the CNS and abnormal protein deposition and resultant physiological impairment characterize conditions of the Alzheimer's dementia (AD) type.\n\nNeuroinflammation prompts AD progression, impaired cholesterol efflux and reduced insulin signaling (insulin resistance). Insulin resistance has been considered a risk factor as well as a feature of AD, and has also been associated with increased a\u00df-42 secretion, neuritic plaque burden, abnormal insulin receptor performance, decreased glucose metabolism, and consequently decreased cognitive performance.\n\nNo therapy exists that has been proven to halt or reverse the progressive deposition of abnormal proteins or the attendant neurophysiological deterioration. Various investigational therapies aim to target the pathophysiological processes of AD; from combating abnormal protein deposition, to targeting sources of systemic and neuroinflammation, to providing cholinergic, hormonal, and metabolic support. A promising area of research is the ongoing use of insulin synthesizers as a therapeutic option for AD.\n\nSeveral Phase 3 studies have been initiated and/or completed with compounds such as Semaglutide, a hormone that stimulates insulin signaling, Metformin, an insulin synthesizer, and NE3107, an anti-inflammatory insulin-sensitizing agent.\n\nThis study seeks to measure changes in cognition through verbal and visual test procedures and changes in biomarkers of Alzheimer's disease and inflammatory and metabolic parameters that can be measured in the CNS with advanced neuroimaging techniques in patients treated with NE3107 (17a-ethynyl-androst-5-ene-3b,7b,17b-triol).\n\nInvestigational Product\n\nThe drug under investigation is NE3107 (17a-ethynyl-androst-5-ene-3b,7b,17b-triol). NE3107 is formulated with common excipients used in oral medications in #2 hard gelatin capsules. The capsules are designed for oral administration. NE3107 capsules are stable at room temperature for at least 18 months. Stability of the capsules used in this study will be monitored by a concurrent stability study conducted by the capsule manufacturer and the holder of the primary IND, Biovie, Inc (Santa Monica, CA).",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Experimental Arm: NE3107",
+                    "description": "All participants will take 20mg BID (12 hours apart) of NE3107 for 3 months.\n\nNE3107: Participants will take 20mg twice daily (BID) approximately 12 hours apart. The dose will be stable the duration of the study intervention (3 months)"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "23"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "23"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Experimental Arm: NE3107",
+                    "description": "All participants will take 20mg BID (12 hours apart) of NE3107 for 3 months.\n\nNE3107: Participants will take 20mg twice daily (BID) approximately 12 hours apart. The dose will be stable the duration of the study intervention (3 months)"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "23"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "71",
+                                            "spread": "2.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "23"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "23"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "23"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in fMRI",
+                    "description": "Primary endpoints assessed changes from baseline in neurophysiological health and oxidative stress using advanced neuroimaging analyses. Analysis methods utilized blinded expert evaluation between baseline and completion scans.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "3 Months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Experimental Arm: NE3107",
+                            "description": "All participants will take 20mg BID (12 hours apart) of NE3107 for 3 months.\n\nNE3107: Participants will take 20mg twice daily (BID) approximately 12 hours apart. The dose will be stable the duration of the study intervention (3 months)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "23"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Clinical Dementia Rating Change as Calculated From the Quick Dementia Rating Scale Change",
+                    "description": "Quick Dementia Rating Scale (QDRS)\n\nThe Quick Dementia Rating Scale (QDRS) is an interview-based tool administered by study officials to participants' caregivers used to obtain observations from a consistent source. The QDRS form consists of 10 categorical questions (5 cognitive, 5 functional), each with 5 detailed options depicting the level of impairment as either 0 (normal), 0.5 (mild/inconsistent impairment), 1 (mild/consistent impairment), 2 (moderate impairment), or 3 (severe impairment). Based on the conversion table outlined in Dr. James Galvin's research (2015), total QDRS scores were converted to Clinical Dementia Rating (CDR) scale levels ranging from 0 (normal aging), 0.5 (mild cognitive impairment), 1 (mild dementia), 2 (moderate dementia), and 3 (severe dementia).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "3 Months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Experimental Arm: NE3107",
+                            "description": "All participants will take 20mg BID (12 hours apart) of NE3107 for 3 months.\n\nNE3107: Participants will take 20mg twice daily (BID) approximately 12 hours apart. The dose will be stable the duration of the study intervention (3 months)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "23"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Montreal Cognitive Assessment (MoCA) Change",
+                    "description": "The MoCA evaluates frontal-executive functions (e.g., verbal abstraction and mental calculation), language (e.g., confrontation naming, phonemic fluency), orientation (e.g., person, place, date, day of the week, and time), visuospatial construction (e.g., simple figure copy), divided visual attention, and immediate and delayed memory of unstructured information. MoCA scores range from 0-30 possible points; 26 or greater is considered to reflect normal cognitive status.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "3 Months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Experimental Arm: NE3107",
+                            "description": "All participants will take 20mg BID (12 hours apart) of NE3107 for 3 months.\n\nNE3107: Participants will take 20mg twice daily (BID) approximately 12 hours apart. The dose will be stable the duration of the study intervention (3 months)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "23"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Alzheimer's Disease Assessment Scale - Cognitive Subscale (ADAS-Cog) Change",
+                    "description": "The ADAS-Cog evaluates participants' cognitive ability. It is composed of 11 parts that measure word recall, object/figure naming, command following, constructional praxis, ideational praxis, orientation, word recognition, test direction recall, spoken language, comprehension, and word-finding difficulty. The ADAS-Cog is scored from 0-70 by measuring the errors made in each task, with a score of 70 representing the most severe impairment. A point reduction of 3.1 to 3.8 has been found to be the minimal clinically important difference (Schrag \\& Schott, 2012). A change will be evaluated from baseline to completion.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "3 Months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Experimental Arm: NE3107",
+                            "description": "All participants will take 20mg BID (12 hours apart) of NE3107 for 3 months.\n\nNE3107: Participants will take 20mg twice daily (BID) approximately 12 hours apart. The dose will be stable the duration of the study intervention (3 months)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "23"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Mini-Mental State Examination (MMSE) Change",
+                    "description": "The MMSE is a 30-point questionnaire that evaluates cognition. The MMSE includes specific tasks that assess orientation, attention, memory, language, and visual-spatial skills. MMSE scores range from 0 - 30 possible points; 0-17: severe cognitive impairment, 18-23: mild cognitive impairment, 24-30: no cognitive impairment. A point decrease \\>/= to 3 on the MMSE has been identified as the minimally clinically important difference (Andres, 2019). A change will be evaluated from baseline to completion.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "3 Months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Experimental Arm: NE3107",
+                            "description": "All participants will take 20mg BID (12 hours apart) of NE3107 for 3 months.\n\nNE3107: Participants will take 20mg twice daily (BID) approximately 12 hours apart. The dose will be stable the duration of the study intervention (3 months)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "23"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Adverse event data were collected during the treatment period (day 1-90), and the follow up period (day 91-115)",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Experimental Arm: NE3107",
+                    "description": "All participants will take 20mg BID (12 hours apart) of NE3107 for 3 months.\n\nNE3107: Participants will take 20mg twice daily (BID) approximately 12 hours apart. The dose will be stable the duration of the study intervention (3 months)",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 23,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 23,
+                    "otherNumAffected": 8,
+                    "otherNumAtRisk": 23
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Elevated Lipase",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "one participant showed evidence at one time point of elevated lipase on safety labs. Labs returned to normal on follow up.",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "One patient reported dizziness during a study check in",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Dry Mouth",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "One patient reported a dry mouth in a regular study check up",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary Tract Infection",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "One patient demonstrated a lab value indicating a urinary tract infection following a safety lab visit. Patient recovered after antiviral treatment.",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Tachycardia",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "One patient demonstrated an elevated heart rate at a study safety visit",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Diarrhea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "One patient reported having suffered and recovered from a bout of diarrhea at a study check in",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "COVID-19 Infection",
+                    "organSystem": "Infections and infestations",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "One patient experienced an infection with the COVID-19 virus during the trial.",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Knee Injury",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "One patient reported having tripped and injured their knee during the trial.",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 23
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Chief Research Coordinator",
+                "organization": "The Regenesis Project",
+                "email": "jharoon@theneuroassociates.com",
+                "phone": "(989) 245-9205"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "NE3107 (17a-ethynyl-androst-5-3b,7b,17b-triol) \u2014 also called bezisterim"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial tests NE3107 and measures changes in Alzheimer's biomarkers, neuroimaging, and cognition; the protocol and publications describe NE3107 as an oral, blood\u2013brain barrier permeable small molecule that is anti-inflammatory and insulin\u2011sensitizing (i.e., it targets pathological processes\u2014neuroinflammation and insulin resistance\u2014thought to drive AD). \ue200cite\ue202turn0search1\ue202turn0search3\ue201",
+        "Act: Extracted details \u2014 drug name/synonym: NE3107 (17a-ethynyl-androst-5-3b,7b,17b-triol; commercial name bezisterim). Mechanism: selective inhibition of inflammation-driven ERK/NF-\u03baB signaling and improvement of insulin signaling (binds ERK1/2); orally administered and BBB-permeable. Intended effect: disease-modifying by reducing neuroinflammation and insulin resistance to slow or improve AD-related pathology and cognition. Sources: phase\u20112/abstract and rationale/phase\u20113 design papers and company description. \ue200cite\ue202turn0search1\ue202turn0search3\ue202turn0search2\ue201",
+        "Reflect: Classification check \u2014 this is not a biologic (no monoclonal antibody or vaccine) and not a symptomatic-only cognitive enhancer or an agent solely treating neuropsychiatric symptoms; its described mechanism targets AD-relevant pathology (inflammation/insulin resistance) using a small molecule. Therefore the appropriate category is 'disease-targeted small molecule'. I found no indication the trial was diagnostic or non-therapeutic. Key supporting references are included above. \ue200cite\ue202turn0search2\ue202turn0search6\ue201"
+    ],
+    "agent_type": "R) Multi-target",
+    "explanation_agent": [
+        "Reason: The trial drug NE3107 (bezisterim) is described in the protocol and publications as an oral, BBB\u2011permeable small molecule that both reduces neuroinflammation (modulates/inhibits NF\u2011\u03baB/TNF\u2011\u03b1 and inflammation-driven ERK signaling) and improves insulin signaling (insulin\u2011sensitizing effects). These are two distinct CADRO domains: F) Inflammation and J) Metabolism and Bioenergetics. \ue200cite\ue202turn0search0\ue202turn0search1\ue202turn0search2\ue201",
+        "Act: Extracted details \u2014 drug name/synonym: NE3107 (17a\u2011ethynyl\u2011androst\u20115\u20113b,7b,17b\u2011triol; commercial name bezisterim). Mechanism summary from the literature/company: binds/modulates ERK and selectively modulates NF\u2011\u03baB activation and TNF\u2011\u03b1 production (anti\u2011inflammatory) and has insulin\u2011sensitizing properties; orally bioavailable and blood\u2013brain barrier permeable. These points are supported by the phase\u20112 open\u2011label study and company/meeting reports. \ue200cite\ue202turn0search0\ue202turn0search2\ue202turn0search5\ue201",
+        "Reflect: Because the molecule is explicitly described as acting on both neuroinflammatory pathways and insulin/energy\u2011metabolism pathways, the most appropriate CADRO classification is R) Multi\u2011target (list the constituent targets as F) Inflammation and J) Metabolism and Bioenergetics). If one forced a single category, F) Inflammation would be defensible (neuroinflammation is emphasized in the clinical rationale), but given the dual mechanisms stated in multiple sources, R) Multi\u2011target is the better fit. Key supporting sources (phase\u20112 paper, ALZFORUM summary, and company reports) are cited below. \ue200cite\ue202turn0search0\ue202turn0search1\ue202turn0search5\ue201",
+        "Web search results / supporting references: \u2022 Phase\u20112 open\u2011label study reporting NE3107 as an oral anti\u2011inflammatory, insulin\u2011sensitizing molecule with biomarker and cognitive data (PubMed abstract). \ue200cite\ue202turn0search0\ue201 \u2022 ALZFORUM therapeutic summary (bezisterim/NE3107) describing Phase\u20112/Phase\u20113 activity and mechanism. \ue200cite\ue202turn0search1\ue201 \u2022 Company/investor releases describing bezisterim as BBB\u2011permeable, ERK/NF\u2011\u03baB modulatory (anti\u2011inflammatory) and insulin\u2011sensitizing, and reporting Phase\u20113 trial details. \ue200cite\ue202turn0search5\ue202turn0search2\ue201"
+    ]
+}

@@ -1,0 +1,991 @@
+{
+    "nct_id": "NCT01054976",
+    "title": "The Efficacy of Galantamine Treatment on Attention in Patients With Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2012-11-23",
+    "description_brief": "This study will examine whether the administration of galantamine is effective for improvement of attention and more effective for patients with serious disturbance of attention by administering galantamine to patients with Alzheimer's dementia and performing an attention test on baseline, week 4 and 12.",
+    "description_detailed": "This is an open label (all people know the identity of the intervention), multi-center, prospective study investigating the effect of galantamine on the attention of Alzheimer's dementia patients. The objectives of this study include the evaluation of the relationship between change in attention after 4 weeks of galantamine administration and to investigate the effect of study drug after 12 weeks administration (the difference in the improvement of attention after the administration of galantamine). The secondary objective of this study is to clarify the causal relationship between improvement of attention and activities of daily living (ADL). The design of this study is prospective, open-label, multi-center study. Study populations are probable Alzheimer's dementia patients diagnosed by NINCDS-ADRDA (National Institute of Neurological and Communicative Disorders and Stroke and the Alzheimer's disease and Related Disorders Association), DSM-IV (Diagnostic and Statistical Manual of Mental Disorders) criteria. The efficacy of study drug will be assessed by evaluating cognitive function, attention and behavioral symptoms before and after the treatment using the following assessment tools: ADAS-K-cog11 (Alzheimer's Disease Assessment Scale - cognitive subscale), computerized attention test and activities of daily living. Safety evaluations include adverse event monitoring and clinical lab tests. The patient is administered oral galantamine 8 mg/day for the first 4 weeks and then 16 mg/day. The dose of galantamine is increased up to 24 mg if tolerated.",
+    "phase": [
+        "PHASE4"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "Of the total of 99 enrolled patients, only 92 were screened.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Galantamine",
+                    "description": "8 mg/day for 4 weeks; 16 mg/day thereafter"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "92"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "57"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "35"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Adverse Event",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "16"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Uncooperative participations to study",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "7"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Other",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "8"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Galantamine",
+                    "description": "8 mg/day for 4 weeks; 16 mg/day thereafter"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "92"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "73.24",
+                                            "spread": "7.969"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "70"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "22"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline in Simple Reaction Time",
+                    "description": "The Simple Reaction Time is a computerized attention test that evaluates the patient's reaction time when the color of the computer screen changes from black to white by performing a total of 70 times for six minutes.",
+                    "populationDescription": "Per-protocol (PP) analysis set.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "seconds",
+                    "timeFrame": "Baseline, Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Galantamine",
+                            "description": "8 mg/day for 4 weeks; 16 mg/day thereafter"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "92"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 4 (n=83)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-30.92",
+                                            "spread": "1277.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 12 (n=73)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "180.83",
+                                            "spread": "519.18"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline in Choice Reaction Time",
+                    "description": "The Choice Reaction Time is a computerized attention test that evaluates the reaction time and the number of errors by showing patients one card on the computer screen and making them find the same one among similar four cards. The test is performed a total of 12 times.",
+                    "populationDescription": "Per-protocol (PP) analysis set.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "seconds",
+                    "timeFrame": "Baseline, Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Galantamine",
+                            "description": "8 mg/day for 4 weeks; 16 mg/day thereafter"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "92"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 4 (n=80)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "429.54",
+                                            "spread": "3388.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 12 (n=73)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1331",
+                                            "spread": "3627.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in Alzheimer's Disease Assessment Scale - Cognitive Subscale (ADAS-Cog)",
+                    "description": "The Alzheimer's disease Assessment Scale-Cognitive subscale (ADAS-Cog) is an instrument used to assess cognitive dysfunction in individuals with Alzheimer disease and other dementias. It consists of 11 items, with scores ranging from 1 to 70. Maximum score is 70. Higher scores indicate worsening.",
+                    "populationDescription": "Intention-to-Treat analysis set.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "scores on a scale",
+                    "timeFrame": "Baseline, Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Galantamine",
+                            "description": "8 mg/day for 4 weeks; 16 mg/day thereafter"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "73"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.31",
+                                            "spread": "5.67"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in Korean Version of Disability Assessment for Demential Scale (DAD-K)",
+                    "description": "DAD-K is the Korean version of the Assessment for Dementia Scale, a tool developed to evaluate the Alzheimer patients' function including both basic and instrumental Activities of Daily Livings (ADL). It evaluates one function from various perspectives including behavior initiation, plan and preparation, and valid performance. It consists of 10 questions, each can score either 0 (no) or 1 (yes), if not applicable, patient will check on \"not applicable (x)\" which will not count in the calculation. Scores range from 0 to 100. Higher score represents better function",
+                    "populationDescription": "Intention-to-Treat analysis set.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "scores on a scale",
+                    "timeFrame": "Baseline, Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Galantamine",
+                            "description": "8 mg/day for 4 weeks; 16 mg/day thereafter"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "73"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.41",
+                                            "spread": "10.53"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in Seoul-Instrumental Activities of Daily Livings (S-IADL)",
+                    "description": "The Seoul-Instrumental Activities of Daily Living (S-IADL) assesses patients' abilities to perform instrumental and social activities of daily living. These include the ability to prepare a balanced meal, remember appointments, keep financial records, remember to take medication, and so on. It is composed of 15 items, with scores ranging from 0 to 45. Lower scores indicate better functioning.",
+                    "populationDescription": "Intention-to-Treat analysis set.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "scores on a scale",
+                    "timeFrame": "Baseline, Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Galantamine",
+                            "description": "8 mg/day for 4 weeks; 16 mg/day thereafter"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "73"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.22",
+                                            "spread": "6.88"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "12 weeks",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Galantamine",
+                    "description": "8 mg/day for 4 weeks; 16 mg/day thereafter",
+                    "seriousNumAffected": 8,
+                    "seriousNumAtRisk": 92,
+                    "otherNumAffected": 41,
+                    "otherNumAtRisk": 92
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Asthenia",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Delirium",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Brain stem infarction",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Hyperglycemia",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Neuromyopathy",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 15,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness/vertigo",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 7,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Anorexia",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 6,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 5,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Vomiting",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 5,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Diarrhea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 4,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Chest discomfort",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Weight loss",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Insomnia",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Poor appetite",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Asthenia",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Cold",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Dyspepsia",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Lethargy",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Abdominal discomfort",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Belching",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Constipation",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Sleep disorder",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Depression",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Dementia",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Sun stroke",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Tonic pain",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Tinnitus",
+                    "organSystem": "Ear and labyrinth disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Hearing loss",
+                    "organSystem": "Ear and labyrinth disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Arthralgia",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Rigor",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Sweating",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Knee pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Somnolence",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Confusion",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Intermittent indigestion",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                },
+                {
+                    "term": "Tremor",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 92
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "limitationsAndCaveats": {
+                "description": "A relatively low number of patients finished the study, which may have had an impact on the statistical power of data analysis. Difficulties in performing computer-based tests for elderly patients may have hampered detection of changes in attention."
+            },
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "The only disclosure restriction on the PI is that the sponsor can review results communications prior to public release (time limit not indicated)."
+            },
+            "pointOfContact": {
+                "title": "Business Unit Director",
+                "organization": "Jan-Cil Korea",
+                "phone": "82 2 2094-4537"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "galantamine"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial tests whether galantamine improves attention in patients with Alzheimer\u2019s disease. Galantamine is a small-molecule acetylcholinesterase inhibitor (with additional allosteric modulation of nicotinic receptors) used to produce symptomatic improvement in cognition and attention rather than to remove or modify core AD pathology (amyloid or tau). \ue200cite\ue202turn0search1\ue202turn0search3\ue201",
+        "Act: Key extracted details \u2014 drug: galantamine (a tertiary alkaloid AChE inhibitor that also potentiates nicotinic receptors); intervention goal: improve attention/cognitive function measured at baseline, week 4 and week 12; no description of anti-amyloid or anti-tau mechanism or disease-modifying intent in the trial description. Clinical literature describes galantamine\u2019s benefit as symptomatic cognitive improvement in mild-to-moderate AD. \ue200cite\ue202turn0search3\ue202turn0search5\ue202turn0search10\ue201",
+        "Reflect: According to the category definitions, this trial fits \u201ccognitive enhancer\u201d because the intervention is a symptomatic small-molecule cholinergic enhancer intended to improve attention/cognition, not to target Alzheimer\u2019s pathology for disease modification. No placebo or disease-modifying mechanism was stated in the trial description (placebo field left blank). Supporting sources describing galantamine\u2019s mechanism and symptomatic use are cited above. \ue200cite\ue202turn0search5\ue202turn0search1\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The trial tests galantamine, a symptomatic cognitive enhancer that increases cholinergic neurotransmission by reversible acetylcholinesterase inhibition and has reported allosteric potentiating effects at nicotinic acetylcholine receptors \u2014 this places its primary biological focus on neurotransmitter systems (cholinergic receptors), not on amyloid, tau, ApoE, inflammation, or other disease\u2011modifying pathways. \ue200cite\ue202turn1search3\ue202turn0search1\ue201",
+        "Act: Extracted details \u2014 drug: galantamine (approved for mild\u2013moderate AD as Razadyne/Reminyl); mechanism: reversible acetylcholinesterase inhibitor with reported nicotinic allosteric potentiating activity; intervention goal: symptomatic improvement in attention/cognition (no anti-amyloid or anti-tau/disease\u2011modifying intent described). Based on these points, assign CADRO category D) Neurotransmitter Receptors. \ue200cite\ue202turn1search3\ue202turn0search4\ue201",
+        "Reflect: The classification aligns with CADRO because the intervention acts on cholinergic neurotransmission (enzyme inhibition to raise acetylcholine levels and modulation of nicotinic receptors). An alternative, broader label might be 'Synaptic function/neuroprotection,' but CADRO D is the most specific match for a cholinergic receptor\u2011focused symptomatic agent. Confirming sources include the FDA/product label and primary literature on galantamine\u2019s AChE inhibition and nicotinic receptor modulation. \ue200cite\ue202turn1search0\ue202turn0search3\ue201",
+        "Web search results (key sources used): \u2022 Razadyne / galantamine product information and prescribing information (Drugs.com / FDA summaries). \ue200cite\ue202turn1search3\ue202turn1search0\ue201 \u2022 PubMed articles describing galantamine as an allosterically potentiating ligand of nicotinic receptors and reviews of its dual mode of action. \ue200cite\ue202turn0search1\ue202turn0search4\ue201 \u2022 Reviews of allosteric modulation of nicotinic receptors in AD and experimental studies of galantamine\u2019s cholinergic effects. \ue200cite\ue202turn0search3\ue202turn0search5\ue201"
+    ]
+}

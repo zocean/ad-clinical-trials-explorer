@@ -1,0 +1,1804 @@
+{
+    "nct_id": "NCT05422885",
+    "title": "Senolytics To Alleviate Mobility Issues and Neurological Impairment in Aging",
+    "status": "COMPLETED",
+    "last_update_time": "2025-02-21",
+    "description_brief": "The purpose of this pilot study is to demonstrate the safety and feasibility of administering intermittent doses of Dasatinib and Quercetin (D+Q) in older adults at risk of Alzheimer's disease (AD). The study will evaluate whether giving D+Q may improve cerebral blood flow regulation, mobility, and cognition in older adults, and thus may prevent progression to Alzheimer's disease.",
+    "description_detailed": "The investigators will conduct a 12-week single arm, open label, pre-post pilot study in 12 adults aged 65 or older with slow gait speed (\\<1.0 m/sec) and Mild Cognitive Impairment (MCI, defined as a Telephone Montreal Cognitive Assessment Score (MoCA) \\<19). Participants will be asked to take 100mg of Dasatinib and 1,250mg of Quercetin for 2 consecutive days, every two weeks over a period of 12 weeks (12 doses in total, given over 6 cycles).\n\nAt baseline, enrolled participants will undergo gait speed and neurocognitive testing, and provide blood and urine to evaluate biomarkers of senescence. At visits 3,4, 6, and 7, participants will have safety labs drawn, and the study team will assess medication adherence and adverse events. At visits 2, 5, and 8, participants will undergo cognitive assessments, gait speed testing, cerebral blood flow and neurovascular coupling testing. At the final study visit, participants will again provide blood and urine to assess biomarkers of senescence.",
+    "phase": [
+        "PHASE1",
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "PREVENTION",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "Of the 332 individuals that expressed interest in the study, 115 were screened via telephone. Sixty were ineligible due to not meeting the pre-specified inclusion/exclusion criteria. Of the 55 eligible telephone screeners, 24 were not enrolled due to loss of interest (n=12), loss to follow-up (n=10), or closed enrolment (n=2). Of the 31 participants that were screened in-person, 16 were excluded for various reasons, while 15 individuals were eligible and willing to participate.",
+            "recruitmentDetails": "This study was conducted from 2022-2024 in the greater Boston, MA area. Individuals were recruited through a recruitment firm that utilizes online targeted advertisements based on an individual's browsing history, as well as senior housing presentations, study flyers at clinical practices, and invitations to previous research volunteers who agreed to be in our participant registries.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Dasatinib and Quercetin",
+                    "description": "Participants took 100 mg of Dasatinib and 1,250 mg of Quercetin for 2 consecutive days, every two weeks for 12 weeks"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "15"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "12"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Dasatinib and Quercetin",
+                    "description": "Participants took 100 mg of Dasatinib and 1,250 mg of Quercetin for 2 consecutive days, every two weeks for 12 weeks"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "15"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "77",
+                                            "spread": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Highest Level of Education",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "No Diploma",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Some College/Vocational School",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Associates Degree",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Bachelors Degree",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Graduate/Doctoral/Law Degree",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "4-meter Gait Speed",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "meters/second",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0.8",
+                                            "spread": "0.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Telephone Montreal Cognitive Assessment Score",
+                    "description": "Range: 0-22 points with higher scores indicating higher cognitive status",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "points",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "17",
+                                            "spread": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Body Mass Index",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "kg/m^2",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "27",
+                                            "spread": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Osteo- or Degenerative Arthritis",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "High Blood Pressure",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "High Cholesterol",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Depression",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Eye Disease",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Stomach Disease (e.g., Acid Reflux)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Neurovascular Coupling",
+                    "description": "Change in cerebral blood flow during an N-back cognitive task using transcranial doppler ultrasound.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "cm/s",
+                    "timeFrame": "Screening, 8, and 14 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Dasatinib and Quercetin",
+                            "description": "Participants took 100 mg of Dasatinib and 1,250 mg of Quercetin for 2 consecutive days, every two weeks for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Screening",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.68",
+                                            "spread": "1.40"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.26",
+                                            "spread": "2.04"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 14",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.80",
+                                            "spread": "2.13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Executive Function",
+                    "description": "Assess change in executive cognitive function using TRAILS test, corrected for response time. Higher scores indicate worse executive functioning.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "seconds",
+                    "timeFrame": "Baseline, 8, and 14 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Dasatinib and Quercetin",
+                            "description": "Participants took 100 mg of Dasatinib and 1,250 mg of Quercetin for 2 consecutive days, every two weeks for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline (Week 2)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "80.6",
+                                            "spread": "80.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "75.0",
+                                            "spread": "61.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 14",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "63.4",
+                                            "spread": "44.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Gait Speed",
+                    "description": "Assess change in gait speed. Performed without a distracting cognitive task.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "meters/second",
+                    "timeFrame": "Baseline, 8, and 14 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Dasatinib and Quercetin",
+                            "description": "Participants took 100 mg of Dasatinib and 1,250 mg of Quercetin for 2 consecutive days, every two weeks for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline (Week 2)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.87",
+                                            "spread": "0.15"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.85",
+                                            "spread": "0.16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 14",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.87",
+                                            "spread": "0.14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Montreal Cognitive Assessment (MoCA) Score",
+                    "description": "The Montreal Cognitive Assessment evaluates global cognition. Scores range from 0-30 points, with higher scores indicating better cognition",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "points",
+                    "timeFrame": "Baseline, 8, and 14 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Arm 1",
+                            "description": "Dasatinib and Quercetin\n\nDasatinib: Dasatinib 100 mg for 2 consecutive days, every two weeks for 12 weeks\n\nQuercetin: Quercetin 1,250 mg for 2 consecutive days, every two weeks for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "23",
+                                            "spread": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "8 Weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "25",
+                                            "spread": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "14 Weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "24",
+                                            "spread": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Physical Performance",
+                    "description": "Assessment of overall physical function using the short physical performance battery (SPPB) scored from 0-12, based on a composite of balance, strength, and walking speed. Higher scores indicate better mobility.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "points",
+                    "timeFrame": "Baseline, 8, and 14 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Dasatinib and Quercetin",
+                            "description": "Participants took 100 mg of Dasatinib and 1,250 mg of Quercetin for 2 consecutive days, every two weeks for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline (Week 2)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "9",
+                                            "spread": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "9",
+                                            "spread": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 14",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "9",
+                                            "spread": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Mobility",
+                    "description": "Test of mobility using timed up and go test, including standing from a chair, walking, and turning.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "seconds",
+                    "timeFrame": "Baseline, 8, and 14 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Dasatinib and Quercetin",
+                            "description": "Participants took 100 mg of Dasatinib and 1,250 mg of Quercetin for 2 consecutive days, every two weeks for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline (Week 2)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "14.2",
+                                            "spread": "2.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "13.9",
+                                            "spread": "3.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 14",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "13.6",
+                                            "spread": "2.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Grip Strength",
+                    "description": "Measure of grip strength using a hand dynamometer.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "kilograms",
+                    "timeFrame": "Baseline, 8, and 14 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Dasatinib and Quercetin",
+                            "description": "Participants took 100 mg of Dasatinib and 1,250 mg of Quercetin for 2 consecutive days, every two weeks for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline (Week 2)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "23.5",
+                                            "spread": "7.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "22.7",
+                                            "spread": "5.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 14",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "23.6",
+                                            "spread": "5.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Gait Speed During Cognitive Task",
+                    "description": "Measure of gait speed during a cognitive task.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "meters/second",
+                    "timeFrame": "Baseline, 8, and 14 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Dasatinib and Quercetin",
+                            "description": "Participants took 100 mg of Dasatinib and 1,250 mg of Quercetin for 2 consecutive days, every two weeks for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline (Week 2)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.76",
+                                            "spread": "0.13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.75",
+                                            "spread": "0.16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 14",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.78",
+                                            "spread": "0.14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "P16 ink4a Expression in CD3 Positive Cells",
+                    "description": "Measure of P16 ink4a expression in senescent CD3 lymphocytes in the blood.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "relative expression to housekeeping gene",
+                    "timeFrame": "Screening and 14 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Dasatinib and Quercetin",
+                            "description": "Participants took 100 mg of Dasatinib and 1,250 mg of Quercetin for 2 consecutive days, every two weeks for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Screening",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10.6",
+                                            "spread": "5.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 14",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "9.4",
+                                            "spread": "3.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "SASP Factors in Blood and Urine",
+                    "description": "Measure of the senescence-associated biomarkers IL-1alpha picogram/mL and IL-6 picogram/mL.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "picograms/mL",
+                    "timeFrame": "Screening and 14 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Dasatinib and Quercetin",
+                            "description": "Participants took 100 mg of Dasatinib and 1,250 mg of Quercetin for 2 consecutive days, every two weeks for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Serum IL1-alpha Screening",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "664.5",
+                                            "spread": "368.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Serum IL1-alpha Week 14",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "742.2",
+                                            "spread": "513.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Serum IL-6 Screening",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3.6",
+                                            "spread": "1.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Serum IL-6 Week 14",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.8",
+                                            "spread": "1.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "SASP Factors in Blood and Urine",
+                    "description": "Measure of the senescence-associated biomarkers MMP-9 nanograms/mL and MMP-12 nanograms/mL.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "nanograms/mL",
+                    "timeFrame": "Screening and 14 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Dasatinib and Quercetin",
+                            "description": "Participants took 100 mg of Dasatinib and 1,250 mg of Quercetin for 2 consecutive days, every two weeks for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Serum MMP-9 Screening",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "458.5",
+                                            "spread": "189.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Serum MMP-9 Week 14",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "541.6",
+                                            "spread": "454.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "For all participants, adverse events were collected during the entire 14 week study. We were collecting during the period of June 2022 to January 2024, which is approximately 1 year and 8 months.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Dasatinib and Quercetin",
+                    "description": "Participants took 100 mg of Dasatinib and 1,250 mg of Quercetin for 2 consecutive days, every two weeks for 12 weeks",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 15,
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 15,
+                    "otherNumAffected": 12,
+                    "otherNumAtRisk": 15
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Serious Adverse Event",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "notes": "Participant was bitten by family dog on both hands. Waited until next day to go to urgent care which told him to go to hospital emergency room. He was admitted one night (discharged November 12) and sent home with antibiotics.",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Headache",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 5,
+                            "numAffected": 4,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Producing more urine than usual",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Bruising",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 3,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "High Glucose",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 2,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Low White Blood Cell Count",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 6,
+                            "numAffected": 3,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "High Cystatin C Value",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Irregular Glomerular Filtration Rate",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Ankle Edema",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Basilar Rales",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Irregular Heart Beat",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Muscle or Hip Pain",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Difficulty with Balance",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Depressed Mood or Anxiety",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Sore Throat",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Difficulty Breathing",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Low Hemoglobin",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Chest Pressure",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "High Potassium",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "High Creatinine",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Diarrhea or Loose Stool",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 9,
+                            "numAffected": 5,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Fluttering in Chest",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Loss of Appetite or Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 8,
+                            "numAffected": 3,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue or Tiredness",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 8,
+                            "numAffected": 6,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Bloating",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Low Hematocrit Level",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Tingling in Extremeties",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Sprained wrist",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Low blood pressure",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Coughing",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Restless Sleep",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Memory Concerns",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "High Blood Urea Nitrogen",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "High ALT Level",
+                    "organSystem": "Hepatobiliary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "High Heart Rate",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Chronic Kidney Disease",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "limitationsAndCaveats": {
+                "description": "Although we collected urine samples, the SASP factors (i.e., biomarkers) we were not measured due to insufficient funds and resources. Therefore, we are unable to analyze any data."
+            },
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Courtney Millar",
+                "organization": "Marcus Institute",
+                "email": "courtneymillar@hsl.harvard.edu",
+                "phone": "6179715531"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "Dasatinib",
+        "Quercetin"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention is the combination of dasatinib + quercetin (D+Q), which are small\u2011molecule senolytic agents intended to remove senescent cells and reduce senescence-associated inflammation with the goal of improving cerebral blood flow, mobility and cognition (i.e., to prevent or slow progression to Alzheimer\u2019s disease). This mechanistic aim is disease\u2011targeted (senescence biology) rather than symptomatic-only. \ue200cite\ue202turn0search9\ue202turn0search6\ue201",
+        "Act: Key extracted details from the trial description \u2014 Title: \"Senolytics To Alleviate Mobility Issues and Neurological Impairment in Aging\"; Intervention: Dasatinib (100 mg) + Quercetin (1250 mg) given intermittently (two consecutive days every two weeks for 12 weeks in the STAMINA pilot). The study objective: assess safety/feasibility and whether D+Q may improve cerebral blood flow regulation, mobility, and cognition in older adults at risk for AD. \ue200cite\ue202turn1search3\ue202turn1search0\ue201",
+        "Reflect: Classification rationale \u2014 both dasatinib and quercetin are small molecules (dasatinib is a tyrosine\u2011kinase inhibitor; quercetin is a flavonoid) and the combination is used as a senolytic to target a disease mechanism (cellular senescence/SASP) that is hypothesized to contribute to AD and age\u2011related functional decline. Therefore the trial fits the \"disease-targeted small molecule\" category (not a biologic, not merely a cognitive enhancer or a neuropsychiatric symptomatic treatment). No placebo arm is indicated in the pilot (single\u2011arm, open\u2011label pre/post design). \ue200cite\ue202turn0search9\ue202turn0search6\ue202turn1search5\ue201",
+        "Web search results used (summary of sources consulted): 1) ClinicalTrials (NCT05422885) \u2014 trial record titled \"Senolytics To Alleviate Mobility Issues and Neurological Impairment in Aging\" with the same purpose/description. \ue200cite\ue202turn1search3\ue201 2) eBioMedicine / Lancet Family article \u2014 pilot (STAMINA) study report describing intermittent D+Q dosing, feasibility, safety and preliminary cognitive/mobility endpoints. \ue200cite\ue202turn1search0\ue201 3) PMC/PubMed basic science paper showing D+Q act as senolytics and reduce SASP/inflammation in aged tissues. \ue200cite\ue202turn0search9\ue201 4) Reviews and preclinical literature on D+Q as senolytics and mechanisms (quercetin flavonoid; dasatinib TKI) supporting the disease\u2011targeted mechanism. \ue200cite\ue202turn0search6\ue202turn0search2\ue201"
+    ],
+    "agent_type": "H) Cell Death",
+    "explanation_agent": [
+        "Reason: The intervention is the senolytic drug combination dasatinib + quercetin (D+Q), whose intended biological action is selective elimination of senescent cells by inducing apoptosis or otherwise promoting death of those cells; this is a disease-targeted approach (targeting cellular senescence) rather than a purely symptomatic treatment. Key mechanistic descriptions of D+Q emphasize apoptotic/senolytic activity and downstream reduction of the senescence\u2011associated secretory phenotype (SASP). \ue200cite\ue202turn1search0\ue202turn1search6\ue201",
+        "Act: Extracted trial details \u2014 Intervention: Dasatinib (100 mg) + Quercetin (1250 mg) given intermittently (2 consecutive days every 2 weeks for 12 weeks) in the STAMINA pilot (NCT05422885). Study purpose: assess safety/feasibility and whether D+Q may improve cerebral blood flow regulation, mobility, and cognition in older adults at risk for AD. These trial design and dosing details are described in the STAMINA rationale/design and the published pilot report. \ue200cite\ue202turn2search0\ue202turn2search9\ue201",
+        "Reflect: Classification rationale \u2014 because the proximate pharmacologic mechanism of the intervention is to induce death/clearance of senescent cells (senolysis), the most specific CADRO match is H) Cell Death. It is correct to note that removing senescent cells also reduces SASP-driven inflammation (an inflammatory effect), so F) Inflammation could be a secondary classification, but the primary, direct target is killing/clearance of senescent cells (cell\u2011death/senolytic mechanism), so H) Cell Death is the best fit. Supporting sources: mechanistic reviews and preclinical/clinical reports describing D+Q as senolytics that induce apoptosis and reduce SASP. \ue200cite\ue202turn1search6\ue202turn1search0\ue201",
+        "Web search results (key sources used):",
+        "\u2022 STAMINA trial rationale & design (Translational Medicine of Aging) \u2014 trial design and dosing for 'Senolytics To Alleviate Mobility Issues and Neurological Impairment in Aging' (NCT05422885). \ue200cite\ue202turn2search0\ue201",
+        "\u2022 eBioMedicine / Lancet Family pilot report: 'A pilot study of senolytics to improve cognition and mobility in older adults at risk for Alzheimer\u2019s disease' \u2014 STAMINA pilot results and methods (D+Q 100 mg + 1250 mg intermittent dosing). \ue200cite\ue202turn2search2\ue202turn2search9\ue201",
+        "\u2022 ALZforum summary describing D+Q as senolytics and noting dasatinib induces apoptosis in senescent cells while quercetin targets anti\u2011apoptotic factors (Bcl\u2011xL) and the combination promotes senescent cell death. \ue200cite\ue202turn1search0\ue201",
+        "\u2022 Review/overview of senolytics (senotherapeutics) summarizing mechanisms of D+Q, apoptosis induction, and SASP reduction. \ue200cite\ue202turn1search6\ue201"
+    ]
+}

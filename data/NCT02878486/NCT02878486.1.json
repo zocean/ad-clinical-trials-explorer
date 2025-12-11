@@ -1,0 +1,793 @@
+{
+    "nct_id": "NCT02878486",
+    "title": "Intervention to Reduce Sitting Time in Mild Cognitive Impairment",
+    "status": "COMPLETED",
+    "last_update_time": "2019-07-26",
+    "description_brief": "The purpose of this study is to determine whether the researchers can help people change the amount of time they spend in sitting activities and whether this change might improve health outcomes.",
+    "description_detailed": "Specific Aim 1: Determine feasibility of a 12-week home and telephone based intervention in older adults with mild cognitive impairment targeting both the impaired individual and their study partner to help initiate and maintain behavior change. We will recruit KUADC registry participants with MCI and their caregivers (as study partners). Behavioral interventions are more effective when there is built in social support. We will evaluate feasibility in terms of successful recruitment and retention of participants, 10% or less of technological failures, rate of participant concerns addressed by phone and at home visits, acceptability of the intervention to participants (measured by questionnaires during home visits).\n\nSpecific Aim 2: Determine whether a 12-week home and telephone based intervention results in reduced total sitting time and shorter bouts of sitting in older adults with MCI and their caregivers. Electronic postural monitors will record sitting time for a duration of one week at three time points (pre-intervention, mid-intervention, and post-intervention). The intervention includes 1) feedback from baseline monitoring, 2) educational and goal setting session with the participants and research staff, 3) wrist worn monitors that alert wearers to sitting times \\>30 minutes, 4) home and telephone visits to address physical, psychological, and home environment barriers to behavior change. Changes in sitting time and breaks from sitting will be compared between baseline, mid-intervention, and post-intervention measurement occasions.\n\nSpecific Aim 3: Determine whether sedentary behavior intervention results in improved insulin sensitivity and glycemic control. To evaluate whether reduced sitting results in meaningful metabolic changes, we will measure postprandial insulin and glucose, and body composition, and evaluate changes from pre- to post- intervention adjusting for relevant covariates.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "PREVENTION",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Intervention Group (Jawbone Up Wrist Monitor)",
+                    "description": "Subjects will have clinic visits, home visits, and telephone visits. Subjects will be asked to wear a wrist monitor (Jawbone Up) for duration of the study, will meet with the study team to review Physical Activity Education and also be asked to wear the ActivPAL device to assess sitting time.\n\nJawbone Up: Jawbone Up is a wrist wore water resistant activity monitor.\n\nPhysical Activity Education: A study team member will discuss benefits of changing sitting habits and ways to make changes to personal habits.\n\nActivPAL: Devices measures postural changes over time. Participants will wear device for 7 days. The device measures time sitting, standing, and posture changes (i.e. sit-to-stand)."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Control Group (No Wrist Monitor)",
+                    "description": "Subjects will make clinic visits. At home visits, subjects will meet with the study team to review Physical Activity Education and also be asked to wear the ActivPAL device to assess sitting time.\n\nPhysical Activity Education: A study team member will discuss benefits of changing sitting habits and ways to make changes to personal habits.\n\nActivPAL: Devices measures postural changes over time. Participants will wear device for 7 days. The device measures time sitting, standing, and posture changes (i.e. sit-to-stand)."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Intervention Group (Jawbone Up Wrist Monitor)",
+                    "description": "Intervention group will have vibrotactile reminders from a wrist worn device, education about changing sitting habits, and coaching to change habits"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Control Group (No Wrist Monitor)",
+                    "description": "Control group will have education about changing sitting habits, no coaching or vibrotactile reminders"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "3"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "3"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "6"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "81.33",
+                                            "spread": "8.62"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "80.83",
+                                            "spread": "5.35"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "81.08",
+                                            "spread": "6.42"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Average Daily Sitting Time",
+                    "description": "Average daily sitting time (minus sleep) at 6 weeks minus average daily sitting time (minus sleep) at baseline measured using the activPAL monitor",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "minutes per day",
+                    "timeFrame": "Change from Baseline to Week 6",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention Group (Jawbone Up Wrist Monitor)",
+                            "description": "Subjects will have clinic visits, home visits, and telephone visits. Subjects will be asked to wear a wrist monitor (Jawbone Up) for duration of the study, will meet with the study team to review Physical Activity Education and also be asked to wear the ActivPAL device to assess sitting time.\n\nJawbone Up: Jawbone Up is a wrist wore water resistant activity monitor.\n\nPhysical Activity Education: A study team member will discuss benefits of changing sitting habits and ways to make changes to personal habits.\n\nActivPAL: Devices measures postural changes over time. Participants will wear device for 7 days. The device measures time sitting, standing, and posture changes (i.e. sit-to-stand)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Control Group (No Wrist Monitor)",
+                            "description": "Subjects will make clinic visits. At home visits, subjects will meet with the study team to review Physical Activity Education and also be asked to wear the ActivPAL device to assess sitting time.\n\nPhysical Activity Education: A study team member will discuss benefits of changing sitting habits and ways to make changes to personal habits.\n\nActivPAL: Devices measures postural changes over time. Participants will wear device for 7 days. The device measures time sitting, standing, and posture changes (i.e. sit-to-stand)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "3"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "3"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.43",
+                                            "spread": "0.53"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.98",
+                                            "spread": "1.82"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Average Daily Sitting Time",
+                    "description": "Average daily sitting time (minus sleep) at 12 weeks minus average daily sitting time (minus sleep) at baseline measured using the ActivPAL monitor",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "minutes per day",
+                    "timeFrame": "Change from Baseline to Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention Group (Jawbone Up Wrist Monitor)",
+                            "description": "Subjects will have clinic visits, home visits, and telephone visits. Subjects will be asked to wear a wrist monitor (Jawbone Up) for duration of the study, will meet with the study team to review Physical Activity Education and also be asked to wear the ActivPAL device to assess sitting time.\n\nJawbone Up: Jawbone Up is a wrist wore water resistant activity monitor.\n\nPhysical Activity Education: A study team member will discuss benefits of changing sitting habits and ways to make changes to personal habits.\n\nActivPAL: Devices measures postural changes over time. Participants will wear device for 7 days. The device measures time sitting, standing, and posture changes (i.e. sit-to-stand)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Control Group (No Wrist Monitor)",
+                            "description": "Subjects will make clinic visits. At home visits, subjects will meet with the study team to review Physical Activity Education and also be asked to wear the ActivPAL device to assess sitting time.\n\nPhysical Activity Education: A study team member will discuss benefits of changing sitting habits and ways to make changes to personal habits.\n\nActivPAL: Devices measures postural changes over time. Participants will wear device for 7 days. The device measures time sitting, standing, and posture changes (i.e. sit-to-stand)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "3"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "3"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.17",
+                                            "spread": "0.41"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.24",
+                                            "spread": "0.56"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Number of Sitting Bouts Greater Than 30 Min",
+                    "description": "Change in the number of sitting bouts greater than 30 min measured using the ActivPAL monitor",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "sitting bouts",
+                    "timeFrame": "Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention Group (Jawbone Up Wrist Monitor)",
+                            "description": "Subjects will have clinic visits, home visits, and telephone visits. Subjects will be asked to wear a wrist monitor (Jawbone Up) for duration of the study, will meet with the study team to review Physical Activity Education and also be asked to wear the ActivPAL device to assess sitting time.\n\nJawbone Up: Jawbone Up is a wrist wore water resistant activity monitor.\n\nPhysical Activity Education: A study team member will discuss benefits of changing sitting habits and ways to make changes to personal habits.\n\nActivPAL: Devices measures postural changes over time. Participants will wear device for 7 days. The device measures time sitting, standing, and posture changes (i.e. sit-to-stand)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Control Group (No Wrist Monitor)",
+                            "description": "Subjects will make clinic visits. At home visits, subjects will meet with the study team to review Physical Activity Education and also be asked to wear the ActivPAL device to assess sitting time.\n\nPhysical Activity Education: A study team member will discuss benefits of changing sitting habits and ways to make changes to personal habits.\n\nActivPAL: Devices measures postural changes over time. Participants will wear device for 7 days. The device measures time sitting, standing, and posture changes (i.e. sit-to-stand)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "3"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "3"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1",
+                                            "spread": "1.41"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": ".167",
+                                            "spread": ".764"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Glucose Levels Area Under the Curve in Response to Mixed Meal Tolerance Test",
+                    "description": "The average area under the curve at week 12 minus the average area under the curve at baseline. Blood was collected at baseline (pre-mixed meal). Post-mixed meal it was collected at 15, 30, 45, 60, 90, 120 minutes. The Area Under the Curve (AUC) was computed using the trapezoidal rule as we have previously described (Burns et. al. 2012, Morris et al 2014). This results in a single AUC pre-intervention value, and a single AUC post-intervention value for each metabolic outcome measure (glucose, insulin, etc).\n\nThe Area Under the Curve (AUC) for each individual is calculated as a single unitless value that results from calculating the definite integral under a timecourse curve. This method has been widely used and cited in metabolic studies for more than two decades https://doi.org/10.2337/diacare.17.2.152. This results in a single unitless AUC pre-intervention value, and a single AUC post-intervention value for each metabolic outcome response measure (glucose, insulin, etc).",
+                    "populationDescription": "Only three participants had data available for the mixed meal tolerance test",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "unitless",
+                    "timeFrame": "Change from Baseline to Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention Group (Jawbone Up Wrist Monitor)",
+                            "description": "Subjects will have clinic visits, home visits, and telephone visits. Subjects will be asked to wear a wrist monitor (Jawbone Up) for duration of the study, will meet with the study team to review Physical Activity Education and also be asked to wear the ActivPAL device to assess sitting time.\n\nJawbone Up: Jawbone Up is a wrist wore water resistant activity monitor.\n\nPhysical Activity Education: A study team member will discuss benefits of changing sitting habits and ways to make changes to personal habits.\n\nActivPAL: Devices measures postural changes over time. Participants will wear device for 7 days. The device measures time sitting, standing, and posture changes (i.e. sit-to-stand)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Control Group (No Wrist Monitor)",
+                            "description": "Subjects will make clinic visits. At home visits, subjects will meet with the study team to review Physical Activity Education and also be asked to wear the ActivPAL device to assess sitting time.\n\nPhysical Activity Education: A study team member will discuss benefits of changing sitting habits and ways to make changes to personal habits.\n\nActivPAL: Devices measures postural changes over time. Participants will wear device for 7 days. The device measures time sitting, standing, and posture changes (i.e. sit-to-stand)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "2"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "178.88",
+                                            "spread": "2144.12"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1008.38",
+                                            "spread": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Insulin Levels Area Under the Curve Based on a Mixed Meal Tolerance Test",
+                    "description": "The average area under the curve at week 12 minus the average area under the curve at baseline. Blood was collected at baseline (pre-mixed meal). Post-mixed meal it was collected at 15, 30, 45, 60, 90, 120 minutes. The Area Under the Curve (AUC) was computed using the trapezoidal rule as we have previously described (Burns et. al. 2012, Morris et al 2014). This results in a single AUC pre-intervention value, and a single AUC post-intervention value for each metabolic outcome measure (glucose, insulin, etc).\n\nThe Area Under the Curve (AUC) for each individual is calculated as a single unitless value that results from calculating the definite integral under a timecourse curve. This method has been widely used and cited in metabolic studies for more than two decades https://doi.org/10.2337/diacare.17.2.152. This results in a single unitless AUC pre-intervention value, and a single AUC post-intervention value for each metabolic outcome response measure (glucose, insulin, etc).",
+                    "populationDescription": "Only three participants had data available for the mixed meal tolerance test",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "unitless",
+                    "timeFrame": "Change from Baseline to Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention Group (Jawbone Up Wrist Monitor)",
+                            "description": "Subjects will have clinic visits, home visits, and telephone visits. Subjects will be asked to wear a wrist monitor (Jawbone Up) for duration of the study, will meet with the study team to review Physical Activity Education and also be asked to wear the ActivPAL device to assess sitting time.\n\nJawbone Up: Jawbone Up is a wrist wore water resistant activity monitor.\n\nPhysical Activity Education: A study team member will discuss benefits of changing sitting habits and ways to make changes to personal habits.\n\nActivPAL: Devices measures postural changes over time. Participants will wear device for 7 days. The device measures time sitting, standing, and posture changes (i.e. sit-to-stand)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Control Group (No Wrist Monitor)",
+                            "description": "Subjects will make clinic visits. At home visits, subjects will meet with the study team to review Physical Activity Education and also be asked to wear the ActivPAL device to assess sitting time.\n\nPhysical Activity Education: A study team member will discuss benefits of changing sitting habits and ways to make changes to personal habits.\n\nActivPAL: Devices measures postural changes over time. Participants will wear device for 7 days. The device measures time sitting, standing, and posture changes (i.e. sit-to-stand)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "2"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2623.43",
+                                            "spread": "1929.77"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1776.38",
+                                            "spread": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "POST_HOC",
+                    "title": "Change in HOMA-IR (Homeostatic Model Assessment of Insulin Resistance)",
+                    "description": "HOMA-IR (Homeostatic Model Assessment of Insulin Resistance) is calculated as fasting insulin (microU/L) x fasting glucose (nmol/L)/22.5. The average HOMA-IR at week 12 minus the average HOMA-IR at baseline. A lower score means a person is more sensitive to insulin, whereas a higher score indicates greater resistance to insulin. The HOMA-IR is a tool for calculating degree of insulin resistance. Given that this is a product of insulin and glucose values divided by a constant, there is no maximum score for this measure. The minimum score would be zero as neither insulin or glucose would drop below zero.",
+                    "populationDescription": "Only three participants had data available for the mixed meal tolerance test",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Change from baseline to week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention Group (Jawbone Up Wrist Monitor)",
+                            "description": "Subjects will have clinic visits, home visits, and telephone visits. Subjects will be asked to wear a wrist monitor (Jawbone Up) for duration of the study, will meet with the study team to review Physical Activity Education and also be asked to wear the ActivPAL device to assess sitting time.\n\nJawbone Up: Jawbone Up is a wrist wore water resistant activity monitor.\n\nPhysical Activity Education: A study team member will discuss benefits of changing sitting habits and ways to make changes to personal habits.\n\nActivPAL: Devices measures postural changes over time. Participants will wear device for 7 days. The device measures time sitting, standing, and posture changes (i.e. sit-to-stand)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Control Group (No Wrist Monitor)",
+                            "description": "Subjects will make clinic visits. At home visits, subjects will meet with the study team to review Physical Activity Education and also be asked to wear the ActivPAL device to assess sitting time.\n\nPhysical Activity Education: A study team member will discuss benefits of changing sitting habits and ways to make changes to personal habits.\n\nActivPAL: Devices measures postural changes over time. Participants will wear device for 7 days. The device measures time sitting, standing, and posture changes (i.e. sit-to-stand)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "2"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "96438.33",
+                                            "spread": "25698.46"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "63383.80",
+                                            "spread": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "12 weeks",
+            "description": "Note that only 3 of the 6 participants were tested with the mixed meal tolerance test and blood draws. Thus, only 3 were exposed to potential risks associated with these procedures.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Group 1",
+                    "description": "Subjects will have clinic visits, home visits, and telephone visits. Subjects will be asked to wear a wrist monitor (Jawbone Up) for duration of the study, will meet with the study team to review Physical Activity Education and also be asked to wear the ActivPAL device to assess sitting time.\n\nJawbone Up: Jawbone Up is a wrist wore water resistant activity monitor.\n\nPhysical Activity Education: A study team member will discuss benefits of changing sitting habits and ways to make changes to personal habits.\n\nActivPAL: Devices measures postural changes over time. Participants will wear device for 7 days. The device measures time sitting, standing, and posture changes (i.e. sit-to-stand).",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 3,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 3,
+                    "otherNumAffected": 1,
+                    "otherNumAtRisk": 3
+                },
+                {
+                    "id": "EG001",
+                    "title": "Group 2",
+                    "description": "Subjects will make clinic visits. At home visits, subjects will meet with the study team to review Physical Activity Education and also be asked to wear the ActivPAL device to assess sitting time.\n\nPhysical Activity Education: A study team member will discuss benefits of changing sitting habits and ways to make changes to personal habits.\n\nActivPAL: Devices measures postural changes over time. Participants will wear device for 7 days. The device measures time sitting, standing, and posture changes (i.e. sit-to-stand).",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 3,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 3,
+                    "otherNumAffected": 1,
+                    "otherNumAtRisk": 3
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Skin irritation",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Rash at the site of adhesive used to attach monitoring device",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 3
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 3
+                        }
+                    ]
+                },
+                {
+                    "term": "IV site irritation",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "skin irritation at the site of IV used for blood collection",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 2
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "limitationsAndCaveats": {
+                "description": "This is a very small sample and results are not generalizeable. It is a pilot study for feasibility only."
+            },
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "Amber Watts, PhD",
+                "organization": "University of Kansas",
+                "email": "amberwatts@ku.edu",
+                "phone": "785-864-2604"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The study is a behavioral intervention to reduce sitting/sedentary time in people with mild cognitive impairment (home- and telephone-based, using devices and activity education) rather than a drug or biologic; its aim is to change behavior and examine effects on health outcomes. \ue200cite\ue202turn1search2\ue201",
+        "Act: Key extracted details \u2014 title: \"Intervention to Reduce Sitting Time in Mild Cognitive Impairment\" (NCT02878486); interventions include wearable devices (Jawbone Up, ActivPAL) and physical activity education delivered to participants and their study partners; lead sponsor University of Kansas Medical Center. Because no drug or placebo is used, no drug lookup was required. \ue200cite\ue202turn1search2\ue202turn1search7\ue201",
+        "Reflect: Classification check \u2014 this is not a biologic or small-molecule disease-modifying therapy, nor a pharmacologic cognitive enhancer or a neuropsychiatric-symptom drug; it is a non-pharmacologic, behavioral/rehabilitative intervention (sedentary-reduction), so it fits the instruction case for 'N/A' (non-therapeutic/behavioral intervention). Supporting trial listings and descriptions are available on trial registries and summaries. \ue200cite\ue202turn1search2\ue202turn1search3\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

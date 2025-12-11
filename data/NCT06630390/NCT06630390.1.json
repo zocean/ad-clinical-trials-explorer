@@ -1,0 +1,810 @@
+{
+    "nct_id": "NCT06630390",
+    "title": "Randomized, Double-blind Trial of Daridorexant to Prevent Delirium After Heart Surgery",
+    "status": "COMPLETED",
+    "last_update_time": "2025-06-23",
+    "description_brief": "The goal of this phase 2 clinical trial is to demonstrate the feasibility of the current study methods and obtain preliminary data for an adequately powered trial of daridorexant with the aim of preventing delirium after heart surgery. The main aims this feasibility trial aims to answer are to demonstrate: (1) the feasibility of study recruitment; (2) the ability deliver study compounds to subjects according to the proposed methods; and (3) completeness of data capture; and (4) recording of potential adverse events.\n\nParticipants will: (1) complete a baseline visit; (2) take the study drug--either daridorexant or placebo--each of the first 3 nights after heart surgery; and (3) be evaluated for sleep and delirium each of the first three days after heart surgery.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "PREVENTION",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "IRB approval received on October 21, 2024, and the study was concluded on February 16, 2025 (date of last study evaluation).",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Daridorexant",
+                    "description": "Oral daridorexant 50 mg (or 25 mg, if taking a moderate 3A4 inhibitor) each of the first three nights after heart surgery.\n\nDaridorexant 50 mg: Administered consistent with labeling from the US Food and Drug Administration."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "Oral matching placebo each of the first three nights after heart surgery.\n\nPlacebo: Identical appearing to daridorexant"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "5"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "5"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "The study was closed after 11 subjects were enrolled as we had established feasibility.",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Daridorexant",
+                    "description": "Oral daridorexant 50 mg (or 25 mg, if taking a moderate 3A4 inhibitor) each of the first three nights after heart surgery."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo",
+                    "description": "Oral matching placebo each of the first three nights after heart surgery."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "5"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "6"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "11"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "67.9",
+                                            "spread": "2.9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "69.6",
+                                            "spread": "6.3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "68.8",
+                                            "spread": "4.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "calculatePct": false,
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "calculatePct": false,
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "11"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "calculatePct": false,
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "11"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Montreal Cognitive Assessment",
+                    "description": "The Montreal Cognitive Assessment (MoCA), version 8.1, provides a brief assessment of cognition. The total MoCA score ranges from 0 to 30, with lower scores indicating greater cognitive impairment. A total MoCA score less than 24 is consistent with mild cognitive impairment.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "26",
+                                            "spread": "2.4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "25.8",
+                                            "spread": "1.8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "25.9",
+                                            "spread": "2.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Delirium",
+                    "description": "In this feasibility trial, the primary outcome is rate of completion for delirium assessments--not whether patients developed delirium or the scores on delirium assessments. We aimed to evaluate subjects for delirium on each of the first three days after heart surgery using the Delirium Rating Scale, Revised-98, and the 3-minute Diagnostic Interview for the Confusion Assessment Method. Delirium based on DSM-5-TR diagnostic criteria would be diagnosed using the information from these two assessments. Below we report the number of subjects evaluated on each of the postoperative days.",
+                    "populationDescription": "We attempted to perform delirium assessments for subjects on each of the 3 first days after surgery.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "First 3 days after surgery",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Daridorexant",
+                            "description": "Oral daridorexant 50 mg (or 25 mg, if taking a moderate 3A4 inhibitor) each of the first three nights after heart surgery.\n\nDaridorexant 50 mg: Administered consistent with labeling from the US Food and Drug Administration."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Oral matching placebo each of the first three nights after heart surgery.\n\nPlacebo: Identical appearing to daridorexant"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "5"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "6"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Postoperative day 1",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Postoperative day 2",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Postoperative day 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Sleep Disturbance",
+                    "description": "When evaluating subjects on each of the first 3 days after surgery, we ask subjects to rate their sleep on the preceding night using Richards-Campbell Sleep Questionnaire. This scale includes 6 items (sleep-related domains), each scored using a visual analog scale, ranging from 0 to 100. Higher scores indicate better sleep. Given that this is a feasibility study, we report the number of subjects evaluated for sleep on each of the postoperative days.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "First 3 days after surgery",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Daridorexant",
+                            "description": "Oral daridorexant 50 mg (or 25 mg, if taking a moderate 3A4 inhibitor) each of the first three nights after heart surgery."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Oral matching placebo each of the first three nights after heart surgery."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "5"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "6"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Postoperative day 1",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Postoperative day 2",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Postoperative day 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "We evaluate for potential adverse events on each of the first three postoperative days.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Daridorexant",
+                    "description": "Oral daridorexant 50 mg (or 25 mg, if taking a moderate 3A4 inhibitor) each of the first three nights after heart surgery.\n\nDaridorexant 50 mg: Administered consistent with labeling from the US Food and Drug Administration.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 5,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 5,
+                    "otherNumAffected": 5,
+                    "otherNumAtRisk": 5
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Oral matching placebo each of the first three nights after heart surgery.\n\nPlacebo: Identical appearing to daridorexant",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 6,
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 6,
+                    "otherNumAffected": 6,
+                    "otherNumAtRisk": 6
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Subcortical stroke",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 5
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 6
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 5
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 6
+                        }
+                    ]
+                },
+                {
+                    "term": "Sleepiness",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 5,
+                            "numAffected": 5,
+                            "numAtRisk": 5
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 5,
+                            "numAffected": 5,
+                            "numAtRisk": 6
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 5,
+                            "numAffected": 5,
+                            "numAtRisk": 5
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 5,
+                            "numAffected": 5,
+                            "numAtRisk": 6
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 5
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 6
+                        }
+                    ]
+                },
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 5
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 6
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "Mark Oldham",
+                "organization": "University of Rochester Medical Center",
+                "email": "mark_oldham@urmc.rochester.edu",
+                "phone": "585-275-3592"
+            }
+        }
+    },
+    "target_category": "neuropsychiatric symptom improvement",
+    "drug": [
+        "daridorexant (QUVIVIQ) \u2014 dual orexin receptor antagonist (DORA), oral small-molecule hypnotic"
+    ],
+    "placebo": [
+        "placebo (matched)"
+    ],
+    "explanation_target": [
+        "Reason: The trial gives daridorexant (vs placebo) the first three nights after heart surgery to prevent delirium, an acute neuropsychiatric syndrome \u2014 the intervention is a sleep-promoting drug intended to reduce an acute neuropsychiatric outcome rather than to modify Alzheimer\u2019s pathology. (Trial title and description provided by user).",
+        "Act: Daridorexant is a dual orexin receptor antagonist (DORA), an orally administered small-molecule hypnotic approved for insomnia (brand name QUVIVIQ). It works by blocking orexin OX1/OX2 receptors to reduce wake drive and promote sleep. \ue200cite\ue202turn0search0\ue202turn0search4\ue201",
+        "Reflect: Mapping to the provided categories: it is not a biologic targeting AD pathology, nor a small molecule intended to target Alzheimer\u2019s pathology (disease-modifying). It is not primarily a cognitive enhancer in the Alzheimer\u2019s-disease sense. Its aim here is to prevent delirium (a neuropsychiatric/behavioral complication), so the appropriate category is 'neuropsychiatric symptom improvement'. This classification matches the trial objective (preventing delirium) and the drug\u2019s known mechanism (sleep-promoting DORA).",
+        "Web search results used: Idorsia product page for daridorexant / QUVIVIQ (approvals and description of mechanism). \ue200cite\ue202turn0search0\ue201 Drugs.com summary of QUVIVIQ/daridorexant mechanism and FDA approval history. \ue200cite\ue202turn0search4\ue202turn0search6\ue201",
+        "Notes / ambiguity: The trial focuses on postoperative delirium, not Alzheimer\u2019s disease. If you intended classification specifically for an Alzheimer\u2019s-disease trial context, note that this is an acute neuropsychiatric intervention rather than an Alzheimer\u2019s disease\u2013targeted therapy."
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The trial tests daridorexant, a sleep-promoting small molecule that works by blocking orexin (hypocretin) receptors (OX1/OX2) to reduce wake drive and promote sleep \u2014 this is a direct action on neural neurotransmitter receptors rather than on Alzheimer\u2019s pathology. \ue200cite\ue202turn0search1\ue202turn0search0\ue201",
+        "Act: Daridorexant is a dual orexin receptor antagonist (DORA, marketed as QUVIVIQ) \u2014 an oral small\u2011molecule hypnotic that selectively blocks orexin receptors to induce sleep; it is FDA\u2011approved for insomnia. The trial uses daridorexant to prevent postoperative delirium (a neuropsychiatric/symptom outcome) by manipulating orexinergic neurotransmission. \ue200cite\ue202turn0search0\ue202turn0search2\ue201",
+        "Reflect: Mapping to CADRO, the most specific fit is D) Neurotransmitter Receptors because the mechanism is receptor antagonism of orexin (a neurotransmitter/neuropeptide) receptors. Although the trial\u2019s clinical goal is neuropsychiatric symptom improvement (preventing delirium), that objective does not change the drug\u2019s biological target class. If the intent had been to classify by clinical goal rather than biological target, one might label it as symptomatic/neuropsychiatric, but per CADRO the receptor target is the correct category.",
+        "Web search results used: Idorsia product/daridorexant information describing mechanism and DORA classification; Drugs.com consumer/clinical summary describing daridorexant (Quviviq) mechanism and labeling; FDA Drug Trials Snapshot for QUVIVIQ (approval and indication). \ue200cite\ue202turn0search1\ue202turn0search0\ue202turn0search2\ue201",
+        "Notes/ambiguity: The trial addresses an acute neuropsychiatric outcome (postoperative delirium) rather than Alzheimer\u2019s disease modification. If you prefer a symptom\u2011based classification instead of CADRO\u2019s biological categories, indicate that and I will label it as a symptomatic/neuropsychiatric intervention rather than by receptor target."
+    ]
+}

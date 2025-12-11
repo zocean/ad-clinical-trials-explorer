@@ -1,0 +1,592 @@
+{
+    "nct_id": "NCT02423122",
+    "title": "A Clinical Study of Two Doses of a Selective p38 MAP Kinase Inhibitor, VX-745, to Evaluate the Effects of 12-Week Oral Twice-Daily Dosing on Amyloid Plaque Load as Assessed by Quantitative Dynamic 11C-PiB Positive Emission Tomography (PET) Amyloid Scanning",
+    "status": "COMPLETED",
+    "last_update_time": "2019-03-13",
+    "description_brief": "This study will assess the effects of administration of VX-745 for 12 weeks on amyloid plaque burden in Alzheimer's disease (AD). Subjects who meet entry criteria will undergo 11C-PiB (Carbon-11-labeled Pittsburgh Compound B) positron emission tomography (PET) at baseline and after 45 days of dosing with VX-745. Cognitive testing will also be conducted at baseline and day 45.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Neflamapimod (VX-745) Dose 1",
+                    "description": "Active Group 1: VX-745 40 mg twice daily\n\nVX-745: Orally-Active Selective P45 MAP Kinase inhibitor"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Neflamapimod (VX-745) Dose 2",
+                    "description": "Active Group 2: VX-745 125 mg twice daily\n\nVX-745: Orally-Active Selective P45 MAP Kinase inhibitor"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "9"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "7"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "9"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "7"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Neflamapimod (VX-745) Dose 1",
+                    "description": "Active Group 1: VX-745 40 mg twice daily\n\nVX-745: Orally-Active Selective P45 MAP Kinase inhibitor"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Neflamapimod (VX-745) Dose 2",
+                    "description": "Active Group 2: VX-745 125 mg twice daily\n\nVX-745: Orally-Active Selective P45 MAP Kinase inhibitor"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "9"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "7"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "16"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "FULL_RANGE",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "68",
+                                            "lowerLimit": "60",
+                                            "upperLimit": "76"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "65",
+                                            "lowerLimit": "60",
+                                            "upperLimit": "75"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "66.5",
+                                            "lowerLimit": "60",
+                                            "upperLimit": "76"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "Netherlands",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Percent Change From Baseline in Amyloid Plaque Burden by 11C-PiB PET",
+                    "description": "Percent change in global cortical amyloid specific PET signal (BPND)",
+                    "populationDescription": "All patients with baseline and Day 84 11C-PiB scan. One patient in 40 mg dose group could not cooperate for Day 84 PET scan due to having developed MRI-induced panic attack.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "Inter-Quartile Range",
+                    "unitOfMeasure": "percentage change from baseline",
+                    "timeFrame": "Baseline compared to following 12 weeks' dosing with VX-745",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Neflamapimod (VX-745) Dose 1",
+                            "description": "Active Group 1: VX-745 40 mg twice daily\n\nVX-745: Orally-Active Selective P45 MAP Kinase inhibitor"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Neflamapimod (VX-745) Dose 2",
+                            "description": "Active Group 2: VX-745 125 mg twice daily\n\nVX-745: Orally-Active Selective P45 MAP Kinase inhibitor"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-4.57",
+                                            "lowerLimit": "-11.65",
+                                            "upperLimit": "4.83"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4.57",
+                                            "lowerLimit": "0.56",
+                                            "upperLimit": "12.25"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of 11C-PiB Responders",
+                    "description": "Number of patients meeting protocol pre-specified definition of response: \\> 7% reduction in global cortical BPND",
+                    "populationDescription": "All patients with baseline and Day 84 11C-PiB scan. One patient in 40 mg dose group could not cooperate for Day 84 PET scan due to having developed MRI-induced panic attack.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Day 84",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Neflamapimod (VX-745) Dose 1",
+                            "description": "Active Group 1: VX-745 40 mg twice daily\n\nVX-745: Orally-Active Selective P45 MAP Kinase inhibitor"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Neflamapimod (VX-745) Dose 2",
+                            "description": "Active Group 2: VX-745 125 mg twice daily\n\nVX-745: Orally-Active Selective P45 MAP Kinase inhibitor"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Wechsler Memory Scale (WMS) Immediate Recall Composite",
+                    "description": "WMS immediate-recall composite score consisted of the sum of the scores on Logical Memory I, Verbal Paired Associates I, and Visual Reproduction I. The composite score ranges from 0 to 136; with higher score indicating better performance.",
+                    "populationDescription": "All patients with baseline and day 84 WMS testing data. One subject in 40 mg dose group did not complete the Day 84 WMS assessment after having developed MRI-induced panic attack.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline to Day 84",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Neflamapimod (VX-745) Dose 1",
+                            "description": "Active Group 1: VX-745 40 mg twice daily\n\nVX-745: Orally-Active Selective P45 MAP Kinase inhibitor"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Neflamapimod (VX-745) Dose 2",
+                            "description": "Active Group 2: VX-745 125 mg twice daily\n\nVX-745: Orally-Active Selective P45 MAP Kinase inhibitor"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7.0",
+                                            "spread": "11.0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "13.4",
+                                            "spread": "12.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Wechsler Memory Scale (WMS) Delayed Recall Composite",
+                    "description": "WMS delayed-recall composite score at each testing sessions consisted of the sum of the scores on Logical Memory II, Verbal Paired Associates II, and Visual Reproduction II. The composite score ranges from 0 to 136; with higher scores indicating better performance.",
+                    "populationDescription": "All patients with baseline and day 84 WMS testing data. One subject in 40 mg dose group did not complete the Day 84 WMS assessment after having developed MRI-induced panic attack.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Change from baseline to Day 84",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Neflamapimod (VX-745) Dose 1",
+                            "description": "Active Group 1: VX-745 40 mg twice daily\n\nVX-745: Orally-Active Selective P45 MAP Kinase inhibitor"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Neflamapimod (VX-745) Dose 2",
+                            "description": "Active Group 2: VX-745 125 mg twice daily\n\nVX-745: Orally-Active Selective P45 MAP Kinase inhibitor"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7.5",
+                                            "spread": "7.0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "10.4",
+                                            "spread": "11.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "40 mg Dose Group",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 9,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 9,
+                    "otherNumAffected": 6,
+                    "otherNumAtRisk": 9
+                },
+                {
+                    "id": "EG001",
+                    "title": "125 mg Dose Group",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 7,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 7,
+                    "otherNumAffected": 3,
+                    "otherNumAtRisk": 7
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Diarrhea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 9
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 7
+                        }
+                    ]
+                },
+                {
+                    "term": "Somnolence",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 7
+                        }
+                    ]
+                },
+                {
+                    "term": "Abdominal pain",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 7
+                        }
+                    ]
+                },
+                {
+                    "term": "Influenza like illness",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 7
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "LTE60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "John Alam",
+                "organization": "EIP Pharma",
+                "email": "jalam@eippharma.com"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "VX-745 (neflamapimod)"
+    ],
+    "placebo": [
+        "placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests VX-745, a selective p38\u03b1 MAP kinase inhibitor intended to affect Alzheimer's-related biology (amyloid plaque burden and synaptic dysfunction), so the intervention is a small-molecule drug targeting disease mechanisms rather than a biologic or purely symptomatic agent. \ue200cite\ue202turn0search7\ue202turn0search5\ue201",
+        "Act: Key details extracted from the description \u2014 VX-745 (neflamapimod) given orally for 12 weeks with amyloid 11C\u2011PiB PET as a biomarker and cognitive testing as outcomes; published reports and the clinical-trial registry identify VX-745 as neflamapimod and describe its p38 MAPK inhibitory mechanism and PET amyloid analyses. \ue200cite\ue202turn0search6\ue202turn0search0\ue201",
+        "Reflect: Classification check \u2014 because VX-745/neflamapimod is an orally active, small-molecule p38\u03b1 MAPK inhibitor developed to modify neuronal/synaptic pathology and influence amyloid-related biomarkers, it best fits the 'disease-targeted small molecule' category (not a biologic, cognitive-only enhancer, or neuropsychiatric symptomatic treatment). There is some cognitive testing in the study, but that is an outcome measure rather than evidence the drug is purely a cognitive enhancer. \ue200cite\ue202turn0search7\ue202turn0search1\ue201",
+        "Web search results used (brief): 1) EIP Pharma / press reporting on Phase 2a results for neflamapimod (VX-745) including amyloid PET outcomes. \ue200cite\ue202turn0search0\ue201 2) ALZFORUM summary of VX-745 (neflamapimod) clinical studies. \ue200cite\ue202turn0search1\ue201 3) Clinical-trial registry entry describing VX-745 (neflamapimod) dosing and study measures. \ue200cite\ue202turn0search6\ue201 4) PubMed article describing discovery/chemistry of VX-745 as a selective p38\u03b1 inhibitor. \ue200cite\ue202turn0search5\ue201 5) PubMed review/summary noting neflamapimod (VX-745) as a phase-2-ready oral small-molecule p38\u03b1 inhibitor for Alzheimer's. \ue200cite\ue202turn0search7\ue201"
+    ],
+    "agent_type": "F) Inflammation",
+    "explanation_agent": [
+        "Reason: The investigational drug VX-745 (neflamapimod) is a selective p38\u03b1 MAP kinase inhibitor \u2014 a stress-activated kinase that regulates pro-inflammatory cytokine production in microglia and other inflammatory signaling in the CNS, so the primary biological focus is modulation of neuroinflammation. \ue200cite\ue202turn0search0\ue202turn0search1\ue201",
+        "Act: Key extracted details \u2014 drug: VX-745 (neflamapimod), an orally active small-molecule p38\u03b1 MAPK inhibitor; trial measures included 11C\u2011PiB amyloid PET and cognition but the drug\u2019s mechanism is enzymatic inhibition of p38 MAPK (an inflammation-related pathway). Based on that mechanism the best CADRO match is F) Inflammation. \ue200cite\ue202turn0search0\ue202turn0search1\ue201",
+        "Reflect: Confirmation and alternatives \u2014 although the trial used amyloid PET as an outcome (and preclinical reports note effects on amyloid load and synaptic markers), those are downstream/linked effects; the drug\u2019s direct target is a kinase mediating inflammatory signaling rather than amyloid or tau proteins themselves, so F) Inflammation is the most specific CADRO category (not A) Amyloid beta or B) Tau). If multiple distinct primary targets had been specified, R) Multi-target would be considered, but here the primary/mechanistic target is p38 MAPK. \ue200cite\ue202turn0search0\ue202turn0search4\ue201",
+        "Web search results used (brief): 1) ALZFORUM summary of neflamapimod (VX-745) describing p38\u03b1 MAPK mechanism, CNS effects, and the PET studies. \ue200cite\ue202turn0search0\ue201 2) SelleckChem product/mechanism datasheet listing VX-745 as a potent selective p38\u03b1 inhibitor (IC50 ~10 nM). \ue200cite\ue202turn0search1\ue201 3) Vendor/datasheet summaries (Molnova / Selleck) with pharmacology and selectivity details for VX-745. \ue200cite\ue202turn0search3\ue202turn0search2\ue201 4) EIP Pharma / PR announcement summarizing Phase 2a study outcomes including amyloid PET signals. \ue200cite\ue202turn0search4\ue201"
+    ]
+}

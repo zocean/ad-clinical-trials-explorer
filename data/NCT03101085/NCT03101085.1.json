@@ -1,0 +1,1820 @@
+{
+    "nct_id": "NCT03101085",
+    "title": "S-Equol in Alzheimer's Disease 2 (SEAD2) Trial",
+    "status": "COMPLETED",
+    "last_update_time": "2024-07-16",
+    "description_brief": "By doing this study researchers hope to learn if S-equol, a compound that acts like estrogen in the body, causes an increase in mitochondrial activity. Researchers also hope to determine the safety and tolerability of a therapeutic dose of S-equol and whether or not it influences cognition.",
+    "description_detailed": "Enrolled participants with a diagnosis of Alzheimer's Disease (AD) will be randomized to receive either S-equol or placebo first, and then cross over to receive the opposite intervention. The study, therefore, consists of two treatment periods with randomly assigned treatment order. Specifically, subjects are randomized to either: (1) S-equol for one month, then placebo for one month; or (2) placebo for one month, then S-equol for one month.",
+    "phase": [
+        "PHASE1",
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "S-equol First, Then Placebo",
+                    "description": "This was a cross-over study. Each participant acted as their own control. The order of the interventions was randomized. Each participant spent one month in each intervention arm. In this group, participants initially received S-equol for one month, and at the conclusion of that arm they were switched to the placebo for one month. There was no washout period. The S-equol was provided as 50 mg capsules, which were taken twice daily."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo First, Then S-equol",
+                    "description": "This was a cross-over study. Each participant acted as their own control. The order of the interventions was randomized. Each participant spent one month in each intervention arm. In this group, participants initially received placebo for one month, and at the conclusion of that arm they were switched to S-equol for one month. There was no washout period. The S-equol was provided as 50 mg capsules, which were taken twice daily."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "20"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "20"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "20"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "19"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "S-equol First, Then Placebo",
+                    "description": "This group received S-equol for one month, and then crossed over to receive placebo for one month. There was no washout period."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo First, Then S-Equol",
+                    "description": "This group received placebo for one month, then crossed over to receive S-equol for one month. There was no washout period."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "20"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "20"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "40"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "76.7",
+                                            "spread": "7.2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "71.7",
+                                            "spread": "8.4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "74.2",
+                                            "spread": "8.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "21"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "19"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "40"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "38"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Cytochrome Oxidase/Citrate Synthase (COX/CS) Activity",
+                    "description": "Cytochrome oxidase (COX) was measured in platelet mitochondria as a pseudo-first order rate constant (sec-1/mg protein), which was determined as a Vmax, spectrophotometrically, by tracking the change in absorbance as reduced cytochrome c is oxidized to oxidized cytochrome C. Citrate synthase (CS) is a soluble mitochondrial matrix enzyme whose activity was determined spectrophotometrically as a Vmax (micromoles/mg protein). Reporting the COX activity as a ratio to CS activity takes mitochondrial mass into account, and normalizes the COX activity per the amount of mitochondria present in the assay sample, with units 1/(seconds multiplied by micromoles).",
+                    "populationDescription": "Due to the pandemic, 1 participant in the Placebo, Then S-equol group did not complete the analysis. This subject was excluded from this primary analysis, and all secondary analyses except for the safety analysis. As the order of the intervention does not matter, all 39 participants who contributed COX/CS data to the final analysis are included. The mean (SD) value reflects the mean of values obtained when the COX/CS value while on placebo was subtracted from the COX/CS score while on S-equol.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "1/(seconds multiplied by micromoles)",
+                    "timeFrame": "Column 1 is the value after completing S-equol minus the value after completing placebo. For S-equol then placebo, this is the Visit 3 minus the Visit 4 COX/CS value. For placebo then S-equol, this is the Visit 4 minus the Visit 3 COX/CS value.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Difference (on S-equol Minus on Placebo)",
+                            "description": "Value after completion of S-equol minus value after completion of placebo. For S-equol then placebo, this is the Visit 3 minus the Visit 4 COX/CS value. For placebo then S-equol, this is the Visit 4 minus the Visit 3 COX/CS value."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "S-equol",
+                            "description": "This is the average COX/CS measured after S-equol (at month 3 for those on S-equol then Placebo, at month 4 for those on Placebo then S-equol)"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Placebo",
+                            "description": "This is the average COX/CS measured after Placebo (at month 3 for those on Placebo then S-equol, at month 4 for those on S-equol then Placebo)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "39"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.0000049",
+                                            "spread": "0.000024"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.0000195",
+                                            "spread": "0.0000081"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0.0000245",
+                                            "spread": "0.0000258"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "As the order of the intervention does not matter, all 39 participants who contributed data to the final analysis are included together.",
+                            "nonInferiorityType": "OTHER",
+                            "nonInferiorityComment": "We performed a paired T-test analysis to ascertain whether the COX/CS activity while on S-equol was comparable or different than the COX/CS while on placebo. For each participant, the COX/CS value while on S-equol was subtracted from their COX/CS value while on placebo.",
+                            "pValue": ">0.05",
+                            "statisticalMethod": "Paired T-test"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Pattern of COX Activity Changes While on the Active Treatment Versus Placebo Arms of This Crossover Study.",
+                    "description": "Participants are defined as responders or non-responders depending on the slope of COX/CS activity change. Those in the \"Responder\" group have a greater slope of COX/CS activity change going from off- to on-S-equol as compared to going from on- to off-S-equol.",
+                    "populationDescription": "Only the 20 participants who had baseline then S-equol then placebo values contributed to this analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "timeFrame": "Visits 2, 3, 4",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "S-equol Then Placebo Subjects Only",
+                            "description": "Only subjects that received S-equol then placebo were used for this analysis. Those that received placebo then S-equol were excluded from this analysis."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Montreal Cognitive Assessment (MoCA)",
+                    "description": "Scale range: 0-30. A higher score indicates better global cognitive performance.",
+                    "populationDescription": "The one subject missing the COX/CS difference score was excluded from this analysis. The key measure is the difference score. Participants unable to contribute both S-equol and placebo scores were not included in the difference score analysis, but do contribute to the S-equol or placebo scores as available.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Score after completion of S-equol minus score after completion of placebo. For S-equol then placebo, this is the Visit 3 minus the Visit 4 MoCA score. For placebo then S-equol, this is the Visit 4 minus the Visit 3 MoCA score.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Difference (on S-equol Minus on Placebo)",
+                            "description": "This is the average within subject MoCA measure after S-equol minus after Placebo (at month 3 minus at month 4 for those on S-eqol then Placebo, at month 4 minus at month 3 for those on Placebo then S-equol)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "S-equol",
+                            "description": "This is the average MoCA measured after S-equol (at month 3 for those on S-equol then Placebo, at month 4 for those on Placebo then S-equol)"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Placebo",
+                            "description": "This is the average MoCA measured after Placebo (at month 3 for those on Placebo then S-equol, at month 4 for those on S-equol then Placebo)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "35"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "35"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "36"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.2",
+                                            "spread": "2.4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "12.3",
+                                            "spread": "6.3"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "12.0",
+                                            "spread": "6.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Alzheimer's Disease Assessment Scale-Cognitive Portion (ADASCog-11)",
+                    "description": "Scale range: 0-70. A lower score indicates better global cognitive performance.",
+                    "populationDescription": "The one subject missing the COX/CS difference score was excluded from this analysis. The key measure is the difference score. Participants unable to contribute both S-equol and placebo scores were not included in the difference score analysis, but do contribute to the S-equol or placebo scores as available.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Score after completion of S-equol minus score after completion of placebo. For S-equol then placebo, this is the Visit 3 minus the Visit 4 ADASCog score. For placebo then S-equol, this is the Visit 4 minus the Visit 3 ADASCog score.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Difference (on S-equol Minus on Placebo)",
+                            "description": "This is the average within subject ADAS-Cog measure after S-equol minus after Placebo (at month 3 minus at month 4 for those on S-equol then Placebo, at month 4 minus at month 3 for those on Placebo then S-equol)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "S-equol",
+                            "description": "This is the average ADAS-Cog measured after S-equol (at month 3 for those on S-equol then Placebo, at month 4 for those on Placebo then S-equol)"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Placebo",
+                            "description": "This is the average ADAS-Cog measured after placebo (at month 3 for those on placebo then S-equol then Placebo, at month 4 for those on S-equol then Placebo"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "36"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "36"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "36"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.1",
+                                            "spread": "5.5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "24.6",
+                                            "spread": "11.3"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "23.5",
+                                            "spread": "10.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Logical Memory Test 1 (LMT1) - Immediate Recall",
+                    "description": "Scale range: 0-25. A higher score indicates better memory function.",
+                    "populationDescription": "The one subject missing the COX/CS difference score was excluded from this analysis. The key measure is the difference score. Participants unable to contribute both S-equol and placebo scores were not included in the difference score analysis, but do contribute to the S-equol or placebo scores as available.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Score after completion of S-equol minus score after completion of placebo. For S-equol then placebo, this is the Visit 3 minus the Visit 4 LMT1 score. For placebo then S-equol, this is the Visit 4 minus the Visit 3 LMT1 score.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Difference (on S-equol Minus on Placebo)",
+                            "description": "Score after completion of S-equol minus score after completion of placebo. For S-equol then placebo, this is the Visit 3 minus the Visit 4 LMT1 score. For placebo then S-equol, this is the Visit 4 minus the Visit 3 LMT1 score."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "S-equol",
+                            "description": "This is the average LMT1 score measured after S-equol (at month 3 for those on S-equol then Placebo, at month 4 for those on Placebo then S-equol)"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Placebo",
+                            "description": "This is the average ADAS-Cog LMT1 score measured after S-equol (at month 3 for those on Placebo then S-equol, at month 4 for those on S-equol then Placebo)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "36"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "36"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "36"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.2",
+                                            "spread": "2.9"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4.1",
+                                            "spread": "4.2"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "3.9",
+                                            "spread": "3.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Logical Memory Test 2 (LMT2) - Delayed Recall",
+                    "description": "Scale range: 0-25. A higher score indicates better memory performance.",
+                    "populationDescription": "The one subject missing the COX/CS difference score was excluded from this analysis. The key measure is the difference score. Participants unable to contribute both S-equol and placebo scores were not included in the difference score analysis, but do contribute to the S-equol or placebo scores as available.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Score after completion of S-equol minus score after completion of placebo. For S-equol then placebo, this is the Visit 3 minus the Visit 4 LMT2 score. For placebo then S-equol, this is the Visit 4 minus the Visit 3 LMT2 score.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Difference (on S-equol Minus on Placebo)",
+                            "description": "Score after completion of S-equol minus score after completion of placebo. For S-equol then placebo, this is the Visit 3 minus the Visit 4 LMT2 score. For placebo then S-equol, this is the Visit 4 minus the Visit 3 LMT2 score."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "S-equol",
+                            "description": "This is the average LMT2 measured after S-equol (at month 3 for those on S-equol then Placebo, at month 4 for those on Placebo then S-equol)"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Placebo",
+                            "description": "This is the average LMT2 measured after Placebo (at month 3 for those on Placebo then S-equol, at month 4 for those on S-equol S-equol then Placebo)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "36"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "36"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "36"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.2",
+                                            "spread": "2.0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.9",
+                                            "spread": "3.4"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "1.8",
+                                            "spread": "2.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Stroop Color Test Score",
+                    "description": "Scale range: 0-unlimited. A higher score indicates better executive function.",
+                    "populationDescription": "The one subject missing the COX/CS difference score was excluded from this analysis. The key measure is the difference score. Participants unable to contribute both S-equol and placebo scores were not included in the difference score analysis, but do contribute to the S-equol or placebo scores as available.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Score after completion of S-equol minus score after completion of placebo. For S-equol then placebo, this is the Visit 3 minus the Visit 4 Stroop Color Test score. For placebo then S-equol, this is the Visit 4 minus the Visit 3 Stroop Color Test score.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Difference (on S-equol Minus on Placebo)",
+                            "description": "Score after completion of S-equol minus score after completion of placebo. For S-equol then placebo, this is the Visit 3 minus the Visit 4 Stroop Color Test score. For placebo then S-equol, this is the Visit 4 minus the Visit 3 Stroop Color Test score."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "S-equol",
+                            "description": "This is the average Stroop Color Test score measured after S-equol (at month 3 for those on S-equol then Placebo, at month 4 for those on Placebo then S-equol)"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Placebo",
+                            "description": "This is the average Stroop Color Test score measured after S-equol (at month 3 for those on Placebo then S-equol, at month 4 for those on S-equol then Placebo)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "34"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "34"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "35"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.1",
+                                            "spread": "5.8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "40.0",
+                                            "spread": "20.9"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "39.3",
+                                            "spread": "18.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Stroop Word Test",
+                    "description": "Scale range: 0-unlimited. A higher score indicates better executive function.",
+                    "populationDescription": "The one subject missing the COX/CS difference score was excluded from this analysis. The key measure is the difference score. Participants unable to contribute both S-equol and placebo scores were not included in the difference score analysis, but do contribute to the S-equol or placebo scores as available.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Score after completion of S-equol minus score after completion of placebo. For S-equol then placebo, this is the Visit 3 minus the Visit 4 Stroop Word Test score. For placebo then S-equol, this is the Visit 4 minus the Visit 3 Stroop Word Test score.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Difference (on S-equol Minus on Placebo)",
+                            "description": "Score after completion of S-equol minus score after completion of placebo. For S-equol then placebo, this is the Visit 3 minus the Visit 4 Stroop Word score. For placebo then S-equol, this is the Visit 4 minus the Visit 3 Stroop Word score."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "S-equol",
+                            "description": "This is the average Stroop Word score measured after S-equol (at month 3 for those on S-equol then Placebo, at month 4 for those on Placebo then S-equol)"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Placebo",
+                            "description": "This is the average Stroop Word score measured after placebo (at month 3 for those on Placebo then S-equol, and at month 4 for those on S-equol then placebo)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "35"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "35"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "35"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.1",
+                                            "spread": "9.5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "56.1",
+                                            "spread": "23.1"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "56.3",
+                                            "spread": "21.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Stroop Interference Test",
+                    "description": "Scale range: 0-unlimited. A higher score indicates better executive function.",
+                    "populationDescription": "The one subject missing the COX/CS difference score was excluded from this analysis. The key measure is the difference score. Participants unable to contribute both S-equol and placebo scores were not included in the difference score analysis, but do contribute to the S-equol or placebo scores as available.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Score after completing S-equol minus score after completing placebo. For S-equol then placebo, this is the Visit 3 minus the Visit 4 Stroop Interference score. For placebo then S-equol, this is the Visit 4 minus the Visit 3 Stroop Interference score.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Difference (on S-equol Minus on Placebo)",
+                            "description": "Score after completion of S-equol minus score after completion of placebo. For S-equol then placebo, this is the Visit 3 minus the Visit 4 Stroop Interference score. For placebo then S-equol, this is the Visit 4 minus the Visit 3 Stroop Interference score."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "S-equol",
+                            "description": "This is the average Stroop Interference score measured after S-equol (at month 3 for those on S-equol then Placebo, at month 4 for those on Placebo then S-equol)"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Placebo",
+                            "description": "This is the average Stroop Interference score measured after Placebo (at month 3 for those on Placebo then S-equol, at month 4 for those on S-equol then Placebo)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.2",
+                                            "spread": "6.8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "14.5",
+                                            "spread": "7.4"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "15.3",
+                                            "spread": "8.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Number of Participants With Adverse Events",
+                    "description": "List of adverse events as reported over the course of the study (safety labs, physical and neurological exams, vital signs, signs and symptoms).",
+                    "populationDescription": "All 40 enrolled participants contributed to the safety data",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "timeFrame": "4 Months: From Visit 1 (Day 0) through Visit 1 (end of month 1, +/- 7 days), Visit 2 (end of month 2, +/- 7 days), Visit 3 (end of month 3, +/- 7days), and Post-Interventions Phone Call (end of month 4, +/- 7 days)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Prior to Starting Drug or Placebo",
+                            "description": "This group applies to the Lead-in period, which includes the period 1 month (+/- 7 days) between the screening visit and starting the first intervention."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "While on S-equol",
+                            "description": "This group includes adverse events while on S-equol, regardless of treatment order. Some received S-equol then placebo, and some received placebo then S-equol. All subjects contributed to each group; 20 who started on S-equol and crossed over to placebo, and 20 who started on placebo and crossed over to S-equol. 40 represents the sum of both these arms, as all received S-equol."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "While on Placebo",
+                            "description": "This group includes adverse events while on placebo, regardless of treatment order. Some received S-equol then placebo, and some received placebo then S-equol. All subjects contributed to each group; 20 who started on S-equol and crossed over to placebo, and 20 who started on placebo and crossed over to S-equol. 40 represents the sum of both these arms, as all received placebo."
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "After Completing Both Drug and Placebo",
+                            "description": "This applies to the post-interventions observation period, which took place 1 month (+/- 7 days) after completing the second intervention arm."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "40"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "40"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "40"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "40"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "4 months: From Visit 1 (Day 0) through Visit 1 (end of month 1, +/- 7 days), Visit 2 (end of month 2, +/- 7 days), Visit 3 (end of month 3, +/- 7days), and Post-Interventions Phone Call (end of month 4, +/- 7 days)",
+            "description": "Any untoward or unfavorable medical occurrence in a participant, including any abnormal sign (for example, abnormal physical exam or laboratory finding), symptom, or disease, temporally associated with the participant's participation in the research, whether or not considered related to the participant's participation in the research.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Prior to Starting Drug or Placebo",
+                    "description": "This includes all 40 participants, prior to the initiation of any treatment (S-equol or placebo).",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 40,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 40,
+                    "otherNumAffected": 1,
+                    "otherNumAtRisk": 40
+                },
+                {
+                    "id": "EG001",
+                    "title": "While on S-equol",
+                    "description": "This includes all 40 participants while receiving S-equol 50mg twice daily for one month.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 40,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 40,
+                    "otherNumAffected": 8,
+                    "otherNumAtRisk": 40
+                },
+                {
+                    "id": "EG002",
+                    "title": "While on Placebo",
+                    "description": "This includes all 40 participants while receiving placebo twice daily for one month.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 40,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 40,
+                    "otherNumAffected": 8,
+                    "otherNumAtRisk": 40
+                },
+                {
+                    "id": "EG003",
+                    "title": "After Completing Both Drug and Placebo",
+                    "description": "This includes all 40 participants following completion of their courses of both S-equol and placebo, regardless of treatment order.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 40,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 40,
+                    "otherNumAffected": 4,
+                    "otherNumAtRisk": 40
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Ear and labyrinth disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Food Allergy",
+                    "organSystem": "Immune system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Gastroesophageal Acid Reflux",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 0
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Diarrhea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Fecal Impaction",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Bradycardia",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood Pressure Change",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Vasovagal Event",
+                    "organSystem": "Surgical and medical procedures",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Bruise",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Muscle Strain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Osteoporosis",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Tooth Extraction",
+                    "organSystem": "Surgical and medical procedures",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Retina Procedure",
+                    "organSystem": "Surgical and medical procedures",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Increased Urinary Frequency",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Kidney Stone",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Cough",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary Tract Infection",
+                    "organSystem": "Infections and infestations",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Viral Respiratory Infection/Cold",
+                    "organSystem": "Infections and infestations",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Tooth Abscess",
+                    "organSystem": "Infections and infestations",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        }
+                    ]
+                },
+                {
+                    "term": "Gum Infection",
+                    "organSystem": "Infections and infestations",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 40
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 40
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Dr. Russell Swerdlow",
+                "organization": "University of Kansas Medical Center",
+                "email": "rswerdlow@kumc.edu",
+                "phone": "913-588-0970"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "S-equol (AUS-131)"
+    ],
+    "placebo": [
+        "Placebo"
+    ],
+    "explanation_target": [
+        "Reason: The intervention S\u2011equol is a small molecule (a soy isoflavone metabolite / enantiomer) that acts as a selective estrogen receptor\u2011\u03b2 (ER\u03b2) agonist and is being tested to modulate mitochondrial function \u2014 i.e., targeting a disease-related pathway rather than serving solely as a symptomatic cognitive stimulant. \ue200cite\ue202turn0search3\ue202turn0search6\ue201",
+        "Act (trial details & evidence): The SEAD / SEAD2 trials test oral S\u2011equol versus placebo in people with Alzheimer\u2019s disease to assess whether S\u2011equol increases mitochondrial activity (platelet cytochrome oxidase activity), and to determine safety/tolerability and effects on cognition. The protocol records identify the drug as S\u2011equol (also referenced as AUS\u2011131) and describe doses and crossover/phase 1\u20132 designs. \ue200cite\ue202turn1search2\ue202turn1search1\ue201",
+        "Mechanism: Preclinical and human studies describe S\u2011equol as a non\u2011hormonal ER\u03b2 ligand produced from daidzein that can potentiate mitochondrial enzymes and bioenergetic function in brain and peripheral cells \u2014 a mechanistic rationale for disease\u2011targeted biological effect in AD. This supports classification as a disease\u2011targeted small molecule rather than a biologic or pure symptomatic cognitive enhancer. \ue200cite\ue202turn0search7\ue202turn0search5\ue201",
+        "Reflect: Other plausible categories considered \u2014 cognitive enhancer or neuropsychiatric symptom treatment \u2014 are less fitting because the stated primary outcome is change in mitochondrial/biomarker activity (disease biology) and the compound is a synthetic small molecule phytoestrogen, not a biologic (e.g., antibody) or a symptomatic neuropsychiatric drug. Therefore the best fit is 'disease-targeted small molecule'. \ue200cite\ue202turn1search6\ue202turn0search2\ue201",
+        "Web search sources used (key items): Clinical trial records for SEAD / SEAD2 (trial descriptions and design). \ue200cite\ue202turn1search2\ue202turn1search1\ue201; Peer\u2011reviewed studies/reviews establishing S\u2011equol as an ER\u03b2\u2011selective small molecule and reporting mitochondrial effects and safety. \ue200cite\ue202turn0search3\ue202turn0search5\ue202turn0search6\ue201"
+    ],
+    "agent_type": "J) Metabolism and Bioenergetics",
+    "explanation_agent": [
+        "Reason: The investigational compound S\u2011equol (AUS\u2011131) is a small\u2011molecule, S\u2011enantiomer soy isoflavone that acts as a selective estrogen receptor\u2011\u03b2 (ER\u03b2) agonist and has been shown in preclinical work to potentiate mitochondrial enzymes and bioenergetic function \u2014 the trial's stated primary biological focus is increasing mitochondrial activity (platelet cytochrome oxidase), i.e., targeting cellular metabolism/bioenergetics rather than a purely symptomatic neurotransmitter effect. \ue200cite\ue202turn0search0\ue202turn1search6\ue201",
+        "Act: Trial details and evidence extracted: the SEAD/SEAD2 program tests oral S\u2011equol versus placebo in AD participants to assess mitochondrial activity (platelet cytochrome oxidase), safety/tolerability, and cognitive effects (phase 1/2 crossover designs; NCT03101085; a published pilot biomarker trial and related trial reports describe COX activity endpoints). These trial records and the pilot study document the disease\u2011targeted mitochondrial outcome measure. \ue200cite\ue202turn0search2\ue202turn1search2\ue201",
+        "Reflect: CADRO mapping \u2014 because the intervention is intended to modulate mitochondrial enzymes, bioenergetics and metabolic pathways in AD, the closest and most specific CADRO category is J) Metabolism and Bioenergetics. Although S\u2011equol is an ER\u03b2 ligand (a hormone receptor interaction), the trial's mechanistic rationale and primary biomarker target are mitochondrial/metabolic, so 'J' is a better fit than L) Growth Factors and Hormones. No evidence indicates multiple distinct CADRO targets that would require 'R) Multi\u2011target'. \ue200cite\ue202turn0search0\ue202turn1search6\ue201",
+        "Web search sources (key items used to classify): 1) S\u2011equol as an ER\u03b2\u2011selective enantiomer (pharmacology). \ue200cite\ue202turn0search0\ue201 2) Preclinical and translational studies showing S\u2011equol or phytoSERM treatments potentiate brain mitochondrial enzymes (PDH, \u03b1KGDH, COX) and bioenergetics. \ue200cite\ue202turn1search6\ue201 3) Published single\u2011arm pilot trial in AD measuring platelet cytochrome oxidase activity after S\u2011equol treatment. \ue200cite\ue202turn1search2\ue201 4) SEAD2 clinicaltrials.gov record (NCT03101085) describing the Phase 1/2 crossover testing S\u2011equol to assess mitochondrial activity, safety/tolerability, and cognition. \ue200cite\ue202turn0search2\ue201 5) Conference/trial report summarizing initial SEAD results and rationale. \ue200cite\ue202turn0search1\ue201"
+    ]
+}

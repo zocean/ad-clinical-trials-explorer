@@ -1,0 +1,577 @@
+{
+    "nct_id": "NCT01518374",
+    "title": "Clinical Evaluation of Florbetapir F 18 (18F-AV-45)",
+    "status": "COMPLETED",
+    "last_update_time": "2018-06-22",
+    "description_brief": "This protocol is designed to standardize imaging studies using florbetapir F 18 PET to provide information on amyloid burden in subjects participating in other studies (companion protocol) such as longitudinal studies of aging and studies of biomarkers for neurodegenerative diseases.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "This was a standardized imaging protocol designed to support companion studies where amyloid imaging was used as a biomarker in longitudinal studies of aging or studies of biomarkers for neurodegenerative diseases. Subjects had to meet additional inclusion/exclusion criteria for the companion protocol before being injected and imaged under A14.",
+            "recruitmentDetails": "All enrolled subjects who received an injection of florbetapir and completed safety assessment were considered to have completed the study.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Florbetapir-PET Scans",
+                    "description": "Florbetapir F 18: 370 MBq (10 mCi)"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1768"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1761"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Protocol Violation",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Florbetapir-PET Scans",
+                    "description": "Florbetapir F 18: 370 MBq (10 mCi)"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "1768"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "populationDescription": "6 participants did not have baseline age in the database",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1762"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "68.3",
+                                            "spread": "13.43"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1768"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "920"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "848"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1768"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "28"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "233"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1487"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1768"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1768"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants Experiencing Treatment-emergent Adverse Events Considered Related to Florbetapir Administration",
+                    "description": "Frequency of treatment-emergent adverse events considered related to florbetapir administration by the study investigator. Related events with a frequency \\> 0.2% are reported.\n\n(note: all treatment-emergent adverse events, regardless of relatedness designation, are reported in \"Adverse Events\" section below)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "48 hours",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Florbetapir-PET Scans",
+                            "description": "Florbetapir F 18: 370 MBq (10 mCi)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "1768"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Headache",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "21"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Injection site pain",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Dizziness",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Nausea",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Fatigue",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Back pain",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Dry mouth",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0.4",
+            "timeFrame": "Within 48 hours of florbetapir injection",
+            "description": "Note: adverse events results differ from results reported above because this section reports ALL adverse events, regardless of relatedness designation by the investigator.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Florbetapir-PET Scans",
+                    "description": "Florbetapir F 18: 370 MBq (10 mCi)",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 1768,
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 1768,
+                    "otherNumAffected": 111,
+                    "otherNumAtRisk": 1768
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Ischaemic stroke",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (17.1)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 1768
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (17.1)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 47,
+                            "numAtRisk": 1768
+                        }
+                    ]
+                },
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA (17.1)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 14,
+                            "numAtRisk": 1768
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA (17.1)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 12,
+                            "numAtRisk": 1768
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (17.1)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 10,
+                            "numAtRisk": 1768
+                        }
+                    ]
+                },
+                {
+                    "term": "Back pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA (17.1)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 11,
+                            "numAtRisk": 1768
+                        }
+                    ]
+                },
+                {
+                    "term": "Injection site pain",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA (17.1)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 8,
+                            "numAtRisk": 1768
+                        }
+                    ]
+                },
+                {
+                    "term": "Dry mouth",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA (17.1)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 9,
+                            "numAtRisk": 1768
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "GT60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Chief Medical Officer",
+                "organization": "Avid Radiopharmaceuticals, Inc.",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "Florbetapir F 18 (18F\u2011AV\u201145) \u2014 radioactive PET tracer; brand name: AMYVID"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The protocol describes use of florbetapir F 18 (18F\u2011AV\u201145) PET to measure amyloid burden (i.e., an imaging/diagnostic agent), not to treat disease. Florbetapir is a radioactive PET ligand that binds beta\u2011amyloid neuritic plaques. \ue200cite\ue202turn0search8\ue202turn0search3\ue201",
+        "Act: Florbetapir F 18 is marketed as AMYVID and is FDA\u2011approved for PET imaging to estimate beta\u2011amyloid neuritic plaque density in adults being evaluated for cognitive decline; it is used as an adjunct diagnostic/biomarker and its label and manufacturer materials state it is NOT a therapeutic and is not established for monitoring response to therapies. \ue200cite\ue202turn0search5\ue202turn0search4\ue201",
+        "Reflect: Because the intervention is a diagnostic PET tracer (imaging companion protocol) rather than a therapeutic biologic or small molecule intended to modify pathology or improve cognition/behavior, the trial does not fit any of the four therapeutic categories (disease\u2011targeted biologic, disease\u2011targeted small molecule, cognitive enhancer, neuropsychiatric symptom improvement) and is therefore classified as 'N/A'. \ue200cite\ue202turn0search8\ue202turn0search5\ue201",
+        "Web search results cited: PubMed/PMC evaluation of florbetapir PET for amyloid burden (florbetapir F18 / 18F\u2011AV\u201145). \ue200cite\ue202turn0search8\ue201",
+        "Web search results cited: AMYVID (Florbetapir F 18) product/indication information from Eli Lilly / AMYVID site and FDA approval/press release. \ue200cite\ue202turn0search4\ue202turn0search5\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

@@ -1,0 +1,611 @@
+{
+    "nct_id": "NCT04851691",
+    "title": "A Pragmatic Randomized-controlled Trial of a Multi-pronged Electronic Health Record-based Clinical Decision Support Tool to Reduce Low-value Antipsychotic Prescriptions Among Older Adults With Alzheimer's and Related Dementias",
+    "status": "COMPLETED",
+    "last_update_time": "2024-08-19",
+    "description_brief": "The goal of this study will be to design, implement and test the impact of a quality improvement (QI) intervention that uses an EHR CDS tool among physicians newly ordering an antipsychotic medication for older adults with ADRD. The study team hypothesizes that the intervention will reduce each participating clinician's pill days per patient prescribed.",
+    "description_detailed": "Importance: Among patients with Alzheimer's disease and its related dementias (ADRD) with behavioral disturbances, antipsychotic prescriptions have limited efficacy and substantially increase risk of death. Despite an FDA 2005 \"black box\" warning and multiple professional physician society guidelines discouraging their use, physicians continue to frequently prescribe antipsychotic medications as first-line therapy for behavioral disturbances among patients with ADRD.\n\nObjective: This study will measure the impact of a multi-pronged electronic health record (EHR) clinical decision support (CDS) tool intervention to reduce physician prescriptions of new antipsychotic medications among older adults with ADRD.\n\nDesign, Setting, and Participants: Utilizing a pragmatic parallel cluster-randomized trial design, the study will randomize eligible physicians from a large urban academic medical center to either receive an EHR CDS tool (intervention) or not (control) when they prescribe a new antipsychotic medication during a visit with a patient with ADRD. The intervention will include three components: (1) alerts the prescriber that antipsychotic prescriptions increase mortality; (2) offers non-pharmacological behavioral resources for caregivers; and if the prescriber does not cancel the order (3) auto-defaults the prescription to contain the lowest dose and number of pills (n=30) without refills. In addition, the PI will email all providers randomized to the intervention arm in order to make them aware of the components of this intervention and its motivation. Acknowledging the clinical complexity of this vulnerable patient population, the multidisciplinary study team attempted to design the intervention to maximize impact while minimizing clinician burden. Over a one-year timeframe, the study team will compare the cumulative total of new antipsychotic pill-days prescribed (primary outcome) by physicians in the intervention group versus in the control group.\n\nHypothesis: This pragmatic trial will advance understanding of how a multi-pronged EHR CDS tool can potentially reduce harmful, low-value care among older adults with ADRD.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "HEALTH_SERVICES_RESEARCH",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "Patients were enrolled into the study when an eligible provider initiated a new antipsychotic prescription (e.g., Quetiapine, Olanzapine, Risperidone, Aripiprazole, Haloperidol, Clozapine) during a patient visit. Eligible providers were assigned an arm of the study based on their 2019 new antipsychotic orders for this population. Patients were enrolled into each arm based on the providers arm assignment. Healthcare Providers were not enrolled in the study.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "EHR CDS Tool",
+                    "description": "Patients with an encounter in which the physician attempts to place an order for a new antipsychotic prescription. Physician has been assigned to the EHR CDS tool.\n\nThe three-pronged electronic health record clinical decision support tool \"pops up\": (1) Alerting clinicians that antipsychotic prescriptions increase patient mortality; (2) Offering non-pharmacological behavioral resources for caregivers via a link to the IDEA! strategy resources on how caregivers can best manage a patient's behavioral disturbance non-pharmacologically, which will be available in the EHR to include in the patient's after visit summary; and (3) Defaulting prescriptions to a low supply of pills in to order to minimize harm. In addition, the PI will email all providers randomized to the intervention arm in order to make them aware of the components of this intervention and its motivation."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Control",
+                    "description": "Patients with an encounter in which the physician attempts to place an order for a new antipsychotic prescription. Physician has been assigned to the control.\n\nUsual Care: Patients will receive usual care from their physicians."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "67"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "91"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "67"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "91"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "Providers were not assessed for baseline",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "EHR CDS Tool",
+                    "description": "Patients with an encounter in which the physician attempts to place an order for a new antipsychotic prescription. Physician has been assigned to the EHR CDS tool.\n\nMulti-pronged electronic health record (EHR) clinical decision support (CDS) tool intervention to reduce physician prescriptions of new antipsychotic medications among older adults with ADRD\n\nEHR CDS: When a clinician initiates a new antipsychotic prescription for a patient with dementia, a three-pronged electronic health record clinical decision support tool \"pops up\": (1) Alerting clinicians that antipsychotic prescriptions increase patient mortality; (2) Offering non-pharmacological behavioral resources for caregivers via a link to the IDEA! strategy resources on how caregivers can best manage a patient's behavioral disturbance non-pharmacologically, which will be available in the EHR to include in the patient's after visit summary; and (3) Defaulting prescriptions to a low supply of pills in to order to minimize harm. In addition, the PI will email all providers randomized to the intervention arm in order to make them aware of the components of this intervention and its motivation."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Control",
+                    "description": "Patients with an encounter in which the physician attempts to place an order for a new antipsychotic prescription. Physician has been assigned to the control.\n\nPhysicians will not receive intervention and perform duties as usual.\n\nUsual Care: Patients will receive usual care from their physicians."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "67"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "91"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "158"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "81.19",
+                                            "spread": "15.14"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "84.78",
+                                            "spread": "11.77"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "83.26",
+                                            "spread": "11.73"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "41"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "65"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "106"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "52"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "52"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "70"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "122"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "16"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "20"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race/Ethnicity, Customized",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "Race Category",
+                            "categories": [
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "12"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Other Race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "10"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "45"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "63"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "108"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "19"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Cumulative Total of New Antipsychotic Pill-days Prescribed",
+                    "description": "Cumulative total of new antipsychotic prescription days supplied by clinicians per eligible patient in the 12 months after the intervention rollout date compared to the prior 12-months",
+                    "populationDescription": "Patients that received a new antipsychotic prescription (e.g., Quetiapine, Olanzapine, Risperidone, Aripiprazole, Haloperidol, Clozapine) from an eligible provider.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "New antipsychotic prescription days",
+                    "timeFrame": "12 month time point",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "EHR CDS Tool",
+                            "description": "Patients with an encounter in which the physician attempts to place an order for a new antipsychotic prescription. Physician has been assigned to the EHR CDS tool.\n\nMulti-pronged electronic health record (EHR) clinical decision support (CDS) tool intervention to reduce physician prescriptions of new antipsychotic medications among older adults with ADRD\n\nEHR CDS: When a clinician initiates a new antipsychotic prescription for a patient with dementia, a three-pronged electronic health record clinical decision support tool \"pops up\": (1) Alerting clinicians that antipsychotic prescriptions increase patient mortality; (2) Offering non-pharmacological behavioral resources for caregivers via a link to the IDEA! strategy resources on how caregivers can best manage a patient's behavioral disturbance non-pharmacologically, which will be available in the EHR to include in the patient's after visit summary; and (3) Defaulting prescriptions to a low supply of pills in to order to minimize harm. In addition, the PI will email all providers randomized to the intervention arm in order to make them aware of the components of this intervention and its motivation."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Control",
+                            "description": "Patients with an encounter in which the physician attempts to place an order for a new antipsychotic prescription. Physician has been assigned to the control.\n\nPhysicians will not receive intervention and perform duties as usual.\n\nUsual Care: Patients will receive usual care from their physicians."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "67"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "91"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12569"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25916"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Number of Patients Who Receive Handout",
+                    "description": "Number of patients who receive the non-Pharmacologic IDEA Strategy handout at 12 month time point comparing the intervention vs. control",
+                    "populationDescription": "All participants enrolled in the study were eligible to receive the non-Pharmacologic IDEA Strategy handout",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "12 month time point",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "EHR CDS Tool",
+                            "description": "Patients with an encounter in which the physician attempts to place an order for a new antipsychotic prescription. Physician has been assigned to the EHR CDS tool.\n\nMulti-pronged electronic health record (EHR) clinical decision support (CDS) tool intervention to reduce physician prescriptions of new antipsychotic medications among older adults with ADRD\n\nEHR CDS: When a clinician initiates a new antipsychotic prescription for a patient with dementia, a three-pronged electronic health record clinical decision support tool \"pops up\": (1) Alerting clinicians that antipsychotic prescriptions increase patient mortality; (2) Offering non-pharmacological behavioral resources for caregivers via a link to the IDEA! strategy resources on how caregivers can best manage a patient's behavioral disturbance non-pharmacologically, which will be available in the EHR to include in the patient's after visit summary; and (3) Defaulting prescriptions to a low supply of pills in to order to minimize harm. In addition, the PI will email all providers randomized to the intervention arm in order to make them aware of the components of this intervention and its motivation."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Control",
+                            "description": "Patients with an encounter in which the physician attempts to place an order for a new antipsychotic prescription. Physician has been assigned to the control.\n\nPhysicians will not receive intervention and perform duties as usual.\n\nUsual Care: Patients will receive usual care from their physicians."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "67"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "91"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Number of Patients With ER Visit",
+                    "description": "Number of patients with at least one emergency department visit within 90 days of being exposed to the intervention",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "90 days",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Number of Patients With Hospitalization",
+                    "description": "Number of patients with at least one hospitalization within 90 days of being exposed to the intervention",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "90 days",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Hospitalizations (Including Psychiatric Hospitalizations)",
+                    "description": "Hospitalizations (including psychiatric hospitalizations) within 90 days of being exposed to the intervention",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "90 days",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Death Within 90 Days After Enrollment",
+                    "description": "Death within 90 days after enrollment",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "90 days",
+                    "denomUnitsSelected": "Participants"
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Participants were tracked for adverse events 3 months after their first encounter with a randomized physician during which a new antipsychotic medication order is initiated.",
+            "description": "An adverse event is defined as an Emergency Department visit that did not require hospitalization.\n\nSerious adverse events include hospitalization or death.\n\nProviders were not assessed for adverse events",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "EHR CDS Tool",
+                    "description": "Patients with an encounter in which the physician attempts to place an order for a new antipsychotic prescription. Physician has been assigned to the EHR CDS tool.\n\nMulti-pronged electronic health record (EHR) clinical decision support (CDS) tool intervention to reduce physician prescriptions of new antipsychotic medications among older adults with ADRD\n\nEHR CDS: When a clinician initiates a new antipsychotic prescription for a patient with dementia, a three-pronged electronic health record clinical decision support tool \"pops up\": (1) Alerting clinicians that antipsychotic prescriptions increase patient mortality; (2) Offering non-pharmacological behavioral resources for caregivers via a link to the IDEA! strategy resources on how caregivers can best manage a patient's behavioral disturbance non-pharmacologically, which will be available in the EHR to include in the patient's after visit summary; and (3) Defaulting prescriptions to a low supply of pills in to order to minimize harm. In addition, the PI will email all providers randomized to the intervention arm in order to make them aware of the components of this intervention and its motivation.",
+                    "deathsNumAffected": 1,
+                    "deathsNumAtRisk": 67,
+                    "seriousNumAffected": 2,
+                    "seriousNumAtRisk": 67,
+                    "otherNumAffected": 4,
+                    "otherNumAtRisk": 67
+                },
+                {
+                    "id": "EG001",
+                    "title": "Control",
+                    "description": "Patients with an encounter in which the physician attempts to place an order for a new antipsychotic prescription. Physician has been assigned to the control.\n\nPhysicians will not receive intervention and perform duties as usual.\n\nUsual Care: Patients will receive usual care from their physicians.",
+                    "deathsNumAffected": 2,
+                    "deathsNumAtRisk": 91,
+                    "seriousNumAffected": 12,
+                    "seriousNumAtRisk": 91,
+                    "otherNumAffected": 6,
+                    "otherNumAtRisk": 91
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Inpatient Admission",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "All cause inpatient admissions of enrolled participants were chart reviewed when admitted up to 30 days following enrollment encounter. All reasons for visit were considered eligible for review",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 67
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 12,
+                            "numAtRisk": 91
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Emergency Department visits that did not require admissions",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "All cause emergency department visits of enrolled participants were chart reviewed when visit occurred up to 30 days following enrollment encounter. All reasons for visit were considered eligible for review",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 4,
+                            "numAtRisk": 67
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 6,
+                            "numAtRisk": 91
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "Project Manager",
+                "organization": "University of California Los Angeles, Division of General Internal Medicine and Health Services Research",
+                "email": "cvillaflores@mednet.ucla.edu",
+                "phone": "310-825-8253"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "Antipsychotics (class) \u2014 commonly used agents in dementia-related agitation/psychosis include risperidone, olanzapine, quetiapine, haloperidol, aripiprazole"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial tests a quality-improvement / implementation intervention (an EHR clinical decision support tool) intended to reduce low-value prescribing of antipsychotic medications for older adults with Alzheimer\u2019s disease and related dementias (ADRD). The intervention is non\u2011therapeutic (workflow/CDS change) rather than a drug or biologic being tested, so it does not fit the four therapeutic categories. (User-provided trial description.)",
+        "Act (web search to identify drug class and typical agents): Antipsychotic medications are used to manage neuropsychiatric symptoms (agitation, psychosis, aggression) in dementia, with common agents including risperidone, olanzapine, quetiapine, haloperidol and aripiprazole. Evidence shows modest symptomatic benefit for some second\u2011generation antipsychotics but important safety concerns (increased mortality and cardiovascular/infectious risks) in older adults with dementia \u2014 which is why efforts to reduce low\u2011value antipsychotic prescribing are recommended. \ue200cite\ue202turn0search4\ue202turn0search1\ue202turn0search3\ue201",
+        "Web search results (key sources found):",
+        "- JAMA / FDA safety reporting on increased mortality with antipsychotic use in elderly dementia patients (warnings about atypical antipsychotics). \ue200cite\ue202turn0search3\ue201",
+        "- Systematic reviews and meta-analyses and clinical guidance showing risperidone, olanzapine and aripiprazole can give modest improvements in agitation/psychosis but with safety tradeoffs. \ue200cite\ue202turn0search1\ue202turn0search4\ue201",
+        "- Clinical guidance summaries (AAFP, reviews) describing common use of risperidone and quetiapine for dementia-related agitation and stressing caution and limited indications. \ue200cite\ue202turn0search2\ue202turn0search7\ue201",
+        "Reflect: Applying the category definitions \u2014 \"Disease-targeted biologic\" and \"Disease-targeted small molecule\" require a therapy targeting AD pathology (e.g., amyloid/tau); \"Cognitive enhancer\" implies a drug aimed at improving cognition; \"Neuropsychiatric symptom improvement\" applies when the trial is testing a symptomatic psychotropic therapy. This trial, however, is an implementation/QI study (EHR-CDS) aimed at reducing prescriptions of antipsychotics rather than testing a pharmacologic or biologic intervention itself. Per the instruction to classify diagnostic or other non-therapeutic interventions as 'N/A', the correct classification is 'N/A' \u2014 with the caveat that the drugs implicated (antipsychotics) would, if tested directly, fall under the \"neuropsychiatric symptom improvement\" category. \ue200cite\ue202turn0search4\ue202turn0search3\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

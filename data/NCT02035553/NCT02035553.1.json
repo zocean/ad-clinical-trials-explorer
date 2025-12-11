@@ -1,0 +1,1483 @@
+{
+    "nct_id": "NCT02035553",
+    "title": "A Single Center, Double-Blind, Placebo-Controlled Study to Examine the Safety and Efficacy of Pimavanserin for the Treatment of Psychosis in Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2017-09-28",
+    "description_brief": "This study will evaluate the safety and efficacy of pimavanserin 40 mg compared to placebo in patients with Alzheimer's disease psychosis.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Placebo",
+                    "description": "Placebo, two tablets, once daily by mouth"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Pimavanserin 40 mg",
+                    "description": "Pimavanserin tartrate, 40 mg (two 20 mg tablets), once daily by mouth (equivalent to 34 mg free base pimavanserin)"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "91"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "90"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "73"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "67"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "18"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "23"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Death (See All-Cause Mortality Table)",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Adverse Event",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "10"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Physician Decision",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lack of Efficacy",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "4"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "7"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Non-compliance with Study Drug",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Other Reason",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Placebo",
+                    "description": "Placebo, two tablets, once daily by mouth"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Pimavanserin 40 mg",
+                    "description": "Pimavanserin tartrate, 40 mg (two 20 mg tablets), once daily by mouth (equivalent to 34 mg free base pimavanserin)"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "91"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "90"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "181"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "86.1",
+                                            "spread": "5.96"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "85.7",
+                                            "spread": "7.05"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "85.9",
+                                            "spread": "6.51"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Customized",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "Age",
+                            "categories": [
+                                {
+                                    "title": "<=85",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "41"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "41"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "82"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">85",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "50"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "49"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "99"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "73"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "73"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "146"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "35"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "91"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "90"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "181"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race/Ethnicity, Customized",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "Race",
+                            "categories": [
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "89"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "84"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "173"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Other",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United Kingdom",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "91"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "90"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "181"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Antipsychotic Efficacy",
+                    "description": "Change from Baseline to Day 43 in the Neuropsychiatric Inventory-Nursing Home Version (NPI-NH) psychosis score (Delusions \\[Domain A\\]+Hallucinations \\[Domain B\\]) in the Full Analysis Set (FAS). The NPI-NH is a questionnaire that quantifies behavioral changes in dementia in nursing home patients and evaluates 12 behavioral domains. For each of the 12 behavioral domains the Frequency (scale:1=occasionally to 4=very frequently) is multiplied by the Severity (scale:1=Mild to 3=Severe) to obtain a domain score (frequency x severity), The NPI-NH Psychosis Subscale consists of the two domains of Delusions and Hallucinations, calculated by adding the Individual domain scores, to yield a possible total score of 0 to 24. Lower scores correspond to less severity. A negative change score from baseline indicates improvement.",
+                    "populationDescription": "All randomized subjects who received at least one dose of study treatment and have both a Baseline and at least one post-Baseline NPI-NH psychosis score evaluation.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "Score on the NPI-NH scale",
+                    "timeFrame": "Day 43",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Placebo, two tablets, once daily by mouth"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Pimavanserin 40 mg",
+                            "description": "Pimavanserin tartrate, 40 mg (two 20 mg tablets), once daily by mouth (equivalent to 34 mg free base pimavanserin)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "91"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "87"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.93",
+                                            "lowerLimit": "-3.18",
+                                            "upperLimit": "-0.67"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-3.76",
+                                            "lowerLimit": "-5.05",
+                                            "upperLimit": "-2.47"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.0451",
+                            "statisticalMethod": "Mixed Models Analysis",
+                            "paramType": "Diff in MMRM LSM",
+                            "paramValue": "-1.84",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-3.64",
+                            "ciUpperLimit": "-0.04"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "12 weeks",
+            "description": "From the time the informed consent was signed, adverse events were recorded in the subject's source documents and entered into the appropriate eCRF pages at the Screening visit, at visits on Study Days 1, 15, 29, 43, 64 and Day 85, and at the 4-week follow-up phone call.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Placebo",
+                    "description": "Placebo, two tablets, once daily by mouth",
+                    "deathsNumAffected": 4,
+                    "deathsNumAtRisk": 91,
+                    "seriousNumAffected": 10,
+                    "seriousNumAtRisk": 91,
+                    "otherNumAffected": 70,
+                    "otherNumAtRisk": 91
+                },
+                {
+                    "id": "EG001",
+                    "title": "Pimavanserin 40 mg",
+                    "description": "Pimavanserin tartrate, 40 mg (two 20 mg tablets), once daily by mouth (equivalent to 34 mg free base pimavanserin)",
+                    "deathsNumAffected": 4,
+                    "deathsNumAtRisk": 90,
+                    "seriousNumAffected": 15,
+                    "seriousNumAtRisk": 90,
+                    "otherNumAffected": 67,
+                    "otherNumAtRisk": 90
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Cardiopulmonary failure",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Myocardial infarction",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "General physical health deterioration",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "General disorders and administration site conditions",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Pneumonia",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 2,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary tract infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Bronchopneumonia",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Lower respiratory tract infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Femoral neck fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Hip fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Laceration",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Spinal fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Upper limb fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Wrist fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Malignant neoplasm of thorax",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Dementia",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Depressed level of consciousness",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Loss of consciousness",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Transient ischaemic attack",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Aggression",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Renal failure acute",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypotension",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 90
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Anaemia",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 8,
+                            "numAffected": 8,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 9,
+                            "numAffected": 9,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Oedema peripheral",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "General disorders and administration site conditions",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 7,
+                            "numAffected": 7,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary tract infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 36,
+                            "numAffected": 25,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 27,
+                            "numAffected": 18,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Lower respiratory tract infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 13,
+                            "numAffected": 12,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 15,
+                            "numAffected": 13,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Cellulitis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 7,
+                            "numAffected": 6,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 35,
+                            "numAffected": 21,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 39,
+                            "numAffected": 20,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Contusion",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 17,
+                            "numAffected": 14,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 16,
+                            "numAffected": 11,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Laceration",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 6,
+                            "numAffected": 5,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood urea increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 8,
+                            "numAffected": 8,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 7,
+                            "numAffected": 7,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood potassium increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 5,
+                            "numAffected": 5,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood lactate dehydrogenase increase",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 10,
+                            "numAffected": 10,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood alkaline phosphatase increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 8,
+                            "numAffected": 8,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Hyperglycaemia",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 11,
+                            "numAffected": 11,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Somnolence",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 7,
+                            "numAffected": 7,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Agitation",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 13,
+                            "numAffected": 13,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 19,
+                            "numAffected": 19,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Aggression",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 10,
+                            "numAffected": 9,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Anxiety",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 5,
+                            "numAffected": 5,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Behavioural and psychiatric symptoms of dementia",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 6,
+                            "numAffected": 5,
+                            "numAtRisk": 90
+                        }
+                    ]
+                },
+                {
+                    "term": "Rash",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "sourceVocabulary": "MedDRA 17.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 7,
+                            "numAffected": 7,
+                            "numAtRisk": 91
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 90
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "Investigator may publish the study results, relative to his/her own patients, only after review, comment and approval by the sponsor. No publication of confidential information shall be made without the sponsor's prior written consent. At least 60 days prior to submitting a manuscript or prior to any public presentation, a copy of the manuscript or presentation will be provided to the sponsor for review and comment. The sponsor has 60 days to review and comment."
+            },
+            "pointOfContact": {
+                "title": "James Youakim, Vice President, Clinical Development",
+                "organization": "ACADIA Pharmaceuticals Inc.",
+                "email": "jyouakim@acadia-pharm.com",
+                "phone": "609-250-6900"
+            }
+        }
+    },
+    "target_category": "neuropsychiatric symptom improvement",
+    "drug": [
+        "pimavanserin (Nuplazid) 40 mg"
+    ],
+    "placebo": [
+        "placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests pimavanserin 40 mg versus placebo in patients with Alzheimer\u2019s disease psychosis. Pimavanserin is an antipsychotic that acts as an inverse agonist/antagonist at serotonin 5-HT2A receptors (with lesser 5-HT2C activity) and lacks dopamine D2 blockade \u2014 a mechanism aimed at reducing hallucinations/delusions rather than modifying Alzheimer\u2019s pathology or directly improving cognition. \ue200cite\ue202turn1search4\ue202turn1search1\ue201",
+        "Act: Key extracted details \u2014 intervention: pimavanserin 40 mg (oral), comparator: placebo, population: patients with Alzheimer\u2019s disease psychosis; intended effect: reduce psychotic symptoms (hallucinations/delusions). Pimavanserin has been studied for psychosis in Alzheimer\u2019s/dementia populations (Phase II and other dementia-related psychosis studies) and is FDA-approved for hallucinations/delusions in Parkinson\u2019s disease psychosis, supporting its use as a neuropsychiatric symptom treatment rather than a disease-modifying or cognitive-enhancing agent. \ue200cite\ue202turn0search5\ue202turn0search3\ue202turn0search4\ue201",
+        "Reflect: Classification \u2014 neuropsychiatric symptom improvement. The trial\u2019s intervention and intended outcome (treatment of psychosis in AD) match the category definition for neuropsychiatric symptom improvement. This is not a disease-targeted biologic or small molecule aimed at Alzheimer\u2019s pathology, nor a general cognitive enhancer. Note: pimavanserin carries warnings about increased mortality risk in elderly patients with dementia-related psychosis (as do antipsychotics broadly), and it is not FDA-approved for dementia-related psychosis outside Parkinson\u2019s disease psychosis \u2014 relevant context for safety/regulatory interpretation. \ue200cite\ue202turn0search0\ue202turn1search5\ue201",
+        "Web search results (sources used): FDA safety review of Nuplazid (pimavanserin) postmarketing analysis; Acadia/press & FDA approval announcement for Nuplazid; Phase II data/press release for pimavanserin in Alzheimer\u2019s disease psychosis (CTAD); New England Journal of Medicine trial data for pimavanserin in dementia-related psychosis; Pimavanserin prescribing information / mechanism of action summary (Drugs.com package insert, StatPearls, and supporting PubMed articles). \ue200cite\ue202turn0search0\ue202turn0search3\ue202turn0search5\ue202turn0search4\ue202turn1search4\ue202turn1search1\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The trial tests pimavanserin (Nuplazid) for psychosis in Alzheimer's disease. Pimavanserin is a selective serotonin inverse agonist/antagonist that preferentially targets 5-HT2A receptors (with lesser 5-HT2C activity) and is non\u2011dopaminergic \u2014 i.e., it acts on neurotransmitter receptors rather than on core AD pathologies like amyloid or tau. \ue200cite\ue202turn0search0\ue202turn0search1\ue201",
+        "Act: Extracted details \u2014 intervention: pimavanserin 40 mg (oral) vs placebo; intended effect: reduce hallucinations/delusions (neuropsychiatric symptom improvement). Mechanism: 5-HT2A inverse agonist/antagonist (serotonin receptor modulation), supported by Phase II Alzheimer\u2019s disease psychosis data and the drug\u2019s approved indication for Parkinson\u2019s disease psychosis. These facts map directly to the CADRO category for neurotransmitter receptors. \ue200cite\ue202turn0search0\ue202turn0search3\ue201",
+        "Reflect: Classification check \u2014 the intervention targets serotonin (a neurotransmitter) receptors (5-HT2A/2C), so the most specific CADRO match is D) Neurotransmitter Receptors. Although the trial\u2019s goal is symptomatic (neuropsychiatric) improvement rather than disease modification, CADRO classifies the drug by its biological target (serotonin receptors), not by symptomatic versus disease\u2011modifying intent. Note safety/regulatory context: pimavanserin has boxed warnings and FDA safety communications relevant to dementia-related populations. \ue200cite\ue202turn0search1\ue202turn0news12\ue201",
+        "Web search results (sources used): Acadia Phase II data and mechanism summary (CTAD/Acadia press release). \ue200cite\ue202turn0search0\ue201; FDA safety review and prescribing information for Nuplazid (pimavanserin). \ue200cite\ue202turn0search1\ue201; Acadia press releases about Phase III/HARMONY and program rationale. \ue200cite\ue202turn0search3\ue201; Recent news about late\u2011stage trial outcomes and company program decisions. \ue200cite\ue202turn0news12\ue202turn0news13\ue201"
+    ]
+}

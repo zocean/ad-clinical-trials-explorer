@@ -1,0 +1,841 @@
+{
+    "nct_id": "NCT05216315",
+    "title": "Non-invasive Transcranial Direct Current Stimulation to Improve Cognitive Efficiency",
+    "status": "COMPLETED",
+    "last_update_time": "2024-12-17",
+    "description_brief": "Normal aging is associated with a progressive decline in cognitive functions, especially memory. This decline in cognitive function can negatively impact the quality of life of older adults. Although there are currently few possibilities to prevent and/or slow the signs of cognitive decline, both those associated with age and neurodegenerative pathologies, one of the non-invasive brain stimulation techniques that has gained attention in recent years is Transcranial Direct Current Stimulation (tDCS). tDCS is a technique based on the application of a low-intensity (\\< 2 mA) direct electrical current between two large-area electrodes placed on various surface areas of the head. Moreover, according to safety-related meta-analyses it is a very safe technique, without any major side effects, provided that internationally established safety protocols are taken into account in its application. This technique has recently been investigated as a potential treatment for both healthy elderly people and people with mild cognitive impairment and Alzheimer's disease in several cognitive variables, having shown encouraging results in working memory learning curves, modulation of plasticity and recognition tasks. This project aims to implement an intervention using transcranial direct current stimulation in healthy older adults, MCI and AD. The main objective is to test if there is an improvement in cognitive efficiency and if the changes are maintained over time (1 month). For this purpose, the effect of the technique will be studied on participants assigned to treatment and control groups, analyzing the possible modifications in the following cognitive variables: cognitive plasticity and learning potential, recognition and familiarity and false alarms.",
+    "description_detailed": "The clinical trial protocol involves the recruitment of participants from three different groups: healthy older adults, individuals with mild cognitive impairment (MCI), and patients with Alzheimer's disease (AD). Participants will be randomly assigned to either a treatment group or a control group.\n\nFor the treatment group, transcranial direct current stimulation (tDCS) will be administered over a specified period using a standard protocol involving the application of low-intensity electrical current (\\< 2 mA) through electrodes placed on specific scalp areas. The duration and frequency of stimulation will be predetermined based on scientific literature and established safety recommendations.\n\nThe control group will receive a sham procedure where a low-intensity current, having no effect on neuronal activity, will be applied to maintain treatment masking.\n\nPrior to commencing the intervention, a baseline assessment of participants' cognitive functions will be conducted using a battery of standardized tests, including measures of cognitive plasticity, memory, attention, executive functions, and other relevant cognitive abilities.\n\nDuring the intervention period, regular tDCS or placebo sessions will be conducted according to participants' assigned groups. Additionally, data on potential side effects and tolerability of the technique will be collected.\n\nAt the end of the intervention period, a post-treatment assessment will be conducted to determine any changes in participants' cognitive functions. These data will be compared to baseline assessments to ascertain the intervention's efficacy.\n\nFurthermore, participants will be followed up for a period of at least one month after the intervention to evaluate the persistence of effects and any potential long-term effects.\n\nIt is important to emphasize that this protocol will adhere to all ethical and safety regulations established by relevant regulatory authorities and ethics committees. Participants will be fully informed about the procedures and risks involved, and their informed consent will be obtained before their participation in the study.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "tDCS. Transcranial Direct Current Stimulation",
+                    "description": "The stimulation time was 20 minutes, with an initial and final ramp of 30 seconds so that the participant could adapt to the sensation of the current. 10 sesions. Constant current intensity of 2 mA The anode was placed on position F3, coinciding with the dorsolateral prefrontal cortex, and the cathode was placed on Fp2, coinciding with the right supraorbital area (rSO).\n\nTranscranial direct current stimulation (tDCS): 10 sessions of tDCS stimulation on dorsolateral prefrontal cortex with the apparatus HDC stimulator (Newronika TM)"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Sham Stimulation",
+                    "description": "The sham group received direct current only on the ramps to generate a sensation of the effect.\n\nSham stimulation: The sham group received direct current only on the ramps to generate a sensation of the effect.10 sessions"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "19"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "19"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "17"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "16"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "tDCS. Transcranial Direct Current Stimulation",
+                    "description": "The stimulation time was 20 minutes, with an initial and final ramp of 30 seconds so that the participant could adapt to the sensation of the current. 10 sesions. Constant current intensity of 2 mA The anode was placed on position F3, coinciding with the dorsolateral prefrontal cortex, and the cathode was placed on Fp2, coinciding with the right supraorbital area (rSO).\n\nTranscranial direct current stimulation (tDCS): 10 sessions of tDCS stimulation on dorsolateral prefrontal cortex with the apparatus HDC stimulator (Newronika TM)"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Sham Stimulation",
+                    "description": "The sham group received direct current only on the ramps to generate a sensation of the effect.\n\nSham stimulation: The sham group received direct current only on the ramps to generate a sensation of the effect.10 sessions"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "17"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "16"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "33"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "33"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "76.6",
+                                            "spread": "5.7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "73.4",
+                                            "spread": "6.2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "75",
+                                            "spread": "6.08"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "17"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "33"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "Spain",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "33"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Complutense Verbal Learning Test (TAVEC) - Memory",
+                    "description": "This test presents a list of 16 words that, after being read by the evaluator, have to be repeated by the participant. The list is repeated five times (trials); the participant is again asked to remember the 16 words. The test was administered to evaluate the participant's immediate memory (Trial 1), learning ability (Trial 5 ). Post-intervention minus baseline. Scale is scored 0-16. Difference score range is (-16 to 16) with positive scores reflecting improvement.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline to approximately 4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "tDCS. Transcranial Direct Current Stimulation",
+                            "description": "The stimulation time was 20 minutes, with an initial and final ramp of 30 seconds so that the participant could adapt to the sensation of the current. 10 sesions. Constant current intensity of 2 mA The anode was placed on position F7, coinciding with the dorsolateral prefrontal cortex, and the cathode was placed on Fp2, coinciding with the right supraorbital area (rSO).\n\nTranscranial direct current stimulation (tDCS): 10 sessions of tDCS stimulation on dorsolateral prefrontal cortex with the apparatus HDC stimulator (Newronika TM)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham Stimulation",
+                            "description": "The sham group received direct current only on the ramps to generate a sensation of the effect.\n\nSham stimulation: The sham group received direct current only on the ramps to generate a sensation of the effect.10 sessions"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "17"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Trial 1",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.94",
+                                            "spread": "0.35"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.81",
+                                            "spread": "0.03"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Trial 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.65",
+                                            "spread": "0.5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.31",
+                                            "spread": "0.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Digits Wechsler Intelligence Scale for Adults-III (WAIS-III)",
+                    "description": "Direct and inverse digits of the Wechsler Intelligence Scale for Adults-III (Wechsler, 2001). These tests assess attentional capacity by exposing the participant to increasing amounts of information. On the direct digits task, which is used to assess immediate recall, the subject must repeat the sequence of numbers in the same order in which they are read by the examiner. On the inverse digit task, which assesses working memory and mental flexibility, the subject must say the digits backwards from the way they were presented by the examiner. Both tests are evaluated in the same way, assigning one point for each correct item, with a maximum score of 16 for both tests. Post-intervention minus baseline. Difference score range is (-16 to 16) with positive scores reflecting improvement.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline to approximately 4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "tDCS. Transcranial Direct Current Stimulation",
+                            "description": "The stimulation time was 20 minutes, with an initial and final ramp of 30 seconds so that the participant could adapt to the sensation of the current. 10 sesions. Constant current intensity of 2 mA The anode was placed on position F7, coinciding with the dorsolateral prefrontal cortex, and the cathode was placed on Fp2, coinciding with the right supraorbital area (rSO).\n\nTranscranial direct current stimulation (tDCS): 10 sessions of tDCS stimulation on dorsolateral prefrontal cortex with the apparatus HDC stimulator (Newronika TM)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham Stimulation",
+                            "description": "The sham group received direct current only on the ramps to generate a sensation of the effect.\n\nSham stimulation: The sham group received direct current only on the ramps to generate a sensation of the effect.10 sessions"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "17"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Direct Digits",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.35",
+                                            "spread": "0.62"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.18",
+                                            "spread": "0.84"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Inverse digits",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.17",
+                                            "spread": "1.15"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.43",
+                                            "spread": "0.05"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Mini Mental State Examination",
+                    "description": "This is a screening test for general cognitive status. This test is evaluated on a maximum of 30 points. Participants with scores equal to or below 23 would be considered cognitively deficient. Post-intervention minus baseline. Scale is scored 0-30. Difference score range is (-30 to 30) with positive scores reflecting improvement.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline to approximately 4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "tDCS. Transcranial Direct Current Stimulation",
+                            "description": "The stimulation time was 20 minutes, with an initial and final ramp of 30 seconds so that the participant could adapt to the sensation of the current. 10 sesions. Constant current intensity of 2 mA The anode was placed on position F3, coinciding with the dorsolateral prefrontal cortex, and the cathode was placed on Fp2, coinciding with the right supraorbital area (rSO).\n\nTranscranial direct current stimulation (tDCS): 10 sessions of tDCS stimulation on dorsolateral prefrontal cortex with the apparatus HDC stimulator (Newronika TM)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham Stimulation",
+                            "description": "The sham group received direct current only on the ramps to generate a sensation of the effect.\n\nSham stimulation: The sham group received direct current only on the ramps to generate a sensation of the effect.10 sessions"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "17"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.18",
+                                            "spread": "0.03"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.44",
+                                            "spread": "1.28"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Barcelona Test (BT) - Ability to Access and Recall Elements From the Lexical and Semantic Store",
+                    "description": "Barcelona Test assesses the ability to access and recall lexical and semantic items by means of two subtests: a. Semantic fluency: recall the highest number of words from the category 'animals' in one minute; b. Phonological fluency: recall the highest number of words beginning with the letter 'p' in three minutes. Minimum and maximum range for Semantic fluency and Phonological fluency: 0 to n (no upper limit). Method of calculation: Scores for each subtest are reported separately. No combined scores or averages between subtests are calculated. Interpretation: Good categorical recall is considered good when evoking more than 16 animals in 1 minute and good verbal fluency when evoking more than 19 words beginning with 'p' in 3 minutes. This test assesses the ability to access and recall items from the lexical and semantic store. Processes involved: processing speed, cognitive flexibility and working memory. Post-intervention less baseline with positive scores reflecting improvement.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Number of words evoked",
+                    "timeFrame": "Baseline to approximately 4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "tDCS. Transcranial Direct Current Stimulation",
+                            "description": "The stimulation time was 20 minutes, with an initial and final ramp of 30 seconds so that the participant could adapt to the sensation of the current. 10 sesions. Constant current intensity of 2 mA The anode was placed on position F3, coinciding with the dorsolateral prefrontal cortex, and the cathode was placed on Fp2, coinciding with the right supraorbital area (rSO).\n\nTranscranial direct current stimulation (tDCS): 10 sessions of tDCS stimulation on dorsolateral prefrontal cortex with the apparatus HDC stimulator (Newronika TM)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham Stimulation",
+                            "description": "The sham group received direct current only on the ramps to generate a sensation of the effect.\n\nSham stimulation: The sham group received direct current only on the ramps to generate a sensation of the effect.10 sessions"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "17"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Semantic fluency",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.47",
+                                            "spread": "4.47"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-5.72",
+                                            "spread": "4.22"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Phonological fluency",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.77",
+                                            "spread": "0.1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.69",
+                                            "spread": "0.46"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Global Deterioration Scale (GDS)",
+                    "description": "This test is evaluated on a maximum of 30 points. Participants with scores equal to or below 23 would be considered cognitively deficient.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "Baseline to approximately 4 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Memory Alteration Test (M@T) - Cognitive Impairment",
+                    "description": "This test offers a rapid and effective screening with excellent discriminative properties for amnestic Mild Cognitive Impairment (MCI-A) and early AD in the general primary care population. The test assesses a variety of abilities such as encoding, orientation, semantic memory and free recall. It consists of oral questions with only one possible answer, and the maximum achievable score is 50 points. The optimal cut-off point for distinguishing amnestic-like mild cognitive impairment from subjective memory complaints is 37 points. The optimal cut-off point for Alzheimer's disease is 31 points. Post-intervention minus baseline. Scale is scored 0-50. Difference score range is (-50 to 50) with positive scores reflecting improvement.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline to approximately 4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "tDCS. Transcranial Direct Current Stimulation",
+                            "description": "The stimulation time was 20 minutes, with an initial and final ramp of 30 seconds so that the participant could adapt to the sensation of the current. 10 sesions. Constant current intensity of 2 mA The anode was placed on position F3, coinciding with the dorsolateral prefrontal cortex, and the cathode was placed on Fp2, coinciding with the right supraorbital area (rSO).\n\nTranscranial direct current stimulation (tDCS): 10 sessions of tDCS stimulation on dorsolateral prefrontal cortex with the apparatus HDC stimulator (Newronika TM)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham Stimulation",
+                            "description": "The sham group received direct current only on the ramps to generate a sensation of the effect.\n\nSham stimulation: The sham group received direct current only on the ramps to generate a sensation of the effect.10 sessions"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "17"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "18"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6.06",
+                                            "spread": "2.19"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.88",
+                                            "spread": "1.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Experimental Task - Recognition Familiarity and False Alarms",
+                    "description": "This experimental task is composed by three lists of words with two conditions: half and entire.\n\nThe half condition included two lists of 50 words each, formed entirely from the following letters of the Spanish alphabet: a, e, u, b, d, g, j, n, r, and z (list A) or i, o, c, f, h, l, m, p, s, t, v, and y (list B).\n\nList C (entire condition) contained 50 words formed from the entire alphabet, with the only criterion being that each word had to contain at least one letter from list A and at least one letter from list B.\n\nIn the half condition, the recognition estimates for each participant were derived by subtracting the proportion of false alarms on words with the same letters, as in the study list, from the proportion of hits, whereas in the entire condition, the recognition estimates were derived by subtracting the proportion of false alarms on words with all the letters in the alphabet from the proportion of hits as a way to control the response bias of the participants.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "Baseline to approximately 4 weeks",
+                    "denomUnitsSelected": "Participants"
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "3 months",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "tDCS. Transcranial Direct Current Stimulation",
+                    "description": "The stimulation time was 20 minutes, with an initial and final ramp of 30 seconds so that the participant could adapt to the sensation of the current. 10 sesions. Constant current intensity of 2 mA The anode was placed on position F3, coinciding with the dorsolateral prefrontal cortex, and the cathode was placed on Fp2, coinciding with the right supraorbital area (rSO).\n\nTranscranial direct current stimulation (tDCS): 10 sessions of tDCS stimulation on dorsolateral prefrontal cortex with the apparatus HDC stimulator (Newronika TM)",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 17,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 17,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 17
+                },
+                {
+                    "id": "EG001",
+                    "title": "Sham Stimulation",
+                    "description": "The sham group received direct current only on the ramps to generate a sensation of the effect.\n\nSham stimulation: The sham group received direct current only on the ramps to generate a sensation of the effect.10 sessions",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 16,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 16,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 16
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Dr Juan C Melendez",
+                "organization": "University of Valencia",
+                "email": "melendez@uv.es",
+                "phone": "+34 963983844"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "transcranial direct current stimulation (tDCS) \u2014 non\u2011pharmacologic, non\u2011invasive brain stimulation"
+    ],
+    "placebo": [
+        "sham tDCS (sham stimulation)"
+    ],
+    "explanation_target": [
+        "Reason: The trial description tests transcranial direct current stimulation (tDCS) applied to healthy older adults, MCI, and AD with the stated primary objective of improving cognitive efficiency (memory, cognitive plasticity, learning, recognition) and assessing maintenance at 1 month. This matches the definition of a cognitive enhancer (an intervention intended to improve cognitive function rather than a biologic or small\u2011molecule that targets AD pathology).",
+        "Act: Key extracted details \u2014 intervention: tDCS (low\u2011intensity <2 mA direct current between scalp electrodes); population: healthy older adults, MCI, AD; comparison: treatment vs control (sham) groups; intended effect: improve cognitive efficiency, plasticity, recognition, and learning. tDCS is widely studied as a cognitive enhancement/neurorehabilitation tool in aging, MCI, and AD. \ue200cite\ue202turn0search0\ue202turn0search3\ue202turn0search1\ue201",
+        "Reflect: Classification justification \u2014 tDCS is a neuromodulation technique (not a biologic or small molecule) whose trial aim is cognitive improvement. Therefore the correct category is 'cognitive enhancer'. It is not disease\u2011targeted biologic or small molecule, nor is it primarily targeting neuropsychiatric/behavioral symptoms or acting as a diagnostic, so 'cognitive enhancer' best fits. Note: many studies combine tDCS with cognitive training and use sham tDCS as placebo; results are promising but heterogeneous and follow\u2011up effects vary. \ue200cite\ue202turn0search2\ue202turn0search5\ue202turn0search7\ue201",
+        "Web search sources supporting the above: - Meta\u2011analysis/systematic review showing tDCS to remediate age\u2011related cognitive decline in healthy older adults. \ue200cite\ue202turn0search0\ue201 - Meta\u2011analyses/systematic reviews reporting tDCS can improve global cognition in AD and cognitive function in MCI/AD (effects vary and may not always persist at follow\u2011up). \ue200cite\ue202turn0search1\ue202turn0search3\ue201 - RCTs and trials of tDCS + cognitive training in MCI/older adults describing protocols (1\u20132 mA, frontal targets), outcomes, and mixed durability of effects. \ue200cite\ue202turn0search5\ue202turn0search2\ue202turn0search8\ue201 - Reviews describing typical tDCS protocols (anodal stimulation, ~2 mA) and variability in electrode placement and outcomes. \ue200cite\ue202turn0search6\ue201"
+    ],
+    "agent_type": "M) Synaptic Plasticity/Neuroprotection",
+    "explanation_agent": [
+        "Reason: The trial tests transcranial direct current stimulation (tDCS), a non\u2011invasive neuromodulation technique intended to improve cognitive efficiency, plasticity, learning and memory rather than to modify a molecular AD pathology (amyloid, tau, ApoE, etc.). tDCS acts by modulating cortical excitability and promoting neuroplasticity/neurophysiological changes, which aligns with the CADRO domain for synaptic plasticity and neuroprotection. \ue200cite\ue202turn0search5\ue202turn0search10\ue201",
+        "Act: Key extracted details from the description \u2014 intervention: transcranial direct current stimulation (tDCS), non\u2011pharmacologic; population: healthy older adults, MCI, AD; objective: improve cognitive efficiency, plasticity, learning, recognition; control: sham. Because the mechanism is neuromodulation to enhance synaptic function/plasticity (not a specific molecular target or receptor antagonist/agonist), the most specific CADRO match is M) Synaptic Plasticity/Neuroprotection. Empirical literature supports tDCS effects on global cognition and episodic memory in older adults, MCI and AD, consistent with a plasticity\u2011based cognitive\u2011enhancer mechanism. \ue200cite\ue202turn0search2\ue202turn0search0\ue201",
+        "Reflect: This classification was chosen over alternatives: not A) Amyloid beta, B) Tau, C) ApoE/Lipids, etc., because no amyloid/tau/ApoE target is described; not D) Neurotransmitter Receptors because tDCS does not directly target a single receptor class; not R) Multi\u2011target because the intervention\u2019s primary mechanism is neuromodulation/plasticity. If the trial had been a diagnostic or purely imaging protocol it would be T) Other, but here the stated therapeutic aim is cognitive enhancement via neuromodulation, supporting M). \ue200cite\ue202turn0search6\ue201",
+        "Web search results (supporting sources):",
+        "- Indahlastari et al., Systematic review & meta\u2011analysis: tDCS to remediate age\u2011related cognitive decline in healthy older adults. \ue200cite\ue202turn0search5\ue201",
+        "- MDPI meta\u2011analysis: tDCS enhances cognitive function in MCI and early/mild AD. \ue200cite\ue202turn0search0\ue201",
+        "- PubMed/meta\u2011analysis: tDCS for global cognition in Alzheimer's disease (systematic review through Aug 2023). \ue200cite\ue202turn0search2\ue201",
+        "- BMC/Alzheimer's Research & Therapy network meta\u2011analysis of noninvasive brain stimulation showing beneficial cognitive effects and parameter dependence. \ue200cite\ue202turn0search6\ue201",
+        "- OUP meta\u2011analysis: tDCS effects on episodic memory in older adults. \ue200cite\ue202turn0search10\ue201"
+    ]
+}

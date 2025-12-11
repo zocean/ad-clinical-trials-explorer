@@ -1,0 +1,683 @@
+{
+    "nct_id": "NCT00702143",
+    "title": "An Open Label, Parallel Group, Multicenter Study, Evaluating the Safety and Imaging Characteristics of 18F-AV-45 in Healthy Volunteers, Patients With Mild Cognitive Impairment (MCI) and Patients With Alzheimer's Disease (AD)",
+    "status": "COMPLETED",
+    "last_update_time": "2012-05-08",
+    "description_brief": "Evaluate 18F-AV-45 positron emission tomography (PET) imaging for distinguishing healthy control subjects, from subjects with Alzheimer's disease (AD) or Mild cognitive impairment (MCI).",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "AD Subjects",
+                    "description": "Probable Alzheimer's Disease (AD) according to the National Institute of Neurological and Communicative Disorders and Stroke-Alzheimer's Disease and Related Disorders Association criteria"
+                },
+                {
+                    "id": "FG001",
+                    "title": "MCI Subjects",
+                    "description": "MCI (mild cognitive impairment)"
+                },
+                {
+                    "id": "FG002",
+                    "title": "Healthy Controls",
+                    "description": "cognitively normal (healthy) controls"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "45"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "60"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "79"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "45"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "60"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "78"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "AD Subjects",
+                    "description": "Probable Alzheimer's Disease (AD) according to the National Institute of Neurological and Communicative Disorders and Stroke-Alzheimer's Disease and Related Disorders Association criteria"
+                },
+                {
+                    "id": "BG001",
+                    "title": "MCI Subjects",
+                    "description": "MCI (mild cognitive impairment)"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Healthy Controls",
+                    "description": "cognitively normal (healthy) controls"
+                },
+                {
+                    "id": "BG003",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "45"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "60"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "79"
+                        },
+                        {
+                            "groupId": "BG003",
+                            "value": "184"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "75.4",
+                                            "spread": "9.21"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "71.7",
+                                            "spread": "10.23"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "69.4",
+                                            "spread": "11.04"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "71.6",
+                                            "spread": "10.57"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "45"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "97"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "27"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "34"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "87"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "45"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "60"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "79"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "184"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Qualitative Amyloid Image Assessment",
+                    "description": "Three readers blinded to all clinical information classified florbetapir-Positron Emission Tomography (PET) images as either positive for amyloid or negative for amyloid. The majority read was the primary efficacy endpoint for the qualitative evaluation.",
+                    "populationDescription": "One healthy subject received florbetapir F 18 but due to technical difficulties with the scanner was not imaged and is therefore not included in the efficacy population.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "timeFrame": "50-60 min after injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AD Subjects",
+                            "description": "Probable Alzheimer's Disease (AD) according to the National Institute of Neurological and Communicative Disorders and Stroke-Alzheimer's Disease and Related Disorders Association criteria"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "MCI Subjects",
+                            "description": "MCI (mild cognitive impairment)"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Healthy Controls",
+                            "description": "cognitively normal (healthy) controls"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "45"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "60"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "78"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Positive for amyloid",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "34"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "23"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Negative for amyloid",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "37"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "67"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Fisher exact test comparing the proportion of amyloid positive subjects between clinical diagnosis groups",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.0002",
+                            "statisticalMethod": "Fisher Exact",
+                            "ciPctValue": "95"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG002"
+                            ],
+                            "groupDescription": "Fisher exact test comparing the proportion of amyloid positive subjects between clinical diagnosis groups",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "<0.0001",
+                            "statisticalMethod": "Fisher Exact",
+                            "ciPctValue": "95"
+                        },
+                        {
+                            "groupIds": [
+                                "OG001",
+                                "OG002"
+                            ],
+                            "groupDescription": "Fisher exact test comparing the proportion of amyloid positive subjects between clinical diagnosis groups",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.0014",
+                            "statisticalMethod": "Fisher Exact",
+                            "ciPctValue": "95"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Proportion of Positive Florbetapir-PET Scans",
+                    "description": "Three readers blinded to all clinical information classified florbetapir-PET images as either positive for amyloid or negative for amyloid. The majority read was used to determine the proportion of positive scans across the three groups.",
+                    "populationDescription": "One healthy subject received florbetapir F 18 but due to technical difficulties with the scanner was not imaged and is therefore not included in the efficacy population.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "percentage of amyoid positive scans",
+                    "timeFrame": "50-60 min after injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AD Subjects",
+                            "description": "Probable Alzheimer's Disease (AD) according to the National Institute of Neurological and Communicative Disorders and Stroke-Alzheimer's Disease and Related Disorders Association criteria"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "MCI Subjects",
+                            "description": "MCI (mild cognitive impairment)"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Healthy Controls",
+                            "description": "cognitively normal (healthy) controls"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "45"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "60"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "78"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "75.6",
+                                            "lowerLimit": "60.5",
+                                            "upperLimit": "87.1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "38.3",
+                                            "lowerLimit": "26.1",
+                                            "upperLimit": "51.8"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "14.1",
+                                            "lowerLimit": "7.3",
+                                            "upperLimit": "23.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Mean Cortical to Cerebellum SUVR",
+                    "description": "Standardized Uptake Value ratio (SUVR) is the ratio of tracer uptake in predefined cortical regions, relative to uptake in the whole cerebellum.",
+                    "populationDescription": "One healthy subject received florbetapir F 18 but due to technical difficulties with the scanner was not imaged and is therefore not included in the efficacy population.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "SUVR",
+                    "timeFrame": "50-60 min after injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AD Subjects",
+                            "description": "Probable Alzheimer's Disease (AD) according to the National Institute of Neurological and Communicative Disorders and Stroke-Alzheimer's Disease and Related Disorders Association criteria"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "MCI Subjects",
+                            "description": "MCI (mild cognitive impairment)"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Healthy Controls",
+                            "description": "cognitively normal (healthy) controls"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "45"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "60"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "78"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.404",
+                                            "spread": "0.2670"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.199",
+                                            "spread": "0.2761"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "1.051",
+                                            "spread": "0.1585"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001",
+                                "OG002"
+                            ],
+                            "groupDescription": "Analysis of variance P value testing for an overall difference in the mean cortical SUVR between the clinical diagnostic groups.",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "<0.0001",
+                            "statisticalMethod": "ANOVA",
+                            "ciPctValue": "95"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Analysis of variance contrast P value testing for difference in the mean cortical SUVR",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "<0.0001",
+                            "statisticalMethod": "ANOVA",
+                            "ciPctValue": "95"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG002"
+                            ],
+                            "groupDescription": "Analysis of variance contrast P value testing for difference in the mean cortical SUVR",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "<0.0001",
+                            "statisticalMethod": "ANOVA",
+                            "ciPctValue": "95"
+                        },
+                        {
+                            "groupIds": [
+                                "OG001",
+                                "OG002"
+                            ],
+                            "groupDescription": "Analysis of variance contrast P value testing for difference in the mean cortical SUVR",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.0003",
+                            "statisticalMethod": "ANOVA",
+                            "ciPctValue": "95"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "1",
+            "timeFrame": "AEs were collected up to 7 days after injection. SAEs were collected up to 30 days after injection.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "All Subjects",
+                    "description": "All subjects receiving florbetapir F 18 injection",
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 184,
+                    "otherNumAffected": 2,
+                    "otherNumAtRisk": 184
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Upper limb fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA (10.1)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 184
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (10.1)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 184
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "GT60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Chief Medical Officer",
+                "organization": "Avid Radiopharmaceuticals",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "18F-AV-45 (florbetapir; trade name Amyvid) \u2014 diagnostic PET radiotracer for imaging beta\u2011amyloid plaques"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The study description evaluates 18F-AV-45 positron emission tomography (PET) imaging to distinguish healthy controls from subjects with MCI or Alzheimer's disease; this indicates a diagnostic imaging agent rather than a therapeutic intervention. \ue200cite\ue202turn0search3\ue202turn0search4\ue201",
+        "Act: 18F-AV-45 is the radioligand florbetapir (Florbetapir F 18, marketed as Amyvid) used for PET imaging to estimate beta\u2011amyloid neuritic plaque density in the brain; it was developed and validated to discriminate AD/MCI from healthy controls in clinical studies. \ue200cite\ue202turn0search3\ue202turn0search7\ue202turn0search4\ue201",
+        "Reflect: Because the intervention is a diagnostic PET tracer (not a biologic or small\u2011molecule therapy intended to modify disease, improve cognition, or treat neuropsychiatric symptoms), the appropriate classification is 'N/A' under the requested therapeutic target categories. (Florbetapir is a PET imaging agent that binds amyloid for diagnostic purposes, not a disease\u2011modifying drug.) \ue200cite\ue202turn0search4\ue202turn0search2\ue201",
+        "Web search results / supporting sources: - Clinical imaging and safety evaluations of 18F\u2011AV\u201145 (florbetapir) showing discrimination between AD and healthy controls. \ue200cite\ue202turn0search3\ue202turn0search2\ue201 - GMP synthesis and characterization of [(18)F]AV\u201145 (florbetapir) as an amyloid PET tracer. \ue200cite\ue202turn0search1\ue201 - Amyvid (florbetapir F 18) product information describing its indication as a diagnostic PET agent to estimate beta\u2011amyloid plaque density and limitations of use (i.e., not for monitoring therapy or predicting dementia). \ue200cite\ue202turn0search4\ue202turn0search5\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

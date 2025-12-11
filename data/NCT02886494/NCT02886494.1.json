@@ -1,0 +1,2344 @@
+{
+    "nct_id": "NCT02886494",
+    "title": "A Randomized, Double-Blind, Vehicle-Controlled, Parallel, Phase II Study to Evaluate Efficacy and Safety of BAC in Patient With Alzheimer's Disease or Vascular Dementia",
+    "status": "COMPLETED",
+    "last_update_time": "2022-10-05",
+    "description_brief": "A Randomized, Double-Blind, Vehicle-Controlled, Parallel, Phase II Study to Evaluate Efficacy and Safety of BAC in Patient with Alzheimer's Disease or Vascular Dementia",
+    "description_detailed": "This study was designed as a randomized, double-blind, vehicle-controlled and parallel trial to evaluate the efficacy and safety of BAC in patients with Alzheimer's disease or vascular dementia. The investigation product, BAC, is a potential anti-inflammatory agent consisted of Multi-Glycan Complex (MGC) from the Soybean extract. It aims to reduce the neruoinflammation in the Alzhemimer's disease and vascular dementia.\n\nIn each study site, eligible patients were randomized and stratified to 1 of 2 dementia types (Alzheimer's disease and non-Alzheimer's disease) in 3:1 ratio to receive either one of topical application of BAC or BAC matched vehicle, topical application on external nasal skin, scalp, and neck, 2 times daily, 30 g/day.\n\nThe treatment duration for each patient was 12 weeks, which consisted of 6 visits located at Screening (within 2 weeks before Baseline visit), Baseline (Week 0), Weeks 2, 4, 8, and Week 12 (Final). During the treatment period, patients may continue to receive medications or treatments routinely used for Alzheimer's disease or vascular dementia except those prohibited under this protocol.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "The planned sample size was determined to be 45 versus 15 patients (3:1 ratio) for BAC treatment versus vehicle groups, 60 evaluable patients in total. To ensure the completion of 60 evaluable patients, around 75 patients were planned to be recruited. Actually, in this study, 80 eligible subjects were recruited and 59 evaluable subjects were achieved.",
+            "recruitmentDetails": "Recruitment was conducted in the United States. The study was open for recruitment in December 2016 and the first participant was successfully enrolled in January 2017.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "BAC Treatment",
+                    "description": "BAC, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks.\n\nSubjects were randomized 3:1 to receive double blind treatment of BAC or matched vehicle"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Matched Vehicle",
+                    "description": "BAC matched vehicle, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "60"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "20"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "43"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "16"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "17"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Adverse Event",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "12"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Protocol Violation",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "4"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "\\[Not Specified\\]",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "BAC Treatment",
+                    "description": "BAC, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks.\n\nSubjects were randomized 3:1 to receive double blind treatment of BAC or matched vehicle"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Matched Vehicle",
+                    "description": "BAC matched vehicle, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "60"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "20"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "80"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "73.2",
+                                            "spread": "9.65"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "73.1",
+                                            "spread": "9.19"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "73.2",
+                                            "spread": "9.48"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "41"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "52"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "28"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race/Ethnicity, Customized",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "Race",
+                            "categories": [
+                                {
+                                    "title": "Africa Americans",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "7"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Caucasians",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "54"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "71"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Hispanic",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Hispanic Native American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "60"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "80"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Dementia history",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Alzheimer's Disease",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "42"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "55"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Mixed Dementia",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "17"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Vascular Dementia",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Alzheimer Disease Assessment Scale-cognitive (ADAS-cog) Score at Week 12 Visit Compared to Baseline",
+                    "description": "The Alzheimer's Disease Assessment Scale- Cognitive (ADAS-Cog) Subscale test is the standard assessment tool and one of the most popular cognitive testing instrument in clinical trials. It is designed to assess various cognitive abilities such as those associated with memory, language and praxis. It consists of 11 parts: 1. Word Recall Task; 2. Naming Task; 3: Commands; 4: Constructional Praxis; 5. Ideational Praxis; 6. Orientation; 7. Word Recognition Task; 8. Language; 9. Comprehension of Spoken Language; 10. Word Finding Difficulty; and 11. Remembering Test Instructions. Scores range from 0 to 70 with lower scores indicating lesser severity. ADAS-Cog was measured at Screening, Randomization/Baseline, Week 4, Week 8 and Week 12.",
+                    "populationDescription": "All randomized patients who have received at least one dose of study medication.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BAC Treatment",
+                            "description": "BAC, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Matched Vehicle",
+                            "description": "BAC matched vehicle, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "44"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.05",
+                                            "spread": "5.726"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2.25",
+                                            "spread": "4.973"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in ADAS-cog Score at All Post Treatment Visits (Except Week 12 Visit) Compared to Baseline",
+                    "description": "The Alzheimer's Disease Assessment Scale- Cognitive (ADAS-Cog) Subscale test is the standard assessment tool and one of the most popular cognitive testing instrument in clinical trials. It is designed to assess various cognitive abilities such as those associated with memory, language and praxis. It consists of 11 parts: 1. Word Recall Task; 2. Naming Task; 3: Commands; 4: Constructional Praxis; 5. Ideational Praxis; 6. Orientation; 7. Word Recognition Task; 8. Language; 9. Comprehension of Spoken Language; 10. Word Finding Difficulty; and 11. Remembering Test Instructions. Scores range from 0 to 70 with lower scores indicating lesser severity. ADAS-Cog was measured at Screening, Randomization/Baseline, Week 4, Week 8 and Week 12.",
+                    "populationDescription": "All randomized patients who have received at least one dose of study medication.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Week 4, 8",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BAC Treatment Arm",
+                            "description": "BAC, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "BAC Matched Vehicle",
+                            "description": "BAC matched vehicle, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "60"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 4 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "51"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.51",
+                                            "spread": "4.096"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2.33",
+                                            "spread": "4.393"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "48"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "17"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.79",
+                                            "spread": "4.177"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2.06",
+                                            "spread": "5.068"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Clinician's Interview Based Impression of Change-Plus Caregiver Input (CIBIC-plus) Score at All Post Treatment Visits",
+                    "description": "This is a global measure of detectable change in cognition, function and behavior. The format for CIBIS/CIBIC-Plus consists of the assessment of an independent clinician based on observation of the patient at an interview, and information provided by the caregiver. The clinician's assessing severity at baseline and overall impression for assessing severity of the global change in disease severity, compared with baseline, is rated. The CIBIS/CIBIC plus examined general, cognitive, and behavioral function and activities of daily living on a 7-point categorical rating scale, ranging from a score of 0 indicating \"Not assessed\", to a score of 7 indicating \"Among the most extremely ill patients\" for CIBIS and ranging from 1 indicating \"Very much improved\", to a score of 7 indicating \"Marked worsening\", and with a score of 4 indicating \"no change\" for CIBIC-Plus. CIBIS was measured at Randomization visit and CIBIC-Plus was measured at Week 4, Week 8, and Week 12.",
+                    "populationDescription": "All randomized patients who have received at least one dose of study medication.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Week 4, 8, 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BAC Treatment",
+                            "description": "BAC, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Matched Vehicle",
+                            "description": "Matched vehicle, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "60"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 4",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "51"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "1. Very much improved",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "2. Much improved",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "3. Minimal improved",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "4. No change",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "41"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "10"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "5. Minimal worsening",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "6. Moderate worsening",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "48"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "17"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "1. Very much improved",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "2. Much improved",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "3. Minimal improved",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "4. No change",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "36"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "13"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "5. Minimal worsening",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "6. Moderate worsening",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 12",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "1. Very much improved",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "2. Much improved",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "3. Minimal improved",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "4. No change",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "11"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "5. Minimal worsening",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "6. Moderate worsening",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Alzheimer's Disease Cooperative Study Activities of Daily Living (ADCS-ADL) Score at All Post Treatment Visits Compared to Baseline",
+                    "description": "An inventory of informant based items to assess activities of daily living and instrumental activities of daily living, i.e. functional performance, of Alzheimer's disease (AD). It consists of 23-item inventory of ADL, rated based on extent of assistance the patient requires (independently, with supervision, with physical help): 0 (total independence in performing an activity) to 4 (total inability to act independently). Each question varies in the number of options to choose. Total score range: 0 to 78; higher scores indicate less functional impairment. ADL will be measured at Randomization/Baseline, Week 4, Week 8, and Week 12.",
+                    "populationDescription": "All randomized patients who have received at least one dose of study medication.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Week 4, 8, 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BAC Treatment",
+                            "description": "BAC, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Matched Vehicle",
+                            "description": "BAC matched vehicle, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "60"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 4 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "51"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.71",
+                                            "spread": "3.613"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.17",
+                                            "spread": "4.618"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "48"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "17"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.08",
+                                            "spread": "3.188"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.53",
+                                            "spread": "6.084"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 12 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.23",
+                                            "spread": "3.241"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.75",
+                                            "spread": "5.422"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Mini-Mental State Examination (MMSE) Score at All Post Treatment Visits Compared to Baseline",
+                    "description": "This is a multi-item instrument that examines orientation, registration, attention, calculation, recall, visuospatial abilities and language. The score ranges from 0 to 30, with higher scores indicating better cognitive function. MMSE was measured at Screening, Randomization/Baseline, Week 4, Week 8, and Week 12.",
+                    "populationDescription": "All randomized patients who have received at least one dose of study medication.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Week 4, 8, 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BAC Treatment",
+                            "description": "BAC, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Matched Vehicle",
+                            "description": "BAC matched vehicle, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "60"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 4 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "51"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.61",
+                                            "spread": "2.089"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.17",
+                                            "spread": "2.431"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "48"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "17"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.25",
+                                            "spread": "1.732"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.35",
+                                            "spread": "2.691"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 12 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.43",
+                                            "spread": "2.182"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.56",
+                                            "spread": "2.476"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Neuropsychiatric Inventory (NPI) Score at All Post Treatment Visits Compared to Baseline: NPI-10 Frequency \u00d7 Severity",
+                    "description": "The NPI is the behavior instrument most widely used in clinical trials of anti-dementia agents. The NPI uses a screening strategy to minimize administration time, examining and scoring only those behavioral domains with positive responses to screening questions. Both the frequency and the severity of each behavior are determined. Information for the NPI is obtained from a caregiver familiar with the patient's behavior. The NPI assesses 10 behavioral domains (10-item NPI, section A\\~J) common in dementia. Each NPI domain is scored by the caregiver based on a standardized interview administered by the clinician. Frequency is scored from 1 (occasionally) to 4 (very frequently) and severity is rated from 1 (mild) to 3 (severe). The score for each domain is frequency multiplied by severity. Therefore, the score ranges from 1 to 12 with higher scores indicate worse condition. NPI was measured at Randomization/Baseline, Week 4, Week 8, and Week 12.",
+                    "populationDescription": "All randomized patients who have received at least one dose of study medication.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Week 4, 8, 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BAC Treatment",
+                            "description": "BAC, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Matched Vehicle",
+                            "description": "BAC matched vehicle, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "60"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 4 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "51"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.37",
+                                            "spread": "8.607"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2.28",
+                                            "spread": "6.952"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "48"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "17"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.75",
+                                            "spread": "4.024"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2.76",
+                                            "spread": "6.250"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 12 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.48",
+                                            "spread": "6.550"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-3.13",
+                                            "spread": "6.672"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Neuropsychiatric Inventory (NPI) Score at All Post Treatment Visits Compared to Baseline: NPI-10 Caregiver Distress Score",
+                    "description": "The NPI is the behavior instrument most widely used in clinical trials of anti-dementia agents. The NPI uses a screening strategy to minimize administration time, examining and scoring only those behavioral domains with positive responses to screening questions. Both the frequency and the severity of each behavior are determined. Information for the NPI is obtained from a caregiver familiar with the patient's behavior. The NPI assesses 10 behavioral domains (10-item NPI) common in dementia. Each NPI domain is scored by the caregiver based on a standardized interview administered by the clinician. NPI-10 Caregiver Distress score is scored for associated caregiver distress from 0 (no distress) to 5 (very severe or extreme). Higher scores indicate greater distress. NPI was measured at Randomization/Baseline, Week 4, Week 8, and Week 12.",
+                    "populationDescription": "All randomized patients who have received at least one dose of study medication.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Week 4, 8, 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BAC Treatment",
+                            "description": "BAC, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Matched Vehicle",
+                            "description": "Matched vehicle, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "60"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 4 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "51"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.02",
+                                            "spread": "2.839"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-1.94",
+                                            "spread": "4.094"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "48"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "17"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.52",
+                                            "spread": "1.902"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2.06",
+                                            "spread": "4.451"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 12 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.91",
+                                            "spread": "2.595"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2.25",
+                                            "spread": "4.740"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Neuropsychiatric Inventory (NPI) Score at All Post Treatment Visits Compared to Baseline: NPI-12 Frequency \u00d7 Severity Score",
+                    "description": "The NPI is the behavior instrument most widely used in clinical trials of anti-dementia agents. The NPI uses a screening strategy to minimize administration time, examining and scoring only those behavioral domains with positive responses to screening questions. Both the frequency and the severity of each behavior are determined. Information for the NPI is obtained from a caregiver familiar with the patient's behavior. The NPI assesses 12 behavioral domains (12-item NPI) common in dementia. Each NPI domain is scored by the caregiver based on a standardized interview administered by the clinician. Frequency is scored from 1 (occasionally) to 4 (very frequently) and severity is rated from 1 (mild) to 3 (severe). The score for each domain is frequency multiplied by severity. Therefore, the score ranges from 1 to 12 with higher scores indicate worse condition. NPI was measured at Randomization/Baseline, Week 4, Week 8, and Week 12.",
+                    "populationDescription": "All randomized patients who have received at least one dose of study medication.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Week 4, 8, 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BAC Treatment",
+                            "description": "BAC, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Matched Vehicle",
+                            "description": "Matched vehicle, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "60"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 4 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "51"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.61",
+                                            "spread": "9.944"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-3.89",
+                                            "spread": "9.074"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "48"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "17"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.29",
+                                            "spread": "6.348"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-4.76",
+                                            "spread": "9.437"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 12 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.80",
+                                            "spread": "8.582"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-5.50",
+                                            "spread": "10.047"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Neuropsychiatric Inventory (NPI) Score at All Post Treatment Visits Compared to Baseline: NPI-12 Caregiver Distress Score",
+                    "description": "The NPI is the behavior instrument most widely used in clinical trials of anti-dementia agents. The NPI uses a screening strategy to minimize administration time, examining and scoring only those behavioral domains with positive responses to screening questions. Both the frequency and the severity of each behavior are determined. Information for the NPI is obtained from a caregiver familiar with the patient's behavior. The NPI assesses 12 behavioral domains (12-item NPI) common in dementia. Each NPI domain is scored by the caregiver based on a standardized interview administered by the clinician. NPI-12 Caregiver Distress score is scored for associated caregiver distress from 0 (no distress) to 5 (very severe or extreme). Higher scores indicate greater distress. NPI was measured at Randomization/Baseline, Week 4, Week 8, and Week 12.",
+                    "populationDescription": "All randomized patients who have received at least one dose of study medication.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Week 4, 8, 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BAC Treatment",
+                            "description": "BAC, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Matched Vehicle",
+                            "description": "Matched vehicle, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "60"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 4 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "51"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.02",
+                                            "spread": "3.010"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2.56",
+                                            "spread": "5.193"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "48"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "17"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.67",
+                                            "spread": "2.291"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2.76",
+                                            "spread": "5.815"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 12 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.93",
+                                            "spread": "2.840"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-3.13",
+                                            "spread": "6.174"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Number of Participants With Adverse Events",
+                    "description": "An adverse event (AE) is any untoward medical occurrence in a patient or clinical investigation participant administered a study medication and that does not necessarily have a causal relationship with this treatment. An AE can therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of a study medication, whether or not related to the study medication. Laboratory abnormalities should not be recorded as AEs unless determined to be clinically significant by the Investigator. The number of participants with adverse events within the BAC and placebo groups was determined.",
+                    "populationDescription": "All randomized patients who have received at least one dose study medication.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "AEs were reported through the study completion (up to 12 weeks)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BAC Treatment",
+                            "description": "BAC, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Matched Vehicle",
+                            "description": "BAC matched vehicle, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "60"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "POST_HOC",
+                    "title": "\"Responder\" Analysis of MMSE Score at All Post Treatment Visits Compared to Baseline, on All Subjects Not Receiving Any Dementia Medication (Na\u00efve)",
+                    "description": "This is a multi-item instrument that examines orientation, registration, attention, calculation, recall, visuospatial abilities and language. The maximum score is 30, with higher scores indicating better cognitive function. ).\n\n\"Responder\" analysis consist of two steps. (1) The baseline MMSE score is deducted from the post-treatment visit MMSE score; (2) the minus baseline score in step 1 is being dichotomized into two binary variable of either \"responder\" or \"non-responder\". Patients who make progress or remain unchanged on the cognitive test compared to baseline are considered as \"responders\", whereas patients who have deterioration on the cognitive test compared to baseline are considered as \"non-responders\".",
+                    "populationDescription": "All randomized patients who have received at least one dose of study medication.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Week 4, 8, 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BAC Treatment",
+                            "description": "BAC, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Matched Vehicle",
+                            "description": "Matched vehicle, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "60"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 4 - baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8 - baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 12 - baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "POST_HOC",
+                    "title": "\"Responder\" Analysis of ADAS-cog Score at All Post Treatment Visits Compared to Baseline, on All Subjects Not Receiving Any Dementia Medication (Na\u00efve)",
+                    "description": "The ADAS-Cog Subscale test is the standard assessment tool and one of the most popular cognitive testing instrument in clinical trials. It is designed to assess various cognitive abilities such as those associated with memory, language and praxis. Scores range from 0 to 70 with lower scores indicating lesser severity.\n\n\"Responder\" analysis consist of two steps. (1) The baseline ADAS-cog score score is deducted from the post-treatment visit ADAS-cog score; (2) the minus baseline score in step 1 is being dichotomized into two binary variable of either \"responder\" or \"non-responder\". Patients who make progress or remain unchanged on the cognitive test are considered as \"responders\", whereas patients who have deterioration on the cognitive test are considered as \"non-responders\".",
+                    "populationDescription": "All randomized patients who have received at least one dose of study medication.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Week 4, 8, and 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BAC Treatment",
+                            "description": "BAC, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Matched Vehicle",
+                            "description": "Matched vehicle, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "60"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 4 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 12 - Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "AE data was collected from Screening visit to Final visit (up to 12 weeks)",
+            "description": "All enrolled subjects were used for the analysis of AE and SAE.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "BAC Treatment",
+                    "description": "BAC, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 60,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 60,
+                    "otherNumAffected": 6,
+                    "otherNumAtRisk": 60
+                },
+                {
+                    "id": "EG001",
+                    "title": "Matched Vehicle",
+                    "description": "BAC matched vehicle, topically on external nasal skin, scalp, and neck, 30 g/day, 2 times daily for 12 weeks",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 20,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 20,
+                    "otherNumAffected": 7,
+                    "otherNumAtRisk": 20
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Nasopharyngitis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 60
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 20
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 60
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 20
+                        }
+                    ]
+                },
+                {
+                    "term": "Injury",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 60
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 20
+                        }
+                    ]
+                },
+                {
+                    "term": "Muscle strain",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 60
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 20
+                        }
+                    ]
+                },
+                {
+                    "term": "Back pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 60
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 20
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 60
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 20
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 60
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 20
+                        }
+                    ]
+                },
+                {
+                    "term": "Somnolence",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 60
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 20
+                        }
+                    ]
+                },
+                {
+                    "term": "Erythema",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 60
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 20
+                        }
+                    ]
+                },
+                {
+                    "term": "Hair growth abnormal",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 60
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 20
+                        }
+                    ]
+                },
+                {
+                    "term": "Basal cell carcinoma",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 60
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "R&D associate",
+                "organization": "Charsire Biotechnology Corp.",
+                "email": "cs42@charsire.com",
+                "phone": "+886-6-702-0817"
+            }
+        }
+    },
+    "target_category": "disease-targeted biologic",
+    "drug": [
+        "BAC \u2014 described as a Multi\u2011Glycan Complex (MGC) from soybean extract; investigational topical anti\u2011inflammatory preparation intended to reduce neuroinflammation"
+    ],
+    "placebo": [
+        "Matched vehicle (topical vehicle control)"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests 'BAC', described in trial registries as a Multi\u2011Glycan Complex (MGC) derived from soybean extract and characterized as a potential anti\u2011inflammatory agent intended to reduce neuroinflammation in Alzheimer's disease and vascular dementia. This indicates the intervention is a biologic/natural\u2011product complex aimed at disease pathology (neuroinflammation), rather than a pure symptomatic cognitive enhancer or a neuropsychiatric symptom treatment. \ue200cite\ue202turn0search1\ue202turn0search4\ue201",
+        "Act: Key trial details from registries: the study is a randomized, double\u2011blind, vehicle\u2011controlled Phase II evaluating topical application of BAC (external nasal skin, scalp, neck) versus matched vehicle, for 12 weeks, with BAC described as Multi\u2011Glycan Complex from soybean extract and labeled a potential anti\u2011inflammatory agent. These sources list the sponsor and study identifiers (NCT02886494 / NCT02467413). \ue200cite\ue202turn0search1\ue202turn0search3\ue202turn0search2\ue201",
+        "Reflect: Classification check \u2014 'disease\u2011targeted biologic' fits because BAC is a biologically derived glycan complex targeting a disease mechanism (neuroinflammation). It is not a small\u2011molecule inhibitor, nor described as a symptomatic cognitive enhancer or a neuropsychiatric agent, and the study is therapeutic (not diagnostic), so 'disease\u2011targeted biologic' is the best match. Note ambiguity: 'BAC' is a natural\u2011product glycan complex rather than a classical therapeutic monoclonal antibody or vaccine, but it still meets the 'biologic' definition (biologically derived complex) and targets disease pathology (neuroinflammation). Supporting registry listings: clinical trial summaries on trial registries and aggregator sites documenting the MGC/soybean description and topical vehicle\u2011controlled design. \ue200cite\ue202turn0search4\ue202turn0search7\ue201"
+    ],
+    "agent_type": "F) Inflammation",
+    "explanation_agent": [
+        "Reason: Trial registries describe BAC as a Multi\u2011Glycan Complex (MGC) from soybean extract characterized and developed as a potential anti\u2011inflammatory agent intended to reduce neuroinflammation in Alzheimer\u2019s disease and vascular dementia, which directly maps to CADRO category F (Inflammation). \ue200cite\ue202turn0search0\ue202turn0search1\ue201",
+        "Act: Key trial details extracted from registries: randomized, double\u2011blind, vehicle\u2011controlled Phase II (NCT02886494 / NCT02467413) evaluating topical BAC versus matched vehicle applied to external nasal skin, scalp and neck, twice daily for 12 weeks; sponsor listed as Charsire Biotechnology Corp. These entries explicitly describe BAC as an anti\u2011inflammatory Multi\u2011Glycan Complex from soybean. \ue200cite\ue202turn0search0\ue202turn0search2\ue202turn0search4\ue201",
+        "Reflect: The intervention is a biologically\u2011derived glycan complex aimed at reducing neuroinflammation (a disease mechanism), not a symptomatic cognitive enhancer or diagnostic tool, so the most specific CADRO match is F) Inflammation. Although BAC is a natural\u2011product/biologic with an imprecisely defined molecular target (no single gene/protein target reported in the registry), its stated mechanism (anti\u2011inflammatory / reduce neuroinflammation) justifies classification under Inflammation rather than Multi\u2011target or Other. Supporting registry and sponsor descriptions used for this decision are cited above. \ue200cite\ue202turn0search1\ue202turn0search8\ue201"
+    ]
+}

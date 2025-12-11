@@ -1,0 +1,481 @@
+{
+    "nct_id": "NCT04517877",
+    "title": "Caring Light Project for Caregivers of Individuals With Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2023-05-16",
+    "description_brief": "Caring Light is designed to help caregivers of someone with Alzheimer's Disease and related dementia to cope with the difficulties related to caregiving, reduce stress, and improve quality of life.",
+    "description_detailed": "The goals of this study are to evaluate materials related to dementia caregiving and how to cope with difficult situations faced by caregivers. Based on this research, the investigators are developing the new Caring Light mobile app with a self-paced program to enhance the quality of life, a curriculum that incorporates relaxation techniques, and coping skills training.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "SUPPORTIVE_CARE",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Caring Light Training",
+                    "description": "Caring Light mobile app with coping skills training.\n\nCaring Response App: Participants will receive the Caring Light mobile app containing the coping skills training."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Educational Training",
+                    "description": "Traditional educational program.\n\nTraditional Educational/Resources Program: Participants will receive a traditional educational/resources program, containing a workbook and online resources."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "82"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "82"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "63"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "58"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "19"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "24"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Caring Light Training",
+                    "description": "Caring Light mobile app with coping skills training.\n\nCaring Response App: Participants will receive the Caring Light mobile app containing the coping skills training."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Educational Training",
+                    "description": "Traditional educational program.\n\nTraditional Educational/Resources Program: Participants will receive a traditional educational/resources program, containing a workbook and online resources."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "82"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "82"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "164"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "55.5",
+                                            "spread": "11.1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "56.3",
+                                            "spread": "12.0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "55.9",
+                                            "spread": "11.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "68"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "70"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "138"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "26"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "25"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "68"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "71"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "139"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Center for Epidemiological Studies Depression Scale",
+                    "description": "The Center for Epidemiological Studies Depression scale (CES-D) is a 20-item measure that asks about the frequency of depressive symptoms (affective, psychological, and somatic) within the past week. The scale refers to the caregiver. Minimum score (best value)=0. Maximum score (worst value)=60. Higher values represent a worse outcome.",
+                    "populationDescription": "Caregivers with full data for the CES-D instrument were included in the outcomes analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Caring Light Training",
+                            "description": "Caring Light mobile app with coping skills training.\n\nCaring Response App: Participants will receive the Caring Light mobile app containing the coping skills training."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Educational Training",
+                            "description": "Traditional educational program.\n\nTraditional Educational/Resources Program: Participants will receive a traditional educational/resources program, containing a workbook and online resources."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "63"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "58"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "17.72",
+                                            "spread": "10.90"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "21.70",
+                                            "spread": "9.93"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Revised Memory and Behavior Problems Checklist",
+                    "description": "This scale measures the type/number of dementia patients disturbing behaviors, and how much they bother caregivers with 24 items describing possible troublesome behaviors that the patient might evidence in the past month. Caregivers are first asked whether the dementia patient had displayed any of these in the time period, and secondly to rate on a 5-point scale (0=not at all; 4= extremely) how much this \"bothered or upset\" them. A \"conditional bother\" score is calculated which is the \"upset\" or \"bother\" ratings for only the problematic behavior that occurred. The scale refers to the caregiver. Minimum score (best value)=0. Maximum score (worst value)=4. Higher values represent a worse outcome.",
+                    "populationDescription": "Caregivers with full data for the \"Revised Memory and Behavior Problems Checklist\" were included in the outcomes analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Caring Light Training",
+                            "description": "Caring Light mobile app with coping skills training.\n\nCaring Response App: Participants will receive the Caring Light mobile app containing the coping skills training."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Educational Training",
+                            "description": "Traditional educational program.\n\nTraditional Educational/Resources Program: Participants will receive a traditional educational/resources program, containing a workbook and online resources."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "62"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "53"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.52",
+                                            "spread": "0.54"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.64",
+                                            "spread": "0.55"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Perceived Stress Scale",
+                    "description": "The \"Perceived Stress Scale\" measures the overall level of stress. This instrument contains 10 items accessing overall appraisals of stress in the past month. The scale refers to the caregiver. Minimum score (best value)=0. Maximum score (worst value)=40. Higher values represent a worse outcome.",
+                    "populationDescription": "Caregivers with full data for the \"Perceived Stress Scale\" were included in the outcomes analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Caring Light Training",
+                            "description": "Caring Light mobile app with coping skills training.\n\nCaring Response App: Participants will receive the Caring Light mobile app containing the coping skills training."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Educational Training",
+                            "description": "Traditional educational program.\n\nTraditional Educational/Resources Program: Participants will receive a traditional educational/resources program, containing a workbook and online resources."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "62"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "57"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "17.16",
+                                            "spread": "7.41"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "19.36",
+                                            "spread": "5.82"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "3 months",
+            "description": "Definitions are the same as the ones from clinicaltrials.gov.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Caring Light Training",
+                    "description": "Caring Light mobile app with coping skills training.\n\nCaring Response App: Participants will receive the Caring Light mobile app containing the coping skills training.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 82,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 82,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 82
+                },
+                {
+                    "id": "EG001",
+                    "title": "Educational Training",
+                    "description": "Traditional educational program.\n\nTraditional Educational/Resources Program: Participants will receive a traditional educational/resources program, containing a workbook and online resources.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 82,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 82,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 82
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "Bruno Kajiyama",
+                "organization": "Photozig, Inc.",
+                "email": "info@photozig.com",
+                "phone": "6506947496"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The described intervention (Caring Light) is a caregiver-focused, non-pharmacological mobile app/program designed to help family caregivers cope, reduce stress, and improve quality of life rather than a drug or biological agent. This indicates it is not a disease-targeted biologic, disease-targeted small molecule, cognitive enhancer, or an intervention principally intended to treat patient neuropsychiatric symptoms. \ue200cite\ue202turn0search3\ue202turn0search7\ue202turn0search4\ue201",
+        "Act (extracted details and web search results): - Trial/project name: Caring Light (Caring Light Project for Family Caregivers / Caring Light Project for Caregivers of Individuals With Alzheimer's Disease). \ue200cite\ue202turn0search3\ue202turn0search7\ue201 - Intervention: a mobile app / self-paced program that provides relaxation techniques, coping skills training, and materials to help caregivers manage difficulties of dementia caregiving. \ue200cite\ue202turn0search3\ue202turn0search4\ue201 - Sponsor/developer: Photozig, Inc.; funded in part by NIA award R44AG055209 (per App Store listing). \ue200cite\ue202turn0search4\ue202turn0search3\ue201 - Eligibility/setting: caregivers of persons with Alzheimer\u2019s disease or related dementia who own a smartphone/tablet (i.e., the intervention is behavioral/educational, not pharmacologic). \ue200cite\ue202turn0search3\ue202turn0search7\ue201",
+        "Reflect: Given the extracted details, the trial does not test a drug, biologic, or direct cognitive-enhancing agent for patients, nor is it an intervention whose primary aim is to treat patients' neuropsychiatric symptoms. Therefore the correct classification from the provided categories is 'N/A' (non-therapeutic / caregiver-support intervention). No ambiguity remains in the description; web-checked sources confirm Caring Light is an app-based caregiver support program. \ue200cite\ue202turn0search3\ue202turn0search4\ue202turn0search7\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

@@ -1,0 +1,894 @@
+{
+    "nct_id": "NCT02750306",
+    "title": "A Phase III Randomized, Placebo-Controlled Clinical Trial to Study the Safety and Efficacy of Suvorexant (MK-4305) for the Treatment of Insomnia in Subjects With Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2019-09-25",
+    "description_brief": "This study aims to examine the safety and efficacy of suvorexant (MK-4305) to improve sleep in individuals with Alzheimer's disease (AD). The primary hypothesis for the study is that suvorexant is superior to placebo in improving insomnia as measured by change from baseline in polysomnography (PSG)-derived total sleep time (TST) at Week 4.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Suvorexant",
+                    "description": "Participants received 1 suvorexant tablet every night for up to 4 weeks. After 2 weeks of double-blind treatment at 10 mg, participants' suvorexant dose could be increased to 20 mg if their Clinical Global Impression of Insomnia Severity (CGI-S) was \u22653 and investigators felt they could tolerate the increased dose."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "Participants received 1 placebo-matching suvorexant tablet every night for up to 4 weeks. After 2 weeks of double-blind treatment at 10 mg, participants' placebo-matching dose could be increased to 20 mg if their CGI-S was \u22653 and investigators felt they could tolerate the increased dose."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "142"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "143"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "136"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "141"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "6"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "5"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Protocol Violation",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Suvorexant",
+                    "description": "Participants received 1 suvorexant tablet every night for up to 4 weeks. After 2 weeks of double-blind treatment at 10 mg, participants' suvorexant dose could be increased to 20 mg if their Clinical Global Impression of Insomnia Severity (CGI-S) was \u22653 and investigators felt they could tolerate the increased dose."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo",
+                    "description": "Participants received 1 placebo-matching suvorexant tablet every night for up to 4 weeks. After 2 weeks of double-blind treatment at 10 mg, participants' placebo-matching dose could be increased to 20 mg if their CGI-S was \u22653 and investigators felt they could tolerate the increased dose."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "142"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "143"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "285"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Years",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "142"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "143"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "285"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "69.6",
+                                            "spread": "8.7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "69.1",
+                                            "spread": "8.5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "69.3",
+                                            "spread": "8.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "142"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "143"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "285"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "91"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "95"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "186"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "51"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "48"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "99"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "142"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "143"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "285"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "89"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "93"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "182"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "52"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "50"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "102"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "142"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "143"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "285"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "17"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "24"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "22"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "46"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "86"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "80"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "166"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "50"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Polysomnography-derived Total Sleep Time",
+                    "populationDescription": "All Participants Treated/Data-as-Observed (One participant who failed the screening was inadvertently randomized and treated with suvorexant; had no polysomnography-derived total sleep time data.)",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Minutes",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "141"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "143"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "284"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "279.1",
+                                            "spread": "76.6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "271.2",
+                                            "spread": "86.7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "275.1",
+                                            "spread": "81.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline in Polysomnography-derived Total Sleep Time (TST) at Week 4",
+                    "description": "TST was measured at Baseline and at Week 4 in a sleep laboratory by polysomnography, during an 8-hour recording period beginning at participants' habitual bedtime.",
+                    "populationDescription": "All randomized participants who received at least 1 dose of study medication, had a baseline value for change from baseline analyses, and at least 1 post-randomization observation for the analysis endpoint subsequent to at least 1 dose of study medication",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "Minutes",
+                    "timeFrame": "Baseline and Week 4",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Suvorexant",
+                            "description": "Participants received 1 suvorexant tablet every night for up to 4 weeks. After 2 weeks of double-blind treatment at 10 mg, participants' suvorexant dose could be increased to 20 mg if their CGI-S was \u22653 and investigators felt they could tolerate the increased dose."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants received 1 placebo-matching suvorexant tablet every night for up to 4 weeks. After 2 weeks of double-blind treatment at 10 mg, participants' placebo-matching dose could be increased to 20 mg if their CGI-S was \u22653 and investigators felt they could tolerate the increased dose."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "135"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "139"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "73.4",
+                                            "lowerLimit": "61.3",
+                                            "upperLimit": "85.5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "45.2",
+                                            "lowerLimit": "33.3",
+                                            "upperLimit": "57.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.00128",
+                            "statisticalMethod": "ANCOVA",
+                            "paramType": "Difference in Least Squares Means",
+                            "paramValue": "28.2",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "11.1",
+                            "ciUpperLimit": "45.2"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Percentage of Participants Who Experienced One or More Adverse Events",
+                    "description": "An adverse event (AE) is any untoward medical occurrence in a study participant administered a pharmaceutical product that does not necessarily have to have a causal relationship with this treatment. An AE can therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of a medicinal product, whether or not related to the medicinal product.",
+                    "populationDescription": "All randomized participants who received at least 1 dose of study medication",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Percentage of participants",
+                    "timeFrame": "Up to 6 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Suvorexant",
+                            "description": "Participants received 1 suvorexant tablet every night for up to 4 weeks. After 2 weeks of double-blind treatment at 10 mg, participants' suvorexant dose could be increased to 20 mg if their CGI-S was \u22653 and investigators felt they could tolerate the increased dose."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants received 1 placebo-matching suvorexant tablet every night for up to 4 weeks. After 2 weeks of double-blind treatment at 10 mg, participants' placebo-matching dose could be increased to 20 mg if their CGI-S was \u22653 and investigators felt they could tolerate the increased dose."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "142"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "143"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "22.5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Percentage of Participants Who Discontinued Study Drug Due to an Adverse Event",
+                    "description": "An adverse event (AE) is any untoward medical occurrence in a study participant administered a pharmaceutical product that does not necessarily have to have a causal relationship with this treatment. An AE can therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of a medicinal product, whether or not related to the medicinal product.",
+                    "populationDescription": "All randomized participants who received at least 1 dose of study medication",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Percentage of participants",
+                    "timeFrame": "Up to 4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Suvorexant",
+                            "description": "Participants received 1 suvorexant tablet every night for up to 4 weeks. After 2 weeks of double-blind treatment at 10 mg, participants' suvorexant dose could be increased to 20 mg if their CGI-S was \u22653 and investigators felt they could tolerate the increased dose."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants received 1 placebo-matching suvorexant tablet every night for up to 4 weeks. After 2 weeks of double-blind treatment at 10 mg, participants' placebo-matching dose could be increased to 20 mg if their CGI-S was \u22653 and investigators felt they could tolerate the increased dose."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "142"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "143"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in Polysomnography-derived Wakefulness After Persistent Sleep Onset (WASO) at Week 4",
+                    "description": "WASO was measured at Baseline and at Week 4 in a sleep laboratory by polysomnography during an 8-hour recording period beginning at participants' habitual bedtime.",
+                    "populationDescription": "All randomized participants who received at least 1 dose of study medication, had a baseline value for change from baseline analyses, and at least 1 post-randomization observation for the analysis endpoint subsequent to at least 1 dose of study medication",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "Minutes",
+                    "timeFrame": "Baseline and Week 4",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Suvorexant",
+                            "description": "Participants received 1 suvorexant tablet every night for up to 4 weeks. After 2 weeks of double-blind treatment at 10 mg, participants' suvorexant dose could be increased to 20 mg if their CGI-S was \u22653 and investigators felt they could tolerate the increased dose."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants received 1 placebo-matching suvorexant tablet every night for up to 4 weeks. After 2 weeks of double-blind treatment at 10 mg, participants' placebo-matching dose could be increased to 20 mg if their CGI-S was \u22653 and investigators felt they could tolerate the increased dose."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "134"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "137"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-45.0",
+                                            "lowerLimit": "-53.8",
+                                            "upperLimit": "-36.3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-29.4",
+                                            "lowerLimit": "-38.1",
+                                            "upperLimit": "-20.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.01354",
+                            "statisticalMethod": "ANCOVA",
+                            "paramType": "Difference in Least Squares Means",
+                            "paramValue": "-15.7",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-28.1",
+                            "ciUpperLimit": "-3.3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "Up to 6 weeks",
+            "description": "All randomized participants who received at least 1 dose of study medication",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Suvorexant",
+                    "description": "Participants received 1 suvorexant tablet every night for up to 4 weeks. After 2 weeks of double-blind treatment at 10 mg, participants' suvorexant dose could be increased to 20 mg if their CGI-S was \u22653 and investigators felt they could tolerate the increased dose.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 142,
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 142,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 142
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Participants received 1 placebo-matching suvorexant tablet every night for up to 4 weeks. After 2 weeks of double-blind treatment at 10 mg, participants' placebo-matching dose could be increased to 20 mg if their CGI-S was \u22653 and investigators felt they could tolerate the increased dose.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 143,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 143,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 143
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Ankle fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA Version 21.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 142
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 143
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "The Sponsor must have the opportunity to review all proposed abstracts, manuscripts or presentations regarding this trial 45 days prior to submission for publication/presentation. Any information identified by the Sponsor as confidential must be deleted prior to submission; this confidentiality does not include efficacy and safety results. Sponsor review can be expedited to meet publication timelines."
+            },
+            "pointOfContact": {
+                "title": "Senior Vice President, Global Clinical Development",
+                "organization": "Merck Sharp & Dohme Corp.",
+                "email": "ClinicalTrialsDisclosure@merck.com",
+                "phone": "1-800-672-6372"
+            }
+        }
+    },
+    "target_category": "neuropsychiatric symptom improvement",
+    "drug": [
+        "suvorexant (MK-4305; trade name Belsomra) \u2014 a small-molecule dual orexin (OX1/OX2) receptor antagonist (hypnotic)"
+    ],
+    "placebo": [
+        "placebo (matched)"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests suvorexant (MK-4305) to improve sleep/insomnia in people with Alzheimer's disease; the primary outcome is PSG-derived total sleep time at Week 4, i.e., the intervention is aimed at treating insomnia rather than modifying AD pathology. \ue200cite\ue202turn0search0\ue202turn0search5\ue201",
+        "Act: Suvorexant is a small-molecule dual orexin receptor antagonist approved for insomnia (Belsomra) and acts by blocking orexin A/B signaling to promote sleep; the trial used nightly suvorexant (10 mg with possible increase to 20 mg) versus placebo. These facts identify the intervention as a symptomatic sleep treatment (drug + placebo reported). \ue200cite\ue202turn0search6\ue202turn0search0\ue201",
+        "Reflect: Classification rationale \u2014 because the drug is a small-molecule hypnotic that treats the neuropsychiatric symptom of insomnia (not an antibody, vaccine, or a small molecule targeting amyloid/tau to modify disease biology), the appropriate category is 'neuropsychiatric symptom improvement'. This aligns with the trial title and endpoints which focus on sleep outcomes rather than disease modification. \ue200cite\ue202turn0search0\ue202turn0search4\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The trial tests suvorexant (MK-4305/Belsomra), a small\u2011molecule dual orexin (OX1/OX2) receptor antagonist, to treat insomnia in people with Alzheimer disease; the primary endpoint is PSG-derived total sleep time at Week 4, so the intervention targets sleep/wake neurotransmission rather than AD pathology. \ue200cite\ue202turn0search4\ue202turn0search5\ue201",
+        "Act: Extracted details \u2014 suvorexant (MK-4305, trade name Belsomra) is a selective antagonist of orexin receptors OX1R and OX2R and is approved for insomnia; the AD study was a Phase 3 randomized, placebo-controlled trial (suvorexant 10 mg with possible increase to 20 mg) with PSG TST as the primary outcome. These facts identify the intervention as a symptomatic hypnotic acting on orexin neurotransmitter receptors. \ue200cite\ue202turn0search6\ue202turn0search4\ue202turn0search5\ue201",
+        "Reflect: Mapping to CADRO \u2014 orexin receptors are G-protein-coupled neuropeptide (neurotransmitter) receptors involved in wakefulness; an antagonist modulates neurotransmitter receptor signaling (symptomatic neuropsychiatric treatment), so the most specific CADRO category is D) Neurotransmitter Receptors. The trial is not aimed at modifying amyloid, tau, inflammation, or other disease biology, and it is a therapeutic symptomatic intervention (not a diagnostic), so 'D' is appropriate. \ue200cite\ue202turn0search6\ue202turn0search4\ue201",
+        "Web search results used (key sources):",
+        "- Polysomnographic assessment of suvorexant in patients with probable Alzheimer\u2019s disease dementia and insomnia: randomized trial \u2014 reports Phase 3 PSG primary endpoint and results. \ue200cite\ue202turn0search4\ue201",
+        "- Merck press release summarizing the Phase 3 AD insomnia trial and outcomes (Belsomra met primary endpoint). \ue200cite\ue202turn0search5\ue201",
+        "- CenterWatch / drug label summaries describing mechanism: suvorexant = selective OX1/OX2 (orexin) receptor antagonist (promotes sleep by blocking orexin A/B signaling). \ue200cite\ue202turn0search6\ue201",
+        "- ClinicalTrials entry / trial registry for NCT02750306 (Phase 3 AD insomnia study). \ue200cite\ue202turn0search8\ue201"
+    ]
+}

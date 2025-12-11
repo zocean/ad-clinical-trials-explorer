@@ -1,0 +1,590 @@
+{
+    "nct_id": "NCT04602624",
+    "title": "An Open-Label Evaluation of the Safety and Tolerability of SAGE-718 in Participants With Mild Cognitive Impairment or Mild Dementia Due to Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2025-09-11",
+    "description_brief": "The primary purpose of this study is to evaluate the safety and tolerability of SAGE-718 and its effects on cognitive and neuropsychiatric symptoms in participants with mild cognitive impairment (MCI) or mild dementia due to Alzheimer's disease (AD).",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "A total of 58 participants were screened, of which 26 participants were enrolled to receive SAGE-718.",
+            "recruitmentDetails": "Participants were enrolled at investigative sites in the United States from 07 December 2020 to 28 September 2021.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "SAGE-718",
+                    "description": "Participants received SAGE-718 3 mg oral tablets, once daily in the morning for 14 days."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "26"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "24"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Protocol Deviation",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Withdrawal by Participant",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "Safety Set included all participants who were administered investigational product (IP).",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "SAGE-718",
+                    "description": "Participants received SAGE-718 3 mg oral tablets, once daily in the morning for 14 days."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "26"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "67.0",
+                                            "spread": "9.11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "26"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race/Ethnicity, Customized",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "Race",
+                            "categories": [
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Other",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs)",
+                    "description": "An adverse event (AE) was any untoward medical occurrence in a participant administered with a pharmaceutical product and that does not necessarily have a causal relationship with the treatment. An AE can therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of an IP whether or not related to the product. An AE can include any undesirable medical condition, even if no study treatment has been administered. TEAEs were defined as an AE with an onset date on or after the date of the first dose of IP or any worsening of a pre-existing medical condition/AE with onset after the start of IP and throughout the study.",
+                    "populationDescription": "Safety Set included all participants who were administered IP.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "From first dose of study drug up to last follow up visit (up to 28 days)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "SAGE-718",
+                            "description": "Participants received SAGE-718 3 mg oral tablets, once daily in the morning for 14 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "26"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Percentage of Participants With at Least One Potentially Clinically Significant (PCS) Change in Vital Signs Measurements",
+                    "description": "PCS changes for vital signs included: Supine Systolic Blood Pressure (SBP) \\>180 millimeters of mercury (mmHg), SBP decrease from baseline of \u2265 30 mmHg, standing 1-minute SBP \\>180 mmHg, standing 3 minutes SBP decrease from baseline of \u2265 30 mmHg, Supine diastolic BP (DBP) decrease from baseline of \u2265 20 mmHg, standing 1-minute DBP decrease from baseline of \u2265 20 mmHg, standing 1-minute DBP increase from baseline of \u2265 20 mmHg, standing 3-minute DBP increase from baseline of \u2265 20 mmHg, orthostatic SBP: supine-1 minute standing \u2265 20 mmHg and supine-3 minute standing \u2265 20 mmHg, orthostatic DBP: supine-1 minute standing \u2265 10 mmHg and supine-3 minute standing \u2265 10 mmHg. Percentage of participants with at least one PCS change in vital signs measurements were reported.",
+                    "populationDescription": "Safety Set included all participants who were administered IP. 'Overall number of participants analyzed' indicates the number of participants with data available for outcome measure analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "percentage of participants",
+                    "timeFrame": "From first dose of study drug up to last follow-up visit (up to 28 days)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "SAGE-718",
+                            "description": "Participants received SAGE-718 3 mg oral tablets, once daily in the morning for 14 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "25"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "64.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Percentage of Participants With at Least One Potentially Clinically Significant Change in Laboratory Assessments",
+                    "description": "PCS changes for laboratory assessments included: hematology: hematocrit- male low (\\<0.385 fractions of 1), hemoglobin male low (\\<115 grams per liter \\[g/L\\]) and biochemistry: glucose high (\\>13.9 millimoles per liter \\[mmol/L\\]), potassium low (\\<3.3 mmol/L), blood urea nitrogen high (\\>10.71 mmol/L)., Percentage of participants with at least one PCS change in laboratory assessments were reported.",
+                    "populationDescription": "Safety Set included all participants who were administered IP. 'Overall number of participants analyzed' indicates the number of participants with data available for outcome measure analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "percentage of participants",
+                    "timeFrame": "From first dose of study drug up to last follow-up visit (up to 28 days)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "SAGE-718",
+                            "description": "Participants received SAGE-718 3 mg oral tablets, once daily in the morning for 14 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "25"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Hematology",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Biochemistry",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "16.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Percentage of Participants With at Least One Potentially Clinically Significant Change in Electrocardiogram (ECG) Measurements",
+                    "description": "PCS changes for ECG measurements included: QTcF Interval \\>450 to \u2264480 milliseconds (msec), \\>480 to \u2264500 msec, and \u226530 to \u226460 msec increase from baseline. Percentage of participants with at least one PCS change in ECG measurements were reported.",
+                    "populationDescription": "Safety Set included all participants who were administered IP. 'Overall number of participants analyzed' indicates the number of participants with data available for outcome measure analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "percentage of participants",
+                    "timeFrame": "From first dose of study drug up to last follow-up visit (up to 28 days)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "SAGE-718",
+                            "description": "Participants received SAGE-718 3 mg oral tablets, once daily in the morning for 14 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "25"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "32.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Percentage of Participants With Suicidal Ideation or Behavior Assessed Using the Columbia Suicide Severity Rating Scale (C-SSRS)",
+                    "description": "The C-SSRS scale assesses the lifetime experience of participants with suicidal ideation (SI) and suicidal behavior (SB). The C-SSRS included \"yes\" or \"no\" responses for assessment of suicidal ideation and behavior as well as numeric ratings for the severity of ideation, if present (with score range from 1 to 5, with 5 being the most severe). The C-SSRS SI items involved wish to be dead, non-specific active suicidal thoughts, active SI with any methods, active SI with some intent and active SI with a specific plan. The C-SSRS SB items involved preparatory acts or behavior, aborted attempt, interrupted attempt, actual attempt (non-fatal) and completed suicide. Percentage of participants with a response of 'yes' for suicidal ideation or behavior were reported.",
+                    "populationDescription": "Safety Set included all participants who were administered IP.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "percentage of participants",
+                    "timeFrame": "Up to Day 28",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "SAGE-718",
+                            "description": "Participants received SAGE-718 3 mg oral tablets, once daily in the morning for 14 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "26"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "3",
+            "timeFrame": "Screening up to last follow-up visit (approximately 49 days)",
+            "description": "Safety Set included all participants who were administered IP.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "SAGE-718",
+                    "description": "Participants received SAGE-718 3 mg oral tablets, once daily in the morning for 14 days.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 26,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 26,
+                    "otherNumAffected": 7,
+                    "otherNumAtRisk": 26
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Constipation",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA version 23.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 26
+                        }
+                    ]
+                },
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA version 23.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 26
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary tract infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA version 23.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 26
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA version 23.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 26
+                        }
+                    ]
+                },
+                {
+                    "term": "Agitation",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA version 23.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 26
+                        }
+                    ]
+                },
+                {
+                    "term": "Insomnia",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA version 23.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 26
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "The PI can either be a party and subject to the same restrictions as the institution, or if not a party, the restrictions are described on the face of the contract (i.e., PI is a contractor of the institution; PI is part of a larger group of study personnel; institution has contracted with or otherwise bound all study personnel under confidentiality obligations and requirements to vest intellectual property to the institution)."
+            },
+            "pointOfContact": {
+                "title": "Medical Monitor",
+                "organization": "Sage Therapeutics",
+                "email": "info@sagerx.com",
+                "phone": "(617) 299-8380"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "SAGE-718 (dalzanemdor) \u2014 an investigational NMDA receptor positive allosteric modulator (oral small molecule)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial description/test title states the study will evaluate safety/tolerability of SAGE-718 and its effects on cognitive and neuropsychiatric symptoms in participants with MCI or mild dementia due to AD. The drug is described in the literature and company materials as an NMDA receptor positive allosteric modulator (PAM) being developed to improve cognitive function (not as an anti-amyloid or anti-tau disease-modifying biologic). \ue200cite\ue202turn0search1\ue202turn0search5\ue201",
+        "Act: Key details \u2014 SAGE-718 (also called dalzanemdor) is an oral small-molecule NMDA receptor PAM developed by Sage Therapeutics and studied for cognitive impairment in AD, PD, HD and related disorders. Trials focus on cognitive endpoints (working memory, executive function) and safety/tolerability rather than targeting core AD pathology (amyloid/tau). Therefore the most appropriate category is 'cognitive enhancer'. \ue200cite\ue202turn0search4\ue202turn0search5\ue201",
+        "Reflect: Confirmation and caveats \u2014 The protocol/title does mention neuropsychiatric symptoms in addition to cognition, but the mechanism and development program (NMDA PAM intended to address NMDA receptor hypofunction and cognitive deficits) align best with the 'Cognitive enhancer' category rather than a disease-targeted biologic or a pathology-directed small molecule. If you want, I can also classify it as a 'small-molecule cognitive enhancer' for extra specificity. Relevant sources: phase-2 reports and company descriptions of SAGE-718/dalzanemdor. \ue200cite\ue202turn0search1\ue202turn0search0\ue202turn0search5\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: SAGE-718 (dalzanemdor) is described in company and peer-reviewed sources as an N\u2011methyl\u2011D\u2011aspartate (NMDA) receptor positive allosteric modulator (PAM), i.e., it acts on a neurotransmitter receptor (the NMDA glutamate receptor). \ue200cite\ue202turn0search0\ue202turn0search5\ue201",
+        "Act: The trial tests SAGE-718 for cognitive effects in MCI/mild AD (a cognitive enhancer approach) rather than targeting amyloid, tau, inflammation, or other AD core pathologies. Because its mechanism is modulation of the NMDA neurotransmitter receptor, the appropriate CADRO category is D) Neurotransmitter Receptors. Key supporting sources: company description and Phase 2 trial reports stating NMDA PAM mechanism and cognitive endpoints. \ue200cite\ue202turn0search1\ue202turn0search0\ue201",
+        "Reflect: Classification check \u2014 NMDA receptor modulation fits squarely within CADRO 'Neurotransmitter Receptors' (D). Although the program is framed as a cognitive enhancer, CADRO maps mechanism-of-action (NMDA receptor) to the Neurotransmitter Receptors category rather than a separate 'cognitive enhancer' label. No evidence in the description indicates amyloid, tau, ApoE/lipid, inflammation, or other CADRO categories as the primary target. \ue200cite\ue202turn0search5\ue202turn0search1\ue201",
+        "Web search results / supporting sources (selected):",
+        "- Sage Therapeutics press release: SAGE\u2011718 granted nonproprietary name dalzanemdor; described as an investigational NMDA receptor positive allosteric modulator. \ue200cite\ue202turn0search0\ue201",
+        "- Sage Therapeutics TOPLINE (LIGHTWAVE) Phase 2 results in MCI/mild AD: describes cognitive endpoints and trial outcome; reiterates drug is a first\u2011in\u2011class NMDA receptor PAM. \ue200cite\ue202turn0search1\ue201",
+        "- PubMed / clinical pharmacology paper: dalzanemdor (SAGE\u2011718) clinical pharmacology and description as an NMDA receptor positive allosteric modulator. \ue200cite\ue202turn0search5\ue201"
+    ]
+}

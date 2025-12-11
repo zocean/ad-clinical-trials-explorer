@@ -1,0 +1,879 @@
+{
+    "nct_id": "NCT05231954",
+    "title": "Digital Detection of Dementia (D Cubed) Studies: D2",
+    "status": "COMPLETED",
+    "last_update_time": "2025-08-19",
+    "description_brief": "The specific aim of the pragmatic trial is to evaluate the practical utility and effect of the PDM, the QDRS, and the combined approach (PDM + QDRS) in improving the annual rate of new documented ADRD diagnosis in primary care practices.",
+    "description_detailed": "Alzheimer's disease and related dementias (ADRD) negatively impact millions of Americans with an annual societal cost of more than $200 million.1 Currently, half of Americans living with ADRD never receive a diagnosis.2-7 For those who do, the diagnosis often occurs two to five years after the onset of symptoms.6-9 As stated by the National Institute on Aging (NIA) (RFA-AG-20-051) \"The inability to diagnose and treat cognitive impairment results in prolonged and expensive medical care\" and \"early detection could help persons with dementia and their care partners plan for the future\". Furthermore, if the development of disease modifying therapeutics for ADRD is successful, this may require the use of such therapeutics at a very early stage of ADRD.1 However, the current approaches of using cognitive tests or biomarkers for early detection of ADRD are not scalable due to their low acceptance, their invasive nature, their cost, or their lack of accessibility in rural or underserved areas. Thus, the NIA called out for the development of low cost, effective, and scalable approaches for early detection of ADRD (RFA-AG-20-051).\n\nIn response to the RFA-AG-20-051 call for the \"validation, and translation of screening and assessment tools for measuring cognitive decline a pragmatic cluster-randomized controlled comparative effectiveness (NIH Stage IV) trial will be executed in Eskenazi Health in central Indiana and one additional replicated pragmatic trial among patients from diverse rural, suburban and urban primary care practices in south Florida. The pragmatic trial will incorporate the Passive Digital Marker (PDM) and the Quick Dementia Rating Scale (QDRS) within the Medicare paid Annual Wellness Visit (AWV) for a cohort of patients from practices across the two independent sites, with practices randomized in each pragmatic trial to one of the 3 arms (AWV alone, the AWV with PDM and the PDM and the QDRS).\n\nQuick Dementia Rating Scale (QDRS)- is a validated patient reported outcome (PRO) tool.\n\nPassive Digital Marker (PDM) - is a Machine Learning (ML) algorithm which can predict ADRD one year and three years prior to its onset by using routine care electronic health record (EHR) data. The algorithm was trained using structured and unstructured data from three EHR datasets: diagnosis (Dx), prescriptions (Rx), and medical notes (Nx). Individual algorithms derived from each of the three datasets were developed and compared to a combined one that included all three datasets.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "SCREENING",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "* At least 65 years old as of date of data pull.\n* At least 3 years of EHR data as of date of data pull.\n* Alive as of date of data pull.\n* No prior ADRD, MCI, bipolar, or schizophrenia diagnosis as determined by ICD-10 code.\n* No evidence for any history of cholinesterase inhibitors or memantine prescription.\"\n\nWithin each clinic, enrolled patients include only those who:\n\n* Meet the above eligibility criteria\n* Have at least one visit to a randomized clinic during the study period.",
+            "recruitmentDetails": "D2 trial was launched at 9 clinics on July 5, 2022 (3 clinics in each study arm). D2 trial was completed in July 2024. The D2 trial deployed the Passive Digital Marker (PDM) on 5,325 older patients who were eligible and enrolled to receive primary care services within one of the 9 randomized clinics.",
+            "typeUnitsAnalyzed": "Clinics",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Annual Well Visit or Any Other Visit to Primary Care Doctor",
+                    "description": "Annual Well Visit or any other visit to Primary Care Doctor: This is the usual care arm. Electronic Health Record Data for patients from the clinics randomized to usual care will be collected for comparison with the other 2 arms. Patients from these primary care clinics must have had a visit to their doctor either as an annual well visit (AWV) or any other type of visit. These clinics will not have to do anything for the study but run their business as usual without altering anything."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Passive Digital Marker (PDM)",
+                    "description": "Passive Digital Marker (PDM): Electronic Health Record Data from those clinics randomized to PDM will be run through the PDM, a machine learning algorithm which can predict ADRD one year and three years prior to its onset."
+                },
+                {
+                    "id": "FG002",
+                    "title": "Passive Digital Marker (PDM) + Quick Dementia Rating Scale (QDRS)",
+                    "description": "Patients in the primary care clinics randomized to PDM+QDRS will have Electronic Health Record Data of their patients run through the PDM, a machine learning algorithm which can predict ADRD one year and three years prior to its onset. In addition, patients from these clinics will have their patients complete the QDRS, a validated patient reported outcome (PRO) tool. This combined approach will assess the value of early detection of ADRD and if the annual well visit can overcome the barriers related to early detection of ADRD."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1724",
+                                    "numUnits": "3"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1300",
+                                    "numUnits": "3"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "2301",
+                                    "numUnits": "3"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1724",
+                                    "numUnits": "3"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1300",
+                                    "numUnits": "3"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "2301",
+                                    "numUnits": "3"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0",
+                                    "numUnits": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0",
+                                    "numUnits": "0"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "0",
+                                    "numUnits": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "* At least 65 years old as of date of data pull.\n* At least 3 years of EHR data available as of date of data pull.\n* Alive as of date of data pull.\n* No prior ADRD, MCI, bipolar, or schizophrenia diagnosis as determined by ICD-10 code.\n* No evidence for any history of cholinesterase inhibitors or memantine prescription.\"\n\nEnrolled patients include only those who:\n\n* Meet the above eligibility criteria\n* Have at least one visit to a randomized clinic during the study period.",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Annual Well Visit or Any Other Visit to Primary Care Doctor",
+                    "description": "Annual Well Visit or any other visit to Primary Care Doctor: This is the usual care arm. Electronic Health Record Data for patients from the clinics randomized to usual care will be collected for comparison with the other 2 arms. Patients from these primary care clinics must have had a visit to their doctor either as an annual well visit (AWV) or any other type of visit. These clinics will not have to do anything for the study but run their business as usual without altering anything."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Passive Digital Marker (PDM)",
+                    "description": "Passive Digital Marker (PDM): Electronic Health Record Data from those clinics randomized to PDM will be run through the PDM, a machine learning algorithm which can predict ADRD one year and three years prior to its onset."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Passive Digital Marker (PDM) + Quick Dementia Rating Scale (QDRS)",
+                    "description": "Patients in the primary care clinics randomized to PDM+QDRS will have Electronic Health Record Data of their patients run through the PDM, a machine learning algorithm which can predict ADRD one year and three years prior to its onset. In addition, patients from these clinics will have their patients complete the QDRS, a validated patient reported outcome (PRO) tool. This combined approach will assess the value of early detection of ADRD and if the annual well visit can overcome the barriers related to early detection of ADRD."
+                },
+                {
+                    "id": "BG003",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "1724"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "1300"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "2301"
+                        },
+                        {
+                            "groupId": "BG003",
+                            "value": "5325"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "71",
+                                            "spread": "6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "71",
+                                            "spread": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "71",
+                                            "spread": "6"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "71",
+                                            "spread": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex/Gender, Customized",
+                    "description": "Sex at birth.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "calculatePct": false,
+                    "classes": [
+                        {
+                            "title": "Sex/Gender",
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1036"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "827"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1449"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "3312"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "688"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "473"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "852"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "2013"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "30"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "37"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "986"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "605"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1336"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "2927"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "575"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "471"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "743"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "1789"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "104"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "157"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "157"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "418"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "40"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "42"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "42"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "124"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "12-Month Cumulative Incidence of ADRD Diagnoses",
+                    "description": "Any new ADRD case identified (documented in the EHR) within 12 months of the Annual Wellness Visit (index visit).",
+                    "populationDescription": "9 clinics were randomized, and patients were treated as per the randomization arm (3 clinics per arm)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Number of new ADRD cases",
+                    "timeFrame": "12 months after index visit",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Annual Well Visit or Any Other Visit to Primary Care Doctor",
+                            "description": "Annual Well Visit or any other visit to Primary Care Doctor: This is the usual care arm. Electronic Health Record Data for patients from the clinics randomized to usual care will be collected for comparison with the other 2 arms. Patients from these primary care clinics must have had a visit to their doctor either as an annual well visit (AWV) or any other type of visit. These clinics will not have to do anything for the study but run their business as usual without altering anything."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Passive Digital Marker (PDM)",
+                            "description": "Passive Digital Marker (PDM): Electronic Health Record Data from those clinics randomized to PDM will be run through the PDM, a machine learning algorithm which can predict ADRD one year and three years prior to its onset."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Passive Digital Marker (PDM) + Quick Dementia Rating Scale (QDRS)",
+                            "description": "Patients in the primary care clinics randomized to PDM+QDRS will have Electronic Health Record Data of their patients run through the PDM, a machine learning algorithm which can predict ADRD one year and three years prior to its onset. In addition, patients from these clinics will have their patients complete the QDRS, a validated patient reported outcome (PRO) tool. This combined approach will assess the value of early detection of ADRD and if the annual well visit can overcome the barriers related to early detection of ADRD."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "1724"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "1300"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "2301"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "213"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "134"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "355"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG002"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.006",
+                            "pValueComment": "P-value is adjusted for multiple comparisons, and a priori threshold for statistical significance is 0.05",
+                            "statisticalMethod": "Mixed Models Analysis",
+                            "paramType": "Odds Ratio (OR)",
+                            "paramValue": "1.29",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "1.08",
+                            "ciUpperLimit": "1.55"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.081",
+                            "pValueComment": "The p-value is adjusted for multiple comparisons, and a priori threshold for statistical significance is 0.05",
+                            "statisticalMethod": "Mixed Models Analysis",
+                            "paramType": "Odds Ratio (OR)",
+                            "paramValue": "0.82",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.65",
+                            "ciUpperLimit": "1.03"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "12-Month Cumulative Incidence of ADRD Services",
+                    "description": "The secondary outcome measures is receipt of any services related to cognitive diagnostic assessment in the post Annual Wellness Visit (index) period that providers may order to diagnose or exclude ADRD. Specifically, the metrics of diagnostic assessment are evaluated as proportions of patients with a record of 1 or more of:\n\n* Laboratory tests for TSH, serum B12, folate, or syphilis; individually or combined at any point during the 90 days after index\n* Neuropsychological testing, including testing by psychologist or physician, technician administrator, computer, or other providers during the 12 months after index date\n* Brain imaging testing (computed tomography, magnetic resonance imaging, positron emission tomography, magnetic resonance angiogram) of the head and neck, brain, or skull during the 12 months after index date\n* Medications approved for management of ADRD (cholinesterase inhibitors, memantine) during the 12 months after index date",
+                    "populationDescription": "9 clinics were randomized, and patients were treated as per the randomization arm (3 clinics per arm)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Participants with ADRD related servicess",
+                    "timeFrame": "12 months after index visit",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Annual Well Visit or Any Other Visit to Primary Care Doctor",
+                            "description": "Annual Well Visit or any other visit to Primary Care Doctor: This is the usual care arm. Electronic Health Record Data for patients from the clinics randomized to usual care will be collected for comparison with the other 2 arms. Patients from these primary care clinics must have had a visit to their doctor either as an annual well visit (AWV) or any other type of visit. These clinics will not have to do anything for the study but run their business as usual without altering anything."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Passive Digital Marker (PDM)",
+                            "description": "Passive Digital Marker (PDM): Electronic Health Record Data from those clinics randomized to PDM will be run through the PDM, a machine learning algorithm which can predict ADRD one year and three years prior to its onset."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Passive Digital Marker (PDM) + Quick Dementia Rating Scale (QDRS)",
+                            "description": "Patients in the primary care clinics randomized to PDM+QDRS will have Electronic Health Record Data of their patients run through the PDM, a machine learning algorithm which can predict ADRD one year and three years prior to its onset. In addition, patients from these clinics will have their patients complete the QDRS, a validated patient reported outcome (PRO) tool. This combined approach will assess the value of early detection of ADRD and if the annual well visit can overcome the barriers related to early detection of ADRD."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "1724"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "1300"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "2301"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "879"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "636"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "1366"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG002"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.044",
+                            "pValueComment": "The p-value is adjusted for multiple comparisons, and the a priori threshold for statistical significance is 0.05",
+                            "statisticalMethod": "Mixed Models Analysis",
+                            "paramType": "Odds Ratio (OR)",
+                            "paramValue": "1.44",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "1.01",
+                            "ciUpperLimit": "2.05"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.919",
+                            "pValueComment": "The p-value is adjusted for multiple comparisons and the a priori threshold for statistical significance is 0.05",
+                            "statisticalMethod": "Mixed Models Analysis",
+                            "paramType": "Odds Ratio (OR)",
+                            "paramValue": "1.02",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.69",
+                            "ciUpperLimit": "1.50"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "12-Months of follow-up after index visit (enrollment date)",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Annual Well Visit or Any Other Visit to Primary Care Doctor",
+                    "description": "Annual Well Visit or any other visit to Primary Care Doctor: This is the usual care arm. Electronic Health Record Data for patients from the clinics randomized to usual care will be collected for comparison with the other 2 arms. Patients from these primary care clinics must have had a visit to their doctor either as an annual well visit (AWV) or any other type of visit. These clinics will not have to do anything for the study but run their business as usual without altering anything.",
+                    "deathsNumAffected": 26,
+                    "deathsNumAtRisk": 1724,
+                    "seriousNumAffected": 561,
+                    "seriousNumAtRisk": 1724,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 1724
+                },
+                {
+                    "id": "EG001",
+                    "title": "Passive Digital Marker (PDM)",
+                    "description": "Passive Digital Marker (PDM): Electronic Health Record Data from those clinics randomized to PDM will be run through the PDM, a machine learning algorithm which can predict ADRD one year and three years prior to its onset.\n\nPassive Digital Marker for screening for ADRD: Patients in the primary care clinics randomized to PDM+QDRS will have Electronic Health Record Data of their patients run through the PDM, a machine learning algorithm which can predict ADRD one year and three years prior to its onset. In addition, patients from these clinics will have their patients complete the QDRS, a validated patient reported outcome (PRO) tool. This combined approach will assess the value of early detection of ADRD and if the annual well visit can overcome the barriers related to early detection of ADRD.",
+                    "deathsNumAffected": 7,
+                    "deathsNumAtRisk": 1300,
+                    "seriousNumAffected": 398,
+                    "seriousNumAtRisk": 1300,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 1300
+                },
+                {
+                    "id": "EG002",
+                    "title": "Passive Digital Marker (PDM) + Quick Dementia Rating Scale (QDRS)",
+                    "description": "Patients in the primary care clinics randomized to PDM+QDRS will have Electronic Health Record Data of their patients run through the PDM, a machine learning algorithm which can predict ADRD one year and three years prior to its onset. In addition, patients from these clinics will have their patients complete the QDRS, a validated patient reported outcome (PRO) tool. This combined approach will assess the value of early detection of ADRD and if the annual well visit can overcome the barriers related to early detection of ADRD.\n\nPassive Digital Marker for screening for ADRD: Patients in the primary care clinics randomized to PDM+QDRS will have Electronic Health Record Data of their patients run through the PDM, a machine learning algorithm which can predict ADRD one year and three years prior to its onset. In addition, patients from these clinics will have their patients complete the QDRS, a validated patient reported outcome (PRO) tool. This combined approach will assess the value of early detection of ADRD and if the annual well visit can overcome the barriers related to early detection of ADRD.",
+                    "deathsNumAffected": 25,
+                    "deathsNumAtRisk": 2301,
+                    "seriousNumAffected": 816,
+                    "seriousNumAtRisk": 2301,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 2301
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Positive for PDM and had Hospitalization",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 88,
+                            "numAffected": 88,
+                            "numAtRisk": 561
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 65,
+                            "numAffected": 65,
+                            "numAtRisk": 398
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 148,
+                            "numAffected": 148,
+                            "numAtRisk": 816
+                        }
+                    ]
+                },
+                {
+                    "term": "Positive for PDM and had ER visit",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 243,
+                            "numAffected": 243,
+                            "numAtRisk": 561
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 175,
+                            "numAffected": 175,
+                            "numAtRisk": 398
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 392,
+                            "numAffected": 392,
+                            "numAtRisk": 816
+                        }
+                    ]
+                },
+                {
+                    "term": "Positive for PDM and had PCC visit",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 561,
+                            "numAffected": 561,
+                            "numAtRisk": 561
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 398,
+                            "numAffected": 398,
+                            "numAtRisk": 398
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 816,
+                            "numAffected": 816,
+                            "numAtRisk": 816
+                        }
+                    ]
+                },
+                {
+                    "term": "Positive for PDM and had Memory clinic visit",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 33,
+                            "numAffected": 33,
+                            "numAtRisk": 561
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 33,
+                            "numAffected": 33,
+                            "numAtRisk": 398
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 62,
+                            "numAffected": 62,
+                            "numAtRisk": 816
+                        }
+                    ]
+                },
+                {
+                    "term": "Positive for PDM and had NEW Dementia Diagnosis",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 87,
+                            "numAffected": 87,
+                            "numAtRisk": 561
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 70,
+                            "numAffected": 70,
+                            "numAtRisk": 398
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 186,
+                            "numAffected": 186,
+                            "numAtRisk": 816
+                        }
+                    ]
+                },
+                {
+                    "term": "Positive for PDM and had NEW Depression Diagnosis",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 31,
+                            "numAffected": 31,
+                            "numAtRisk": 561
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 18,
+                            "numAffected": 18,
+                            "numAtRisk": 398
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 32,
+                            "numAffected": 32,
+                            "numAtRisk": 816
+                        }
+                    ]
+                },
+                {
+                    "term": "Positive for PDM and had NEW Suicidal Ideation Diagnosis",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 561
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 398
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 816
+                        }
+                    ]
+                },
+                {
+                    "term": "Positive for PDM and had NEW significant incapacity Diagnosis",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 35,
+                            "numAffected": 35,
+                            "numAtRisk": 561
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 29,
+                            "numAffected": 29,
+                            "numAtRisk": 398
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 41,
+                            "numAffected": 41,
+                            "numAtRisk": 816
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "limitationsAndCaveats": {
+                "description": "We had a delay in releasing the second cohort of the PDM by about 3 months due to enabling an HL7 process. This made it possible for Epic to run a program to flag PDM and PDM+QDRS automatically. For the first cohort, we manually entered the data."
+            },
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Katrina Coppedge",
+                "organization": "Indiana University",
+                "email": "kcoppedg@iu.edu",
+                "phone": "317-278-1602"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial tests a Passive Digital Marker (PDM) \u2014 a machine\u2011learning algorithm applied to electronic health record (EHR) data \u2014 and the Quick Dementia Rating Scale (QDRS), a patient\u2011reported outcome instrument, aiming to improve early detection/diagnosis rates of Alzheimer\u2019s disease and related dementias in primary care. These are screening/diagnostic tools, not therapeutic drugs or biologics. \ue200cite\ue202turn0search1\ue202turn0search0\ue201",
+        "Act: Key extracted details \u2014 title: \"Digital Detection of Dementia (D Cubed) Studies: D2\"; interventions: Passive Digital Marker (PDM) and QDRS; primary outcome: incidence of new EHR\u2011documented ADRD diagnosis within 12 months. The PDM is described as an EHR\u2011based ML predictor and the QDRS as a validated PRO. No drug/biologic is tested in this study. \ue200cite\ue202turn0search0\ue202turn0search1\ue202turn0search5\ue201",
+        "Reflect: Classification check \u2014 per the definitions provided, this is a diagnostic/screening implementation trial (non\u2011therapeutic). It does not evaluate a disease\u2011targeted biologic or small molecule, a cognitive enhancer, or an intervention intended to improve neuropsychiatric symptoms. Therefore the correct category is 'N/A'. The web sources reviewed confirm the trial focus on PDM and QDRS rather than any drug. \ue200cite\ue202turn0search1\ue202turn0search4\ue201",
+        "Web search results (sources consulted): 1) Trial registry / summary showing the D2 study description and interventions (PDM, QDRS). \ue200cite\ue202turn0search0\ue201 2) BMC Trials article (study protocol for the D3/Digital detection of dementia program) describing the PDM (EHR ML algorithm) and QDRS (patient\u2011reported outcome) and the pragmatic cluster\u2011randomized design. \ue200cite\ue202turn0search1\ue201 3) PubMed entry for the study protocol summarizing methods and aims. \ue200cite\ue202turn0search4\ue201 4) Veeva/ctv trial page and other trial listing pages reiterating the PDM+QDRS arms and that this is a screening/detection study. \ue200cite\ue202turn0search5\ue202turn0search3\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

@@ -1,0 +1,294 @@
+{
+    "nct_id": "NCT02767609",
+    "title": "Measuring Cerebral Blood Flow Using Pseudo-continuous Arterial Spin Labeling Perfusion Magnetic Resonance Imaging",
+    "status": "COMPLETED",
+    "last_update_time": "2019-04-09",
+    "description_brief": "This study will test a new MRI sequence that measures cerebral blood flow (CBF). Because this technique for measuring CBF is new, there is little information on what the normal values for different regions of the brain should be. Information from the study will be used to establish normative CBF values for the brain, improving the reliable use of this technique for the diagnosis of brain injury or disease.",
+    "description_detailed": "Cerebral blood flow (CBF) represents an important physiological parameter for the diagnosis and management of multiple brain disorders. The clinical need for CBF measurements is further complicated by the desire to have a non-invasive method with high temporal resolution that can measure CBF over a wide range of blood flows and in a wide range of patients. Numerous techniques are available to measure CBF. Nuclear medicine approaches, such as single positron emission computed tomography (SPECT) and positron emission tomography (PET) rely on radioisotopes which can be problematic in the pediatric population. In contrast, MRI-based methods are non-invasive and the CBF information can be obtained in conjunction with other MRI techniques (i.e. diffusion weighted imaging or spectroscopy) which allows for a combined longitudinal assessment of CBF, morphology, and metabolism, to provide a more complete understanding of the developing pathophysiological mechanisms.\n\nArterial spin labeling (ASL) perfusion imaging uses arterial blood water as an endogenous diffusible tracer where radiofrequency (RF) pulses magnetically label the moving spins in flowing blood without the use of a contrast agent. After a time delay allowing for the magnetically labeled blow to flow into the brain, \"labeled\" images are acquired. Separate control images are also acquired, without labeling and the difference between the two sets of imaged provides a measure of perfusion. Since gadolinium-based contrast agents are not required, the ASL perfusion technique is completely non-invasive. In addition, ASL techniques are insensitive to blood-brain barrier permeability changes, which can occur after strokes or with tumors.\n\nBecause gadolinium-based contrast is not used, the ASL technique has an inherently lower sensitivity than DSC-PWI. To date, there are a number of commercially available ASL techniques that differ in their labeling schemes, which has contributed to the difficulty in obtaining consistent results across different patient populations (pediatric, elderly, stroke, tumors). A number of recent reports using pseudo-continuous ASL (pCASL) have been published and show increased reliability across different patient populations. Moreover, a recent consensus statement published by the International Society of Magnetic Resonance in Medicine Perfusion Study Group recommends the use of pCASL labeling strategies for clinical applications.\n\nThe objectives of this study is to determine the accuracy and reliability of a newly developed pCASL sequence and post-processing software across multiple patient populations (neonate to elderly) and pathological processes.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "BASIC_SCIENCE",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Magentic Resonance Imaging",
+                    "description": "Magnetic Resonance Imaging.\n\nMagnetic Resonance Imaging: All participants will have be given a MRI using a pseudo-continuous arterial spin labeling perfusion sequence."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "any person between age of 18-90",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Magentic Resonance Imaging",
+                    "description": "Magnetic Resonance Imaging.\n\nMagnetic Resonance Imaging: All participants will have be given a MRI using a pseudo-continuous arterial spin labeling perfusion sequence."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "1"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "32",
+                                            "spread": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "calculatePct": false,
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race and Ethnicity Not Collected",
+                    "populationDescription": "Race and Ethnicity were not collected from any participant.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Regional Cerebral Blood Flow Values of the Brain Measured Using Pseudo-continuous Arterial Spin Labeling (pCASL) MRI.",
+                    "description": "The relative cerebral blood flow (CBF) in frontal, parietal, occipital gray matter and white matter regions, basal ganglia, thalami, and cerebellum will be measured using region of interest analysis to determine institutional normative values for healthy subjects.",
+                    "populationDescription": "control",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ml/100g/min",
+                    "timeFrame": "single encounter",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Magentic Resonance Imaging",
+                            "description": "Magnetic Resonance Imaging.\n\nMagnetic Resonance Imaging: All participants will have be given a MRI using a pseudo-continuous arterial spin labeling perfusion sequence."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "35.4",
+                                            "spread": "5.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "1 year",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Magentic Resonance Imaging",
+                    "description": "Magnetic Resonance Imaging.\n\nMagnetic Resonance Imaging: All participants will have be given a MRI using a pseudo-continuous arterial spin labeling perfusion sequence.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 1,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 1,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 1
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Brenda Bartnik Olson",
+                "organization": "Loma Linda University medical Center",
+                "email": "bbartnik@llu.edu",
+                "phone": "909-558-4000",
+                "phoneExt": "85216"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial tests a new MRI sequence (pseudo-continuous arterial spin labeling, pCASL) to measure cerebral blood flow (CBF) and to establish normative CBF values for different brain regions \u2014 this is a diagnostic / imaging methods study, not a therapeutic drug or biologic trial. \ue200cite\ue202turn0search7\ue201",
+        "Act (key details & evidence): The intervention is an MRI sequence (Device: Magnetic Resonance Imaging; pCASL). The study\u2019s stated purpose is to establish normative CBF values to improve diagnostic use for brain injury or disease, not to test a drug or clinical treatment. \ue200cite\ue202turn0search7\ue201 Additional background: pCASL is a noninvasive MRI perfusion technique widely used to quantify CBF; consensus recommendations and lexicons describe pCASL and its implementation. Normative and reproducibility studies using 3D pCASL and comparisons with PET/C-15O have been published. \ue200cite\ue202turn0search6\ue202turn0search1\ue202turn0search0\ue201",
+        "Reflect: Given the definitions \u2014 disease-targeted biologic (biologic therapies targeting pathology), disease-targeted small molecule (pharmacologic agents targeting pathology), cognitive enhancer (drugs to improve cognition), and neuropsychiatric symptom improvement (behavioral/psychiatric symptom treatments) \u2014 this trial fits none: it is a diagnostic imaging methods study. Therefore the correct classification is 'N/A'. Supporting trial record and methodological literature are cited above. \ue200cite\ue202turn0search7\ue202turn0search6\ue202turn0search1\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

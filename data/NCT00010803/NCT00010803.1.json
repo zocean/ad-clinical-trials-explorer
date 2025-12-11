@@ -1,0 +1,1191 @@
+{
+    "nct_id": "NCT00010803",
+    "title": "Ginkgo Biloba Prevention Trial in Older Individuals",
+    "status": "COMPLETED",
+    "last_update_time": "2013-03-11",
+    "description_brief": "This study will determine the effect of 240mg/day Ginkgo biloba in decreasing the incidence of dementia and specifically Alzheimer's disease (AD), slowing cognitive decline and functional disability, reducing incidence of cardiovascular disease, and decreasing total mortality.",
+    "description_detailed": "Participants will be studied in a randomized trial of 240 mg of Ginkgo biloba as compared to placebo in healthy men and women, at least 75 years old. The trial will last approximately 8 years. The intervention will be considered unsuccessful in those participants who succumb to dementia, including Alzheimer's Disease and vascular dementia. There are four clinical centers: Pittsburgh, PA; Hagerstown, MD; Winston-Salem, NC; and Sacramento, CA; and a Coordinating Center at the University of Washington, Seattle. There will be a clinic visit every 6 months to determine morbidity, mortality and change in cognition that will include repeat of ADAS, CDR, and 10 battery neuropsychological evaluation and informant interview. The primary endpoint is dementia, specifically Alzheimer's disease, secondary endpoint will include the incidence of vascular disease, changes in cognitive function scores over time, total mortality and changes in functional status. The diagnosis of dementia will be based on neuropsychological testing, neurological exam, MRI, functional measurements, and review by a central adjudication committee and classified by DSM IV, NINCDS criteria and ADRTC criteria for vascular disease.",
+    "phase": [
+        "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "PREVENTION",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "After mailing brochures to potential participants, we conducted a telephone screening followed by an in-person clinic visit to finalize eligibility. Randomization was done at a second visit within close proximity to the screening visit.",
+            "recruitmentDetails": "Recruitment occured between September 2000 through June 2002 primarily using mass mailings from targeted lists such as voter's registration and commercially available lists. Some sites chose to supplement this approach with newspaper, radio and television ads plus newsletter articles, posters and community presentations.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Ginkgo Biloba",
+                    "description": "EGb 761 Ginkgo biloba 120 mg twice daily"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "Placebo twice daily"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "Randomized",
+                                    "numSubjects": "1545"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "comment": "Randomized",
+                                    "numSubjects": "1524"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "Reached endpoint of dementia, death or completion",
+                                    "numSubjects": "1448"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "comment": "Reached endpoint of dementia, death or completion",
+                                    "numSubjects": "1426"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "97"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "98"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "97"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "98"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Ginkgo Biloba",
+                    "description": "120 mg twice daily, total 240 mg"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo",
+                    "description": "Placebo 1 pill twice daily"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "1545"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "1524"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "3069"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1545"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1524"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "3069"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "79.1",
+                                            "spread": "3.3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "79.1",
+                                            "spread": "3.3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "79.1",
+                                            "spread": "3.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "702"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "716"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1418"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "843"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "808"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1651"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1545"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1524"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "3069"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants With Incident Dementia",
+                    "description": "All cause dementia based on DSM-IV criteria as determined by an expert panel of clinicians using an adjudication process. A full neuropsychological battery was administered annually, or at 6 month visit if there was a diagnosis of dementia or initiation of medication for dementia by private physician, or change in Modified Mini Mental State Exam (3MSE), Clinical Dementia Rating (CDR), or Alzheimer Disease Assessment Scale (ADAS-Cog). Decline on tests scores based on an algorithm resulted in a neurological exam and brain imaging. These data were used in the adjudication process.",
+                    "populationDescription": "Subjects developing incident dementia during trial in each group, intention to treat (ITT).",
+                    "reportingStatus": "POSTED",
+                    "anticipatedPostingDate": "2009-02",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Brief neuropsychological testing every 6 months, detailed testing annually, average 6.1 years follow up",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Ginkgo Biloba",
+                            "description": "120 mg twice daily, total 240 mg"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Placebo 1 pill twice a day"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "1545"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "1524"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "277"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "246"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "The null hypothesis is that the instantaneous hazard rate for Ginkgo biloba and placebo are the same. Assumptions were based on 4%/yr dementia and 6%/yr mortality and dropout combined. A sample size of 3000 with an average follow up of 5 years resulted in 96% power to detecting a 30% reduction in the rate of dementia at a 2-sided significance level of 0.5.",
+                            "testedNonInferiority": true,
+                            "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+                            "nonInferiorityComment": "Previously provided",
+                            "pValue": "0.21",
+                            "statisticalMethod": "Log Rank",
+                            "statisticalComment": "Time to dementia in Ginkgo vs placebo groups. The Cox proportional hazards model was used to compute hazard ratios and log-rank tests.",
+                            "paramType": "Hazard Ratio (HR)",
+                            "paramValue": "1.12",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.94",
+                            "ciUpperLimit": "1.33"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Number of Participants With the Indicated Cardiovascular Disease or Mortality",
+                    "description": "Myocardial infarction (MI), angina, stroke (CVA), transient ischemic attack (TIA), combined coronary heart disease (CHD) (MI/angina), combined cerebrovascular (CVA/TIA), peripheral vascular disease, and mortality",
+                    "populationDescription": "Total cohort of 3069 based on same design as primary outcome, ITT.",
+                    "reportingStatus": "POSTED",
+                    "anticipatedPostingDate": "2009-11",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Ginkgo Biloba",
+                            "description": "120 mg twice daily, total 240 mg"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Placebo 1 pill twice a day"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "1545"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "1524"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Total Mortality",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "197"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "188"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Atherosclerotic CHD Mortality",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "45"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "42"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Incident MI",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "68"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "60"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Incident Angina",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "66"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "76"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Incident CHD (MI &/or angina)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "107"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "110"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Incident CHF",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "112"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "122"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Incident Stroke",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "73"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "59"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Incident TIA",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "27"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "31"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Incident CVD (stroke &/or TIA)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "99"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "88"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Total CHD and CVD",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "157"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "154"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Total Mortality",
+                            "testedNonInferiority": true,
+                            "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+                            "nonInferiorityComment": "Previously provided",
+                            "pValue": "0.70",
+                            "statisticalMethod": "Log Rank",
+                            "paramType": "Hazard Ratio (HR)",
+                            "paramValue": "1.04",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.85",
+                            "ciUpperLimit": "1.27"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Atherosclerotic CHD mortality",
+                            "testedNonInferiority": true,
+                            "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+                            "nonInferiorityComment": "Previously provided",
+                            "pValue": "0.78",
+                            "statisticalMethod": "Log Rank",
+                            "paramType": "Hazard Ratio (HR)",
+                            "paramValue": "1.06",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.70",
+                            "ciUpperLimit": "1.62"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Incident Myocardial Infarction",
+                            "testedNonInferiority": true,
+                            "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+                            "nonInferiorityComment": "Previously provided",
+                            "pValue": "0.54",
+                            "statisticalMethod": "Log Rank",
+                            "paramType": "Hazard Ratio (HR)",
+                            "paramValue": "1.12",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.79",
+                            "ciUpperLimit": "1.58"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Incident Angina",
+                            "testedNonInferiority": true,
+                            "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+                            "nonInferiorityComment": "Previously Provided",
+                            "pValue": "0.32",
+                            "statisticalMethod": "Log Rank",
+                            "paramType": "Hazard Ratio (HR)",
+                            "paramValue": "0.84",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.61",
+                            "ciUpperLimit": "1.18"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Incident CHD",
+                            "testedNonInferiority": true,
+                            "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+                            "nonInferiorityComment": "Previously provided",
+                            "pValue": "0.66",
+                            "statisticalMethod": "Log Rank",
+                            "paramType": "Hazard Ratio (HR)",
+                            "paramValue": "0.94",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.72",
+                            "ciUpperLimit": "1.23"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Incident CHF",
+                            "testedNonInferiority": true,
+                            "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+                            "nonInferiorityComment": "Previously Provided",
+                            "pValue": "0.48",
+                            "statisticalMethod": "Log Rank",
+                            "paramType": "Hazard Ratio (HR)",
+                            "paramValue": "0.91",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.71",
+                            "ciUpperLimit": "1.18"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Incident Stroke",
+                            "testedNonInferiority": true,
+                            "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+                            "nonInferiorityComment": "Previously provided",
+                            "pValue": "0.25",
+                            "statisticalMethod": "Log Rank",
+                            "paramType": "Hazard Ratio (HR)",
+                            "paramValue": "0.87",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.52",
+                            "ciUpperLimit": "1.45"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Incident TIA",
+                            "testedNonInferiority": true,
+                            "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+                            "nonInferiorityComment": "Previously provided",
+                            "pValue": "0.59",
+                            "statisticalMethod": "Log Rank",
+                            "paramType": "Hazard Ratio (HR)",
+                            "paramValue": "0.87",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.52",
+                            "ciUpperLimit": "1.45"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Incident CVD",
+                            "testedNonInferiority": true,
+                            "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+                            "nonInferiorityComment": "Previously provided",
+                            "pValue": "0.42",
+                            "statisticalMethod": "Log Rank",
+                            "paramType": "Cox Proportional Hazard",
+                            "paramValue": "1.12",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.84",
+                            "ciUpperLimit": "1.50"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Total CHD and CVD combined",
+                            "testedNonInferiority": true,
+                            "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+                            "nonInferiorityComment": "Previously provided",
+                            "pValue": "0.98",
+                            "statisticalMethod": "Log Rank",
+                            "paramType": "Hazard Ratio (HR)",
+                            "paramValue": "1.00",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.80",
+                            "ciUpperLimit": "1.25"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Progression of Cognitive Decline in Standardized Z-score Scale. Higher Z-scores Indicate Worse Performance.",
+                    "description": "Rate of annual change by cognitive domain in standardized Z-score scale. Higher Z-scores indicate worse performance. Best score = -2.0 Z-score change per year (improvement); worse score = 2.0 Z-score change per year (decline).",
+                    "populationDescription": "Final test scores were imputed for participants who did not have a cognitive exam during the year before death (n=234) or dropout (n=154) or during the month before censoring for dementia (n=70). Factors in imputed model included treatment group, demographic and health history variables, study site, and other cognitive scores. Higher Z-scores worse",
+                    "reportingStatus": "POSTED",
+                    "anticipatedPostingDate": "2009-11",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "Z-score units",
+                    "timeFrame": "6 months/annually",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Ginkgo Biloba",
+                            "description": "120 mg twice daily, total 240 mg"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Placebo 1 pill twice a day"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "1545"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "1524"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Global Cognition (mean Z-score of 5 domains)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.069",
+                                            "lowerLimit": "0.064",
+                                            "upperLimit": "0.074"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.071",
+                                            "lowerLimit": "0.065",
+                                            "upperLimit": "0.076"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Memory (mean Z-score of 2 memory tests)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.043",
+                                            "lowerLimit": "0.034",
+                                            "upperLimit": "0.051"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.041",
+                                            "lowerLimit": "0.032",
+                                            "upperLimit": "0.050"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Attention (mean Z-score of 2 attention tests)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.043",
+                                            "lowerLimit": "0.037",
+                                            "upperLimit": "0.050"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.048",
+                                            "lowerLimit": "0.041",
+                                            "upperLimit": "0.054"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Visuospatial Abilities (mean Z-score of 2 tests)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.107",
+                                            "lowerLimit": "0.097",
+                                            "upperLimit": "0.117"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.118",
+                                            "lowerLimit": "0.108",
+                                            "upperLimit": "0.128"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Language (mean Z-score of 2 language tests)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.045",
+                                            "lowerLimit": "0.037",
+                                            "upperLimit": "0.054"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.041",
+                                            "lowerLimit": "0.033",
+                                            "upperLimit": "0.048"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Executive Functions (mean Z-score of 2 tests)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.092",
+                                            "lowerLimit": "0.086",
+                                            "upperLimit": "0.099"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.089",
+                                            "lowerLimit": "0.082",
+                                            "upperLimit": "0.096"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Linear mixed models comparing rates of change in global cognition scores (z-scores) by treatment group",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": ".65",
+                            "statisticalMethod": "Mixed Models Analysis",
+                            "paramType": "Treatment X Time interaction",
+                            "paramValue": "-0.002",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-0.009",
+                            "ciUpperLimit": "0.005"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Adverse event data were collected every six months at testing visits, and at interim 3 month adherence phone calls.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Ginkgo Biloba",
+                    "description": "EGb 761 Ginkgo biloba 120 mg twice daily",
+                    "seriousNumAffected": 1000,
+                    "seriousNumAtRisk": 1545,
+                    "otherNumAffected": 1504,
+                    "otherNumAtRisk": 1545
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Placebo twice daily",
+                    "seriousNumAffected": 961,
+                    "seriousNumAtRisk": 1524,
+                    "otherNumAffected": 1469,
+                    "otherNumAtRisk": 1524
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Death",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "COSTART",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 197,
+                            "numAffected": 197,
+                            "numAtRisk": 1545
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 188,
+                            "numAffected": 188,
+                            "numAtRisk": 1524
+                        }
+                    ]
+                },
+                {
+                    "term": "Bleeding",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "COSTART",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Gastrointestinal and all other",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 171,
+                            "numAffected": 138,
+                            "numAtRisk": 1545
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 178,
+                            "numAffected": 140,
+                            "numAtRisk": 1524
+                        }
+                    ]
+                },
+                {
+                    "term": "Coronary Heart Disease Total",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "COSTART",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Myocardial infarction, angina, angioplasty, coronary artery bypass graft, coronary heart disease death",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 285,
+                            "numAffected": 211,
+                            "numAtRisk": 1545
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 259,
+                            "numAffected": 204,
+                            "numAtRisk": 1524
+                        }
+                    ]
+                },
+                {
+                    "term": "Stroke",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "COSTART",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Ischemic, hemorrhagic and unknown",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 88,
+                            "numAffected": 80,
+                            "numAtRisk": 1545
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 82,
+                            "numAffected": 71,
+                            "numAtRisk": 1524
+                        }
+                    ]
+                },
+                {
+                    "term": "All other SAEs",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "COSTART",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1627,
+                            "numAffected": 374,
+                            "numAtRisk": 1545
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1647,
+                            "numAffected": 358,
+                            "numAtRisk": 1524
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "non-hospitalized self-reported symptom",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "COSTART",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 1545
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 1524
+                        }
+                    ]
+                },
+                {
+                    "term": "All adverse events",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "COSTART",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "There were no statistically significant differences.",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1504,
+                            "numAffected": 1504,
+                            "numAtRisk": 1545
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1469,
+                            "numAffected": 1469,
+                            "numAtRisk": 1524
+                        }
+                    ]
+                },
+                {
+                    "term": "Self-reported non-hospitalized symptom collected every 6 months",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "COSTART",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1504,
+                            "numAffected": 1504,
+                            "numAtRisk": 1545
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1469,
+                            "numAffected": 1469,
+                            "numAtRisk": 1524
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Steven T. DeKosky MD",
+                "organization": "University of Virginia",
+                "email": "SD3ZC@hscmail.mcc.virginia.edu",
+                "phone": "434-924-5118"
+            }
+        }
+    },
+    "target_category": "Cognitive enhancer",
+    "drug": [
+        "Ginkgo biloba (standardized leaf extract; e.g., EGb 761) - 240 mg/day"
+    ],
+    "placebo": [
+        "placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests a standardized Ginkgo biloba leaf extract (240 mg/day) to reduce incidence of dementia/Alzheimer's and slow cognitive decline \u2014 the aim is prevention/cognitive benefit rather than targeting a specific AD molecular pathology such as amyloid or tau. \ue200cite\ue202turn0search0\ue202turn1search0\ue201",
+        "Act (key details & evidence): The intervention is Ginkgo biloba leaf extract (commonly the EGb 761 formulation) given at 240 mg/day in a large randomized trial (the Ginkgo Evaluation of Memory, GEM). The NINDS trial description and NCCIH summary describe the 240 mg/day randomized prevention trial and its cognitive endpoints. \ue200cite\ue202turn0search0\ue202turn1search0\ue201",
+        "Act (efficacy evidence from literature): Large randomized evidence (the GEM trial published in JAMA) found Ginkgo (240 mg/day) ineffective at reducing overall dementia or Alzheimer\u2019s incidence; systematic reviews and meta-analyses and the Cochrane review report inconsistent or no convincing evidence that Ginkgo prevents dementia. (Examples: GEM trial PubMed summary; systematic review/meta-analysis; Cochrane review). \ue200cite\ue202turn0search7\ue202turn0search6\ue202turn0search2\ue201",
+        "Act (mechanism): Ginkgo extracts are botanical mixtures (flavonoids, terpenoids) with proposed antioxidant and antiplatelet/vascular effects rather than a targeted anti-amyloid or anti-tau action; some trials of EGb 761 evaluated cognitive and neuropsychiatric symptoms and reported mixed results. \ue200cite\ue202turn1search1\ue202turn0search4\ue202turn1search5\ue201",
+        "Reflect: Classification rationale \u2014 under the provided category definitions, this intervention is not a biologic (monoclonal antibody/vaccine) nor a single small-molecule drug designed to modify specific AD pathology. Instead it is a botanical supplement intended to improve or preserve cognition/slow cognitive decline; therefore it best fits the 'Cognitive enhancer' category. The GEM and subsequent reviews support that the trial was designed as a cognitive-prevention/ enhancement study, even though clinical benefit was not shown. \ue200cite\ue202turn0search0\ue202turn1search0\ue202turn0search2\ue201",
+        "Web search results referenced: NINDS trial page (Ginkgo Biloba Prevention Trial in Older Individuals). \ue200cite\ue202turn0search0\ue201",
+        "Web search results referenced: NCCIH summary of the Ginkgo Evaluation of Memory (GEM) Study (noting 240 mg/day and that it was ineffective for preventing dementia). \ue200cite\ue202turn1search0\ue201",
+        "Web search results referenced: PubMed / JAMA report of the GEM trial (trial results showing no reduction in dementia/AD incidence). \ue200cite\ue202turn0search7\ue201",
+        "Web search results referenced: Randomized trials of EGb 761 showing mixed results on cognitive and neuropsychiatric symptoms. \ue200cite\ue202turn0search4\ue202turn0search1\ue201",
+        "Web search results referenced: Cochrane review and systematic reviews/meta-analyses concluding no convincing evidence that Ginkgo prevents dementia. \ue200cite\ue202turn0search2\ue202turn0search6\ue201"
+    ],
+    "agent_type": "R) Multi-target",
+    "explanation_agent": [
+        "Reason: The trial tests a standardized Ginkgo biloba leaf extract (EGb 761 in many studies) as a botanical cognitive-enhancer/prevention intervention rather than a therapy directed at a single Alzheimer molecular pathology such as amyloid-beta or tau. The extract is a mixture with proposed antioxidant and vascular (antiplatelet/vascular) effects, i.e., multiple possible mechanisms rather than a single, specific AD target. \ue200cite\ue202turn0search1\ue202turn0search3\ue201",
+        "Act: Key details extracted from the trial description and literature \u2014 GEM (Ginkgo Evaluation of Memory) used 240 mg/day (120 mg twice daily) of standardized Ginkgo extract in a large randomized prevention trial of older adults and found no reduction in dementia incidence; NINDS and NIH summaries describe the 240 mg/day randomized prevention design and endpoints. The extract\u2019s putative mechanisms are antioxidant and vascular/neuroprotective rather than anti-amyloid or anti-tau. \ue200cite\ue202turn0search0\ue202turn0search1\ue202turn0search3\ue201",
+        "Reflect: CADRO classification \u2014 because Ginkgo is a botanical mixture with several proposed mechanisms (oxidative stress modulation, vascular effects, general neuroprotection) and the trial is aimed at cognitive enhancement/prevention rather than a single molecular AD target, the most appropriate CADRO category is R) Multi-target. Alternative single-category placements (e.g., G) Oxidative Stress or K) Vasculature or M) Synaptic Plasticity/Neuroprotection) could each capture part of the proposed action, but none alone cover the mixture of mechanisms; therefore R) Multi-target best fits. Evidence summaries and systematic reviews conclude no convincing prevention benefit. \ue200cite\ue202turn0search4\ue202turn0search2\ue201",
+        "Sources referenced: NINDS trial page for the Ginkgo Biloba Prevention Trial in Older Individuals (trial design, 240 mg/day). \ue200cite\ue202turn0search0\ue201; NIH/NCCIH/NIH news release and summaries reporting GEM results (no effect on dementia incidence). \ue200cite\ue202turn0search1\ue202turn0search2\ue201; JAMA/GEM primary report on cognitive outcomes and dose (120 mg twice daily = 240 mg/day). \ue200cite\ue202turn0search3\ue201; Cochrane/systematic-review conclusions that evidence is inconsistent and does not show convincing prevention efficacy. \ue200cite\ue202turn0search4\ue201"
+    ]
+}

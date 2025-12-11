@@ -1,0 +1,3868 @@
+{
+    "nct_id": "NCT05104463",
+    "title": "A Phase 2a, Randomized, Placebo-Controlled, Double-Blind, Crossover Study to Evaluate the Safety, Tolerability and Effects of CST-2032 and CST-107 on Cognition in Subjects With Mild Cognitive Impairment or Mild Dementia Due to Parkinson's or Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2025-01-22",
+    "description_brief": "This is a Phase 2a, randomized, placebo-controlled, double-blind, crossover study to evaluate the effects CST-2032 administered with CST-107 on cognition in participants with Mild Cognitive Impairment (MCI) or mild dementia.",
+    "description_detailed": "Approximately 60 participants will be enrolled in a 2 period, 2-way crossover design following study eligibility confirmation during the screening period. During each treatment period, subjects will receive daily doses of CST-2032 administered with CST-107 or matching placebo for 14 days. Each treatment period will be separated by a washout period of at least 7 days and up to 21 days.\n\nAll participants will complete clinical, cognitive and pharmacodynamic assessments during each treatment period. PK blood samples will be collected prior to, during and after study medication administration.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "CST-2032 (3mg)/CST-107 (3mg) to Placebo",
+                    "description": "Subjects will receive daily doses of CST-2032 (3mg) co-administered with CST-107 (3mg) for 14 days, followed by a washout period of no drug for 7-21 days, followed by placebo for 14 days."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo to CST-2032 (3mg)/CST-107 (3mg)",
+                    "description": "Subjects will receive placebo for 14 days followed by a washout period of no drug for 7-21 days, followed by daily doses of CST-2032 (3mg) co-administered with CST-107 (3mg) for 14 days."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "32"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "32"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "28"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "27"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "4"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "5"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Adverse Event",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Physician Decision",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Protocol Violation",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "All participants enrolled in study.",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Overall",
+                    "description": "All participants enrolled in study"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "64"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "68.0",
+                                            "spread": "7.96"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "43"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "20"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "59"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "New Zealand",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "56"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Treatment-emergent Adverse Events",
+                    "description": "The number of participants experiencing treatment-emergent adverse events after receiving 3mg CST-2032 co-administered with 3mg CST-107 compared to placebo",
+                    "populationDescription": "Safety Set - All participants who received at least 1 dose of blinded study drug.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Change from Baseline after 14 days of treatment",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Participants following treatment with placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "CST-2032 and CST-107",
+                            "description": "Participants following treatment with CST-2032 and CST-107."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "59"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "59"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "20"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Vital Signs",
+                    "description": "Change from Baseline in supine blood pressure (diastolic blood pressure and systolic blood pressure) after CST-2032 co-administered with CST-107 compared to placebo",
+                    "populationDescription": "Safety set - all participants who received at least 1 dose of study drug (CSR-2032, CST-107 or placebo). Participants were reported based on the treatment received. It is noted that whilst all the above participants were included in the overall analysis, there were some participants for whom data was not available at individual timepoints and the resulting corrected number of participants analyzed is presented per parameter below.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "mmHg",
+                    "timeFrame": "Change from Baseline after 14 days of treatment respectively (4 hours post dose)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PD Participants - Placebo",
+                            "description": "Participants with Parkinson's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "PD Participants - CST-2032/CST-107",
+                            "description": "Participants with Parkinson's disease, following treatment with CST-2032/CST-107"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "AD Participants - Placebo",
+                            "description": "Participants with Alzheimer's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "AD Participants - CST-2032/CST-107",
+                            "description": "Participants with Alzheimer's disease, following treatment with CST-2032/CST-107"
+                        },
+                        {
+                            "id": "OG004",
+                            "title": "Overall - Placebo",
+                            "description": "All participants following treatment with placebo."
+                        },
+                        {
+                            "id": "OG005",
+                            "title": "Overall - CST-2032/CST-107",
+                            "description": "All participants following treatment with CST-2032/CST-107"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "26"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "27"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "33"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "32"
+                                },
+                                {
+                                    "groupId": "OG004",
+                                    "value": "59"
+                                },
+                                {
+                                    "groupId": "OG005",
+                                    "value": "59"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Systolic blood pressure - Supine Change from Baseline at Day 14",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "24"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "30"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "58"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "54"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.1",
+                                            "spread": "22.17"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-5.2",
+                                            "spread": "19.24"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "1.3",
+                                            "spread": "11.18"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "0.6",
+                                            "spread": "9.53"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "0.2",
+                                            "spread": "16.88"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "-2.0",
+                                            "spread": "14.79"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Diastolic blood pressure - Supine Change from Baseline at Day 14",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "24"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "30"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "58"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "54"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.6",
+                                            "spread": "14.77"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-1.6",
+                                            "spread": "12.40"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "1.5",
+                                            "spread": "8.21"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "2.4",
+                                            "spread": "7.25"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "0.6",
+                                            "spread": "11.55"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "0.6",
+                                            "spread": "9.98"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Electrocardiograms (ECGs)",
+                    "description": "Change from Baseline in QTc interval using the Fredericia (QTcF) corrections after treatment with CST-2032 co-administered with CST107 compared to placebo",
+                    "populationDescription": "Safety set - all participants who received at least 1 dose of study drug (CST-2032, CST-107 or placebo). Participants were reported based on the treatment received.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "msec",
+                    "timeFrame": "Change from Baseline after 14 days of treatment respectively (4 hour post-dose)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PD Participants - Placebo",
+                            "description": "Participants with Parkinson's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "PD Participants - CST-2032/CST-107",
+                            "description": "Participants with Parkinson's disease, following treatment with CST-2032/CST-107"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "AD Participants - Placebo",
+                            "description": "Participants with Alzheimer's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "AD Participants - CST-2032/CST-107",
+                            "description": "Participants with Alzheimer's disease, following treatment with CST-2032/CST-107"
+                        },
+                        {
+                            "id": "OG004",
+                            "title": "Overall - Placebo",
+                            "description": "All participants following treatment with placebo"
+                        },
+                        {
+                            "id": "OG005",
+                            "title": "Overall - CST2032/CST-107",
+                            "description": "All participants following treatment with CST2032/CST-107"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "26"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "27"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "33"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "32"
+                                },
+                                {
+                                    "groupId": "OG004",
+                                    "value": "59"
+                                },
+                                {
+                                    "groupId": "OG005",
+                                    "value": "59"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4.402",
+                                            "spread": "8.5028"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4.532",
+                                            "spread": "11.3533"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "2.771",
+                                            "spread": "12.5605"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "3.411",
+                                            "spread": "14.4734"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "3.515",
+                                            "spread": "10.8381"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "3.909",
+                                            "spread": "13.0718"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in DSST Score",
+                    "description": "Change from Baseline in Digit Symbol Substitution Test (DSST) after CST-2032 co-administered with CST-107 compared to placebo. Participants are asked to copy simple graphic symbols that are paired to the digits 1-9 within a specified time period. Using a key, the examinee is asked to draw each symbol under its corresponding number. The examinee's score is determined by the number of symbols correctly drawn within a 90-second time limit. Higher scores indicate better performance.",
+                    "populationDescription": "Full Analysis Set - All randomized participants who took at least 1 dose of blinded study drug (CST-2032 + CST-107 or placebo). Participants were analyzed according to the treatment assigned at randomization. It is noted that whilst all the above participants were included in the overall analysis, there were some participants for whom data was not available at individual timepoints and the resulting corrected number of participants analyzed is presented per parameter below.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "correct symbols",
+                    "timeFrame": "Change from Baseline after 7 and 14 days of treatment respectively.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PD Participants - Placebo",
+                            "description": "Participants with Parkinson's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "PD Participants - CST-2032/CST-107",
+                            "description": "Participants with Parkinson's disease, following treatment with CST-2032/CST-107"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "AD Participants - Placebo",
+                            "description": "Participants with Alzheimer's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "AD Participants - CST-2032/CST-107",
+                            "description": "Participants with Alzheimer's disease, following treatment with CST-2032/CST-107"
+                        },
+                        {
+                            "id": "OG004",
+                            "title": "Overall - Placebo",
+                            "description": "All participants following treatment with placebo."
+                        },
+                        {
+                            "id": "OG005",
+                            "title": "Overall - CST-2032/CST-107",
+                            "description": "All participants following treatment with CST-2032/CST-107"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "26"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "27"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "33"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "32"
+                                },
+                                {
+                                    "groupId": "OG004",
+                                    "value": "59"
+                                },
+                                {
+                                    "groupId": "OG005",
+                                    "value": "59"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change from Baseline at Day 7",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "58"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "56"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.09",
+                                            "spread": "0.938"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3.21",
+                                            "spread": "0.949"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "3.07",
+                                            "spread": "0.905"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "3.71",
+                                            "spread": "0.915"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "2.64",
+                                            "spread": "0.669"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "3.45",
+                                            "spread": "0.676"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change from Baseline at Day 14",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "58"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "59"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.79",
+                                            "spread": "0.938"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2.57",
+                                            "spread": "0.949"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "2.95",
+                                            "spread": "0.906"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "4.71",
+                                            "spread": "0.915"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "2.88",
+                                            "spread": "0.669"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "3.71",
+                                            "spread": "0.676"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in DSST Total Incorrect",
+                    "description": "Change from Baseline in Digit Symbol Substitution Test (DSST) after CST-2032 co-administered with CST-107 compared to placebo. Participants are asked to copy simple graphic symbols that are paired to the digits 1-9 within a specified time period. Using a key, the examinee is asked to draw each symbol under its corresponding number. The incorrect score is the number of symbols incorrectly drawn within a 90-second time limit. Lower scores indicate better performance; negative scores indicate better performance relative to baseline.",
+                    "populationDescription": "Full Analysis Set - All randomized participants who took at least 1 dose of blinded study drug (CST-2032 + CST-107 or placebo). Partcipants were analyzed according to the treatment assigned at randomization.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "incorrect symbols",
+                    "timeFrame": "Change from Baseline after 7 and 14 days of treatment respectively.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PD Participants - Placebo",
+                            "description": "Participants with Parkinson's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "PD Participants - CST-2032/CST-107",
+                            "description": "Participants with Parkinson's disease, following treatment with CST-2032/CST-107."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "AD Participants - Placebo",
+                            "description": "Participants with Alzheimer's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "AD Participants - CST-2032/CST-107",
+                            "description": "Participants with Alzheimer's disease, following treatment with CST-2032/CST-107."
+                        },
+                        {
+                            "id": "OG004",
+                            "title": "Overall - Placebo",
+                            "description": "All participants following treatment with placebo."
+                        },
+                        {
+                            "id": "OG005",
+                            "title": "Overall - CST-2032/CST-107",
+                            "description": "All participants following treatment with CST-2032/CST-107."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "26"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "27"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "33"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "32"
+                                },
+                                {
+                                    "groupId": "OG004",
+                                    "value": "59"
+                                },
+                                {
+                                    "groupId": "OG005",
+                                    "value": "59"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change from Baseline at Day 7",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "58"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "56"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.41",
+                                            "spread": "0.534"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.03",
+                                            "spread": "0.543"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "-0.69",
+                                            "spread": "0.475"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "-1.55",
+                                            "spread": "0.482"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "0.28",
+                                            "spread": "0.359"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "-0.81",
+                                            "spread": "0.364"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change from Baseline at Day 14",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "58"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "56"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.37",
+                                            "spread": "0.534"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.29",
+                                            "spread": "0.543"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "-0.89",
+                                            "spread": "0.476"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "-1.65",
+                                            "spread": "0.482"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "-0.30",
+                                            "spread": "0.359"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "-0.72",
+                                            "spread": "0.364"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in CANTAB Stop Signal Reaction Time",
+                    "description": "Measures response inhibition (impulse control). Participants must respond to an arrow stimulus by selecting one of two options, depending on the direction in which the arrow points. If an audio tone is present, subjects must withhold making that response (inhibition). Lower response times indicate better performance.",
+                    "populationDescription": "Full Analysis Set - All randomized participants who took at least 1 dose of blinded study drug (CST-2032 + CST-107 or placebo). Participants were analyzed according to the treatment assigned at randomization.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "milliseconds",
+                    "timeFrame": "Change from Baseline after 7 and 14 days of treatment respectively.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PD Participants - Placebo",
+                            "description": "Participants with Parkinson's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "PD Participants - CST-2032/CST-107",
+                            "description": "Participants with Parkinson's disease, following treatment with CST-2032/CST-107"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "AD Participants - Placebo",
+                            "description": "Participants with Alzheimer's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "AD Participants - CST-2032/CST-107",
+                            "description": "Participants with Alzheimer's disease, following treatment with CST-2032/CST-107"
+                        },
+                        {
+                            "id": "OG004",
+                            "title": "Overall - Placebo",
+                            "description": "All participants following treatment with placebo"
+                        },
+                        {
+                            "id": "OG005",
+                            "title": "Overall - CST2032/CST-107",
+                            "description": "All participants following treatment with CST2032/CST-107"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "26"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "27"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "33"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "32"
+                                },
+                                {
+                                    "groupId": "OG004",
+                                    "value": "59"
+                                },
+                                {
+                                    "groupId": "OG005",
+                                    "value": "59"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change from Baseline at Day 7",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "24"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "58"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "55"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30.81",
+                                            "spread": "14.450"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.33",
+                                            "spread": "14.975"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "-22.27",
+                                            "spread": "14.824"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "-12.02",
+                                            "spread": "15.038"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "1.89",
+                                            "spread": "10.521"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "-6.39",
+                                            "spread": "10.756"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change from Baseline at Day 14",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "30"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "58"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "55"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "31.65",
+                                            "spread": "14.450"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2.25",
+                                            "spread": "14.697"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "-34.68",
+                                            "spread": "14.838"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "-8.61",
+                                            "spread": "15.238"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "-4.70",
+                                            "spread": "10.524"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "-4.07",
+                                            "spread": "10.756"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in CANTAB 5-Choice Reaction Time",
+                    "description": "Measures changes in cognition by testing psychomotor speed (selecting a flashing circle on a touch tablet screen as quickly as possible). Lower response times indicate better performance.",
+                    "populationDescription": "Full Analysis Set - All randomized participants who took at least 1 dose of blinded study drug (CST-2032 + CST-107 or placebo). Participants were analyzed according to the treatment assigned at randomization.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "milliseconds",
+                    "timeFrame": "Change from Baseline after 7 and 14 days of treatment respectively.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PD Participants - Placebo",
+                            "description": "Participants with Parkinson's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "PD Participants - CST-2032/CST-107",
+                            "description": "Participants with Parkinson's disease, following treatment with CST-2032/CST-107"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "AD Participants - Placebo",
+                            "description": "Participants with Alzheimer's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "AD Participants - CST-2032/CST-107",
+                            "description": "Participants with Alzheimer's disease, following treatment with CST-2032/CST-107"
+                        },
+                        {
+                            "id": "OG004",
+                            "title": "Overall - Placebo",
+                            "description": "All participants following treatment with placebo."
+                        },
+                        {
+                            "id": "OG005",
+                            "title": "Overall - CST-2032/CST-107",
+                            "description": "All participants following treatment with CST-2032/CST-107"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "26"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "27"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "33"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "32"
+                                },
+                                {
+                                    "groupId": "OG004",
+                                    "value": "59"
+                                },
+                                {
+                                    "groupId": "OG005",
+                                    "value": "59"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change from Baseline at Day 7",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "58"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "56"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.56",
+                                            "spread": "16.120"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-5.86",
+                                            "spread": "16.370"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "-29.53",
+                                            "spread": "9.762"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "-18.59",
+                                            "spread": "9.899"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "-14.21",
+                                            "spread": "9.529"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "-11.06",
+                                            "spread": "9.657"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change from Baseline at Day 14",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "30"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "58"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "55"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.38",
+                                            "spread": "16.120"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "15.74",
+                                            "spread": "16.370"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "-31.09",
+                                            "spread": "9.770"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "-40.83",
+                                            "spread": "10.024"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "-15.37",
+                                            "spread": "9.533"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "-13.21",
+                                            "spread": "9.719"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in CANTAB Paired Associates Learning Tool - Total Adjusted Errors",
+                    "description": "Measures changes in cognition by testing attention (remembering the location of an abstract pattern on a touch tablet screen). Lower error scores indicate better performance.",
+                    "populationDescription": "Full Analysis Set - All randomized participants who took at least 1 dose of blinded study drug (CST-2032 + CST-107 or placebo). Participants were analyzed according to the treatment assigned at randomization.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "incorrect patterns",
+                    "timeFrame": "Change from Baseline after 7 and 14 days of treatment respectively.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PD Participants - Placebo",
+                            "description": "Participants with Parkinson's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "PD Participants - CST-2032/CST-107",
+                            "description": "Participants with Parkinson's disease, following treatment with CST-2032/CST-107"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "AD Participants - Placebo",
+                            "description": "Participants with Alzheimer's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "AD Participants - CST-2032/CST-107",
+                            "description": "Participants with Alzheimer's disease, following treatment with CST-2032/CST-107"
+                        },
+                        {
+                            "id": "OG004",
+                            "title": "Overall - Placebo",
+                            "description": "All participants following treatment with placebo"
+                        },
+                        {
+                            "id": "OG005",
+                            "title": "Overall - CST2032/CST-107",
+                            "description": "All participants following treatment with CST2032/CST-107"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "26"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "27"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "33"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "32"
+                                },
+                                {
+                                    "groupId": "OG004",
+                                    "value": "59"
+                                },
+                                {
+                                    "groupId": "OG005",
+                                    "value": "59"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change from Baseline at Day 7",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "58"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "56"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-4.46",
+                                            "spread": "2.517"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-4.21",
+                                            "spread": "2.546"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "2.05",
+                                            "spread": "2.495"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "0.81",
+                                            "spread": "2.522"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "-1.28",
+                                            "spread": "1.785"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "-1.87",
+                                            "spread": "1.804"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change from Baseline at Day 14",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "30"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "58"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "55"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.11",
+                                            "spread": "2.517"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-4.85",
+                                            "spread": "2.546"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "2.69",
+                                            "spread": "2.498"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "0.65",
+                                            "spread": "2.545"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "1.03",
+                                            "spread": "1.785"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "-2.22",
+                                            "spread": "1.813"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in CANTAB Delayed Verbal Recognition",
+                    "description": "Measures changes in cognition by testing memory (recall of 18 words flashed onto a touch tablet screen). An increase in number of words recognized indicates better performance.",
+                    "populationDescription": "Full Analysis Set - All randomized participants who took at least 1 dose of blinded study drug (CST-2032 + CST-107 or placebo). Subjects were analyzed according to the treatment assigned at randomization.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "words",
+                    "timeFrame": "Change from Baseline after 7 and 14 days of treatment respectively.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PD Participants - Placebo",
+                            "description": "Participants with Parkinson's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "PD Participants - CST-2032/CST-107",
+                            "description": "Participants with Parkinson's disease, following treatment with CST-2032/CST-107"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "AD Participants - Placebo",
+                            "description": "Participants with Alzheimer's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "AD Participants - CST-2032/CST-107",
+                            "description": "Participants with Alzheimer's disease, following treatment with CST-2032/CST-107"
+                        },
+                        {
+                            "id": "OG004",
+                            "title": "Overall - Placebo",
+                            "description": "All participants following treatment with placebo"
+                        },
+                        {
+                            "id": "OG005",
+                            "title": "Overall - CST2032/CST-107",
+                            "description": "All participants following treatment with CST2032/CST-107"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "26"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "27"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "33"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "32"
+                                },
+                                {
+                                    "groupId": "OG004",
+                                    "value": "59"
+                                },
+                                {
+                                    "groupId": "OG005",
+                                    "value": "59"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change from Baseline at Day 7",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "58"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "56"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.15",
+                                            "spread": "0.628"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.11",
+                                            "spread": "0.637"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "1.64",
+                                            "spread": "0.744"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "0.14",
+                                            "spread": "0.754"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "1.02",
+                                            "spread": "0.502"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "0.17",
+                                            "spread": "0.509"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change from Baseline at Day 14",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "30"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "57"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "55"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.08",
+                                            "spread": "0.637"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.47",
+                                            "spread": "0.637"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0.30",
+                                            "spread": "0.745"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "-0.07",
+                                            "spread": "0.762"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "-0.25",
+                                            "spread": "0.506"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "0.21",
+                                            "spread": "0.512"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in CANTAB Adaptive Tracking Mean Level of Difficulty Achieved",
+                    "description": "Measures changes in visual and motor coordination and vigilance. In this task, a small circle (target) continuously moves across the screen in a semi-randomized fashion, so as to minimize the subject's ability to predict the trajectory of the target. The subject is instructed to use his/her finger on the touch screen to move a small dot so that it is consistently within the center of the moving target on the screen. During the test, the speed of the circle is adjusted in response to the subject's ability to keep the dot in the circle, ensuring that the test is adapted to the individual subject. The outcome variable was the mean 'difficulty multiplier', which is a calculation adjustment of the participant's accuracy on target relative to current target speed, averaged over the entire testing session. The difficulty multiplier ranges from 0 to 10. Attainment of a higher difficulty multiplier indicates better performance.",
+                    "populationDescription": "Full Analysis Set - All randomized participants who took at least 1 dose of blinded study treatment (CST-2032 + CST-107 or placebo). Participants were analyzed according to the treatment assigned at randomization.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Change from Baseline after 7 and 14 days of treatment respectively.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PD Participants - Placebo",
+                            "description": "Participants with Parkinson's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "PD Participants - CST-2032/CST-107",
+                            "description": "Participants with Parkinson's disease, following treatment with CST-2032/CST-107"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "AD Participants - Placebo",
+                            "description": "Participants with Alzheimer's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "AD Participants - CST-2032/CST-107",
+                            "description": "Participants with Alzheimer's disease, following treatment with CST-2032/CST-107"
+                        },
+                        {
+                            "id": "OG004",
+                            "title": "Overall - Placebo",
+                            "description": "All participants following treatment with placebo"
+                        },
+                        {
+                            "id": "OG005",
+                            "title": "Overall - CST2032/CST-107",
+                            "description": "All participants following treatment with CST2032/CST-107"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "26"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "27"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "33"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "32"
+                                },
+                                {
+                                    "groupId": "OG004",
+                                    "value": "59"
+                                },
+                                {
+                                    "groupId": "OG005",
+                                    "value": "59"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change from Baseline at Day 7",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "58"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "56"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.07",
+                                            "spread": "0.091"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.11",
+                                            "spread": "0.093"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0.37",
+                                            "spread": "0.106"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "0.42",
+                                            "spread": "0.106"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "0.22",
+                                            "spread": "0.073"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "0.27",
+                                            "spread": "0.074"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change from Baseline at day 14",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "30"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "58"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "55"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.06",
+                                            "spread": "0.091"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.06",
+                                            "spread": "0.093"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0.36",
+                                            "spread": "0.106"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "0.34",
+                                            "spread": "0.107"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "0.21",
+                                            "spread": "0.073"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "0.15",
+                                            "spread": "0.074"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in Negative Emotional Bias in the Facial Expression Recognition Task (FERT)",
+                    "description": "Faces with six different basic emotions (happiness, fear, anger, disgust, sadness, surprise) are briefly displayed on a screen and participants are required to indicate the expression of the face via a button-press. Lower response times indicate better performance; negative response times indicate improvement from baseline",
+                    "populationDescription": "Full Analysis Set - All randomized participants who took at least 1 dose of blinded study drug (CST-2032 + CST-107 or placebo). Participants were analyzed according to the treatment assigned at randomization.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "milliseconds",
+                    "timeFrame": "Change from Baseline after 14 days of treatment.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PD Participants - Placebo",
+                            "description": "Participants with Parkinson's disease, following treatment with placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "PD Participants - CST-2032/CST-107",
+                            "description": "Participants with Parkinson's disease, following treatment with CST-2032/CST-107."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "AD Participants - Placebo",
+                            "description": "Participants with Alzheimer's disease following treatment with placebo."
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "AD Participants - CST-2032 + CST-107",
+                            "description": "Participants with Alzheimer's disease following treatment with CST-2032+CST-107."
+                        },
+                        {
+                            "id": "OG004",
+                            "title": "Overall - Placebo",
+                            "description": "All participants following treatment with placebo."
+                        },
+                        {
+                            "id": "OG005",
+                            "title": "Overall - CST-2032/CST-107",
+                            "description": "All participants following treatment with CST-2032/CST-107."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "26"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "27"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "33"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "32"
+                                },
+                                {
+                                    "groupId": "OG004",
+                                    "value": "59"
+                                },
+                                {
+                                    "groupId": "OG005",
+                                    "value": "59"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reaction Time for Happy Expressions - Change from Baseline at Day 14",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "30"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "56"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "55"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-178.52",
+                                            "spread": "69.13"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-209.77",
+                                            "spread": "68.80"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "23.34",
+                                            "spread": "68.28"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "-89.75",
+                                            "spread": "68.97"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "-74.41",
+                                            "spread": "44.21"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "-145.62",
+                                            "spread": "44.40"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reaction Time for Surprise Expressions - Change from Baseline at Day 14",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "30"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "56"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "55"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-235.05",
+                                            "spread": "85.92"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-186.53",
+                                            "spread": "85.89"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "16.26",
+                                            "spread": "64.96"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "-153.09",
+                                            "spread": "65.64"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "-96.45",
+                                            "spread": "50.70"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "-169.06",
+                                            "spread": "50.99"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reaction Time for Negative Expressions - Change from Baseline at Day 14",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "30"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "56"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "55"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-251.85",
+                                            "spread": "66.35"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-222.02",
+                                            "spread": "66.35"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "-51.17",
+                                            "spread": "43.41"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "-76.53",
+                                            "spread": "43.86"
+                                        },
+                                        {
+                                            "groupId": "OG004",
+                                            "value": "-135.72",
+                                            "spread": "37.38"
+                                        },
+                                        {
+                                            "groupId": "OG005",
+                                            "value": "-149.30",
+                                            "spread": "37.42"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "From Day -1 to end of study (up to 48 days).",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Placebo",
+                    "description": "Participants following treatment with placebo.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 59,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 59,
+                    "otherNumAffected": 19,
+                    "otherNumAtRisk": 59
+                },
+                {
+                    "id": "EG001",
+                    "title": "CST-2032 and CST-107",
+                    "description": "Participants following treatment with CST-2032 and CST-107.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 59,
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 59,
+                    "otherNumAffected": 20,
+                    "otherNumAtRisk": 59
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "cholecystitis acute",
+                    "organSystem": "Hepatobiliary disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "bile duct stone",
+                    "organSystem": "Hepatobiliary disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "pleural effusion",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "postoperative wound infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Lipase increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Alanine aminotransferase increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Amylase increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Aspartate aminotransferase increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood sodium decreased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Glucose urine",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Transaminases increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood alkaline phosphatase increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood bilirubin increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood creatine phosphokinase increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood potassium increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Protein urine",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Red blood cell count increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Urine leukocyte esterase positive",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Abdominal pain",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Bowel movement irregularity",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Diarrhoea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Dry mouth",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary tract infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Covid-19",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Upper respiratory tract infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Viral upper respiratory tract infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Parkinson's disease",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Bradykinesia",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 4,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Tremor",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Dyskinesia",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Memory impairment",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Feeling abnormal",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Pain",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Palpitations",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Sinus bradycardia",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Arrhythmia supraventricular",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Atrial fibrilation",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Contusion",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Radius fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Ankle fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Periorbital haematoma",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypotension",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Orthostatic hypotension",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Cholelithiasis",
+                    "organSystem": "Hepatobiliary disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Hepatic steatosis",
+                    "organSystem": "Hepatobiliary disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Hyperbilirubinaemia",
+                    "organSystem": "Hepatobiliary disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Hyperamylasaemia",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Diabetes mellitus",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Back pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Insomnia",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Abnormal dreams",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Agitation",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Anxiety",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Middle insomnia",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Rapid eye movement sleep behaviour",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Breast mass",
+                    "organSystem": "Reproductive system and breast disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Cough",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Oropharyngeal pain",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Sputum discoloured",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Central nervous system stimulation",
+                    "organSystem": "Surgical and medical procedures",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Tinnitus",
+                    "organSystem": "Ear and labyrinth disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Benign neoplasm of eyelid",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Bowel movement irregularity",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                },
+                {
+                    "term": "Head injury",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA (24.1)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 59
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 59
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Clinical Trial Information Desk",
+                "organization": "CuraSen Therapeutics, Inc",
+                "email": "clinicaltrials@curasen.com",
+                "phone": "+1 650 475 2842"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "CST-2032 (oral, brain\u2011penetrant \u03b22\u2011adrenoceptor agonist)",
+        "CST-107 (nadolol; brain\u2011sparing \u03b2\u2011blocker)"
+    ],
+    "placebo": [
+        "matching placebo for CST-2032",
+        "matching placebo for CST-107"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests CST-2032 co\u2011administered with CST\u2011107 to evaluate effects on cognition (MCI / mild dementia), indicating a symptomatic cognitive\u2011improvement aim rather than targeting core AD pathology (amyloid/tau). CST\u20112032 is described in company and literature sources as an oral, brain\u2011permeant \u03b22\u2011adrenoceptor (\u03b22\u2011AR) agonist intended to reactivate brain adrenergic function; CST\u2011107 is nadolol (a brain\u2011sparing \u03b2\u2011blocker) used to block peripheral \u03b22 effects. \ue200cite\ue202turn0search5\ue202turn0search4\ue202turn1search1\ue201",
+        "Act: Key extracted details \u2014 Trial NCT05104463 (Phase 2a, randomized, placebo\u2011controlled, double\u2011blind, crossover) tested cognition with CST\u20112032 + CST\u2011107 vs placebo; CST\u20112032 is a \u03b22\u2011AR agonist (small molecule) and CST\u2011107 is nadolol (beta blocker). Results/press reports describe rapid, domain\u2011specific cognitive improvements (memory, attention, executive function) rather than disease\u2011modifying biological effects on amyloid or tau. \ue200cite\ue202turn0search5\ue202turn0search4\ue202turn1search5\ue201",
+        "Reflect: Classification check \u2014 Because the mechanism is adrenergic stimulation to improve cognitive performance (symptomatic improvement) and both agents are small\u2011molecule drugs (CST\u20112032 is a small\u2011molecule \u03b22 agonist; CST\u2011107 is nadolol), the most appropriate category is 'cognitive enhancer' rather than a disease\u2011targeted biologic or disease\u2011targeted small molecule (which would target pathological processes like amyloid/tau) or a neuropsychiatric\u2011symptom intervention (which targets behavioral/psychiatric symptoms). No evidence in the cited materials indicates an amyloid- or tau\u2011targeting disease\u2011modifying mechanism. \ue200cite\ue202turn1search1\ue202turn0search4\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The intervention is a brain\u2011penetrant \u03b22\u2011adrenoceptor (\u03b22\u2011AR) agonist (CST\u20112032) given with nadolol (CST\u2011107) to limit peripheral \u03b2 effects, i.e., the mechanism is modulation of the adrenergic receptor (a neurotransmitter receptor) to produce symptomatic cognitive improvement rather than targeting amyloid, tau, inflammation, or other disease\u2011modifying pathways. \ue200cite\ue202turn0search0\ue202turn0search4\ue201",
+        "Act: Extracted details \u2014 Trial NCT05104463 (Phase 2a, randomized, placebo\u2011controlled, double\u2011blind, crossover) tested CST\u20112032 (oral, brain\u2011penetrant \u03b22\u2011AR agonist) co\u2011administered with CST\u2011107 (nadolol, brain\u2011sparing \u03b2\u2011blocker) for 14 days versus placebo, with cognitive outcomes reported (improvements in DSST and other cognitive measures reported in AD/PD presentation). These facts support classification under CADRO category D (Neurotransmitter Receptors). \ue200cite\ue202turn0search0\ue202turn0search4\ue202turn0search7\ue201",
+        "Reflect: This classification aligns with CADRO because the drugs act on adrenergic (\u03b22) receptors \u2014 a canonical neurotransmitter receptor target \u2014 and the trial aims at symptomatic cognitive enhancement rather than modifying core AD pathologies (amyloid/tau). No authoritative source indicates an amyloid/tau, inflammatory, metabolic, or vascular disease\u2011modifying mechanism for CST\u20112032/CST\u2011107. If future data show direct disease\u2011modifying effects (e.g., on amyloid or tau biology), reclassification could be considered. \ue200cite\ue202turn0search1\ue202turn0search4\ue201",
+        "Web search results used (selected):",
+        "\u2022 ClinicalTrials.gov / trial record NCT05104463 (trial design, interventions CST\u20112032 and CST\u2011107). \ue200cite\ue202turn0search0\ue201",
+        "\u2022 CuraSen press release (AD/PD 2024) describing CST\u20112032 as an oral, brain\u2011permeant \u03b22\u2011AR agonist given with nadolol (CST\u2011107) to reactivate brain adrenergic function and reporting Phase 2a cognitive data. \ue200cite\ue202turn0search4\ue201",
+        "\u2022 AD/PD 2024 conference materials / slide summary reporting cognitive outcome improvements (DSST and reaction time) with CST\u20112032 + nadolol in AD subgroup. \ue200cite\ue202turn0search7\ue201",
+        "\u2022 ALZFORUM summary of CST\u20112032 (mechanism, early clinical data). \ue200cite\ue202turn0search1\ue201",
+        "\u2022 Trial tracker / FDAAA record showing reported status and dates for NCT05104463. \ue200cite\ue202turn0search3\ue201"
+    ]
+}

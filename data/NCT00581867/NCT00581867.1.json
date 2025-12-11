@@ -1,0 +1,410 @@
+{
+    "nct_id": "NCT00581867",
+    "title": "Intranasal Insulin and Memory in Early Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2015-07-10",
+    "description_brief": "To determine which parts of the brain are involved in insulin-related memory improvement in early Alzheimer's disease and cognitively normal older adults.",
+    "description_detailed": "Functional MRI study to characterize the neuroanatomic correlates of acute exogenous insulin-related improvements in cognitive performance in early Alzheimer's disease and cognitively normal older adults. The role of the apoE-e4 allele in modulating brain insulin responses is also addressed.",
+    "phase": [
+        "PHASE1",
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "BASIC_SCIENCE",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Placebo First, Then Intranasal Insulin",
+                    "description": "Participants in this group were randomized to receive placebo at the first fMRI visit and then received Intranasal Insulin at the second fMRI visit."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Intranasal Insulin First, Then Placebo",
+                    "description": "Participants in this group were randomized to receive Intranasal Insulin at the first fMRI visit and then received Placebo at the second fMRI visit."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "First Intervention",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "16"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "15"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "16"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "15"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Second Intervention",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "n=1 completed period 1 (placebo) but not period 2 (insulin). This individuals died between periods.",
+                                    "numSubjects": "15"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "comment": "1 individual completed period 1 (Intranasal Insulin) but did not complete period 2 (Placebo).",
+                                    "numSubjects": "14"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "15"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "14"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "31 total participants were enrolled in the study. 29 completed the study and had, in a counterbalanced order, one-dose of intranasal insulin followed by fMRI and over 48 hours later a dose of intranasal saline followed by fMRI.",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Entire Study Population",
+                    "description": "Includes groups randomized to receive placebo first and insulin first."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "31"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "72.9",
+                                            "spread": "7.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "31"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "fMRI Measure of Hippocampal Activation",
+                    "description": "Percentage active voxels of total hippocampal volume of interest",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "percentage of active voxels",
+                    "timeFrame": "30 minutes After Intervention Administration",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intranasal Insulin Aspart"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "29"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "36.4",
+                                            "spread": "31.4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "41.3",
+                                            "spread": "33.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Global Cognition",
+                    "description": "Results derived from standardized z-score averaging performance across a battery of cognitive tests. The tests used include the Wechsler Memory Scale \\[WMS\\]-Revised Logical Memory I and II which measures a person's memory. Also used was the Wechsler Adult Intelligence Scale \\[WAIS\\] which measures intelligence in adults. The Trail Making A and B test was used to measure visual attention and task switching. The WAIS Block Design was done to test visuospatial and motor skills. The final test included in this measure is the Mini-Mental State Examination \\[MMSE\\]. The MMSE involves 30 questions and screens for cognitive impairment. Scores for each test were standardized to characterized individual global cognitive performance. The z-score reflects the standardized score. A positive z-score reflects a result above the average. A negative z-score reflects a result below the average.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "z-scores",
+                    "timeFrame": "90 mins",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intranasal Insulin Aspart"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "29"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-.05",
+                                            "spread": "1.15"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-.02",
+                                            "spread": "1.11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Intranasal Insulin Aspart",
+                    "description": "Intranasal Insulin was administered in either first or second intervention period.",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 29,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 29
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Placebo was administered in either first or second intervention period.",
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 29,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 29
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Death",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "notes": "An individual died 38 days after having one dose of intranasal saline (placebo) during the washout period due to pulmonary embolism and prior to returning for intranasal insulin. The death was considered unrelated to the intervention.",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "Dr. Jeffrey Burns",
+                "organization": "University of Kansas Medical Center",
+                "email": "jburns2@kumc.edu",
+                "phone": "(913) 588-0555"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "Intranasal insulin (human insulin); commonly studied doses 20\u201340 IU in chronic trials, 10\u2013160 IU in acute studies"
+    ],
+    "placebo": [
+        "Intranasal placebo (saline) \u2014 used in randomized trials"
+    ],
+    "explanation_target": [
+        "Reason: The intervention is intranasal delivery of insulin to raise central nervous system insulin signaling and acutely or chronically improve memory and other cognitive functions in people with early Alzheimer disease or cognitively normal older adults; this is an approach to enhance cognition rather than a biologic or small molecule designed to clear or directly modify amyloid or tau pathology. \ue200cite\ue202turn0search1\ue202turn0search2\ue201",
+        "Act (key details & evidence): Intranasal insulin (a peptide hormone delivered as a biologic) has been tested in multiple pilot and randomized trials showing improved or preserved memory/function (e.g., 20 IU improved delayed memory; 20\u201340 IU preserved function in AD/MCI trials). Placebo in these trials was typically an intranasal saline spray. \ue200cite\ue202turn0search9\ue202turn0search2\ue202turn0search3\ue201",
+        "Act (mechanistic/imaging support): Imaging and pharmacokinetic work shows intranasally delivered insulin reaches hippocampus and other memory-related brain regions, supporting a central pro-cognitive mechanism rather than a peripheral metabolic effect. \ue200cite\ue202turn0search10\ue202turn0search6\ue201",
+        "Act (synthesis): Although insulin is a biologic molecule, it is being used in these trials to acutely or chronically enhance cognitive performance / memory via modulation of brain insulin signaling \u2014 matching the definition of a cognitive enhancer rather than a disease-targeted biologic (which would target amyloid or tau). Systematic reviews/meta-analyses summarize intranasal insulin as a pro-cognitive intervention with mixed but promising results. \ue200cite\ue202turn0search0\ue202turn0search5\ue201",
+        "Reflect (ambiguity/noted caveats): Note a potential source of ambiguity: insulin is a peptide (a biologic), and some studies explored associations between cognitive changes and CSF A\u03b2/tau biomarkers, so a reader might wonder about disease-modifying effects. However, the stated trial title and objective (\"Intranasal Insulin and Memory in Early Alzheimer's Disease\" / \"determine which parts of the brain are involved in insulin-related memory improvement\") focus on memory improvement and brain targets, supporting classification as 'cognitive enhancer'. \ue200cite\ue202turn0search9\ue202turn0search1\ue201"
+    ],
+    "agent_type": "J) Metabolism and Bioenergetics",
+    "explanation_agent": [
+        "Reason: The trial uses intranasal human insulin to increase central insulin signaling and acutely/chronicly improve memory and cognition by modulating brain insulin pathways and neuronal energy/metabolic signaling rather than by directly clearing amyloid or tau. Key literature shows intranasal insulin delivers insulin to the CNS and produces dose-dependent cognitive effects in AD/MCI and healthy subjects. \ue200cite\ue202turn0search5\ue202turn0search4\ue202turn0search1\ue201",
+        "Act: Key extracted details \u2014 drug: intranasal human insulin (commonly 20\u201340 IU chronic; 10\u2013160 IU acute); mechanism: enhances brain insulin signaling, affects hippocampal function, synaptic proteins, and neurochemical transmission; evidence: preclinical and clinical studies demonstrating CNS delivery, acute memory facilitation (peaking ~20 IU in some studies), and mixed but overall promising effects in meta-analysis. \ue200cite\ue202turn0search4\ue202turn0search5\ue202turn0search6\ue202turn0search8\ue201",
+        "Reflect: Mapping to CADRO \u2014 insulin acts on metabolic/energy-regulating pathways in neurons (insulin receptor signaling, glucose metabolism, bioenergetics) and thereby modulates cognition; this aligns best with J) Metabolism and Bioenergetics rather than an amyloid/tau-targeting category or a purely synaptic-only category. Although insulin also influences synaptic proteins and neurotransmission (overlap with Synaptic Plasticity/Neuroprotection, M), the primary biological focus and rationale reported for these trials is restoring/modulating brain insulin signaling and metabolism to improve cognition, so J is the most specific fit. \ue200cite\ue202turn0search6\ue202turn0search7\ue201",
+        "Web search results (selected supporting sources):",
+        "- Phase 2/3 multicenter intranasal insulin trial (40 IU daily) \u2014 randomized clinical trial describing feasibility/safety/efficacy in MCI/AD. \ue200cite\ue202turn0search1\ue201",
+        "- Dose-response study showing acute memory facilitation in memory-impaired adults with peak effects around 20 IU and dose-dependent effects. \ue200cite\ue202turn0search4\ue201",
+        "- Review/experimental work showing intranasal route delivers insulin to the brain (mechanisms of uptake) and reverses memory deficits in AD models. \ue200cite\ue202turn0search5\ue201",
+        "- Preclinical study: intranasal insulin restores insulin signaling, increases synaptic proteins, reduces A\u03b2 and microglial activation in 3xTg-AD mice. \ue200cite\ue202turn0search6\ue201",
+        "- Systematic review/meta-analysis summarizing safety and modest cognitive effects across intranasal insulin trials. \ue200cite\ue202turn0search8\ue201"
+    ]
+}

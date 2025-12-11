@@ -1,0 +1,2069 @@
+{
+    "nct_id": "NCT06038643",
+    "title": "The Healthy Aging Brain Study: A Remote Behavioral Intervention to Enhance Physical Activity in Older Adults.",
+    "status": "COMPLETED",
+    "last_update_time": "2025-07-07",
+    "description_brief": "This is a four-week pilot randomized controlled trial of a behavioral intervention in older adults at risk for Alzheimer's disease. Older participants are a subgroup from the PREVENT-AD longitudinal cohort. We will test whether a four-week intergenerational social motivation using a technology-based platform (intervention group) enhances physical activity relative to a control group.",
+    "description_detailed": "This study is a two-arm, single-site randomized controlled trial to test whether a four-week technology-based intergenerational social motivation intervention enhances physical activity in 60 cognitively unimpaired older adults with a first-degree history of Alzheimer's disease. These at-risk older adults will be recruited as a subgroup from a longitudinal cohort at McGill University, PREVENT-AD. At the outset, half of the participants will be randomized to the intergenerational social motivation condition (intervention group) and the other half will be randomized to the control group (1:1). A multimodal AD risk score based on older participants' already acquired AD biomarker, health and cognitive data will be used as strata for randomization to ensure equal assignment of high-risk participants to Intervention and control groups, using a permuted block method with random blocks.\n\nThe primary outcome is an increase in step count as measured by accelerometer. Secondary outcomes are an increase in total physical activity, mood, generativity, cognition, and loneliness. After an initial visit consisting of behavioral testing and structural and functional MRI, participants in the intervention group will be paired with younger adults (14 to 40 years) to form intergenerational dyads. Younger adults are either a family member of the older adult or a younger adult recruited from the community. Participants in the intervention group will receive personalized, positive daily messages over a four-week period via their device using the 'Our Family Garden' technology platform. These daily messages combine (1) pro-social goals (donation to charity after reaching exercise goals), (2) intergenerational social engagement, and (3) positive personalized messages from their younger study partners. This study will have 6 visits over a 2-month period in addition to the four-week intervention period (3 months total). Cognitive and behavioral data will be collected at each visit and physical activity data will be collected over the intervention period.\n\nThe primary endpoint is defined as the end of the initial period. Data collected are stored in one of three ways; (1) Physical activity monitoring data are extracted from their respective software packages and uploaded directly to a secure data storage environment at a high-performance computing facility. All pen-and-paper psychosocial and neuropsychological assessments are scored and entered in REDCap. Computerized psychosocial assessments are collected directly in REDCap and computerized neuropsychological assessments are entered in REDCap. TextMagic is used to distribute the daily intervention messages. Collected and anonymized survey data are stored on the web application behind an administrative login developed with Django, a high-level Python web framework. All data from REDCap will be exported to CSV files using the data de-identification feature for subsequent analysis with R and SPSS statistical analysis packages. After compiling all data across the 3 different data servers, data will be checked for completeness and correctness using frequency distributions (for missing data and out-of-range values). For the final dataset, the multiple imputations by chained equations (MICE) will be used to input missing values with 10 imputations.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "PREVENTION",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Intervention",
+                    "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Active Control",
+                    "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "36"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "40"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "26"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "36"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "10"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "9"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Excluded (not longer fulfilled enrollment criteria)",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Intervention",
+                    "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Active Control",
+                    "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "26"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "36"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "62"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "22"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "54"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "69.81",
+                                            "spread": "4.32"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "70.97",
+                                            "spread": "5.36"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "70.48",
+                                            "spread": "4.95"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "29"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "44"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "36"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "62"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "36"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "61"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "Canada",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "36"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Years of Education",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16.08",
+                                            "spread": "3.07"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15.97",
+                                            "spread": "3.55"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "16.02",
+                                            "spread": "3.33"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "APOE4 genotype",
+                    "description": "The APOE gene provides instructions for making a protein that carries cholesterol in the blood. People inherit two copies of this gene, one from each parent, and there are different versions (called alleles): \u03b52, \u03b53, and \u03b54. The combination of these alleles is called a person's APOE genotype (for example, \u03b53/\u03b54). This genetic information can influence a person's risk of developing conditions like Alzheimer's disease.\n\nCollection Method: A blood sample is collected at the beginning of the study. DNA is extracted and tested in a laboratory to determine which APOE alleles a person has.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "APOE4 carriers",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "24"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "APOE4 non-carriers",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "38"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Body Mass Index",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "kg/m\u00b2",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "27.39",
+                                            "spread": "5.03"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "26.48",
+                                            "spread": "4.56"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "26.86",
+                                            "spread": "4.74"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Alzheimer's Disease Risk",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Lower Risk",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "37"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Higher Risk",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "25"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Mild Cognitive Impairment",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Mild Cognitive Impairment",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "12"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Cognitively Unimpaired",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "30"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "50"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Language",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "English",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "9"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "French",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "22"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "53"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Diastolic Blood Pressure",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "mmHg",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "74.69",
+                                            "spread": "8.14"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "74.42",
+                                            "spread": "6.58"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "74.53",
+                                            "spread": "7.21"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Systolic Blood Pressure",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "mmHg",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "125.81",
+                                            "spread": "16.36"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "128.22",
+                                            "spread": "14.79"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "127.21",
+                                            "spread": "15.38"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Steps per day",
+                    "description": "\"Steps per day\" was defined as the mean number of steps across a minimum of 4 valid days within a 7-day period, based on daily accelerometry data.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Steps/day",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4224.77",
+                                            "spread": "3149.72"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3881.07",
+                                            "spread": "2978.81"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "4025.20",
+                                            "spread": "3051.94"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "TMB Serial Reaction Time",
+                    "description": "The TMB Serial Reaction Time task measures implicit sequence learning and visuomotor speed by tracking how quickly participants respond to repeating versus random visual cues.\n\nIn the TMB Serial Reaction Time task, higher scores in seconds (i.e., longer reaction times) indicate:\n\n* Reduced processing speed\n* Lower motor or attentional efficiency\n* Weaker implicit sequence learning",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "seconds",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "364.73",
+                                            "spread": "74.73"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "388.13",
+                                            "spread": "103.15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "378.54",
+                                            "spread": "92.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "TMB Choice Reaction Time",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "seconds",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1208.83",
+                                            "spread": "327.14"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1304.72",
+                                            "spread": "639.63"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1265.42",
+                                            "spread": "532.66"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Test my Brain Gradual Onset Continuous Performance Test (C)",
+                    "description": "This cognitive test battery contains Test my Brain (TMB) Gradual Onset Continuous Performance Test. In this go/no-go test, the participant presses a button for each city image and withholds button presses for mountain images. This is a test of cognitive control, sustained attention, and response inhibition. Values can be from -1.5 to +1.5. Higher scores indicate better performance. The CPT.C score is a measure of response criterion, or how quickly and/or impulsively the participant tended to respond. Higher scores represent greater response impulsivity.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Score on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0.38",
+                                            "spread": "0.43"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0.33",
+                                            "spread": "0.43"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0.35",
+                                            "spread": "0.43"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "TMB Gradual Onset Continuous Performance Test (D)",
+                    "description": "This cognitive test battery contains Test my Brain (TMB) Gradual Onset Continuous Performance Test. In this go/no-go test, the participant presses a button for each city image and withholds button presses for mountain images. This is a test of cognitive control, sustained attention, and response inhibition. The CPT.D score is a measure of discrimination performance, related to how accurately the participant was able to respond to mountains and scenes. Higher scores represent better performance. Values can be from 1 to 4. Higher scores indicate better performance.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "scores on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2.71",
+                                            "spread": "0.77"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2.58",
+                                            "spread": "0.96"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2.64",
+                                            "spread": "0.88"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Test my Brain Matrix Reasoning",
+                    "description": "In TMB Matrix Reasoning, the participant selects which smaller image completes the pattern in the larger image. This is a test of visual reasoning and general cognitive ability. This test was adapted from the Wechsler Adult Intelligence Scales. Scores go from 2 to 32. Higher scores are better.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Score on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21.4",
+                                            "spread": "7.8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "21.14",
+                                            "spread": "6.8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "21.25",
+                                            "spread": "7.17"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Test my Brain Forward Digit Span",
+                    "description": "In the forward version of TMB Digit Span, the participant is shown a series of numbers in increasing length and asked to recall the numbers in the order displayed. This is a test of short-term memory. This test was adapted from the Wechsler Adult Intelligence Scales. Scores go from 1 to 11. Higher scores are better.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Score on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6.84",
+                                            "spread": "1.57"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6.0",
+                                            "spread": "1.99"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "6.35",
+                                            "spread": "1.86"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Test my Brain Backwards Digit Span",
+                    "description": "In the backward version, the participant is shown a series of numbers in increasing length and asked to recall the numbers in reverse order. This is a test of short-term memory and working memory. This test was adapted from the Wechsler Adult Intelligence Scales. Scores go from 1 to 10. Higher scores are better.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Score on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5.28",
+                                            "spread": "1.88"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4.94",
+                                            "spread": "1.76"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "5.08",
+                                            "spread": "1.81"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Test my Brain Visual Paired Associates Matching",
+                    "description": "This cognitive testing battery contains Test my Brain (TMB) Visual Paired Associates Memory. In this test, the participant memorizes a set of picture pairs. Then, after completing TMB Digit Symbol Matching (90 sec), the participant selects which pictures were paired together. TMB Visual PA is a test of visual episodic memory. In TMB Digit SM, the participant matches as many number/symbol pairs as possible in 90 seconds. This is a test of processing speed. Scores go from 4 to 23. Higher scores are better.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Score on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14.5",
+                                            "spread": "4.3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "14.9",
+                                            "spread": "4.3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "14.73",
+                                            "spread": "4.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Test my Brain Digit Symbol Matching",
+                    "description": "In TMB Digit Symbol Matching, the participant matches as many number/symbol pairs as possible in 90 seconds. This is a test of processing speed. This test was adapted from the Wechsler Adult Intelligence Scales. Higher scores are better. Scores go from 11 to 55.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Score on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "36",
+                                            "spread": "6.95"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "35.53",
+                                            "spread": "8.85"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "35.72",
+                                            "spread": "8.06"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Total Step Count (Average Steps/Day)",
+                    "description": "This metric quantifies the change in the average number of steps taken each day, from the baseline period to the 4-week period. It is a marker of change in habitual ambulatory activity.",
+                    "populationDescription": "Participants included in the analysis were those who completed the study.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Steps/day",
+                    "timeFrame": "4-week",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Active Control",
+                            "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "26"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "36"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5648.91",
+                                            "spread": "4033.49"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3809.62",
+                                            "spread": "2833.25"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "<0.001",
+                            "pValueComment": "Adjusted for multiple comparisons using False Discovery Rate.",
+                            "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "The Modified Differential Emotions Scale (mDES) Negative Emotions",
+                    "description": "The Modified Differential Emotions Scale (mDES) Negative Emotions subscale measures the intensity of negative emotional experiences such as sadness, anger, fear, and shame.\n\nPossible scores: min. 0, max. 80 A higher score indicates greater emotional intensity or frequency of the emotions assessed.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score",
+                    "timeFrame": "4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Active Control",
+                            "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "23"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "31"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.18",
+                                            "spread": "0.27"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.31",
+                                            "spread": "0.37"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Generativity - Achievement",
+                    "description": "This questionnaire measures generativity, which refers to the concern or desire individuals have to contribute to the well-being and development of future generations.\n\nGenerative evaluates the extent to which individuals are motivated by generative concerns, including the desire to impact others and future generations; the Achievement subscale specifically captures the orientation toward personal goal attainment, mastery, and the pursuit of success as expressions of generativity.\n\nScores for the generative achievement subscale ranged between 6 and 36, with higher scores indicating greater generative achievement.",
+                    "populationDescription": "Participants included in the analysis were those who completed the Generativity questionnaire.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score",
+                    "timeFrame": "4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Active Control",
+                            "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "21"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "25.09",
+                                            "spread": "5.18"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "22.58",
+                                            "spread": "5.88"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Test My Brain Digital Neuropsychology Toolkit - Backwards Digit Span",
+                    "description": "The TestMyBrain Digital Neuropsychology Toolkit Backwards Digit Span assesses working memory by requiring individuals to recall sequences of numbers in reverse order.\n\nIn the backward version, the participant is shown a series of numbers in increasing length and asked to recall the numbers in reverse order. This is a test of short-term memory and working memory. This test was adapted from the Wechsler Adult Intelligence Scales. Scores go from 1 to 10. Higher scores are better.",
+                    "populationDescription": "The population included in the analysis were those who completed the Test My Brain Backward Digit Span subtest.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score",
+                    "timeFrame": "4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Active Control",
+                            "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "24"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6.58",
+                                            "spread": "1.53"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4.89",
+                                            "spread": "1.83"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "We conducted one-way analyses of covariance (ANCOVAs) to assess the effect of group (intervention vs. control) on post-intervention secondary outcomes, including cognition (Test My Brain Digital Neuropsychology Toolkit). Covariates in all models included age, sex, years of education, APOE4 status, and baseline scores.",
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "<0.01",
+                            "statisticalMethod": "ANCOVA"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Loneliness",
+                    "description": "University of California, Los Angeles (UCLA) Loneliness Scale. A higher average score indicates greater loneliness. Possible scores: min. 20, max. 80.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score",
+                    "timeFrame": "4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Active Control",
+                            "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "26"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "36"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "53.71",
+                                            "spread": "23.89"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "44.87",
+                                            "spread": "19.25"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Modified Differential Emotions Scale (mDES) Positive Emotions",
+                    "description": "The Modified Differential Emotions Scale (mDES) Positive Emotions subscale measures the intensity of positive emotional experiences such as joy, gratitude, love, and hope.\n\nPossible scores: min. 0, max. 80 A higher score indicates greater emotional intensity or frequency of the emotions assessed.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score",
+                    "timeFrame": "4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Active Control",
+                            "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "23"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "31"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3.38",
+                                            "spread": "0.69"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3.40",
+                                            "spread": "0.75"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Generativity Desire",
+                    "description": "The Generative Test measures generativity, which refers to the concern or desire individuals have to contribute to the well-being and development of future generations. The Desire subscale specifically assesses the emotional motivation and intrinsic longing to nurture, support, and positively impact others and future generations.\n\nScores for the generative desire subscale ranged between 7 and 42, with higher scores indicating greater generative desire.",
+                    "populationDescription": "Participants included in the analysis had completed the Generativity questionnaire.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score",
+                    "timeFrame": "4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Active Control",
+                            "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "21"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "31.67",
+                                            "spread": "6.13"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "29.72",
+                                            "spread": "7.05"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Test My Brain Digital Neuropsychology Toolkit - Choice Reaction Time",
+                    "description": "The TestMyBrain Digital Neuropsychology Toolkit Choice Reaction Time task measures processing speed and attention by assessing how quickly individuals respond to different stimuli.",
+                    "populationDescription": "The population included in the analysis was those who completed the Test My Brain Choice Reaction Time.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "seconds",
+                    "timeFrame": "4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Active Control",
+                            "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "21"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1293.08",
+                                            "spread": "722.89"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1136.67",
+                                            "spread": "389.61"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Test My Brain Digital Neuropsychology Toolkit - Digit Symbol Matching",
+                    "description": "The TestMyBrain Digital Neuropsychology Toolkit Digit Symbol Matching task measures processing speed, attention, and visual-motor coordination by requiring rapid matching of symbols to corresponding numbers.",
+                    "populationDescription": "Participants included in the analysis had completed the Test My Brain Digit Symbol Matching subtest.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score",
+                    "timeFrame": "4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Active Control",
+                            "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "20"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "38.81",
+                                            "spread": "7.14"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "36.83",
+                                            "spread": "7.85"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Test My Brain Digital Neuropsychology Toolkit - Forward Digit Span",
+                    "description": "The TestMyBrain Digital Neuropsychology Toolkit Forward Digit Span task measures short-term memory by requiring individuals to recall sequences of numbers in the order presented.\n\nIn the forward version of TMB Digit Span, the participant is shown a series of numbers in increasing length and asked to recall the numbers in the order displayed. This is a test of short-term memory. This test was adapted from the Wechsler Adult Intelligence Scales. Scores go from 1 to 11. Higher scores are better.",
+                    "populationDescription": "The population included in the analysis was those who completed the Forward Digit Span.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score",
+                    "timeFrame": "4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Active Control",
+                            "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "21"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6.91",
+                                            "spread": "1.57"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6.18",
+                                            "spread": "1.81"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Test My Brain Digital Neuropsychology Toolkit - Gradual Onset Continuous Performance C",
+                    "description": "The TestMyBrain Digital Neuropsychology Toolkit Gradual Onset Continuous Performance Task measures sustained attention and inhibitory control by requiring individuals to detect target stimuli amid gradually changing non-targets.\n\nIn this go/no-go test, the participant presses a button for each city image and withholds button presses for mountain images. This is a test of cognitive control, sustained attention, and response inhibition. Values can be from -1.5 to +1.5. Higher scores indicate better performance. The CPT.C score is a measure of response criterion, or how quickly and/or impulsively the participant tended to respond. Higher scores represent greater response impulsivity.",
+                    "populationDescription": "The population included in the analysis was those who completed the Test My Brain Gradual Onset Continuous Performance C subtest.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score",
+                    "timeFrame": "4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Active Control",
+                            "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "21"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.45",
+                                            "spread": "0.25"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.40",
+                                            "spread": "0.36"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Test My Brain Digital Neuropsychology Toolkit - Gradual Onset Continuous Performance D",
+                    "description": "The TestMyBrain Digital Neuropsychology Toolkit Gradual Onset Continuous Performance Task (D) assesses sustained attention and response inhibition by requiring individuals to monitor and respond to target stimuli within a dynamic visual stream.\n\nIn this go/no-go test, the participant presses a button for each city image and withholds button presses for mountain images. This is a test of cognitive control, sustained attention, and response inhibition. The CPT.D score is a measure of discrimination performance, related to how accurately the participant was able to respond to mountains and scenes. Higher scores represent better performance. Values can be from 1 to 4. Higher scores indicate better performance.",
+                    "populationDescription": "The population included in the analysis was those who completed the Test My Brain Gradual Onset Continuous Performance D subtest.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score",
+                    "timeFrame": "4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Active Control",
+                            "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "21"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.80",
+                                            "spread": "0.65"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2.87",
+                                            "spread": "0.91"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Test My Brain Digital Neuropsychology Toolkit - Matrix Reasoning",
+                    "description": "The TestMyBrain Digital Neuropsychology Toolkit Matrix Reasoning task measures abstract reasoning and fluid intelligence by requiring individuals to identify patterns and complete visual matrices.\n\nIn Test my Brain Matrix Reasoning, the participant selects which smaller image completes the pattern in the larger image. This is a test of visual reasoning and general cognitive ability. This test was adapted from the Wechsler Adult Intelligence Scales. Scores go from 2 to 32. Higher scores are better.",
+                    "populationDescription": "The population included in the analysis was those who completed the Test My Brain Matrix Reasoning.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score",
+                    "timeFrame": "4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Active Control",
+                            "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "21"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "22.18",
+                                            "spread": "6.52"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "22.58",
+                                            "spread": "6.04"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Test My Brain Digital Neuropsychology Toolkit - Serial Reaction Time",
+                    "description": "The TestMyBrain Digital Neuropsychology Toolkit Serial Reaction Time task measures implicit learning and motor sequence acquisition by assessing response speed to repeating and random stimulus patterns.\n\nIn the TMB Serial Reaction Time task, higher scores in seconds (i.e., longer reaction times) indicate:\n\nReduced processing speed Lower motor or attentional efficiency Weaker implicit sequence learning",
+                    "populationDescription": "The population included in the analysis was those who completed the Test My Brain Serial Reaction Time.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "seconds",
+                    "timeFrame": "4 weeks.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Active Control",
+                            "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "21"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "333.24",
+                                            "spread": "60.57"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "384.62",
+                                            "spread": "96.47"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Test My Brain Digital Neuropsychology Toolkit - Visual Paired Associates",
+                    "description": "The TestMyBrain Digital Neuropsychology Toolkit Visual Paired Associates task measures associative memory by requiring individuals to learn and recall visual symbol pairs.\n\nIn this test, the participant memorizes a set of picture pairs. Then, after completing TMB Digit Symbol Matching (90 sec), the participant selects which pictures were paired together. TMB Visual PA is a test of visual episodic memory. In TMB Digit SM, the participant matches as many number/symbol pairs as possible in 90 seconds. This is a test of processing speed. Scores go from 4 to 23. Higher scores are better.",
+                    "populationDescription": "The population included in the analysis was those who completed the Test My Brain Visual Paired Associates.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score",
+                    "timeFrame": "4 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Active Control",
+                            "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "21"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "16.2",
+                                            "spread": "4.41"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16.3",
+                                            "spread": "3.93"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Adverse event information was collected from baseline to the last study visit, which included 1 week of baseline measurements, a 4-week exposure period, and 6 study visits, for an estimate of 8 weeks.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Intervention",
+                    "description": "Social motivation intervention, self-transcendence daily messages, and daily accelerometry.\n\nMotivational behavioural intervention and daily activities monitoring: Social motivation manipulation, self-transcendence daily messaging, and daily activities monitoring through accelerometry. Participants in this arm will have a study partner who receives daily feedback on the main participant's daily step count.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 36,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 36,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 36
+                },
+                {
+                    "id": "EG001",
+                    "title": "Active Control",
+                    "description": "Daily accelerometry.\n\nActive Control: Daily activities monitored through accelerometry.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 40,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 40,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 40
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "Maiya R. Geddes",
+                "organization": "McGill University",
+                "email": "maiya.geddes@mcgill.ca",
+                "phone": "514-398-8751"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The described study is a four-week, remote behavioral (intergenerational social motivation) intervention to increase physical activity in older adults drawn from the PREVENT-AD cohort. This is a behavioral/technology intervention (virtual garden, daily messages, step-goal donations) rather than a pharmacologic or biologic therapy, so it does not fit the four therapeutic categories (disease-targeted biologic, disease-targeted small molecule, cognitive enhancer, or neuropsychiatric symptom improvement). \ue200cite\ue202turn0search2\ue202turn0search0\ue201",
+        "Act: I searched for the trial and protocol to confirm intervention type and details. Protocol and registry entries describe a remote, intergenerational social-motivation behavioral intervention (paired younger\u2013older dyads, daily positive messages, wrist accelerometer-measured step count) and list primary/secondary behavioral and mood/cognition outcomes \u2014 no drug or biologic is involved. \ue200cite\ue202turn0search2\ue202turn0search1\ue201",
+        "Reflect: Given the intervention is non-pharmacologic and aims to increase physical activity (behavior change) rather than directly target AD pathology, cognition with a pharmacologic mechanism, or neuropsychiatric symptoms with a drug, the correct classification is 'N/A'. There is no ambiguity in the sources that would indicate a drug/biologic was used. Key sources: Protocol (open-access manuscript) and clinical-trial registry entry. \ue200cite\ue202turn0search2\ue202turn0search1\ue202turn0search0\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

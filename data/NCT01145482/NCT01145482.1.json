@@ -1,0 +1,448 @@
+{
+    "nct_id": "NCT01145482",
+    "title": "Mechanisms of Insulin Facilitation of Memory",
+    "status": "COMPLETED",
+    "last_update_time": "2014-10-30",
+    "description_brief": "The study described in the present application will test the hypothesis that insulin mediated facilitation of memory in Alzheimer's disease (AD) is achieved through enhanced glutamatergic neurotransmission due to improvements in cerebral glucose metabolism. The effect of a single dose of intranasal insulin on memory and cerebral glutamate concentrations in adults with mild AD or amnestic mild cognitive impairment (aMCI), the presumed prodromal phase of AD will be studied. Successful completion of this study may set the stage for a larger-scale treatment trial of intranasal insulin for adults with memory disorders. However, the use of insulin in this manner at this point in time is purely experimental.",
+    "description_detailed": "The specific aims of this project will be accomplished through a cross sectional repeated measures design in which 15 participants with mild AD or amnestic MCI will undergo assessments of brain structure and function 15 minutes after a single dose of insulin (20 IU) or placebo. Insulin and placebo conditions will be counterbalanced across participants.\n\nIntranasal insulin or placebo administration: Saline and insulin (NovoLog) will be ordered though the UT Student Health Services Pharmacy (Sharon Roberson, Chief Pharmacist) and stored at 4\u00b0C, according to standard pharmacy protocols. Three ml doses of saline or insulin will be packaged in nasal spray bottles (e.g., Spectrum Pharmacy Products bottles 969-17404P and actuators 551-24362P) designed to deliver 100\u03bcL dose with each spray. A total volume of 200\u03bcL will be delivered during each administration (one 100\u03bcL dose in each nostril).",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "BASIC_SCIENCE",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Insulin First, Then Saline",
+                    "description": "20 IU of insulin was administered once daily on two occasions followed by 200 micro liters of saline once daily on two occasions"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Saline First, Then Insulin",
+                    "description": "200 micro liters of saline was administered once daily on two occasions followed by 20 IU of insulin once daily on two occasions"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "First Intervention (1 Day)",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "6"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "6"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "5"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Second Intervention (1 Day)",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "5"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "5"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "Mean age 74.09, SD = 6.54 Gender, Female = 5, Male = 6",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Insulin First, Then Saline",
+                    "description": "20 IU of insulin was administered once daily on two occasions followed by 200 micro liters of saline administered once daily on two occasions"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Saline First, Then Insulin",
+                    "description": "200 micro liters of saline was administered once daily on two occasions followed by 20 IU of insulin administered once daily on two occasions"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "5"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "6"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "11"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "73.8",
+                                            "spread": "8.58"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "74.33",
+                                            "spread": "5.92"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "74.09",
+                                            "spread": "6.54"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Cerebral Glutamate Concentration",
+                    "description": "Glutamate concentration was expressed as the ratio of glutamate to creatine. This was determined using magnetic resonance spectroscopy (MRS), a magnetic resonance technique that uses the same equipment as magnetic resonance imaging (MRI), but allows researchers to extract information about the concentrations of various neurochemicals of neurobiological significance.",
+                    "populationDescription": "per protocol",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ratio",
+                    "timeFrame": "15 minutes post insulin or placebo administration",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Insulin",
+                            "description": "20 IU of insulin was administered once daily on two occasions in either the first intervention period or second intervention period using a nasal spray bottle"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Saline",
+                            "description": "200 micro liters of saline was administered once daily on two separate occasions in either the first intervention period or second intervention period using a nasal spray bottle"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.34",
+                                            "spread": "0.12"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.34",
+                                            "spread": "0.17"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Memory",
+                    "description": "Memory performance was assessed using delayed recall (number of units recalled) on the Wechsler Memory Scale (WMS-IV) logical memory (story recall) test. Scores represent a sum of recalled units of two different stories after a 30 minute delay. Total scores range from 0 to 50 (0-25 for each story) with higher scores reflecting better memory performance",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "15 minutes post insulin or placebo administration",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Insulin",
+                            "description": "20 IU of insulin was administered once daily on two occasions in either the first intervention period or second intervention period using a nasal spray bottle"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Saline",
+                            "description": "200 micro liters of saline was administered once daily on two separate occasions in either the first intervention period or second intervention period using a nasal spray bottle"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6.73",
+                                            "spread": "6.25"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5.36",
+                                            "spread": "2.69"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "immediately following study visits",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Insulin",
+                    "description": "20 IU of insulin was administered once daily on two occasions in either the first intervention period or second intervention period using a nasal spray bottle",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 11,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 11
+                },
+                {
+                    "id": "EG001",
+                    "title": "Saline",
+                    "description": "200 micro liters of saline was administered once daily on two separate occasions in either the first intervention period or second intervention period using a nasal spray bottle",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 11,
+                    "otherNumAffected": 1,
+                    "otherNumAtRisk": 11
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "nausea and urge to vomit",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA v12.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 11
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Dr. Andreana Haley",
+                "organization": "The University of Texas at Austin",
+                "email": "haley@psy.utexas.edu",
+                "phone": "512-232-0863"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "intranasal insulin (regular human insulin, single 20 IU dose reported in this trial)"
+    ],
+    "placebo": [
+        "intranasal saline (placebo)"
+    ],
+    "explanation_target": [
+        "Reason: The protocol explicitly tests intranasal insulin to facilitate memory via enhanced glutamatergic neurotransmission and improved cerebral glucose metabolism \u2014 i.e., a pro\u2011cognitive/symptomatic mechanism rather than an intervention aimed at amyloid or tau pathology. \ue200cite\ue202turn0search2\ue202turn0search11\ue201",
+        "Act (extracted trial details): The trial (NCT01145482 / 'Mechanisms of Insulin Facilitation of Memory') examines a single intranasal insulin dose (20 IU reported in the detailed description) versus placebo (saline) in adults with mild AD or amnestic MCI to measure memory and cerebral glutamate concentrations. \ue200cite\ue202turn0search2\ue202turn0search3\ue201",
+        "Supportive evidence / context: Prior human studies show intranasal insulin acutely facilitates verbal memory in AD/MCI and dose-response effects (e.g., 10\u201360 IU range with cognitive effects peaking around 20 IU in some cohorts). Larger/longer trials and reviews discuss intranasal insulin as a strategy to bolster brain insulin signaling and improve cognition. These sources confirm the intervention and its symptomatic/cognitive focus. \ue200cite\ue202turn0search1\ue202turn0search4\ue202turn0search11\ue201",
+        "Reflect: Although insulin is a peptide biologic, the trial\u2019s stated mechanism and endpoints (acute memory facilitation, glutamate changes, cerebral glucose metabolism) align with cognitive enhancement/symptomatic improvement rather than a disease\u2011modifying biologic directed at canonical AD pathologies (amyloid or tau). Therefore the correct category is 'cognitive enhancer'. \ue200cite\ue202turn0search5\ue202turn0search11\ue201"
+    ],
+    "agent_type": "L) Growth Factors and Hormones",
+    "explanation_agent": [
+        "Reason: The intervention is intranasal regular human insulin, a peptide hormone that acts via insulin receptors to modulate brain insulin signaling, synaptic function (including glutamatergic/NMDA/AMPA processes), and cerebral glucose/energy metabolism. The trial frames the mechanism as insulin\u2011mediated facilitation of memory via enhanced glutamatergic neurotransmission and improved cerebral glucose metabolism rather than targeting amyloid or tau pathology. \ue200cite\ue202turn0search5\ue202turn0search8\ue201",
+        "Act: Extracted trial details \u2014 NCT01145482, \"Mechanisms of Insulin Facilitation of Memory,\" tests a single intranasal insulin dose (20 IU reported) versus placebo in adults with mild AD or aMCI to measure acute memory changes and cerebral glutamate concentrations; the protocol explicitly hypothesizes enhanced glutamatergic neurotransmission secondary to improved cerebral glucose metabolism as the mechanism. Clinical and experimental reports also document acute memory facilitation with intranasal insulin and a dose\u2011response peaking near 20 IU in some cohorts. \ue200cite\ue202turn1search1\ue202turn1search5\ue201",
+        "Reflect: Mapping to CADRO \u2014 insulin is best classified under L) Growth Factors and Hormones because it is a hormone/growth\u2011factor peptide and the trial\u2019s primary mechanistic focus is boosting brain insulin signaling and metabolic/synaptic function for cognitive enhancement. Metabolism/Bioenergetics (J) is relevant as a secondary theme (cerebral glucose/energy effects), but CADRO most specifically places hormones and growth factors in L. This trial is symptomatic/cognitive\u2011enhancing rather than anti\u2011amyloid or anti\u2011tau disease modification, so the single most specific CADRO assignment is L) Growth Factors and Hormones. \ue200cite\ue202turn0search8\ue202turn1search9\ue201",
+        "Web-search sources (most relevant):\n- Clinical trial record summary for NCT01145482 describing the single 20 IU IN insulin dose and the hypothesis linking insulin, glutamatergic neurotransmission, and cerebral glucose metabolism. \ue200cite\ue202turn1search1\ue201\n- Reger et al., 2008 (PMC): dose\u2011response human study showing memory facilitation in memory\u2011impaired adults with benefits often peaking around 20 IU and APOE genotype effects. \ue200cite\ue202turn1search5\ue201\n- Journal of Neuroendocrinology / reviews summarizing insulin\u2019s central actions on neurotransmitter receptors, synaptic plasticity, and neuronal glucose transport. \ue200cite\ue202turn0search5\ue201\n- Diabetes (2012) and related studies showing intranasal insulin increases brain high\u2011energy phosphate levels and affects cerebral energy metabolism/connectivity. \ue200cite\ue202turn1search9\ue201\n- Neuropharmacology review (\"Intranasal insulin in Alzheimer's disease: Food for thought\") summarizing rationale, human trial findings, and metabolic/synaptic mechanisms. \ue200cite\ue202turn0search8\ue201"
+    ]
+}

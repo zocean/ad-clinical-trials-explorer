@@ -1,0 +1,2618 @@
+{
+    "nct_id": "NCT01459016",
+    "title": "An Exploratory Study of Brain Imaging Biomarkers in Patients With Alzheimer's Pathology Receiving Standard of Care",
+    "status": "COMPLETED",
+    "last_update_time": "2018-05-17",
+    "description_brief": "This study will investigate the volume, function and composition of the brain using magnetic resonance imaging (MRI) and positron emission tomography (PET) scanning technology in participants with memory complaints or early signs of Alzheimer's pathology.",
+    "description_detailed": "After trial initiation, the protocol was amended to extend the single observation time period (6 to 9 months) to two time points (6 and 12 months), and to focus on prodromal AD (Mini-Mental State Examination \\[MMSE\\] 23-30 inclusive, Free and Cued Selective Reminding Test \\[FCSRT\\] less than or equal to \\[\u2264\\] 24 for free recall or \u2264 44 for total recall). Participants enrolled under the original protocol were allowed to continue in the extension study if they so desired, and if they met the new inclusion criteria. Due to the number of participants that completed the extended trial, no sub-group analysis was performed based on which amendment the participants entered under.",
+    "phase": [
+        "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "BASIC_SCIENCE",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Standard of Care",
+                    "description": "Participants with prodromal to mild Alzheimer's Disease (AD) underwent a florbetapir F 18 positron emission tomography (PET) scan. (Single intravenous microdose of 260 to 370 megabecquerels (MBq) \\[7 to 10 millicuries (mCi)\\] of florbetapir.) Those who tested amyloid positive and met other entry criteria received standard of care for up to 12 months (mos). No therapeutic investigational drug intended to treat AD was administered."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "56"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "41"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "15"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "11"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Amendment Discontinuation Criteria",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "All participants who enrolled in the study.",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Standard of Care",
+                    "description": "Participants with prodromal to mild AD underwent a florbetapir F 18 PET scan. (Single intravenous microdose of 260 to 370 MBq \\[7 to 10 mCi\\] of florbetapir.) Those who tested amyloid positive and met other disease diagnostic criteria received standard of care for up to 12 mos. No therapeutic investigational drug intended to treat AD was administered."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "56"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "73.2",
+                                            "spread": "7.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "22"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "34"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "France",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "56"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline in Volumetric Magnetic Resonance Imaging (vMRI) - Brain Boundary Shift Integral (BBSI) and Ventricular Boundary Shift Integral (VBSI)",
+                    "description": "BBSI and VBSI were calculated based on the voxel-wise difference between co-registered baseline and follow-up scans. Least squares (LS) mean value was controlled for baseline value and visit.",
+                    "populationDescription": "All participants who enrolled in the study and had an evaluable MRI at the designated time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "milliliters (mL)",
+                    "timeFrame": "Baseline, 6 Mos; Baseline, 12 Mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Standard of Care",
+                            "description": "Participants with prodromal to mild AD underwent a florbetapir F 18 PET scan. (Single intravenous microdose of 260 to 370 MBq \\[7 to 10 mCi\\] of florbetapir.) Those who tested amyloid positive and met other disease diagnostic criteria received standard of care for up to 12 mos. No therapeutic investigational drug intended to treat AD was administered."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "56"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "BBSI - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "43"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6.349",
+                                            "lowerLimit": "3.735",
+                                            "upperLimit": "8.963"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "BBSI - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "31"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "11.663",
+                                            "lowerLimit": "8.608",
+                                            "upperLimit": "14.719"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "VBSI - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "45"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.016",
+                                            "lowerLimit": "1.361",
+                                            "upperLimit": "2.671"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "VBSI - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "31"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4.196",
+                                            "lowerLimit": "3.088",
+                                            "upperLimit": "5.303"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline in Volumetric Magnetic Resonance Imaging (vMRI) - Hippocampus Volume Average Percent (%) Change (Chg)",
+                    "description": "Automated hippocampal volumetry was performed using the Learning Embeddings for Atlas Propagation (LEAP) algorithm. LS mean value was controlled for baseline value and visit.",
+                    "populationDescription": "All participants who enrolled in the study and had an evaluable MRI at the designated time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "percentage of hippocampus volume average",
+                    "timeFrame": "Baseline, 6 Mos; Baseline, 12 Mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Standard of Care",
+                            "description": "Participants with prodromal to mild AD underwent a florbetapir F 18 PET scan. (Single intravenous microdose of 260 to 370 MBq \\[7 to 10 mCi\\] of florbetapir.) Those who tested amyloid positive and met other disease diagnostic criteria received standard of care for up to 12 mos. No therapeutic investigational drug intended to treat AD was administered."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "56"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Hippocampus Volume Average % Chg - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.693",
+                                            "lowerLimit": "-2.273",
+                                            "upperLimit": "-1.113"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Hippocampus Volume Average % Chg - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-3.057",
+                                            "lowerLimit": "-3.884",
+                                            "upperLimit": "-2.231"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline in Resting State Functional Magnetic Resonance Imaging (rsfMRI)",
+                    "description": "Distributed functional connectivity in selected brain networks was calculated from the rsfMRI scans. Values were derived from low-frequency (0.01-0.1 hertz \\[Hz\\]) temporal correlations between different regions over the approximately 6-minute rsfMRI time series scan. Distributed measures of functional connectivity were calculated as the mean Pearson correlation between the average low-frequency time courses in predefined sets of regions of interest (ROI) within the default mode network (DMN), salience network (SN) and sensorimotor networks (SMN). LS mean value was controlled for baseline value and visit.",
+                    "populationDescription": "All participants who enrolled in the study and had an evaluable MRI at the designated time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "arbitrary units (au)",
+                    "timeFrame": "Baseline, 6 Mos; Baseline, 12 Mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Standard of Care",
+                            "description": "Participants with prodromal to mild AD underwent a florbetapir F 18 PET scan. (Single intravenous microdose of 260 to 370 MBq \\[7 to 10 mCi\\] of florbetapir.) Those who tested amyloid positive and met other disease diagnostic criteria received standard of care for up to 12 mos. No therapeutic investigational drug intended to treat AD was administered."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "56"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Anterior DMN - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "41"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.017",
+                                            "lowerLimit": "-0.033",
+                                            "upperLimit": "0.067"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Anterior DMN - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "28"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.031",
+                                            "lowerLimit": "-0.017",
+                                            "upperLimit": "0.080"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Anterior SN - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "41"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.012",
+                                            "lowerLimit": "-0.043",
+                                            "upperLimit": "0.019"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Anterior SN -12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "28"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.025",
+                                            "lowerLimit": "-0.065",
+                                            "upperLimit": "0.014"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "DMN - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "41"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.029",
+                                            "lowerLimit": "-0.060",
+                                            "upperLimit": "0.001"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "DMN - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "28"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.031",
+                                            "lowerLimit": "-0.061",
+                                            "upperLimit": "-0.001"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Posterior DMN - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "41"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.061",
+                                            "lowerLimit": "-0.120",
+                                            "upperLimit": "-0.002"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Posterior DMN - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "28"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.058",
+                                            "lowerLimit": "-0.096",
+                                            "upperLimit": "-0.021"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Posterior SN - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "41"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.012",
+                                            "lowerLimit": "-0.045",
+                                            "upperLimit": "0.021"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Posterior SN - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "28"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.001",
+                                            "lowerLimit": "-0.040",
+                                            "upperLimit": "0.043"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "SN - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "41"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.021",
+                                            "lowerLimit": "-0.048",
+                                            "upperLimit": "0.005"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "SN - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "28"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.008",
+                                            "lowerLimit": "-0.043",
+                                            "upperLimit": "0.027"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "SMN - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "41"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.041",
+                                            "lowerLimit": "0.009",
+                                            "upperLimit": "0.072"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "SMN - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "28"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.013",
+                                            "lowerLimit": "-0.060",
+                                            "upperLimit": "0.034"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline in Diffusion Tensor Imaging (DTI) Using Fractional Anisotropy (FA)",
+                    "description": "DTI scans used FA to measure water diffusion directionality in selected white matter (WM) tracts. ROI: Corpus collosum (CC), internal capsule (IC), posterior cingulum bundle (PCB), temporal white matter (TWM), uncinate fasciculus (UF), superior longitudinal fasciculus (SLF). LS mean value was controlled for baseline value and visit.",
+                    "populationDescription": "All participants who enrolled in the study and had an evaluable MRI at the designated time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "au",
+                    "timeFrame": "Baseline, 6 Mos; Baseline, 12 Mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Standard of Care",
+                            "description": "Participants with prodromal to mild AD underwent a florbetapir F 18 PET scan. (Single intravenous microdose of 260 to 370 MBq \\[7 to 10 mCi\\] of florbetapir.) Those who tested amyloid positive and met other disease diagnostic criteria received standard of care for up to 12 mos. No therapeutic investigational drug intended to treat AD was administered."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "56"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Mean FA, CC (Genu) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.024",
+                                            "lowerLimit": "-0.046",
+                                            "upperLimit": "-0.003"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, CC (Genu) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.021",
+                                            "lowerLimit": "-0.041",
+                                            "upperLimit": "-0.001"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, CC (Splenium) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.016",
+                                            "lowerLimit": "-0.043",
+                                            "upperLimit": "0.012"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, CC (Splenium) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.009",
+                                            "lowerLimit": "-0.026",
+                                            "upperLimit": "0.043"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, IC (Left) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.043",
+                                            "lowerLimit": "-0.066",
+                                            "upperLimit": "-0.020"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, IC (Left) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.020",
+                                            "lowerLimit": "-0.043",
+                                            "upperLimit": "0.003"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, IC (Right) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.046",
+                                            "lowerLimit": "-0.067",
+                                            "upperLimit": "-0.025"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, IC (Right) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.020",
+                                            "lowerLimit": "-0.038",
+                                            "upperLimit": "-0.002"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, PCB (Left) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.000",
+                                            "lowerLimit": "-0.012",
+                                            "upperLimit": "0.013"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, PCB (Left) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.010",
+                                            "lowerLimit": "0.003",
+                                            "upperLimit": "0.017"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, PCB (Right) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.010",
+                                            "lowerLimit": "-0.001",
+                                            "upperLimit": "0.021"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, PCB (Right) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.003",
+                                            "lowerLimit": "-0.008",
+                                            "upperLimit": "0.015"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, TWM (Left) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.017",
+                                            "lowerLimit": "-0.028",
+                                            "upperLimit": "-0.006"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, TWM (Left) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.011",
+                                            "lowerLimit": "-0.022",
+                                            "upperLimit": "0.000"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, TWM (Right) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.014",
+                                            "lowerLimit": "-0.022",
+                                            "upperLimit": "-0.005"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, TWM (Right) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.009",
+                                            "lowerLimit": "-0.019",
+                                            "upperLimit": "0.001"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, UF (Left) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.027",
+                                            "lowerLimit": "-0.045",
+                                            "upperLimit": "-0.010"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, UF (Left) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.010",
+                                            "lowerLimit": "-0.007",
+                                            "upperLimit": "0.027"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, UF (Right) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.032",
+                                            "lowerLimit": "-0.049",
+                                            "upperLimit": "-0.015"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, UF (Right) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.005",
+                                            "lowerLimit": "-0.009",
+                                            "upperLimit": "0.020"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, SLF (Left) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.014",
+                                            "lowerLimit": "-0.025",
+                                            "upperLimit": "-0.003"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, SLF (Left) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.003",
+                                            "lowerLimit": "-0.014",
+                                            "upperLimit": "0.007"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, SLF (Right) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.006",
+                                            "lowerLimit": "-0.019",
+                                            "upperLimit": "0.007"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean FA, SLF (Right) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.002",
+                                            "lowerLimit": "-0.009",
+                                            "upperLimit": "0.012"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline in Diffusion Tensor Imaging (DTI) Using Mean Diffusivity (MD)",
+                    "description": "DTI scans used MD to measure the overall magnitude of water diffusion in selected WM tracts, without specific regard to directionality. ROI: CC, IC, PCB, TWM, UF, SLF. LS mean value was controlled for baseline value and visit.",
+                    "populationDescription": "All participants who enrolled in the study and had an evaluable MRI at the designated time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "square meters per second (m\u00b2/sec) * 10\u00b9\u2070",
+                    "timeFrame": "Baseline, 6 Mos; Baseline, 12 Mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Standard of Care",
+                            "description": "Participants with prodromal to mild AD underwent a florbetapir F 18 PET scan. (Single intravenous microdose of 260 to 370 MBq \\[7 to 10 mCi\\] of florbetapir.) Those who tested amyloid positive and met other disease diagnostic criteria received standard of care for up to 12 mos. No therapeutic investigational drug intended to treat AD was administered."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "56"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Mean MD, CC (Genu) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.201",
+                                            "lowerLimit": "-0.157",
+                                            "upperLimit": "0.559"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD, CC (Genu) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.761",
+                                            "lowerLimit": "-0.280",
+                                            "upperLimit": "1.802"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD, CC (Splenium) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.663",
+                                            "lowerLimit": "-0.114",
+                                            "upperLimit": "1.440"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD, CC (Splenium) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.519",
+                                            "lowerLimit": "-0.956",
+                                            "upperLimit": "-0.082"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD, IC (Left) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.410",
+                                            "lowerLimit": "0.043",
+                                            "upperLimit": "0.777"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD, IC (Left) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.164",
+                                            "lowerLimit": "-0.107",
+                                            "upperLimit": "0.435"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD, IC (Right) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.441",
+                                            "lowerLimit": "0.203",
+                                            "upperLimit": "0.679"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD, IC (Right) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.280",
+                                            "lowerLimit": "0.120",
+                                            "upperLimit": "0.440"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD, PCB (Left) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.062",
+                                            "lowerLimit": "-0.326",
+                                            "upperLimit": "0.203"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD, PCB (Left) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.175",
+                                            "lowerLimit": "-0.087",
+                                            "upperLimit": "0.436"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD, PCB (Right) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.114",
+                                            "lowerLimit": "-0.156",
+                                            "upperLimit": "0.385"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD, PCB (Right) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.297",
+                                            "lowerLimit": "0.053",
+                                            "upperLimit": "0.541"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD TWM (Left) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.014",
+                                            "lowerLimit": "-0.280",
+                                            "upperLimit": "0.251"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD TWM (Left) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.010",
+                                            "lowerLimit": "-0.295",
+                                            "upperLimit": "0.274"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD TWM (Right) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.243",
+                                            "lowerLimit": "-0.047",
+                                            "upperLimit": "0.533"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD TWM (Right) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.285",
+                                            "lowerLimit": "0.077",
+                                            "upperLimit": "0.493"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD, UF (Left) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.150",
+                                            "lowerLimit": "-0.518",
+                                            "upperLimit": "0.218"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD, UF (Left) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.600",
+                                            "lowerLimit": "-1.005",
+                                            "upperLimit": "-0.196"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD, UF (Right) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.240",
+                                            "lowerLimit": "-0.200",
+                                            "upperLimit": "0.681"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD, UF (Right) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.289",
+                                            "lowerLimit": "-0.649",
+                                            "upperLimit": "0.072"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD SLF (Left) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.083",
+                                            "lowerLimit": "-0.070",
+                                            "upperLimit": "0.237"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD SLF (Left) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.007",
+                                            "lowerLimit": "-0.108",
+                                            "upperLimit": "0.094"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD SLF (Right) - 6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.085",
+                                            "lowerLimit": "-0.113",
+                                            "upperLimit": "0.284"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mean MD SLF (Right) - 12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.097",
+                                            "lowerLimit": "-0.004",
+                                            "upperLimit": "0.197"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Baseline Brain Amyloid Load Using Positron Emission Tomography (PET) and Florbetapir",
+                    "description": "Composite summary standardized uptake value ratio (SUVR) normalized to mean whole cerebellum. Regions used for composite summary were posterior cingulum, anterior cingulum, parietal cortex, lateral temporal cortex and frontal cortex.",
+                    "populationDescription": "All participants with an amyloid positive florbetapir F 18 PET scan at baseline.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "SUVR unit 1",
+                    "timeFrame": "Baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Standard of Care",
+                            "description": "Participants with prodromal to mild AD underwent a florbetapir F 18 PET scan. (Single intravenous microdose of 260 to 370 MBq \\[7 to 10 mCi\\] of florbetapir.) Those who tested amyloid positive and met other disease diagnostic criteria received standard of care for up to 12 mos. No therapeutic investigational drug intended to treat AD was administered."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "56"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.581",
+                                            "spread": "0.200"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Number of Participants With Vasogenic Edema on MRI Scan at a Field Strength of 3 Tesla (3T)",
+                    "populationDescription": "All participants who had an MRI during screening and were classified as screen failures.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "calculatePct": false,
+                    "timeFrame": "Baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Standard of Care",
+                            "description": "Participants with prodromal to mild AD underwent a florbetapir F 18 PET scan. (Single intravenous microdose of 260 to 370 MBq \\[7 to 10 mCi\\] of florbetapir.) Those who tested amyloid positive and met other disease diagnostic criteria received standard of care for up to 12 mos. No therapeutic investigational drug intended to treat AD was administered."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "42"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Number of Participants With Microhemorrhage on MRI Scan at a Field Strength of 3T",
+                    "populationDescription": "All participants who enrolled in the study and had an evaluable MRI at the designated time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "calculatePct": false,
+                    "timeFrame": "Baseline, 6 Mos; Baseline, 12 Mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Standard of Care",
+                            "description": "Participants with prodromal to mild AD underwent a florbetapir F 18 PET scan. (Single intravenous microdose of 260 to 370 MBq \\[7 to 10 mCi\\] of florbetapir.) Those who tested amyloid positive and met other disease diagnostic criteria received standard of care for up to 12 mos. No therapeutic investigational drug intended to treat AD was administered."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "56"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "56"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "46"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "31"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in the Mini Mental State Examination (MMSE) Total Score",
+                    "description": "The MMSE is a brief screening instrument used to assess cognitive function (orientation, memory, attention, ability to name objects, follow verbal/written commands, write a sentence, and copy figures). Total score ranges from 0 to 30; lower score indicates greater disease severity. LS mean value was controlled for baseline value and visit.",
+                    "populationDescription": "All participants who enrolled in the study and completed the scale at the designated time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline, 6 Mos; Baseline, 12 Mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Standard of Care",
+                            "description": "Participants with prodromal to mild AD underwent a florbetapir F 18 PET scan. (Single intravenous microdose of 260 to 370 MBq \\[7 to 10 mCi\\] of florbetapir.) Those who tested amyloid positive and met other disease diagnostic criteria received standard of care for up to 12 mos. No therapeutic investigational drug intended to treat AD was administered."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "56"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "48"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.2",
+                                            "lowerLimit": "-2.0",
+                                            "upperLimit": "-0.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "32"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.8",
+                                            "lowerLimit": "-2.7",
+                                            "upperLimit": "-0.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in the Alzheimer's Disease Assessment Scale Extended Cognitive Subscale (ADAS-Cog14) Total Score",
+                    "description": "The ADAS-Cog14 is the ADAS-Cog11 augmented with delayed free recall, digit cancellation, and maze completion measures. A score of 0 to 10 for delayed free recall and a conversion code of 0 to 5 for digit cancellation and maze completion provide total score ranges for this extended ADAS-Cog14 of 0 to 90. Higher scores indicate greater disease severity. LS mean value was controlled for baseline value and visit.",
+                    "populationDescription": "All participants who enrolled in the study and completed the scale at the designated time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline, 6 Mos; Baseline, 12 Mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Standard of Care",
+                            "description": "Participants with prodromal to mild AD underwent a florbetapir F 18 PET scan. (Single intravenous microdose of 260 to 370 MBq \\[7 to 10 mCi\\] of florbetapir.) Those who tested amyloid positive and met other disease diagnostic criteria received standard of care for up to 12 mos. No therapeutic investigational drug intended to treat AD was administered."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "56"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "46"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.1",
+                                            "lowerLimit": "-1.6",
+                                            "upperLimit": "1.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "31"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.7",
+                                            "lowerLimit": "-1.7",
+                                            "upperLimit": "3.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in the Clinical Dementia Rating (CDR) Total Score",
+                    "description": "The CDR is a semi-structured interview of participants and their caregivers. Participant's cognitive status is rated across 6 domains of functioning, including memory, orientation, judgment/problem solving, community affairs, home/hobbies, and personal care. Severity score assigned for each of 6 domains; Total score ranges from 0 to 18. Higher scores indicate greater disease severity. LS mean value was controlled for baseline value and visit.",
+                    "populationDescription": "All participants who enrolled in the study and completed the scale at the designated time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline, 6 Mos; Baseline, 12 Mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Standard of Care",
+                            "description": "Participants with prodromal to mild AD underwent a florbetapir F 18 PET scan. (Single intravenous microdose of 260 to 370 MBq \\[7 to 10 mCi\\] of florbetapir.) Those who tested amyloid positive and met other disease diagnostic criteria received standard of care for up to 12 mos. No therapeutic investigational drug intended to treat AD was administered."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "56"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "6 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "48"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.1",
+                                            "lowerLimit": "0.0",
+                                            "upperLimit": "0.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "12 Mos",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "33"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.1",
+                                            "lowerLimit": "0.0",
+                                            "upperLimit": "0.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Standard of Care",
+                    "description": "Participants with prodromal to mild AD underwent a florbetapir F 18 PET scan. (Single intravenous microdose of 260 to 370 MBq \\[7 to 10 mCi\\] of florbetapir.) Those who tested amyloid positive and met other disease diagnostic criteria received standard of care for up to 12 mos. No therapeutic investigational drug intended to treat AD was administered.",
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 56,
+                    "otherNumAffected": 10,
+                    "otherNumAtRisk": 56
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Oesophagitis",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 14.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 56
+                        }
+                    ]
+                },
+                {
+                    "term": "Dementia alzheimer's type",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 14.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 56
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Dementia alzheimer's type",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 14.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 10,
+                            "numAffected": 10,
+                            "numAtRisk": 56
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "GT60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Chief Medical Officer",
+                "organization": "Eli Lilly and Company",
+                "phone": "800-545-5979"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The study description and title describe only imaging assessments (MRI and PET) to investigate brain volume, function, and composition in participants with memory complaints or early Alzheimer pathology \u2014 an observational/biomarker study rather than a therapeutic trial. Neuroimaging biomarker studies are used to measure or track pathology and to support diagnosis or selection/monitoring in trials, not to test an investigational treatment. \ue200cite\ue202turn2search1\ue202turn0search0\ue201",
+        "Act (extraction & matching): Key details extracted from the description/title: 'MRI and PET scanning', 'brain imaging biomarkers', 'patients ... receiving standard of care', 'participants with memory complaints or early signs of Alzheimer's pathology'. Because the intervention described is imaging (diagnostic/biomarker evaluation) and the only treatment mention is 'standard of care' (i.e., routine approved symptomatic therapies such as cholinesterase inhibitors or memantine), there is no investigational drug or biologic to classify. Examples of standard-of-care symptomatic drugs include cholinesterase inhibitors and memantine. \ue200cite\ue202turn3search0\ue202turn3search2\ue202turn3search9\ue201",
+        "Reflect (verification): The trial focuses on diagnostic/biomarker imaging and does not propose a disease-modifying biologic/small molecule, a cognitive-enhancing investigational agent, or a neuropsychiatric symptom intervention; therefore it does not fit any of the four target categories and should be classified as 'N/A'. Imaging-biomarker studies are routinely run as observational/exploratory investigations to characterize pathology or monitor response, consistent with this description. \ue200cite\ue202turn2search1\ue202turn0search0\ue201",
+        "Web search results used (sources): - 'Neuroimaging biomarkers for clinical trials of disease-modifying therapies in Alzheimer's disease' (PubMed). \ue200cite\ue202turn2search1\ue201 - 'Neuroimaging correlates with neuropathologic schemes in neurodegenerative disease' (PubMed). \ue200cite\ue202turn0search0\ue201 - Donepezil and Memantine trial (NEJM) as an example of standard-of-care symptomatic therapies. \ue200cite\ue202turn3search0\ue201 - Clinical practice guideline review recommending cholinesterase inhibitors and memantine for AD (clinical practice guidelines). \ue200cite\ue202turn3search2\ue201 - WHO mhGAP summary on cholinesterase inhibitors and memantine as available treatments. \ue200cite\ue202turn3search9\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

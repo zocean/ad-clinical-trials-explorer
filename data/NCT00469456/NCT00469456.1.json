@@ -1,0 +1,942 @@
+{
+    "nct_id": "NCT00469456",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled Evaluation of the Efficacy of Memantine on Functional Communication in Patients With Alzheimer's Disease (AD)",
+    "status": "COMPLETED",
+    "last_update_time": "2009-12-21",
+    "description_brief": "The objective of this study is to evaluate the effect of memantine versus placebo on functional communication in patients with Alzheimer's Disease",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE4"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "Study consisted of up to 2 weeks single-blind placebo treatment followed by 12 weeks double-blind treatment. At end of single-blind placebo treatment, patients (pts) meeting entry criteria were randomized (1:1) to 1 of 2 double-blind treatment groups receiving memantine or placebo. Pts not meeting inclusion/exclusion criteria were not randomized.",
+            "recruitmentDetails": "The recruitment period was from May 24, 2007 to July 29, 2008 at 25 centers in three countries \\[14 in Australia, 3 in New Zealand, 8 in South Africa\\].",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Placebo",
+                    "description": "Matching placebo, oral administration, twice daily for 12 weeks"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Memantine",
+                    "description": "Memantine 20mg (10mg twice daily), oral administration for 12 weeks"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "Safety Population defined as all patients who took at least one dose of double-blind study drug",
+                                    "numSubjects": "129"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "comment": "Safety Population defined as all patients who took at least one dose of double-blind study drug.",
+                                    "numSubjects": "135"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "120"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "131"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "9"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Adverse Event",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "4"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Protocol Violation",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "4"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Placebo",
+                    "description": "Matching placebo, oral administration, twice daily for 12 weeks"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Memantine",
+                    "description": "Memantine 20mg (10mg twice daily), oral administration for 12 weeks"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "129"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "135"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "264"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Customized",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "<=64 years",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "32"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "65-74 years",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "51"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "84"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "75-84 years",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "59"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "56"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "115"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": ">=85 years",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "33"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "75.1",
+                                            "spread": "8.68"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "74.8",
+                                            "spread": "8.05"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "74.9",
+                                            "spread": "8.35"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "description": "One patient was randomized but did not receive study drug.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "74"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "80"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "154"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "55"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "55"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "110"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "Australia",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "55"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "55"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "110"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "South Africa",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "58"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "62"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "120"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "New Zealand",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "34"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline in Functional Linguistic Communication Inventory (FLCI) at Week 12",
+                    "description": "FLCI is a standardized \\& validated instrument for evaluating functional communication in pts with moderate-to-severe Alzheimer's that can be used to obtain Baseline information \\& to track patients' capabilities thereafter. The FLCI evaluates 10 areas: greeting and naming, answering questions, writing, sign comprehension, object-to-picture matching, word reading and comprehension, following commands, pantomime, gesture, and conversation. The FLCI total score ranges from 0 to 87, a higher score denotes better functional communication, and takes approximately 30 minutes to complete.",
+                    "populationDescription": "Primary efficacy analysis was based on the Intent-to-Treat (ITT) Population. The ITT Population will consist of all patients in the Safety Population who had at least one post-Baseline assessment of the primary efficacy parameter, FLCI. The last-observation-carried-forward approach was used to impute missing post-Baseline values.",
+                    "reportingStatus": "POSTED",
+                    "anticipatedPostingDate": "2009-10",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Units on a scale",
+                    "timeFrame": "Baseline to Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Matching placebo, oral administration, twice daily for 12 weeks"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Memantine",
+                            "description": "Memantine 20mg (10mg twice daily), oral administration for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "124"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "133"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.6",
+                                            "spread": "0.59"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.7",
+                                            "spread": "0.57"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "The primary efficacy parameter was change from Baseline to Week 12 in FLCI total score. Missing FLCI total scores at Week 12 were imputed using the last-observation-carried-forward (LOCF) approach.",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.070",
+                            "statisticalMethod": "ANCOVA",
+                            "paramType": "Mean Difference (Final Values)",
+                            "paramValue": "1.3",
+                            "ciPctValue": "95",
+                            "ciLowerLimit": "-0.1",
+                            "ciUpperLimit": "2.8"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in American Speech-Language-Hearing Association Functional Assessment of Communication Skills for Adults (ASHA FACS) [Total Score of Social Communication and Communication of Basic Needs Subscores] at Week 12",
+                    "description": "The ASHA FACS assesses \\& measures functional communication skills of adults with speech, language, \\& cognitive communication disorders. The measure, which comprises 43 items and takes approximately 20 minutes to complete, assesses functional communication in four areas: social communication; communication of basic needs; reading, writing, and number concepts; and daily planning. Total score of subdomains \\[Social Communication and Communication of Basic Needs\\] ranges from 0-196. A higher score denotes better communication.",
+                    "populationDescription": "The secondary efficacy analysis was based on the ITT Population. The last-observation-carried-forward approach was used to impute missing post-Baseline values.",
+                    "reportingStatus": "POSTED",
+                    "anticipatedPostingDate": "2009-11",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Units on a scale",
+                    "timeFrame": "Baseline to Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Matching placebo, oral administration, twice daily for 12 weeks"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Memantine",
+                            "description": "Memantine 20mg (10mg twice daily), oral administration for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "124"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "133"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-5.3",
+                                            "spread": "2.06"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.5",
+                                            "spread": "1.99"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "The secondary efficacy parameter was change from Baseline at Week 12 in the total score of the Social Communication subscale and Communication of Basic Needs subscale of the ASHA FACS. Missing scores at week 12 were imputed using the last-observation-carried-forward (LOCF) approach.",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.022",
+                            "statisticalMethod": "ANCOVA",
+                            "paramType": "Mean Difference (Final Values)",
+                            "paramValue": "5.9",
+                            "ciPctValue": "95",
+                            "ciLowerLimit": "0.9",
+                            "ciUpperLimit": "10.9"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "Occurring on or after the date of the first dose of double-blind study medication and within 30 days of the date of last dose of double-blind study medication.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Placebo",
+                    "description": "Matching placebo, oral administration, twice daily for 12 weeks",
+                    "seriousNumAffected": 13,
+                    "seriousNumAtRisk": 129,
+                    "otherNumAffected": 2,
+                    "otherNumAtRisk": 129
+                },
+                {
+                    "id": "EG001",
+                    "title": "Memantine",
+                    "description": "Memantine 20mg (10mg twice daily), oral administration for 12 weeks",
+                    "seriousNumAffected": 4,
+                    "seriousNumAtRisk": 135,
+                    "otherNumAffected": 7,
+                    "otherNumAtRisk": 135
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Syncope",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 135
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary Tract Infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 135
+                        }
+                    ]
+                },
+                {
+                    "term": "Abdominal Pain",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 135
+                        }
+                    ]
+                },
+                {
+                    "term": "Angina Unstable",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 135
+                        }
+                    ]
+                },
+                {
+                    "term": "Atrioventricular Block First Degree",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 135
+                        }
+                    ]
+                },
+                {
+                    "term": "Bile Duct Stone",
+                    "organSystem": "Hepatobiliary disorders",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 135
+                        }
+                    ]
+                },
+                {
+                    "term": "Cerebellar Infarction",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 135
+                        }
+                    ]
+                },
+                {
+                    "term": "Constipation",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 135
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 135
+                        }
+                    ]
+                },
+                {
+                    "term": "Femur Fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 135
+                        }
+                    ]
+                },
+                {
+                    "term": "Gastric Ulcer",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 135
+                        }
+                    ]
+                },
+                {
+                    "term": "Gastrointeritis Yersinia",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 135
+                        }
+                    ]
+                },
+                {
+                    "term": "Hiatus Hernia",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 135
+                        }
+                    ]
+                },
+                {
+                    "term": "Pneumonia Aspiration",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 135
+                        }
+                    ]
+                },
+                {
+                    "term": "Squamous Cell Carcinoma of Skin",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 135
+                        }
+                    ]
+                },
+                {
+                    "term": "Upper Respiratory Tract Infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 135
+                        }
+                    ]
+                },
+                {
+                    "term": "Vestibular Disorder",
+                    "organSystem": "Ear and labyrinth disorders",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 135
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 10.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 129
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 7,
+                            "numAtRisk": 135
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "Sponsor can review results communications prior to public release \\& can embargo communications re: results for 90 days from time submitted to sponsor for review. PI shall not disclose sponsor's confidential info. Upon sponsor's request, PI shall delete any proprietary info \\& shall not include raw data in pub. On sponsor's request, PI shall delay submission for any pub while sponsor files patent apps. If trial is multi-center, PI agrees that first publication shall be a multi-center pub."
+            },
+            "pointOfContact": {
+                "title": "Stephen Graham, PhD",
+                "organization": "Forest Research Institute, a subsidiary of Forest Laboratories Inc.",
+                "email": "stephen.graham@frx.com",
+                "phone": "201-427-8156"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "memantine (Namenda)"
+    ],
+    "placebo": [
+        "placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests memantine vs placebo to improve functional communication in AD. Memantine is a small\u2011molecule, uncompetitive NMDA (glutamate) receptor antagonist used to treat moderate\u2013to\u2013severe Alzheimer's symptoms; it is symptomatic (modulates neurotransmission/excitotoxicity) rather than a therapy that targets core AD pathology like amyloid or tau. \ue200cite\ue202turn0search0\ue202turn0search3\ue202turn0search9\ue201",
+        "Act: Key extracted details \u2014 intervention: memantine (oral small molecule; brand Namenda); comparator: placebo; intended effect in this trial: improve functional communication (a cognitive/functional outcome) rather than modify amyloid or tau pathology. Because memantine acts on NMDA receptors to reduce excitotoxicity and improve cognitive/functional symptoms, it fits the 'cognitive enhancer' category. \ue200cite\ue202turn0search6\ue202turn0search2\ue201",
+        "Reflect: Classification check \u2014 memantine is not a biologic (so not 'disease-targeted biologic'), and it does not target amyloid/tau pathology (so not 'disease-targeted small molecule' as defined here). Its approved clinical role and mechanism support symptomatic cognitive/functional improvement, so 'cognitive enhancer' is the correct category. Note: if the trial explicitly stated a disease\u2011modifying mechanism (it does not), classification would be different. \ue200cite\ue202turn0search8\ue202turn0search11\ue201",
+        "Web search results (selected): 1) Review describing memantine as a partial/uncompetitive NMDA receptor antagonist and symptomatic treatment in AD. \ue200cite\ue202turn0search0\ue201 2) ALZFORUM summary of memantine pharmacology and its role as a non\u2011cholinesterase symptomatic treatment. \ue200cite\ue202turn0search3\ue201 3) Namenda (memantine) prescribing information / label (FDA\u2011approved for moderate to severe AD). \ue200cite\ue202turn0search9\ue201 4) WebMD patient/clinical summary describing uses and mechanism (NMDA antagonist) and dosage forms. \ue200cite\ue202turn0search6\ue201 5) Preclinical/physiology papers describing memantine\u2019s preferential blockade of extrasynaptic NMDA receptors and rationale for tolerability and symptomatic benefit. \ue200cite\ue202turn0search7\ue202turn0search2\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The trial tests memantine (Namenda), an uncompetitive NMDA (glutamate) receptor antagonist that modulates excitatory neurotransmission and reduces excitotoxicity to produce symptomatic cognitive/functional benefit. This mechanism maps to neurotransmitter receptor modulation rather than to amyloid, tau, or other disease-modifying pathways, so CADRO category D is the best fit.",
+        "Act: Key extracted details \u2014 intervention: memantine (oral small molecule, trade name Namenda); comparator: placebo; intended effect: improve functional communication (symptomatic/cognitive enhancer). Mechanism of action: NMDA (glutamate) receptor antagonism (modulation of neurotransmission/excitotoxicity). Based on that mechanism, assign 'D) Neurotransmitter Receptors'.",
+        "Reflect: Confirming the classification \u2014 memantine targets glutamatergic NMDA receptors (a neurotransmitter receptor). It is a symptomatic cognitive enhancer, not directed at core AD proteinopathies (amyloid or tau) or other CADRO categories, and the trial description indicates a symptomatic outcome. Therefore 'D) Neurotransmitter Receptors' is appropriate and not 'R) Multi-target' or 'T) Other'.",
+        "Web search results (as provided): 1) Review describing memantine as a partial/uncompetitive NMDA receptor antagonist and symptomatic treatment in AD. 2) ALZFORUM summary of memantine pharmacology and its role as a non\u2011cholinesterase symptomatic treatment. 3) Namenda (memantine) prescribing information / FDA label (approved for moderate to severe AD). 4) WebMD patient/clinical summary describing uses and mechanism (NMDA antagonist) and dosage forms. 5) Preclinical/physiology papers describing memantine\u2019s preferential blockade of extrasynaptic NMDA receptors and rationale for tolerability and symptomatic benefit."
+    ]
+}

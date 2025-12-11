@@ -1,0 +1,975 @@
+{
+    "nct_id": "NCT04457973",
+    "title": "Home-based Transcranial Direct Current Stimulation (tDCS) for Pain Management in Persons With Alzheimer's Disease and Related Dementias",
+    "status": "COMPLETED",
+    "last_update_time": "2023-09-20",
+    "description_brief": "The purpose of this project is to evaluate the preliminary effects of home-based M1-SO applied tDCS (that is, tDCS with the anode over the primary motor cortex and the cathode over the contralateral supraorbital area) on clinical pain in persons with early-stage Alzheimer's disease and Related Dementias (ADRD), to evaluate the preliminary effects of home-based M1-SO applied tDCS on pain-related cortical response in persons with early-stage ADRD, and to evaluate the feasibility and acceptability of home-based M1-SO applied tDCS for pain management in persons with early-stage AD.",
+    "description_detailed": "N/A",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Active tDCS",
+                    "description": "Active tDCS: tDCS with a constant current intensity of 2 milliampere (mA) will be applied for 20 minutes per session daily for 5 days via the Soterix 1x1 tDCS mini-CT Stimulator device with headgear and 5x7 cm saline-soaked surface sponge electrodes."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Sham tDCS",
+                    "description": "Sham tDCS: The electrodes will be placed in the same positions as for active stimulation, but the stimulator will only deliver 2 mA current for 30 seconds out of 20 minutes per session daily for 5 days via the Soterix 1x1 tDCS mini-CT Stimulator device with headgear and 5x7 cm saline-soaked surface sponge electrodes."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "20"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "20"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "20"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "20"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Active tDCS",
+                    "description": "2mA current is applied for 20 minutes."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Sham tDCS",
+                    "description": "2mA current is applied for 30 seconds."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "20"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "20"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "40"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "74.10",
+                                            "spread": "6.20"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "71.90",
+                                            "spread": "8.97"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "73",
+                                            "spread": "7.83"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "28"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "39"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "37"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Pain as Assessed by the Mobilization-Observation-Behavior-Intensity-Dementia (MOBID-2) Scale",
+                    "description": "Mobilization-Observation-Behavior-Intensity-Dementia (MOBID-2) is a 10 question scale, each question rated from 0-10. The total score ranges between 0-100 with a higher number indicating a worse outcome. The change in total score between the baseline (day 1) and the end of intervention (day 5) is reported.",
+                    "populationDescription": "Comparison of pain intensity changes between two groups at 5 days from baseline",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "baseline (day 1), end of intervention (day 5)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Active tDCS",
+                            "description": "2mA current is applied for 20 minutes."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham tDCS",
+                            "description": "2mA current is applied for 30 seconds."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "20"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-2.70",
+                                            "spread": "2.39"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-.40",
+                                            "spread": "1.67"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Clinical Pain as Assessed by a Numerical Rating Scale (NRS)",
+                    "description": "Numeric Rating Scale (NRS) total score ranges from 0 (no pain) to 100 (most intense pain imaginable). The change in total score between the baseline (day 1) and the end of intervention (day 5) is reported.",
+                    "populationDescription": "Comparison of pain intensity changes between two groups at 5 days from baseline",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "baseline (day 1), end of intervention (day 5)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Active tDCS",
+                            "description": "2mA current is applied for 20 minutes."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham tDCS",
+                            "description": "2mA current is applied for 30 seconds."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "20"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-13.55",
+                                            "spread": "14.90"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-3.30",
+                                            "spread": "14.81"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Behavioral and Psychological Symptoms of Dementia (BPSD) as Measured by the Cohen-Mansfield Agitation Inventory (CMAI)",
+                    "description": "Cohen-Mansfield Agitation Inventory (CMAI) is a 29 question scale, each question measured from 1-7. Total score ranges from 29-203 with a higher score indicating a worse outcome. The change in total score between the baseline (day 1) and the end of intervention (day 5) is reported.",
+                    "populationDescription": "Comparison of CMAI score changes between two groups at 5 days from baseline",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "baseline (day 1), end of intervention (day 5)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Active tDCS",
+                            "description": "2mA current is applied for 20 minutes."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham tDCS",
+                            "description": "2mA current is applied for 30 seconds."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "20"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-2.35",
+                                            "spread": "5.99"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2.95",
+                                            "spread": "5.24"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Behavioral and Psychological Symptoms as Assessed by Neuropsychiatric Inventory (NPI)",
+                    "description": "Neuropsychiatric Inventory (NPI) total score ranges from 0-144, with a higher score indicating greater symptoms. The change in total score between the baseline (day 1) and the end of intervention (day 5) is reported.",
+                    "populationDescription": "Comparison of NPI score changes between two groups at 5 days from baseline",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "baseline (day 1), end of intervention (day 5)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Active tDCS",
+                            "description": "2mA current is applied for 20 minutes."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham tDCS",
+                            "description": "2mA current is applied for 30 seconds."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "20"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-2.9",
+                                            "spread": "15.08"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2.30",
+                                            "spread": "11.59"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Pain Related Cortical Response Using a Continuous Wave, Multichannel Functional Near-infrared Spectroscopy (fNIRS) Imaging System",
+                    "description": "Pain-related cortical response will be measured during thermal pain stimulation using a continuous-wave, multichannel fNIRS imaging system (LIGHTNIRS, Shimadzu, Kyoto, Japan) composed of 8 source and 8 detector channels.\n\nfNIRS signals between each source-to-detector pair are analyzed using a general linear model, Y = X\\*Beta + E , to test for statistical differences between the baseline (day 1) and the end of intervention (day 5).\n\nY is the measured fNIRS signal, X is an array encoding the expected/hypothetical response, E is an error term, and Beta is interpreted as the strength/amplitude of the functional activation.\n\nGreater absolute Beta values denote that the change in cortical response between two sessions is greater.\n\nThe calculated Beta values are expressed in arbitrary units.",
+                    "populationDescription": "Comparison of Beta value changes between two groups at 5 days from baseline.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Beta value",
+                    "timeFrame": "baseline (day 1), end of intervention (day 5)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Active tDCS",
+                            "description": "2mA current is applied for 20 minutes."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham tDCS",
+                            "description": "2mA current is applied for 30 seconds."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "20"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "source 1, detector 1",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-6.39"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-5.30"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "source 2, detector 2",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.31"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-4.64"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "source 3, detector 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-3.60"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3.13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "source 4, detector 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-8.35"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-3.46"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "source 5, detector 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.03"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-1.54"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "source 6, detector 6",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.99"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-3.49"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "source 7, detector 7",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.61"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.97"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "source 8, detector 8",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3.88"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "8.33"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Acceptability as Measured by the tDCs Experience Questionnaire",
+                    "description": "The tDCS experience questionnaire contains 10 questions based on a scale from 0-10, 0 being strongly disagree and 10 being strongly agree. Higher scores indicating greater acceptability for 7 questions and lower scores indicating greater acceptability for 3 reversed questions. Total score ranges from 0-100 with a most desirable score of a 70.",
+                    "populationDescription": "Comparison of total score of tDCS experience questionnaire between two groups at 5 days from baseline.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "end of intervention (day 5)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Active tDCS",
+                            "description": "2mA current is applied for 20 minutes."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham tDCS",
+                            "description": "2mA current is applied for 30 seconds."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "20"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "62.05",
+                                            "spread": "8.76"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "67.95",
+                                            "spread": "11.06"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Patient Satisfaction as Measured by the Client Satisfaction Questionnaire (CSQ)",
+                    "description": "Client Satisfaction Questionnaire (CSQ) consists of 8 questions, each is rated between 1-4. The total score ranges from 8-32 with a higher score indicating a higher satisfaction.",
+                    "populationDescription": "Comparison of total score of CSQ between two groups at 5 days from baseline.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "end of intervention (day 5)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Active tDCS",
+                            "description": "2mA current is applied for 20 minutes."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham tDCS",
+                            "description": "2mA current is applied for 30 seconds."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "20"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "28.75",
+                                            "spread": "2.92"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "28.55",
+                                            "spread": "3.14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "1 week, from the first day of tDCS session to the last day.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Active tDCS",
+                    "description": "Active tDCS: tDCS with a constant current intensity of 2 milliampere (mA) will be applied for 20 minutes per session daily for 5 days via the Soterix 1x1 tDCS mini-CT Stimulator device with headgear and 5x7 cm saline-soaked surface sponge electrodes.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 20,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 20,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 20
+                },
+                {
+                    "id": "EG001",
+                    "title": "Sham tDCS",
+                    "description": "Sham tDCS: The electrodes will be placed in the same positions as for active stimulation, but the stimulator will only deliver 2 mA current for 30 seconds.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 20,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 20,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 20
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Dr. Hyochol Ahn",
+                "organization": "University of Arizona",
+                "email": "hbrian@arizona.edu",
+                "phone": "520-626-1769"
+            }
+        }
+    },
+    "target_category": "neuropsychiatric symptom improvement",
+    "drug": [
+        "Active tDCS (M1\u2011SO montage; anode over primary motor cortex, cathode over contralateral supraorbital area)"
+    ],
+    "placebo": [
+        "Sham tDCS"
+    ],
+    "explanation_target": [
+        "Reason: The intervention is transcranial direct current stimulation (tDCS) delivered with an M1\u2011SO montage (anode over primary motor cortex, cathode over contralateral supraorbital area) intended to reduce clinical pain and modulate pain\u2011related cortical responses in persons with early\u2011stage Alzheimer\u2019s disease and related dementias (ADRD). This is a neuromodulation device intervention for symptom (pain) management rather than a biologic or small\u2011molecule drug, and it is not primarily described as a cognitive\u2011enhancing intervention in this trial. \ue200cite\ue202turn0search0\ue202turn0search2\ue201",
+        "Act: Key extracted details from the trial description \u2014 intervention: home\u2011based M1\u2011SO tDCS (active) versus sham tDCS (placebo); target symptom: clinical pain and pain\u2011related cortical responses in early\u2011stage ADRD; purpose includes feasibility/acceptability for home use. The trial is registered/described as \"Home\u2011based Transcranial Direct Current Stimulation (tDCS) for Pain Management in Persons With Alzheimer's Disease and Related Dementias\" (NCT04457973) and has published pilot results demonstrating feasibility and preliminary pain reduction. \ue200cite\ue202turn0search0\ue202turn0search2\ue202turn0search1\ue201",
+        "Reflect: Classification rationale \u2014 of the four provided categories, the intervention is not a biologic (no antibody/vaccine), not a small molecule drug, and although tDCS can be studied for cognitive enhancement in other contexts, the stated primary outcome here is pain reduction (symptom management). Therefore the best fit is \"neuropsychiatric symptom improvement\" (interpreted broadly as symptom-management interventions). Note: pain is not a classic neuropsychiatric behavior like agitation/depression, but it is a clinical symptom the trial aims to alleviate; none of the other categories match better. Supporting literature shows M1\u2011SO tDCS has been used to reduce pain in older adults and other pain conditions and that home/remote tDCS montages and headgear for M1\u2011SO exist. \ue200cite\ue202turn0search7\ue202turn0search3\ue202turn0search8\ue201",
+        "Web search results (sources used):",
+        "- Trial description / registration: \"Home\u2011based Transcranial Direct Current Stimulation for Pain Management in Persons With Alzheimer's Disease and Related Dementias\" (MedPath / trial summary; NCT04457973). \ue200cite\ue202turn0search0\ue201",
+        "- Pilot randomized sham\u2011controlled trial reporting feasibility, acceptability, and preliminary efficacy of home\u2011based tDCS on pain in older adults with ADRD (J Clin Med / PubMed). \ue200cite\ue202turn0search1\ue202turn0search2\ue201",
+        "- Prior studies showing M1\u2011SO montage can reduce clinical pain (knee osteoarthritis, others). \ue200cite\ue202turn0search7\ue202turn0search3\ue201",
+        "- Technical/implementation reference: M1\u2011SO headgear and home\u2011use approaches for tDCS. \ue200cite\ue202turn0search8\ue201"
+    ],
+    "agent_type": "T) Other",
+    "explanation_agent": [
+        "Reason: The intervention is transcranial direct current stimulation (home\u2011based M1\u2011SO tDCS: anode over primary motor cortex, cathode over contralateral supraorbital area) \u2014 a neuromodulation device intended to reduce clinical pain in people with early\u2011stage ADRD. This is a device/neuromodulation symptom\u2011management approach rather than a biologic, small molecule, or pathway\u2011directed pharmacologic agent, so no CADRO biological drug target is specified. \ue200cite\ue202turn0search0\ue202turn0search2\ue201",
+        "Act: Key extracted details \u2014 randomized, active tDCS versus sham tDCS; primary target symptom: clinical pain (measured by NRS and MOBID\u20112); aims include feasibility/acceptability for home use; trial registration NCT04457973 and a published pilot randomized sham\u2011controlled trial reported feasibility and preliminary pain reductions. These factual points are supported by the trial registry and the published pilot study. \ue200cite\ue202turn0search0\ue202turn0search3\ue202turn0search2\ue201",
+        "Reflect: CADRO categories list biological/pathway targets (e.g., amyloid, tau, inflammation, synaptic plasticity). A neuromodulation device intervention that modulates cortical excitability to relieve pain does not map cleanly to any single CADRO biological target. While one could argue downstream effects on cortical networks or synaptic plasticity (CADRO M) might occur, the trial\u2019s primary focus is device\u2011based symptom management (pain) rather than a defined molecular/biologic target. Therefore the most appropriate CADRO classification is 'T) Other'. For context, M1\u2011targeted tDCS has been used to modulate pain in prior studies, supporting the intervention\u2019s mechanistic intent to change cortical excitability rather than act on a molecular target. \ue200cite\ue202turn0search4\ue202turn0search2\ue201",
+        "Output: Assigned category \u2014 T) Other. Explanation: The study tests a neuromodulation device (tDCS) for pain symptom management in ADRD and does not specify a molecular/biologic drug target that maps to CADRO A\u2013Q or R. \ue200cite\ue202turn0search0\ue202turn0search3\ue201",
+        "Web search results / sources used: 1) Trial registry summary: \"Home\u2011based Transcranial Direct Current Stimulation for Pain Management in Persons With Alzheimer's Disease and Related Dementias\" (NCT04457973 / MedPath). \ue200cite\ue202turn0search0\ue201 2) Published pilot randomized sham\u2011controlled trial: \"Feasibility, Acceptability, and Efficacy of Home\u2011Based Transcranial Direct Current Stimulation on Pain in Older Adults with Alzheimer\u2019s Disease and Related Dementias\" (J Clin Med / MDPI). \ue200cite\ue202turn0search2\ue201 3) PubMed entry / abstract for the same pilot randomized sham\u2011controlled trial summarizing results (PubMed). \ue200cite\ue202turn0search3\ue201 4) Representative study on M1 tDCS effects on pain thresholds and age effects (supporting mechanistic rationale for M1 stimulation to modulate pain). \ue200cite\ue202turn0search4\ue201"
+    ]
+}

@@ -1,0 +1,1093 @@
+{
+    "nct_id": "NCT01354444",
+    "title": "Pilot Trial of Carvedilol in Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2018-01-08",
+    "description_brief": "This is a 6-month pilot randomized double-blind placebo-controlled trial of carvedilol, with the primary objective being to determine whether carvedilol treatment is associated with improvement in Alzheimer's Disease (AD) as compared to placebo treatment. Secondary objectives are to monitor changes in cerebrospinal fluid amyloid levels and whether this dose will be safe and well-tolerated in AD patients. Clinical assessments will be performed at baseline, 3 months, and 6 months, while cerebrospinal fluid and blood samples will be obtained at baseline and 6 months.",
+    "description_detailed": "The purpose of the study is to measure decline in episodic memory in participants with early AD taking carvedilol compared to placebo treatment as evidenced by the Hopkins Verbal Learning Test (HVLT). cerebrospinal fluid levels of A\u03b2 oligomers in early AD, will be measured in participants receiving carvedilol treatment when compared to placebo treatment. Adverse effects will be monitored in participants receiving carvedilol when compared to placebo.\n\nTo assess adverse events, routine chemistry and hematology studies, vital signs, and electrocardiographic parameters before and after 6 months randomized placebo-controlled double-blind treatment with carvedilol at a target dose of 25 mg daily, comparing 25 early AD participants taking carvedilol vs. 25 early AD participants taking placebo.",
+    "phase": [
+        "PHASE4"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Carvedilol",
+                    "description": "Carvedilol is a is a beta-blocker. Beta-blockers are generally used to reduce the workload on the heart and help it to beat more regularly.\n\nCarvedilol: target dose of 25 mg daily which is half the maximum dose used in clinical practice"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "Non active substance\n\nPlacebo: a pill that will look like the active drug but will not contain any carvedilol"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "14"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "15"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "6"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "11"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "8"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Carvedilol",
+                    "description": "Carvedilol is a is a beta-blocker. Beta-blockers are generally used to reduce the workload on the heart and help it to beat more regularly.\n\nCarvedilol: target dose of 25 mg daily which is half the maximum dose used in clinical practice"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo",
+                    "description": "Non active substance\n\nPlacebo: a pill that will look like the active drug but will not contain any carvedilol"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "14"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "15"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "29"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "11"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "16"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "25"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Hopkins Verbal Learning Test (HVLT) Scores at Baseline, 3, and 6 Months",
+                    "description": "The investigators measured episodic memory (as evidence by the Hopkins Verbal Learning Test (HVLT)) before and after 6 months randomized placebo-controlled double-blind treatment with carvedilol at a target dose of 25 mg daily. Changes in HVLT Immediate and Delayed Recall score in 14 Alzheimer's Disease (AD) participants taking carvedilol vs. 15 AD participants taking placebo were compared. HVLT test score ranges are as follows: immediate recall (0-24) delayed recall (0-12). Higher scores indicate better episodic memory recall.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Scores on a scale",
+                    "timeFrame": "Baseline, 3 months, and 6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "HVLT Score in Placebo Group",
+                            "description": "Descriptive statistics for immediate recall in the Hopkins Verbal Learning Test in the placebo group"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "HVLT Score in Treatment Group",
+                            "description": "Descriptive statistics for immediate recall in the Hopkins Verbal Learning Test in the treatment group"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "15"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "14"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "HVLT score at Baseline (immediate recall)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "13",
+                                            "spread": "4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "12",
+                                            "spread": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "HVLT score at 3 months (immediate recall)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12",
+                                            "spread": "5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "13",
+                                            "spread": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "HVLT score at 6 months (immediate recall)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12",
+                                            "spread": "5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "13",
+                                            "spread": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "HVLT score at Baseline (delayed recall)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1",
+                                            "spread": "2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1",
+                                            "spread": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "HVLT score at 3 months (delayed recall)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1",
+                                            "spread": "2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1",
+                                            "spread": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "HVLT score at 6 months (delayed recall)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1",
+                                            "spread": "2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0",
+                                            "spread": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "This analysis compares immediate recall before and after 6 months between the treatment and placebo group.",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.565",
+                            "statisticalMethod": "Regression, Linear",
+                            "paramType": "Coefficient",
+                            "paramValue": "1.48",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-3.796",
+                            "ciUpperLimit": "6.761"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Effect of Carvedilol Treatment in Cerebrospinal Fluid (CSF) Levels of Amyloid-beta Oligomers",
+                    "description": "The investigators will measure CSF Abeta oligomer levels before and after 6 months randomized placebo-controlled double-blind treatment with carvedilol at a target dose of 25 mg daily, comparing the change in levels in 6 AD participants taking carvedilol vs. 10 AD participants taking placebo. These 16 participants had both baseline and 6 month CSF collected (of the entire study population). CSF was collected at the baseline visit and 6 months later.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "pg/mL",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Carvedilol",
+                            "description": "Carvedilol is a is a beta-blocker. Beta-blockers are generally used to reduce the workload on the heart and help it to beat more regularly.\n\nCarvedilol: target dose of 25 mg daily which is half the maximum dose used in clinical practice"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Non active substance\n\nPlacebo: a pill that will look like the active drug but will not contain any carvedilol"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "6"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline Tau (pg/mL)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "169.476",
+                                            "spread": "93.931"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "169.484",
+                                            "spread": "48.386"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Baseline ABeta42 (pg/mL)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "396.985",
+                                            "spread": "212.411"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "379.406",
+                                            "spread": "100.892"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Baseline P tau (pg/mL)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "42.666",
+                                            "spread": "10.176"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "66.133",
+                                            "spread": "24.503"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Six month Tau (pg/mL)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "222.461",
+                                            "spread": "139.839"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "171.757",
+                                            "spread": "53.72"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Six month ABeta42 (pg/mL)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "499.325",
+                                            "spread": "174.308"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "361.563",
+                                            "spread": "89.044"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Six month P tau (pg/mL)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "56.003",
+                                            "spread": "23.984"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "64.331",
+                                            "spread": "25.766"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "This analysis compares the change in total Tau between the treatment and placebo group from baseline to 6 months later.",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.481",
+                            "statisticalMethod": "Rank sum test"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "This analysis compares the change in Abeta42 between the treatment and placebo group from baseline to 6 months later.",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.0562",
+                            "statisticalMethod": "Rank sum test"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "This analysis compares the change in p-tau between the treatment and placebo group from baseline to 6 months later.",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.314",
+                            "statisticalMethod": "Rank sum test"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "This analysis compares the change in oligomeric Abeta between the treatment and placebo group from baseline to 6 months later.",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.438",
+                            "statisticalMethod": "Rank sum test"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Effect of Carvedilol Treatment in Cerebrospinal Fluid (CSF) Levels of Amyloid-beta Oligomers",
+                    "description": "The investigators will measure CSF Abeta oligomer levels before and after 6 months randomized placebo-controlled double-blind treatment with carvedilol at a target dose of 25 mg daily, comparing the change in levels in 6 AD participants taking carvedilol vs. 10 AD participants taking placebo. These 16 participants had both baseline and 6 month CSF collected (of the entire study population).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ng/mL",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Carvedilol",
+                            "description": "Carvedilol is a is a beta-blocker. Beta-blockers are generally used to reduce the workload on the heart and help it to beat more regularly.\n\nCarvedilol: target dose of 25 mg daily which is half the maximum dose used in clinical practice"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Non active substance\n\nPlacebo: a pill that will look like the active drug but will not contain any carvedilol"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "6"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline Oligomeric ABeta (ng/mL)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3.83",
+                                            "spread": "3.314"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.129",
+                                            "spread": "0.034"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Six month oligomeric ABeta (ng/mL)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3.895",
+                                            "spread": "3.376"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.117",
+                                            "spread": "0.101"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "description": "Adverse Events are presented without regard to the specific Adverse Event Term.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Carvedilol",
+                    "description": "Carvedilol is a is a beta-blocker. Beta-blockers are generally used to reduce the workload on the heart and help it to beat more regularly.\n\nCarvedilol: target dose of 25 mg daily which is half the maximum dose used in clinical practice",
+                    "seriousNumAffected": 2,
+                    "seriousNumAtRisk": 14,
+                    "otherNumAffected": 12,
+                    "otherNumAtRisk": 14
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Non active substance\n\nPlacebo: a pill that will look like the active drug but will not contain any carvedilol",
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 15,
+                    "otherNumAffected": 12,
+                    "otherNumAtRisk": 15
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "HEME",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "GI",
+                    "organSystem": "Gastrointestinal disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 14
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Neurologic",
+                    "organSystem": "Nervous system disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "HEME",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Cardiac",
+                    "organSystem": "Cardiac disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 10,
+                            "numAffected": 10,
+                            "numAtRisk": 14
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 10,
+                            "numAffected": 10,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Systemic",
+                    "organSystem": "Nervous system disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 14
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Dermatologic",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 14
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Psychiatric",
+                    "organSystem": "Psychiatric disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 5,
+                            "numAffected": 5,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "GI",
+                    "organSystem": "Gastrointestinal disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 14
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Neurologic",
+                    "organSystem": "Nervous system disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 14
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Arthritis",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 14
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Infectious disease",
+                    "organSystem": "Infections and infestations",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 15
+                        }
+                    ]
+                },
+                {
+                    "term": "Oncology",
+                    "organSystem": "Immune system disorders",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "Paul Rosenberg, MD",
+                "organization": "Johns Hopkins University",
+                "email": "prosenb9@jhmi.edu",
+                "phone": "410-550-9883"
+            }
+        }
+    },
+    "target_category": "Disease-targeted small molecule",
+    "drug": [
+        "Carvedilol"
+    ],
+    "placebo": [
+        "Placebo"
+    ],
+    "explanation_target": [
+        "Reason: The intervention is carvedilol, a small-molecule, nonselective beta-adrenergic blocker (with additional alpha-1 vasodilatory and other actions), not a biologic. \ue200cite\ue202turn0search6\ue202turn0search7\ue201",
+        "Act (extracted details): The trial is a 6-month randomized double-blind placebo-controlled pilot testing carvedilol vs placebo in early AD, with primary clinical cognitive endpoints (HVLT/episodic memory) and secondary measurement of cerebrospinal fluid (CSF) A\u03b2 oligomers/amyloid levels (NCT01354444). This shows the study is explicitly evaluating potential effects on AD pathology (amyloid) in addition to cognition. \ue200cite\ue202turn0search1\ue202turn0search2\ue201",
+        "Supporting evidence that carvedilol has been hypothesized to affect AD pathology: Preclinical work reported carvedilol reduced brain oligomeric A\u03b2 and improved cognition in AD mouse models, providing a rationale for measuring CSF amyloid in the clinical trial. \ue200cite\ue202turn0search9\ue202turn0search0\ue201",
+        "Classification decision: Given carvedilol is a small-molecule drug and the trial specifically measures CSF amyloid/oligomers (i.e., testing a potential disease-modifying effect on AD pathology), the trial best fits the 'disease-targeted small molecule' category rather than 'cognitive enhancer' or 'neuropsychiatric symptom improvement.'",
+        "Reflect: Although carvedilol is primarily an approved cardiovascular agent, the trial\u2019s design and endpoints indicate a hypothesis that carvedilol may alter Alzheimer\u2019s pathology (amyloid oligomers). If one emphasized only its usual clinical indication (beta-blocker), one might argue it is not an AD-targeted agent by original intent; however, the presence of pathology-focused secondary outcomes and supporting preclinical data justify classifying this specific AD trial as testing a disease-targeted small molecule. \ue200cite\ue202turn0search9\ue202turn0search1\ue201"
+    ],
+    "agent_type": "A) Amyloid beta",
+    "explanation_agent": [
+        "Reason: The intervention is carvedilol (a small\u2011molecule, nonselective \u03b2\u2011adrenergic blocker with \u03b11 vasodilatory and other actions), but the trial was designed to test potential disease\u2011modifying effects on Alzheimer's pathology by measuring CSF A\u03b2 (including oligomers) in addition to cognition. \ue200cite\ue202turn0search2\ue202turn3search0\ue201",
+        "Act: Extracted details \u2014 drug: carvedilol; trial design: 6\u2011month randomized double\u2011blind placebo\u2011controlled pilot in early AD with primary cognitive endpoints (HVLT) and a secondary outcome of CSF A\u03b2/oligomers (NCT01354444). Preclinical studies reported that carvedilol reduced brain oligomeric A\u03b2 and improved cognition in AD mouse models, providing the mechanistic rationale for the amyloid outcome measurement. Based on the explicit amyloid/oligomer endpoints and supporting preclinical evidence, the most specific CADRO category is A) Amyloid beta. \ue200cite\ue202turn3search0\ue202turn1search1\ue201",
+        "Reflect: Although carvedilol\u2019s canonical pharmacology is adrenergic blockade (and it has other actions), CADRO classification is guided by the biological target(s) evaluated in the AD trial. Because this trial explicitly tested effects on amyloid/oligomers (a primary disease pathology) and was framed as a disease\u2011targeted small\u2011molecule trial, classifying it under A) Amyloid beta is the best fit. If one focused only on the drug\u2019s usual cardiovascular target (adrenergic receptors) and ignored the trial\u2019s AD pathology endpoints, an alternative classification (e.g., Other) could be argued, but the trial\u2019s design and preclinical rationale justify A). \ue200cite\ue202turn0search2\ue202turn1search1\ue201",
+        "Web sources (supporting evidence cited above): clinical trial record describing design and CSF A\u03b2/oligomer endpoints (NCT01354444). \ue200cite\ue202turn3search0\ue201; preclinical paper reporting carvedilol reduced brain oligomeric A\u03b2 and improved cognition in AD mouse models. \ue200cite\ue202turn1search1\ue201; carvedilol pharmacology (nonselective \u03b2\u2011blocker with \u03b11 activity and additional signaling properties). \ue200cite\ue202turn0search2\ue201"
+    ]
+}

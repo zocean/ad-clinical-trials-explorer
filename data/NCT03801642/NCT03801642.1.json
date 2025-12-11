@@ -1,0 +1,1093 @@
+{
+    "nct_id": "NCT03801642",
+    "title": "Randomized Controlled Pilot Trial Of Dapagliflozin In Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2024-05-20",
+    "description_brief": "This is a pilot randomized controlled trial in individuals with probable Alzheimer's disease testing the effects of 10 mg dapagliflozin, taken daily for 12 weeks, on cerebral n-acetyl aspartate (NAA) levels using magnetic resonance spectroscopy (MRS). The investigators will also examine the safety and tolerability of dapagliflozin and explore the effects on systemic NAA levels in blood and urine, cerebral metabolism (fluorodeoxyglucose \\[FDG\\] PET), systemic metabolic biomarkers that indicate and quantify secondary metabolic effects, and cognitive performance.",
+    "description_detailed": "This is a double-blind, randomized, placebo-controlled, parallel group, 12-week study performed at a single site (University of Kansas Alzheimer's Disease Center) to investigate the effect of dapagliflozin in participants with probable AD (MMSE 15-26 inclusive). A total of 48 participants will be enrolled with 2:1 randomization to 10mg dapagliflozin once daily (n=32) for 12 weeks vs matching placebo (n=16).\n\nThe primary objective of the study is to assess the effect of 12 weeks of 10mg dapagliflozin once daily on cerebral NAA (a proxy measure of mitochondrial mass) in participants with AD.\n\nProcedures will include phlebotomy, urine collection, MRI/MRS, FDG-PET, cognitive testing, DEXA scanning, and indirect calorimetry at baseline and 12 weeks to assess these outcomes:\n\n* N Acetyl-Aspartate (NAA): Cerebral NAA (as measured by MRS) and Systemic NAA levels (in blood and urine)\n* Cerebral metabolism (by FDG PET)\n* Systemic metabolic effects: Lipids (total cholesterol, LDL, HDL), Plasma beta-hydroxybutyrate, Insulin resistance (Hemoglobin A1c, glucose and insulin during tolerance testing), Catabolic/Anabolic state \\[activated AKT and MTOR\\], Mitochondrial function measures \\[platelet cytochrome oxidase and citrate synthase\\], Inflammatory mechanisms \\[MCP-1, eotaxin, TNF alpha, CRP\\], Body composition (DEXA scanning for fat and lean mass), Resting metabolic rate (indirect calorimetry),\n* Cognitive effects will be assessed at baseline and week 12 using the Alzheimer's Disease Assessment Scale-Cognitive Subscale 14 (ADAS-Cog14) and individual tests of Logical Memory I and II, Trailmaking A and B, and Stroop Word Color Test.\n* 12 participants will be enrolled in an optional MRI/MRS sub-study with repeat MRI/MRS prior to randomization to assess scan-rescan reliability of the NAA measure.\n\nSafety and tolerability of dapagliflozin (10mg daily) will be monitored throughout the study and formally at every study visit to assess the incidence and severity of AEs and the rate of discontinuations due to AEs. Safety assessments will include measuring vital signs and body weight, safety labs (including a comprehensive metabolic panel \\[CMP\\] and complete blood count \\[CBC\\] with differential) and physical and neurological examinations at screening and at end of treatment (EOT).",
+    "phase": [
+        "PHASE1",
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Dapagliflozin",
+                    "description": "10 mg dapagliflozin oral tablet taken once daily for 12 weeks\n\nDapagliflozin: 10 mg oral tablets taken once daily for 12 weeks"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Matching Placebo",
+                    "description": "Placebo oral tablet taken once daily for 12 weeks\n\nPlacebo: Placebo tablet (matched in size and color to active tablet) taken once daily for 12 weeks"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "30"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "16"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "30"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "16"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Dapagliflozin",
+                    "description": "10 mg dapagliflozin oral tablet taken once daily for 12 weeks\n\nDapagliflozin: 10 mg oral tablets taken once daily for 12 weeks"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Matching Placebo",
+                    "description": "Placebo oral tablet taken once daily for 12 weeks\n\nPlacebo: Placebo tablet (matched in size and color to active tablet) taken once daily for 12 weeks"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "30"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "16"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "46"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "69.8",
+                                            "spread": "7.9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "71.8",
+                                            "spread": "8.1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "71.1",
+                                            "spread": "8.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "16"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "24"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "37"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "28"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "44"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Ratio of Cerebral N Acetyl-Aspartate (NAA) / Cerebral Creatine",
+                    "description": "Estimated mean change from baseline in the ratio of cerebral NAA/ cerebral Creatine as measured by MRI Spectroscopy.",
+                    "populationDescription": "All participants completing MRI spectroscopy at baseline and week-12, where data for both scans passed the data quality criteria.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Ratio",
+                    "timeFrame": "12 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Dapagliflozin",
+                            "description": "10 mg dapagliflozin oral tablet taken once daily for 12 weeks\n\nDapagliflozin: 10 mg oral tablets taken once daily for 12 weeks"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Matching Placebo",
+                            "description": "Placebo oral tablet taken once daily for 12 weeks\n\nPlacebo: Placebo tablet (matched in size and color to active tablet) taken once daily for 12 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "15"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.49",
+                                            "spread": "0.11"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.42",
+                                            "spread": "0.09"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Systemic NAA Levels",
+                    "description": "NAA concentration levels in blood and urine using UPLC-MS/MS method",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "FDG PET Metabolism (Standard Uptake Value Ratio)",
+                    "description": "FDG PET measures reflecting cerebral metabolism standardized to the uptake value of the cerebellum and standardized uptake value ratios (SUVR) will be calculated from native-space ROIs.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Total Cholesterol",
+                    "description": "Total cholesterol level",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "LDL Cholesterol",
+                    "description": "LDL cholesterol level",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "HDL Cholesterol",
+                    "description": "HDL cholesterol level",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Plasma Beta-hydroxybutyrate",
+                    "description": "Plasma beta-hydroxybuteryate levels (ketones)",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Hemoglobin A1C",
+                    "description": "Hemoglobin A1C",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Glucose Area Under the Curve",
+                    "description": "Glucose area under the curve will be calculated based on glucose levels during a 120 minute oral glucose tolerance test.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Insulin Area Under the Curve",
+                    "description": "Insulin area under the curve will be calculated based on insulin levels during a 120 minute oral glucose tolerance test.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Activated AKT Levels",
+                    "description": "Activated AKT will be measured in lymphocytes immunochemically.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "MTOR Phosphorylation",
+                    "description": "MTOR phosphorylation will be measured in lymphocytes",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Platelet Cytochrome Oxidase Activity",
+                    "description": "Cytochrome Oxidase Vmax activity is determined as a pseudo first order-rate constant (sec-1/mg protein) by measuring the oxidation of reduced cytochrome c at 550 nm",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Monocyte Chemotactic Protein 1 (MCP-1)",
+                    "description": "MCP-1, a measure of inflammation, will be measured in platelet free plasma using ELISA.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Eotaxin-1",
+                    "description": "Eotaxin-1, a measure of inflammation, will be measured in platelet free plasma using ELISA.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Tumor Necrosis Factor (TNF) - Alpha",
+                    "description": "TNF-alpha, a measure of inflammation, will be measured in platelet free plasma using ELISA.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "C-Reactive Protein (CRP)",
+                    "description": "CRP, a measure of inflammation, will be measured in platelet free plasma using ELISA.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Total Fat Mass",
+                    "description": "Body composition will be assessed using dual energy x-ray absorptiometry (GE Lunar iDEXA) to determine fat-free mass, fat mass, and percent body fat at baseline, and week 12",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Total Lean Mass",
+                    "description": "Body composition will be assessed using dual energy x-ray absorptiometry (GE Lunar iDEXA) to determine fat-free mass, fat mass, and percent body fat at baseline, and week 12",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Resting Metabolic Rate",
+                    "description": "Resting metabolic rate will be assessed using indirect calorimetry which measures CO2 production and O2 consumption to calculate total energy produced.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "ADAS-Cog 14",
+                    "description": "Cognitive performance as measured by total score on the ADAS-cog 14.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Trailmaking B",
+                    "description": "Cognitive performance as measured by Trailmaking B",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Stroop Word Color Test",
+                    "description": "Cognitive performance on the Stroop Word Color test.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Logical Memory II",
+                    "description": "Memory performance as measured by the Logical Memory II test.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "12 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Number of Adverse Events",
+                    "description": "Total number of adverse events considered related to the study medication",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "14 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Number of Discontinuations Due to Adverse Events",
+                    "description": "Number of participants who stop taking the study medication due to adverse events",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "14 weeks",
+                    "denomUnitsSelected": "Participants"
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "Data was collected from week 0 to week 12",
+            "description": "Does not differ",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Dapagliflozin",
+                    "description": "10 mg dapagliflozin oral tablet taken once daily for 12 weeks\n\nDapagliflozin: 10 mg oral tablets taken once daily for 12 weeks",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 30,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 30,
+                    "otherNumAffected": 13,
+                    "otherNumAtRisk": 30
+                },
+                {
+                    "id": "EG001",
+                    "title": "Matching Placebo",
+                    "description": "Placebo oral tablet taken once daily for 12 weeks\n\nPlacebo: Placebo tablet (matched in size and color to active tablet) taken once daily for 12 weeks",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 16,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 16,
+                    "otherNumAffected": 8,
+                    "otherNumAtRisk": 16
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Cold",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Basal Cell Carcinoma Removal",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Discomfort with Urination",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Cough",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "COVID-19",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Ear and labyrinth disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Increase in Frequency of Urination",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Diarrhea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue",
+                    "organSystem": "Endocrine disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Poison Ivy",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Hornet Sting",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Worsening in Anemia",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Sinus Infection",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Bronchitis",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Chest Pain",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Upper Leg Pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Upper Respiratory Infection",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Upset Stomach",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Right Big Toe Pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Dr. Jeffrey Burns",
+                "organization": "University of Kansas Medical Center",
+                "email": "jburns2@kumc.edu",
+                "phone": "913-588-0555"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "Dapagliflozin \u2014 10 mg daily (SGLT2 inhibitor, small-molecule, repurposed metabolic modulator)"
+    ],
+    "placebo": [
+        "Matching placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests dapagliflozin (a pharmacologic agent) in people with probable Alzheimer's disease, with a primary biomarker endpoint of cerebral N\u2011acetylaspartate (NAA) and secondary assessments of cerebral metabolism (FDG\u2011PET), systemic metabolic biomarkers, and cognition. The investigators are therefore probing effects on disease-related brain metabolism/neuronal integrity rather than purely symptomatic behavioral outcomes.",
+        "Act: Dapagliflozin is a small\u2011molecule sodium\u2013glucose cotransporter\u20112 (SGLT2) inhibitor (approved for type 2 diabetes under the brand Farxiga) \u2014 i.e., a non\u2011biologic small molecule that modulates systemic and cerebral metabolism. \ue200cite\ue202turn0search5\ue202turn0search4\ue201 The specific pilot randomized trial description (12 weeks, 10 mg dapagliflozin vs placebo, primary outcome cerebral NAA by MRS, plus FDG\u2011PET and cognitive testing) is documented in the trial registry and the published trial report. \ue200cite\ue202turn0search1\ue202turn0search3\ue201 Because the intervention is a small\u2011molecule metabolic modulator being tested to change disease\u2011relevant brain metabolism/neuronal markers (i.e., potential disease\u2011modifying effect), it best fits the \u201cdisease\u2011targeted small molecule\u201d category (a small molecule intended to alter disease biology).",
+        "Reflect: The drug is not a biologic (so not category 1). Although cognitive tests are included, cognition is exploratory and the primary/biomarker focus is on neuronal/mitochondrial biology (NAA) and metabolism \u2014 this is not primarily a symptomatic cognitive enhancer or a neuropsychiatric symptom trial, so categories 3 and 4 are less fitting. One ambiguity: dapagliflozin does not target canonical AD pathologies such as amyloid or tau directly; it is a metabolic/repurposed agent. Nevertheless, under the provided category definitions (small molecule intended to target disease\u2011relevant biology), \u201cdisease\u2011targeted small molecule\u201d is the most appropriate classification.",
+        "Web search results used: trial description and outcomes (trial registry / MedPath; NCT03801642) and published randomized pilot trial report, and regulatory/mechanism information on dapagliflozin as an SGLT2 inhibitor (FDA info). \ue200cite\ue202turn0search1\ue202turn0search3\ue202turn0search5\ue201"
+    ],
+    "agent_type": "J) Metabolism and Bioenergetics",
+    "explanation_agent": [
+        "Reason: The trial tests dapagliflozin \u2014 a sodium\u2013glucose cotransporter\u20112 (SGLT2) inhibitor \u2014 in people with probable Alzheimer\u2019s disease with a primary biomarker endpoint of cerebral N\u2011acetylaspartate (NAA) and secondary outcomes assessing cerebral metabolism (FDG\u2011PET) and systemic metabolic biomarkers. These details show the intervention is intended to modulate systemic and brain energy/metabolic biology rather than directly targeting amyloid, tau, inflammation, or synaptic receptors. \ue200cite\ue202turn0search0\ue202turn0search1\ue201",
+        "Act: Dapagliflozin is a non\u2011biologic small\u2011molecule SGLT2 inhibitor (Farxiga) that promotes renal glucose excretion and alters systemic metabolism; in this trial it is being repurposed to probe effects on brain metabolism/neuronal integrity (NAA) and related metabolic markers. The mechanism (SGLT2 inhibition/systemic metabolic modulation) and the trial\u2019s metabolic biomarkers map to CADRO category J (Metabolism and Bioenergetics). \ue200cite\ue202turn0search2\ue202turn0search0\ue201",
+        "Reflect: The intervention does not directly target canonical AD proteinopathies (amyloid or tau), inflammation, or synaptic receptors, and the primary outcome is a metabolic/neuronal integrity marker (NAA). Therefore the most specific CADRO match is J) Metabolism and Bioenergetics. This classification is supported by the trial report and registry and by authoritative descriptions of dapagliflozin\u2019s SGLT2\u2011inhibitor mechanism. \ue200cite\ue202turn0search4\ue202turn0search1\ue201",
+        "Web search results used:",
+        "- NCT03801642 \"Dapagliflozin In Alzheimer's Disease\" (trial registry; trial design, primary outcome NAA, FDG\u2011PET, systemic metabolic measures). \ue200cite\ue202turn0search0\ue201",
+        "- PubMed abstract: \"Effects of the SGLT2 inhibitor dapagliflozin in early Alzheimer's disease: A randomized controlled trial\" (trial results, interpretation). \ue200cite\ue202turn0search1\ue201",
+        "- PMC full text of the randomized trial (detailed discussion, outcomes, metabolic findings). \ue200cite\ue202turn0search4\ue201",
+        "- Mechanism / regulatory summary for Farxiga (dapagliflozin) describing SGLT2 inhibition and metabolic effects. \ue200cite\ue202turn0search2\ue201"
+    ]
+}

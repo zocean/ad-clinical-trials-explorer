@@ -1,0 +1,421 @@
+{
+    "nct_id": "NCT01481558",
+    "title": "Effects of Transcranial Direct Current Stimulation on the Apathy of Alzheimer's: a Randomized, Sham-controlled Clinical Trial",
+    "status": "COMPLETED",
+    "last_update_time": "2013-12-09",
+    "description_brief": "This is a phase 2 double-blind, randomized, sham-controlled study to investigate the effects of repeated transcranial direct current stimulation for the treatment of apathy in moderate Alzheimer's Disease in patients selected from an outpatient clinics in S\u00e3o Paulo, Brazil.",
+    "description_detailed": "Forty patients were randomized to receive either active or sham-tDCS over the left dorsolateral prefrontal cortex (DLPFC). Patients received six sessions of intervention during two weeks and were evaluated at baseline, at week one and two, and after one week without intervention. Clinical raters, patients, and caregivers were blinded. The primary outcome was apathy. Global cognition and neuropsychiatric symptoms were examined as secondary outcomes.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "Dates of recruitment: January 2012 to May 2012 Location: Outpatient dementia clinic",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Sham Transcranial Direct Current Stimulation",
+                    "description": "One application of sham tDCS every two days (total: 6 applications)"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Transcranial Direct Current Stimulation",
+                    "description": "One application of tDCS every two days (total: 6 applications)"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "20"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "20"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "20"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "20"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Sham Transcranial Direct Current Stimulation",
+                    "description": "One application of sham tDCS every two days (total: 6 applications)"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Transcranial Direct Current Stimulation",
+                    "description": "One application of tDCS every two days (total: 6 applications)"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "20"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "20"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "40"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "38"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "81.6",
+                                            "spread": "8.0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "79.4",
+                                            "spread": "7.1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "80.5",
+                                            "spread": "7.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "28"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "Brazil",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "40"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Apathy Symptoms",
+                    "description": "Apathy evaluated by Apathy Scale by Starsktein et al, 1992, which consists of 14 items phrased as questions that are to be answered by the caregiver on a four-point Likert scale. The total score range from 0 to 42, with higher scores indicating greater apathy severity. Apathy was assessed at baseline and at the end of the sixth session (second week).",
+                    "populationDescription": "alpha=5%, power=80%, SD estimated at 8 on Apathy scale scores, and correlation coefficient estimated at 0.7, a sample with 20 participants per arm is required to detect a between-group effect size of 0.5.\n\nIntention to treat (ITT) analyses were conducted using the method of last observation carried forward (LOCF) for missing data.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Differences in outcome measure comparing second week to baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Sham Transcranial Direct Current Stimulation",
+                            "description": "One application of sham tDCS every two days (total: 6 applications)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Transcranial Direct Current Stimulation",
+                            "description": "One application of tDCS every two days (total: 6 applications)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "20"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-2.05",
+                                            "lowerLimit": "-3.68",
+                                            "upperLimit": "-0.42"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-1.95",
+                                            "lowerLimit": "-3.49",
+                                            "upperLimit": "-0.41"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.55",
+                            "statisticalMethod": "ANCOVA",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "0.10",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "dispersionType": "STANDARD_DEVIATION",
+                            "dispersionValue": "0.01"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "3",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Sham Transcranial Direct Current Stimulation",
+                    "description": "One application of sham tDCS every two days (total: 6 applications)",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 20,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 20
+                },
+                {
+                    "id": "EG001",
+                    "title": "Transcranial Direct Current Stimulation",
+                    "description": "One application of tDCS every two days (total: 6 applications)",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 20,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 20
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Claudia Kimie Suemoto",
+                "organization": "University of Sao Paulo",
+                "email": "cksuemoto@usp.br",
+                "phone": "551130618249"
+            }
+        }
+    },
+    "target_category": "neuropsychiatric symptom improvement",
+    "drug": [],
+    "placebo": [
+        "sham tDCS"
+    ],
+    "explanation_target": [
+        "Reason: The intervention is transcranial direct current stimulation (tDCS), a non\u2011pharmacological neuromodulation device, and the trial's stated primary outcome is improvement of apathy (a neuropsychiatric/behavioral symptom) in moderate Alzheimer\u2019s disease. \ue200cite\ue202turn1search0\ue202turn1search8\ue201",
+        "Act (key trial details extracted): Phase 2, double\u2011blind, randomized, sham\u2011controlled; device intervention = tDCS applied over left dorsolateral prefrontal cortex; registration NCT01481558; lead sponsor University of S\u00e3o Paulo; enrollment ~40 patients. No drug is used\u2014placebo comparator is sham tDCS. \ue200cite\ue202turn1search0\ue202turn1search8\ue201",
+        "Reflect: This fits the category 'neuropsychiatric symptom improvement' because the study aims to treat apathy (behavioral symptom) rather than targeting Alzheimer\u2019s pathology with a biologic or small molecule, nor primarily testing a cognitive\u2011enhancer drug. Related literature shows tDCS is used as a neuromodulatory approach for symptoms such as apathy/anhedonia in AD and other disorders. \ue200cite\ue202turn1search3\ue202turn0search5\ue201",
+        "Web search results consulted: MedPath / trial record summarizing 'Effects of Transcranial Direct Current Stimulation on the Apathy of Alzheimer's Disease' (NCT01481558) with trial details and primary outcome = apathy; CTV/ClinicalTrials summary (trial design, sham control, enrollment); PubMed articles and protocols on tDCS in AD and tDCS for apathy/home\u2011based tDCS pilot studies. \ue200cite\ue202turn1search0\ue202turn1search8\ue202turn0search5\ue201"
+    ],
+    "agent_type": "T) Other",
+    "explanation_agent": [
+        "Reason: The intervention is transcranial direct current stimulation (tDCS), a non\u2011pharmacological neuromodulation device aimed at improving apathy (a neuropsychiatric/behavioral symptom) in people with moderate Alzheimer\u2019s disease. This does not target a molecular or pathway-based CADRO category (amyloid, tau, inflammation, synaptic receptors, metabolism, etc.). \ue200cite\ue202turn1search0\ue202turn0search1\ue201",
+        "Act: Key trial details extracted from registries and the literature \u2014 device intervention = tDCS applied over left dorsolateral prefrontal cortex; Phase 2, double\u2011blind, randomized, sham\u2011controlled; NCT01481558; lead sponsor University of S\u00e3o Paulo; enrollment ~40; primary outcome = apathy. No drug or molecular target is used. Based on these facts, assign the non\u2011molecular CADRO label 'T) Other'. \ue200cite\ue202turn1search0\ue202turn1search3\ue201",
+        "Reflect: Classification check \u2014 tDCS is a neuromodulatory device targeting neural activity/behavioral symptoms rather than a specific biochemical pathway or protein implicated in AD, so it does not map to CADRO categories A\u2013Q or R (multi\u2011target pharmacology). Therefore 'T) Other' is the appropriate CADRO assignment. Relevant literature and systematic reviews of neuromodulation for apathy and cognition support that tDCS/rTMS trials address symptoms and neural excitability rather than molecular AD targets. \ue200cite\ue202turn1search2\ue202turn1search6\ue201",
+        "Web search results consulted (key records):",
+        "- Trial registry summary for NCT01481558 (Effects of Transcranial Direct Current Stimulation on the Apathy of Alzheimer\u2019s Disease) \u2014 trial details, device intervention, left DLPFC, Phase 2, enrollment ~40. \ue200cite\ue202turn1search0\ue201",
+        "- CTV/clinical-trial aggregator entry for the study (trial design, sham control, inclusion criteria). \ue200cite\ue202turn1search3\ue201",
+        "- Systematic review/meta-analysis of neuromodulation for apathy in AD and MCI (reviews RCT evidence on rTMS/tDCS for apathy). \ue200cite\ue202turn0search1\ue201",
+        "- Trial result/meta-analysis summaries and trial protocols on tDCS in AD (context on neuromodulation targeting symptoms rather than molecular pathology). \ue200cite\ue202turn1search2\ue202turn1search6\ue201"
+    ]
+}

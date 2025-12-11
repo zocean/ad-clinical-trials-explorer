@@ -1,0 +1,733 @@
+{
+    "nct_id": "NCT02910102",
+    "title": "A Phase 2, Double-blind, Randomized, Placebo-controlled Crossover Study Evaluating the Effect of RVT-101 on Gait and Balance in Subjects With Alzheimer's Disease, Dementia With Lewy Bodies, or Parkinson's Disease Dementia",
+    "status": "COMPLETED",
+    "last_update_time": "2020-04-17",
+    "description_brief": "This study seeks to evaluate the effect of intepirdine (RVT-101) on gait and balance in patients with Alzheimer's Disease, Dementia with Lewy Bodies or Parkinson's Disease Dementia.",
+    "description_detailed": "To assess the effect of intepirdine (RVT-101) versus placebo on quantitative and qualitative gait and balance parameters.\n\nEach subject will be randomized 1:1 to one of the following sequences:\n\nSequence 1: AB = RVT-101 35 mg during the early treatment period and Placebo during the late treatment period\n\nSequence 2: BA = Placebo during the early treatment period and RVT-101 35 mg during the late treatment period\n\nTreatment A = RVT-101 35 mg once daily.\n\nTreatment B = Placebo once daily.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "68 participants signed consent and were screened for participation. Of these, 40 entered a 2-week single-blind placebo run-in period with treatment with placebo qd. Subjects were allowed to re-screen if they failed the initial screening assessments. All subjects deemed eligible following run-in were randomized to a treatment group.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Sequence 1: AB",
+                    "description": "RVT-101 35 mg: once daily, oral, 35-mg tablets in Period II\n\nPlacebo in Period IV"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Sequence 2: BA",
+                    "description": "Placebo: once daily, oral, matching tablets in Period II\n\nRVT-101 35 mg: once daily, oral, 35-mg tablets in Period IV"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "21"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "17"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Safety Population",
+                            "comment": "The Safety population included subjects who took at least 1 dose of double-blind study drug",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "21"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "17"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Intent to Treat (ITT) Population",
+                            "comment": "Subjects took at least 1 dose of DB study drug and had at least 1 post-baseline assessment",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "21"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "17"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Per-Protocol Population",
+                            "comment": "Subjects in the ITT population who had no major protocol violations",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "20"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "17"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "comment": "Subjects in the ITT population who completed the study",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "21"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "17"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "Safety Population",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Sequence 1: AB",
+                    "description": "RVT-101 35 mg: once daily, oral, 35-mg tablets in Period II\n\nPlacebo in Period IV"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Sequence 2: BA",
+                    "description": "Placebo: once daily, oral, matching tablets in Period II\n\nRVT-101 35 mg: once daily, oral, 35-mg tablets in Period IV"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "21"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "17"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "38"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "FULL_RANGE",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "76.0",
+                                            "lowerLimit": "68",
+                                            "upperLimit": "86"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "73.8",
+                                            "lowerLimit": "60",
+                                            "upperLimit": "83"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "75.0",
+                                            "lowerLimit": "60",
+                                            "upperLimit": "86"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "18"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "20"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "12"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "25"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "35"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "BMI",
+                    "paramType": "MEAN",
+                    "dispersionType": "FULL_RANGE",
+                    "unitOfMeasure": "kg/m^2",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "27.312",
+                                            "lowerLimit": "19.23",
+                                            "upperLimit": "45.59"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "25.898",
+                                            "lowerLimit": "16.01",
+                                            "upperLimit": "34.57"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "26.680",
+                                            "lowerLimit": "16.01",
+                                            "upperLimit": "45.59"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline in Gait Speed (cm/Sec) Measurements From Baseline to the End of Each Double-blind Treatment Period Based on Computerized Gait Assessment Tools.",
+                    "description": "Change from baseline in gait speed (cm/sec) measured on an electronic walkway system under single task trial condition (meaning walking only) at the end of each two-week treatment period",
+                    "populationDescription": "ITT Population",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "cm/sec",
+                    "timeFrame": "Baseline, 2 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "RVT-101 35 mg",
+                            "description": "Subjects who dosed with RVT-101 in both sequences (AB and BA) are included in this analysis"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Subjects who dosed with Placebo in both sequences (AB and BA) are included in this analysis"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "36"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "37"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.43",
+                                            "spread": "1.845"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.47",
+                                            "spread": "1.874"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.3565",
+                            "pValueComment": "The threshold for statistical significance was p=0.05",
+                            "statisticalMethod": "Mixed Models Analysis",
+                            "statisticalComment": "Each co-primary endpoint was tested at two-sided 5% level of significance, with no adjustments for multiplicity.",
+                            "paramType": "Mean Difference (Final Values)",
+                            "paramValue": "-1.90",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-6.04",
+                            "ciUpperLimit": "2.23"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Gait Measurements (cm/Sec) Under Dual Task Condition From Baseline to the End of Each Double-blind Treatment Period Based on Computerized Gait Assessment Tools.",
+                    "description": "Change from baseline in gait speed (cm/sec) measured on an electronic walkway system under dual task trial condition (meaning walking while performing another task) at the end of each two-week treatment period.",
+                    "populationDescription": "ITT Population",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "cm/sec",
+                    "timeFrame": "Baseline, 2 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "RVT-101 35 mg",
+                            "description": "RVT-101 35 mg: once daily, oral\n\nSubjects who dosed with RVT-101 in both sequences (AB and BA) are included in this analysis"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Subjects who dosed with Placebo in both sequences (AB and BA) are included in this analysis"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "36"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "37"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.46",
+                                            "spread": "1.517"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.63",
+                                            "spread": "1.518"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.9220",
+                            "pValueComment": "The threshold for statistical significance was p=0.05",
+                            "statisticalMethod": "Mixed Models Analysis",
+                            "statisticalComment": "Each co-primary endpoint was tested at two-sided 5% level of significance, with no adjustments for multiplicity.",
+                            "paramType": "Mean Difference (Final Values)",
+                            "paramValue": "-0.17",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-3.73",
+                            "ciUpperLimit": "3.38"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "Screening through post-treatment (Up to 16 Weeks)",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "RVT-101 35 mg",
+                    "description": "Subjects who dosed with RVT-101 in both sequences (AB and BA) are included",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 38,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 38,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 38
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Subjects who dosed with Placebo in both sequences (AB and BA) are included",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 38,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 38,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 38
+                },
+                {
+                    "id": "EG002",
+                    "title": "Screening Period",
+                    "description": "Participants screened (0-4 weeks) prior to entering to the first dose of single-blind study medication (ie, prior to the Run-In period)",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 68,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 68,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 68
+                },
+                {
+                    "id": "EG003",
+                    "title": "Run-In Period",
+                    "description": "Placebo: once daily, oral, pill manufactured to match RVT-101 35 mg tablet (for 2 weeks)",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 40,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 40,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 40
+                },
+                {
+                    "id": "EG004",
+                    "title": "RVT-101 Post-Treatment",
+                    "description": "Subjects reported adverse events after completing the treatment period. The Post-Treatment period - defined as up to 17 days post-last-dose",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 38,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 38,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 38
+                },
+                {
+                    "id": "EG005",
+                    "title": "Placebo Post-Treatment",
+                    "description": "Subjects reported adverse events after completing the treatment period. The Post-Treatment period - defined as up to 17 days post-last-dose",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 38,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 38,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 38
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "All proposed manuscripts, publications or abstracts must be reviewed and approved by the Sponsor 60 days prior to submission for publication. All confidential information identified by the Sponsor must be deleted prior to submission."
+            },
+            "pointOfContact": {
+                "title": "Director, Clinical Development",
+                "organization": "Axovant Sciences, Inc.",
+                "email": "clinicaltrials@axovant.com",
+                "phone": "1-833-296-8268"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "intepirdine (RVT-101; SB-742457)"
+    ],
+    "placebo": [
+        "placebo"
+    ],
+    "explanation_target": [
+        "Reason: The investigational product is intepirdine (RVT-101), an orally\u2011administered small molecule that is a potent 5\u2011HT6 (serotonin) receptor antagonist \u2014 a mechanism intended to increase central acetylcholine and other neurotransmitters to improve cognitive function rather than to clear amyloid or tau pathology. \ue200cite\ue202turn0search0\ue202turn0search7\ue201",
+        "Act: Trial details \u2014 Phase 2, double\u2011blind, randomized, placebo\u2011controlled crossover study (NCT02910102) evaluating RVT\u2011101 35 mg vs placebo for effects on gait and balance in subjects with Alzheimer's disease, dementia with Lewy bodies, or Parkinson's disease dementia. The registry/trial pages and published summaries describe intepirdine as a 5\u2011HT6 antagonist and a small\u2011molecule drug. \ue200cite\ue202turn0search6\ue202turn0search8\ue201",
+        "Reflect: Classification rationale \u2014 The options defined disease\u2011targeted small molecule as small molecules targeting Alzheimer\u2019s pathology (e.g., amyloid/tau). Intepirdine is a small molecule but does not target core AD pathology; it modulates neurotransmission to produce symptomatic benefit. Therefore it fits the 'cognitive enhancer' category (symptomatic neurotransmitter modulation) rather than a disease\u2011targeted biologic or disease\u2011targeted small molecule. The trial tested gait/balance outcomes (symptomatic/motor), but the drug\u2019s mechanism and prior development were aimed at cognitive enhancement, supporting classification as a cognitive enhancer. Relevant clinical and trial publications: phase\u20112/3 cognition studies and the gait/balance phase\u20112 study listings. \ue200cite\ue202turn0search3\ue202turn0search5\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The investigational drug intepirdine (RVT\u2011101; SB\u2011742457) is a selective 5\u2011HT6 (serotonin) receptor antagonist intended to increase central acetylcholine and other neurotransmitters to improve cognition and related symptoms rather than to clear amyloid or tau pathology. This mechanism maps to modulation of neurotransmitter receptors. \ue200cite\ue202turn0search6\ue202turn0search3\ue202turn0search1\ue201",
+        "Act: Extracted trial details and target \u2014 Drug: intepirdine (RVT\u2011101; SB\u2011742457), an orally administered small\u2011molecule 5\u2011HT6 receptor antagonist; Trial: Phase 2, double\u2011blind, randomized, placebo\u2011controlled crossover (NCT02910102) evaluating RVT\u2011101 35 mg vs placebo for gait and balance in subjects with Alzheimer's disease, dementia with Lewy bodies, or Parkinson's disease dementia. The registry and trial summaries describe the drug and study design. \ue200cite\ue202turn0search4\ue202turn0search7\ue202turn0search6\ue201",
+        "Reflect: Classification rationale \u2014 Because the drug acts by antagonizing a central serotonin receptor to modulate neurotransmitter release (a symptomatic/cognitive\u2011enhancing mechanism) rather than targeting core AD pathologies (amyloid, tau, ApoE, neuroinflammation, etc.), the most specific CADRO category is D) Neurotransmitter Receptors. This is not a multi\u2011target disease\u2011modifying approach, and the trial focus on gait/balance does not change the drug's mechanistic classification. \ue200cite\ue202turn0search5\ue202turn0search6\ue201",
+        "Web search results (key sources used):",
+        "- ALZFORUM intepirdine summary (mechanism, development history). \ue200cite\ue202turn0search6\ue201",
+        "- PubMed: randomized, double\u2011blind phase II study of SB\u2011742457 (5\u2011HT6 antagonist) in AD (mechanistic and clinical context). \ue200cite\ue202turn0search1\ue201",
+        "- MINDSET phase\u20113 paper / review describing intepirdine as a 5\u2011HT6 antagonist and clinical trial results. \ue200cite\ue202turn0search3\ue201",
+        "- NCT02910102 trial listing and results summary for the gait and balance crossover study (trial design, dose 35 mg, population). \ue200cite\ue202turn0search4\ue201",
+        "- Review article summarizing 5\u2011HT6 antagonists and intepirdine development (clinical trial outcomes and rationale for neurotransmitter modulation). \ue200cite\ue202turn0search5\ue201"
+    ]
+}

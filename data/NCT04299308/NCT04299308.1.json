@@ -1,0 +1,725 @@
+{
+    "nct_id": "NCT04299308",
+    "title": "Acute Exercise Response On Brain Imaging and Cognition",
+    "status": "COMPLETED",
+    "last_update_time": "2025-07-08",
+    "description_brief": "The overall goal is to characterize the acute exercise response as it relates to brain glucose metabolism in aging and Alzheimer's Disease (AD). The study team will also examine lactate metabolism, relationships with cognition, and the effect of exercise intensity.",
+    "description_detailed": "Aim 1: Compare the effects of acute, moderate intensity and acute, higher intensity exercise on cerebral glucose metabolism in nondemented (ND) elderly and AD subjects. ND (n=30) and AD (n=30) subjects will undergo a single bout of moderate intensity (45-55% HRR) or higher intensity (65-75% HRR) exercise to assess the effect of exercise intensity on acute change in brain glucose metabolism (rest to exercise). Investigators hypothesize that both moderate and high intensity exercise will elicit a drop in global brain glucose metabolism compared to quiet rest, but that the effect will be greater with higher intensity vs. moderate intensity exercise, and greater in ND subjects than in AD subjects.\n\nAim 2: Characterize the effect of both exercise intensities on acute biomarker response and cognition (memory and executive function) in ND and AD subjects. The acute biomarker response to exercise and the effect on cognition has not been examined in aged or AD cohorts. Investigators hypothesize that acute higher intensity exercise will elicit a greater blood lactate response (area under the curve, AUC) compared to acute moderate intensity exercise, and that this response will be greater in ND than in AD subjects. Investigators further hypothesize that lactate AUC will track negatively with change in cerebral glucose metabolism and cognitive performance. Although investigators will focus on lactate, they will also quantify additional exercise-related biomarkers.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "BASIC_SCIENCE",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Moderate Intensity Aerobic Exercise",
+                    "description": "45-55% of heart rat reserve (HHR) Low range = ((Max HR from Visit 1) - Resting HR ) \\* 0.45 + Resting HR High range = ((Max HR from Visit 1) - Resting HR) \\* 0.55 + Resting HR\n\nAerobic Exercise: Participants will exercise for 15 minutes based on heart rate range. The study team will employ a stationary bike to maintain control over workload"
+                },
+                {
+                    "id": "FG001",
+                    "title": "High Intensity Aerobic Exercise",
+                    "description": "65-75% of heart rat reserve (HHR) Low range = ((Max HR from Visit 1) - Resting HR ) \\* 0.65 + Resting HR High range = ((Max HR from Visit 1) - Resting HR) \\* 0.75 + Resting HR\n\nAerobic Exercise: Participants will exercise for 15 minutes based on heart rate range. The study team will employ a stationary bike to maintain control over workload"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "29"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "31"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "27"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "31"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "issue with PET image (1)",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Moderate Intensity Aerobic Exercise",
+                    "description": "45-55% of heart rat reserve (HHR) Low range = ((Max HR from Visit 1) - Resting HR ) \\* 0.45 + Resting HR High range = ((Max HR from Visit 1) - Resting HR) \\* 0.55 + Resting HR\n\nAerobic Exercise: Participants will exercise for 15 minutes based on heart rate range. The study team will employ a stationary bike to maintain control over workload"
+                },
+                {
+                    "id": "BG001",
+                    "title": "High Intensity Aerobic Exercise",
+                    "description": "65-75% of heart rat reserve (HHR) Low range = ((Max HR from Visit 1) - Resting HR ) \\* 0.65 + Resting HR High range = ((Max HR from Visit 1) - Resting HR) \\* 0.75 + Resting HR\n\nAerobic Exercise: Participants will exercise for 15 minutes based on heart rate range. The study team will employ a stationary bike to maintain control over workload"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "29"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "31"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "60"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "27"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "52"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "72.2",
+                                            "spread": "7.3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "74.2",
+                                            "spread": "8.1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "73.2",
+                                            "spread": "7.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "29"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "31"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "24"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "29"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "53"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "29"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "60"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Fluorodeoxyglucose (FDG) Positron Emission Tomography (PET) Metabolism (Standard Uptake Value Ratio)",
+                    "description": "FDG PET measures reflecting cerebral metabolism standardized to the uptake value of the cerebellum and standardized uptake value ratios (SUVR) calculated from native-space region of interest (ROI).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "SUVR",
+                    "timeFrame": "Resting Vs acute exercise bout: ~1 month",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Moderate Intensity Aerobic Exercise",
+                            "description": "45-55% of heart rat reserve (HHR) Low range = ((Max HR from Visit 1) - Resting HR ) \\* 0.45 + Resting HR High range = ((Max HR from Visit 1) - Resting HR) \\* 0.55 + Resting HR\n\nAerobic Exercise: Participants will exercise for 15 minutes based on heart rate range. The study team will employ a stationary bike to maintain control over workload"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "High Intensity Aerobic Exercise",
+                            "description": "65-75% of heart rat reserve (HHR) Low range = ((Max HR from Visit 1) - Resting HR ) \\* 0.65 + Resting HR High range = ((Max HR from Visit 1) - Resting HR) \\* 0.75 + Resting HR\n\nAerobic Exercise: Participants will exercise for 15 minutes based on heart rate range. The study team will employ a stationary bike to maintain control over workload"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "27"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "31"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.0514",
+                                            "spread": "0.03"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.0667",
+                                            "spread": "0.03"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Lactate Area Under the Curve",
+                    "description": "Change in lactate AUC between the resting and exercise condition",
+                    "populationDescription": "Individuals who completed both visits with blood draws available",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "AUC change (mmol/L*min)",
+                    "timeFrame": "Resting Vs acute exercise bout: ~1 month",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Moderate Intensity Aerobic Exercise",
+                            "description": "45-55% of heart rat reserve (HHR) Low range = ((Max HR from Visit 1) - Resting HR ) \\* 0.45 + Resting HR High range = ((Max HR from Visit 1) - Resting HR) \\* 0.55 + Resting HR\n\nAerobic Exercise: Participants will exercise for 15 minutes based on heart rate range. The study team will employ a stationary bike to maintain control over workload"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "High Intensity Aerobic Exercise",
+                            "description": "65-75% of heart rat reserve (HHR) Low range = ((Max HR from Visit 1) - Resting HR ) \\* 0.65 + Resting HR High range = ((Max HR from Visit 1) - Resting HR) \\* 0.75 + Resting HR\n\nAerobic Exercise: Participants will exercise for 15 minutes based on heart rate range. The study team will employ a stationary bike to maintain control over workload"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "31"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "40.3",
+                                            "spread": "27.5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "97.0",
+                                            "spread": "50.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Brain-derived Neurotrophic Factor (BDNF) Change",
+                    "description": "Pre/post change in circulating Brain Derived Neurotrophic Factor between the resting and exercise conditions",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "pg/mL",
+                    "timeFrame": "Resting Vs acute exercise bout: ~1 month",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Moderate Intensity Aerobic Exercise",
+                            "description": "45-55% of heart rat reserve (HHR) Low range = ((Max HR from Visit 1) - Resting HR ) \\* 0.45 + Resting HR High range = ((Max HR from Visit 1) - Resting HR) \\* 0.55 + Resting HR\n\nAerobic Exercise: Participants will exercise for 15 minutes based on heart rate range. The study team will employ a stationary bike to maintain control over workload"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "High Intensity Aerobic Exercise",
+                            "description": "65-75% of heart rat reserve (HHR) Low range = ((Max HR from Visit 1) - Resting HR ) \\* 0.65 + Resting HR High range = ((Max HR from Visit 1) - Resting HR) \\* 0.75 + Resting HR\n\nAerobic Exercise: Participants will exercise for 15 minutes based on heart rate range. The study team will employ a stationary bike to maintain control over workload"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "31"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "610.2",
+                                            "spread": "1071.9"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "353.3",
+                                            "spread": "239.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "1 month",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Moderate Intensity Aerobic Exercise",
+                    "description": "45-55% of heart rat reserve (HHR) Low range = ((Max HR from Visit 1) - Resting HR ) \\* 0.45 + Resting HR High range = ((Max HR from Visit 1) - Resting HR) \\* 0.55 + Resting HR\n\nAerobic Exercise: Participants will exercise for 15 minutes based on heart rate range. The study team will employ a stationary bike to maintain control over workload",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 29,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 29,
+                    "otherNumAffected": 2,
+                    "otherNumAtRisk": 29
+                },
+                {
+                    "id": "EG001",
+                    "title": "High Intensity Aerobic Exercise",
+                    "description": "65-75% of heart rat reserve (HHR) Low range = ((Max HR from Visit 1) - Resting HR ) \\* 0.65 + Resting HR High range = ((Max HR from Visit 1) - Resting HR) \\* 0.75 + Resting HR\n\nAerobic Exercise: Participants will exercise for 15 minutes based on heart rate range. The study team will employ a stationary bike to maintain control over workload",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 31,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 31,
+                    "otherNumAffected": 2,
+                    "otherNumAtRisk": 31
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Abnormal ECG",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 31
+                        }
+                    ]
+                },
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 31
+                        }
+                    ]
+                },
+                {
+                    "term": "Covid diagnosis",
+                    "organSystem": "Infections and infestations",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 29
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 31
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Dr. Jill Morris",
+                "organization": "University of Kansas Medical Center",
+                "email": "jmorris2@kumc.edu",
+                "phone": "9139457675"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The described study is an acute exercise and brain-imaging study that characterizes brain glucose metabolism, lactate metabolism, exercise intensity effects, and relationships with cognition in aging and AD \u2014 i.e., a physiologic/behavioral intervention plus PET imaging rather than a pharmacologic agent. \ue200cite\ue202turn0search1\ue202turn0search0\ue201",
+        "Act (evidence/search): The trial corresponds to the randomized 'AEROBIC' study (ClinicalTrials.gov NCT04299308) / listings describing an acute-exercise FDG\u2011PET protocol comparing moderate vs higher intensity exercise in nondemented and AD subjects; primary outcome is change in cerebral glucose metabolism and secondary outcomes include lactate and cognitive measures. \ue200cite\ue202turn0search4\ue202turn0search6\ue201",
+        "Act (supporting literature): Published reports of this work and related studies show acute exercise alters brain glucose metabolism and increases blood lactate, with exercise-related changes in cognition/BDNF \u2014 these are physiologic exercise effects, not a drug intervention. \ue200cite\ue202turn0search0\ue202turn0search2\ue201",
+        "Reflect: By the category definitions, this is not a biologic or small\u2011molecule disease\u2011targeted trial, nor a drug-based cognitive enhancer or neuropsychiatric treatment. It is a non\u2011pharmacologic, imaging/physiology study (exercise intervention), so best classified as 'N/A'. No investigational drug or placebo is described in the protocol or listings. \ue200cite\ue202turn0search1\ue202turn0search4\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

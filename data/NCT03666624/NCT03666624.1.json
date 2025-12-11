@@ -1,0 +1,684 @@
+{
+    "nct_id": "NCT03666624",
+    "title": "Socially Isolated Older Adults Living With Dementia",
+    "status": "COMPLETED",
+    "last_update_time": "2022-01-03",
+    "description_brief": "The lack of efficacious research-based interventions for sexual and gender minority (SGM) older adults living with Alzheimer's disease and other dementias, combined with the heightened risk of cognitive impairment in this population, presents a significant public health problem. SGM older adults are at elevated risk of social isolation and experience significant barriers to healthcare access. Existing interventions for older adults with dementia have been found to be effective for caregiving dyads. Yet SGM older adults, compared to heterosexuals, are significantly less likely to be married or to have biological family members to support them. A significant proportion of SGM older adults living with dementia have no caregiver or care network. The goal of the proposed research is to design and pilot test the cultural appropriateness, acceptability, and feasibility of an innovative translation of a personalized care network-RDAD (Reducing Disability in Alzheimer's Disease) to support those living with dementia without a family caregiver, directly addressing unique SGM-specific risk factors.",
+    "description_detailed": "We will address the following aims:\n\nAim 1. Develop a personalized care network-RDAD intervention suitable for SGM older adults living with dementia without caregivers.\n\nAim 2. Implement a preliminary randomized controlled trial (RCT) of 30 participants with 2 arms (routine medical care vs. the personalized care network-RDAD approach) to assess the acceptability, feasibility, and initial efficacy of the intervention.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Personalized Care Network",
+                    "description": "9 60-minute virtual sessions for 6 weeks plus personalized exercise coaching once a week for 6 weeks\n\nPersonalized care network: The Personalized care network intervention includes exercise training for participant with dementia and behavioral management training for addressing challenges."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Routine Medical Care",
+                    "description": "No intervention"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "15"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "15"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "14"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "15"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "participant grieving over recent death of parent",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Personalized Care Network",
+                    "description": "9 60-minute virtual sessions for 6 weeks plus personalized exercise coaching once a week for 6 weeks\n\nPersonalized care network: The Personalized care network intervention includes exercise training for participant with dementia and behavioral management training for addressing challenges."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Routine Medical Care",
+                    "description": "No intervention"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "14"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "15"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "29"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "68.4",
+                                            "spread": "1.8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "68.8",
+                                            "spread": "2.0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "68.6",
+                                            "spread": "1.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "9"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "20"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "25"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "21"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Physical Activity",
+                    "description": "Minutes spent on exercising per week in the past month were calculated from the following two questions: (1) How much time did you spend on exercises (hours per day) on a typical day during the last month; (2) How many days did you spend on exercises during the last month.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "minutes per week",
+                    "timeFrame": "Baseline (pre-treatment) and 7 weeks (post-treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Personalized Care Network",
+                            "description": "9 60-minute virtual sessions for 6 weeks plus personalized exercise coaching once a week for 6 weeks\n\nPersonalized care network: The Personalized care network intervention includes exercise training for participant with dementia and behavioral management training for addressing challenges."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Routine Medical Care",
+                            "description": "No intervention"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "14"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "15"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Unadjusted mean at baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "227",
+                                            "spread": "69"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "282",
+                                            "spread": "129"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Unadjusted mean at 7 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "380",
+                                            "spread": "105"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "232",
+                                            "spread": "76"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Physical Functioning",
+                    "description": "Physical Functioning subscale of the Medical Outcomes Study 36-Item Short Form (SF-36) consists of 10 items and measures how much participants' health status limits their activities including walking, climbing, lifting, and bathing or dressing oneself, based on self-reports. Each item is measured a 3-point scale (1 = Yes, limited a lot; 2 = Yes, limited a little; 3 = No, not limited at all), then recoded into 0, 50, and 100, respectively. The recoded scores are averaged to generate a summary score with its possible range from 0 to 100. Higher scores indicate better physical functioning.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline (pre-treatment) and 7 weeks (post-treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Personalized Care Network",
+                            "description": "9 60-minute virtual sessions for 6 weeks plus personalized exercise coaching once a week for 6 weeks\n\nPersonalized care network: The Personalized care network intervention includes exercise training for participant with dementia and behavioral management training for addressing challenges."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Routine Medical Care",
+                            "description": "No intervention"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "14"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "15"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Unadjusted score at baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "66.1",
+                                            "spread": "6.7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "73.0",
+                                            "spread": "6.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Unadjusted score at 7 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "73.2",
+                                            "spread": "7.3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "72.0",
+                                            "spread": "6.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Quality of Life",
+                    "description": "Quality of Life in Alzheimer's Disease (QOL-AD) is a 13-item scale that measures participant's self-reported feelings about different aspects of life including energy, mood, living situation, memory, family, friends, ability, and money. Each item has a 4-point response scale (1 = poor; 2 = fair; 3 = good; 4 = excellent). The summary score is a sum of the 13 items with its possible range from 13 to 52. Higher scores indicate higher quality of life.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline (pre-treatment) and 7 weeks (post-treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Personalized Care Network",
+                            "description": "9 60-minute virtual sessions for 6 weeks plus personalized exercise coaching once a week for 6 weeks\n\nPersonalized care network: The Personalized care network intervention includes exercise training for participant with dementia and behavioral management training for addressing challenges."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Routine Medical Care",
+                            "description": "No intervention"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "14"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "15"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Unadjusted score at baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30.9",
+                                            "spread": "2.3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "32.2",
+                                            "spread": "1.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Unadjusted score at 7 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "32.7",
+                                            "spread": "3.3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "32.0",
+                                            "spread": "1.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "9 weeks",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Personalized Care Network",
+                    "description": "9 60-minute virtual sessions for 6 weeks plus personalized exercise coaching once a week for 6 weeks\n\nPersonalized care network: The Personalized care network intervention includes exercise training for participant with dementia and behavioral management training for addressing challenges.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 15,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 15,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 15
+                },
+                {
+                    "id": "EG001",
+                    "title": "Routine Medical Care",
+                    "description": "No intervention",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 15,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 15,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 15
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Karen Fredriksen Goldsen",
+                "organization": "University of Washington",
+                "email": "fredrikk@uw.edu",
+                "phone": "206-543-5722"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The described study is an adaptation and pilot test of the RDAD (Reducing Disability in Alzheimer\u2019s Disease) personalized care\u2011network \u2014 a psychosocial/caregiving intervention (behavioral management + physical activity/pleasant events) to support socially isolated SGM older adults with dementia. This is not a drug or biologic and does not target Alzheimer\u2019s pathology directly, so it does not fit the four therapeutic drug categories. \ue200cite\ue202turn0search1\ue202turn0search3\ue201",
+        "Act: Key extracted details \u2014 intervention name: RDAD (Reducing Disability in Alzheimer\u2019s Disease); approach: home/community\u2011based caregiver training, behavioral plans, pleasant events and physical activity tailored for persons with dementia; population: socially isolated older adults living with dementia, specifically sexual and gender minority (SGM) older adults without family caregivers. Sources describing RDAD and its cultural/adaptation translations were consulted. \ue200cite\ue202turn0search1\ue202turn0search3\ue202turn0search0\ue201",
+        "Reflect: Mapping to category definitions \u2014 RDAD is an evidence\u2011based psychosocial/caregiving program aimed at reducing disability and behavioral/psychological symptoms, not a biologic or small molecule disease\u2011modifying agent, nor a pharmacologic cognitive enhancer or an intervention solely for neuropsychiatric symptom relief via medication. By the schema instructions, non\u2011therapeutic/service interventions (care models, behavioral programs) are classified as 'N/A'. The classification 'N/A' therefore aligns with the description. \ue200cite\ue202turn0search2\ue202turn0search5\ue201",
+        "Web search results consulted (representative): randomized trial describing RDAD (original RCT and program components). \ue200cite\ue202turn0search1\ue201; cultural adaptations and translations of RDAD demonstrating it is a behavioral/caregiver intervention. \ue200cite\ue202turn0search3\ue202turn0search2\ue201; recent implementation/translation reports and program listings. \ue200cite\ue202turn0search0\ue202turn0search4\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

@@ -1,0 +1,1010 @@
+{
+    "nct_id": "NCT05161715",
+    "title": "A Phase 2a, Proof-of-Concept, Open-Label Study to Evaluate the Pharmacodynamics, Pharmacokinetics, and Safety of Obicetrapib in Patients With Early Alzheimer's Disease (Hetero/Homozygote APOE4 Carriers)",
+    "status": "COMPLETED",
+    "last_update_time": "2025-01-06",
+    "description_brief": "A Phase 2a study in men and women with early Alzheimer's disease to evaluate the pharmacodynamics, pharmacokinetics and safety of obicetrapib therapy.",
+    "description_detailed": "This study will be a proof of concept, Phase 2a study in patients with early Alzheimer's disease (clinical diagnosis of Alzheimer's disease Stage 3 or 4 based on the National Institute on Aging Alzheimer's Association Research Framework criteria) to evaluate the Pharmacodynamic, cognitive effects, Pharmacokinetic, and safety and tolerability of obicetrapib therapy.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "PREVENTION",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "10mg Obicetrapib",
+                    "description": "10mg obicetrapib (5mg tablets) administered orally daily for 24 weeks\n\nObicetrapib: 10mg obicetrapib"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "13"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "13"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "Baseline Population is defined as all participants who received at least one dose of study drug.",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "10mg Obicetrapib",
+                    "description": "10mg obicetrapib (5mg tablets) administered orally daily for 24 weeks\n\nObicetrapib: 10mg obicetrapib"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "13"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "64.5",
+                                            "spread": "6.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race and Ethnicity Not Collected",
+                    "populationDescription": "Race and Ethnicity were not collected from any participant.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Mean Percent Change in Apolipoprotein A-I (ApoA-I) in Cerebrospinal Fluid (CSF)",
+                    "description": "Mean percent change from screening (V1) to end of treatment (V6) in ApoA-I in CSF",
+                    "populationDescription": "Analysis of PD endpoints in CSF were conducted on 12 patients as the lumbar puncture for one patient was unsuccessful at End of Treatment (Day 168, Visit 6) and no CSF was available for analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "percent change from screening visit",
+                    "timeFrame": "24 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "10mg Obicetrapib",
+                            "description": "10mg obicetrapib (5mg tablets) administered orally daily for 24 weeks\n\nObicetrapib: 10mg obicetrapib"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-8.4",
+                                            "spread": "13.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.425",
+                            "pValueComment": "No multiple testing correction was performed",
+                            "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Mean Percent Change in Apolipoprotein A-I (ApoA-I) in Plasma",
+                    "description": "Mean percent change in ApoA-I in plasma from baseline (V2) to week 24 (V6)",
+                    "populationDescription": "For the PD endpoints in plasma, analyses were conducted on all 13 patients.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "percent change from baseline",
+                    "timeFrame": "24 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "10mg Obicetrapib Tablets",
+                            "description": "10mg obicetrapib (5mg tablets) administered orally daily for 24 weeks\n\nObicetrapib: 10mg obicetrapib"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "37.5",
+                                            "spread": "25.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.0002",
+                            "pValueComment": "No multiple testing correction was performed",
+                            "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Mean Percent Change in Apolipoprotein-E (ApoE) in Cerebrospinal Fluid (CSF)",
+                    "description": "Mean percent change from screening (V1) to end of treatment (V6) in ApoE",
+                    "populationDescription": "Analysis of PD endpoints in CSF were conducted on 12 patients as the lumbar puncture for one patient was unsuccessful at End of Treatment (Day 168, Visit 6) and no CSF was available for analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "percent change from screening",
+                    "timeFrame": "24 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "10mg Obicetrapib Tablets",
+                            "description": "10mg obicetrapib (5mg tablets) administered orally daily for 24 weeks\n\nObicetrapib: 10mg obicetrapib"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3.9",
+                                            "spread": "10.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.0424",
+                            "pValueComment": "No multiple testing correction was performed",
+                            "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Mean Percent Change in Apolipoprotein-E (ApoE) in Plasma",
+                    "description": "Mean percent change from baseline (V2) to week 24 (V6) in plasma in ApoE",
+                    "populationDescription": "For the PD endpoints in plasma, analyses were conducted on all 13 patients.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "percent change from baseline",
+                    "timeFrame": "24 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "10mg Obicetrapib Tablets",
+                            "description": "10mg obicetrapib (5mg tablets) administered orally daily for 24 weeks\n\nObicetrapib: 10mg obicetrapib"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "47.8",
+                                            "spread": "46.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.001",
+                            "pValueComment": "No multiple testing correction was performed",
+                            "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Small HDL (s-HDL) Particle Concentration in Cerebrospinal Fluid (CSF) at Baseline",
+                    "description": "Small high-density lipoprotein (s-HDL) particle concentration in cerebrospinal fluid (CSF) measured by Ion Mobility Assay (https://doi.org/10.1002/alz.12649)",
+                    "populationDescription": "Analysis of PD endpoints in CSF were conducted on 12 patients as the lumbar puncture for one patient was unsuccessful at End of Treatment (Day 168, Visit 6) and no CSF was available for analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "average relative abundance",
+                    "timeFrame": "baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "10mg Obicetrapib Tablets",
+                            "description": "10mg obicetrapib (5mg tablets) administered orally daily for 24 weeks\n\nObicetrapib: 10mg obicetrapib"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.542",
+                                            "spread": "0.138"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Small HDL (s-HDL) Particle Concentration in Cerebrospinal Fluid (CSF) at Week 24",
+                    "description": "Small high-density lipoprotein (s-HDL) particle concentration in CSF measured by Ion Mobility Assay (https://doi.org/10.1002/alz.12649)",
+                    "populationDescription": "Analysis of PD endpoints in CSF were conducted on 12 patients as the lumbar puncture for one patient was unsuccessful at End of Treatment (Day 168, Visit 6) and no CSF was available for analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "average relative abundance",
+                    "timeFrame": "Week 24",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "10mg Obicetrapib Tablets",
+                            "description": "10mg obicetrapib (5mg tablets) administered orally daily for 24 weeks\n\nObicetrapib: 10mg obicetrapib"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.542",
+                                            "spread": "0.106"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Small HDL (s-HDL) Particle Concentration in Plasma at Baseline",
+                    "description": "Small high-density lipoprotein (s-HDL) particle concentration plasma measured by Ion Mobility Assay.\n\nFor more information on the measurement used please refer to this article: https://doi.org/10.1002/alz.12649",
+                    "populationDescription": "Due to a non-optimal sample preparation procedure, a number of the samples allocated for the small HDL-C particle analysis were lost and therefore no samples were assessed for this measure.",
+                    "reportingStatus": "POSTED",
+                    "timeFrame": "baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "10mg Obicetrapib",
+                            "description": "10mg obicetrapib (5mg tablets) administered orally daily for 24 weeks\n\nObicetrapib: 10mg obicetrapib"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Small HDL (s-HDL) Particle Concentration in Plasma at Week 24",
+                    "description": "Small high-density lipoprotein (s-HDL) particle concentration in plasma measured by Ion Mobility Assay at Week 24\n\nFor more information on the measurement used please refer to this article: https://doi.org/10.1002/alz.12649",
+                    "populationDescription": "Due to a non-optimal sample preparation procedure, a number of the samples allocated for the small HDL-C particle analysis were lost and therefore no samples were assessed for this measure.",
+                    "reportingStatus": "POSTED",
+                    "timeFrame": "Week 24",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "10mg Obicetrapib",
+                            "description": "10mg obicetrapib (5mg tablets) administered orally daily for 24 weeks\n\nObicetrapib: 10mg obicetrapib"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Mean Percent Change in Cholesterol Efflux Capacity in Cerebrospinal Fluid (CSF)",
+                    "description": "Mean percent change in cholesterol efflux capacity in CSF from screening (V1) to week 24 (V6)",
+                    "populationDescription": "Analysis of PD endpoints in CSF were conducted on 12 patients as the lumbar puncture for one patient was unsuccessful at End of Treatment (Day 168, Visit 6) and no CSF was available for analysis",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "percent change from screening",
+                    "timeFrame": "24 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "10mg Obicetrapib Tablets",
+                            "description": "10mg obicetrapib (5mg tablets) administered orally daily for 24 weeks\n\nObicetrapib: 10mg obicetrapib"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.9",
+                                            "spread": "24.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.556",
+                            "pValueComment": "No multiple testing correction was performed",
+                            "statisticalMethod": "Wilcoxon (Mann-Whitney)"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "From first dose of study drug through Week 24.5",
+            "description": "Safety Population included all participants who received at least 1 dose of any study drug.\n\nAnalysis of PD endpoints in CSF were conducted on 12 patients as the lumbar puncture for one patient was unsuccessful at End of Treatment (Day 168, Visit 6) and no CSF was available for analysis. For the PD endpoints in plasma, analyses were conducted on all 13 patients.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "10mg Obicetrapib Tablets",
+                    "description": "10mg obicetrapib (5mg tablets) administered orally daily for 24 weeks\n\nObicetrapib: 10mg obicetrapib",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 13,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 13,
+                    "otherNumAffected": 9,
+                    "otherNumAtRisk": 13
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Normocytic anemia",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Angina pectoris",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Benign paroxysmal positional vertigo",
+                    "organSystem": "Ear and labyrinth disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Constipation",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Loose stools",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Obstipation",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Reflux esophagitis",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Unilateral leg swelling",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Covid-19",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Gastroenteritis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Herpes zoster",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Laryngitis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Upper respiratory tract infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Lumbar puncture headache",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Rib contusion",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Weight loss",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Hyponatremia",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Hand arthritis",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Lateral epicondylitis",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Low back pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Lumbago",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Basal cell carcinoma face",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Productive cough",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Hair loss",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "After the multicenter publication or 12 months after completion of the study, whichever occurs first, Institution may publish the results of its study data. Institution and PI shall provide Sponsor with an advance copy of any proposed communications at least 30 days prior and Sponsor shall have 30 days to review. Sponsor may request (a) the deletion of any Confidential Information, (b) reasonable changes, or (c) a delay for an additional 60 day period."
+            },
+            "pointOfContact": {
+                "title": "Study Director",
+                "organization": "NewAmsterdam Pharma",
+                "email": "study.director@newamsterdampharma.com",
+                "phone": "+1(305) 627-3081"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "Obicetrapib \u2014 oral, selective cholesteryl ester transfer protein (CETP) inhibitor (small molecule)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The study drug, obicetrapib, is an oral small-molecule CETP inhibitor being tested in people with early Alzheimer\u2019s disease (ApoE4 carriers). CETP inhibition alters lipid and apolipoprotein biology (HDL, LDL, ApoB and related lipoproteins) and the AD study\u2019s primary pharmacodynamic outcomes include apolipoproteins and HDL particles in plasma and CSF, indicating the trial is investigating a mechanistic/disease-targeting effect on lipid/ApoE-related biology rather than a purely symptomatic cognitive enhancer. \ue200cite\ue202turn0search2\ue202turn0search0\ue201",
+        "Act: Key extracted details \u2014 drug name: obicetrapib; drug class/type: selective CETP inhibitor (small molecule, oral); trial population: early Alzheimer\u2019s disease, hetero/homozygote APOE4 carriers; trial intent: evaluate pharmacodynamics, pharmacokinetics, and safety with PD measures of apolipoproteins/HDL in plasma and CSF. Sources describing obicetrapib as a CETP inhibitor and the AD proof-of-concept Phase 2a study: ALZFORUM summary and NewAmsterdam press release / PubMed Phase 2 lipid studies. \ue200cite\ue202turn0search2\ue202turn0search4\ue202turn0search0\ue201",
+        "Web search results (selected, short summaries): 1) ALZFORUM entry: describes a Phase 2, open-label proof-of-concept study of 10 mg obicetrapib daily for 24 weeks in ApoE4 carriers with AD, with primary outcomes including apolipoproteins and HDL particles in plasma and CSF (notes CETP inhibition as MoA). \ue200cite\ue202turn0search2\ue201 2) PubMed (phase 2 lipid trials): multiple randomized trials showing obicetrapib is a potent, selective CETP inhibitor that markedly lowers LDL-C and alters apolipoproteins and HDL (demonstrates drug class and pharmacology). \ue200cite\ue202turn0search0\ue202turn0search1\ue201 3) NewAmsterdam Pharma press release: announces Phase 2a AD trial data and describes obicetrapib as an oral low-dose CETP inhibitor in development for lipid modulation; supports rationale for testing in ApoE4 carriers. \ue200cite\ue202turn0search4\ue201",
+        "Reflect: Classification check \u2014 obicetrapib is a small-molecule CETP inhibitor (not a biologic), and the AD trial tests lipid/apolipoprotein PD in ApoE4 carriers (a mechanistic disease-related pathway). Therefore the correct category is 'disease-targeted small molecule'. Note ambiguity: the Phase 2a description focuses on PD/PK/safety (no mention of cognitive endpoints in the brief title), so while the compound is being tested for a disease-modifying mechanism (lipid/ApoE modulation), evidence of clinical disease modification (cognition/clinical outcomes) is not provided in this description. \ue200cite\ue202turn0search2\ue202turn0search4\ue201"
+    ],
+    "agent_type": "C) ApoE, Lipids and Lipoprotein Receptors",
+    "explanation_agent": [
+        "Reason: Obicetrapib is an oral, selective CETP (cholesteryl ester transfer protein) inhibitor that modulates HDL/LDL and apolipoprotein biology. The trial enrolls APOE4 carriers and measures apolipoproteins and HDL particles in plasma and CSF, indicating the mechanistic focus is on lipid/ApoE-related pathways rather than symptomatic neurotransmitter effects. This aligns with CADRO\u2019s category for ApoE, lipids and lipoprotein receptors.",
+        "Act: Extracted details \u2014 drug: obicetrapib; modality: small-molecule CETP inhibitor (oral); population: early Alzheimer\u2019s disease, hetero-/homozygous APOE4 carriers; PD measures: apolipoproteins and HDL particles in plasma and CSF. Mapping to CADRO: CETP inhibition and the trial\u2019s lipid/apolipoprotein endpoints are best classified under C) ApoE, Lipids and Lipoprotein Receptors.",
+        "Reflect: The intervention targets lipid metabolism and ApoE-related biology (disease-targeted mechanism). It is not an amyloid- or tau-directed therapy, nor primarily anti-inflammatory or neurotransmitter-acting, so C is the most specific fit. Although clinical outcomes are not described here (PD/PK/safety focus), CADRO classification is based on biological target/pathway, confirming C) is appropriate.",
+        "Web search results (selected, short summaries) provided by the submitter: 1) ALZFORUM entry: describes a Phase 2, open-label proof-of-concept study of 10 mg obicetrapib daily for 24 weeks in ApoE4 carriers with AD, with primary outcomes including apolipoproteins and HDL particles in plasma and CSF (notes CETP inhibition as MoA). 2) PubMed (phase 2 lipid trials): multiple randomized trials showing obicetrapib is a potent, selective CETP inhibitor that markedly lowers LDL-C and alters apolipoproteins and HDL (demonstrates drug class and pharmacology). 3) NewAmsterdam Pharma press release: announces Phase 2a AD trial data and describes obicetrapib as an oral low-dose CETP inhibitor in development for lipid modulation; supports rationale for testing in ApoE4 carriers.",
+        "Output: C) ApoE, Lipids and Lipoprotein Receptors \u2014 Rationale: obicetrapib\u2019s CETP inhibition modulates HDL/LDL/apolipoprotein pathways and the trial\u2019s predefined pharmacodynamic endpoints (apolipoproteins, HDL particles in plasma/CSF) directly target lipid/ApoE-related biology, matching CADRO category C."
+    ]
+}

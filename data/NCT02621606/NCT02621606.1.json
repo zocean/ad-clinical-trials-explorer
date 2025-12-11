@@ -1,0 +1,2222 @@
+{
+    "nct_id": "NCT02621606",
+    "title": "A Three-Part Trial to Qualify [11C]MK-6884 Positron Emission Tomography for Use as a Biomarker for Regional M4 PAM Receptor Density Quantification in the Human Brain",
+    "status": "COMPLETED",
+    "last_update_time": "2022-08-22",
+    "description_brief": "The purpose of this open-label, 3-part study is to investigate the safety and efficacy of \\[11C\\]MK-6884 as a positron emission tomography (PET) imaging agent for quantifying muscarinic 4 (M4) positive allosteric modulator (PAM) receptor density in brain regions of interest. The study will enroll healthy participants (Parts 1 and 2) and participants with Alzheimer's Disease (AD) (Part 3). The primary efficacy hypothesis is that the average intra-subject test-retest (T-RT) variability of tracer uptake in brain regions of interest is \u226420%.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "OTHER",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "N=20 participants were enrolled, with N=20 receiving \u22651 dose of \\[11C\\]MK-6884. N=1 participant in Part 2 withdrew from study before receiving the second dose of \\[11C\\]MK-6884.",
+            "recruitmentDetails": "Healthy participants (Part 1), healthy elderly participants (Part 2), and participants with Alzheimer's Disease (AD; Part 3) were enrolled in this study.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Part 1, Healthy Participants",
+                    "description": "Healthy participants receive a single intravenous (IV) dose of \\~370 megabecquerel (MBq) \\[11C\\]MK-6884 in Part 1 of the study."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Part 2, Healthy Elderly Participants",
+                    "description": "Healthy elderly participants receive two separate IV doses of \\~370 MBq \\[11C\\]MK-6884 in Part 2 of the study. Administration of the two doses is separated by at least 3 hours."
+                },
+                {
+                    "id": "FG002",
+                    "title": "Part 3, Participants With AD",
+                    "description": "Participants with AD receive a single IV dose of \\~370 MBq \\[11C\\]MK-6884 in Part 3 of the study."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "7"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "10"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Treated",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "7"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "10"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "6"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "10"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "The baseline analysis population includes all randomized participants.",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Part 1, Healthy Participants",
+                    "description": "Healthy participants receive a single IV dose of \\~370 MBq \\[11C\\]MK-6884 in Part 1 of the study."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Part 2, Healthy Elderly Participants",
+                    "description": "Healthy elderly participants receive two separate IV doses of \\~370 MBq \\[11C\\]MK-6884 in Part 2 of the study. Administration of the two doses is separated by at least 3 hours."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Part 3, Participants With AD",
+                    "description": "Participants with AD receive a single IV dose of \\~370 MBq \\[11C\\]MK-6884 in Part 3 of the study."
+                },
+                {
+                    "id": "BG003",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "3"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "7"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "10"
+                        },
+                        {
+                            "groupId": "BG003",
+                            "value": "20"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "25.3",
+                                            "spread": "2.1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "62.6",
+                                            "spread": "5.4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "67.6",
+                                            "spread": "5.2"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "59.5",
+                                            "spread": "15.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "19"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants Experiencing an Adverse Event (AE)",
+                    "description": "The number of participants experiencing an adverse event (AE) was assessed. An AE is defined as any unfavorable and unintended medical occurrence, sign, symptom, or disease temporally associated with the use of a pharmaceutical product or protocol-specified procedure, whether or not considered related to the pharmaceutical product or protocol-specified procedure. Any worsening of a preexisting condition, temporally associated with the use of the Sponsor's product, is also an AE.",
+                    "populationDescription": "Includes all participants receiving \u22651 dose of \\[11C\\]MK-6884 in Parts 1, 2, or 3.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Up to 15 days",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Part 1, Healthy Participants",
+                            "description": "Healthy participants receive a single IV dose of \\~370 megabecquerel MBq \\[11C\\]MK-6884 in Part 1 of the study."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Part 2, Healthy Elderly Participants",
+                            "description": "Healthy elderly participants receive two separate IV doses of \\~370 MBq \\[11C\\]MK-6884 in Part 2 of the study. Administration of the two doses is separated by at least 3 hours."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Part 3, Participants With AD",
+                            "description": "Participants with AD receive a single IV dose of \\~370 MBq \\[11C\\]MK-6884 in Part 3 of the study."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "3"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants Discontinuing the Study Due to an Adverse Event (AE)",
+                    "description": "The number of participants discontinuing the study due to an AE was assessed. An AE is defined as any unfavorable and unintended medical occurrence, sign, symptom, or disease temporally associated with the use of a pharmaceutical product or protocol-specified procedure, whether or not considered related to the pharmaceutical product or protocol-specified procedure. Any worsening of a preexisting condition, temporally associated with the use of the Sponsor's product, is also an AE.",
+                    "populationDescription": "Includes all participants receiving \u22651 dose of \\[11C\\]MK-6884 in Parts 1, 2, or 3.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Up to 15 days",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Part 1, Healthy Participants",
+                            "description": "Healthy participants receive a single IV dose of \\~370 megabecquerel MBq \\[11C\\]MK-6884 in Part 1 of the study."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Part 2, Healthy Elderly Participants",
+                            "description": "Healthy elderly participants receive two separate IV doses of \\~370 MBq \\[11C\\]MK-6884 in Part 2 of the study. Administration of the two doses is separated by at least 3 hours."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Part 3, Participants With AD",
+                            "description": "Participants with AD receive a single IV dose of \\~370 MBq \\[11C\\]MK-6884 in Part 3 of the study."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "3"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "[Part 1] Mean Effective Dose of [11C]MK-6884",
+                    "description": "Mean effective dose (ED) of \\[11C\\]MK-6884 was calculated as a measure of risk associated with exposure of the whole body (WB) to low levels of ionizing radiation. Following \\[11C\\]MK-6884 injection, WB positron emission tomography (PET) scans were collected to visually identify organs absorbing \\[11C\\]MK-6884 in significant amounts. Around identified organs, three-dimensional (3D) volumes were drawn to estimate the percentage of injected activity absorbed. These data were converted into time-activity curves (TACs) and retention of radioactivity in these regions was entered into a human biodistribution model to determine ED of \\[11C\\]MK-6884. ED is expressed in units millisieverts (mSv) / MBq.",
+                    "populationDescription": "Includes only healthy participants in Part 1 (N=3). Per protocol, participants in Parts 2 and 3 were not tested for ED of \\[11C\\]MK-6884 and are excluded.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "mSv / MBq",
+                    "timeFrame": "Up to 2 hours post-dose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Part 1, Healthy Participants",
+                            "description": "Healthy participants receive a single IV dose of \\~370 megabecquerel MBq \\[11C\\]MK-6884 in Part 1 of the study."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Part 2, Healthy Elderly Participants",
+                            "description": "Healthy elderly participants receive two separate IV doses of \\~370 MBq \\[11C\\]MK-6884 in Part 2 of the study. Administration of the two doses is separated by at least 3 hours."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Part 3, Participants With AD",
+                            "description": "Participants with AD receive a single IV dose of \\~370 MBq \\[11C\\]MK-6884 in Part 3 of the study."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "3"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "0"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0072",
+                                            "spread": "0.00127"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "[Part 1] Mean Organ Effective Dose of [11C]MK-6884",
+                    "description": "Mean organ ED of \\[11C\\]MK-6884 was calculated as a measure of risk associated with exposure of individual organs to low levels of ionizing radiation. Following \\[11C\\]MK-6884 injection, WB PET scans were collected to visually identify organs absorbing \\[11C\\]MK-6884 in significant amounts. Around identified organs, 3D volumes were drawn to estimate the percentage of injected activity absorbed. These data were converted into TACs and retention of radioactivity in these regions was used to calculate organ-specific ED of \\[11C\\]MK-6884. For sex organs (testes/ovaries), organ EDs were derived for participants of the respective sex. However, organ ED for the uterus was estimable in all participants as the male radiologic phantom was sufficiently hermaphroditic.",
+                    "populationDescription": "Includes only healthy participants in Part 1 (N=3), having estimable data for the individual organ. Per protocol, participants in Parts 2 and 3 were not tested for organ ED of \\[11C\\]MK-6884 and are excluded.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "mSv / MBq",
+                    "timeFrame": "Up to 2 hours post dose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Part 1, Healthy Participants",
+                            "description": "Healthy participants receive a single IV dose of \\~370 megabecquerel MBq \\[11C\\]MK-6884 in Part 1 of the study."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Part 2, Healthy Elderly Participants",
+                            "description": "Healthy elderly participants receive two separate IV doses of \\~370 MBq \\[11C\\]MK-6884 in Part 2 of the study. Administration of the two doses is separated by at least 3 hours."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Part 3, Participants With AD",
+                            "description": "Participants with AD receive a single IV dose of \\~370 MBq \\[11C\\]MK-6884 in Part 3 of the study."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "3"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "0"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Adrenals",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.00000924",
+                                            "spread": "0.0000019"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Brain",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.00000666",
+                                            "spread": "0.00000135"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Breasts",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0000804",
+                                            "spread": "0.0000212"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Gallbladder Wall",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0",
+                                            "spread": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lower Large Intestine Wall",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.000499",
+                                            "spread": "0.000146"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Small Intestine",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.000802",
+                                            "spread": "0.000217"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Stomach Wall",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.000357",
+                                            "spread": "0.0000962"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Upper Large Intestine Wall",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0000312",
+                                            "spread": "0.00000782"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Heart Wall",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0",
+                                            "spread": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Kidneys",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0000476",
+                                            "spread": "0.00000571"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Liver",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.00104",
+                                            "spread": "0.000236"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lungs",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.000709",
+                                            "spread": "0.000228"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Muscle",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.00000541",
+                                            "spread": "0.00000144"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Ovaries (Female Participants Only)",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.00126",
+                                            "spread": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Pancreas",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.00000938",
+                                            "spread": "0.00000215"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Red Marrow",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.000541",
+                                            "spread": "0.0000553"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Osteogenic Cells",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.000041",
+                                            "spread": "0.0000106"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Skin",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0000145",
+                                            "spread": "0.00000409"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Spleen",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0000256",
+                                            "spread": "0.0000202"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Testes (Male Participants Only)",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0017",
+                                            "spread": "0.000573"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Thymus",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.00000463",
+                                            "spread": "0.00000118"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Thyroid",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0000732",
+                                            "spread": "0.0000218"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Urinary Bladder Wall",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.00135",
+                                            "spread": "0.00045"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Uterus",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0000124",
+                                            "spread": "0.00000334"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "[Part 2] Mean Non-displaceable Binding Potential (BPND) of [11C]MK-6884 in Brain Regions of Interest (ROI)",
+                    "description": "Mean BPND of \\[11C\\]MK-6884 in each brain ROI was assessed. BPND is the ratio at equilibrium of specifically bound \\[11C\\]MK-6884 to that of non-displaceable \\[11C\\]MK-6884 in tissue. At time \"0\", a single IV bolus of \\[11\\]MK-6884 is administered and PET scanning initiated, yielding brain regional TACs. These TACs are then used to determine peak standard uptake value (SUV) and area under the curve (AUC) in order to quantify brain regional \\[11C\\]MK-6884 uptake. The target region BPND is estimated using the cerebellum as the reference region with the transient equilibrium tissue ratio (TE-TR) method. Higher values indicate increased specific \\[11C\\]MK-6884 binding in the brain ROI.",
+                    "populationDescription": "Includes only healthy elderly participants in Part 2 receiving 2 doses of \\[11C\\]MK-6884 who sufficiently comply with study protocol (N=6). Per protocol, participants in Part 1 were not tested for mean BPND of \\[11C\\]MK-6884 and are excluded. Mean BPND data for Part 3 participants are presented in a separate table.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Ratio",
+                    "timeFrame": "Up to 90 minutes post dose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Part 1, Healthy Participants",
+                            "description": "Healthy participants receive a single IV dose of \\~370 megabecquerel MBq \\[11C\\]MK-6884 in Part 1 of the study."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Part 2, Healthy Elderly Participants",
+                            "description": "Healthy elderly participants receive two separate IV doses of \\~370 MBq \\[11C\\]MK-6884 in Part 2 of the study. Administration of the two doses is separated by at least 3 hours."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Part 3, Participants With AD",
+                            "description": "Participants with AD receive a single IV dose of \\~370 MBq \\[11C\\]MK-6884 in Part 3 of the study."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "0"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "6"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Putamen",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.15",
+                                            "spread": "0.14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Striatum",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.96",
+                                            "spread": "0.13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Frontal Cortex",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.92",
+                                            "spread": "0.15"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Temporal Cortex",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.92",
+                                            "spread": "0.12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Hippocampus",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.45",
+                                            "spread": "0.11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "[Part 2] Intra-subject Test-Retest (T-RT) Variability of Non-displaceable Binding Potential (BPND) of [11C]MK-6884 in Brain Regions of Interest (ROI)",
+                    "description": "Intra-subject T-RT variability in BPND of \\[11C\\]MK-6884 in each brain ROI was assessed. For each healthy elderly participant receiving 2 doses of \\[11C\\]MK-6884 in study Part 2, the BPND calculated during the first dose (BPND-1) was compared to the BPND calculated during the second dose (BPND-2) to determine the percent T-RT variability of the BPND of \\[11C\\]MK-6884 for each brain ROI.\n\nPercent T-RT variability = \\[absolute value (BPND-1 - BPND-2) / (average BPND)\\] \\* 100. A percent T-RT variability = 0, indicates no variability between BPND-1 and BPND-2.",
+                    "populationDescription": "Includes only healthy elderly participants in Part 2 receiving 2 doses of \\[11C\\]MK-6884 who sufficiently comply with study protocol (N=6). Per protocol, participants in Parts 1 and 3 were not tested for intra-subject T-RT variability of BPND of \\[11C\\]MK-6884 and are excluded.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Percent variability",
+                    "timeFrame": "Up to 24 hours post dose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Part 1, Healthy Participants",
+                            "description": "Healthy participants receive a single IV dose of \\~370 megabecquerel MBq \\[11C\\]MK-6884 in Part 1 of the study."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Part 2, Healthy Elderly Participants",
+                            "description": "Healthy elderly participants receive two separate IV doses of \\~370 MBq \\[11C\\]MK-6884 in Part 2 of the study. Administration of the two doses is separated by at least 3 hours."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Part 3, Participants With AD",
+                            "description": "Participants with AD receive a single IV dose of \\~370 MBq \\[11C\\]MK-6884 in Part 3 of the study."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "0"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "6"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Putamen",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "14.1",
+                                            "spread": "9.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Striatum",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "11.1",
+                                            "spread": "9.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Frontal Cortex",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16.0",
+                                            "spread": "7.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Temporal Cortex",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "10.9",
+                                            "spread": "13.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Hippocampus",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "24.9",
+                                            "spread": "15.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "[Part 3] Mean Regional Non-displaceable Binding Potential (BPND) of [11C]MK-6884 in Brain Regions of Interest",
+                    "description": "Mean BPND of \\[11C\\]MK-6884 in each brain ROI was assessed. BPND is the ratio at equilibrium of specifically bound \\[11C\\]MK-6884 to that of non-displaceable \\[11C\\]MK-6884 in tissue. At time \"0\", a single IV bolus of \\[11\\]MK-6884 is administered and PET scanning initiated, yielding brain regional TACs. These TACs are then used to determine SUV and AUC in order to quantify brain regional \\[11C\\]MK-6884 uptake. The target region BPND is estimated using the cerebellum as the reference region with the TE-TR method. Higher values indicate increased specific \\[11C\\]MK-6884 binding in the brain ROI.",
+                    "populationDescription": "Includes only participants with AD in Part 3 receiving \\[11C\\]MK-6884 who sufficiently comply with study protocol (N=10). Per protocol, participants in Part 1 were not tested for mean BPND of \\[11C\\]MK-6884 and are excluded. Mean BPND data for Part 2 participants are presented in a separate table.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Ratio",
+                    "timeFrame": "Up to 90 minutes post dose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Part 1, Healthy Participants",
+                            "description": "Healthy participants receive a single IV dose of \\~370 megabecquerel MBq \\[11C\\]MK-6884 in Part 1 of the study."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Part 2, Healthy Elderly Participants",
+                            "description": "Healthy elderly participants receive two separate IV doses of \\~370 MBq \\[11C\\]MK-6884 in Part 2 of the study. Administration of the two doses is separated by at least 3 hours."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Part 3, Participants With AD",
+                            "description": "Participants with AD receive a single IV dose of \\~370 MBq \\[11C\\]MK-6884 in Part 3 of the study."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "0"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "0"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Frontal Cortex",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0.74",
+                                            "spread": "0.20"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Striatum",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0.98",
+                                            "spread": "0.20"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Up to 15 days",
+            "description": "An AE is defined as any unfavorable and unintended medical occurrence, sign, symptom, or disease temporally associated with the use of a pharmaceutical product or protocol-specified procedure, whether or not considered related to the pharmaceutical product or protocol-specified procedure. Any worsening of a preexisting condition, temporally associated with the use of the Sponsor's product, is also an AE. All participants receiving \u22651 dose of \\[11C\\]MK-6884 in study Parts 1, 2, or 3 are included.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Part 1, Healthy Participants",
+                    "description": "Healthy participants receive a single IV dose of \\~370 MBq \\[11C\\]MK-6884 in Part 1 of the study.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 3,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 3,
+                    "otherNumAffected": 1,
+                    "otherNumAtRisk": 3
+                },
+                {
+                    "id": "EG001",
+                    "title": "Part 2, Healthy Elderly Participants",
+                    "description": "Healthy elderly participants receive two separate IV doses of \\~370 MBq \\[11C\\]MK-6884 in Part 2 of the study. Administration of the two doses is separated by at least 3 hours.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 7,
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 7,
+                    "otherNumAffected": 4,
+                    "otherNumAtRisk": 7
+                },
+                {
+                    "id": "EG002",
+                    "title": "Part 3, Participants With AD",
+                    "description": "Participants with AD receive a single IV dose of \\~370 MBq \\[11C\\]MK-6884 in Part 3 of the study.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 10,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 10,
+                    "otherNumAffected": 1,
+                    "otherNumAtRisk": 10
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Tendon rupture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 20.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 3
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 7
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Abdominal pain upper",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 20.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 3
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 7
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Dry mouth",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 20.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 3
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 7
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Dyspepsia",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 20.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 3
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 7
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Glossodynia",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 20.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 3
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 7
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Lip dry",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 20.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 3
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 7
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 20.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 3
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 7
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Catheter site pain",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 20.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 3
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 7
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Influenza like illness",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 20.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 3
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 7
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Procedural nausea",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 20.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 3
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 7
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Pain in extremity",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA 20.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 3
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 7
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 20.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 3
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 7
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness postural",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 20.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 3
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 7
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Ecchymosis",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "sourceVocabulary": "MedDRA 20.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 3
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 7
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "The Sponsor must have the opportunity to review all proposed abstracts, manuscripts or presentations regarding this trial 45 days prior to submission for publication/presentation. Any information identified by the Sponsor as confidential must be deleted prior to submission; this confidentiality does not include efficacy and safety results. Sponsor review can be expedited to meet publication timelines."
+            },
+            "pointOfContact": {
+                "title": "Senior Vice President, Global Clinical Development",
+                "organization": "Merck Sharp & Dohme LLC",
+                "email": "ClinicalTrialsDisclosure@merck.com",
+                "phone": "1-800-672-6372"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "[11C]MK-6884 (PET imaging tracer)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention described is [11C]MK-6884, a carbon-11 labeled PET radioligand that binds an allosteric site on the muscarinic M4 receptor and is used to quantify M4 PAM receptor density (i.e., an imaging/biomarker tool rather than a therapeutic). \ue200cite\ue202turn0search0\ue202turn0search4\ue201",
+        "Act: Key extracted details \u2014 open-label, 3-part PET tracer validation enrolling healthy volunteers and AD participants to assess tracer test\u2013retest variability and to qualify [11C]MK-6884 as a biomarker for M4 PAM receptor density and for measuring target engagement of M4 PAM drugs. This trial and publications describe [11C]MK-6884 as a target-engagement/biomarker PET tracer, not as a therapeutic drug. \ue200cite\ue202turn0search5\ue202turn0search1\ue201",
+        "Reflect: By the provided category definitions, this trial is diagnostic/biomarker-focused (PET imaging) and does not test a therapeutic biologic or small molecule intended to modify disease or improve cognition/behavior. Therefore the correct category is 'N/A'. Supporting literature and the clinical-trial listing identify [11C]MK-6884 as a PET tracer for M4 receptor imaging and target-engagement assessment. \ue200cite\ue202turn0search2\ue202turn0search3\ue201",
+        "Web search results used (key sources): PubMed/Science Translational Medicine article describing translation of [11C]MK-6884 to humans and AD patients. \ue200cite\ue202turn0search0\ue202turn0search1\ue201",
+        "Additional chemistry/development detail from Journal of Medicinal Chemistry and Alzheimer\u2019s & Dementia commentary describing discovery and intended use of [11C]MK-6884 as an M4 PAM PET tracer. \ue200cite\ue202turn0search4\ue202turn0search2\ue201",
+        "Clinical trial listing summarizing the described 3-part PET tracer validation study (NCT02621606 entry). \ue200cite\ue202turn0search5\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

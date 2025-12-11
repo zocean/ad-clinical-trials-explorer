@@ -1,0 +1,709 @@
+{
+    "nct_id": "NCT00702780",
+    "title": "Multi-center, Randomized, Placebo-controlled, Double-blind Clinical Trial of Escitalopram on the Progression Delaying Effect in Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2014-05-13",
+    "description_brief": "This study aimed to test whether escitalopram would slow the brain atrophy in patients with mild to moderate AD over the 52-week period.",
+    "description_detailed": "* Study institutions: Four university hospitals in Korea\n* Design: Multi-center, randomized, placebo-controlled, double-blind clinical trial\n* Subjects: 74 probable Alzheimer's disease patients who have been taking donepezil at stable dose within 2 months (Escitalopram 37 : Placebo 37)",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Escitalopram",
+                    "description": "escitalopram 20mg qd"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "placebo 20mg qd"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "37"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "37"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "28"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "29"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "9"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "8"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Escitalopram",
+                    "description": "escitalopram 20mg qd"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo",
+                    "description": "placebo 20mg qd"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "28"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "29"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "57"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "74.33",
+                                            "spread": "7.12"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "74.82",
+                                            "spread": "9.19"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "74.58",
+                                            "spread": "8.17"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "36"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "21"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "% Change of Hippocampus Volume",
+                    "populationDescription": "The analysis was performed for per-protocol (PP) population, which included participants who had both baseline and follow-up MRI scan suitable for analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "percentage of change",
+                    "timeFrame": "52 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Escitalopram",
+                            "description": "escitalopram 20mg qd"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "placebo 20mg qd"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-7.63",
+                                            "spread": "7.32"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-7.28",
+                                            "spread": "5.76"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "% Change of Whole Brain Volume",
+                    "populationDescription": "The analysis was performed for per-protocol (PP) population, which included participants who had both baseline and follow-up MRI scan suitable for analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "percentage of change",
+                    "timeFrame": "52 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Escitalopram",
+                            "description": "escitalopram 20mg qd"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "placebo 20mg qd"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-3.27",
+                                            "spread": "2.69"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2.30",
+                                            "spread": "3.08"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Baseline, and 2, 4, 8, 16, 28, 40, 52 weeks after baseline.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Escitalopram",
+                    "description": "Escitalopram 20mg qd",
+                    "seriousNumAffected": 2,
+                    "seriousNumAtRisk": 37,
+                    "otherNumAffected": 13,
+                    "otherNumAtRisk": 37
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Placebo 20mg qd",
+                    "seriousNumAffected": 3,
+                    "seriousNumAtRisk": 37,
+                    "otherNumAffected": 7,
+                    "otherNumAtRisk": 37
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Jaundice",
+                    "organSystem": "Hepatobiliary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "Death by traffic accident",
+                    "organSystem": "Social circumstances",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "Cerebral hemorrhage",
+                    "organSystem": "Vascular disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "Pneumonia",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "Vomiting",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 4,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "vomiting",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "anorexia",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "abdominal pain",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "diarrhea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "constipation",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "cough",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "bronchitis",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "somnolence",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "tremor",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "violent behavior",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "urinary incontinence",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "hypoglycemia",
+                    "organSystem": "Endocrine disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 37
+                        }
+                    ]
+                },
+                {
+                    "term": "cancer",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 37
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Young Min Choe",
+                "organization": "Seoul National University Hospital",
+                "email": "howlow44@daum.net",
+                "phone": "82-2-2072-1730"
+            }
+        }
+    },
+    "target_category": "neuropsychiatric symptom improvement",
+    "drug": [
+        "Escitalopram (SSRI; small-molecule)"
+    ],
+    "placebo": [
+        "Placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests escitalopram but the drug is a selective serotonin reuptake inhibitor (SSRI) that acts on the serotonin transporter (SERT) \u2014 an antidepressant/anxiolytic small molecule, not a biologic targeting Alzheimer pathology (amyloid or tau). \ue200cite\ue202turn0search0\ue202turn0search4\ue201",
+        "Act: Key extracted details \u2014 drug: escitalopram (small-molecule SSRI); design: multi-center, randomized, placebo-controlled, double-blind; objective (per description): test whether escitalopram slows brain atrophy over 52 weeks. Because escitalopram\u2019s known mechanism and clinical indications are to treat mood/anxiety symptoms (not to directly target AD pathology), the best-fit category is 'neuropsychiatric symptom improvement'. \ue200cite\ue202turn0search12\ue202turn0search0\ue201",
+        "Web search results (most relevant sources found): 1) PubMed review: escitalopram primarily targets the serotonin transporter (SERT) and has effects on serotonin neurotransmission and neuroadaptive/neuroplastic changes. \ue200cite\ue202turn0search0\ue201 2) DrugBank/Drug summary: describes escitalopram\u2019s S-enantiomer properties and mechanism as a selective SERT inhibitor (small-molecule). \ue200cite\ue202turn0search4\ue201 3) Wikipedia/drug summary: lists escitalopram as an FDA\u2011approved antidepressant/ anxiolytic and summarizes pharmacology (high SERT selectivity). \ue200cite\ue202turn0search12\ue201",
+        "Reflect: Although the investigators tested a disease-progression endpoint (brain atrophy), escitalopram is not a disease-targeted biologic or small molecule (by the definition here it does not target amyloid/tau). It is primarily used to treat neuropsychiatric symptoms (depression/anxiety) and any hypothesised slowing of atrophy would be an indirect or exploratory/neuroprotective effect, not a direct anti\u2011amyloid/tau mechanism \u2014 therefore classification as 'neuropsychiatric symptom improvement' is most appropriate. \ue200cite\ue202turn0search0\ue202turn0search12\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The investigational drug is escitalopram, a selective serotonin reuptake inhibitor (SSRI) whose primary molecular target is the serotonin transporter (SERT) \u2014 a component of serotonergic neurotransmission. This indicates the intervention acts on a neurotransmitter system rather than directly on amyloid, tau, ApoE, inflammation, vasculature, etc. \ue200cite\ue202turn0search4\ue202turn0search3\ue201",
+        "Act: Key extracted details \u2014 drug: escitalopram (small\u2011molecule SSRI) targeting SERT; trial design: multi\u2011center, randomized, placebo\u2011controlled, double\u2011blind; objective included testing whether escitalopram slows brain atrophy over 52 weeks but the drug\u2019s known mechanism is modulation of serotonin reuptake and treatment of neuropsychiatric symptoms (depression/anxiety). Mapping the molecular target (SERT) to CADRO gives 'D) Neurotransmitter Receptors'. \ue200cite\ue202turn0search1\ue202turn0search3\ue201",
+        "Reflect: This classification fits because CADRO category D covers interventions acting on neurotransmitter systems/receptors/transporters (serotonergic pathway/SERT). Although the trial measured a disease\u2011progression endpoint (brain atrophy), the mechanism of escitalopram is not a direct anti-amyloid or anti\u2011tau disease\u2011modifying action but modulation of neurotransmission and neuropsychiatric symptoms \u2014 therefore D is the most specific CADRO category. (Note: some exploratory data link serotonin signaling to A\u03b2 biology in certain studies, but that does not change the primary molecular target classification.) \ue200cite\ue202turn0search6\ue202turn0search5\ue201",
+        "Web search results (key sources referenced): 1) PubMed review describing escitalopram\u2019s primary target as the serotonin transporter (SERT) and its allosteric effects. \ue200cite\ue202turn0search4\ue201 2) DrugBank drug entry summarizing escitalopram mechanism as SERT inhibition (orthosteric + allosteric activity). \ue200cite\ue202turn0search3\ue201 3) PubMed entry for the multicenter randomized placebo\u2011controlled double\u2011blind escitalopram trial in AD (primary outcome: hippocampal/whole brain atrophy over 52 weeks). \ue200cite\ue202turn0search1\ue201 4) Clinical trial / controlled study reporting escitalopram effects on CSF A\u03b242 in older adults (exploratory mechanistic link between serotonin signaling and A\u03b2 biology). \ue200cite\ue202turn0search6\ue201 5) Systematic/review summaries of escitalopram efficacy and pharmacology in depression/anxiety. \ue200cite\ue202turn0search5\ue201"
+    ]
+}

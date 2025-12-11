@@ -1,0 +1,652 @@
+{
+    "nct_id": "NCT02553928",
+    "title": "Interventional, Randomised, Double-blind, Study to Evaluate the Safety and Tolerability of Once Daily Versus Twice Daily Memantine Treatment in Patients With Dementia of Alzheimer's Type and MMSE Range 5 - 18",
+    "status": "COMPLETED",
+    "last_update_time": "2018-11-28",
+    "description_brief": "Evaluation of the safety and tolerability of a 20 mg once daily dose of memantine compared with 10 mg given twice daily in patients with dementia of Alzheimer's type and MMSE range 5-18.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE4"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Memantine (Once Daily)",
+                    "description": "Memantine 20 mg once daily, tablets, orally AND Placebo tablets once daily, orally"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Memantine (Twice Daily)",
+                    "description": "Memantine 10 mg twice daily, tablets, orally AND Placebo tablets twice daily, orally"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "30"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "32"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "28"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "29"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Adverse Event",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Administrative reason(s)",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Memantine (Once Daily)",
+                    "description": "Memantine 20 mg once daily, tablets, orally AND Placebo tablets once daily, orally"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Memantine (Twice Daily)",
+                    "description": "10 mg given twice daily, tablets, orally AND Placebo tablets twice daily, orally"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "30"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "32"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "62"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "69.1",
+                                            "spread": "9.3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "70.3",
+                                            "spread": "8.1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "69.7",
+                                            "spread": "8.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "34"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "28"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race/Ethnicity, Customized",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "Asian",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "30"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "MMSE Total Score",
+                    "description": "An 11-item test to assess cognitive aspects of mental function. Subtests assess orientation (item time, place), memory (item registration, recall), attention (item calculation), language (item naming assesses ability of naming, item repetition and comprehension assess the following of verbal commands, item reading assesses understanding of written commands, item writing assessed by writing a sentence spontaneously), and visual construction (item drawing). Scores are dichotomous for each item (1=correct response, 0=incorrect response). Total score=0-30; higher scores indicate lower deficit.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11.4",
+                                            "spread": "4.2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "11.4",
+                                            "spread": "4.5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "11.4",
+                                            "spread": "4.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Modified Hachinski Ischemia Total Score",
+                    "description": "Hachinski Ischaemic Score is a tool helpful in the bedside differentiation of the commonest dementia types, dementia of Alzheimer's type (DAT) and vascular dementia (VaD). A cut-off score \u22644 for DAT and \u22657 for VaD has a sensitivity of 89% and a specificity of 89%(Moroney 1997). Modified Hachinski Ischemic Scale helps to differentiate between Alzheimer's type and multi-infarct dementia.Score can be 0 - 12. Lower score is more typical of a patient with Alzheimer's disease. Higher score is more typical for multi-infarct dementia.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1.6",
+                                            "spread": "1.2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1.8",
+                                            "spread": "0.9"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1.7",
+                                            "spread": "1.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Duration of Alzheimer's Disease",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2.1",
+                                            "spread": "1.9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2.3",
+                                            "spread": "1.9"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2.2",
+                                            "spread": "1.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Adverse Events",
+                    "description": "Number of patients who reported adverse events",
+                    "populationDescription": "All patients treated",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "baseline to week 16 (end of study)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Memantine (Once Daily)",
+                            "description": "Memantine 20 mg once daily, tablets, orally AND Placebo tablets once daily, orally"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Memantine (Twice Daily)",
+                            "description": "Memantine 10 mg twice daily, tablets, orally AND Placebo tablets twice daily, orally"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "30"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "32"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "ADCS - CGIC Score at Week 12",
+                    "description": "The Alzheimer's Disease Cooperative Study - Clinical Global Impression of Change (ADCS-CGIC) is a semi-structured interview designed to assess clinically relevant changes in patients with Alzheimer's disease. Items in the ADCS-CGIC interview provide general information, and information about cognition, behaviour, social and daily functioning. Responses to ADCS-CGIC interview result in a global clinical judgement of severity (at baseline) and clinically relevant change at subsequent visits. Severity rated at baseline is only used for reference. The severity at baseline is rated on a 7-point Likert-type scale from 1(normal, not ill at all) to 7 (among the most extremely ill patients). The ADCS-CGIC relevant change is rated on a 7-point Likert-type scale from 1 (marked improvement) to 7 (marked worsening).",
+                    "populationDescription": "Full analysis set - all randomised patients who took at least one dose of investigational medicinal product, and who had a valid baseline assessment and at least one valid post-baseline assessment of the ADCS-CGIC.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "ADCS - CGIC score at Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Memantine (Once Daily)",
+                            "description": "Memantine 20 mg once daily, tablets, orally AND Placebo tablets once daily, orally"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Memantine (Twice Daily)",
+                            "description": "10 mg given twice daily, tablets, orally AND Placebo tablets twice daily, orally"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "29"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3.92",
+                                            "spread": "0.14"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3.60",
+                                            "spread": "0.14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "The ADCS-CGIC was analyzed based on an analysis of covariance (ANCOVA) of ADCS-CGIC score at Week 12, with treatment and site as fixed factors, and baseline score as a covariate using observed cases.",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.097",
+                            "pValueComment": "Based on full analysis set",
+                            "statisticalMethod": "ANCOVA",
+                            "paramType": "Mean Difference (Final Values)",
+                            "paramValue": "0.32",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-0.06",
+                            "ciUpperLimit": "0.69",
+                            "dispersionType": "STANDARD_ERROR_OF_MEAN",
+                            "dispersionValue": "0.19",
+                            "estimateComment": "The comparison is to BID memantine."
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "Baseline to week 16 (end of study)",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Memantine (Once Daily)",
+                    "description": "Memantine 20 mg once daily, tablets, orally AND Placebo tablets once daily, orally",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 30,
+                    "otherNumAffected": 6,
+                    "otherNumAtRisk": 30
+                },
+                {
+                    "id": "EG001",
+                    "title": "Memantine (Twice Daily)",
+                    "description": "Memantine 10 mg twice daily, tablets, orally AND Placebo tablets twice daily, orally",
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 32,
+                    "otherNumAffected": 2,
+                    "otherNumAtRisk": 32
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Spinal compression fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA (19.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 32
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Hypertension",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "MedDRA (19.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 32
+                        }
+                    ]
+                },
+                {
+                    "term": "Sinus bradycardia",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA (19.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 32
+                        }
+                    ]
+                },
+                {
+                    "term": "White blood cell count decreased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA (19.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 32
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary incontinence",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA (19.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 30
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 32
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "H. Lundbeck",
+                "organization": "H. Lundbeck A/S",
+                "email": "LundbeckClinicalTrials@Lundbeck.com"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "memantine (small-molecule NMDA receptor antagonist; brand Namenda)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial drug is memantine, an orally active small-molecule NMDA (glutamate) receptor antagonist used to provide symptomatic cognitive benefit in moderate-to-severe Alzheimer disease rather than to remove amyloid or tau pathology. \ue200cite\ue202turn0search1\ue202turn0search4\ue201",
+        "Act: Key details from the description \u2014 memantine 20 mg once daily versus 10 mg twice daily in patients with dementia of the Alzheimer type (MMSE 5\u201318). Memantine is a small-molecule, uncompetitive/low-affinity NMDA-channel blocker used as a symptomatic cognitive treatment (approved indication). \ue200cite\ue202turn0search10\ue202turn0search6\ue201",
+        "Web-search support (selected results): memantine mechanism and use as symptomatic AD treatment. \ue200cite\ue202turn0search1\ue202turn0search4\ue202turn0search6\ue202turn0search2\ue201",
+        "Reflect: Given the mechanism (NMDA receptor antagonism) and clinical use (symptomatic cognitive improvement in AD), this trial fits the 'Cognitive enhancer' category \u2014 it evaluates dosing/regimen for a symptomatic cognitive therapy rather than a biologic or a disease-modifying therapy targeting amyloid/tau. No placebo was mentioned in the trial description provided. \ue200cite\ue202turn0search1\ue202turn0search4\ue201",
+        "Notes / ambiguity: Memantine has been described as having some putative neuroprotective effects in preclinical work, but clinically it is used and approved as a symptomatic (cognitive/functional) treatment for moderate-to-severe AD; therefore classification as a cognitive enhancer is appropriate. \ue200cite\ue202turn0search11\ue202turn0search7\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The investigational drug is memantine, an orally active small-molecule that acts as an uncompetitive, low\u2011affinity/open\u2011channel antagonist of NMDA (glutamate) receptors. That mechanism is a neurotransmitter\u2011receptor (glutamatergic NMDA) intervention used for symptomatic cognitive benefit in AD rather than targeting amyloid, tau, inflammation, etc. \ue200cite\ue202turn0search1\ue202turn0search4\ue201",
+        "Act: Extracted details \u2014 memantine (Namenda) is an NMDA receptor antagonist, typical maintenance dosing is 20 mg/day given as 10 mg twice daily (the trial compares once\u2011daily 20 mg vs 10 mg twice daily). Memantine\u2019s action as an NMDA (glutamate) channel blocker places it squarely in CADRO category D (Neurotransmitter Receptors). \ue200cite\ue202turn0search6\ue202turn0search3\ue201",
+        "Reflect: This classification matches the CADRO definitions: memantine targets a neurotransmitter receptor (NMDA/glutamate) to produce symptomatic cognitive effects. Although memantine has been discussed for potential neuroprotective effects in preclinical work, the trial is a symptomatic dosing/tolerability study rather than a disease\u2011modifying trial targeting pathology such as amyloid or tau, so 'D) Neurotransmitter Receptors' is the most specific CADRO category. \ue200cite\ue202turn0search5\ue202turn0search2\ue201",
+        "Web-search results used (selected): 1) Review and mechanistic description of memantine as an uncompetitive, low\u2011affinity NMDA open\u2011channel blocker. \ue200cite\ue202turn0search1\ue202turn0search5\ue201; 2) Clinical review noting memantine approval and symptomatic use in moderate\u2011to\u2011severe AD and dosing info (20 mg/day = 10 mg BID; once\u2011daily formulations/alternatives discussed). \ue200cite\ue202turn0search6\ue202turn0search3\ue201; 3) Additional reviews of memantine\u2019s NMDA\u2011based pharmacology and clinical rationale. \ue200cite\ue202turn0search4\ue202turn0search2\ue201"
+    ]
+}

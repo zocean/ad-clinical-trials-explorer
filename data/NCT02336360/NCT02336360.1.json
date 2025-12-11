@@ -1,0 +1,316 @@
+{
+    "nct_id": "NCT02336360",
+    "title": "A Multicenter Study to Obtain Data to Assist in Radiation Dosimetry Calculations From Subjects Enrolled in Human Studies Employing 18F-AV-1451",
+    "status": "COMPLETED",
+    "last_update_time": "2020-07-27",
+    "description_brief": "This study will obtain data from urine in subjects administered flortaucipir in an Avid-sponsored study to augment the calculation of radiation dosimetry estimates.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "Enrollment occurred from Jan-Jun 2015 from Avid sponsored study 18F-AV-1451-A05 (NCT02016560)",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Urine Analysis",
+                    "description": "Subjects administered flortaucipir in an Avid-sponsored study consenting to urine radioactivity analysis"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Urine Analysis",
+                    "description": "Subjects administered flortaucipir in an Avid-sponsored study consenting to urine radioactivity analysis"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "6"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "68.2",
+                                            "spread": "11.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Urine Analysis - Total Integrated Radioactivity Excreted in Urine",
+                    "description": "Total integrated radioactivity excreted in urine over time will be determined to augment previous radiation dosimetry calculations.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "megabecquerel-hours per megabecquerel",
+                    "timeFrame": "0-360 minutes post injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Urine Analysis",
+                            "description": "Subjects administered flortaucipir in an Avid-sponsored study consenting to urine radioactivity analysis"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "6"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.1413",
+                                            "spread": "0.07216"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "AEs were not collected in this study",
+            "description": "No subjects were administered a drug in this study. Therefore, participants at risk for adverse events in this study is zero.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Urine Analysis",
+                    "description": "Subjects administered flortaucipir in an Avid-sponsored study consenting to urine radioactivity analysis",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 0,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 0,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 0
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "LTE60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Medical Director",
+                "organization": "Avid Radiopharmaceuticals, Inc.",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "flortaucipir (18F\u2011AV\u20111451; a.k.a. AV\u20111451, T807, marketed as TAUVID)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention described (flortaucipir / 18F\u2011AV\u20111451) is a radiolabeled PET imaging tracer that binds aggregated (PHF) tau and is used to image tau pathology in the brain \u2014 i.e., a diagnostic imaging agent, not a therapeutic intended to modify disease or improve cognition. \ue200cite\ue202turn0search3\ue202turn0search2\ue201",
+        "Act: The study text you provided (\"obtain data from urine in subjects administered flortaucipir ... to augment the calculation of radiation dosimetry estimates\") matches the clinical trial record for NCT02336360 (Augmenting Flortaucipir Dosimetry Estimates), which collects urine radioactivity to improve dosimetry calculations \u2014 a diagnostic/dosimetry study rather than a treatment trial. Therefore the trial does not fit the four therapeutic categories. \ue200cite\ue202turn2search0\ue202turn2search5\ue201",
+        "Reflect: Authoritative sources show flortaucipir (branded TAUVID) is an FDA\u2011approved radioactive PET tracer indicated to image tau neurofibrillary tangles (diagnostic use); its purpose is to aid evaluation/diagnosis and dosimetry/radiation exposure is a known consideration for such agents \u2014 supporting classification as non-therapeutic (N/A). \ue200cite\ue202turn1search0\ue202turn1search7\ue201",
+        "Web-search results (key sources found):\n- ClinicalTrials entry for the study (NCT02336360) \u2014 Augmenting Flortaucipir Dosimetry Estimates (confirms urine collection for dosimetry). \ue200cite\ue202turn2search0\ue201\n- FDA press release: approval of Tauvid (flortaucipir F\u201118) as a PET tracer to image tau pathology (diagnostic). \ue200cite\ue202turn1search0\ue201\n- TAUVID (flortaucipir F\u201118) product/prescribing information (indication, dosing, and notes on radiation/dosimetry). \ue200cite\ue202turn1search2\ue202turn1search7\ue201\n- Publications describing flortaucipir (18F\u2011AV\u20111451) PET use and human radiation dosimetry for the tracer. \ue200cite\ue202turn0search3\ue202turn2search1\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

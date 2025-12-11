@@ -1,0 +1,885 @@
+{
+    "nct_id": "NCT04507126",
+    "title": "Effects of Bacillus Calmette-Gu\u00e9rin (BCG) Immunization on Cerebrospinal Fluid (CSF) and Blood-Based Biomarkers in Older Adults: A Pilot",
+    "status": "COMPLETED",
+    "last_update_time": "2023-09-08",
+    "description_brief": "A pilot study of the effects of Bacillus Calmette-Gu\u00e9rin (BCG) immunization on cerebrospinal fluid and blood-based biomarkers in older adults.",
+    "description_detailed": "This single-site, open-label clinical trial will investigate the immune and neurobiological effects of BCG vaccination in cognitively unimpaired older adults and older adults with memory and thinking problems by measuring target engagement, pharmacodynamic response, and effect on Alzheimer's disease (AD) pathology and immune response markers. This study will also gather data on study feasibility, tolerability, and safety.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "OTHER",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "BCG Immunization",
+                    "description": "All participants will receive two Bacillus Calmette-Gu\u00e9rin (Japan BCG) vaccine injections spaced four week apart. Each injection will have 1.8-3.9 x 10\\^6 colony forming units (CFU) reconstituted in 0.1 mL saline.\n\nBacillus Calmette-Guerin (BCG): Vaccine"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "20"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "16"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Protocol Violation",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Physician Decision",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "BCG Immunization",
+                    "description": "All participants will receive two Bacillus Calmette-Gu\u00e9rin (Japan BCG) vaccine injections spaced four week apart. Each injection will have 1.8-3.9 x 10\\^6 colony forming units (CFU) reconstituted in 0.1 mL saline.\n\nBacillus Calmette-Guerin (BCG): Vaccine"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "16"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Customized",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "55-80 Years Old",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race/Ethnicity, Customized",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "White - caucasian/european heritage",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Non Hispanic",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Cerebrospinal Fluid (CSF) collection",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Blood collection",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Number of participants that participated in cognitive testing",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Median Fold Change of Cytokine Levels From Day 0 to Day 90",
+                    "description": "Heat-killed BCG or Lipopolysaccharide (LPS) applied to peripheral blood mononuclear cells (PBMCs) from subjects at 0 and 90d after study start.\n\nCalculated as median fold change of cytokine levels in media at day 90 (pg/mL) compared to day 0 (pg/mL)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "pg/mL",
+                    "timeFrame": "Day 90 compared to Day 0",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BCG Immunization",
+                            "description": "All participants will receive two Bacillus Calmette-Gu\u00e9rin (Japan BCG) vaccine injections spaced four week apart. Each injection will have 1.8-3.9 x 10\\^6 colony forming units (CFU) reconstituted in 0.1 mL saline.\n\nBacillus Calmette-Guerin (BCG): Vaccine"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Interferon-gamma cytokine",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3254",
+                                            "lowerLimit": "281.1",
+                                            "upperLimit": "7169"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Interleukin-1 beta cytokine",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.997",
+                                            "lowerLimit": "-5.641",
+                                            "upperLimit": "15.08"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Interleukin 6 cytokine",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "16.83",
+                                            "lowerLimit": "-319.8",
+                                            "upperLimit": "717.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Tumor necrosis factor alpha cytokine",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-33.89",
+                                            "lowerLimit": "-529.3",
+                                            "upperLimit": "1746"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants With Treatment-Related Adverse Events",
+                    "description": "Number of Participants With Treatment-Related Adverse Events to determine safety of BCG",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "AEs were collected from baseline through study completion, an average of 390 days",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BCG Immunization",
+                            "description": "All participants will receive two Bacillus Calmette-Gu\u00e9rin (Japan BCG) vaccine injections spaced four week apart. Each injection will have 1.8-3.9 x 10\\^6 colony forming units (CFU) reconstituted in 0.1 mL saline.\n\nNumber of Participants With Treatment-Related Adverse Events to determine safety of BCG"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Median Difference in CSF Biomarkers of Alzheimer's Disease (AD) Pathology From Day 0 to Day 90",
+                    "description": "Median difference of biomarkers measured in pg/mL (Amyloid-\u03b242/40, phospho-tau (p181 tau), glial fibrillary astrocytic protein (GFAP) and neurofilament light protein (NFL) biomarkers) in CSF from baseline to 90 days.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "pg/mL",
+                    "timeFrame": "Day 90 compared to Day 0",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BCG Immunization",
+                            "description": "All participants will receive two Bacillus Calmette-Gu\u00e9rin (Japan BCG) vaccine injections spaced four week apart. Each injection will have 1.8-3.9 x 10\\^6 colony forming units (CFU) reconstituted in 0.1 mL saline.\n\nBacillus Calmette-Guerin (BCG): Vaccine"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "15"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "AB42/40",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.0005220",
+                                            "lowerLimit": "-0.002264",
+                                            "upperLimit": "0.002382"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "NFL",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-47.17",
+                                            "lowerLimit": "-361.6",
+                                            "upperLimit": "125.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "GFAP",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "789.7",
+                                            "lowerLimit": "-693",
+                                            "upperLimit": "3842"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "p181- Tau",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.058",
+                                            "lowerLimit": "-.9333",
+                                            "upperLimit": "4.767"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Median Fold Change in CSF Biomarkers of Pharmacodynamic Response From Day 0 to Day 90",
+                    "description": "Median Fold change in CSF biomarkers from baseline measured in pg/mL (Interleukin 6 (IL6), Tumor Necrosis Factor alpha (TNFa), interleukin 1 beta (IL1beta), Interferon gamma (IFNg))",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "pg/mL",
+                    "timeFrame": "Day 90 compared to Day 0",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BCG Immunization",
+                            "description": "All participants will receive two Bacillus Calmette-Gu\u00e9rin (Japan BCG) vaccine injections spaced four week apart. Each injection will have 1.8-3.9 x 10\\^6 colony forming units (CFU) reconstituted in 0.1 mL saline.\n\nBacillus Calmette-Guerin (BCG): Vaccine"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Interferon gamma (IFNg)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-.01",
+                                            "lowerLimit": "-3.015",
+                                            "upperLimit": "4.500"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Interleukin 6 (IL6)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7.332",
+                                            "lowerLimit": "-783",
+                                            "upperLimit": "548.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Tumor Necrosis Factor alpha (TNFa)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-.8676",
+                                            "lowerLimit": "-14.66",
+                                            "upperLimit": "6.242"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Interleukin 1 beta (IL1B)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "23.74",
+                                            "lowerLimit": "-7.202",
+                                            "upperLimit": "72.03"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Cognitive Measures (RBANS) Total Scored Index, 3 Months After BCG Injection",
+                    "description": "Mean change in Repeatable Battery for the Assessment of Neuropsychological Status (RBANS) from baseline to 3 months after BCG injection. Total Scaled Index (TSI) . Higher scores mean better performance on the RBANS Total Scaled Index.\n\nTSI Minimum 40, TSI Maximum 160.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "units on TSI scale",
+                    "timeFrame": "Day 90 compared to Day 0",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BCG Immunization",
+                            "description": "All participants will receive two Bacillus Calmette-Gu\u00e9rin (Japan BCG) vaccine injections spaced four week apart. Each injection will have 1.8-3.9 x 10\\^6 colony forming units (CFU) reconstituted in 0.1 mL saline.\n\nBacillus Calmette-Guerin (BCG): Vaccine"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Day 0",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "98.1",
+                                            "lowerLimit": "88.57",
+                                            "upperLimit": "107.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 90",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "104.1",
+                                            "lowerLimit": "93.32",
+                                            "upperLimit": "114.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Median Fold Change in Circulating Cytokines From Day 0 to Day 90",
+                    "description": "Median Fold change in circulating cytokines in plasma from baseline measured in pg/mL (IL6, TNFa, IL1beta, IFNg)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "pg/mL",
+                    "timeFrame": "Time Frame: Day 90 compared to Day 0",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "BCG Immunization",
+                            "description": "All participants will receive two Bacillus Calmette-Gu\u00e9rin (Japan BCG) vaccine injections spaced four week apart. Each injection will have 1.8-3.9 x 10\\^6 colony forming units (CFU) reconstituted in 0.1 mL saline.\n\nBacillus Calmette-Guerin (BCG): Vaccine"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "IFNg",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "259.8",
+                                            "lowerLimit": "27.32",
+                                            "upperLimit": "789.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "IL1beta",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "33.47",
+                                            "lowerLimit": "-20.48",
+                                            "upperLimit": "109.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "IL6",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "332.9",
+                                            "lowerLimit": "-769.4",
+                                            "upperLimit": "1020"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "TNFa",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "24.80",
+                                            "lowerLimit": "-22.71",
+                                            "upperLimit": "145.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Adverse event data was collected from baseline to end of study, up to 396 days.",
+            "description": "Adverse events were systematically collected at each study visit and reviewed by the study PI regularly.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "BCG Immunization",
+                    "description": "All participants will receive two Bacillus Calmette-Gu\u00e9rin (Japan BCG) vaccine injections spaced four week apart. Each injection will have 1.8-3.9 x 10\\^6 colony forming units (CFU) reconstituted in 0.1 mL saline.\n\nBacillus Calmette-Guerin (BCG): Vaccine",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 16,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 16,
+                    "otherNumAffected": 7,
+                    "otherNumAtRisk": 16
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Post Lumbar Puncture Headache",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Intermittent headache",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Back pain",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Hematoma at blood draw site",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Removal of squamous cell carcinoma",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Contact dermatitis",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Increased stress",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Research Operations Director",
+                "organization": "MGH",
+                "email": "jgerber2@mgh.harvard.edu",
+                "phone": "617-724-1992"
+            }
+        }
+    },
+    "target_category": "disease-targeted biologic",
+    "drug": [
+        "Bacillus Calmette-Gu\u00e9rin (BCG) vaccine"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention is Bacillus Calmette-Gu\u00e9rin (BCG) immunization, a live-attenuated vaccine (a biologic) being given to older adults to measure effects on cerebrospinal fluid (CSF) and blood biomarkers, including Alzheimer\u2019s disease (AD) pathology markers (A\u03b242/40, p\u2011tau) and immune markers. The trial explicitly aims to assess effects on AD pathology and immune response markers, indicating an intent to influence disease-related biology rather than only symptomatic cognition or neuropsychiatric symptoms. \ue200cite\ue202turn1search1\ue202turn0search4\ue201",
+        "Act (key details + web search results):\n- Intervention: Bacillus Calmette-Gu\u00e9rin (BCG) immunization (live attenuated Mycobacterium bovis vaccine). \ue200cite\ue202turn0search4\ue201\n- Trial description: Pilot, single-site, open-label study measuring target engagement, pharmacodynamic response, and effect on Alzheimer's disease pathology biomarkers (CSF amyloid\u2011\u03b242/40, phospho\u2011tau, GFAP, NfL) and circulating/CSF cytokines; enrolled older adults (cognitively unimpaired and with MCI). \ue200cite\ue202turn1search0\ue202turn1search1\ue201\n- Rationale / context from literature: Observational and meta-analytic studies and reviews have reported associations between BCG exposure (including intravesical BCG for bladder cancer) and reduced risk/incidence or slower progression of dementia/AD in some cohorts; BCG is also known to induce broad immunomodulatory or \u201ctrained immunity\u201d effects that are hypothesized to influence neuroinflammation and possibly AD pathology. \ue200cite\ue202turn0search7\ue202turn0search2\ue202turn0search6\ue201",
+        "Reflect: Classification choice \u2014 disease-targeted biologic \u2014 is based on the facts that (1) BCG is a biologic vaccine and (2) the study\u2019s stated endpoints include direct AD pathology biomarkers in CSF (amyloid and tau measures) and immune markers, indicating the trial is testing whether a biologic immunomodulator can alter disease-related biology (i.e., potential disease-modifying effects). Although BCG is not an Alzheimer-specific antigen vaccine (it does not directly target amyloid or tau like an anti\u2011A\u03b2 monoclonal), the protocol aims to influence AD pathology via immune modulation; under the provided category definitions (which group vaccines/biologics that target Alzheimer\u2019s pathology under 'disease-targeted biologic'), this trial best fits that category. Key sources supporting these points (trial record, vaccine description, and reviews of BCG\u2013AD associations) are cited above. \ue200cite\ue202turn1search1\ue202turn0search4\ue202turn0search2\ue201"
+    ],
+    "agent_type": "F) Inflammation",
+    "explanation_agent": [
+        "Reason: The intervention is Bacillus Calmette\u2013Gu\u00e9rin (BCG) vaccination, a live\u2011attenuated biologic being tested to produce immunomodulatory/'trained immunity' effects and to alter CNS and peripheral immune markers as well as AD pathology biomarkers (A\u03b242/40, p\u2011tau). The trial explicitly measures immune cytokines and CSF AD biomarkers, indicating the intended mechanism is immune modulation/neuroinflammation rather than directly targeting amyloid or tau molecules with antigen\u2011specific agents. \ue200cite\ue202turn2search3\ue202turn2search0\ue201",
+        "Act: Key details extracted from the trial and literature \u2014 (1) Trial: pilot open\u2011label study of intradermal BCG in older adults measuring target engagement, cytokines, and CSF AD biomarkers (A\u03b242/40, p\u2011tau, GFAP, NfL). \ue200cite\ue202turn2search3\ue202turn2search7\ue201 (2) Mechanism/context: BCG induces broad immunomodulation and 'trained immunity' (epigenetic/metabolic reprogramming of innate cells) hypothesized to affect neuroinflammation and possibly AD progression. \ue200cite\ue202turn1search2\ue201 (3) Supporting evidence: observational/cohort studies and meta-analyses report associations between BCG exposure (e.g., intravesical BCG) and reduced dementia/AD risk; preclinical work shows BCG can reduce neuroinflammation and improve cognition in AD mouse models. \ue200cite\ue202turn2search4\ue202turn1search4\ue202turn1search8\ue201",
+        "Reflect: CADRO mapping \u2014 the trial tests an immunomodulatory biologic aimed at altering inflammatory/immune pathways and neuroinflammation to influence AD biology. This maps most specifically to CADRO category F) Inflammation. The intervention is not an anti\u2011A\u03b2 or anti\u2011tau antigen\u2011specific therapeutic (so not A or B), nor is it clearly multi\u2011target in the sense of deliberately addressing several distinct CADRO domains; its primary, stated focus is immune/neuroinflammatory modulation. Trial record and reviews support this interpretation. \ue200cite\ue202turn2search3\ue202turn1search2\ue201"
+    ]
+}

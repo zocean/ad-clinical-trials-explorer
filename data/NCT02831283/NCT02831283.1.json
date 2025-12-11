@@ -1,0 +1,929 @@
+{
+    "nct_id": "NCT02831283",
+    "title": "Imaging Inflammation in Elders With Different Clinical and Biomarker Profiles of Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2025-02-12",
+    "description_brief": "This study is being done to learn about inflammation and amyloid in Alzheimer's disease. A type of brain scan called a PET scan is used measure 1) inflammation and 2) abnormal accumulation of a the amount of a certain protein fragment called beta-amyloid (plaques) in the brain. These are thought to be involved in Alzheimer's disease. The investigators will also perform brain MRI and do tests to measure the participants' memory and thinking.",
+    "description_detailed": "This study is being done to determine the relationship between inflammation, cognitive impairment, and amyloid burden in elderly subjects with different clinical and biomarker profiles of Alzheimer's disease (AD). Participants will undergo amyloid PET imaging with 18F-Florbetaben with target number of completers being 15 amyloid-positive elders with impairment, 15 amyloid-positive elders with normal cognition, 15 amyloid-negative elders with impairment, and 15 amyloid-negative elders with normal cognition. Subjects will undergo screen that includes neuropsychological testing, brain MRI, and PET imaging with 18F-florbetaben to define the above 4 groups. Subjects will have 11C-PBR28 PET imaging to measure the 18 kDa translocator protein (a marker of inflammation). Subjects will have the option to have lumbar puncture performed to measure CSF concentrations of amyloid,tau, phospho-tau, and inflammatory markers.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Amyloid-positive With Cognitive Impairment (AD)",
+                    "description": "Amyloid-positive patients who already have cognitive impairment at the time of enrollment"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Amyloid-positive Without Impairment (Preclinical AD)",
+                    "description": "Cognitively normal subjects who are amyloid-positive"
+                },
+                {
+                    "id": "FG002",
+                    "title": "Amyloid-negative With Cognitive Impairment",
+                    "description": "Participants with cognitive impairment due to suspected non-AD pathophysiology"
+                },
+                {
+                    "id": "FG003",
+                    "title": "Amyloid-negative Without Impairment (Normal Aging)",
+                    "description": "Cognitively normal subjects who are amyloid-negative on PET and lack signs of neurodegeneration from other biomarkers"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "24"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "8"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "11"
+                                },
+                                {
+                                    "groupId": "FG003",
+                                    "numSubjects": "17"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "24"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "8"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "11"
+                                },
+                                {
+                                    "groupId": "FG003",
+                                    "numSubjects": "17"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG003",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Amyloid-positive With Cognitive Impairment (AD)",
+                    "description": "Amyloid-positive patients who already have cognitive impairment at the time of enrollment"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Amyloid-positive Without Impairment (Preclinical AD)",
+                    "description": "Cognitively normal subjects who are amyloid-positive"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Amyloid-negative With Cognitive Impairment",
+                    "description": "Participants with cognitive impairment due to suspected non-AD pathophysiology"
+                },
+                {
+                    "id": "BG003",
+                    "title": "Amyloid-negative Without Impairment (Normal Aging)",
+                    "description": "Cognitively normal subjects who are amyloid-negative on PET and lack signs of neurodegeneration from other biomarkers"
+                },
+                {
+                    "id": "BG004",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "24"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "8"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "11"
+                        },
+                        {
+                            "groupId": "BG003",
+                            "value": "17"
+                        },
+                        {
+                            "groupId": "BG004",
+                            "value": "60"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "65.2",
+                                            "spread": "8.7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "73.8",
+                                            "spread": "3.1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "75.8",
+                                            "spread": "9.8"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "67.6",
+                                            "spread": "3.8"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "68.8",
+                                            "spread": "8.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "20"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "40"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "54"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "9"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "24"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "51"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "11C-PBR28 Binding",
+                    "description": "In vivo quantification radioligand binding to TSPO expression on microglia in the brain, reported as standardized uptake value ratio (SUVR).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "SUVR",
+                    "timeFrame": "Up to 1 year from screening",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Amyloid-positive With Cognitive Impairment (AD)",
+                            "description": "Amyloid-positive patients who already have cognitive impairment at the time of enrollment"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Amyloid-positive Without Impairment (Preclinical AD)",
+                            "description": "Cognitively normal subjects who are amyloid-positive"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Amyloid-negative With Cognitive Impairment",
+                            "description": "Participants with cognitive impairment due to suspected non-AD pathophysiology"
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "Amyloid-negative Without Impairment (Normal Aging)",
+                            "description": "Cognitively normal subjects who are amyloid-negative on PET and lack signs of neurodegeneration from other biomarkers"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "24"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "8"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "17"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.25",
+                                            "spread": "0.18"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.15",
+                                            "spread": "0.16"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "1.16",
+                                            "spread": "0.16"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "1.02",
+                                            "spread": "0.13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "18F-Florbetaben Binding",
+                    "description": "In vivo quantification of radioligand binding to Amyloid-Beta protein in the brain, reported as standardized uptake value ratio (SUVR).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "SUVR",
+                    "timeFrame": "Up to 1 year from screening",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Amyloid-positive With Cognitive Impairment (AD)",
+                            "description": "Amyloid-positive patients who already have cognitive impairment at the time of enrollment"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Amyloid-positive Without Impairment (Preclinical AD)",
+                            "description": "Cognitively normal subjects who are amyloid-positive"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Amyloid-negative With Cognitive Impairment",
+                            "description": "Participants with cognitive impairment due to suspected non-AD pathophysiology"
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "Amyloid-negative Without Impairment (Normal Aging)",
+                            "description": "Cognitively normal subjects who are amyloid-negative on PET and lack signs of neurodegeneration from other biomarkers"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "24"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "8"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "17"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.64",
+                                            "spread": "0.18"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.51",
+                                            "spread": "0.14"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "1.17",
+                                            "spread": "0.14"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "1.12",
+                                            "spread": "0.06"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Cerebral Spinal Fluid (CSF) Biomarkers",
+                    "description": "Protein analysis of cerebral spinal fluid.",
+                    "populationDescription": "Some participants did not wish to do this procedure, so data was not collected from these participants.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ng/mL",
+                    "timeFrame": "Up to 1 year from screening",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Amyloid-positive With Cognitive Impairment (AD)",
+                            "description": "Amyloid-positive patients who already have cognitive impairment at the time of enrollment"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Amyloid-positive Without Impairment (Preclinical AD)",
+                            "description": "Cognitively normal subjects who are amyloid-positive"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Amyloid-negative With Cognitive Impairment",
+                            "description": "Participants with cognitive impairment due to suspected non-AD pathophysiology"
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "Amyloid-negative Without Impairment (Normal Aging)",
+                            "description": "Cognitively normal subjects who are amyloid-negative on PET and lack signs of neurodegeneration from other biomarkers"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "4"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "3"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "5"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3.14",
+                                            "spread": "1.69"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4.21",
+                                            "spread": "1.74"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "3.26",
+                                            "spread": "2.99"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "2.05",
+                                            "spread": "0.57"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "Up to 1 year",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Amyloid-positive With Cognitive Impairment (AD)",
+                    "description": "Amyloid-positive patients who already have cognitive impairment at the time of enrollment",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 24,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 24,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 24
+                },
+                {
+                    "id": "EG001",
+                    "title": "Amyloid-positive Without Impairment (Preclinical AD)",
+                    "description": "Cognitively normal subjects who are amyloid-positive",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 8,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 8,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 8
+                },
+                {
+                    "id": "EG002",
+                    "title": "Amyloid-negative With Cognitive Impairment",
+                    "description": "Participants with cognitive impairment due to suspected non-AD pathophysiology",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 11,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 11,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 11
+                },
+                {
+                    "id": "EG003",
+                    "title": "Amyloid-negative Without Impairment (Normal Aging)",
+                    "description": "Cognitively normal subjects who are amyloid-negative on PET and lack signs of neurodegeneration from other biomarkers",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 17,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 17,
+                    "otherNumAffected": 2,
+                    "otherNumAtRisk": 17
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Soreness at IV injection site",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 24
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 8
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numAffected": 0,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numAffected": 1,
+                            "numAtRisk": 17
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 24
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 8
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numAffected": 0,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG003",
+                            "numAffected": 1,
+                            "numAtRisk": 17
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "Patrick Lao",
+                "organization": "Columbia University",
+                "email": "PJL2133@CUMC.COLUMBIA.EDU",
+                "phone": "2123421351"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The study description and title indicate an imaging/biomarker study using PET (to measure inflammation and beta-amyloid) plus MRI and cognitive testing. There is no therapeutic intervention (no drug being administered to treat disease), so the trial is diagnostic/observational rather than testing a disease-modifying or symptomatic drug.",
+        "Act (extracted details): The study uses amyloid PET with 18F-Florbetaben and inflammation PET with 11C-PBR28 (a TSPO tracer), with optional lumbar puncture for CSF biomarkers; the study is registered as NCT02831283 in clinical-trial listings. \ue200cite\ue202turn0search2\ue202turn0search0\ue201",
+        "Reflect: Because the intervention is imaging (radiotracers) to measure biomarkers and cognition rather than a biologic or small-molecule therapy intended to modify disease or improve symptoms, the correct category is 'N/A' (does not fit the four therapeutic categories). This classification is supported by the trial entries and descriptions for this protocol. \ue200cite\ue202turn0search4\ue202turn0search6\ue201",
+        "Web search results (sources used):\n- Trial description / listing summarizing the study (includes 18F-Florbetaben and 11C-PBR28; NCT02831283). \ue200cite\ue202turn0search2\ue202turn0search0\ue201\n- MedPath / trial registry details showing interventions listed as PET tracers and optional LP. \ue200cite\ue202turn0search4\ue201\n- Grant summary describing the imaging aims (inflammation, tau, amyloid relationships). \ue200cite\ue202turn0search6\ue201\n- Review on PET imaging of neuroinflammation (context for 11C-PBR28/TSPO tracers). \ue200cite\ue202turn0search5\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

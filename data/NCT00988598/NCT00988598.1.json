@@ -1,0 +1,2377 @@
+{
+    "nct_id": "NCT00988598",
+    "title": "A PHASE 1, DOUBLE-BLIND, PLACEBO-CONTROLLED, SPONSOR OPEN, RANDOMIZED, MULTIPLE DOSE STUDY TO EVALUATE THE SAFETY, TOLERABILITY, AND PHARMACOKINETICS OF PF-04447943 IN MILD TO MODERATE ALZHEIMER'S DISEASE SUBJECTS ON STABLE DONEPEZIL THERAPY",
+    "status": "COMPLETED",
+    "last_update_time": "2020-10-28",
+    "description_brief": "The purpose of the study is to evaluate the safety of PF-04447943 when given in combination with donepezil in subjects who have Alzheimer's Disease. The study will also evaluate the absorption and distribution of both PF-04447943 and donepezil.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "Eligible participants enrolled in this study were already on prior stable donepezil therapy.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "PF-04447943 25 mg + Donepezil",
+                    "description": "PF-04447943 25 milligram (mg) tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo + Donepezil",
+                    "description": "Placebo matched to PF-04447943 tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "10"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "5"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "8"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "5"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "Safety analysis set included all participants who had received at least 1 dose of study medication.",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "PF-04447943 25 mg + Donepezil",
+                    "description": "PF-04447943 25 mg tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo + Donepezil",
+                    "description": "Placebo matched to PF-04447943 tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "10"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "5"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "15"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "69.9",
+                                            "spread": "5.6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "69.8",
+                                            "spread": "5.8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "69.9",
+                                            "spread": "5.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "10"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants With Vital Signs Abnormalities of Potential Clinical Concern",
+                    "description": "Criteria for vital signs abnormalities of potential concern included: supine/standing systolic blood pressure (BP) (less than \\[\\<\\] 90 millimeter of mercury \\[mmHg\\], maximum \\[max\\] decrease and increase of greater than or equal to \\[\\>=\\] 30 mmHg from baseline); diastolic BP (\\<50 mmHg, maximum decrease and increase of \\>=20 mmHg from baseline); supine pulse rate \\<40 beats per minute \\[bpm\\] or greater than \\[\\>\\]120 bpm); standing pulse rate \\<40 bpm or \\>140 bpm. Baseline is defined as the last pre-dose (PF-04447943) recording at Day 0.",
+                    "populationDescription": "Safety analysis set included all participants who had received at least 1 dose of study medication.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "timeFrame": "Baseline up to Day 10",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PF-04447943 25 mg + Donepezil",
+                            "description": "PF-04447943 25 mg tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo + Donepezil",
+                            "description": "Placebo matched to PF-04447943 tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "5"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Supine Systolic BP (<90 mmHg)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Standing Systolic BP (<90 mmHg)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Supine Diastolic BP (<50 mmHg)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Standing Diastolic BP (<50 mmHg)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Max Increase in Supine Systolic BP (>=30 mmHg)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Max Increase in Standing Systolic BP (>=30 mmHg)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Max Increase in Supine Diastolic BP (>=20 mmHg)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Max Increase in Standing Diastolic BP (>=20 mmHg)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Max Decrease in Supine Systolic BP (>=30 mmHg)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Max Decrease in Standing Systolic BP (>=30 mmHg)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Max Decrease in Supine Diastolic BP (>=20 mmHg)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Max Decrease in Standing Diastolic BP (>=20 mmHg)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Supine Pulse Rate (<40 bpm)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Supine Pulse Rate (>120 bpm)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Standing Pulse Rate (<40 bpm)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Standing Pulse Rate (>140 bpm)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants With Electrocardiogram (ECG) Abnormalities of Potential Clinical Concern",
+                    "description": "Criteria for ECG abnormalities of potential clinical concern included: PR interval (\\>=300 milliseconds \\[msec\\], \\>= 25 percent \\[%\\] increase when baseline \\>200 msec or increase \\>=50% when baseline less than or equal to \\[\\<=\\] 200 msec); QRS interval (\\>=200 msec, \\>= 25% increase when baseline \\>100 msec or increase \\>=50% when baseline \\<=100 msec); QT corrected using Fridericia's formula (QTcF) (\\>=500 msec, maximum increase between \\>=30 to \\<60 msec and \\>=60 msec). Baseline is defined as the last pre-dose (PF-04447943) recording at Day 0.",
+                    "populationDescription": "Safety analysis set included all participants who had received at least 1 dose of study medication.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "timeFrame": "Baseline up to Day 10",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PF-04447943 25 mg + Donepezil",
+                            "description": "PF-04447943 25 mg tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo + Donepezil",
+                            "description": "Placebo matched to PF-04447943 tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "5"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Maximum PR Interval (>=300 msec)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Maximum PR Interval Increase (>=25/50%)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Maximum QRS Interval (>=200 msec)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Maximum QRS Interval Increase (>=25/50%)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Maximum QTcF Interval (>=500 msec)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Maximum QTcF Interval Increase(Change >=30 to <60)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Maximum QTcF Interval Increase (Change >=60)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants With Laboratory Test Abnormalities",
+                    "description": "Criteria for laboratory tests abnormalities included: hemoglobin, hematocrit (\\<0.8\\*lower limit of normal \\[LLN\\]); red blood cell count (\\<0.8\\*LLN); platelets (\\<0.5\\*LLN or \\>1.75\\* upper limit of normal \\[ULN\\]); leucocytes (\\<0.6\\*LLN or \\>1.5\\*ULN); lymphocytes, total neutrophils (\\<0.8\\*LLN or \\>1.2\\*ULN); basophils, eosinophils, monocytes (\\>1.2\\*ULN); total bilirubin (\\>1.5\\* ULN); aspartate aminotransferase, alanine aminotransferase, alkaline phosphatase (\\>3\\*ULN); creatinine, blood urea nitrogen (\\>1.3\\*ULN); glucose (\\<0.6\\*LLN or \\>1.5\\*ULN); uric acid (\\>1.2\\*ULN); sodium (\\<0.95\\*LLN or 1.05\\*ULN); potassium, calcium, chloride, bicarbonate (\\<0.9\\*LLN or 1.1\\*ULN); albumin, total protein (\\<0.8\\*LLN or 1.2\\*ULN); urine analysis. Total number of participants with any laboratory abnormalities was reported.",
+                    "populationDescription": "Safety analysis set included all participants who had received at least 1 dose of study medication.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "timeFrame": "Baseline up to Day 10",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PF-04447943 25 mg + Donepezil",
+                            "description": "PF-04447943 25 mg tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo + Donepezil",
+                            "description": "Placebo matched to PF-04447943 tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "5"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants With Treatment-Emergent Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+                    "description": "An AE was any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. An SAE was an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. Treatment-emergent are events between first dose of study drug and up to Day 10 after last dose that were absent before treatment or that worsened relative to pretreatment state. Any abnormalities related to physical and neurological findings, laboratory tests, vital signs and ECG were reported as adverse events. AEs included SAEs as well as non-serious AEs which occurred during the trial.",
+                    "populationDescription": "Safety analysis set included all participants who had received at least 1 dose of study medication.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "timeFrame": "Baseline up to Day 10",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PF-04447943 25 mg + Donepezil",
+                            "description": "PF-04447943 25 mg tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo + Donepezil",
+                            "description": "Placebo matched to PF-04447943 tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "5"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "AEs",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "SAEs",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Plasma Concentrations of PF-04447943",
+                    "populationDescription": "Pharmacokinetic (PK) concentration analysis set included all randomized participants who had received at least one dose of PF-04447943 and had at least 1 evaluable PF-04447943 concentration. Here, 'number analyzed, n' signifies those participants who were evaluable at specified time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "nanogram per milliliter (ng/mL)",
+                    "timeFrame": "0 hours (pre-dose), 0.5, 1, 3, 8, 12 hours after morning dose of PF-04447943 on Day 1, Day 7",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PF-04447943 25 mg + Donepezil",
+                            "description": "PF-04447943 25 mg tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Day 1: 0 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.01050",
+                                            "spread": "0.033204"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 1: 0.5 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "179.6",
+                                            "spread": "127.67"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 1: 1 hour",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "296.7",
+                                            "spread": "83.312"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 1: 3 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "225.9",
+                                            "spread": "46.905"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 1: 8 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "91.76",
+                                            "spread": "30.400"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 1: 12 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "51.99",
+                                            "spread": "21.018"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7: 0 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "73.49",
+                                            "spread": "28.023"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7: 0.5 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "340.4",
+                                            "spread": "168.41"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7: 1 hour",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "353.6",
+                                            "spread": "112.63"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7: 3 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "284.0",
+                                            "spread": "83.881"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7: 8 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "124.8",
+                                            "spread": "49.247"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7: 12 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "69.08",
+                                            "spread": "28.483"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Area Under the Curve From Time Zero to End of Dosing Interval (AUCtau) of PF-04447943",
+                    "description": "Area under the plasma concentration time-curve from time zero to end of dosing interval (tau), where dosing interval is 12 hours.",
+                    "populationDescription": "PK analysis set included all randomized participants who had received at least one dose of PF-04447943 and had at least 1 of the PK parameters of interest for PF-04447943. Here, 'n' signifies those participants who were evaluable at specified time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "GEOMETRIC_MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "nanogram*hour per milliliter (ng*hr/mL)",
+                    "timeFrame": "0 hours (pre-dose), 0.5, 1, 3, 8, 12 hours after morning dose of PF-04447943 on Day 1, Day 7",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PF-04447943 25 mg + Donepezil",
+                            "description": "PF-04447943 25 mg tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Day 1",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1657",
+                                            "spread": "391.88"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2140",
+                                            "spread": "688.96"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Maximum Observed Plasma Concentration (Cmax) of PF-04447943",
+                    "populationDescription": "PK analysis set included all randomized participants who had received at least one dose of PF-04447943 and had at least 1 of the PK parameters of interest for PF-04447943. Here, 'n' signifies those participants who were evaluable at specified time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "GEOMETRIC_MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ng/mL",
+                    "timeFrame": "0 hours (pre-dose), 0.5, 1, 3, 8, 12 hours after morning dose of PF-04447943 on Day 1, Day 7",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PF-04447943 25 mg + Donepezil",
+                            "description": "PF-04447943 25 mg tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Day 1",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "303.8",
+                                            "spread": "66.655"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "390.9",
+                                            "spread": "109.31"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Time to Reach Maximum Observed Plasma Concentration (Tmax) of PF-04447943",
+                    "populationDescription": "PK analysis set included all randomized participants who had received at least one dose of PF-04447943 and had at least 1 of the PK parameters of interest for PF-04447943. Here, 'n' signifies those participants who were evaluable at specified time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "Full Range",
+                    "unitOfMeasure": "hours",
+                    "timeFrame": "0 hours (pre-dose), 0.5, 1, 3, 8, 12 hours after morning dose of PF-04447943 on Day 1, Day 7",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PF-04447943 25 mg + Donepezil",
+                            "description": "PF-04447943 25 mg tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Day 1",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.00",
+                                            "lowerLimit": "1.00",
+                                            "upperLimit": "3.00"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.767",
+                                            "lowerLimit": "0.500",
+                                            "upperLimit": "3.00"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Plasma Concentrations of Donepezil",
+                    "populationDescription": "PK concentration analysis set included all randomized participants who had received donepezil and had at least 1 evaluable donepezil concentration. Here, 'n' signifies those participants who were evaluable at specified time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ng/mL",
+                    "timeFrame": "0 hours (pre-dose), 0.5, 1, 3, 8, 12 hours post donepezil administration on Day 0(Baseline), Day 7",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PF-04447943 25 mg + Donepezil",
+                            "description": "PF-04447943 25 mg tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo + Donepezil",
+                            "description": "Placebo matched to PF-04447943 tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "5"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Day 0: 0 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "29.30",
+                                            "spread": "22.982"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "19.10",
+                                            "spread": "10.562"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 0: 0.5 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "29.93",
+                                            "spread": "22.874"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "23.92",
+                                            "spread": "16.478"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 0: 1 hour",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "41.08",
+                                            "spread": "20.592"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "36.18",
+                                            "spread": "9.6916"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 0: 3 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "54.09",
+                                            "spread": "28.122"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "41.56",
+                                            "spread": "11.088"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 0: 8 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "42.15",
+                                            "spread": "24.360"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "30.92",
+                                            "spread": "11.339"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 0: 12 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "34.04",
+                                            "spread": "20.659"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "28.02",
+                                            "spread": "11.308"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7: 0 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "34.94",
+                                            "spread": "22.579"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "33.86",
+                                            "spread": "3.7031"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7: 0.5 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "39.56",
+                                            "spread": "26.766"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "35.82",
+                                            "spread": "3.8226"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7: 1 hour",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "47.29",
+                                            "spread": "30.726"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "45.04",
+                                            "spread": "12.347"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7: 3 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "58.15",
+                                            "spread": "30.916"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "56.36",
+                                            "spread": "5.6783"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7: 8 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "46.90",
+                                            "spread": "23.802"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "45.42",
+                                            "spread": "4.4404"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7: 12 hours",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "42.83",
+                                            "spread": "23.299"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "41.78",
+                                            "spread": "4.7505"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Area Under the Curve From Time Zero to End of Dosing Interval (AUCtau) of Donepezil",
+                    "description": "Area under the plasma concentration time-curve from time zero to end of dosing interval (tau), where dosing interval is 24 hours.",
+                    "populationDescription": "PK analysis set included all randomized participants who had received donepezil and had at least 1 of the PK parameters of interest of donepezil. Here, 'n' signifies those participants who were evaluable at specified time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "GEOMETRIC_MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ng*hr/mL",
+                    "timeFrame": "0 hours (pre-dose), 0.5, 1, 3, 8, 12 hours post donepezil administration on Day 0(Baseline), Day 7",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PF-04447943 25 mg + Donepezil",
+                            "description": "PF-04447943 25 mg tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo + Donepezil",
+                            "description": "Placebo matched to PF-04447943 tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "5"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Day 0",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "426.8",
+                                            "spread": "256.08"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "380.6",
+                                            "spread": "127.02"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "513.4",
+                                            "spread": "314.66"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "565.2",
+                                            "spread": "40.402"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Maximum Observed Plasma Concentration (Cmax) of Donepezil",
+                    "populationDescription": "PK analysis set included all randomized participants who had received donepezil and had at least 1 of the PK parameters of interest of donepezil. Here, 'n' signifies those participants who were evaluable at specified time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "GEOMETRIC_MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ng/mL",
+                    "timeFrame": "0 hours (pre-dose), 0.5, 1, 3, 8, 12 hours post donepezil administration on Day 0(Baseline), Day 7",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PF-04447943 25 mg + Donepezil",
+                            "description": "PF-04447943 25 mg tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo + Donepezil",
+                            "description": "Placebo matched to PF-04447943 tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "5"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Day 0",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "47.60",
+                                            "spread": "27.600"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "42.48",
+                                            "spread": "8.1522"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "52.88",
+                                            "spread": "30.177"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "59.61",
+                                            "spread": "4.6404"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Time to Reach Maximum Observed Plasma Concentration (Tmax) of Donepezil",
+                    "populationDescription": "PK analysis set included all randomized participants who had received donepezil and had at least 1 of the PK parameters of interest of donepezil. Here, 'n' signifies those participants who were evaluable at specified time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "Full Range",
+                    "unitOfMeasure": "hours",
+                    "timeFrame": "0 hours (pre-dose), 0.5, 1, 3, 8, 12 hours post donepezil administration on Day 0(Baseline), Day 7",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PF-04447943 25 mg + Donepezil",
+                            "description": "PF-04447943 25 mg tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo + Donepezil",
+                            "description": "Placebo matched to PF-04447943 tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "5"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Day 0",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3.00",
+                                            "lowerLimit": "1.00",
+                                            "upperLimit": "3.00"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3.00",
+                                            "lowerLimit": "1.00",
+                                            "upperLimit": "3.02"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Day 7",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3.00",
+                                            "lowerLimit": "1.00",
+                                            "upperLimit": "8.00"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3.00",
+                                            "lowerLimit": "1.00",
+                                            "upperLimit": "3.00"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "PF-04447943 25 mg + Donepezil",
+                    "description": "PF-04447943 25 mg tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days.",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 10,
+                    "otherNumAffected": 6,
+                    "otherNumAtRisk": 10
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo + Donepezil",
+                    "description": "Placebo matched to PF-04447943 tablet orally, twice daily from Day 1 through Day 6 and once in morning on Day 7 along with donepezil 10 mg tablet orally once daily for 7 days.",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 5,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 5
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Constipation",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA v13.0",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 5
+                        }
+                    ]
+                },
+                {
+                    "term": "Diarrhoea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA v13.0",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 10
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 5
+                        }
+                    ]
+                },
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA v13.0",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 10
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 5
+                        }
+                    ]
+                },
+                {
+                    "term": "Vomiting",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA v13.0",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 10
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 5
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA v13.0",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 5
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA v13.0",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 4,
+                            "numAtRisk": 10
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 5
+                        }
+                    ]
+                },
+                {
+                    "term": "Confusional state",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA v13.0",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 5
+                        }
+                    ]
+                },
+                {
+                    "term": "Nightmare",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA v13.0",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 5
+                        }
+                    ]
+                },
+                {
+                    "term": "Pollakiuria",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA v13.0",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "Pfizer has the right to review disclosures, requesting a delay of less than 60 days. Investigator will postpone single center publications until after disclosure of pooled data (all sites), less than 12 months from study completion/termination at all participating sites. Investigator may not disclose previously undisclosed confidential information other than study results."
+            },
+            "pointOfContact": {
+                "title": "Pfizer ClinicalTrials.gov Call Center",
+                "organization": "Pfizer, Inc.",
+                "email": "ClinicalTrials.gov_Inquiries@pfizer.com",
+                "phone": "1-800-718-1021"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "PF-04447943 (small-molecule PDE9A inhibitor)",
+        "donepezil (background cholinesterase inhibitor used in the trial)"
+    ],
+    "placebo": [
+        "placebo (used as comparator in the randomized trial)"
+    ],
+    "explanation_target": [
+        "Reason: The investigational agent PF-04447943 is a selective phosphodiesterase-9A (PDE9A) inhibitor that elevates cGMP in brain/CSF, enhances synaptic plasticity and improved memory in preclinical models \u2014 i.e., a pharmacologic approach intended to enhance cognition rather than directly remove amyloid or tau pathology. \ue200cite\ue202turn0search0\ue202turn0search1\ue201",
+        "Act: The trial description and title state PF-04447943 was tested in mild\u2013moderate AD subjects on stable donepezil to evaluate safety, tolerability and pharmacokinetics, with placebo control \u2014 consistent with a cognitive-enhancement add-on study rather than a disease-modifying biologic or pathology-targeting small molecule. (See clinical trial registry / study summaries). \ue200cite\ue202turn0search7\ue202turn0search3\ue201",
+        "Reflect: Given PF-04447943 is a small-molecule PDE9A inhibitor whose preclinical and clinical rationale is to boost cGMP/signaling and improve memory/attention, the correct category is 'cognitive enhancer'. There is no indication in the description that the drug is a biologic (antibody/vaccine) or directly targets core AD pathology (amyloid or tau) for disease modification. \ue200cite\ue202turn0search1\ue202turn0search5\ue201",
+        "Web search results used: - PF-04447943 described as a potent, selective PDE9A inhibitor that elevates cGMP and enhances synaptic plasticity / memory. \ue200cite\ue202turn0search0\ue202turn0search1\ue201 - Phase 1/Phase 2 study descriptions and safety/PK trials of PF-04447943 (including combinations with donepezil) corroborating the trial purpose and design. \ue200cite\ue202turn0search7\ue202turn0search3\ue201"
+    ],
+    "agent_type": "M) Synaptic Plasticity/Neuroprotection",
+    "explanation_agent": [
+        "Reason: PF-04447943 is a selective phosphodiesterase\u20119A (PDE9A) inhibitor that elevates cGMP in brain/CSF and was developed to enhance synaptic plasticity and improve memory (a cognitive\u2011enhancement mechanism), not to target amyloid or tau pathology. \ue200cite\ue202turn0search4\ue202turn0search0\ue201",
+        "Act: The trial description and registry/abstracts show PF-04447943 was tested as a small\u2011molecule PDE9A inhibitor (investigational cognitive enhancer) in AD subjects on stable donepezil for safety/PK and efficacy assessments \u2014 consistent with a synaptic\u2011plasticity / neuroprotection classification rather than amyloid/tau, inflammation, or other single pathology targets. \ue200cite\ue202turn0search0\ue202turn0search1\ue202turn0search2\ue201",
+        "Reflect: Mapping to CADRO, the agent\u2019s primary biological focus (raising cGMP to enhance synaptic function and memory) best fits category M) Synaptic Plasticity/Neuroprotection. Donepezil is a background cholinesterase inhibitor in the study and does not change the investigational drug\u2019s classification. Web sources used to confirm mechanism and trial context are cited above. \ue200cite\ue202turn0search1\ue202turn0search5\ue201",
+        "Key web search sources used: PF\u201104447943 preclinical mechanism and cGMP/synaptic plasticity (PubMed / Elsevier). \ue200cite\ue202turn0search4\ue201; conference/abstract and Phase 1 AD study describing PF\u201104447943 with donepezil. \ue200cite\ue202turn0search0\ue202turn0search7\ue201; Phase 2 multicenter trial summary (no cognitive benefit at 12 weeks) confirming clinical development as a PDE9A cognitive enhancer. \ue200cite\ue202turn0search1\ue202turn0search2\ue201"
+    ]
+}

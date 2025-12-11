@@ -1,0 +1,232 @@
+{
+    "nct_id": "NCT02051790",
+    "title": "Evaluation of Reader Training Processes by Comparing Clinical Interpretations to Centralized Expert Reads",
+    "status": "COMPLETED",
+    "last_update_time": "2015-08-27",
+    "description_brief": "This study is designed to evaluate the agreement between florbetapir F 18 scan interpretation in the clinic and by expert readers.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE4"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Clinical Practice Scans",
+                    "description": "241 florbetapir F 18 scans and final scan reports interpreted in a clinical setting were collected from physicians across the country. These results were then compared to expert panel interpretations for the same scans.\n\nflorbetapir F 18: No study drug was administered in this study - scans previously acquired in the course of clinical practice."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "241"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "241"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Clinical Practice Scans",
+                    "description": "241 florbetapir F 18 scans and final scan reports interpreted in a clinical setting were collected from physicians across the country. These results were then compared to expert panel interpretations for the same scans.\n\nflorbetapir F 18: No study drug was administered in this study - scans previously acquired in the course of clinical practice."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "241"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Customized",
+                    "description": "Age was not collected in this study.",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "scans",
+                    "classes": [
+                        {
+                            "title": "Age Unknown",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "241"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex/Gender, Customized",
+                    "description": "Gender was not collected in this study.",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "scans",
+                    "classes": [
+                        {
+                            "title": "Gender Unknown",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "241"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "description": "All scans were collected from imaging centers in the US.",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "scans",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "241"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Agreement Between Expert Panel and Clinical Practice Reads",
+                    "description": "Agreement between expert panel consensus scan interpretations and clinical practice reader scan interpretations was calculated as a weighted Kappa value across all cases and all clinical practice readers.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "Weighted Kappa statistic",
+                    "timeFrame": "Scan acquired 50-60 minutes post injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Clinical Practice Scans",
+                            "description": "241 florbetapir F 18 scans and final scan reports interpreted in a clinical setting were collected from physicians across the country. These results were then compared to expert panel interpretations for the same scans.\n\nflorbetapir F 18: No study drug was administered in this study - scans previously acquired in the course of clinical practice."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "241"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.745",
+                                            "lowerLimit": "0.6649",
+                                            "upperLimit": "0.8260"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "description": "No study drug was administered in this study - scans previously acquired in the course of clinical practice, therefore no adverse event information was collected.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Clinical Practice Scans",
+                    "description": "241 florbetapir F 18 scans and final scan reports interpreted in a clinical setting were collected from physicians across the country. These results were then compared to expert panel interpretations for the same scans.\n\nflorbetapir F 18: No study drug was administered in this study - scans previously acquired in the course of clinical practice.",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 0,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 0
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Chief Medical Officer",
+                "organization": "Avid Radiopharmaceuticals",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "florbetapir F 18 (Amyvid)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial evaluates agreement between florbetapir F 18 scan interpretation in the clinic and by expert readers \u2014 this describes a diagnostic imaging/read interpretation study (amyloid PET), not a therapeutic intervention. \ue200cite\ue202turn0search2\ue201",
+        "Act: The imaging agent is florbetapir F 18, marketed as Amyvid, a PET radiopharmaceutical that binds beta-amyloid neuritic plaques and is FDA\u2011approved for estimating brain amyloid plaque density in adults being evaluated for cognitive impairment. This is a diagnostic tracer (molecular imaging) rather than a drug intended to modify disease or improve cognition. \ue200cite\ue202turn0search2\ue202turn0search1\ue201",
+        "Act \u2014 supporting evidence from the literature: Florbetapir F 18 selectively binds A\u03b2 plaques in brain tissue and correlates with postmortem measures of A\u03b2, supporting its use as an amyloid PET ligand for identifying Alzheimer pathology. The tracer\u2019s intended use and limitations (adjunct to other evaluations; not for monitoring therapy or predicting dementia) are described in regulatory and sponsor materials. \ue200cite\ue202turn0search4\ue202turn0search3\ue201",
+        "Reflect: Given the trial focus (reader training/interpretation agreement) and that florbetapir F 18 is a diagnostic PET agent (not a biologic or small\u2011molecule therapeutic, nor a cognitive enhancer or neuropsychiatric treatment), the correct category is 'N/A' (diagnostic/other non\u2011therapeutic). This classification aligns with the agent\u2019s indication and the study objective. \ue200cite\ue202turn0search2\ue202turn0search8\ue201",
+        "Web search results (sources used): - FDA/sponsor approval and product information for Amyvid (florbetapir F 18) describing indication as PET imaging for beta\u2011amyloid in cognitive impairment. \ue200cite\ue202turn0search2\ue201 - PubMed article validating florbetapir F\u201118 as a histopathologically validated beta\u2011amyloid PET imaging agent. \ue200cite\ue202turn0search1\ue201 - Development/clinical trial summaries showing florbetapir distinguishes AD from controls and correlates with postmortem A\u03b2. \ue200cite\ue202turn0search3\ue201 - Correlation studies showing florbetapir binding corresponds to amyloid plaque measures in postmortem tissue. \ue200cite\ue202turn0search4\ue201 - Amyvid patient/sponsor information page summarizing use and reader training recommendations. \ue200cite\ue202turn0search8\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

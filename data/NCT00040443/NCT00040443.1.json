@@ -1,0 +1,809 @@
+{
+    "nct_id": "NCT00040443",
+    "title": "Efficacy And Safety Of CX516 (900 mg t.i.d.) In Elderly Participants With Mild Cognitive Impairment. A Randomized, Double-Blind, Placebo-Controlled, Parallel-Group 4-week Study.",
+    "status": "COMPLETED",
+    "last_update_time": "2017-10-09",
+    "description_brief": "Glutamate is fundamentally involved in learning and memory. Memory loss associated with mild cognitive impairment may be due to loss of glutamate receptors in the aging brain. There is evidence CX516 enhances brain activity by specifically targeting remaining glutamate receptors in the affected portions of the brain. This study will test the safety and efficacy of CX516 in the symptomatic treatment of participants with mild cognitive impairment.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "CX516",
+                    "description": "CX516 - 900 mg\n\nCX516 (Ampalex\u00ae)"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "Placebo to CX516 900 mg\n\nCX516 (Ampalex\u00ae)"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "84"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "91"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "84"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "91"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "CX516",
+                    "description": "CX516 - 900 mg\n\nCX516 (Ampalex\u00ae)"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo",
+                    "description": "Placebo to CX516 900 mg\n\nCX516 (Ampalex\u00ae)"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "84"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "91"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "175"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "72.0",
+                                            "spread": "7.7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "70.3",
+                                            "spread": "8.5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "71.1",
+                                            "spread": "8.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "37"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "38"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "75"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "47"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "53"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "100"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "15-Item Word List Delayed Recall",
+                    "description": "The 15-Item Word List delayed recall score is used as a clinical measure of episodic memory, and was the primary outcome variable for this study. Episodic memory of the type addressed by delayed recall of lists and stories (i.e., in the WMS-R logical memory tests and 15-item World List recall tests) is among the earliest deficits during aging and MCI compared to other aspects of cognition (attention, reaction time, language, etc). It was decided to use the 15-item Word List delayed recall test as the primary outcome measure due to its sensitivity in the assessment of MCI.\n\nThe possible score range for the 15-item Word List Delayed Recall test is 0 to 15. A clinical improvement of MCI or dementia would be characterized by an increase in the score due to an increase in the number of words recalled.",
+                    "populationDescription": "Intent to Treat (ITT)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale - change from baseline",
+                    "timeFrame": "28 Days",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "CX516",
+                            "description": "CX516 - 900 mg (3 X 300 mg)\n\nCX516 (Ampalex\u00ae)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Placebo to CX516 300 mg\n\nCX516 (Ampalex\u00ae)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "84"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "91"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.3",
+                                            "spread": "2.3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.5",
+                                            "spread": "2.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "<.05",
+                            "statisticalMethod": "t-test, 2 sided",
+                            "paramType": "Mean Difference (Final Values)",
+                            "paramValue": "5",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "dispersionType": "STANDARD_ERROR_OF_MEAN",
+                            "dispersionValue": "1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "3",
+            "timeFrame": "28 Day treatment 8 week followup",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "CX516",
+                    "description": "CX516 - 900 mg (3 X 300 mg)\n\nCX516 (Ampalex\u00ae)",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 84,
+                    "seriousNumAffected": 3,
+                    "seriousNumAtRisk": 84,
+                    "otherNumAffected": 68,
+                    "otherNumAtRisk": 84
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Placebo to CX516 300 mg\n\nCX516 (Ampalex\u00ae)",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 91,
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 91,
+                    "otherNumAffected": 56,
+                    "otherNumAtRisk": 91
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "neutrophil count decrease",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "moderate urinary tract infection",
+                    "organSystem": "Infections and infestations",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "angina pectoris",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Chest pain",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 91
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Abdominal Pain",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 6,
+                            "numAffected": 6,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary Tract Infections",
+                    "organSystem": "Infections and infestations",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Creatinin increased",
+                    "organSystem": "Investigations",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Arthralgia",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 12,
+                            "numAffected": 12,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Insominia",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 7,
+                            "numAffected": 7,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Pruritis",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 5,
+                            "numAffected": 5,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Constipation",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Diarrhea NOS",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Dyspepsia",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 14,
+                            "numAffected": 14,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Eructation",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Flatulance",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 17,
+                            "numAffected": 17,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Vomiting",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 5,
+                            "numAffected": 5,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Pyrexia",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Neutrophil decreased",
+                    "organSystem": "Investigations",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 6,
+                            "numAffected": 6,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "back pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 6,
+                            "numAffected": 6,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 25,
+                            "numAffected": 25,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 17,
+                            "numAffected": 17,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Somnolence",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 91
+                        }
+                    ]
+                },
+                {
+                    "term": "Rash",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 84
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 91
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Richard Purcell",
+                "organization": "RespireRx Pharmaceuticals",
+                "email": "rpurcell@respirerx.com",
+                "phone": "732-492-1797"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "CX516 (CX-516) \u2014 ampakine; positive allosteric modulator of AMPA (glutamate) receptors"
+    ],
+    "placebo": [
+        "placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial description states CX516 'specifically target[s] remaining glutamate receptors' to enhance brain activity and treat memory loss symptomatically in MCI. CX516 is a small-molecule ampakine that positively modulates AMPA-type glutamate receptors (i.e., it enhances synaptic transmission and is intended to improve cognition rather than to modify underlying Alzheimer pathology). \ue200cite\ue202turn0search1\ue202turn0search11\ue201",
+        "Act (key details extracted): CX516 (an ampakine / AMPA receptor positive allosteric modulator) was tested in a randomized, double-blind, placebo-controlled 4\u2011week study in elderly participants with mild cognitive impairment at 900 mg t.i.d. The trial registry and progress report describe this symptomatic cognitive treatment trial. Dose and prior clinical testing (including short 4\u2011week cognitive trials) are reported in the literature. \ue200cite\ue202turn0search7\ue202turn0search1\ue202turn0search5\ue201",
+        "Reflect: Classification \u2014 'Cognitive enhancer'. Although CX516 is a small molecule, it does not target primary AD pathology (amyloid or tau) or aim to be disease\u2011modifying; its mechanism (AMPA receptor modulation to boost neurotransmission and memory processes) fits the 'cognitive enhancer' category rather than 'disease-targeted small molecule' or 'disease-targeted biologic'. Structural and pharmacologic analyses identify CX516 as an AMPA-modulating benzamide (ampakine), supporting this symptomatic/cognitive-enhancer interpretation. \ue200cite\ue202turn0search8\ue202turn0search11\ue201",
+        "Web search sources used: PubMed progress report on CX516 in MCI (study design/rationale). \ue200cite\ue202turn0search1\ue201; Clinical-trial registry entry for the CX516 MCI trial (NCT summary). \ue200cite\ue202turn0search7\ue201; PMC article on CX516 dose/clinical testing (schizophrenia/add-on trial) with dosing context. \ue200cite\ue202turn0search5\ue201; Structural/AMPA-binding analysis of CX516 (mechanism). \ue200cite\ue202turn0search8\ue201; Pharmacology comparison/AMPA modulation description (benzamide-type ampakines). \ue200cite\ue202turn0search11\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The compound CX516 (CX-516) is an ampakine \u2014 a positive allosteric modulator of AMPA-type glutamate receptors, so its mechanism is direct modulation of a neurotransmitter receptor to enhance synaptic transmission and cognition rather than targeting core AD pathology (amyloid/tau). \ue200cite\ue202turn0search1\ue202turn0search4\ue201",
+        "Act: Key details extracted from the trial description: CX516 (an AMPA receptor positive allosteric modulator / ampakine) was studied as a symptomatic cognitive enhancer in a randomized, double\u2011blind, placebo\u2011controlled 4\u2011week trial in elderly participants with mild cognitive impairment; prior human trials used 900 mg t.i.d. in short cognitive studies. These facts identify the biological focus as AMPA glutamate receptors (a neurotransmitter receptor target). \ue200cite\ue202turn0search8\ue202turn0search5\ue202turn0search7\ue201",
+        "Reflect: Classification \u2014 assign 'D) Neurotransmitter Receptors'. The trial\u2019s mechanism (AMPA receptor potentiation) maps directly to CADRO category D. This is a symptomatic/cognitive\u2011enhancer approach (not amyloid, tau, inflammation, or multi\u2011target disease\u2011modification), so D is the most specific fit. No evidence in the description indicates a different or additional primary biological target. \ue200cite\ue202turn0search8\ue202turn0search1\ue201",
+        "Web search sources used (key references): 1) Structural analysis and mechanism of CX516 binding to GluA2 (confirms AMPA PAM mechanism). \ue200cite\ue202turn0search1\ue201 2) Reviews/mechanistic papers on AMPA receptor potentiators/ampakines. \ue200cite\ue202turn0search4\ue202turn0search2\ue201 3) Progress report describing the randomized, double\u2011blind CX516 trial in MCI. \ue200cite\ue202turn0search8\ue201 4) Clinical trial/clinical study reports showing CX516 dosing (900 mg t.i.d. in short trials). \ue200cite\ue202turn0search5\ue202turn0search7\ue201"
+    ]
+}

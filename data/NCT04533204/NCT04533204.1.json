@@ -1,0 +1,645 @@
+{
+    "nct_id": "NCT04533204",
+    "title": "Comparing Mnemonic Strategy With Spaced Retrieval Training in Patients With Mild Cognitive Impairment (B6366-W)",
+    "status": "COMPLETED",
+    "last_update_time": "2021-02-26",
+    "description_brief": "This study compared two active cognitive interventions to evaluate whether one improved memory more than the other in patients with mild cognitive impairment. Participants were randomized to either memory strategy training or spaced retrieval training and completed memory tests before and after 3 training sessions. Participants returned 1 month after treatment to see how well they remembered the learned information. Brain scans (functional MRI) were collected before and after the interventions to see if training changed the way brain regions were functioning.",
+    "description_detailed": "Individuals with MCI were randomized to 3 sessions of mnemonic strategy or spaced retrieval training that focused on object location associations. Across these training sessions, each group received 9 training trials for each of the 45 trained stimuli. Task-fMRI was acquired before and after training. Memory was again evaluated 1 month after the last training session. The primary outcome measure was memory for the \"trained\" stimuli while secondary outcome was accuracy for novel stimuli acquired outside of the MRI environment.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Mnemonic Strategy Training",
+                    "description": "Training using mnemonic strategies\n\nmnemonic strategy training: training using mnemonic strategies"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Spaced Retrieval Training",
+                    "description": "Training using spaced retrieval\n\nspaced retrieval training: training using spaced retrieval"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "29"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "30"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "28"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "29"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Unable to understand training instructions",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "All diagnosed with amnestic MCI.",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Mnemonic Strategy Training",
+                    "description": "Training using mnemonic strategies\n\nmnemonic strategy training: training using mnemonic strategies"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Spaced Retrieval Training",
+                    "description": "Training using spaced retrieval\n\nspaced retrieval training: training using spaced retrieval"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "28"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "29"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "57"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "populationDescription": "1 participant in each group was removed due to inability to understand training instructions",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "12"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "23"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "22"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "45"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "populationDescription": "1 participant in each group removed due to inability to understand training instructions",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "72.7",
+                                            "spread": "8.3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "70.5",
+                                            "spread": "8.3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "71.6",
+                                            "spread": "8.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "populationDescription": "1 participant in each group removed due to inability to understand training instructions",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "24"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "33"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "populationDescription": "1 participant in each group removed due to inability to understand training instructions",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "19"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "36"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "28"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "29"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "57"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Percent of Correct Object Location Associations Assessed up to 1 Month Post-treatment",
+                    "description": "Change in memory for 45 trained object location associations",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "percent correct",
+                    "timeFrame": "up to 1 month after last training session",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Mnemonic Strategy Training",
+                            "description": "Training using mnemonic strategies\n\nmnemonic strategy training: training using mnemonic strategies"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Spaced Retrieval Training",
+                            "description": "Training using spaced retrieval\n\nspaced retrieval training: training using spaced retrieval"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "80.0",
+                                            "lowerLimit": "74.86",
+                                            "upperLimit": "85.14"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "62.45",
+                                            "lowerLimit": "57.4",
+                                            "upperLimit": "67.51"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "<.001",
+                            "statisticalMethod": "Mixed Models Analysis",
+                            "paramType": "Mean Difference (Final Values)",
+                            "paramValue": "18.47",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "12.28",
+                            "ciUpperLimit": "24.67"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Accuracy (vs. Baseline) on Novel Object Location Associations",
+                    "description": "Change in accuracy for novel object location associations using a touchscreen task; distance measured in cm from actual location",
+                    "populationDescription": "Computer errors resulted in loss of data from the first 15 participants (7 MST, 8 SRT)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "error in centimeters",
+                    "timeFrame": "up to 1 month after last training session",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Mnemonic Strategy Training",
+                            "description": "Training using mnemonic strategies\n\nmnemonic strategy training: training using mnemonic strategies"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Spaced Retrieval Training",
+                            "description": "Training using spaced retrieval\n\nspaced retrieval training: training using spaced retrieval"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "21"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "21"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6.1",
+                                            "lowerLimit": "4.8",
+                                            "upperLimit": "7.4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "7.14",
+                                            "lowerLimit": "5.84",
+                                            "upperLimit": "8.44"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": ".004",
+                            "pValueComment": "Performance on cued recall (error scores)",
+                            "statisticalMethod": "Mixed Models Analysis",
+                            "paramType": "Mean Difference (Final Values)",
+                            "paramValue": "2.33",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": ".75",
+                            "ciUpperLimit": "3.91"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Mnemonic Strategy Training",
+                    "description": "Training using mnemonic strategies\n\nmnemonic strategy training: training using mnemonic strategies",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 29,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 29,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 29
+                },
+                {
+                    "id": "EG001",
+                    "title": "Spaced Retrieval Training",
+                    "description": "Training using spaced retrieval\n\nspaced retrieval training: training using spaced retrieval",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 30,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 30,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 30
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Dr. Benjamin Hampstead",
+                "organization": "VA Ann Arbor Healthcare System; University of Michigan",
+                "email": "bhampste@med.umich.edu",
+                "phone": "734-763-9259"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial compares two behavioral memory-training interventions (mnemonic strategy training vs. spaced retrieval training) delivered to patients with mild cognitive impairment to improve memory and measured cognitive outcomes and fMRI changes. This is a non-pharmacologic cognitive training intervention intended to improve memory performance (not a drug, biologic, or diagnostic procedure). \ue200cite\ue202turn0search0\ue202turn0search2\ue201",
+        "Act: Key extracted details \u2014 Title/IDs: 'Comparing Mnemonic Strategy With Spaced Retrieval Training in Patients With Mild Cognitive Impairment' (B6366-W, NCT04533204). Interventions: behavioral mnemonic strategy training and spaced retrieval training. Outcomes: memory tests pre/post and 1-month follow-up; task-fMRI before and after training. No drug or placebo is involved. \ue200cite\ue202turn0search2\ue202turn0search6\ue201",
+        "Reflect: Classification \u2014 This trial fits the 'cognitive enhancer' category because its primary aim is to improve cognitive (memory) function via training, rather than to target Alzheimer\u2019s pathology with a biologic or small molecule, or to treat neuropsychiatric symptoms. Published work on mnemonic training in MCI also shows training-related memory gains and changes in hippocampal/neocortical activation, supporting the cognitive-enhancement intent of these interventions. \ue200cite\ue202turn0search8\ue202turn0search9\ue201",
+        "Web search results / provenance used to confirm details: Clinical trial listing summarizing interventions and design (NCT04533204 / B6366-W). \ue200cite\ue202turn0search0\ue202turn0search2\ue201",
+        "Additional supporting publications showing mnemonic training effects on memory and brain activity in MCI (examples from PubMed). \ue200cite\ue202turn0search8\ue202turn0search9\ue201"
+    ],
+    "agent_type": "M) Synaptic Plasticity/Neuroprotection",
+    "explanation_agent": [
+        "Reason: The intervention is behavioral memory training (mnemonic strategy vs. spaced retrieval) delivered to people with mild cognitive impairment to improve memory and change brain activation \u2014 an approach that works through learning-dependent changes in brain function and connectivity (i.e., synaptic plasticity) rather than by acting on amyloid, tau, inflammatory or metabolic pathways. \ue200cite\ue202turn1search0\ue202turn0search1\ue201",
+        "Act: Extracted trial details \u2014 Title/ID: \"Comparing Mnemonic Strategy With Spaced Retrieval Training in Patients With Mild Cognitive Impairment\" (B6366-W, NCT04533204). Interventions: behavioral mnemonic strategy training and spaced retrieval training; outcomes include memory for trained object-location associations and pre/post task-fMRI; no drug, biologic, or device is tested. Based on these details the trial is a non-pharmacologic cognitive enhancement intervention that aims to modify brain function via training. \ue200cite\ue202turn1search0\ue202turn1search2\ue201",
+        "Reflect: Mapping to CADRO \u2014 CADRO category M (Synaptic Plasticity/Neuroprotection) best fits because the therapeutic mechanism implied by mnemonic/spaced-retrieval training is enhancement of learning-dependent synaptic function, recruitment/compensation of hippocampal and neocortical networks, and improved functional connectivity. Published fMRI and connectivity studies show mnemonic training increases hippocampal and neocortical activation and functional connectivity in MCI, supporting the synaptic-plasticity interpretation rather than categories like amyloid (A), tau (B), inflammation (F), or neurotransmitter receptor drugs (D). \ue200cite\ue202turn0search1\ue202turn0search6\ue202turn0search4\ue201",
+        "Web search provenance (key sources used): Clinical trial registry summary for NCT04533204 (trial design, interventions, outcomes). \ue200cite\ue202turn1search0\ue201; Randomized studies showing mnemonic strategy training increases hippocampal activity and improves memory in MCI. \ue200cite\ue202turn0search1\ue202turn0search0\ue201; Studies demonstrating mnemonic training-related neocortical activation and increased functional connectivity after training. \ue200cite\ue202turn0search4\ue202turn0search6\ue201"
+    ]
+}

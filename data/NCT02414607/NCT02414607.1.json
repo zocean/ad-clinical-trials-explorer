@@ -1,0 +1,1177 @@
+{
+    "nct_id": "NCT02414607",
+    "title": "Effect of Elderberry Juice on Cognition and Inflammation in Patients With Mild Cognitive Impairment",
+    "status": "COMPLETED",
+    "last_update_time": "2022-05-27",
+    "description_brief": "Elderberries (Sambuci fructus) have been shown in a number of studies to have significant anti-inflammatory and antioxidant effects. Multiple human and animal studies have supported the anti-inflammatory and antioxidant effects of elderberry preparations and it has been used in natural medicine for hundreds of years. Studies examining factors that may decrease the risk of Alzheimer's disease have revealed that drinking juices with similar properties to elderberries is one of the most reliable way to decrease risk. As such the investigators wish to determine the effects of elderberry juice on cognitive decline in a group of subjects at high risk for Alzheimer's disease, those with mild cognitive impairment. Elderberry juice is a commercially available nutritional supplement and easily available to this population.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE1",
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Elderberry Juice",
+                    "description": "Participants will drink 5ml of elderberry juice, diluted in 8oz of water, 3 times per day for three months.\n\nElderberry Juice"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "Participants will drink 5ml of colored water, diluted in 8oz of water, 3 times per day for three months.\n\nPlacebo"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "11"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "13"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "9"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "11"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Elderberry Juice",
+                    "description": "Participants will drink 5ml of elderberry juice, diluted in 8oz of water, 3 times per day for three months.\n\nElderberry Juice"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo",
+                    "description": "Participants will drink 5ml of colored water, diluted in 8oz of water, 3 times per day for three months.\n\nPlacebo"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "11"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "13"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "24"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "23"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "76.45",
+                                            "spread": "8.47"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "76.23",
+                                            "spread": "7.73"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "76.33",
+                                            "spread": "6.95"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "14"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "24"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "24"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "24"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Visuospatial Problem Solving Battery (VSP)",
+                    "description": "Problem solving task for detecting non-memory impairments in MCI. Change in score is the outcome measure. The task is a timed task, with the outcome measured in seconds. Each item was allowed 240 seconds for solution, with times averaged for items. Therefore, there was a range of 0-240 with lower being better.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Mean Difference Score (VPS Total Score)",
+                    "timeFrame": "12 wks, 6 mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Elderberry Juice",
+                            "description": "Participants will drink 5ml of elderberry juice, diluted in 8oz of water, 3 times per day for three months.\n\nElderberry Juice"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants will drink 5ml of colored water, diluted in 8oz of water, 3 times per day for three months.\n\nPlacebo"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "12 week change from baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": ".30",
+                                            "spread": ".52"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": ".29",
+                                            "spread": ".47"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "6 month change from baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": ".097",
+                                            "spread": ".44"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": ".52",
+                                            "spread": ".38"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Clinical Dementia Rating (CDR) Scale",
+                    "description": "Assesses memory, orientation, judgement and problem solving, community affairs, home/hobbies, personal care. Change in CDR was the outcome. CDR ranges from 0 to 3, with 3 being worse.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Mean difference on CDR scale",
+                    "timeFrame": "12 wks, 6 mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Elderberry Juice",
+                            "description": "Participants will drink 5ml of elderberry juice, diluted in 8oz of water, 3 times per day for three months.\n\nElderberry Juice"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants will drink 5ml of colored water, diluted in 8oz of water, 3 times per day for three months.\n\nPlacebo"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change from Baseline at 12 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0",
+                                            "spread": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0",
+                                            "spread": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change from Baseline at 6 months",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0",
+                                            "spread": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0",
+                                            "spread": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Mini-Mental State Examination (MMSE)",
+                    "description": "Screening for cognitive impairment sampling functions including arithmetic, memory and orientation. Change in MMSE was the outcome. the MMSE is a scale from 0 to 30 with a higher score being better.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Mean Difference Score (MMSE)",
+                    "timeFrame": "12 wks, 6 mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Elderberry Juice",
+                            "description": "Participants will drink 5ml of elderberry juice, diluted in 8oz of water, 3 times per day for three months.\n\nElderberry Juice"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants will drink 5ml of colored water, diluted in 8oz of water, 3 times per day for three months.\n\nPlacebo"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change from baseline at 12 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": ".03",
+                                            "spread": ".73"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": ".29",
+                                            "spread": ".66"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change from baseline at 6 months",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.01",
+                                            "spread": ".90"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": ".06",
+                                            "spread": ".82"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Hopkins Verbal Learning Test (HVLT)",
+                    "description": "Assesses verbal learning and memory. Change in the HVLT was the outcome measure. The range for the HVLT is 0-36 with higher representing better memory.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Mean Difference Score (HVL Free Recall)",
+                    "timeFrame": "12 wks, 6 mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Elderberry Juice",
+                            "description": "Participants will drink 5ml of elderberry juice, diluted in 8oz of water, 3 times per day for three months.\n\nElderberry Juice"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants will drink 5ml of colored water, diluted in 8oz of water, 3 times per day for three months.\n\nPlacebo"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change from baseline at 12 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-.50",
+                                            "spread": ".43"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": ".46",
+                                            "spread": ".40"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change from baseline at 6 months",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-19",
+                                            "spread": ".33"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": ".27",
+                                            "spread": ".29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Boston Naming Test (BNT)",
+                    "description": "Measures word retrieval. Change in the BNT is the primary outcome measure. The range is 0-60 with higher representing better performance.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Mean Difference Score (BNT Total)",
+                    "timeFrame": "12 wks, 6 mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Elderberry Juice",
+                            "description": "Participants will drink 5ml of elderberry juice, diluted in 8oz of water, 3 times per day for three months.\n\nElderberry Juice"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants will drink 5ml of colored water, diluted in 8oz of water, 3 times per day for three months.\n\nPlacebo"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change from baseline at 12 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.38",
+                                            "spread": ".65"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": ".94",
+                                            "spread": ".59"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change from baseline at 6 months",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": ".96",
+                                            "spread": ".54"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.60",
+                                            "spread": ".49"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Rey Complex Figure Task (Rey)",
+                    "description": "Participants reproduce complicated line drawings. Change in the Rey was the primary outcome measure. The range of the Rey is 0-36 with a higher score being better performance.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Mean Difference Score (REY Copy Score)",
+                    "timeFrame": "12 wks, 6 mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Elderberry Juice",
+                            "description": "Participants will drink 5ml of elderberry juice, diluted in 8oz of water, 3 times per day for three months.\n\nElderberry Juice"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants will drink 5ml of colored water, diluted in 8oz of water, 3 times per day for three months.\n\nPlacebo"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change from baseline at 12 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.03",
+                                            "spread": "1.43"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.41",
+                                            "spread": "1.35"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change from baseline at 6 months",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-.54",
+                                            "spread": "1.61"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-1.72",
+                                            "spread": ".27"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Anagrams",
+                    "description": "Rearranging letters to form words. Change in performance is the primary outcome measure. The task is timed, with each anagram allowed 120 seconds, so each word has a range of 0-120 seconds, and the average for the latency was calculated, for a range of 0-120 with lower numbers being better.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Mean Difference Score (Anagrams Total)",
+                    "timeFrame": "12 wks, 6 mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Elderberry Juice",
+                            "description": "Participants will drink 5ml of elderberry juice, diluted in 8oz of water, 3 times per day for three months.\n\nElderberry Juice"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants will drink 5ml of colored water, diluted in 8oz of water, 3 times per day for three months.\n\nPlacebo"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change from baseline at 12 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.81",
+                                            "spread": ".13"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2.70",
+                                            "spread": ".99"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change from baseline at 6 months",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-.41",
+                                            "spread": ".95"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.67",
+                                            "spread": ".86"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Instrumental Activities of Daily Living Scale (IADLS)",
+                    "description": "Assesses daily self-care activities. Change in the IADLS is the primary outcome. Total items were added together for this use of the task, so the range was from 0 to 23, with higher being better.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Mean Difference Score (IADL)",
+                    "timeFrame": "12 wks, 6 mos",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Elderberry Juice",
+                            "description": "Participants will drink 5ml of elderberry juice, diluted in 8oz of water, 3 times per day for three months.\n\nElderberry Juice"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants will drink 5ml of colored water, diluted in 8oz of water, 3 times per day for three months.\n\nPlacebo"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change from baseline at 12 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": ".40",
+                                            "spread": ".69"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-.34",
+                                            "spread": ".59"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change from baseline at 6 months",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-30",
+                                            "spread": ".66"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-44",
+                                            "spread": ".60"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "6 months",
+            "description": "Serious adverse events or adverse events were documented.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Elderberry Juice",
+                    "description": "Participants will drink 5ml of elderberry juice, diluted in 8oz of water, 3 times per day for three months.\n\nElderberry Juice",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 11,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 11,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 11
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Participants will drink 5ml of colored water, diluted in 8oz of water, 3 times per day for three months.\n\nPlacebo",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 13,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 13,
+                    "otherNumAffected": 1,
+                    "otherNumAtRisk": 13
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Non-serious adverse event",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Acute skin rash",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "Dr. David Beversdorf",
+                "organization": "University of Missouri",
+                "email": "beversdorfd@health.missouri.edu",
+                "phone": "(573) 882-6081"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "Elderberry juice (Sambucus nigra / Sambucus nigra subsp. canadensis)"
+    ],
+    "placebo": [
+        "Placebo juice (matched control)"
+    ],
+    "explanation_target": [
+        "Reason: The intervention is elderberry juice \u2014 a commercially available nutritional supplement (Sambucus nigra / S. nigra subsp. canadensis) with reported antioxidant and anti\u2011inflammatory properties; the trial tests its effects on cognition in people with mild cognitive impairment (MCI), indicating the intended effect is cognitive improvement rather than a targeted anti\u2011amyloid/tau biologic or single small\u2011molecule inhibitor. \ue200cite\ue202turn0search5\ue202turn0search3\ue201",
+        "Act (extracted details): The randomized, double\u2011blind, placebo\u2011controlled trial gave American elderberry juice (5 mL orally three times daily for 6 months) to older adults with MCI and measured cognitive domains and inflammatory markers; the product is a complex plant extract (polyphenols/anthocyanins) rather than a defined biologic or single small molecule. \ue200cite\ue202turn0search5\ue202turn0search7\ue202turn0search4\ue201",
+        "Classification rationale: By the category definitions provided, this trial best fits 'cognitive enhancer' \u2014 a nutritional/nutraceutical intervention aimed at improving cognition (and reducing inflammation) without being a monoclonal antibody/vaccine (disease\u2011targeted biologic) or a designed small\u2011molecule disease target drug. Although the mechanism (anti\u2011inflammatory/antioxidant) could be disease\u2011modifying in principle, the intervention is a complex food/supplement and the trial endpoints focus on cognition and inflammation rather than a specific pathological target (e.g., amyloid/tau). \ue200cite\ue202turn0search5\ue202turn0search0\ue201",
+        "Reflect: The classification aligns with the study title and design (Effect of Elderberry Juice on Cognition and Inflammation in Patients With MCI) and with published trial results showing feasibility, some trends toward improved visuospatial cognitive flexibility, and reductions in some peripheral inflammatory markers \u2014 supporting the interpretation as a cognitive\u2011focused nutraceutical intervention rather than a disease\u2011targeted biologic or small molecule. If you want the alternative interpretation (label it as potential disease\u2011modifying due to anti\u2011inflammatory action), note that would be a nonstandard mapping given the provided category definitions. \ue200cite\ue202turn0search5\ue202turn0search6\ue201"
+    ],
+    "agent_type": "F) Inflammation",
+    "explanation_agent": [
+        "Reason: The intervention is elderberry (Sambucus nigra / S. nigra subsp. canadensis) juice \u2014 a nutraceutical with documented anti\u2011inflammatory and antioxidant activity \u2014 and the trial title and endpoints focus explicitly on cognition and inflammatory markers, indicating the study tests an anti\u2011inflammatory cognitive intervention. \ue200cite\ue202turn0search0\ue202turn0search4\ue201",
+        "Act (extracted details): Randomized, double\u2011blind, placebo\u2011controlled trial in older adults with MCI gave 5 mL elderberry juice orally three times daily for 6 months; the juice contains anthocyanins (mainly cyanidin\u20113\u2011glucoside ~15.9 mg/5 mL) and the study measured cognitive domains plus peripheral inflammatory markers. \ue200cite\ue202turn0search7\ue202turn0search0\ue201",
+        "Mechanistic evidence (supporting the mapping): Preclinical and clinical literature shows elderberry extracts reduce proinflammatory mediators (e.g., IL\u20116, TNF\u2011\u03b1, NO, COX\u20112, iNOS), inhibit NF\u2011\u03baB signaling, and exert antioxidant effects via Nrf2/HO\u20111 and related pathways \u2014 consistent with an anti\u2011inflammatory mechanism of action. \ue200cite\ue202turn0search5\ue202turn0search1\ue202turn0search3\ue201",
+        "Classification rationale: The primary biological focus inferred from the trial (measuring inflammatory markers and using a product with documented anti\u2011inflammatory actions) maps best to CADRO category F) Inflammation. Elderberry\u2019s antioxidant/oxidative\u2011stress actions are relevant but secondary (CADRO G), so the most specific single category is F rather than R) Multi\u2011target. \ue200cite\ue202turn0search2\ue202turn0search4\ue201",
+        "Reflect: The F) Inflammation assignment aligns with the trial\u2019s stated outcomes and the known bioactivity of elderberry juice. If one insisted on capturing both antioxidant and anti\u2011inflammatory mechanisms equally, an alternative would be R) Multi\u2011target, but given the trial emphasis on inflammatory markers the preferred CADRO classification is F) Inflammation. \ue200cite\ue202turn0search0\ue202turn0search3\ue201"
+    ]
+}

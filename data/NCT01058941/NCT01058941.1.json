@@ -1,0 +1,1449 @@
+{
+    "nct_id": "NCT01058941",
+    "title": "Lipoic Acid and Omega-3 Fatty Acids in Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2017-03-01",
+    "description_brief": "The purpose of this study was to see if taking lipoic acid plus omega-3 fatty acids (omega-3s) can slow the Alzheimer's disease (AD) process. To see if the treatment can slow the AD process, the investigators looked at changes in memory and changes in a person's daily activities over 18 months.",
+    "description_detailed": "Current pharmacological agents for AD have had no impact on disease prevalence and have had limited effects on improving the clinical course of AD. The exponential rise in the prevalence, incidence, and cost of care for AD make finding therapeutic agents that can either prevent AD or delay disease progression an urgent health care need. Since inflammation, lipid dysregulation, and insulin resistance have each been associated with AD pathology, the combination of lipoic acid plus fish oil has the potential to maximize therapeutic benefit by acting on all three mechanisms associated with disease pathology.",
+    "phase": [
+        "PHASE1",
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Lipoic Acid and Omega-3 Fatty Acids",
+                    "description": "lipoic acid and fish oil concentrate\n\nlipoic acid and fish oil concentrate: lipic acid (600 milligrams per day) and fish oil concentrate (3 grams per day) for 18 months"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "placebo lipoic acid plus placebo oil\n\nlipoic acid and fish oil concentrate: lipic acid (600 milligrams per day) and fish oil concentrate (3 grams per day) for 18 months"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "34"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "33"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "25"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "22"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "9"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "11"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Lipoic Acid and Omega-3 Fatty Acids",
+                    "description": "lipoic acid and fish oil concentrate\n\nlipoic acid and fish oil concentrate: lipic acid (600 milligrams per day) and fish oil concentrate (3 grams per day) for 18 months"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo",
+                    "description": "placebo lipoic acid plus placebo oil\n\nlipoic acid and fish oil concentrate: lipic acid (600 milligrams per day) and fish oil concentrate (3 grams per day) for 18 months"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "34"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "33"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "67"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "9"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "29"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "29"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "58"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "FULL_RANGE",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "73.3",
+                                            "lowerLimit": "56",
+                                            "upperLimit": "92"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "76.2",
+                                            "lowerLimit": "52",
+                                            "upperLimit": "89"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "74.7",
+                                            "lowerLimit": "52",
+                                            "upperLimit": "92"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "35"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "32"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "34"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "66"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "30"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "63"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "34"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "67"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline in Activities of Daily Living (ADL) at 18 Months",
+                    "description": "The Alzheimer's Disease Cooperative Study Activities of Daily Living Scale (ADCS-ADL) is used to assess activities of daily living in people with AD using a structured interview to ask the AD participant's caregiver/study partner to assess functional ability over a wide range of performance measures. A higher ADL score indicates greater impairment in functional ability; scores range from 0 to 27.",
+                    "populationDescription": "Twenty participants discontinued from the study prior to completing all study visits. One treatment participant did not complete the final ADL assessment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline and 18 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Lipoic Acid and Omega-3 Fatty Acids",
+                            "description": "lipoic acid and fish oil concentrate\n\nlipoic acid and fish oil concentrate: lipic acid (600 milligrams per day) and fish oil concentrate (3 grams per day) for 18 months"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "placebo lipoic acid plus placebo oil\n\nlipoic acid and fish oil concentrate: lipic acid (600 milligrams per day) and fish oil concentrate (3 grams per day) for 18 months"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "24"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "22"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-11.58",
+                                            "spread": "12.68"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-13.45",
+                                            "spread": "12.89"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "The target enrollment was 60 subjects, allowing for up to a 20% drop-out. It was calculated that with 48 subjects (24 per group) we would have 80% power to see differences in ADL scores over 18 months between the treatment and placebo groups with a significance level of 0.025 based on a simple Bonferroni adjustment, since we had two primary outcomes.",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.82",
+                            "pValueComment": "We used a significance level of p = 0.025 for our measure of ADL changes based on a simple Bonferroni adjustment since we have two primary outcomes.",
+                            "statisticalMethod": "Mixed Models Analysis",
+                            "statisticalComment": "Adjusted for baseline outcome, time from baseline, age, education category, BMI, cholinesterase inhibitors, memantine, vitamin E, and Apo-E.",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "-0.42",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-3.97",
+                            "ciUpperLimit": "3.13"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline in Alzheimer's Disease Assessment Scale - Cognitive Subscale (ADAS-cog) at 18 Months",
+                    "description": "The ADAS-cog assesses general cognitive function over multiple domains and evaluates memory, attention, reasoning, language, orientation, and praxis. A higher score indicates greater impairment on a range of scores from 0 to 70. A total score of 70 indicates maximum severity.",
+                    "populationDescription": "Twenty participants discontinued from the study prior to completing all study visits. One placebo and one treatment participant did not complete the final ADAS-cog assessment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline and 18 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Lipoic Acid and Omega-3 Fatty Acids",
+                            "description": "lipoic acid and fish oil concentrate\n\nlipoic acid and fish oil concentrate: lipic acid (600 milligrams per day) and fish oil concentrate (3 grams per day) for 18 months"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "placebo lipoic acid plus placebo oil\n\nlipoic acid and fish oil concentrate: lipic acid (600 milligrams per day) and fish oil concentrate (3 grams per day) for 18 months"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "24"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "21"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6.61",
+                                            "spread": "6.67"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3.40",
+                                            "spread": "4.50"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "The target enrollment was 60 subjects, allowing for up to a 20% drop-out. It was calculated that with 48 subjects (24 per group) we would have 80% power to see differences in ADL scores over 18 months between the treatment and placebo groups with a significance level of 0.025 based on a simple Bonferroni adjustment, since we had two primary outcomes.",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.001",
+                            "pValueComment": "We used a significance level of p = 0.025 for our measure of ADAS-cog changes based on a simple Bonferroni adjustment since we have two primary outcomes.",
+                            "statisticalMethod": "Mixed Models Analysis",
+                            "statisticalComment": "Adjusted for baseline outcome, time from baseline, age, education category, BMI, cholinesterase inhibitors, memantine, vitamin E, and Apo-E.",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "-3.68",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-5.90",
+                            "ciUpperLimit": "-1.46"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "Adverse events (AEs) were monitored once a month as a part of the clinic visits and monthly by phone. Reported AEs include events that occurred on or after Day 0 and on or before month 18.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Lipoic Acid and Omega-3 Fatty Acids",
+                    "description": "lipoic acid and fish oil concentrate\n\nlipoic acid and fish oil concentrate: lipic acid (600 milligrams per day) and fish oil concentrate (3 grams per day) for 18 months",
+                    "deathsNumAffected": 1,
+                    "deathsNumAtRisk": 34,
+                    "seriousNumAffected": 10,
+                    "seriousNumAtRisk": 34,
+                    "otherNumAffected": 29,
+                    "otherNumAtRisk": 34
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "placebo lipoic acid plus placebo oil\n\nlipoic acid and fish oil concentrate: lipic acid (600 milligrams per day) and fish oil concentrate (3 grams per day) for 18 months",
+                    "deathsNumAffected": 2,
+                    "deathsNumAtRisk": 33,
+                    "seriousNumAffected": 7,
+                    "seriousNumAtRisk": 33,
+                    "otherNumAffected": 27,
+                    "otherNumAtRisk": 33
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Drug-induced delirium",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Nyquil use",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Dementia Alzheimer's Type",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Rapid cognitive decline",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Tachycardia",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Thrombotic cerebral infarction",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Cerebrovascular accident",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Atrial fibrillation",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Abnormal loss of weight",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Fall down stairs",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Leukaemia",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Respiratory tract infection",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Acute kidney injury",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Pleural effusion",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Gastrointestinal obstruction",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Subdural haematoma evacuation",
+                    "organSystem": "Surgical and medical procedures",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Gastric ulcer haemorrhage",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Head injury",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Medical device complication",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Laryngeal cancer",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Pneumonia",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 33
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Upper respiratory tract infection",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 7,
+                            "numAffected": 5,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 7,
+                            "numAffected": 7,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 6,
+                            "numAffected": 4,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 6,
+                            "numAffected": 5,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Diarrhea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 8,
+                            "numAffected": 7,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Vomiting",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 3,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 4,
+                            "numAffected": 3,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Cancer",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 2,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 4,
+                            "numAffected": 3,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache/Migraine",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 6,
+                            "numAffected": 5,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Anemia",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Depression",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Behavioral and psychiatric symptoms of dementia",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 5,
+                            "numAffected": 4,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Arthralgia",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Allergic conditions",
+                    "organSystem": "Immune system disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Abdominal pain",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary tract infection",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 2,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Sycope",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 2,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary incontinence",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA (Unspecified)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 33
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Dr. Lynne Shinto, ND, MPH",
+                "organization": "Oregon Health & Science University",
+                "email": "shintol@ohsu.edu",
+                "phone": "503-494-5035"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "alpha-lipoic acid (lipoic acid)",
+        "omega-3 fatty acids (DHA/EPA, fish oil)"
+    ],
+    "placebo": [
+        "placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial tested alpha-lipoic acid (a small-molecule antioxidant) combined with omega-3 fatty acids to determine whether the treatment can slow Alzheimer\u2019s disease progression (changes in memory and daily activities over 18 months). This purpose and intervention are described in the trial registry. \ue200cite\ue202turn0search4\ue201",
+        "Act: Key trial details \u2014 title: \u201cLipoic Acid and Omega-3 Fatty Acids in Alzheimer's Disease\u201d (NCT01058941); interventions listed as alpha-lipoic acid and fish oil/omega-3s with a placebo control. The published pilot randomized trial reports the omega\u20113 + lipoic acid combination and measured cognitive and functional outcomes. \ue200cite\ue202turn0search4\ue202turn0search0\ue201",
+        "Reflect: Classification \u2014 these interventions are non-biologic, small-molecule nutritional/supplement agents (alpha\u2011lipoic acid and fatty acids) intended to slow disease-related decline (disease modification/neuropathology via antioxidant/anti-inflammatory mechanisms), so the best fit among the provided categories is \"disease-targeted small molecule.\" The published report also frames the rationale in terms of oxidative stress/inflammation linked to AD pathology. \ue200cite\ue202turn0search0\ue201",
+        "Notes/ambiguity: Some might describe omega\u20113s and lipoic acid as dietary supplements rather than conventional therapeutics; they are not biologics (e.g., monoclonal antibodies) and the trial targeted slowing AD progression rather than only symptomatic cognitive enhancement or neuropsychiatric symptom relief, so \"disease-targeted small molecule\" is the most appropriate category. \ue200cite\ue202turn0search0\ue202turn0search4\ue201"
+    ],
+    "agent_type": "R) Multi-target",
+    "explanation_agent": [
+        "Reason: The trial tests alpha-lipoic acid (a small-molecule antioxidant) together with omega-3 fatty acids (DHA/EPA/fish oil), interventions that are intended to slow AD progression by reducing oxidative stress, modulating inflammation and altering lipid-related pathways. The study is explicitly disease\u2011modifying in intent (memory and daily activities over months). \ue200cite\ue202turn0search1\ue202turn0search0\ue201",
+        "Act: Extracted details \u2014 Trial NCT01058941 (Lipoic Acid and Omega-3 Fatty Acids in Alzheimer\u2019s Disease) lists alpha\u2011lipoic acid + fish oil (DHA/EPA) vs placebo; the pilot randomized study reported slowed cognitive/functional decline for the combination in a small sample. Alpha\u2011lipoic acid is described in reviews as an antioxidant that chelates redox metals, scavenges reactive oxygen species and down\u2011regulates pro\u2011inflammatory, redox\u2011sensitive signaling. Omega\u20113 fatty acids (DHA/EPA) have anti\u2011inflammatory, membrane/lipid\u2011modulating and putative anti\u2011amyloid and neuroprotective effects. \ue200cite\ue202turn0search1\ue202turn0search0\ue202turn0search3\ue202turn1search5\ue202turn1search3\ue201",
+        "Reflect: Classification rationale \u2014 the intervention combination acts on more than one CADRO pathway (oxidative stress and inflammation/lipid biology). Because the trial explicitly combines agents with distinct but overlapping mechanisms rather than targeting a single CADRO pathway, the most appropriate CADRO assignment is R) Multi-target. If forced to pick a single pathway, G) Oxidative Stress (for lipoic acid) or F) Inflammation / C) ApoE, Lipids and Lipoprotein Receptors (for omega-3s) could be argued, but multi\u2011target best captures the trial\u2019s combined mechanisms. \ue200cite\ue202turn0search3\ue202turn1search3\ue201",
+        "Web search results (key sources used):",
+        "- ClinicalTrials.gov / trial registry summary for NCT01058941 (Lipoic Acid and Omega-3 Fatty Acids for Alzheimer\u2019s Disease) \u2014 lists interventions, doses and primary outcomes. \ue200cite\ue202turn0search1\ue201",
+        "- PubMed: \"A randomized placebo-controlled pilot trial of omega-3 fatty acids and alpha lipoic acid in Alzheimer's disease\" \u2014 pilot RCT reporting cognitive/functional outcomes. \ue200cite\ue202turn0search0\ue201",
+        "- Review/meta articles on lipoic acid mechanisms and neuroprotection (reviews describing antioxidant, metal chelation and anti\u2011inflammatory actions of LA). \ue200cite\ue202turn0search3\ue202turn0search5\ue201",
+        "- Reviews and systematic reviews on omega-3 (DHA/EPA) effects in AD and mechanisms (anti\u2011inflammatory, membrane/lipid biology, possible effects on A\u03b2 and neuroprotection). \ue200cite\ue202turn1search5\ue202turn1search3\ue201"
+    ]
+}

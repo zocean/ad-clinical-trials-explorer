@@ -1,0 +1,769 @@
+{
+    "nct_id": "NCT01439555",
+    "title": "Endothelial Facilitation in Alzheimer's Disease. An Open Label Pilot Study of the Sequential and Cumulative Effects of Simvastatin, L-Arginine, and Sapropterin (Kuvan) on Cerebral Blood Flow and Cognitive Function in Patients With Alzheimer's Disease.",
+    "status": "COMPLETED",
+    "last_update_time": "2019-07-11",
+    "description_brief": "Purpose of the study: Patients with mild Alzheimer's Disease will be given three different drugs over a 4-month period to try to increase the blood flow to their brains, and improve blood vessel and brain function. Each drug can help to open the blood vessels in the brain, and together they may be more effective than each drug alone. The hypothesis is that small blood vessels secrete substances that maintain the integrity of the brain, and may prevent loss of nerve cells leading to Alzheimer's Disease",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Simvastatin + L-Arginine + Tetrahydrobiopterin",
+                    "description": "Simvastatin, 40 mg per day orally; L-Arginine, 2 Gm four times per day orally; Tetrahydrobiopterin 20 mg/kg/day orally\n\nSimvastatin: Simvastatin, 40 mg per day orally\n\nL-Arginine: L-Arginine, 2 Gm four times per day orally;\n\nTetrahydrobiopterin: Tetrahydrobiopterin 20 mg/kg/day orally"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "11"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "10"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Protocol Violation",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "Prospective, open-label, single group assignment, single center study conducted by UMass Medical School at the UMass Memorial Medical Center in Worcester, MA. 11 subjects total were screened and enrolled in this study, 10 subjects completed the study as 1 subject was initially enrolled but was excluded due to not meeting inclusion criteria.",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Simvastatin + L-Arginine + Tetrahydrobiopterin",
+                    "description": "Simvastatin, 40 mg per day orally; L-Arginine, 2 Gm four times per day orally; Tetrahydrobiopterin 20 mg/kg/day orally\n\nSimvastatin: Simvastatin, 40 mg per day orally\n\nL-Arginine: L-Arginine, 2 Gm four times per day orally;\n\nTetrahydrobiopterin: Tetrahydrobiopterin 20 mg/kg/day orally"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "10"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Years of Age",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "67.1",
+                                            "spread": "6.84"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Mean Change in Cerebral Blood Flow as Measured by Magnetic Resonance Imaging (MRI)",
+                    "description": "Measurement of changes to cerebral blood flow (ml/110g/min) in regions of interest as measured using Magnetic Resonance Imaging (MRI)",
+                    "populationDescription": "Data for 6 participants available. Data file for remaining participants corrupted and could not be retrieved for analysis/reporting.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ml/110g/min",
+                    "timeFrame": "Baseline to 16 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Simvastatin + L-Arginine + Tetrahydrobiopterin",
+                            "description": "Simvastatin, 40 mg per day orally; L-Arginine, 2 Gm four times per day orally; Tetrahydrobiopterin 20 mg/kg/day orally\n\nSimvastatin: Simvastatin, 40 mg per day orally\n\nL-Arginine: L-Arginine, 2 Gm four times per day orally;\n\nTetrahydrobiopterin: Tetrahydrobiopterin 20 mg/kg/day orally"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "6"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.621528",
+                                            "spread": "0.116513988"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.6447692",
+                                            "spread": "0.070388324"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.654822667",
+                                            "spread": "0.024032403"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 16",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.579838667",
+                                            "spread": "0.091658076"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Cerebral Blood Flow as Measured by Arterial Spin Labeling During Magnetic Resonance Imaging (MRI)",
+                    "description": "Data not available as files corrupted and could not be analyzed",
+                    "populationDescription": "Data files corrupted, analysis not possible",
+                    "reportingStatus": "POSTED",
+                    "timeFrame": "Baseline to week 16",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Simvastatin + L-Arginine + Tetrahydrobiopterin",
+                            "description": "Simvastatin, 40 mg per day orally; L-Arginine, 2 Gm four times per day orally; Tetrahydrobiopterin 20 mg/kg/day orally\n\nSimvastatin: Simvastatin, 40 mg per day orally\n\nL-Arginine: L-Arginine, 2 Gm four times per day orally;\n\nTetrahydrobiopterin: Tetrahydrobiopterin 20 mg/kg/day orally"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Mini Mental State Examination (MMSE) Scores",
+                    "description": "Change in mental state as reflected by changes to mean Mini Mental State Examination (MMSE) score as measured 4 weeks, 8 weeks and 16 weeks post-baseline. The MMSE uses a 30 point questionnaire to measure cognitive impairment. The MMSE is scored from 0 to 30,with a score equal to or greater than 24 points indicating normal cognition, a score of 19-23 points indicating mild cognitive impairment, 10-18 points indicating moderate impairment and a score equal to or below 9 indicating severe impairment.",
+                    "populationDescription": "Patients were sequentially treated with the HMC-CoA reductase synthesis inhibitor simvastatin (weeks 0-16); L-Arginine (weeks 4-16); and tetrahydrobiopterin (weeks 8-16). The investigators assessed cognitive function with a psychometric battery including the MMSE at each time point.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline to 4 weeks, 8 weeks and 16 weeks post-baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Simvastatin + L-Arginine + Tetrahydrobiopterin",
+                            "description": "Simvastatin, 40 mg per day orally; L-Arginine, 2 Gm four times per day orally; Tetrahydrobiopterin 20 mg/kg/day orally\n\nSimvastatin: Simvastatin, 40 mg per day orally\n\nL-Arginine: L-Arginine, 2 Gm four times per day orally;\n\nTetrahydrobiopterin: Tetrahydrobiopterin 20 mg/kg/day orally"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "24.2",
+                                            "spread": "3.155"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "25.33",
+                                            "spread": "2.21"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26",
+                                            "spread": "3.13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 16",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "25.55",
+                                            "spread": "2.51"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Cognitive Assessment Screening Test (CAST)",
+                    "description": "This outcome measured the change in average Cognitive Assessment Screening Test (CAST) scores for the participant group. The CAST is scored from 0 to 40. A higher score indicates better performance, and a lower score indicates worse performance. The participants were given the CAST at baseline, 4 weeks, 8 weeks and 16 weeks post-baseline. The outcome reports on the averaged change for the averaged CAST scores from baseline to 16 weeks.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline to 16 weeks post-baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Simvastatin + L-Arginine + Tetrahydrobiopterin",
+                            "description": "Simvastatin, 40 mg per day orally; L-Arginine, 2 Gm four times per day orally; Tetrahydrobiopterin 20 mg/kg/day orally\n\nSimvastatin: Simvastatin, 40 mg per day orally\n\nL-Arginine: L-Arginine, 2 Gm four times per day orally;\n\nTetrahydrobiopterin: Tetrahydrobiopterin 20 mg/kg/day orally"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "31.4",
+                                            "spread": "5.46"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Clinical Dementia Rating Scale (CDR)",
+                    "description": "This outcome measures Clinical Dementia Rating Scale (CDR) scores at baseline (enrollment) and 16 weeks post-enrollment. The Clinical Dementia Rating Scale is scored with a composite scale of 0 to 3, with higher scores indicating lower functional status and lower scores indicating better functional status.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline to 16 weeks post-baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Simvastatin + L-Arginine + Tetrahydrobiopterin",
+                            "description": "Simvastatin, 40 mg per day orally; L-Arginine, 2 Gm four times per day orally; Tetrahydrobiopterin 20 mg/kg/day orally\n\nSimvastatin: Simvastatin, 40 mg per day orally\n\nL-Arginine: L-Arginine, 2 Gm four times per day orally;\n\nTetrahydrobiopterin: Tetrahydrobiopterin 20 mg/kg/day orally"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "CDR Score at Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.9",
+                                            "spread": ".47"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "CDR Score at 16 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.9",
+                                            "spread": ".47"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Alzheimer's Disease Assessment Scale: Cognitive and Modified Version (ADAS-COG)",
+                    "description": "Mean Alzheimer's Disease Assessment Scale: Cognitive Subscale (ADAS-COG) score at baseline and at 16 weeks post-enrollment. The ADAS-COG consists of 11 tasks measuring disturbances of memory, language, praxis, attention and other cognitive abilities. Total scores range from 0 to 70, with higher scores (18 and above) indicating greater cognitive impairment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline to 16 weeks post-baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Simvastatin + L-Arginine + Tetrahydrobiopterin",
+                            "description": "Simvastatin, 40 mg per day orally; L-Arginine, 2 Gm four times per day orally; Tetrahydrobiopterin 20 mg/kg/day orally\n\nSimvastatin: Simvastatin, 40 mg per day orally\n\nL-Arginine: L-Arginine, 2 Gm four times per day orally;\n\nTetrahydrobiopterin: Tetrahydrobiopterin 20 mg/kg/day orally"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "ADAS-COG Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "21.6",
+                                            "spread": "5.65"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "ADAS-COG 16 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "21.9",
+                                            "spread": "8.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Clinical Interview Based Impression of Change + Caregiver Input (CIBIC Plus)",
+                    "description": "The Clinical Interview Based Impression of Change + Caregiver Input (CIBIC Plus) is a semi-structured instrument to examine four major areas of patient function: General, Cognitive, Behavioral and Activities of Daily Living. It is scored from 1 to 7. A score of 1 indicates marked improvement, 4 indicates no change and 7 indicates marked worsening.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline to 4 weeks, 8 weeks and 16 weeks post-baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Simvastatin + L-Arginine + Tetrahydrobiopterin",
+                            "description": "Simvastatin, 40 mg per day orally; L-Arginine, 2 Gm four times per day orally; Tetrahydrobiopterin 20 mg/kg/day orally\n\nSimvastatin: Simvastatin, 40 mg per day orally\n\nL-Arginine: L-Arginine, 2 Gm four times per day orally;\n\nTetrahydrobiopterin: Tetrahydrobiopterin 20 mg/kg/day orally"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change in CIBIC score from baseline to 4 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-.1",
+                                            "spread": "0.32"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change in CIBIC Score from 4 weeks to 8 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": ".6",
+                                            "spread": ".84"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change in CIBIC Score from 8 weeks to 16 weeks",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-.1",
+                                            "spread": "1.29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "6 Years.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Simvastatin + L-Arginine + Tetrahydrobiopterin",
+                    "description": "Simvastatin, 40 mg per day orally; L-Arginine, 2 Gm four times per day orally; Tetrahydrobiopterin 20 mg/kg/day orally\n\nSimvastatin: Simvastatin, 40 mg per day orally\n\nL-Arginine: L-Arginine, 2 Gm four times per day orally;\n\nTetrahydrobiopterin: Tetrahydrobiopterin 20 mg/kg/day orally",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 10,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 10,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 10
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "limitationsAndCaveats": {
+                "description": "The data for the MRI measurements (cerebral blood flow) experienced file corruption, rendering segments of data irretrievable and the whole set non-analyzable."
+            },
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "Elizabeth DeGrush, DO",
+                "organization": "UMass Medical School",
+                "email": "elizabeth.degrush@umassmemorial.org",
+                "phone": "508-334-1000"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "Simvastatin",
+        "L-Arginine",
+        "Sapropterin (Kuvan)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial gives simvastatin, L-arginine, and sapropterin to increase cerebral blood flow and improve endothelial/vascular function with the goal of improving brain function and cognition; these interventions act on vascular/endothelial pathways (e.g., eNOS/NO) rather than directly targeting canonical Alzheimer\u2019s pathology (amyloid or tau). \ue200cite\ue202turn1search4\ue202turn1search3\ue201",
+        "Act: Key drug mechanisms from the literature \u2014 simvastatin (a small\u2011molecule HMG\u2011CoA reductase inhibitor) upregulates eNOS and can improve endothelial NO production and cerebral blood flow. \ue200cite\ue202turn1search3\ue202turn1search2\ue201",
+        "Act: L\u2011arginine is the substrate for endothelial nitric oxide synthase (eNOS) and has been used to increase NO production and vasodilation in humans and models of endothelial dysfunction. \ue200cite\ue202turn0search1\ue202turn0search0\ue201",
+        "Act: Sapropterin (Kuvan) is a synthetic form of tetrahydrobiopterin (BH4), a cofactor that supports eNOS coupling and NO synthesis (approved clinically for BH4\u2011responsive PKU). In the vascular context, BH4 can improve eNOS function and reduce \u2018\u2018uncoupling\u2019\u2019 that produces superoxide instead of NO. \ue200cite\ue202turn0search4\ue202turn0search6\ue201",
+        "Reflect: Per the supplied category definitions, these are small\u2011molecule pharmacologic agents intended to improve cognition/brain function by enhancing cerebral perfusion and endothelial health rather than biologics targeting amyloid/tau or small molecules directly aimed at those pathologies. Therefore the best fit is \"cognitive enhancer.\" Note: one could alternatively describe the intervention as a potentially disease\u2011modifying vascular strategy (via endothelial support), but under the provided category definitions it does not meet \"disease\u2011targeted biologic\" or \"disease\u2011targeted small molecule\" (which require direct targeting of Alzheimer\u2019s pathology). \ue200cite\ue202turn1search4\ue201",
+        "Web search sources used (for transparency): Alzheimer\u2019s Research & Therapy article describing the cumulative effect and rationale for simvastatin + L\u2011arginine + tetrahydrobiopterin in AD (supports trial title/rationale). \ue200cite\ue202turn1search4\ue201",
+        "Simvastatin \u2014 mechanistic and clinical literature showing statins upregulate eNOS, improve endothelial function and cerebral blood flow. \ue200cite\ue202turn1search3\ue202turn1search2\ue201",
+        "L\u2011Arginine \u2014 reviews/clinical studies showing L\u2011arginine is the eNOS substrate and can augment endothelial NO and vasodilation. \ue200cite\ue202turn0search1\ue202turn0search2\ue201",
+        "Sapropterin (Kuvan) \u2014 product/EMA/FDA sources: sapropterin is synthetic BH4 (a small molecule cofactor) used clinically (PKU) and described in reviews/labels; BH4 is relevant to eNOS coupling. \ue200cite\ue202turn0search4\ue202turn0search6\ue201"
+    ],
+    "agent_type": "K) Vasculature",
+    "explanation_agent": [
+        "Reason: The trial gives simvastatin, L-arginine, and sapropterin to improve endothelial/vascular function and increase cerebral blood flow (eNOS/NO pathway) rather than directly targeting amyloid or tau pathology. This identifies the biological focus as vascular/endothelial. \ue200cite\ue202turn1search1\ue202turn0search3\ue201",
+        "Act: Extracted details and mechanistic evidence \u2014 simvastatin (HMG\u2011CoA reductase inhibitor) upregulates eNOS and can increase cerebral blood flow; L\u2011arginine is the substrate for eNOS and augments NO\u2011mediated vasodilation; sapropterin (synthetic BH4) supports eNOS coupling and NO synthesis, reducing eNOS uncoupling. These mechanisms are cited from the clinical proof\u2011of\u2011concept trial and mechanistic/physiology literature. \ue200cite\ue202turn1search1\ue202turn0search3\ue202turn0search0\ue202turn0search4\ue202turn0search5\ue201",
+        "Reflect: The intervention targets vascular/endothelial pathways (improving CBF via eNOS/NO) and thus best maps to CADRO category K) Vasculature rather than amyloid, tau, inflammation, or synaptic categories. The Alzheimer's Research & Therapy trial explicitly frames the intervention as eNOS/vascular augmentation, supporting this assignment. \ue200cite\ue202turn1search1\ue201",
+        "Web search results (key sources used):",
+        "- Cumulative effect of simvastatin, l\u2011arginine, and tetrahydrobiopterin on cerebral blood flow and cognitive function in Alzheimer\u2019s disease \u2014 proof\u2011of\u2011concept trial describing sequential treatment and rationale (simvastatin \u2192 L\u2011arginine \u2192 BH4) and CBF/cognition outcomes. \ue200cite\ue202turn1search1\ue201",
+        "- Simvastatin increases eNOS / ameliorates cerebral vasospasm; statins upregulate eNOS and can augment cerebral blood flow (mechanistic studies). \ue200cite\ue202turn0search3\ue202turn0search7\ue201",
+        "- L\u2011arginine and eNOS: studies showing L\u2011arginine is the eNOS substrate and can restore/augment endothelial NO production and vasodilation. \ue200cite\ue202turn0search0\ue202turn0search4\ue201",
+        "- BH4 / sapropterin and eNOS coupling: review and mechanistic papers on tetrahydrobiopterin (BH4) synthesis/recycling and its role in maintaining eNOS coupling (sapropterin = synthetic BH4). \ue200cite\ue202turn0search5\ue202turn0search2\ue201"
+    ]
+}

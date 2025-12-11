@@ -1,0 +1,1402 @@
+{
+    "nct_id": "NCT03117738",
+    "title": "A Phase 1/2, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Safety and Efficacy of AstroStem, Autologous Adipose Tissue Derived Mesenchymal Stem Cells, in Patients With Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2021-08-07",
+    "description_brief": "This is a randomized, double-blind, placebo-controlled, parallel-group comparison study in subjects with Alzheimer's Disease. Following first screening period, subjects will be randomly assigned into one of the following arms: AstroStem and placebo control in a 1:1 ratio. AstroStem or placebo control will be administered via I.V. at Week 0. This procedure will be repeated 9 times at 2-week interval. Subjects will be scheduled for two follow-up visits at Weeks 30 and 52 to evaluate primary and secondary outcome endpoints.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE1",
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "AstroStem",
+                    "description": "AstroStem: Autologous adipose tissue derived mesenchymal stem cells (AdMSC) 2x10e8 cells"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo-Control",
+                    "description": "Saline with 30% auto-serum"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "11"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "10"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "7"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "5"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "4"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "5"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "AstroStem",
+                    "description": "AstroStem: Autologous adipose tissue derived mesenchymal stem cells (AdMSC)"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo-Control",
+                    "description": "Placebo-Control: Saline with 30% auto-serum"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "11"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "10"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "21"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "72.4",
+                                            "spread": "7.6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "75.6",
+                                            "spread": "8.2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "73.9",
+                                            "spread": "7.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "9"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race/Ethnicity, Customized",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "Hispanic or Latino",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Not-Hispanic or Latino",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "White",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "19"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Black or African American",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Asian",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "American Indian or Alaska Native",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Native Hawaiian or Other Pacific Islander",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Other",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Height",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "cm",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "167.9",
+                                            "spread": "14.4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "168.3",
+                                            "spread": "9.7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "168.1",
+                                            "spread": "12.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Weight",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "kg",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "74.8",
+                                            "spread": "17.2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "64.6",
+                                            "spread": "12.0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "69.9",
+                                            "spread": "15.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "BMI",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "kg/m^2",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "26.3",
+                                            "spread": "4.3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "22.8",
+                                            "spread": "3.5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "24.6",
+                                            "spread": "4.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Treatment Related Adverse Events",
+                    "description": "Number of subjects with treatment related adverse events as assessed by analysis of adverse events including symptoms, and abnormal findings on physical examination, vital signs, ECG, and standard laboratory examination results",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "30 Weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AstroStem",
+                            "description": "AstroStem: Autologous adipose tissue derived mesenchymal stem cells (AdMSC)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo-Control",
+                            "description": "Placebo-Control: Saline with 30% auto-serum"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "ADAS-Cog (Alzheimer's Disease Assessment Scale-cognitive Subscale)",
+                    "description": "Change of ADAS-Cog (Alzheimer's Disease Assessment Scale-cognitive subscale) from Baseline at Week 30 Score range: 0-70 A score of 70 represents the most severe impairment and 0 represents the least impairment",
+                    "populationDescription": "3 of the 11 astrostem groups were dropped out and 1 was violated protocol.\n\n1 of the 10 Placebo-control groups was dropped out and 2 were violated protocol.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline and 30 Weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AstroStem",
+                            "description": "AstroStem: Autologous adipose tissue derived mesenchymal stem cells (AdMSC)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo-Control",
+                            "description": "Placebo-Control: Saline with 30% auto-serum"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "7"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5.9",
+                                            "spread": "6.8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3.0",
+                                            "spread": "5.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "MMSE (Mini-mental Status Examination)",
+                    "description": "Change of MMSE from baseline at Week 30 Score range: 0-30 A score of 20 to 24 suggests mild dementia, 13 to 20 suggests moderate dementia, and less than 12 indicates severe dementia.",
+                    "populationDescription": "3 of the 11 astrostem groups were dropped out and 1 was violated protocol.\n\n1 of the 10 Placebo-control groups was dropped out and 2 were violated protocol.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline and 30 Weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AstroStem",
+                            "description": "AstroStem: Autologous adipose tissue derived mesenchymal stem cells (AdMSC)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo-Control",
+                            "description": "Placebo-Control: Saline with 30% auto-serum"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "7"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-3.4",
+                                            "spread": "2.8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-1.4",
+                                            "spread": "2.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "CDR-SOB (Clinical Dementia Rating-Sum of Boxes)",
+                    "description": "Changes of CDR-SOB from baseline at Week 30 Score range: 0-18.0 0 = normal, 0.5-4.0 = questionable cognitive dementia, 4.5-9.0 = mild dementia, 9.5-15.5 = moderate dementia, and 16.0-18.0 = severe dementia",
+                    "populationDescription": "3 of the 11 astrostem groups were dropped out and 1 was violated protocol.\n\n1 of the 10 Placebo-control groups was dropped out and 2 were violated protocol.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline and 30 Weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AstroStem",
+                            "description": "AstroStem: Autologous adipose tissue derived mesenchymal stem cells (AdMSC)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo-Control",
+                            "description": "Placebo-Control: Saline with 30% auto-serum"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "7"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.3",
+                                            "spread": "1.7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.9",
+                                            "spread": "1.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "NPI (Neuropsychiatric Inventory)",
+                    "description": "Changes of NPI from baseline at Week 30 Score range: 0-144 higher score indicates higher disturbance.",
+                    "populationDescription": "3 of the 11 astrostem groups were dropped out and 1 was violated protocol.\n\n1 of the 10 Placebo-control groups was dropped out and 2 were violated protocol.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline and 30 Weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AstroStem",
+                            "description": "AstroStem: Autologous adipose tissue derived mesenchymal stem cells (AdMSC)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo-Control",
+                            "description": "Placebo-Control: Saline with 30% auto-serum"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "7"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.4",
+                                            "spread": "8.5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-5.7",
+                                            "spread": "11.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "GDS (Geriatric Depression Scale)",
+                    "description": "Changes of GDS from baseline at Week 30 Score range: 0-15 Scores of 0-4 are considered normal, depending on age, education, and complaints; 5-8 indicate mild depression; 9-11 indicate moderate depression; and 12-15 indicate severe depression.",
+                    "populationDescription": "3 of the 11 astrostem groups were dropped out and 1 was violated protocol.\n\n1 of the 10 Placebo-control groups was dropped out and 2 were violated protocol.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline and 30 Weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AstroStem",
+                            "description": "AstroStem: Autologous adipose tissue derived mesenchymal stem cells (AdMSC)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo-Control",
+                            "description": "Placebo-Control: Saline with 30% auto-serum"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "7"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.3",
+                                            "spread": "1.3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.3",
+                                            "spread": "2.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "ADCS-ADL (Alzheimer's Disease Cooperative Study Activities of Daily Living)",
+                    "description": "Change of ADCS-ADL from baseline at Week 30 Score range: 0-78 Lower score indicates greater severity.",
+                    "populationDescription": "3 of the 11 astrostem groups were dropped out and 1 was violated protocol.\n\n1 of the 10 Placebo-control groups was dropped out and 2 were violated protocol.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline and 30 Weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AstroStem",
+                            "description": "AstroStem: Autologous adipose tissue derived mesenchymal stem cells (AdMSC)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo-Control",
+                            "description": "Placebo-Control: Saline with 30% auto-serum"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "7"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-4.4",
+                                            "spread": "9.0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-4.7",
+                                            "spread": "9.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "C-SSRS (Columbia Suicide Severity Rating Scale)",
+                    "description": "Changes of C-SSRS from baseline at Week 30 Score range: 0-25 Higher score indicates higher severity.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline and 30 Weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AstroStem",
+                            "description": "AstroStem: Autologous adipose tissue derived mesenchymal stem cells (AdMSC)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo-Control",
+                            "description": "Placebo-Control: Saline with 30% auto-serum"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-2.1",
+                                            "spread": "6.6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.0",
+                                            "spread": "0.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "52 weeks",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "AstroStem",
+                    "description": "AstroStem: Autologous adipose tissue derived mesenchymal stem cells (AdMSC)",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 11,
+                    "seriousNumAffected": 3,
+                    "seriousNumAtRisk": 11,
+                    "otherNumAffected": 3,
+                    "otherNumAtRisk": 11
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo-Control",
+                    "description": "Placebo-Control: Saline with 30% auto-serum",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 10,
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 10,
+                    "otherNumAffected": 2,
+                    "otherNumAtRisk": 10
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "oesophageal squamous cell carcinoma stage IV",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "diarrhea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "pulmonary embolism",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Acute Pulmonary Oedema",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Open Angle Glaucoma",
+                    "organSystem": "Eye disorders",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Dysphagia",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Gastrointestinal Reflux Disease",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Infusion Site Reaction",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Oedema Peripheral",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Pain",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Pyrexia",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Dehydration",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Abnormal Loss of Weight",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypokalaemia",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Syncope",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Agitation",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Ecchymosis",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Nasopharyngitis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "Pneumonia",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Project Manager",
+                "organization": "Nature Cell co., ltd",
+                "email": "tin50@stemcellbio.com",
+                "phone": "02-545-4137"
+            }
+        }
+    },
+    "target_category": "disease-targeted biologic",
+    "drug": [
+        "AstroStem (autologous adipose tissue-derived mesenchymal stem cells; AdMSCs)"
+    ],
+    "placebo": [
+        "Saline with 30% auto\u2011serum (AstroStem placebo)"
+    ],
+    "explanation_target": [
+        "Reason: The investigational product AstroStem is an autologous cell therapy composed of adipose\u2011derived mesenchymal stem cells (AdMSCs), i.e., a biological product rather than a small molecule or device. The trial description and registry list AstroStem explicitly as autologous adipose tissue\u2011derived mesenchymal stem cells. \ue200cite\ue202turn0search0\ue202turn0search1\ue201",
+        "Act: Key extracted details \u2014 randomized, double\u2011blind, placebo\u2011controlled study of AstroStem administered intravenously in repeated infusions (multiple IV doses over weeks) vs placebo (saline + auto\u2011serum). Sponsor listed as Nature Cell Co. Ltd.; primary/secondary outcomes include cognitive scales (ADAS\u2011Cog, CDR\u2011SB) and amyloid PET SUVR in related entries. These registry entries confirm the product identity and dosing approach. \ue200cite\ue202turn0search0\ue202turn0search2\ue201",
+        "Reflect: Classification rationale \u2014 because AstroStem is a cell\u2011based biological therapy (autologous MSCs) intended to treat Alzheimer\u2019s disease (with outcomes measuring cognitive change and biomarkers), it fits the 'disease\u2011targeted biologic' category (biologic intervention aimed at modifying disease processes / neurorepair or immunomodulation), not a small molecule, symptomatic cognitive enhancer only, or a neuropsychiatric\u2011symptom trial. The mechanism in the registry is not deeply detailed, but mesenchymal stem cell therapies are biologics and are typically intended to modify disease biology; therefore the classification as 'disease\u2011targeted biologic' is appropriate. \ue200cite\ue202turn0search7\ue202turn0search0\ue201",
+        "Web search sources used: NCT registry / trial records showing AstroStem = autologous adipose\u2011derived mesenchymal stem cells and study details (NCT03117738; NCT04482413). \ue200cite\ue202turn0search0\ue202turn0search1\ue201",
+        "Notes / ambiguity: The trial record does not state a specific molecular target (e.g., amyloid or tau ligand) for the MSCs; cell therapies may act via multiple mechanisms (neurotrophic support, immunomodulation, neurorepair) rather than a single defined protein target. If you want, I can pull the full trial entry(s) or published results for more mechanistic detail. \ue200cite\ue202turn0search7\ue202turn0search3\ue201"
+    ],
+    "agent_type": "R) Multi-target",
+    "explanation_agent": [
+        "Reason: The investigational product AstroStem is an autologous adipose\u2011derived mesenchymal stem cell (AdMSC) therapy \u2014 a cell\u2011based biologic that is not directed at a single molecular species (e.g., amyloid or tau) but is reported to act via pleiotropic mechanisms (neurotrophic support, immunomodulation, repair). \ue200cite\ue202turn0search2\ue202turn0search1\ue202turn0search0\ue201",
+        "Act: Key extracted trial details \u2014 a Phase 1/2 randomized, double\u2011blind, placebo\u2011controlled study of AstroStem administered intravenously in repeated infusions (multiple IV doses over weeks) vs placebo; small completed cohort (n\u224821) in the registered study. The registry and summaries identify the product explicitly as autologous adipose\u2011derived mesenchymal stem cells. \ue200cite\ue202turn0search2\ue202turn0search3\ue202turn0search1\ue201",
+        "Reflect: CADRO mapping rationale \u2014 because the intervention is a cell therapy with multiple putative mechanisms (neurogenesis/neurorepair, immunomodulation/anti\u2011inflammation, neuroprotection) rather than a single defined molecular target, the most specific CADRO assignment is R) Multi\u2011target. If you prefer a more granular mapping, MSC effects overlap CADRO categories E (Neurogenesis), F (Inflammation), and M (Synaptic plasticity/Neuroprotection), but none alone captures the multi\u2011mechanistic nature. \ue200cite\ue202turn0search1\ue201",
+        "Web search sources (supporting statements above): PR Newswire / Nature Cell announcement of AstroStem trials; Alzforum summary of autologous adipose\u2011derived stem cell programs and mechanisms; clinical trial registry snapshots for NCT03117738 (AstroStem Phase 1/2). \ue200cite\ue202turn0search0\ue202turn0search1\ue202turn0search2\ue202turn0search3\ue201"
+    ]
+}

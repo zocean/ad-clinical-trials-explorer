@@ -1,0 +1,1042 @@
+{
+    "nct_id": "NCT03901105",
+    "title": "Evaluation of the Relationship Between Baseline Flortaucipir PET Signal and Cognitive Change in Subjects With Early Alzheimer's Disease Participating in the I8D-MC-AZES Protocol Addendum D5010C00009 (2.1) (Tau Imaging)",
+    "status": "COMPLETED",
+    "last_update_time": "2020-08-21",
+    "description_brief": "This study will evaluate whether visual interpretation of flortaucipir-PET (positron emission tomography) scans, examining patterns of tracer uptake at baseline, can predict the rate of clinically-meaningful cognitive decline due to AD after 18 months. All scans are acquired from cohorts of a previously completed study, I8D-MC-AZES (NCT02245737, lanabecestat, Eli Lilly and Company sponsor).",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "To be included in the study, subjects had to have a valid baseline flortaucipir PET scan and clinical dementia rating (CDR) assessments at baseline and 18 months.",
+            "recruitmentDetails": "Scans were acquired from subjects previously enrolled in the AZES (NCT02245737) PET substudy (N=205), including mild AD (n=141) and mild cognitive impairment (MCI) due to AD (n=64).",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "All Subjects",
+                    "description": "Mild AD and MCI due to AD from the flortaucipir PET scan arm"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "205"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "205"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "All Scans",
+                    "description": "Mild AD and MCI due to AD from the flortaucipir PET scan arm"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "205"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "71.0",
+                                            "spread": "7.74"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "100"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "105"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "27"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "172"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Flortaucipir PET Scan Result",
+                    "description": "Majority read result of 5 independent readers. \u03c4AD++ (a pattern indicating spread of aggregated tau beyond the posterolateral temporal \\[PLT\\] lobe or occipital lobe); \u03c4AD+ (a pattern indicating aggregated tau confined to PLT and/or occipital lobe); or \u03c4AD- (inconsistent with an AD pattern).",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "tAD++",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "162"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "tAD+",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "tAD-",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "28"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Mean CDR-SB",
+                    "description": "Mean Clinical Dementia Rating - Sum of Boxes Score (CDR-SB). The CDR scale (Berg 1988) examines 6 cognitive functioning domains individually on a scale of 0 to 3. CDR Sum of Boxes is generated by summing the total score across domains. Scores range from 0 to 18, with higher scores indicating higher levels of cognitive impairment.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3.69",
+                                            "spread": "1.475"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Risk Ratio for AD Symptom Progression on CDR-SB",
+                    "description": "Baseline flortaucipir F 18 PET imaging results were determined by majority read (see Baseline Characteristics for description). Clinically meaningful deterioration (CMD) was defined for the primary endpoint as a worsening of the Clinical Dementia Rating Scale Sum of Boxes (CDR-SB) score of one point or more. The clinical dementia rating (CDR) examines 6 categories of cognitive functioning domains. Each domain is scored on a scale ranging from 0 to 3 (including 0.5). A CDR-SB was generated as the sum of the values in each of the 6 domains. The CDR-SB sum scores range from 0 to 18, with higher scores indicating greater cognitive impairment and a 1 point worsening is considered a clinically significant symptom change.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Within 18 months of scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "CMD (CDR-SB Change >=1)",
+                            "description": "Subjects who experienced at least a 1 point worsening in CDR-SB score over 18 months"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "No CMD",
+                            "description": "Subjects who experienced less than a 1 point worsening in CDR-SB score over 18 months"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "143"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "62"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "tAD++",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "119"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "43"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "tAD+",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "tAD-",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Scan results were grouped into \u03c4AD++ vs. non-\u03c4AD++ (\u03c4AD+ and \u03c4AD-) for the analysis",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.0313",
+                            "pValueComment": "A priori threshold was two-sided 0.05.",
+                            "statisticalMethod": "log linear model",
+                            "statisticalComment": "Adjusted for treatment arm (lanabecestat 20 mg, 50 mg, or placebo), baseline age, years of education (categorical), and baseline CDR-SB score.",
+                            "paramType": "Risk Ratio (RR)",
+                            "paramValue": "1.36",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "1.028",
+                            "ciUpperLimit": "1.785",
+                            "estimateComment": "\u03c4AD++ scans represent the numerator for risk, and \u03c4AD+/\u03c4AD- scans represent the denominator"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Risk Ratio for AD Symptom Progression on Various Clinical Measures",
+                    "description": "Baseline flortaucipir F 18 PET imaging results were determined by majority read (see Baseline Characteristics for description). Clinically meaningful deterioration (CMD) was defined for the cognitive endpoints as follows: mini-mental status exam (MMSE) worsening of 3 points or greater, Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog11) worsening of 4 points or greater, Pfeffer's Functional Activities Questionnaire (FAQ) worsening of 3 points or greater, CDR global worsening of greater than 0 points. MMSE scores range from 0 to 30 with lower scores indicating worsening cognitive function. ADAS-Cog11 scores range from 0 to 70 with higher scores indicating worsening cognitive function. FAQ scores range from 0 to 30 with higher scores indicating worsening cognitive function. CDR global is scored on a 5 point scale (0, 0.5, 1, 2, 3) with higher scores indicating worsening cognitive function.",
+                    "populationDescription": "All subjects were eligible for this analysis; however, row totals reflect subjects for whom clinical measure data was available at baseline and 18 months.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Within 18 months of scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "CMD Yes",
+                            "description": "Subjects who experienced CMD for the clinical measure as described above"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "No CMD",
+                            "description": "Subjects who did not experience CMD for the clinical measure as described above"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "205"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "205"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "MMSE",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "133"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "70"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "tAD++",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "112"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "49"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "tAD+",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "tAD-",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "ADAS-Cog",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "112"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "87"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "tAD++",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "98"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "59"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "tAD+",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "tAD-",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "20"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "FAQ",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "134"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "66"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "tAD++",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "111"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "47"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "tAD+",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "tAD-",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "CDR Global",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "87"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "118"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "tAD++",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "71"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "91"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "tAD+",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "tAD-",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "19"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Risk ratio for MMSE CMD. Scan results were grouped into \u03c4AD++ vs. non-\u03c4AD++ (\u03c4AD+ and \u03c4AD-) for the analysis",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": ".0833",
+                            "pValueComment": "A priori threshold was two-sided 0.05. No adjustment for multiple comparisons.",
+                            "statisticalMethod": "log linear model",
+                            "statisticalComment": "Adjusted for treatment arm (lanabecestat 20 mg, 50 mg, or placebo), baseline age, years of education (categorical), and baseline score.",
+                            "paramType": "Risk Ratio (RR)",
+                            "paramValue": "1.35",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.962",
+                            "ciUpperLimit": "1.886",
+                            "estimateComment": "\u03c4AD++ scans represent the numerator for risk, and \u03c4AD+/\u03c4AD- scans represent the denominator"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Risk ratio for ADAS-Cog11 CMD. Scan results were grouped into \u03c4AD++ vs. non-\u03c4AD++ (\u03c4AD+ and \u03c4AD-) for the analysis",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": ".0141",
+                            "pValueComment": "A priori threshold was two-sided 0.05. No adjustment for multiple comparisons.",
+                            "statisticalMethod": "log linear model",
+                            "statisticalComment": "Adjusted for treatment arm (lanabecestat 20 mg, 50 mg, or placebo), baseline age, years of education (categorical), and baseline score.",
+                            "paramType": "Risk Ratio (RR)",
+                            "paramValue": "1.77",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "1.122",
+                            "ciUpperLimit": "2.796",
+                            "estimateComment": "\u03c4AD++ scans represent the numerator for risk, and \u03c4AD+/\u03c4AD- scans represent the denominator"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Risk ratio for FAQ CMD. Scan results were grouped into \u03c4AD++ vs. non-\u03c4AD++ (\u03c4AD+ and \u03c4AD-) for the analysis",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": ".0639",
+                            "pValueComment": "A priori threshold was two-sided 0.05. No adjustment for multiple comparisons.",
+                            "statisticalMethod": "log linear model",
+                            "statisticalComment": "Adjusted for treatment arm (lanabecestat 20 mg, 50 mg, or placebo), baseline age, years of education (categorical), and baseline score.",
+                            "paramType": "Risk Ratio (RR)",
+                            "paramValue": "1.32",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.984",
+                            "ciUpperLimit": "1.776",
+                            "estimateComment": "\u03c4AD++ scans represent the numerator for risk, and \u03c4AD+/\u03c4AD- scans represent the denominator"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Risk ratio for CDR Global CMD. Scan results were grouped into \u03c4AD++ vs. non-\u03c4AD++ (\u03c4AD+ and \u03c4AD-) for the analysis",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": ".2814",
+                            "pValueComment": "A priori threshold was two-sided 0.05. No adjustment for multiple comparisons.",
+                            "statisticalMethod": "log linear model",
+                            "statisticalComment": "Adjusted for treatment arm (lanabecestat 20 mg, 50 mg, or placebo), baseline age, years of education (categorical), and baseline score.",
+                            "paramType": "Risk Ratio (RR)",
+                            "paramValue": "1.28",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.815",
+                            "ciUpperLimit": "2.020",
+                            "estimateComment": "\u03c4AD++ scans represent the numerator for risk, and \u03c4AD+/\u03c4AD- scans represent the denominator"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Mean Change in Cognitive/Functional Assessments",
+                    "description": "Mean change in cognitive/functional measures baseline between \u03c4AD++ and non-\u03c4AD++ (determined by baseline tau status), calculated by Mixed Model Repeat Measures (MMRM). CDR-SB scores range from 0 to 18, with higher scores indicating worsening cognitive impairment. MMSE scores range from 0 to 30 with lower scores indicating worsening cognitive function. ADAS-Cog11 scores range from 0 to 70 with higher scores indicating worsening cognitive function. FAQ scores range from 0 to 30 with higher scores indicating worsening cognitive function.",
+                    "populationDescription": "All subjects were eligible for this analysis; however, row totals reflect subjects for whom clinical measure data was available at baseline and 18 months.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "baseline and 18 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "\u03c4AD++ Scan Result",
+                            "description": "Subjects with a \u03c4AD++ scan result"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Non-\u03c4AD++ Scan Result",
+                            "description": "Subjects with a Non-\u03c4AD++ scan result"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "162"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "43"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "CDR-SB",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "162"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "43"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.22",
+                                            "spread": "0.215"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.31",
+                                            "spread": "0.379"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "MMSE",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "161"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "42"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-4.89",
+                                            "spread": "0.377"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2.12",
+                                            "spread": "0.647"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "ADAS-Cog11",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "157"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "42"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6.53",
+                                            "spread": "0.660"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.97",
+                                            "spread": "1.181"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "FAQ",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "158"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "42"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5.22",
+                                            "spread": "0.537"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2.68",
+                                            "spread": "0.895"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "MMRM testing the difference between CDR-SB least squares mean changes of tAD++ and Non-tAD++ (tAD+ and tAD-). The unstructured covariance structure (UN) was used.",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": ".0305",
+                            "pValueComment": "A priori threshold was two-sided 0.05. No adjustment for multiple comparisons.",
+                            "statisticalMethod": "Mixed Models Analysis",
+                            "statisticalComment": "Adjusted for baseline clinical score, age, years of education (categorical), and treatment arm (lanabecestat - 20mg or 50mg - or placebo)."
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "MMRM testing the difference between MMSE least squares mean changes of tAD++ and Non-tAD++ (tAD+ and tAD-). The unstructured covariance structure (UN) was used.",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "<0.0001",
+                            "pValueComment": "A priori threshold was two-sided 0.05. No adjustment for multiple comparisons.",
+                            "statisticalMethod": "Mixed Models Analysis",
+                            "statisticalComment": "Adjusted for baseline clinical score, age, years of education (categorical), and treatment arm (lanabecestat - 20mg or 50mg - or placebo)."
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "MMRM testing the difference between ADAS-Cog11 least squares mean changes of tAD++ and Non-tAD++ (tAD+ and tAD-). The unstructured covariance structure (UN) was used.",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.0006",
+                            "pValueComment": "A priori threshold was two-sided 0.05. No adjustment for multiple comparisons.",
+                            "statisticalMethod": "Mixed Models Analysis",
+                            "statisticalComment": "Adjusted for baseline clinical score, age, years of education (categorical), and treatment arm (lanabecestat - 20mg or 50mg - or placebo)."
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "MMRM testing the difference between FAQ least squares mean changes of tAD++ and Non-tAD++ (tAD+ and tAD-). The unstructured covariance structure (UN) was used.",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.0097",
+                            "pValueComment": "A priori threshold was two-sided 0.05. No adjustment for multiple comparisons.",
+                            "statisticalMethod": "Mixed Models Analysis",
+                            "statisticalComment": "Adjusted for baseline clinical score, age, years of education (categorical), and treatment arm (lanabecestat - 20mg or 50mg - or placebo)."
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Inter-Reader Reliability of Reader Interpretation of Flortaucipir F 18 PET Imaging",
+                    "description": "As measured by Fleiss' Kappa across all scans read. Fleiss' kappa is a statistical measure for assessing the reliability of agreement between a fixed number of raters when assigning categorical ratings to a number of items or classifying items. Fleiss' kappa can range from -1 to 1 with 1 indicating perfect agreement between the readers. Read results binarized as \u03c4AD++ or non-\u03c4AD++.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "kappa coefficient",
+                    "timeFrame": "baseline scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "All Subjects/All Readers",
+                            "description": "All subjects scans included in the study across 5 independent readers"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "205"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.754",
+                                            "lowerLimit": "0.711",
+                                            "upperLimit": "0.797"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0.5",
+            "timeFrame": "Not applicable, as no new patients received treatment as part of this study.",
+            "description": "Adverse event data were not collected in this study.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Single Arm, Randomly Sequenced Flortaucipir F18 Scans",
+                    "description": "No study drug was administered for this study. Scans were previously acquired from Study I8D-MC-AZES (NCT02245737, Eli Lilly and Company sponsor) and were read by five independent, blinded readers.\n\nFlortaucipir F18: No study drug was administered for this study.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 0,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 0,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 0
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "LTE60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Medical Director",
+                "organization": "Avid Radiopharmaceuticals, Inc.",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "lanabecestat (LY3314814 / AZD3293) \u2014 BACE1 inhibitor; used in the referenced AMARANTH/I8D-MC-AZES trial (NCT02245737).",
+        "flortaucipir F18 (18F\u2011AV\u20111451; TAUVID) \u2014 PET tau radiotracer used for imaging (diagnostic/prognostic agent, not a therapeutic)."
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The described study evaluates whether baseline visual interpretation of flortaucipir\u2011PET scans predicts subsequent cognitive decline over 18 months \u2014 i.e., a prognostic/diagnostic imaging analysis rather than a therapeutic intervention. \ue200cite\ue202turn1search3\ue201",
+        "Act \u2014 study interventions/agents extracted: (1) flortaucipir F18 (tau PET tracer, marketed as TAUVID) used to image tau pathology; (2) the PET scans analyzed were drawn from participants in a prior lanabecestat (LY3314814 / AZD3293) trial (AMARANTH / I8D\u2011MC\u2011AZES, NCT02245737). \ue200cite\ue202turn0search4\ue202turn1search3\ue201",
+        "Act \u2014 drug details: Lanabecestat is a small\u2011molecule BACE1 inhibitor that was evaluated as a disease\u2011modifying candidate in early AD trials (AMARANTH and related studies). Flortaucipir is a radiopharmaceutical PET tracer for aggregated tau (used for brain imaging and prognosis/diagnosis, not as a therapeutic). \ue200cite\ue202turn1search4\ue202turn0search4\ue201",
+        "Reflect: Applying the category definitions \u2014 disease\u2011targeted biologic (therapeutic biologic), disease\u2011targeted small molecule (therapeutic small molecule), cognitive enhancer, or neuropsychiatric symptom improvement \u2014 this protocol does not test a therapeutic intervention or treatment effect; it is an imaging prognostic/biomarker study. Therefore the correct category is 'N/A'. \ue200cite\ue202turn1search3\ue202turn0search4\ue201",
+        "Web search results (key sources used): 1) Clinical trial listing for the flortaucipir imaging evaluation (NCT03901105) describing use of baseline flortaucipir\u2011PET scans from the I8D\u2011MC\u2011AZES (NCT02245737, lanabecestat) cohort. \ue200cite\ue202turn1search3\ue201 2) TAUVID / flortaucipir labeling and description as an FDA\u2011approved PET tracer for imaging aggregated tau NFTs. \ue200cite\ue202turn0search4\ue201 3) PubMed / Brain and related papers describing longitudinal flortaucipir PET and its relationship to cognitive change over 18 months. \ue200cite\ue202turn0search1\ue202turn0search0\ue201 4) Trial registry and publications on lanabecestat (LY3314814 / AZD3293) describing it as a BACE1 inhibitor tested in early AD (AMARANTH, NCT02245737). \ue200cite\ue202turn1search0\ue202turn1search4\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

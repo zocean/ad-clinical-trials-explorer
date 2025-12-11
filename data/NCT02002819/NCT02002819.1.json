@@ -1,0 +1,1656 @@
+{
+    "nct_id": "NCT02002819",
+    "title": "Phase 2a Levetiracetam Trial for AD-Associated Network Hyperexcitability",
+    "status": "COMPLETED",
+    "last_update_time": "2022-04-22",
+    "description_brief": "Patients with Alzheimer's disease (AD) can have seizures in addition to losing their memory and other mental functions (referred to as cognitive functions). The seizures, and other examples of overactive electrical activity in the brain that is not noticeable, contribute to the loss of cognitive function. Studies in animal models of AD suggest that a drug that prevents seizures called levetiracetam may reduce neuronal over-excitation and improve cognition. Based on this evidence, the investigators propose to determine if levetiracetam can be used to treat patients with AD. The investigators developed novel instruments for this population that will also be used in future large-scale clinical trials.\n\nThe current study will last for 12 weeks and will involve people with AD. Participants will be initially examined with an overnight brain wave study to assess for silent epileptic (seizure-like) activity. Presence of epileptic activity on the screening exam is not required to enter the trial. Participants will then be assigned to groups in a randomized manner. One group will receive levetiracetam for 4 weeks, then no drug for 4 weeks, and then placebo for 4 weeks. For another group, the order of treatments will be reversed. The cognitive abilities of participants will be retested every 4 weeks and compared to those at the beginning. The cognitive tests include a virtual-reality navigation test of memory and computerized tests of mental flexibility and problem solving. The participants will be monitored with a magnetoencephalogram (MEG) with simultaneous EEG (M/EEG) at each visit. M/EEG is a highly effective non-invasive method for identifying brain regions of epileptic activity. The investigators will need to recruit 36 randomized participants to test the study hypotheses. This study will take place at the University of California, San Francisco (UCSF) and the University of Minnesota.",
+    "description_detailed": "For a more detailed explanation of the study and what our results were, please read our publication at https://jamanetwork.com/journals/jamaneurology/fullarticle/2784539",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "Participants were excluded if they were older than 80, had no diagnosis of probable AD, had a Mini-Mental State Examination score lower than 18 points or a Clinical Dementia Rating (CDR) score higher than 2 points. Patients receiving antiseizure drugs for any reason were excluded.",
+            "recruitmentDetails": "Recruitment began on October 16,2014. Participants were recruited at the University of California, San Francisco, and the University of Minnesota, Twin Cities.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Levetiracetam-Placebo",
+                    "description": "This group receives levetiracetam for 4 weeks twice daily, then has a break where no treatment is given for 4 weeks, and then receives placebo for 4 weeks.\n\nlevetiracetam"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo-Levetiracetam",
+                    "description": "This group receives placebo for 4 weeks twice daily, then has a break where no treatment is given for 4 weeks, and then receives levetiracetam for 4 weeks.\n\nlevetiracetam"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "17"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "17"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "4 Discontinued intervention because of participant's decision",
+                                    "numSubjects": "13"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "comment": "1 Discontinued intervention because of participant's decision\n\n1 Excluded per protocol because of biomarkers inconsistent with AD",
+                                    "numSubjects": "15"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "4"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Levetiracetam-Placebo",
+                    "description": "This group receives levetiracetam for 4 weeks twice daily, then has a break where no treatment is given for 4 weeks, and then receives placebo for 4 weeks.\n\nlevetiracetam"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo-Levetiracetam",
+                    "description": "This group receives placebo for 4 weeks twice daily, then has a break where no treatment is given for 4 weeks, and then receives levetiracetam for 4 weeks.\n\nlevetiracetam"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "17"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "17"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "34"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "34"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "21"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "33"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "34"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Changes in Executive Function as Measured by the NIH EXAMINER Computer Battery",
+                    "description": "Changes in executive function were measured using the NIH EXAMINER, a 1-hour computer-based battery of various executive function tasks. The subject's performance after the study treatment will be compared with results from a baseline assessment done before the study treatment, using statistical tests to assess whether there was any significant change. The Examiner assessment consists of the following scales: antisaccade , set shifting , flanker task, dot counting, spatial 1-back, category fluency, and letter fluency. Scores for this task have an indefinite range. Higher scores however do indicate better performance. Scores for this scale were generated using item response theory. For this study, scores with SEs greater than 0.55 were classified as unreliable and excluded from analysis. Composite scores from 2 participants were excluded on this basis.The EXAMINER ranges for the participants in the study were -2.59 to 1.33.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Levetiracetam",
+                            "description": "Those taking the test during their Levetiracetam treatment phase, whether it be before or after the crossover."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "THose receiving placebo treatment, whether before or after the crossover."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "22"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "22"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.06",
+                                            "lowerLimit": "-0.24",
+                                            "upperLimit": "0.11"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.14",
+                                            "lowerLimit": "-0.32",
+                                            "upperLimit": "0.05"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.55",
+                            "statisticalMethod": "ANOVA",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "0.07",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-0.18",
+                            "ciUpperLimit": "0.32"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Changes in Stroop Interference Naming",
+                    "description": "Stroop Test - The Stroop Test (Stroop 1935) will be used to assess executive functions including selective attention, cognitive flexibility and processing speed. Subtasks include Stroop color naming and Stroop interference naming, and each subtask is restricted to 1 minute. The minimum score is 0 and the maximum score is 126. The higher the score the better a participant does.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Levetiracetam",
+                            "description": "Those taking the test during their Levetiracetam treatment phase, whether it be before or after the crossover."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Those taking the test during their placebo treatment phase, whether before or after the crossover."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "22"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "22"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.5",
+                                            "lowerLimit": "-1.4",
+                                            "upperLimit": "4.3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-1.4",
+                                            "lowerLimit": "-3.6",
+                                            "upperLimit": "0.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.14",
+                            "statisticalMethod": "ANOVA",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "2.9",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-1.0",
+                            "ciUpperLimit": "6.8"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Changes in ADAS-cog",
+                    "description": "Alzheimer's Disease Assessment Scale - Cognitive Subscale (ADAS-cog) - The ADAS-cog rating instrument (Rosen et al. 1984) will be used to evaluate the global cognitive functioning. The ADAS-cog is a 70-point scale that includes an assessment of verbal memory, language, orientation, reasoning, and praxis.The score is derived from adding point values from each of its subsections. The higher your score on the ADAS-cog, the better you do.",
+                    "populationDescription": "24 participants in this study did the ADAS-cog at both baseline and treatment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Levetiracetam",
+                            "description": "Those taking the test during their Levetiracetam treatment phase, whether it be before or after the crossover."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Those taking the test during their placebo treatment phase, whether before or after the crossover."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "24"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "24"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.2",
+                                            "lowerLimit": "-1.8",
+                                            "upperLimit": "1.5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.8",
+                                            "lowerLimit": "-0.7",
+                                            "upperLimit": "2.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": ".43",
+                            "statisticalMethod": "ANOVA",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "-1.0",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-3.4",
+                            "ciUpperLimit": "1.5"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Clinical Dementia Rating Sum of Boxes (CDR-SOB)",
+                    "description": "Clinical Dementia Rating Sum of Boxes (CDR-SOB) - The CDR will be used as a global measure of dementia severity (Morris 1993). The CDR consists of questions addressed to the caregiver/informant. The lowest score one can receive is a 0 and the highest is a 3. Score is measured by getting the mean of the individual scores in each category. Lower scores equate to less dementia severity.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Levetiracetam",
+                            "description": "Those taking the test during their Levetiracetam treatment phase, whether it be before or after the crossover."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Those taking the test during their placebo treatment phase, whether before or after the crossover."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.1",
+                                            "lowerLimit": "-0.1",
+                                            "upperLimit": "0.3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.1",
+                                            "lowerLimit": "-0.2",
+                                            "upperLimit": "0.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.63",
+                            "statisticalMethod": "ANOVA",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "0.1",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-0.2",
+                            "ciUpperLimit": "0.4"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Changes in Behavior and Level of Disability - ADCS-ADL",
+                    "description": "Alzheimer's Disease Cooperative Study Activities of Daily Living Scale (ADCS-ADL) - The ADCS-ADL rating instrument (Galasko et al. 1997) will be used to evaluate functional capacity. The ADCS-ADL is a caregiver rated questionnaire. Scores on the 24-item ADCS-ADL range from 0 to 78. A higher score indicates less severity while a lower score indicates greater severity.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Levetiracetam",
+                            "description": "Those taking the test during their Levetiracetam treatment phase, whether it be before or after the crossover."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Those taking the test during their placebo treatment phase, whether before or after the crossover."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.4",
+                                            "lowerLimit": "-0.9",
+                                            "upperLimit": "1.6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.3",
+                                            "lowerLimit": "-0.9",
+                                            "upperLimit": "1.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.90",
+                            "statisticalMethod": "ANOVA",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "0.1",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-1.1",
+                            "ciUpperLimit": "1.3"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Changes in Behavior and Level of Disability - ADCS-CGIC",
+                    "description": "ADCS-Clinical Global Impression of Change (ADCS-CGIC) - The ADCS-CGIC is a seven-point scale that gives a global rating of change from baseline (Schneider et al. 1997). The baseline and follow up assessments are based on interviews with the subject and the informant. The ADCS-CGIC is a clinician-rated measure of: global severity at baseline scored from 1 (normal, not at all ill) to 7 (among the most extremely ill patients); and global change at follow-up scored from 1 (marked improvement) to 7 (marked worsening), where 4 indicates no change.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Levetiracetam",
+                            "description": "Those taking the test during their Levetiracetam treatment phase, whether it be before or after the crossover."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Those taking the test during their placebo treatment phase, whether before or after the crossover."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4.0",
+                                            "lowerLimit": "3.8",
+                                            "upperLimit": "4.3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4.0",
+                                            "lowerLimit": "3.7",
+                                            "upperLimit": "4.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.80",
+                            "statisticalMethod": "ANOVA",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "0.0",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-0.3",
+                            "ciUpperLimit": "0.3"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Changes in Behavior and Level of Disability - Neuropsychiatric Inventory (NPI)",
+                    "description": "Neuropsychiatric Inventory (NPI) - The NPI (Cummings et al. 1994) will be used to evaluate the severity of behavioral symptoms. The severity scale has scores ranging from 1 to 3 points (1=mild; 2=moderate; and 3=severe) and the scale for assessing caregiver distress has scores ranging from 0 to 5 points (0=no distress; 1=minimal distress; 2=mild distress; 3=moderate distress; 4=severe distress; and 5=extreme distress).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Levetiracetam",
+                            "description": "Those doing the interview during their Levetiracetam treatment phase, whether it be before or after the crossover."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Those doing the interview during their placebo treatment phase, whether before or after the crossover."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.8",
+                                            "lowerLimit": "-2.7",
+                                            "upperLimit": "1.2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.2",
+                                            "lowerLimit": "-2.2",
+                                            "upperLimit": "2.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.46",
+                            "statisticalMethod": "ANOVA",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "-1.0",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-3.6",
+                            "ciUpperLimit": "1.7"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Changes in Epileptiform Events",
+                    "description": "Epileptiform activity will be measured using a 1-hr resting magnetoencephalogram/electroencephalogram (M/EEG). M/EEG can detect abnormal epileptiform findings called \"spikes\". The M/EEG will be read by an epileptologist with specialized training to assess whether there are any spikes. If spikes are observed during the M/EEG they will be counted to determine their frequency (e.g., 5 spikes per 1 hour recording). The frequency of spikes will then be compared to baseline values from before beginning the study treatment, using statistical tests to determine if the frequency changed with treatment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "Epileptiform events",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Levetiracetam",
+                            "description": "Activity measured during their Levetiracetam treatment phase, whether it be before or after the crossover."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Activity during their placebo treatment phase, whether before or after the crossover."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "9"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "9"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.1",
+                                            "lowerLimit": "-0.4",
+                                            "upperLimit": "0.1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.2",
+                                            "lowerLimit": "-1.1",
+                                            "upperLimit": "0.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.40",
+                            "statisticalMethod": "ANOVA",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "0.1",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-0.9",
+                            "ciUpperLimit": "1.1"
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Stroop Interference in AD With Epileptiform Activity",
+                    "description": "Stroop Test - The Stroop Test (Stroop 1935) will be used to assess executive functions including selective attention, cognitive flexibility and processing speed. Subtasks include Stroop color naming and Stroop interference naming, and each subtask is restricted to 1 minute. The minimum score is 0 and the maximum score is 126. The higher the score the better a participant does. The mean below represents the average change in score between the timepoints for all participants.",
+                    "populationDescription": "Specifically, this analysis is only looking at individuals who displayed epoileptiform activity.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Levetiracetam (Epileptiform Activity)",
+                            "description": "Those with epileptiform activity taking the test during their Levetiracetam treatment phase, whether it be before or after the crossover.o."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo (Epileptiform Activity)",
+                            "description": "Those with epileptiform activity taking the test during their placebo treatment phase, whether before or after the crossover."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "9"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "9"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4.7",
+                                            "spread": "7.2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2.6",
+                                            "spread": "5.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.046",
+                            "statisticalMethod": "ANOVA",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "7.4",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.2",
+                            "ciUpperLimit": "14.7"
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "ADAS-cog in AD With Epileptiform Activity",
+                    "description": "Alzheimer's Disease Assessment Scale - Cognitive Subscale (ADAS-cog) - The ADAS-cog rating instrument (Rosen et al. 1984) will be used to evaluate the global cognitive functioning. The ADAS-cog is a 70-point scale that includes an assessment of verbal memory, language, orientation, reasoning, and praxis.The score is derived from adding point values from each of its subsections. The higher your score on the ADAS-cog, the better you do.",
+                    "populationDescription": "Specifically, this analysis is only looking at individuals who displayed epileptiform activity.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Levetiracetam (Epileptiform Activity)",
+                            "description": "Those with epileptiform activity taking the test during their Levetiracetam treatment phase, whether it be before or after the crossover."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo (Epileptiform Activity)",
+                            "description": "Those with epileptiform activity taking the test during their placebo treatment phase, whether before or after the crossover."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "9"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "9"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.0",
+                                            "spread": "4.1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.5",
+                                            "spread": "4.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": ".30",
+                            "statisticalMethod": "ANOVA",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "-2.5",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-7.8",
+                            "ciUpperLimit": "2.7"
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Changes in Cognitive Function as Measured by a Virtual Route Learning Test",
+                    "description": "A 20-minute computer-based virtual navigation test will be used to assess how well a subject can navigate a virtual community to reach a goal destination. The subjects will then be measured on their ability to accurately navigate the virtual community after a period of a few hours. The subject's performance after the study treatment will be compared with results from a baseline assessment done before the study treatment, using statistical tests to assess whether there was any significant change.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "correct turns",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "No Epileptiform Activity",
+                            "description": "Those who did the task without any sign of epileptiform activity."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Epileptic Activity",
+                            "description": "Those who did the task who displayed epileptic activity"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "7"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "5"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-6.0",
+                                            "lowerLimit": "-21.4",
+                                            "upperLimit": "9.4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "17.4",
+                                            "lowerLimit": "-0.6",
+                                            "upperLimit": "35.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.52",
+                            "statisticalMethod": "Cohen f",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "3.8",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-8.5",
+                            "ciUpperLimit": "16.0"
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Standardized Assessments of Clinical Fluctuations -The Clinician Assessment of Fluctuation",
+                    "description": "Two standardized methods will be used to quantitate fluctuations of dementia symptoms: The Clinician Assessment of Fluctuation and the One Day Fluctuation Assessment Scale (Walker et al. 2000). : The Clinician Assessment of Fluctuation (score range,0-12 points, with higher scores indicating more fluctuations),26 the One Day Fluctuation Assessment Scale (score range,0-21 points, with higher scores indicatingmore fluctuations).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Levetiracetam",
+                            "description": "Those doing the assessment during their Levetiracetam treatment phase, whether it be before or after the crossover."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Those doing the activity during their placebo treatment phase, whether before or after the crossover."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.9",
+                                            "spread": "2.6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.1",
+                                            "spread": "3.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.40",
+                            "statisticalMethod": "ANOVA",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "0.7",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-1.0",
+                            "ciUpperLimit": "2.4"
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Blood Serum Prolactin Level",
+                    "description": "Blood samples intended for Quest Diagnostics LEV and prolactin serum levels (one 6 mL tube) will be processed in the following manner, as outlined in the Quest Diagnostics lab manual. The whole blood will be allowed to clot for 60 minutes and centrifuged at 2200 - 2500 revolutions per minute (RPM) for at least 15 minutes. The resulting serum will be split into 2 cryovials which will be stored at -20\u00b0C and immediately shipped for external assessment of LEV and prolactin levels. Prolactin will be assessed via immunoassay. The concentration of LEV in serum will be measured using validated liquid chromatography/tandem mass spectrometry (LC/MS-MS) methods.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ng/mL",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Levetiracetam",
+                            "description": "Those who were on Leviteracetam treatment."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "THose on placebo treatment."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "24"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "24"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.1",
+                                            "spread": "1.9"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.2",
+                                            "spread": "1.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.63",
+                            "statisticalMethod": "ANOVA",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "-0.2",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-1.1",
+                            "ciUpperLimit": "0.7"
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "NIH EXAMINER in AD With Epileptiform Activity",
+                    "description": "Changes in executive function will be measured using the NIH EXAMINER, a 1-hour computer-based battery of various executive function tasks. The subject's performance after the study treatment will be compared with results from a baseline assessment done before the study treatment, using statistical tests to assess whether there was any significant change. The Examiner assessment consists of the following scales: NIH EXAMINER - antisaccade , NIH EXAMINER - set shifting , NIH EXAMINER - flanker task, NIH EXAMINER - dot counting, NIH EXAMINER - spatial 1-back, NIH EXAMINER - category fluency, and NIH EXAMINER - letter fluency. Scores for this task have an indefinite range. Higher scores however do indicate better performance. Scores for this scale were generated using item response theory (Kramer et al. J Int Neuropsychol Soc. 2014;20(1):11-19. doi:10.1017/S1355617713001094).",
+                    "populationDescription": "Specifically, this analysis is only looking at individuals who displayed epileptiform activity.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "No Epileptiform Activity",
+                            "description": "Those who took the test but displayed no evidence of epileptiform activity."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Epileptiform Activity",
+                            "description": "THose who took the test and show evidence of epileptiform activity."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "14"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.01",
+                                            "lowerLimit": "-0.39",
+                                            "upperLimit": "0.37"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.22",
+                                            "lowerLimit": "-0.05",
+                                            "upperLimit": "0.49"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Standardized Assessments of Clinical Fluctuations - One Day Fluctuation Assessment Scale",
+                    "description": "The One Day Fluctuation Assessment Scale will be used to quantitate fluctuations of dementia symptoms (Walker et al. 2000). The One Day Fluctuation Assessment Scale has a score range of 0-21 points,with higher scores indicatingmore fluctuations.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Levetiracetam",
+                            "description": "Those taking the test during their Levetiracetam treatment phase, whether it be before or after the crossover."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Those taking the test during their placebo treatment phase, whether before or after the crossover."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.3",
+                                            "spread": "1.8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.4",
+                                            "spread": "1.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": ".15",
+                            "statisticalMethod": "ANOVA",
+                            "paramType": "Mean Difference (Net)",
+                            "paramValue": "0.8",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-0.3",
+                            "ciUpperLimit": "1.8"
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "MEG Power Spectrum Measures",
+                    "description": "The power spectral density for different frequency bands will be measured via resting-state magnetoencephalography (MEG). A 60-second artifact-free recording segment from the first 10 minutes of recording (prior to sleep onset) will be manually selected for analysis. In participants who are able to complete additional tests, the investigators will measure dynamics of neural responses during cognitive tasks such as speech preparation and execution.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "MEG Functional Connectivity Measures",
+                    "description": "Whole-brain alpha-band functional connectivity will be derived from MEG-imaging (MEG-I) using the 60-second artifact-free recording epoch that is selected for the MEG spectral analysis. MEG-I uses MEG sensor data with millisecond precision and applies source reconstruction algorithms to overlay cortical oscillatory activity onto structural brain images. Source-space MEG-I reconstructions and functional connectivity metrics will be computed with the NUTMEG software suite (http://nutmeg.berkeley.edu). The investigators will compute imaginary coherence, which is a reliable metric for functional connectivity with MEG reconstruction. Functional connectivity will measure the strength of coherence between a given region and the rest of the brain. The investigators will perform an unbiased search for MEG-I functional connectivity deficits that correlate with specific cognitive, behavioral, and functional deficits. Hinkley et al. 2011 provides details of the methodology.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "Difference between weeks 0-4 (Baseline) and weeks 8-12 (Treatment)",
+                    "denomUnitsSelected": "Participants"
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "2 years, 8 months",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Levetiracetam",
+                    "description": "Adverse events occurring when participants were taking Levetiracetam.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 34,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 34,
+                    "otherNumAffected": 7,
+                    "otherNumAtRisk": 34
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Adverse events occurring when participants were taking Placebo.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 34,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 34,
+                    "otherNumAffected": 5,
+                    "otherNumAtRisk": 34
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Gastrointestinal discomfort",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 3,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Irritability",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Tiredness",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 34
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Dr. Keith Vossel",
+                "organization": "UCLA Mary S. Easton Center for Alzheimer's Disease Research",
+                "email": "neuroeaston@mednet.ucla.edu",
+                "phone": "310-794-3665,"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "levetiracetam"
+    ],
+    "placebo": [
+        "placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests levetiracetam, an oral small-molecule antiseizure medication, to reduce AD-associated network hyperexcitability (neuronal over\u2011excitation) with the goal of improving cognition \u2014 i.e., targeting a pathophysiologic mechanism contributing to Alzheimer disease rather than using a biologic. \ue200cite\ue202turn0search0\ue202turn0search1\ue201",
+        "Act (trial details extracted): The study is a Phase 2a randomized, double-blind, placebo\u2011controlled crossover trial (12 weeks total, 4 weeks on drug/4 weeks washout/4 weeks placebo in alternating order) of levetiracetam vs placebo in people with Alzheimer disease, employing EEG/MEG monitoring and cognitive testing. (Clinical trial record and published trial reports). \ue200cite\ue202turn0search1\ue202turn0search6\ue202turn0search8\ue201",
+        "Act (drug info): Levetiracetam is a small\u2011molecule antiseizure drug that binds the synaptic vesicle protein SV2A and is used to prevent seizures; its hypothesized benefit in AD is via reducing network hyperexcitability to improve cognition. \ue200cite\ue202turn0search0\ue202turn0search6\ue201",
+        "Reflect: Mapping to the provided category definitions \u2014 levetiracetam is not a biologic (so not category 1), and it is not primarily a symptomatic neuropsychiatric treatment nor a generic non\u2011pathology cognitive enhancer; it is a small molecule aimed at a disease\u2011relevant mechanism (network hyperexcitability) in AD. Therefore the correct category is 'disease-targeted small molecule'. Supporting trial publications and related reviews confirm this therapeutic rationale. \ue200cite\ue202turn0search6\ue202turn0search4\ue201",
+        "Web search results used (key sources): Clinical trial registry for LEV-AD (Phase 2a) \u2014 Levetiracetam for Alzheimer's Disease-Associated Network Hyperexcitability (NCT02002819). \ue200cite\ue202turn0search1\ue201; Published randomized trial reporting effects of levetiracetam on cognition in AD (Neurology / trial report). \ue200cite\ue202turn0search6\ue201; Mechanism of action (binding SV2A) / preclinical synaptic effects. \ue200cite\ue202turn0search0\ue201; Systematic review of levetiracetam's cognitive effects in AD/MCI (recent review). \ue200cite\ue202turn0search4\ue201; Related Phase 2 trials exploring hyperexcitability in AD with levetiracetam (other registries). \ue200cite\ue202turn0search7\ue202turn0search10\ue201"
+    ],
+    "agent_type": "M) Synaptic Plasticity/Neuroprotection",
+    "explanation_agent": [
+        "Reason: The trial tests levetiracetam, a small-molecule antiseizure drug, to reduce Alzheimer disease\u2013associated network hyperexcitability by modulating synaptic vesicle function and neurotransmitter release \u2014 a synaptic-level, disease-relevant mechanism rather than an amyloid/tau or inflammatory target. \ue200cite\ue202turn0search2\ue202turn0search0\ue201",
+        "Act: Levetiracetam binds the synaptic vesicle glycoprotein SV2A and modulates vesicle exocytosis/neurotransmitter release, which is hypothesized to decrease neuronal hyperexcitability and improve cognition in AD; the described Phase 2a LEV-AD randomized crossover trial tested this approach using EEG/MEG and cognitive outcomes. \ue200cite\ue202turn0search0\ue202turn0search2\ue202turn0search1\ue201",
+        "Reflect: Mapping to CADRO, SV2A modulation and reduction of network hyperexcitability fit best under M) Synaptic Plasticity/Neuroprotection (targets that modify synaptic function and protect/normalize neural circuitry). It is not primarily an amyloid, tau, ApoE/lipid, inflammatory, metabolic, vascular, or epigenetic intervention, nor is it a non-therapeutic diagnostic\u2014so M is the most specific category. \ue200cite\ue202turn0search1\ue202turn0search4\ue201",
+        "Web search results used (key sources):",
+        "1) The synaptic vesicle protein SV2A is the binding site for levetiracetam (PNAS / PubMed). \ue200cite\ue202turn0search0\ue201",
+        "2) Levetiracetam mechanisms review (mechanism, SV2A, synaptic effects). \ue200cite\ue202turn0search1\ue201",
+        "3) LEV-AD Phase 2a randomized trial (Levetiracetam for Alzheimer's Disease\u2013Associated Network Hyperexcitability). \ue200cite\ue202turn0search2\ue201",
+        "4) Drug/target summaries noting SV2A as levetiracetam target (DrugBank / Pharos). \ue200cite\ue202turn0search4\ue202turn0search3\ue201"
+    ]
+}

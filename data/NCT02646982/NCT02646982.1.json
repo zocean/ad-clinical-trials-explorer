@@ -1,0 +1,2493 @@
+{
+    "nct_id": "NCT02646982",
+    "title": "Candesartan's Effects on Alzheimer's Disease And Related Biomarkers",
+    "status": "COMPLETED",
+    "last_update_time": "2022-11-29",
+    "description_brief": "This study is intended to investigate the safety of candesartan, a blood pressure medication, in non-hypertensive individuals who have mild cognitive impairment (MCI) due to Alzheimer's disease and its effect on disease biomarkers.",
+    "description_detailed": "This is a double-blind placebo-control randomized clinical trial that compares candesartan to placebo in individuals with mild cognitive impairment (MCI) who also have positive Alzheimer's Disease (AD) biomarkers. The investigators will assess if blocking the effect of Ang II using angiotensin receptor blockers (ARBs) is safe in non hypertensive MCI individuals and whether the use of candesartan will be associated with changes in cerebrospinal fluid disease biomarkers.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "Participants were recruited from the Wesley Woods Health Center of Emory Healthcare in Atlanta, Georgia, USA. Participant enrollment began June 30, 2016 and all follow up was complete by August 17, 2020.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Candesartan",
+                    "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "38"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "39"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "35"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "37"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Adverse Event",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Candesartan",
+                    "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo",
+                    "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "38"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "39"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "77"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "66.7",
+                                            "spread": "8.4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "69.5",
+                                            "spread": "8.5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "68.1",
+                                            "spread": "8.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "23"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "48"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "36"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "39"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "75"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "15"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "30"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "62"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "38"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "39"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "77"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sitting Systolic Blood Pressure",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "mmHg",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "124.7",
+                                            "spread": "13.6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "126.7",
+                                            "spread": "13.2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "125.4",
+                                            "spread": "13.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sitting Diastolic Blood Pressure",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "mmHg",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "67.9",
+                                            "spread": "9.9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "69.8",
+                                            "spread": "10.1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "68.8",
+                                            "spread": "10.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sitting Heart Rate",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "beats per minute",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "66.3",
+                                            "spread": "11.1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "67.3",
+                                            "spread": "11.5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "66.8",
+                                            "spread": "11.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Montreal Cognitive Assessment (MoCA) Score",
+                    "description": "MoCA is an instrument to screen for mild cognitive dysfunction, assessing the cognitive domains of attention and concentration, executive functions, memory, language, visuoconstructional skills, conceptual thinking, calculations, and orientation. Total scores range from 0 to 30 with higher scores indicating better cognitive function. A normal score is considered to be 26 or higher.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "score on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "20.9",
+                                            "spread": "3.9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "20.7",
+                                            "spread": "2.7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "20.8",
+                                            "spread": "3.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Number of Participants Taking Cholinesterase inhibitors or Memantine",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "37"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants With a Hypotensive Episode",
+                    "description": "Hypotension is defined as blood pressure \\<100/40 mm Hg. Blood pressure was measured according to the American Heart Association guidelines with the subject in the sitting position and rested for 5 minutes. An appropriate cuff size (covering 60% of upper arm length and 80% of arm circumference) was used and correct cuff placement (1-2 inches above the brachial pulse on bare arm) was ensured.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Up to Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants With Symptoms of Hypotension",
+                    "description": "Participants were asked to report any symptoms of hypotension (dizziness, weakness, fatigue and lightheadedness). All participants were given a telephone number to reach physician 24-hours per day to report symptoms they experience. The number of participants reporting symptoms of hypotension is reported here.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Up to Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants With Hypotensive Episodes and Symptoms",
+                    "description": "The number of participants with reported episodes hypotension as well as symptoms of hypotension.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Up to Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants With Elevated Serum Creatinine",
+                    "description": "The levels of creatinine were obtained from blood samples. Elevated serum creatinine is defined as levels \\>2.5 milligram per deciliter (mg/dL). Elevated serum creatinine is indicative of decreased renal function.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Up to Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants With Hyperkalemia",
+                    "description": "The levels of potassium were obtained from blood samples. Hyperkalemia is defined as potassium levels \\>5.9 milliequivalent per deciliter (meq/dL). Hyperkalemia is an indication of kidney dysfunction.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Up to Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants Discontinuing Study Medication",
+                    "description": "The number of participants who discontinued the study medication is presented here.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Up to Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Cerebrospinal Fluid (CSF) Total Tau Levels",
+                    "description": "CSF total tau (t-tau) levels were analyzed from CSF samples obtained via lumbar puncture. Normal values for t-tau are \\< 450 pg/ml. Elevated levels of t-tau indicate worsening disease.",
+                    "populationDescription": "This analysis includes participants who had CSF samples collected.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Picograms per milliliter (pg/ml)",
+                    "timeFrame": "Baseline, Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "36"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "37"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline Total Tau",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "638.31",
+                                            "spread": "53.61"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "529.04",
+                                            "spread": "53.50"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 12 Total Tau",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "571.96",
+                                            "spread": "52.89"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "441.25",
+                                            "spread": "53.02"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Cerebrospinal Fluid (CSF) of Tau Phosphorylated at Threonine 181 (p-tau181) Levels",
+                    "description": "CSF levels of p-tau181 were analyzed from CSF samples obtained via lumbar puncture. P-tau181 is a biomarker that is elevated in persons with Alzheimer's disease. Higher values indicate worsening disease.",
+                    "populationDescription": "This analysis includes participants who had CSF samples collected.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "pg/ml",
+                    "timeFrame": "Baseline, Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "36"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "37"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline p-tau",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "100.29",
+                                            "spread": "9.09"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "81.58",
+                                            "spread": "9.07"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 12 p-tau",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "88.52",
+                                            "spread": "8.58"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "68.49",
+                                            "spread": "8.59"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Cerebrospinal Fluid (CSF) Amyloid A\u03b242 Levels",
+                    "description": "CSF A\u03b242 levels were analyzed from CSF samples obtained via lumbar puncture. A\u03b242 is a biomarker for Alzheimer's disease and lower values indicate worsening disease and an increased accumulation of amyloid in the brain.",
+                    "populationDescription": "This analysis includes participants who had CSF samples collected.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "pg/ml",
+                    "timeFrame": "Baseline, Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "36"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "37"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline A\u03b242",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "554.80",
+                                            "spread": "34.09"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "523.03",
+                                            "spread": "33.98"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 12 A\u03b242",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "557.60",
+                                            "spread": "27.32"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "476.32",
+                                            "spread": "27.43"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Cerebrospinal Fluid (CSF) Amyloid A\u03b240 Levels",
+                    "description": "CSF A\u03b240 levels were analyzed from CSF samples obtained via lumbar puncture. Lower values indicate worsening disease and an increased brain accumulation of amyloid.",
+                    "populationDescription": "This analysis includes participants who had CSF samples collected.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "pg/ml",
+                    "timeFrame": "Baseline, Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "36"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "37"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline A\u03b240",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "11624.00",
+                                            "spread": "625.86"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "10802.00",
+                                            "spread": "623.82"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 12 A\u03b240",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "11769.00",
+                                            "spread": "571.54"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "9735.00",
+                                            "spread": "573.74"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Cerebrospinal Fluid (CSF) Amyloid A\u03b242/A\u03b240 Levels",
+                    "description": "CSF A\u03b242/A\u03b240 levels were analyzed from CSF samples obtained via lumbar puncture. A lower ratio indicates worsening disease.",
+                    "populationDescription": "This analysis includes participants who had CSF samples collected.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Ratio",
+                    "timeFrame": "Baseline, Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "36"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "37"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline A\u03b242/A\u03b240 ratio",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.049",
+                                            "spread": "0.003"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.052",
+                                            "spread": "0.003"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 12 A\u03b242/A\u03b240 ratio",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.050",
+                                            "spread": "0.003"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.051",
+                                            "spread": "0.003"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Pulse Wave Velocity (PWV)",
+                    "description": "Arterial stiffness was assessed by Pulse Wave Velocity (PWV). PWV is calculated as PWV=distance (d)/time (t) and the unit of measure is reported as meters per second (m/s). Lower values indicate a preferable measurement of arterial stiffness.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "m/s",
+                    "timeFrame": "Baseline, Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7.81",
+                                            "lowerLimit": "7.12",
+                                            "upperLimit": "8.51"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "8.73",
+                                            "lowerLimit": "8.05",
+                                            "upperLimit": "9.40"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 12",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7.71",
+                                            "lowerLimit": "7.03",
+                                            "upperLimit": "8.40"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "8.14",
+                                            "lowerLimit": "7.47",
+                                            "upperLimit": "8.81"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Augmentation Index (AI)",
+                    "description": "Arterial stiffness was assessed by Augmentation Index (AI). The AI is a ratio measure of augmentation of central arterial pressure reflected in a pulse wave; the value is multiplied by 100 to provide a percentage. AI increases with age and is higher in persons with cardiovascular disease states. A lower value indicates a preferable state of arterial stiffness.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "percentage of arterial stiffness",
+                    "timeFrame": "Baseline, Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "29.95",
+                                            "lowerLimit": "25.92",
+                                            "upperLimit": "33.98"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "31.22",
+                                            "lowerLimit": "27.24",
+                                            "upperLimit": "35.20"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 12",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "28.36",
+                                            "lowerLimit": "24.45",
+                                            "upperLimit": "32.27"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "26.66",
+                                            "lowerLimit": "22.81",
+                                            "upperLimit": "30.51"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Hippocampal Volume",
+                    "description": "Structural MRI images were acquired in order to assess hippocampal volume. Decreased hippocampal volume suggests neurodegenerative changes",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "mm^3",
+                    "timeFrame": "Baseline, Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6949.82",
+                                            "spread": "151.66"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6662.21",
+                                            "spread": "151.49"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 12",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6761.12",
+                                            "spread": "151.42"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6521.30",
+                                            "spread": "152.14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Vasoreactivity",
+                    "description": "Cerebrovascular reactivity (CVR) is assessed with blood oxygenation level-dependent (BOLD) MRI. Vasoreactivity (VR) is the degree of change in BOLD signal relative to change in end tidal CO2. CVR is an indicator of microvascular function (higher indicates better function)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "(ml/100g/min)/mmHg",
+                    "timeFrame": "Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.27",
+                                            "lowerLimit": "0.006",
+                                            "upperLimit": "0.53"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.17",
+                                            "lowerLimit": "-0.42",
+                                            "upperLimit": "0.08"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Global Standardized Uptake Value Ratio (SUVR) of (11)C-Pittsburgh Compound B ((11)C-PiB)",
+                    "description": "In-vivo amyloid imaging with positron emission tomography (PET) was conducted after intravenous administration of 15\u00b11.5 millicurie (mCi) of the radiotracer (11)C-PiB. SUVR is a ratio of PET uptake measured in the brain region of interest and a disease free reference region. A higher SUVR is an indication of increased PET radiotracer uptake and worsening disease.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "Ratio of target and reference regions",
+                    "timeFrame": "Baseline, 12 Months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.32",
+                                            "lowerLimit": "1.23",
+                                            "upperLimit": "1.40"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.42",
+                                            "lowerLimit": "1.32",
+                                            "upperLimit": "1.52"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 12",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.34",
+                                            "lowerLimit": "1.23",
+                                            "upperLimit": "1.45"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.46",
+                                            "lowerLimit": "1.34",
+                                            "upperLimit": "1.59"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Global Standardized Uptake Value Ratio (SUVR) of [18F]T807",
+                    "description": "In-vivo tau-PET imaging was conducted using the radiotracer \\[18F\\]T807. SUVR is a ratio of PET uptake measured in the brain region of interest and a disease free reference region. A higher SUVR is an indication of increased PET radiotracer uptake and worsening disease.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Ratio of target and reference regions",
+                    "timeFrame": "Baseline, 12 Months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.33",
+                                            "spread": "0.05"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.36",
+                                            "spread": "0.04"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 12",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.34",
+                                            "spread": "0.06"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.34",
+                                            "spread": "0.05"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Clinical Dementia Rating (CDR) Score",
+                    "description": "The CDR rates each of the six general domains involving memory, orientation, judgment and problem-solving, community affairs, home and hobbies, and personal care. An overall score, ranging from 0 to 3, can be calculated. A score of 0 = normal, 0.5 = very mild dementia, 1 = mild dementia, 2 = moderate dementia, and 3 = severe dementia.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline, Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.86",
+                                            "spread": "0.15"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.85",
+                                            "spread": "0.14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 12",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.18",
+                                            "spread": "0.28"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2.21",
+                                            "spread": "0.27"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "EXecutive Abilities: Measures and Instruments for Neurobehavioral Evaluation and Research (EXAMINER) Toolbox Composite Score",
+                    "description": "The EXAMINER toolbox battery includes 11 tasks that generate 15 primary variables. Within this set, the EXAMINER includes working memory, inhibition, set shifting, and fluency. The parts of EXAMINER that were used for this study include: Flanker task (inhibition) which involves responding to a central stimulus while ignoring flanking stimuli that are either compatible or incompatible with the central stimulus; Set-shifting, a measure of mental flexibility; Spatial 1-Back test assesses spatial working memory; Dot Counting test assesses verbal working memory; Verbal Fluency tested using a List Generation test which require the participant to generate words beginning with a specific letter, and category fluency in which the participant generates words from a specified category (e.g., animals, fruits). A composite score is calculated where scores range from -1 to +1 and higher are reflective of better executive function.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline, Month 6, Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.03",
+                                            "spread": "0.11"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.05",
+                                            "spread": "0.11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 6",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.18",
+                                            "spread": "0.14"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.04",
+                                            "spread": "0.14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 12",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.07",
+                                            "spread": "0.14"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.06",
+                                            "spread": "0.14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Hopkins Verbal Learning Test (HVLT) Delayed Recall Score",
+                    "description": "The Hopkins Verbal Learning Test (HVLT) is used to assess memory domains. Participants are read a list of 12 words and are asked to recall as many as they can remember. This is repeated for 3 trials followed by a 20 minute delay, and then participants are asked to recall as many words as they can. The delayed recall score ranges from 0 to 12 and higher scores indicate better memory.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "number of words recalled",
+                    "timeFrame": "Baseline, Month 6, Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4.83",
+                                            "spread": "0.53"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5.29",
+                                            "spread": "0.52"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 6",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5.40",
+                                            "spread": "0.52"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5.08",
+                                            "spread": "0.51"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 12",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5.10",
+                                            "spread": "0.52"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5.39",
+                                            "spread": "0.51"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Trail Making Test (TMT) Part B",
+                    "description": "The Trail Making Test assesses executive function. In Part B of the TMT participants connect circles labeled with letters and numbers, in ascending order. The score is the amount of time it takes for the participant to complete the task. The average time is 75 seconds and times greater than 273 seconds indicate a deficit with executive function.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "seconds",
+                    "timeFrame": "Baseline, Month 6, Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "149.44",
+                                            "spread": "14.00"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "142.93",
+                                            "spread": "13.88"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 6",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "122.04",
+                                            "spread": "13.49"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "152.91",
+                                            "spread": "13.35"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 12",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "148.06",
+                                            "spread": "16.01"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "152.96",
+                                            "spread": "15.65"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Trail Making Test (TMT) Part B - A",
+                    "description": "In Parts A and B of the TMT, participants connect circles labeled with numbers, in ascending order. The score is the amount of time (in seconds) it takes for the participant to complete the task. The TMT Part A score reflects visuoperceptual abilities, and subtracting the score for Part A from the score from Part B (Part B-A, in seconds) provides a more accurate assessment of executive function. A lower score indicates greater executive function.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "seconds",
+                    "timeFrame": "Baseline, Month 6, Month 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Candesartan",
+                            "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "38"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "108.08",
+                                            "spread": "14.06"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "91.56",
+                                            "spread": "13.87"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 6",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "81.59",
+                                            "spread": "11.56"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "102.38",
+                                            "spread": "11.45"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Month 12",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "103.64",
+                                            "spread": "13.90"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "103.50",
+                                            "spread": "13.52"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Information on adverse events was collected for the duration of each participant's study enrollment, from the time that individuals gave consent to participate through their final study visit (up to 12 months).",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Candesartan",
+                    "description": "Participants receiving candesartan given orally once a day in a stepwise manner. Participants were initiated on 8 mg candesartan. The dose was increased in 2 week increments to 16 mg and 32 mg, as tolerated. The highest achievable dose was the Maximal Tolerated Dose (MTD) and the participant received this dose for the remaining duration of the study (12 months total).",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 38,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 38,
+                    "otherNumAffected": 20,
+                    "otherNumAtRisk": 38
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Participants receiving a placebo to match candesartan once a day orally for 12 months.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 39,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 39,
+                    "otherNumAffected": 17,
+                    "otherNumAtRisk": 39
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Dizziness",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 6,
+                            "numAtRisk": 38
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 5,
+                            "numAtRisk": 39
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue, tiredness, weakness",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 4,
+                            "numAtRisk": 38
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 4,
+                            "numAtRisk": 39
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 38
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 5,
+                            "numAtRisk": 39
+                        }
+                    ]
+                },
+                {
+                    "term": "Back pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 38
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        }
+                    ]
+                },
+                {
+                    "term": "Lightheadedness",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 38
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 39
+                        }
+                    ]
+                },
+                {
+                    "term": "Rash",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 38
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 38
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        }
+                    ]
+                },
+                {
+                    "term": "Pain at back of head",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 38
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        }
+                    ]
+                },
+                {
+                    "term": "Panic attack",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 38
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        }
+                    ]
+                },
+                {
+                    "term": "Vasovagal syncope",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 38
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        }
+                    ]
+                },
+                {
+                    "term": "Joint pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 38
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 39
+                        }
+                    ]
+                },
+                {
+                    "term": "Runny nose",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 38
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 39
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Ihab Hajjar, MD",
+                "organization": "University of Texas Southwestern",
+                "email": "ihabhajjar@emory.edu",
+                "phone": "214-645-9533"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "Candesartan (candesartan cilexetil)"
+    ],
+    "placebo": [
+        "Matched placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests candesartan \u2014 a marketed blood-pressure drug \u2014 in non-hypertensive individuals with MCI due to Alzheimer\u2019s disease, explicitly to assess safety and effects on disease biomarkers (CSF A\u03b240/A\u03b242, PET amyloid, tau, etc.). This indicates the intent is disease-modification/target engagement rather than only symptomatic cognitive enhancement or neuropsychiatric symptom control. (Trial description provided by user and corroborated by published trial abstract). \ue200cite\ue202turn1search0\ue202turn1search1\ue201",
+        "Act: Drug identity and mechanism: Candesartan is an angiotensin II type 1 receptor blocker (ARB), a small-molecule antihypertensive (prodrug candesartan cilexetil) \u2014 i.e., a small-molecule pharmacologic agent, not a biologic. The cited clinical study randomized non-hypertensive, biomarker-confirmed prodromal AD (MCI) participants to candesartan versus matched placebo to assess safety and biomarker effects. Given this, the intervention is best classified as a disease-targeted small molecule (a repurposed small-molecule drug evaluated for effects on AD pathology/biomarkers). \ue200cite\ue202turn0search2\ue202turn1search0\ue201",
+        "Reflect: Verification and nuance \u2014 the published trial reported candesartan was safe in this population and was associated with changes consistent with lower brain amyloid (CSF A\u03b240/A\u03b242 changes and regional PiB reductions) and some cognitive/executive benefits, supporting the interpretation that the drug was evaluated for disease-biomarker effects (target engagement). Because candesartan is a small-molecule ARB (not a monoclonal antibody, vaccine, or other biologic), and because the trial\u2019s explicit outcomes are disease biomarkers rather than only symptomatic or psychiatric endpoints, the correct category is 'disease-targeted small molecule.' \ue200cite\ue202turn1search1\ue202turn1search0\ue201",
+        "Web search results / sources referenced: PubMed abstract 'Safety and biomarker effects of candesartan in non-hypertensive adults with prodromal Alzheimer's disease' (trial summary). \ue200cite\ue202turn1search0\ue201; Alzheimer's & Dementia article reporting lower amyloid accumulation with candesartan in prodromal AD. \ue200cite\ue202turn1search1\ue201; Reviews/descriptions of candesartan cilexetil as an angiotensin II-receptor blocker (small-molecule ARB). \ue200cite\ue202turn0search2\ue202turn0search4\ue201."
+    ],
+    "agent_type": "K) Vasculature",
+    "explanation_agent": [
+        "Reason: The trial tests candesartan (candesartan cilexetil), an angiotensin II type\u20111 receptor blocker (ARB), repurposed to evaluate disease\u2011modifying effects on AD biomarkers (CSF A\u03b240/A\u03b242, PiB PET amyloid, tau, etc.), indicating the intervention acts via the renin\u2011angiotensin/vascular pathway rather than directly on amyloid or tau proteins. \ue200cite\ue202turn0search0\ue202turn0search3\ue201",
+        "Act: Extracted details \u2014 drug: candesartan (prodrug candesartan cilexetil); mechanism: competitive antagonist of the angiotensin II type\u20111 (AT1) receptor (an ARB), a small\u2011molecule antihypertensive acting on the renin\u2011angiotensin system; trial focus: biomarker effects consistent with reduced brain amyloid and connectivity/cognitive measures in non\u2011hypertensive prodromal AD. Based on the drug\u2019s primary biological target (angiotensin II/AT1 receptor) and its vascular/hormonal actions, the most specific CADRO match is K) Vasculature. \ue200cite\ue202turn1search1\ue202turn0search0\ue201",
+        "Reflect: Confirmation and nuance \u2014 angiotensin is a hormonal regulator, so one could argue for L) Growth Factors and Hormones; however, candesartan\u2019s principal clinical and mechanistic role is modulation of the renin\u2011angiotensin system with effects on blood pressure, cerebrovascular function and related vascular contributors to dementia. Because CADRO K covers vascular contributors (blood pressure, cerebral blood flow, cerebrovascular mechanisms) and the trial repurposes an ARB to modify those pathways and downstream AD biomarkers, K) Vasculature is the best fit. If future evidence showed the drug acted primarily through neurohormonal trophic signaling unrelated to vascular mechanisms, L) Growth Factors and Hormones could be reconsidered. \ue200cite\ue202turn0search0\ue202turn1search1\ue201",
+        "Web search results / sources referenced: PubMed / Brain Communications randomized trial abstract reporting safety and biomarker effects of candesartan in non\u2011hypertensive prodromal AD (biomarker changes in CSF A\u03b240/A\u03b242 and regional 11C\u2011PiB reductions). \ue200cite\ue202turn0search0\ue202turn0search3\ue201; DrugBank / reviews summarizing candesartan cilexetil as a prodrug small\u2011molecule angiotensin II type\u20111 receptor antagonist (ARB) and its mechanism of action on the renin\u2011angiotensin system. \ue200cite\ue202turn1search1\ue202turn1search3\ue201"
+    ]
+}

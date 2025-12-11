@@ -1,0 +1,885 @@
+{
+    "nct_id": "NCT00477659",
+    "title": "A Single Center Study To Examine Neural Correlates Of Cognition In Subjects With Mild Alzheimer's Disease After Three Months Of Open Label Donepezil HCl (Aricept\u00ae ) Treatment",
+    "status": "COMPLETED",
+    "last_update_time": "2021-11-09",
+    "description_brief": "The objective of this study was to identify neural correlates of cognitive improvement after 3 months of donepezil hydrochloride treatment using either or both of two functional magnetic resonance imaging (fMRI) measures - the functional Hippocampus Connectivity Index (HCI) and Cerebral Blood Flow (CBF) Perfusion; in the Medial Temporal Lobe (MTL) network in subjects in the early stage of Alzheimer's Disease (AD).",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE4"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "Out of the 16 participants who were screened, 14 participants were enrolled into the study.",
+            "recruitmentDetails": "Participants took part in this study at one investigative site in the United States from 23 July 2007 to 15 August 2008.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Donepezil Hydrochloride",
+                    "description": "Participants received donepezil hydrochloride 5 mg per day orally, once daily for 4 weeks, followed by 10 mg per day (two 5-mg tablets) for 8 weeks."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "14"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "14"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "The Intent-to-Treat (ITT) set included all participants who received at least one dose of study medication, had a baseline efficacy evaluation, and had at least one post-baseline efficacy evaluation.",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Donepezil",
+                    "description": "Participants received donepezil hydrochloride 5 mg per day orally, once daily for 4 weeks, followed by 10 mg per day (two 5-mg tablets) for 8 weeks."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "14"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "77.6",
+                                            "spread": "6.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Percent Change From Baseline to Week 12 Based on Hippocampus Connectivity Index (HCI)",
+                    "description": "All neuroimaging procedures were performed on a research-dedicated GE 3.0 Tesla whole-body Excite scanner with 8-channel phase-array head coil. Resting-state functional magnetic resonance imaging (fMRI) of the medial temporal lobe (MTL) was performed. The functional HCI was derived from the MTL network using a data driven approach corresponding voxel time courses from the fMR images were processed to extract low frequency fluctuations. Functional connectivity was quantified by calculating the cross-correlation of each voxel time course in the hippocampus to all voxel time courses of the whole brain and the mean of absolute cross-correlation coefficients between a hippocampus voxel to the whole-brain voxels. HCI was then calculated as the average of all hippocampus cross-correlation coefficients. Change from baseline (CFB) was calculated using the CBF-Perfusion Processing Method. A positive change from baseline for HCI indicates improved function.",
+                    "populationDescription": "The ITT set included all participants who received at least one dose of study medication, had a baseline efficacy evaluation, and had at least one post-baseline efficacy evaluation.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "percent change",
+                    "timeFrame": "Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Donepezil Hydrochloride",
+                            "description": "Participants received donepezil hydrochloride 5 mg per day orally, once daily for 4 weeks, followed by 10 mg per day (two 5-mg tablets) for 8 weeks."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "14"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7.47",
+                                            "spread": "17.23"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline at Week 12 in Alzheimer's Disease Assessment Scale - Cognitive Scale (ADAS)-Cog Score",
+                    "description": "The ADAS-cog is a 13-item performance-based test that examines selected aspects of cognition including memory, orientation, attention, reasoning, language, and praxis. Total score ranges from 0 to 70 with higher scores indicating greater cognitive impairment. A decrease from baseline indicates improved cognitive function. The ADAS-cog was administered by a trained individual unaware of adverse events reported during this trial.",
+                    "populationDescription": "The ITT set included all participants who received at least one dose of study medication, had a baseline efficacy evaluation, and had at least one post-baseline efficacy evaluation.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline and Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Donepezil Hydrochloride",
+                            "description": "Participants received donepezil hydrochloride 5 mg per day orally, once daily for 4 weeks, followed by 10 mg per day (two 5-mg tablets) for 8 weeks."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "14"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12.0",
+                                            "spread": "4.85"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change at Week 12",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.6",
+                                            "spread": "2.81"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline at Week 12 in Mini-Mental State Examination (MMSE) Score",
+                    "description": "MMSE was a 11-item scale to measure cognitive status where a higher score indicated better cognitive state. The score ranged from 0 to 30, with a higher score indicating better function. A positive change score indicated improvement from baseline. The mean change was analyzed by Wilcoxon's signed rank test.",
+                    "populationDescription": "The ITT set included all participants who received at least one dose of study medication, had a baseline efficacy evaluation, and had at least one post-baseline efficacy evaluation.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline and Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Donepezil Hydrochloride",
+                            "description": "Participants received donepezil hydrochloride 5 mg per day orally, once daily for 4 weeks, followed by 10 mg per day (two 5-mg tablets) for 8 weeks."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "14"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26.1",
+                                            "spread": "1.33"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change at Week 12",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.1",
+                                            "spread": "2.70"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline at Week 12 in the Instrumental Activities of Daily Living (IADL) Assessment Score",
+                    "description": "IADL Scale measures 7 areas of more complex activities required for optimal independent functioning, as reported by the caregiver. The scoring indicates whether the participant was completely independent (3), requires assistance (2), or is dependent (1) for the performance of each activity. A summary score ranges from 7 (high function, independent) to 21 (low function, dependent). The mean change was analyzed by Wilcoxon's signed rank test. A decrease from Baseline to Week 12 indicates improved function.",
+                    "populationDescription": "The ITT set included all participants who received at least one dose of study medication, had a baseline efficacy evaluation, and had at least one post-baseline efficacy evaluation.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline and Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Donepezil Hydrochloride",
+                            "description": "Participants received donepezil hydrochloride 5 mg per day orally, once daily for 4 weeks, followed by 10 mg per day (two 5-mg tablets) for 8 weeks."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "14"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "13.1",
+                                            "spread": "3.71"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change at Week 12",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.3",
+                                            "spread": "2.70"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline at Week 12 in the Neuropsychiatric Inventory (NPI) Score",
+                    "description": "NPI was a 12-item caregiver-based assessment of behavioral disturbances commonly occurring in participants with AD. NPI includes 12 sections which are Delusions, Hallucinations, Agitation, Depression, Anxiety, Euphoria, Apathy, Disinhibition, Irritability, Aberrant motor behavior, Night-time behaviors and Appetite and eating disorders. The score of each section ranges from 0 to 12, and higher score means higher severity and frequency of the neuropsychiatric disturbances. The mean change was analyzed by Wilcoxon's signed rank test.",
+                    "populationDescription": "The ITT set included all participants who received at least one dose of study medication, had a baseline efficacy evaluation, and had at least one post-baseline efficacy evaluation.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline and Week 12",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Donepezil Hydrochloride",
+                            "description": "Participants received donepezil hydrochloride 5 mg per day orally, once daily for 4 weeks, followed by 10 mg per day (two 5-mg tablets) for 8 weeks."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "14"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "9.2",
+                                            "spread": "10.00"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change at Week 12",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-3.4",
+                                            "spread": "11.25"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "All adverse events were collected from first dose of study drug (Baseline) up to 30 days after last dose of study drug (approximately up to 12 weeks)",
+            "description": "Safety analysis set included all participants who received at least one dose of study medication.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Donepezil Hydrochloride",
+                    "description": "Participants received donepezil hydrochloride 5 mg per day orally, once daily for 4 weeks, followed by 10 mg per day (two 5-mg tablets) for 8 weeks.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 14,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 14,
+                    "otherNumAffected": 11,
+                    "otherNumAtRisk": 14
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Decreased appetite",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Weight loss",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Ear pain",
+                    "organSystem": "Ear and labyrinth disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Eye pain",
+                    "organSystem": "Eye disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Vision blurred",
+                    "organSystem": "Eye disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Diarrhea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Feces discolored",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Flatulence",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Stomach discomfort",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Asthenia",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Contusion",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypercholesterolemia",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Muscle spasms",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Abnormal dreams",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Nervousness",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Nightmare",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Obsessive thoughts",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Sleep disorder",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Micturition urgency",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Cough",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 14
+                        }
+                    ]
+                },
+                {
+                    "term": "Rhinorrhea",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA 11.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 14
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Eisai Medical Services",
+                "organization": "Eisai, Inc.",
+                "email": "esi_medinfo@eisai.com",
+                "phone": "1-888-422-4743"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "Donepezil hydrochloride (Aricept\u00ae)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial tests donepezil (Aricept) and measures neural correlates of cognitive improvement (fMRI HCI and CBF in MTL) after 3 months of treatment \u2014 the stated goal is to evaluate cognitive change and its brain correlates rather than to modify underlying Alzheimer pathology. Act: Donepezil is a reversible acetylcholinesterase inhibitor used to produce symptomatic (cognitive) improvement in Alzheimer disease; the study is open\u2011label (no placebo) and focuses on cognition/neural activity. Therefore this fits the \"cognitive enhancer\" category. \ue200cite\ue202turn0search2\ue202turn0search6\ue201",
+        "Web search results / sources: DailyMed / FDA prescribing information: Donepezil hydrochloride is described as an acetylcholinesterase inhibitor and its clinical trials and outcome measures assess cognitive performance (e.g., ADAS\u2011cog). \ue200cite\ue202turn0search2\ue201",
+        "Drugs.com / Aricept prescribing information: ARICEPT (donepezil) is an acetylcholinesterase inhibitor indicated for treatment of dementia of the Alzheimer\u2019s type (dosage and warnings provided). This supports that donepezil is used for symptomatic cognitive treatment rather than disease modification. \ue200cite\ue202turn0search6\ue201",
+        "Clinical reviews / guidelines (AAFP, NCBI): Reviews summarize that cholinesterase inhibitors (including donepezil) provide modest, symptomatic cognitive benefits in AD but are not considered disease\u2011modifying \u2014 consistent with classifying donepezil as a cognitive enhancer. \ue200cite\ue202turn0search5\ue202turn0search0\ue201",
+        "Reflect: The trial description, the drug\u2019s mechanism (cholinesterase inhibition), and regulatory labeling all point to symptomatic cognitive enhancement. There is no indication in the description that the intervention is a biologic targeting amyloid/tau or a small molecule intended to modify disease pathology; nor is the trial targeting neuropsychiatric/behavioral symptoms specifically. Thus the classification \"cognitive enhancer\" is appropriate."
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The trial tests donepezil (Aricept), a reversible acetylcholinesterase inhibitor that increases acetylcholine availability and enhances cholinergic neurotransmission\u2014i.e., it modulates the brain's neurotransmitter system rather than targeting amyloid, tau, inflammation, or other disease\u2011modifying pathways. \ue200cite\ue202turn0search1\ue202turn0search4\ue201",
+        "Act: Donepezil is an approved symptomatic cognitive enhancer for Alzheimer disease; its mechanism of action is inhibition of acetylcholinesterase (increasing synaptic acetylcholine), consistent with the CADRO category for interventions that act on neurotransmitter systems/receptors. The study is measuring neural correlates of cognitive change after donepezil treatment, not attempting to modify underlying AD pathology\u2014supporting classification under Neurotransmitter Receptors. \ue200cite\ue202turn0search9\ue202turn0search6\ue201",
+        "Reflect: The description, drug mechanism, and guideline/prescribing information consistently indicate a symptomatic, cholinergic (neurotransmitter) intervention. There is no indication of amyloid/tau targeting, anti-inflammatory, neuroprotective disease modification, or a multi-target approach\u2014so 'D) Neurotransmitter Receptors' is the most specific CADRO fit. Sources used: MedThority/FDA prescribing info (mechanism statement), PubMed/StatPearls review of donepezil mechanism, AAFP guideline summary on cholinesterase inhibitors, and MIMS mechanism summary. \ue200cite\ue202turn0search1\ue202turn0search4\ue202turn0search6\ue202turn0search9\ue201"
+    ]
+}

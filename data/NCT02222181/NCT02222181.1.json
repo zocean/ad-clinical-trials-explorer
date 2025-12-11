@@ -1,0 +1,689 @@
+{
+    "nct_id": "NCT02222181",
+    "title": "Impact of Pharmacotherapy Management in Patients With Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2016-04-03",
+    "description_brief": "In Brazil, patients with Alzheimer's disease (AD) receiving free drugs of government. Even having access to, little is known about the effectiveness, safety and adherence of drug therapy in this group of patients. The research aims to promote adherence and develop strategies to address Drug-Related Problems (DRP's) in AD patients elderly of reference centre for the Elderly of Araraquara. The clinical parameters will be assessed at the beginning and after the educational intervention period from April 2014 to April 2015.",
+    "description_detailed": "Dementia is characterized by memory loss associated with cognitive impairment, which directly interferes in learning process, social and professional performance, besides being the main cause of dementia or Alzheimer's disease (AD). In Brazil, patients are medicated for AD through \"Programa de Medicamentos Excepcionais\" (Exceptional Drug Program) that ensure the patient\u00b4s treatment by providing high cost medications. Even having access to, little is known about the effectiveness, safety and adherence of drug therapy in this group of patients. The research aims to promote adherence and develop strategies to address Drug-Related Problems (DRP's) in AD patients. For this end, we intend to conduct a descriptive, almost experimental and longitudinal uncontrolled research, from April 2014 to December 2015, at the CRIA: \"Centro de Refer\u00eancia do Idoso de Araraquara\" (Reference Centre for the Elderly of Araraquara). Patients included in the research must have a diagnosis of AD and must be using drugs supplied by the \"Programa de Medicamentos Excepcionais\". For data collection pharmaceutical care will be employed as a technique, carried out through pharmaceutical meetings, including the steps of initial assessment, care plan (pharmaceutical intervention) and results evaluation. The results will be monitored for pharmacotherapy adherence, cognitive assessment and other clinical parameters related to their health problems and resolution of DRP's before and after the proposed follow-up.The expected outcomes include knowledge of the medication experiences of AD patients, how they influence the adherence and other DRP's and how they can contribute by solving these problems, in addition to the impact evaluation of pharmaceutical care in cognitive improving and other clinical parameters monitored and evaluated individually.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "N/A",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "Patients were excluded when in advanced or terminal stage of the disease, lived in nursing homes and when it was not possible to contact the patient.",
+            "recruitmentDetails": "Experimental, longitudinal and non-randomized study, carried out at Centro de Refer\u00eancia do Idoso de Araraquara (CRIA), from 2014 april to 2015 april, with patients in treatment for Alzheimer's disease.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Pharmacotherapy Follow-up",
+                    "description": "All the patients received pharmacotherapy workup at baseline and after the intervention."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "163"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "55"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "108"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Treatment",
+                    "description": "patients in treatment for Alzheimer's disease."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "55"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "46"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "42"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Mini-mental State Examination (MMEE)",
+                    "description": "MMEE : scale 0-30 ( \u226525 - normal aging; 21-24 - initial stage; 20-10 - middle stage; \u22649 - final stage)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score",
+                    "timeFrame": "six months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Pharmacotherapy Follow-up",
+                            "description": "All the patients received pharmacotherapy workup at baseline and after the intervention."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "55"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Before",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12",
+                                            "spread": "7.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "After",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12",
+                                            "spread": "7.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.23",
+                            "statisticalMethod": "t-test, 1 sided"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Clinical Dementia Rating (CDR)",
+                    "description": "CDR: scale 1-3 (0-0.5: normal aging; 1- initial stage; 2- middle stage; 3- final stage)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score",
+                    "timeFrame": "six months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Pharmacotherapy Follow-up",
+                            "description": "All the patients received pharmacotherapy workup at baseline and after the intervention."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "55"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Before",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.6",
+                                            "spread": "0.08"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "After",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.7",
+                                            "spread": "0.08"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.05",
+                            "statisticalMethod": "t-test, 1 sided"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Systolic Blood Pressure",
+                    "description": "Systolic pressure \\<140 mmHg",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "mmHg",
+                    "timeFrame": "weekly",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Pharmacotherapy Follow-up",
+                            "description": "All the patients received pharmacotherapy workup at baseline and after the intervention."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "55"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Before",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "136.6",
+                                            "spread": "22.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "After",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "126.7",
+                                            "spread": "18.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.03",
+                            "statisticalMethod": "t-test, 1 sided"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Total Cholesterol",
+                    "description": "Total Cholesterol \\<200 mg/dL",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "mg/dL",
+                    "timeFrame": "Total Cholesterol",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Pharmacotherapy Follow-up",
+                            "description": "All the patients received pharmacotherapy workup at baseline and after the intervention."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "55"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Before",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "202.2",
+                                            "spread": "41.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "After",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "187.6",
+                                            "spread": "39.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "<0.001",
+                            "statisticalMethod": "t-test, 1 sided"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Triglycerides",
+                    "description": "Normal level: 150mg/dL",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "mg/dL",
+                    "timeFrame": "three months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Pharmacotherapy Follow-up",
+                            "description": "All the patients received pharmacotherapy workup at baseline and after the intervention."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "55"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Before",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "154.1",
+                                            "spread": "63.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "After",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "137.8",
+                                            "spread": "48.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.025",
+                            "statisticalMethod": "t-test, 1 sided"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Glycemia",
+                    "description": "Normal levels: 70-99mg/dL; diabetic: \\>121mg/dL.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "mg/dL",
+                    "timeFrame": "two months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Pharmacotherapy Follow-up",
+                            "description": "All the patients received pharmacotherapy workup at baseline and after the intervention."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "55"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Before",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "121.9",
+                                            "spread": "57.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "After",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "93.9",
+                                            "spread": "15.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "<0.001",
+                            "statisticalMethod": "t-test, 1 sided"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Diastolic Blood Pressure",
+                    "description": "Diastolic pressure \\<90 mmHg",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "mmHg",
+                    "timeFrame": "weekly",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Pharmacotherapy Follow-up",
+                            "description": "All the patients received pharmacotherapy workup at baseline and after the intervention."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "55"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Before",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "75.49",
+                                            "spread": "12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "After",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "73.03",
+                                            "spread": "9.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.05",
+                            "statisticalMethod": "t-test, 1 sided"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Do not apply.",
+            "description": "Do not apply.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Treatment",
+                    "description": "Do not apply.",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 55,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 55
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Fernanda Mariana de Oliveira",
+                "organization": "Unesp",
+                "email": "femoliveira12@gmail.com",
+                "phone": "+551636640217"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "rivastigmine",
+        "donepezil",
+        "galantamine"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial tests a pharmacist-led \"pharmacotherapy management\"/educational intervention in AD patients who are using drugs supplied by Brazil's Programa de Medicamentos Excepcionais. The registry/summary explicitly lists rivastigmine, donepezil and galantamine as the Alzheimer drugs used by enrolled patients. \ue200cite\ue202turn0search3\ue202turn0search0\ue201",
+        "Act: These three named medications are cholinergic symptomatic treatments (acetylcholinesterase inhibitors or cholinergic modulators) that improve cognitive symptoms in Alzheimer's disease but are not disease\u2011modifying biologics. Donepezil is a reversible acetylcholinesterase inhibitor used to improve cognition in AD. \ue200cite\ue202turn1search2\ue201 Rivastigmine inhibits acetylcholinesterase and butyrylcholinesterase and is used to treat dementia in AD. \ue200cite\ue202turn1search4\ue201 Galantamine acts as a weak acetylcholinesterase inhibitor and has been described to modulate nicotinic receptors, producing cognitive benefit. \ue200cite\ue202turn1search0\ue202turn1search5\ue201 Given the trial's focus on adherence, safety and resolving drug\u2011related problems for patients already taking these symptomatic AD medicines, the most appropriate category is \"cognitive enhancer.\" \ue200cite\ue202turn0search3\ue201",
+        "Reflect: The study is not testing a biologic (e.g., monoclonal antibody) nor a disease\u2011modifying small molecule; it is an intervention about medication management for patients on established symptomatic AD drugs. The chosen classification \"cognitive enhancer\" matches the drug types in the registry and the trial's stated aims. I also located a published paper reporting the pharmacist intervention results from the same group, which evaluated therapy adherence, DRPs and clinical parameters\u2014supporting the interpretation that this is medication\u2011management of symptomatic cognitive drugs rather than a disease\u2011modification trial. \ue200cite\ue202turn0search1\ue202turn0search3\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The trial is a pharmacist-led pharmacotherapy-management/educational intervention for patients already taking donepezil, rivastigmine, or galantamine \u2014 drugs supplied by Brazil's Programa de Medicamentos Excepcionais. This identifies the biological focus as symptomatic cholinergic treatment (cholinergic neurotransmission). \ue200cite\ue202turn1search0\ue201",
+        "Act: The three named drugs are established cholinergic/synaptic symptomatic treatments: donepezil is a centrally acting, reversible acetylcholinesterase inhibitor that increases synaptic acetylcholine; rivastigmine inhibits both acetylcholinesterase and butyrylcholinesterase; galantamine is a weak acetylcholinesterase inhibitor that also modulates nicotinic acetylcholine receptors. These actions target the cholinergic neurotransmitter system rather than amyloid, tau, inflammation, or other CADRO categories \u2014 map to D) Neurotransmitter Receptors. \ue200cite\ue202turn2search0\ue202turn0search1\ue202turn0search3\ue201",
+        "Reflect: The study's aim (improve adherence, safety, resolve drug\u2011related problems for patients on symptomatic AD medicines) confirms this is medication\u2011management of cholinergic cognitive enhancers, not a disease\u2011modifying or biomarker/diagnostic trial. Therefore the most specific CADRO category is D) Neurotransmitter Receptors. If multiple mechanistic effects were being tested (e.g., simultaneous anti\u2011amyloid and anti\u2011inflammatory agents), R) Multi\u2011target would be considered, but here the focus is cholinergic/synaptic. \ue200cite\ue202turn1search3\ue202turn1search5\ue201",
+        "Web search results (key sources used):",
+        "- Trial registry / study summary showing pharmacist-led pharmacotherapy management in AD patients using rivastigmine, donepezil or galantamine (NCT02222181). \ue200cite\ue202turn1search0\ue201",
+        "- Donepezil mechanism: reversible acetylcholinesterase inhibitor that increases acetylcholine availability (reviews/StatPearls, PubMed). \ue200cite\ue202turn2search0\ue202turn2search3\ue201",
+        "- Rivastigmine mechanism: reversible inhibitor of acetylcholinesterase and butyrylcholinesterase (StatPearls, DrugBank/PubMed). \ue200cite\ue202turn0search1\ue202turn0search7\ue201",
+        "- Galantamine mechanism: acetylcholinesterase inhibitor with reported modulation/activation of nicotinic acetylcholine receptors (PNAS/PubMed). \ue200cite\ue202turn0search2\ue202turn0search3\ue201",
+        "- Systematic review/meta-analysis summarizing these agents as symptomatic cholinesterase inhibitors that produce modest cognitive benefit (not disease\u2011modifying). \ue200cite\ue202turn1search5\ue201",
+        "Output: D) Neurotransmitter Receptors \u2014 The trial involves management of symptomatic cholinergic drugs (donepezil, rivastigmine, galantamine) that act on the acetylcholine/cholinergic neurotransmitter system, so CADRO category D is the best fit."
+    ]
+}

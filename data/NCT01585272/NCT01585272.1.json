@@ -1,0 +1,1361 @@
+{
+    "nct_id": "NCT01585272",
+    "title": "A 52-week, Prospective, Multi-center, Open-label Study to Assess the Tolerability of Rivastigmine Before and After Switching From Oral Formulation to Transdermal Patch in Patients With Alzheimer's Dementia in a Controlled Titration Schedule",
+    "status": "COMPLETED",
+    "last_update_time": "2018-04-16",
+    "description_brief": "This phase IIIb study is intended to implement a consistent treatment way for switching to Exelon transdermal patch from oral formulation of rivastigmine to stress the importance of (1) advantages of transdermal patch over conventional oral therapies: smooth drug delivery with reduced side effects;(2) encourage treatment compliance in the Alzheimer's dementia setting.\n\nThis study is a single-arm, treatment-switched design. Eligible patients, who are under Exelon capsule 3 mg b.i.d. treatment for 4 weeks before Visit 2, will be recruited, followed by treatment switch from oral capsule to patch for 48 weeks maintenance treatment. During the maintenance period, the treatment will be initiated with Exelon Patch 4.6 mg/24 hours (Exelon Patch 5 cm\\^2) for the first 24 weeks and the dose will be escalated to Exelon Patch 9.5 mg/24 hours (Exelon Patch 10 cm\\^2) for another 24 weeks if well tolerated. Visits to assess safety are scheduled at baseline, 3 days, 1 week and 2 weeks after the first treatment switch, every 4 weeks until Week 40, and at the end of study (Week 52). The assessment to address the primary objective will focus on the safety of treatment switching (Week 0\\~28); however the safety assessment will be performed during the whole study period.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE4"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "Patients receiving Exelon patch 5 cm\\^2 were more than those receiving Exelon capsule for 4 weeks as least, because some patients had interrupted Exelon capsule for few days in the middle of 4-week Exelon capsule treatment, but still switched to Exelon patch 5 cm2",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Rivastigmine",
+                    "description": "Eligible patients, who are under rivastigmine capsule 3 mg b.i.d. treatment for 4 weeks before Visit 2, will be recruited, followed by treatment switch from oral capsule to transdermal patch for 48 weeks maintenance treatment."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "121"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Safety Set",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "Subjects received 3 mg bid Exelon caps for more than 4 weeks \\& used at least 1 dose of Exelon patch.",
+                                    "numSubjects": "102"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Exelon Patch 5 cm2",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "114"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Exelon Patch 10 cm2",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "96"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "82"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Adverse Event",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "22"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Protocol Violation",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "7"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "10"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Rivastigmine",
+                    "description": "Eligible patients, who are under rivastigmine capsule 3 mg b.i.d. treatment for 4 weeks before Visit 2, will be recruited, followed by treatment switch from oral capsule to transdermal patch for 48 weeks maintenance treatment."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "102"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "74.8",
+                                            "spread": "7.93"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "52"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "50"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Patients With Adverse Events, Serious Adverse Events, and Death",
+                    "description": "The overall rate of adverse events reported from initiation through the first 28-week treatment period",
+                    "populationDescription": "Safety population: All enrolled subjects who received 3 mg b.i.d Exelon capsule for more than 4 weeks and used at least one dose of Exelon patch therapy.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Baseline through week 28",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Rivastigmine",
+                            "description": "Eligible patients, who are under rivastigmine capsule 3 mg b.i.d. treatment for 4 weeks before Visit 2, will be recruited, followed by treatment switch from oral capsule to transdermal patch for 48 weeks maintenance treatment."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "102"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Patients with at least one SAEs",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Patients with at least one AE",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "94"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Death",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in Mini-Mental Status Examination (MMSE)",
+                    "description": "The changes in Mini-Mental Status Examination (MMSE) of patients with Alzheimer's disease treated with Exelon 5 cm\\^2 Patch at Week 28 and Exelon 10 cm2 Patch at Week 52 versus baseline, the treatment-switching day at Week 4. MMSE is a multi-item instrument that examines orientation, registration, attention, calculation, recall, visuospatial ability and language. The total score can range from 0 to 30, with a higher score indicating better function. A positive change score indicates improvement from baseline. The assessments will be conducted at Visit 1, 2, 8, 11 and 17 (screening, Week 4 (baseline), 16, 28 and 52).",
+                    "populationDescription": "ITT population: All enrolled subjects who received 3 mg b.i.d Exelon capsule orally for 4 weeks and at least one dose of Exelon patch therapy",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Score",
+                    "timeFrame": "Baselin, week 16, 28 and 52",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Rivastigmine",
+                            "description": "Eligible patients, who are under rivastigmine capsule 3 mg b.i.d. treatment for 4 weeks before Visit 2, will be recruited, followed by treatment switch from oral capsule to transdermal patch for 48 weeks maintenance treatment."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "102"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 16 (n=90)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.1",
+                                            "spread": "2.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 28 (n=82)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.1",
+                                            "spread": "2.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 52 (n=93)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.0",
+                                            "spread": "3.48"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in Alzheimer Disease Assessment Scale-Cognitive Subscale (ADAS-Cog)",
+                    "description": "The changes in Alzheimer Disease Assessment Scale-Cognitive Subscale (ADAS-Cog) of patients with Alzheimer's disease treated with Exelon 5 cm\\^2 Patch at Week 28 and Exelon 10 cm\\^2 Patch at Week 52 versus baseline, the treatment-switching day at Week 4. ADAS-Cog has been used as the major cognitive measure of anti-dementia drugs. The total score range is 0 to 70 points, with higher scores indicating greater cognitive impairment. The assessments will be conducted at Visit, 2, 8, 11 and 17 (Week 4 (baseline), 16, 28 and 52).",
+                    "populationDescription": "ITT population: All enrolled subjects who received 3 mg b.i.d Exelon capsule orally for 4 weeks and at least one dose of Exelon patch therapy.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Score",
+                    "timeFrame": "Baseline, week 16, 28 and 52",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Rivastigmine",
+                            "description": "Eligible patients, who are under rivastigmine capsule 3 mg b.i.d. treatment for 4 weeks before Visit 2, will be recruited, followed by treatment switch from oral capsule to transdermal patch for 48 weeks maintenance treatment."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "102"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 16 (n=90)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0",
+                                            "spread": "4.92"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 28 (n=82)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.4",
+                                            "spread": "5.20"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 52 (n=93)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.8",
+                                            "spread": "7.37"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "The Discontinuation Rate Due to the Treatment Switching From Oral Capsule to Rivastigmine Patch Treatment",
+                    "description": "The discontinuation rate due to the treatment switching from oral capsule to patch treatment. For patients who discontinue earlier due to intolerance of patch treatment, the proportion will be analyzed. Both the discontinuation rate of 5 cm2 and 10 cm\\^2 patch therapy will be presented.",
+                    "populationDescription": "Of the patients treated, N=121, number of patients analyzied were those who received 5cm patch (n=114) and those who received 10cm patch (n=96)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Baseline through week 52",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Rivastigmine",
+                            "description": "Eligible patients, who are under rivastigmine capsule 3 mg b.i.d. treatment for 4 weeks before Visit 2, will be recruited, followed by treatment switch from oral capsule to transdermal patch for 48 weeks maintenance treatment."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "114"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Exelon patch 5 cm 2:Week 4 - Week 28",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Exelon patch 10 cm 2: Week 28 - Week 52",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Percentage of Patients Successfully Titrated to Rivastigmine Patch 10 cm^2",
+                    "description": "The percentage of patients successfully titrated to rivastigmine patch 10 cm2",
+                    "populationDescription": "Safety population: All enrolled subjects who received 3 mg b.i.d Exelon capsule for more than 4 weeks and used at least one dose of Exelon patch therapy.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Percentage of participants",
+                    "timeFrame": "Baseline through week 52",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Rivastigmine",
+                            "description": "Eligible patients, who are under rivastigmine capsule 3 mg b.i.d. treatment for 4 weeks before Visit 2, will be recruited, followed by treatment switch from oral capsule to transdermal patch for 48 weeks maintenance treatment."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "102"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "85.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "2",
+            "timeFrame": "52 weeks",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Rivastigmine",
+                    "description": "Eligible patients, who are under rivastigmine capsule 3 mg b.i.d. treatment for 4 weeks before Visit 2, will be recruited, followed by treatment switch from oral capsule to transdermal patch for 48 weeks maintenance treatment.",
+                    "seriousNumAffected": 16,
+                    "seriousNumAtRisk": 102,
+                    "otherNumAffected": 83,
+                    "otherNumAtRisk": 102
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Cardiac failure chronic",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Supraventricular tachycardia",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Inguinal hernia",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Vomiting",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Cholecystitis",
+                    "organSystem": "Hepatobiliary disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Cholelithiasis",
+                    "organSystem": "Hepatobiliary disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Arthritis infective",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Cellulitis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Escherichia sepsis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Pneumonia",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Pyuria",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Tertiary syphilis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary tract infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Open fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Pelvic fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Wrist fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Hyponatraemia",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Neck mass",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Benign neoplasm of prostate",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Lung adenocarcinoma",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Nephrolithiasis",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Acute respiratory failure",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Idiopathic pulmonary fibrosis",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Pleural effusion",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Knee arthroplasty",
+                    "organSystem": "Surgical and medical procedures",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Venous thrombosis limb",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 102
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Cataract",
+                    "organSystem": "Eye disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Dry eye",
+                    "organSystem": "Eye disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Abdominal discomfort",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 4,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Constipation",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 4,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Diarrhoea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 6,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Mouth ulceration",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 12,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Vomiting",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 11,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Application site erosion",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Application site erythema",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 18,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Application site pruritus",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 34,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Application site rash",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 14,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Chest discomfort",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Pyrexia",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Bronchitis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Conjunctivitis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Nasopharyngitis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 6,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Periodontitis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Upper respiratory tract infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 7,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary tract infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 5,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Weight decreased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 28,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Decreased appetite",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 12,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Myofascial pain syndrome",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Pain in extremity",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Benign neoplasm of prostate",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 24,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Agitation",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 5,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Insomnia",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 4,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Irritability",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Cough",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 5,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Eczema",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Papule",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypertension",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "18.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 102
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "The terms and conditions of Novartis' agreements with its investigators may vary. However, Novartis does not prohibit any investigator from publishing. Any publications from a single-site are postponed until the publication of the pooled data (i.e., data from all sites) in the clinical trial or disclosure of trial results in their entirety."
+            },
+            "pointOfContact": {
+                "title": "Study Director",
+                "organization": "Novartis Pharmaceutical",
+                "phone": "862-778-8300"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "Rivastigmine (Exelon) transdermal patch \u2014 titrated from 4.6 mg/24h to 9.5 mg/24h in the study"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The investigational product is Exelon (rivastigmine) delivered as a transdermal patch. Rivastigmine is a reversible cholinesterase inhibitor that increases acetylcholine to improve cognitive symptoms in Alzheimer's disease; it is a symptomatic (non\u2013disease\u2011modifying) treatment rather than a biologic or anti-amyloid/tau disease-modifying agent. \ue200cite\ue202turn0search5\ue202turn0search2\ue201",
+        "Act: Key trial details extracted from the description \u2014 single-arm, switch from oral rivastigmine capsules to Exelon patch for 48 weeks (initial 4.6 mg/24h for 24 weeks then escalation to 9.5 mg/24h if tolerated); primary focus is safety/tolerability of switching and improved tolerability/adherence with transdermal delivery. The drug identity, indications, and patch dosing/titration are documented by Novartis and prescribing information. \ue200cite\ue202turn0search0\ue202turn0search1\ue202turn0search2\ue201",
+        "Reflect: Given the mechanism (cholinesterase inhibition) and the trial aim (switching formulation to improve tolerability and adherence, with safety as primary outcome), this fits the defined category 'Cognitive enhancer' \u2014 a small\u2011molecule symptomatic treatment to improve cognition/functional symptoms rather than a disease\u2011targeted biologic or disease\u2011modifying small molecule. No placebo or neuropsychiatric\u2011focused endpoint was described, so other categories do not apply. \ue200cite\ue202turn0search5\ue202turn0search0\ue201",
+        "Web sources used: Novartis Exelon Patch product/indication and safety information (turn0search0, turn0search1); Exelon mechanism and product summary (CenterWatch) (turn0search2); rivastigmine mechanism review (StatPearls/NCBI) (turn0search5). \ue200cite\ue202turn0search0\ue202turn0search1\ue202turn0search2\ue202turn0search5\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The investigational product is rivastigmine (Exelon) delivered as a transdermal patch. Rivastigmine is a cholinesterase inhibitor that increases synaptic acetylcholine to improve cognitive symptoms in Alzheimer's disease (a symptomatic cognitive enhancer), i.e., acting on cholinergic neurotransmission rather than on amyloid, tau, or other disease\u2011modifying pathways. \ue200cite\ue202turn0search1\ue202turn0search0\ue201.",
+        "Act: Extracted trial details \u2014 switch from oral rivastigmine to Exelon transdermal patch with titration from 4.6 mg/24h to 9.5 mg/24h (per-protocol titration for tolerability); primary focus is tolerability/safety and adherence with transdermal delivery. These dosing and switching recommendations appear in product information and SmPC. \ue200cite\ue202turn0search0\ue202turn0search2\ue202turn0search4\ue201.",
+        "Reflect: CADRO category D) Neurotransmitter Receptors best fits because the drug\u2019s mechanism targets cholinergic neurotransmission (inhibits acetylcholinesterase/butyrylcholinesterase), a neurotransmitter/receptor system. This is a symptomatic (cognitive enhancer) intervention, not a disease\u2011modifying anti\u2011amyloid/tau or multi\u2011target biologic; therefore R) Multi-target and other disease categories do not apply. \ue200cite\ue202turn0search1\ue202turn0search7\ue201.",
+        "Web search results used (selected authoritative sources): Novartis/Exelon patch product information (indications, titration) \u2014 Novartis press/label. \ue200cite\ue202turn0search0\ue201; StatPearls/NCBI review describing rivastigmine mechanism as reversible inhibitor of AChE and BuChE. \ue200cite\ue202turn0search1\ue201; Exelon SmPC / medicines.org.uk with switching/titration details. \ue200cite\ue202turn0search2\ue201; FDA/DailyMed label summary (dosing/titration information). \ue200cite\ue202turn0search4\ue201; CenterWatch / product summaries for clinical-use context. \ue200cite\ue202turn0search7\ue201."
+    ]
+}

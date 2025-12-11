@@ -1,0 +1,972 @@
+{
+    "nct_id": "NCT04070378",
+    "title": "An Open-Label, Pilot Study of Daratumumab SC in Patients With Mild to Moderate Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2023-11-07",
+    "description_brief": "This is an open-label, pilot study designed to explore whether daratumumab may have a clinically meaningful effect in patients with mild to moderate Alzheimer's disease.",
+    "description_detailed": "Daratumumab is a human antibody that targets CD38. It is FDA-approved for the treatment of multiple myeloma, has broad-ranging immunomodulatory effects on nonplasma cells that express CD38, and is able to cross the blood-brain barrier. CD38 expression on CD8+ T-cells is significantly increased in the blood of early AD patients as compared with age-matched controls, and activated T-cells are capable of trafficking into the central nervous system and exerting toxic effects. This study is designed to explore whether treatment with Daratumumab may have a clinically meaningful effect on patients with mild to moderate Alzheimer's disease.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Open-label Treatment",
+                    "description": "This is an open-label pilot study designed to explore whether daratumumab may have a clinically meaningful effect in patients with mild to moderate Alzheimer's disease. During the treatment phase, eligible subjects will receive daratumumab SC 1800 mg (daratumumab 1800 mg with rHuPH20 30,000 units) subcutaneous infusion over 3-5 minutes (15 mL) once weekly for 8 weeks followed by daratumumab SC 1800 mg every 2 weeks for 16 weeks.\n\nDaratumumab Injection: Daratumumab SC 1800 mg (daratumumab 1800 mg with rHuPH20 30,000 units) subcutaneous infusion"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "16"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Subjects Who Received at Least One Dose of Study Drug.",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "9"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Screen Failure",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Physician Decision",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Adverse Event",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Open-label Treatment",
+                    "description": "This is an open-label pilot study designed to explore whether daratumumab may have a clinically meaningful effect in patients with mild to moderate Alzheimer's disease. During the treatment phase, eligible subjects will receive daratumumab SC 1800 mg (daratumumab 1800 mg with rHuPH20 30,000 units) subcutaneous infusion over 3-5 minutes (15 mL) once weekly for 8 weeks followed by daratumumab SC 1800 mg every 2 weeks for 16 weeks.\n\nDaratumumab Injection: Daratumumab SC 1800 mg (daratumumab 1800 mg with rHuPH20 30,000 units) subcutaneous infusion"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "16"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "FULL_RANGE",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "67.46",
+                                            "lowerLimit": "55.75",
+                                            "upperLimit": "80.38"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants With an Improvement of \u2265 4 Points on the ADAS-cog/11",
+                    "description": "The standard 11-item version of the Alzheimer's Disease Assessment Scale, cognitive subscale score (ADAS-cog/11) includes both subject-completed tests and observer-based assessments. Specific tasks include Word Recall, Naming Objects and Fingers, Commands, Constructional Praxis, Ideational Praxis, Orientation, Word Recognition, and Language. The score ranges from 0 to 70 with each point representing a performance error and higher scores reflecting worse performance. An improvement (decrease) of \u2265 4 points in ADAS-cog/11 score has been deemed to be clinically meaningful.",
+                    "populationDescription": "A total of 16 subjects were screened, with 6 screen failures, 1 subject who withdrew consent prior to treatment, 1 subject who withdrew consent after 3 treatment visits, 1 subject withdrawn by the investigator after having missed 7 consecutive visits due to the COVID pandemic, and 1 subject withdrawn due to a possibly related adverse event, leaving 6 evaluable subjects who completed treatment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "responders",
+                    "timeFrame": "25 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Open-label Treatment",
+                            "description": "This is an open-label pilot study designed to explore whether daratumumab may have a clinically meaningful effect in patients with mild to moderate Alzheimer's disease. During the treatment phase, eligible subjects will receive daratumumab SC 1800 mg (daratumumab 1800 mg with rHuPH20 30,000 units) subcutaneous infusion over 3-5 minutes (15 mL) once weekly for 8 weeks followed by daratumumab SC 1800 mg every 2 weeks for 16 weeks.\n\nDaratumumab Injection: Daratumumab SC 1800 mg (daratumumab 1800 mg with rHuPH20 30,000 units) subcutaneous infusion"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "6"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "The Number of Subjects Who Are Unchanged or Improved From Baseline on ADAS-cog/12 Score",
+                    "description": "The 12-item version of the Alzheimer's Disease Assessment Scale, cognitive subscale (ADAS-Cog/12) adds a delayed word recall task, scored from 0 to 10. The ADAS-Cog/12 score is the total of the ADAS-Cog/11 plus the delayed recall score, and therefore has a range of 0 to 80. Higher scores reflect worse performance.",
+                    "populationDescription": "A total of 16 subjects were screened, with 6 screen failures, 1 subject who withdrew consent prior to treatment, 1 subject who withdrew consent after 3 treatment visits, 1 subject withdrawn by the investigator after having missed 7 consecutive visits due to the COVID pandemic, and 1 subject withdrawn due to a possibly related adverse event, leaving 6 evaluable subjects who completed treatment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "responders",
+                    "timeFrame": "25 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Open-label Treatment",
+                            "description": "This is an open-label pilot study designed to explore whether daratumumab may have a clinically meaningful effect in patients with mild to moderate Alzheimer's disease. During the treatment phase, eligible subjects will receive daratumumab SC 1800 mg (daratumumab 1800 mg with rHuPH20 30,000 units) subcutaneous infusion over 3-5 minutes (15 mL) once weekly for 8 weeks followed by daratumumab SC 1800 mg every 2 weeks for 16 weeks.\n\nDaratumumab Injection: Daratumumab SC 1800 mg (daratumumab 1800 mg with rHuPH20 30,000 units) subcutaneous infusion"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "6"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "The Number of Subjects Who Are Unchanged or Improved From Baseline on the MMSE",
+                    "description": "The Mini-Mental State Examination (MMSE) is a 30-point scale that measures orientation to time and place, registration, immediate and delayed recall, attention, language, and drawing. Scores range from 0 (most impaired) to 30 (no impairment).",
+                    "populationDescription": "A total of 16 subjects were screened, with 6 screen failures, 1 subject who withdrew consent prior to treatment, 1 subject who withdrew consent after 3 treatment visits, 1 subject withdrawn by the investigator after having missed 7 consecutive visits due to the COVID pandemic, and 1 subject withdrawn due to a possibly related adverse event, leaving 6 evaluable subjects who completed treatment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "responders",
+                    "timeFrame": "25 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Open-label Treatment",
+                            "description": "This is an open-label pilot study designed to explore whether daratumumab may have a clinically meaningful effect in patients with mild to moderate Alzheimer's disease. During the treatment phase, eligible subjects will receive daratumumab SC 1800 mg (daratumumab 1800 mg with rHuPH20 30,000 units) subcutaneous infusion over 3-5 minutes (15 mL) once weekly for 8 weeks followed by daratumumab SC 1800 mg every 2 weeks for 16 weeks.\n\nDaratumumab Injection: Daratumumab SC 1800 mg (daratumumab 1800 mg with rHuPH20 30,000 units) subcutaneous infusion"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "6"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "The Number of Subjects Who Are Unchanged or Improved From Baseline on the CDR-SB",
+                    "description": "The Clinical Dementia Rating Scale Sum of Boxes (CDR-SB) is a clinical global rating scale requiring the interviewing of both the subject and a study partner who knows and has contact with the subject. The CDR-SB is a clinician-directed assessment of both cognition and function, and is intended to capture the state and therefore the disease stage of the individual. The range of scores is from 0-18, with higher scores being worse.",
+                    "populationDescription": "A total of 16 subjects were screened, with 6 screen failures, 1 subject who withdrew consent prior to treatment, 1 subject who withdrew consent after 3 treatment visits, 1 subject withdrawn by the investigator after having missed 7 consecutive visits due to the COVID pandemic, and 1 subject withdrawn due to a possibly related adverse event, leaving 6 evaluable subjects who completed treatment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "responders",
+                    "timeFrame": "25 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Open-label Treatment",
+                            "description": "This is an open-label pilot study designed to explore whether daratumumab may have a clinically meaningful effect in patients with mild to moderate Alzheimer's disease. During the treatment phase, eligible subjects will receive daratumumab SC 1800 mg (daratumumab 1800 mg with rHuPH20 30,000 units) subcutaneous infusion over 3-5 minutes (15 mL) once weekly for 8 weeks followed by daratumumab SC 1800 mg every 2 weeks for 16 weeks.\n\nDaratumumab Injection: Daratumumab SC 1800 mg (daratumumab 1800 mg with rHuPH20 30,000 units) subcutaneous infusion"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "6"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "The Number of Subjects Who Are Unchanged or Improved From Baseline on the ADCOMS",
+                    "description": "The AD Composite Score (ADCOMS) is derived from a weighted combination of selected items from the ADAS-cog/12, MMSE, and CDR-SB. The range of the ADCOMS is between 0 and 1.97. A higher score is indicative of greater impairment.",
+                    "populationDescription": "A total of 16 subjects were screened, with 6 screen failures, 1 subject who withdrew consent prior to treatment, 1 subject who withdrew consent after 3 treatment visits, 1 subject withdrawn by the investigator after having missed 7 consecutive visits due to the COVID pandemic, and 1 subject withdrawn due to a possibly related adverse event, leaving 6 evaluable subjects who completed treatment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "responders",
+                    "timeFrame": "25 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Open-label Treatment",
+                            "description": "This is an open-label pilot study designed to explore whether daratumumab may have a clinically meaningful effect in patients with mild to moderate Alzheimer's disease. During the treatment phase, eligible subjects will receive daratumumab SC 1800 mg (daratumumab 1800 mg with rHuPH20 30,000 units) subcutaneous infusion over 3-5 minutes (15 mL) once weekly for 8 weeks followed by daratumumab SC 1800 mg every 2 weeks for 16 weeks.\n\nDaratumumab Injection: Daratumumab SC 1800 mg (daratumumab 1800 mg with rHuPH20 30,000 units) subcutaneous infusion"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "6"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Treatment Emergent Adverse Effects",
+                    "description": "The proportion of subjects with treatment-emergent adverse effects from initial treatment through final follow-up study visit.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "35 weeks",
+                    "denomUnitsSelected": "Participants"
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Treatment Emergent Serious Adverse Effects",
+                    "description": "The proportion of subjects with treatment-emergent serious adverse effects from initial treatment through final follow-up study visit.",
+                    "reportingStatus": "NOT_POSTED",
+                    "timeFrame": "35 weeks",
+                    "denomUnitsSelected": "Participants"
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Adverse event data were collected from the time of consent through completion of the final study follow-up visit (approximately 10 months).",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Open-label Treatment",
+                    "description": "This is an open-label pilot study designed to explore whether daratumumab may have a clinically meaningful effect in patients with mild to moderate Alzheimer's disease. During the treatment phase, eligible subjects will receive daratumumab SC 1800 mg (daratumumab 1800 mg with rHuPH20 30,000 units) subcutaneous infusion over 3-5 minutes (15 mL) once weekly for 8 weeks followed by daratumumab SC 1800 mg every 2 weeks for 16 weeks.\n\nDaratumumab Injection: Daratumumab SC 1800 mg (daratumumab 1800 mg with rHuPH20 30,000 units) subcutaneous infusion",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 9,
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 9,
+                    "otherNumAffected": 7,
+                    "otherNumAtRisk": 9
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "COVID-19 pneumonia",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Infusion reaction; urticarial rash",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "cough",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Bilateral cheek, ear, chin erythematous hives with mild swelling and itching",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Brief transient unresponsiveness",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Burn on lower back",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Related to use of heating pad for back pain.",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Vaccine reaction",
+                    "organSystem": "Immune system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "diarrhea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Difficulty breathing",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Dog bite",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Elevated Liver Transaminases",
+                    "organSystem": "Hepatobiliary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Increased agitation",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "fever",
+                    "organSystem": "Infections and infestations",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Floaters",
+                    "organSystem": "Eye disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 12,
+                            "numAffected": 4,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Increased sleepiness",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Insomnia",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Intermittent palpitations",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Intermittent nausea/upset stomach",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Overactive bladder",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Lower back pain/pull",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Repetitive sneezing",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Runny nose/itchy eyes",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Allergic response",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Scratchy throat",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Allergic response",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Supraventricular tachycardia",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "UTI",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Urticaria",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 10,
+                            "numAffected": 7,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Weight loss",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "\\>10% of baseline body weight",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Marc L Gordon, MD",
+                "organization": "The Feinstein Institutes for Medical Research",
+                "email": "mlgordon@northwell.edu",
+                "phone": "(516) 562-3492"
+            }
+        }
+    },
+    "target_category": "disease-targeted biologic",
+    "drug": [
+        "daratumumab (anti\u2011CD38 monoclonal antibody; subcutaneous, studied 1800 mg schedule in the pilot AD trial)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial tests daratumumab, a monoclonal antibody (biologic) given to patients with mild\u2013moderate Alzheimer's disease to explore clinical effects\u2014i.e., an intervention intended to modify disease-related biology (neuroinflammation / CD38-related pathways), not a symptomatic cognitive enhancer or an agent for neuropsychiatric symptoms. \ue200cite\ue202turn0search0\ue202turn0search2\ue201",
+        "Act (key details extracted): The study title and abstract describe an open\u2011label pilot of daratumumab SC in mild\u2013moderate AD; daratumumab is an anti\u2011CD38 human monoclonal antibody developed for multiple myeloma that depletes CD38\u2011expressing cells and modulates immune/metabolic pathways. The pilot reported reductions in CD38+ T cells but no cognitive improvement on responder analysis. \ue200cite\ue202turn0search0\ue202turn0search2\ue201",
+        "Web search results / supporting references: (1) Pilot open\u2011label study of daratumumab SC in mild\u2013moderate Alzheimer\u2019s disease (study abstract; describes dosing, CD38 target engagement, safety, and cognitive outcomes). \ue200cite\ue202turn0search0\ue201 (2) Reviews and primary literature describing daratumumab as an anti\u2011CD38 monoclonal antibody used in multiple myeloma and its mechanisms (ADCC, CDC, ADCP, apoptosis). \ue200cite\ue202turn0search2\ue202turn0search1\ue201",
+        "Reflect: Classification rationale and uncertainty: Although daratumumab does not target canonical Alzheimer\u2019s pathology like amyloid\u2011beta or tau, it is a biologic being tested to alter disease\u2011relevant biology (CD38/neuroinflammation/energy metabolism). Under the provided category definitions, the best fit is 'disease\u2011targeted biologic' (a biologic intended to modify disease processes). Note ambiguity: if the definition were restricted strictly to biologics that target amyloid or tau only, one could argue for 'N/A'\u2014but given the trial's disease\u2011modifying intent with a monoclonal antibody, 'disease\u2011targeted biologic' is the most appropriate category. \ue200cite\ue202turn0search0\ue202turn0search2\ue201"
+    ],
+    "agent_type": "F) Inflammation",
+    "explanation_agent": [
+        "Reason: The intervention is daratumumab, a monoclonal antibody that binds CD38 \u2014 a molecule implicated in immune activation, NAD+ metabolism, and neuroinflammation in Alzheimer's disease. \ue200cite\ue202turn0search7\ue202turn0search0\ue201",
+        "Act: Key extracted details \u2014 daratumumab is a human IgG1 anti\u2011CD38 monoclonal antibody (mechanisms include ADCC, CDC, ADCP and immunomodulation) and was tested in an open\u2011label pilot in mild\u2013moderate AD where it produced CD38+ T\u2011cell reductions but no cognitive responder benefit. These facts support an immunomodulatory / anti\u2011inflammatory disease\u2011modifying intent rather than targeting amyloid or tau directly. \ue200cite\ue202turn0search4\ue202turn0search7\ue202turn0search0\ue201",
+        "Reflect: Classification check \u2014 CD38 is described in the pilot and background literature as contributing to neuroinflammation and age\u2011related NAD+ decline; daratumumab\u2019s primary action in this context is depletion/modulation of CD38\u2011expressing immune cells and inhibition of CD38 enzymatic activity, aligning best with CADRO category F) Inflammation (with secondary links to metabolism/bioenergetics). The choice of F acknowledges overlap with J) Metabolism/Bioenergetics (CD38 is an NADase) but the trial rationale and mechanism emphasize immunomodulation/neuroinflammation, so F is the most specific CADRO match. \ue200cite\ue202turn0search0\ue202turn0search6\ue201",
+        "Web search results / supporting references: (1) Pilot open\u2011label study of daratumumab SC in mild\u2013moderate Alzheimer\u2019s disease (full text / PMC) \u2014 describes dosing, CD38 target engagement (reduced CD38+ T cells), safety, and cognitive outcomes. \ue200cite\ue202turn0search7\ue202turn0search0\ue201 (2) PubMed entry / abstract for the pilot study. \ue200cite\ue202turn0search1\ue201 (3) Reviews and primary literature on daratumumab mechanisms (ADCC, CDC, ADCP, immunomodulation) and CD38 biology (NADase, immune regulation) supporting an inflammation/immunomodulatory mechanism. \ue200cite\ue202turn0search2\ue202turn0search4\ue201 (4) Reviews linking CD38, NAD+ metabolism, and neuroinflammation in aging/AD (preclinical evidence that CD38 inhibition affects NAD+, neuroinflammation, and A\u03b2 in mouse models). \ue200cite\ue202turn0search0\ue202turn0search6\ue201"
+    ]
+}

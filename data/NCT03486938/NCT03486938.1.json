@@ -1,0 +1,1695 @@
+{
+    "nct_id": "NCT03486938",
+    "title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Study Evaluating the Efficacy and Safety of AGB101on Slowing Progression of Mild Cognitive Impairment Due to Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2024-05-09",
+    "description_brief": "The primary objective of the study is to evaluate the efficacy of AGB101 on slowing cognitive and functional impairment as measured by changes in the Clinical Dementia Rating-Sum of Boxes (CDR-SB) score as compared with placebo in participants with mild cognitive impairment due to Alzheimer's Disease (MCI due to AD) also known as prodromal AD. Participants will be randomized to receive placebo or AGB101 (220 mg), once daily for 78 weeks. Secondary objectives are to assess the effect of AGB101 compared with placebo on clinical progression as measured by Mini-Mental State Examination (MMSE) and Functional Activities Questionnaire (FAQ).",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE2",
+        "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Placebo Oral Tablet",
+                    "description": "Matching placebo to AGB101 tablet once daily, taken orally, for 78 weeks.\n\nPlacebo Oral Tablet: Placebo oral tablet"
+                },
+                {
+                    "id": "FG001",
+                    "title": "AGB101 220 mg Tablet",
+                    "description": "Single 220 mg AGB101 tablet once daily, taken orally, for 78 weeks.\n\nAGB101 220 mg tablet: 220 mg AGB101 active compound"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "83"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "81"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "66"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "55"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "17"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "26"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Placebo Oral Tablet",
+                    "description": "Matching placebo to AGB101 tablet once daily, taken orally, for 78 weeks.\n\nPlacebo Oral Tablet: Placebo oral tablet"
+                },
+                {
+                    "id": "BG001",
+                    "title": "AGB101 220 mg Tablet",
+                    "description": "Single 220 mg AGB101 tablet once daily, taken orally, for 78 weeks.\n\nAGB101 220 mg tablet: 220 mg AGB101 active compound"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "83"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "81"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "164"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "83"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "81"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "164"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "73.1",
+                                            "spread": "7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "72.2",
+                                            "spread": "6.7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "72.7",
+                                            "spread": "6.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "83"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "81"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "164"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "40"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "72"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "43"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "49"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "92"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "83"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "81"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "164"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "7"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "81"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "75"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "156"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Clinical Dementia Rating-Sum of Boxes (CDR-SB)",
+                    "description": "The CDR-SB is the sum score of 6 domains of cognitive function (memory, orientation, judgment and problem solving, community affairs, home and hobbies, and personal care), with the score of each domain ranging from 0 (no impairment) to 3 (severe impairment). The total possible range is 0 to 18 with higher scores indicating greater impairment.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "83"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "81"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "164"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2.7",
+                                            "spread": "1.1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2.7",
+                                            "spread": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2.7",
+                                            "spread": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Mini Mental Status Exam (MMSE)",
+                    "description": "The MMSE is the sum score of an 11 item exam designed to assess five components of cognition: orientation, registration, attention and calculation, recall, and language. The total possible range is 0-30, with lower scores indicating greater impairment.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "83"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "81"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "164"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "26",
+                                            "spread": "2.2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "26.2",
+                                            "spread": "2.1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "26.1",
+                                            "spread": "2.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Functional Activities Questionnaire (FAQ)",
+                    "description": "The FAQ measures instrumental activities of daily living, such as preparing balanced meals and managing finances. The total possible range is from 0 to 30, with higher scores indicating greater impairment.",
+                    "populationDescription": "Baseline FAQ measure not collected for 7 subjects.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "81"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "76"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "157"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7.0",
+                                            "spread": "5.2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7.6",
+                                            "spread": "5.5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "7.3",
+                                            "spread": "5.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB) Score From Baseline",
+                    "description": "CDR-SB scores at baseline were subtracted from CDR-SB scores at week 78 to generate the change score from baseline, with a possible total range of -18 to 18. Positive change scores reflect greater impairment on the CDR-SB at week 78, while negative change scores reflect less impairment on the CDR-SB at week 78.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "78 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo Oral Tablet",
+                            "description": "Matching placebo to AGB101 tablet once daily, taken orally, for 78 weeks.\n\nPlacebo Oral Tablet: Placebo oral tablet"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "AGB101 220 mg Tablet",
+                            "description": "Single 220 mg AGB101 tablet once daily, taken orally, for 78 weeks.\n\nAGB101 220 mg tablet: 220 mg AGB101 active compound"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "83"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "81"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.1",
+                                            "spread": "2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": ".9",
+                                            "spread": "1.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Mini Mental Status Exam (MMSE) Score From Baseline",
+                    "description": "MMSE scores at baseline were subtracted from MMSE scores at week 78 to generate the change score from baseline, with a possible total range of -30 to 30. Positive change scores reflect improved performance on the MMSE at week 78, while negative change scores reflect worsening performance on the MMSE at week 78.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "78 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo Oral Tablet",
+                            "description": "Matching placebo to AGB101 tablet once daily, taken orally, for 78 weeks.\n\nPlacebo Oral Tablet: Placebo oral tablet"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "AGB101 220 mg Tablet",
+                            "description": "Single 220 mg AGB101 tablet once daily, taken orally, for 78 weeks.\n\nAGB101 220 mg tablet: 220 mg AGB101 active compound"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "83"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "81"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.9",
+                                            "spread": "3.7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2.2",
+                                            "spread": "2.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Functional Activities Questionnaire (FAQ) Score From Baseline",
+                    "description": "FAQ scores at baseline were subtracted from FAQ scores at week 78 to generate the change score from baseline, with a possible total range of -30 to 30. Positive change scores reflect greater impairment on the FAQ at week 78, while negative change scores reflect less impairment on the FAQ at week 78.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "78 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo Oral Tablet",
+                            "description": "Matching placebo to AGB101 tablet once daily, taken orally, for 78 weeks.\n\nPlacebo Oral Tablet: Placebo oral tablet"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "AGB101 220 mg Tablet",
+                            "description": "Single 220 mg AGB101 tablet once daily, taken orally, for 78 weeks.\n\nAGB101 220 mg tablet: 220 mg AGB101 active compound"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "83"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "81"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3.6",
+                                            "spread": "6.4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4",
+                                            "spread": "5.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "18 months",
+            "description": "Three subjects were randomized and assigned to receive AGB101 but were not treated, lowering the total number of at risk participants treated with AGB101 to 78.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Placebo Oral Tablet",
+                    "description": "Matching placebo to AGB101 tablet once daily, taken orally, for 78 weeks.\n\nPlacebo Oral Tablet: Placebo oral tablet",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 83,
+                    "seriousNumAffected": 10,
+                    "seriousNumAtRisk": 83,
+                    "otherNumAffected": 49,
+                    "otherNumAtRisk": 83
+                },
+                {
+                    "id": "EG001",
+                    "title": "AGB101 220 mg Tablet",
+                    "description": "Single 220 mg AGB101 tablet once daily, taken orally, for 78 weeks.\n\nAGB101 220 mg tablet: 220 mg AGB101 active compound",
+                    "deathsNumAffected": 2,
+                    "deathsNumAtRisk": 78,
+                    "seriousNumAffected": 13,
+                    "seriousNumAtRisk": 78,
+                    "otherNumAffected": 40,
+                    "otherNumAtRisk": 78
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Acute myocardial infarction",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Atrial fibrillation",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Atrioventricular block second degree",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Bradycardia",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Coronary artery disease",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Coronary artery occlusion",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Sinus node dysfunction",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Appendicitis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Cystitis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Pneumonia legionella",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Sepsis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Hip fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Joint injury",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypoglycemia",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Pancreatic carcinoma",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Plasma cell myeloma",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Seizure",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Transient ischemic attack",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Pulmonary embolism",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypertension",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypertensive crisis",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypertensive urgency",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Blood and lymphatic system disorders",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 8,
+                            "numAffected": 7,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "cardiac disorders",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 7,
+                            "numAffected": 3,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 5,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Ear and labyrinth disorders",
+                    "organSystem": "Ear and labyrinth disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Endocrine disorders",
+                    "organSystem": "Endocrine disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Eye disorders",
+                    "organSystem": "Eye disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Gastrointestinal disorders",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 18,
+                            "numAffected": 13,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 10,
+                            "numAffected": 7,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "General disorders and administration site condition",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 14,
+                            "numAffected": 10,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 5,
+                            "numAffected": 5,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Hepatobiliary disorders",
+                    "organSystem": "Hepatobiliary disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Infections and infestations",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 19,
+                            "numAffected": 13,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 12,
+                            "numAffected": 11,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Injury, poisoning and procedural complications",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 31,
+                            "numAffected": 15,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 18,
+                            "numAffected": 12,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Investigations",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 8,
+                            "numAffected": 8,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 7,
+                            "numAffected": 7,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Metabolism and nutrition disorders",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 7,
+                            "numAffected": 6,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 7,
+                            "numAffected": 5,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Musculoskeletal and connective tissue disorders",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 31,
+                            "numAffected": 20,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 14,
+                            "numAffected": 11,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Neoplasms benign, malignant and unspecified (inc cysts and polyps)",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 9,
+                            "numAffected": 3,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Nervous system disorders",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 21,
+                            "numAffected": 15,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 15,
+                            "numAffected": 8,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Product issues",
+                    "organSystem": "Product Issues",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Psychiatric disorders",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 11,
+                            "numAffected": 9,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 21,
+                            "numAffected": 14,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Renal and urinary disorders",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 5,
+                            "numAffected": 2,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Reproductive system and breast disorders",
+                    "organSystem": "Reproductive system and breast disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Respiratory, thoracic and mediastinal disorders",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 6,
+                            "numAffected": 4,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Skin and subcutaneous tissue disorders",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 7,
+                            "numAffected": 7,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Social circumstances",
+                    "organSystem": "Social circumstances",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Surgical and medical procedures",
+                    "organSystem": "Surgical and medical procedures",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 1,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                },
+                {
+                    "term": "Vascular disorders",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "MedDRA",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 7,
+                            "numAffected": 7,
+                            "numAtRisk": 83
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 78
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "GT60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Richard Mohs",
+                "organization": "agenebio",
+                "email": "richard.mohs@agenebio.com",
+                "phone": "317-997-3241"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "AGB101 (extended\u2011release low\u2011dose levetiracetam, 220 mg)"
+    ],
+    "placebo": [
+        "Matching placebo tablet"
+    ],
+    "explanation_target": [
+        "Reason: The investigational product AGB101 is an extended\u2011release, low\u2011dose formulation of the small\u2011molecule anticonvulsant levetiracetam (220 mg) being tested to slow progression of MCI due to Alzheimer\u2019s disease by reducing hippocampal overactivity and related neural hyperexcitability rather than by acting as a symptomatic stimulant only. \ue200cite\ue202turn0search3\ue202turn0search1\ue201",
+        "Act: The trial is a 78\u2011week, randomized, double\u2011blind, placebo\u2011controlled study with CDR\u2011SB as the primary endpoint aiming to slow clinical/cognitive decline in prodromal AD \u2014 i.e., a disease\u2011modifying intent focused on a pathophysiological mechanism (hippocampal overactivity). Trial details and the drug identity/mechanism are described in the HOPE4MCI publications and summaries. \ue200cite\ue202turn0search1\ue202turn0search3\ue202turn0search4\ue201",
+        "Reflect: Given AGB101 is a small molecule (levetiracetam) and the intervention targets a disease\u2011relevant pathophysiologic process (hippocampal hyperactivity) with the goal of slowing progression, the correct category is 'disease-targeted small molecule'. This classification distinguishes it from (a) biologics (monoclonal antibodies/vaccines) and (b) purely symptomatic cognitive enhancers or neuropsychiatric symptomatic treatments. Supporting reports and trial publications describing normalization of hippocampal activity and the 78\u2011week CDR\u2011SB primary outcome support this interpretation. \ue200cite\ue202turn0search2\ue202turn0search6\ue201"
+    ],
+    "agent_type": "M) Synaptic Plasticity/Neuroprotection",
+    "explanation_agent": [
+        "Reason: The investigational product AGB101 is an extended\u2011release, low\u2011dose (220 mg) formulation of the small\u2011molecule anticonvulsant levetiracetam being tested to slow progression of MCI due to AD by reducing hippocampal overactivity / neural hyperexcitability \u2014 a disease\u2011relevant synaptic/circuit dysfunction rather than a primary amyloid, tau, inflammatory or vascular target. \ue200cite\ue202turn0search0\ue202turn0search1\ue201",
+        "Act: Key extracted details \u2014 drug: AGB101 (levetiracetam extended\u2011release, 220 mg); trial: 78\u2011week, multicenter, randomized, double\u2011blind, placebo\u2011controlled with CDR\u2011SB as the primary endpoint; mechanistic intent: diminish hippocampal overactivity to slow progression. These trial and drug details are described in the HOPE4MCI publications. \ue200cite\ue202turn0search3\ue202turn0search0\ue201",
+        "Mechanism support: Levetiracetam\u2019s primary molecular binding site is the synaptic vesicle protein SV2A and its actions modulate synaptic vesicle release and neuronal excitability \u2014 providing a synaptic/neurophysiological mechanism for reducing hippocampal hyperactivity. \ue200cite\ue202turn1search8\ue202turn1search5\ue201",
+        "Reflect: Mapping to CADRO \u2014 interventions that modulate synaptic function and aim to restore/normalize neuronal network activity fit best under 'M) Synaptic Plasticity/Neuroprotection'. Levetiracetam does not primarily act on classical neurotransmitter receptors (so D) Neurotransmitter Receptors is less accurate), nor is this a multi\u2011target biologic, imaging, or non\u2011therapeutic intervention. Subgroup/exploratory results (e.g., APOE \u03b54 non\u2011carrier signals, entorhinal cortex atrophy slowing) are reported but do not change the mechanistic classification. \ue200cite\ue202turn0search0\ue202turn0search4\ue201",
+        "Output (final classification): M) Synaptic Plasticity/Neuroprotection \u2014 because AGB101 (levetiracetam ER 220 mg) targets synaptic vesicle function/SV2A to reduce hippocampal hyperexcitability and thereby aims to produce neuroprotective / synaptic\u2011level disease modification. \ue200cite\ue202turn0search0\ue202turn1search8\ue201",
+        "Web search results used (summary of sources): 1) HOPE4MCI full report (Wiley/Alzheimer's & Dementia TRCI) \u2014 randomized 78\u2011week trial of AGB101 (levetiracetam ER 220 mg) targeting hippocampal overactivity. \ue200cite\ue202turn0search0\ue201 2) PubMed entry for HOPE4MCI (abstract/summary). \ue200cite\ue202turn0search1\ue201 3) Conference/abstracts and trial descriptions describing HOPE4MCI design and hippocampal overactivity rationale. \ue200cite\ue202turn0search3\ue201 4) HOPE4MCI exploratory MRI/biomarker analysis (entorhinal cortex atrophy slowing in APOE \u03b54 non\u2011carriers). \ue200cite\ue202turn0search4\ue201 5) Mechanistic literature showing levetiracetam binds SV2A and modulates synaptic vesicle release / network excitability (primary mechanism references/reviews). \ue200cite\ue202turn1search8\ue202turn1search5\ue201"
+    ]
+}

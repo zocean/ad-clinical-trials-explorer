@@ -1,0 +1,718 @@
+{
+    "nct_id": "NCT04552795",
+    "title": "Pilot Study to Investigate the Safety and Feasibility of AntiRetroviral Therapy for Alzheimer's Disease (ART-AD)",
+    "status": "COMPLETED",
+    "last_update_time": "2024-08-07",
+    "description_brief": "The objective of the study is to evaluate the ability of (-)-L-2',3'-dideoxy-3'-thiacytidine (3TC) to engage its intended target, penetrate the central nervous system (CNS), suppress neurodegeneration, and assess safety and tolerability in patients with early stage Alzheimer's disease. This study will provide the initial data on target engagement and Alzheimer's disease-relevant outcomes for future trials.",
+    "description_detailed": "This open label study of 3TC will collect initial proof-of-concept data on 3TC target engagement, CNS penetration, efficacy and safety in older adults with early stage Alzheimer's disease. If successful, data will be used to design a larger phase 2 clinical trial. The investigators aim to I) Quantify 3TC target engagement and CNS penetration, II) Determine if 3TC suppresses Alzheimer's disease-relevant outcomes, and III) Assess the safety and tolerability of 3TC in older individuals with early Alzheimer's disease. The study will consist of a screening/baseline period of 30 days pre-treatment, a 24-week open label treatment period, and a follow up visit one month following treatment. Visits to the clinic include a pre-treatment screening visit that includes a comprehensive neuropsychological exam, a tablet-based neuropsychological exam, and a blood draw. For eligible participants, a lumbar puncture will be performed on day one of treatment. Participants will visit the clinic on day one of treatment and at weeks 8, 16, and 24 of treatment to complete medication checks, physical examinations, tablet-based cognitive screening, and blood draw. At week 24 of treatment, patients will undergo a post-treatment comprehensive neuropsychological exam, a lumbar puncture to collect cerebrospinal fluid, and a blood draw. One month after the final dose of medication, participants will return to the clinic for a final safety assessment and disenrollment.",
+    "phase": [
+        "PHASE1",
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "Participants were recruited from University of Texas Health San Antonio outpatient clinics and through local flier/newspaper advertisements.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Open-Label 3TC",
+                    "description": "12 subjects will be administered a 300mg once daily oral tablet of 3TC for 24 weeks."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "12"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "12"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Open-Label 3TC",
+                    "description": "12 subjects will receive 3TC, 300-mg, daily for 24 weeks.\n\n3TC: 12 subjects will be administered 3TC, 300mg once daily, via an oral tablet for 24 weeks."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "12"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Customized",
+                    "paramType": "MEAN",
+                    "dispersionType": "FULL_RANGE",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "title": "Average age (min, max)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "69.4",
+                                            "lowerLimit": "52",
+                                            "upperLimit": "83"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Customized",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "Age group",
+                            "categories": [
+                                {
+                                    "title": "<= 65 years of age",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "65 - 74 years of age",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "75 - 84 years of age",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race/Ethnicity, Customized",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "Race",
+                            "categories": [
+                                {
+                                    "title": "White, non-Hispanic",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White, Hispanic",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Education Level",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15.3",
+                                            "spread": "2.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Past Medical History",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<= 1 Comorbidities",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "2+ Comorbidities",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Duration of Symptoms Prior to Trial",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<= 1 year",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "1-2 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "3+ years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Average BMI",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "kg/m^2",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "25.2",
+                                            "spread": "4.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Concurrent Treatment with Donepezil",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Reverse Transcriptase Activity From Baseline to 24 Weeks in Plasma of Study Participants",
+                    "description": "The extent of 3TC target engagement was measured by calculating the change in reverse transcriptase activity in plasma of participants at baseline compared to week 24 using a modified version of the EnzCheck Reverse Transcriptase (RT) Assay.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Enzyme units",
+                    "timeFrame": "Baseline to 24 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Open-Label 3TC",
+                            "description": "12 subjects administered once daily 300 mg 3TC for 24 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.0074",
+                                            "spread": "0.03"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "3TC CNS Penetration",
+                    "description": "CNS penetration was calculated based on the ratio of CSF to plasma levels of 3TC after 24 weeks of 3TC using High Performance Liquid Chromatography with tandem Mass Spectrometry (HPLC/MS/MS).",
+                    "populationDescription": "Three subjects removed due to missed blood or CSF draw; one subject removed based on the ROUT method of outlier analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Inter-Quartile Range",
+                    "unitOfMeasure": "ng/mL",
+                    "timeFrame": "24 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Open-Label 3TC",
+                            "description": "12 subjects administered once daily 300 mg 3TC for 24 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.502",
+                                            "lowerLimit": "0.0215",
+                                            "upperLimit": "0.850"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Dementia Severity From Baseline to Week 24 of Treatment Based on the PACC-5 Z-score",
+                    "description": "The Preclinical Alzheimer Cognitive Composite (PACC-5) score is calculated as a mean normative Z-score across five measures, including MMSE (0-30), Logical Memory Delayed Recall (0-25), Digit-Symbol Coding Test (0-93), Category Fluency, and Free and Cued Selective Reminding Test (0-96). Although typically relegated to individuals with prodromal and asymptomatic disease, the PACC-5 was included given its sensitivity to Alzheimer's disease-specific cognitive change.To calculate the Z score for each patient; the formula is Z = (x - M)/SD, where x is the patient's verbal memory raw score and M and SD are the estimates from the previous step. Positive Z values indicate scores that are greater than the mean of the pooled sample, and negative values indicate scores that are less than the pooled mean.A Z-score of zero represents the mean for this study population. Negative values mean a worse outcome than the standard population.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "Inter-Quartile Range",
+                    "unitOfMeasure": "Z-score",
+                    "timeFrame": "Baseline to 24 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Baseline",
+                            "description": "Values prior to 3TC administration"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "POST-Treatment",
+                            "description": "Values after 24 weeks of 3TC administration"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.59",
+                                            "lowerLimit": "-2",
+                                            "upperLimit": "-0.59"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-1.59",
+                                            "lowerLimit": "-2",
+                                            "upperLimit": "-1.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Incidence of Treatment-Emergent Adverse Events",
+                    "description": "Incidence of adverse and serious adverse events potentially due to study drug",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Baseline to Week 24",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Open-Label 3TC",
+                            "description": "12 subjects administered 300 mg once daily 3TC for 24 weeks."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Gastrointestinal bleeding due to peptic ulcer",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "No adverse events",
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Incidence of Treatment-Emergent Abnormal Vital Signs",
+                    "description": "Blood pressure, heart rate, temperature, and respiration, are measured and any significant change of any of these vital signs that show a significant change from the baseline value are reported as an event.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Events",
+                    "timeFrame": "Baseline to Week 24",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Open-Label 3TC",
+                            "description": "12 subjects administered once daily 300 mg 3TC for 24 weeks"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "28 weeks",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Open-Label 3TC",
+                    "description": "12 subjects administered once daily 300 mg 3TC for 24 weeks",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 12,
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 12,
+                    "otherNumAffected": 2,
+                    "otherNumAtRisk": 12
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Gastrointestinal bleeding",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "notes": "Gastrointestinal bleeding due to a peptic ulcer; subject was on daily aspirin",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 12,
+                            "numAffected": 1,
+                            "numAtRisk": 12
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "SARS-CoV-2 Infection",
+                    "organSystem": "Infections and infestations",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 12
+                        }
+                    ]
+                },
+                {
+                    "term": "Mild headache",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 12
+                        }
+                    ]
+                },
+                {
+                    "term": "Mild fatigue",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 12
+                        }
+                    ]
+                },
+                {
+                    "term": "Mild muscle pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Bess Frost, PhD",
+                "organization": "UT Health San Antonio",
+                "email": "bfrost@uthscsa.edu",
+                "phone": "210-562-5037"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "(-)-L-2',3'-dideoxy-3'-thiacytidine (3TC; lamivudine)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The compound named (3TC) is lamivudine, a nucleoside reverse transcriptase inhibitor (an antiretroviral small molecule) being repurposed to limit retrotransposon activation and suppress neurodegeneration in tauopathy/Alzheimer model systems. \ue200cite\ue202turn0search3\ue202turn0search7\ue201",
+        "Act: The trial title and description (ART-AD, NCT04552795) state oral 3TC (300 mg daily in the pilot) was given to early-stage AD/MCI participants to assess CNS penetration, target engagement (reverse transcriptase activity/retrotransposon suppression), effects on neurodegeneration-related biomarkers, and safety/tolerability. This is an interventional drug study of a small-molecule antiretroviral. \ue200cite\ue202turn0search0\ue202turn0search3\ue201",
+        "Reflect: Because 3TC is a small-molecule NRTI (not a biologic) and the intended effect is to engage reverse-transcriptase/retrotransposon activity to suppress neurodegeneration (a disease-modifying strategy rather than a purely symptomatic cognitive enhancer or neuropsychiatric treatment), the correct category is 'disease-targeted small molecule'. Note: this mechanism is different from amyloid- or tau-directed biologics but still targets a pathologic process linked to neurodegeneration. The pilot was open-label (no placebo arm). \ue200cite\ue202turn0search0\ue202turn0search4\ue201",
+        "Web search sources used: PubMed/medRxiv reports of the ART-AD pilot and preclinical studies showing 3TC (lamivudine) reduces retrotransposon activation and neurodegeneration in models; these informed the classification. \ue200cite\ue202turn0search0\ue202turn0search3\ue202turn0search7\ue202turn0search4\ue201"
+    ],
+    "agent_type": "Q) Epigenetic Regulators",
+    "explanation_agent": [
+        "Reason: The investigational drug is lamivudine (3TC), a nucleoside reverse transcriptase inhibitor (NRTI) repurposed to inhibit reverse-transcriptase activity of endogenous retroelements (e.g., LINE-1) and thereby limit retrotransposon activation \u2014 a genomic/transposable-element process implicated in tauopathy/Alzheimer's neurodegeneration. This mechanism is not primarily amyloid-, tau-, synaptic- or inflammation-directed but targets a genomic/epigenetic-like pathogenic process (retrotransposon activation). \ue200cite\ue202turn0search0\ue202turn0search4\ue201",
+        "Act: Extracted facts from the trial and literature: the ART-AD study (NCT04552795) gave 300 mg oral 3TC daily for 24 weeks to 12 early-AD/MCI participants to test CNS penetration, target engagement (reverse transcriptase activity/retrotransposon suppression), biomarker effects and safety. Preclinical work shows 3TC reduces retrotransposon activation and suppresses neurodegeneration in tau transgenic models. The drug's direct molecular target is reverse transcriptase activity of retroelements rather than classical proteinopathy targets. Given CADRO categories, the most specific match is Q) Epigenetic Regulators because retrotransposon activity is a genomic/epigenetic dysregulation and 3TC intervenes on that genomic/retroelement process. \ue200cite\ue202turn0search3\ue202turn0search5\ue202turn0search4\ue201",
+        "Reflect: This classification was chosen because (1) the intervention is a small-molecule NRTI acting on reverse-transcriptase/retrotransposon activity (a genomic/transposable-element mechanism) rather than on amyloid, tau, neurotransmitters, or classical inflammatory mediators; (2) CADRO lacks a dedicated 'transposable elements' box, and the retrotransposon pathway is most closely aligned with epigenetic/genomic regulation of gene expression and genome stability, which fits Q) Epigenetic Regulators more specifically than broader categories (e.g., F) Inflammation or T) Other). If one emphasized downstream anti-inflammatory or neuroprotective biomarker changes rather than the proximal reverse-transcriptase target, an argument for F) Inflammation or R) Multi-target could be made, but the trial's stated mechanistic target (reverse transcriptase/retrotransposon suppression) supports Q. \ue200cite\ue202turn0search0\ue202turn0search7\ue201",
+        "Web sources used (key results cited above): 1) PubMed summary of the ART-AD pilot reporting 24-week open-label 3TC (300 mg) in 12 early-AD participants, CNS penetration and biomarker changes. \ue200cite\ue202turn0search0\ue201 2) Full-text / PMC of the phase 2a ART-AD trial (methods, dose, design, outcomes). \ue200cite\ue202turn0search7\ue201 3) Clinical-trial registry summary of NCT04552795 (intervention, timeline, objectives). \ue200cite\ue202turn0search3\ue201 4) Preclinical study showing lamivudine (3TC) prevents neuropathology in tau transgenic mice and inhibits LINE-1 retrotransposition. \ue200cite\ue202turn0search4\ue201 5) medRxiv / preprint and additional manuscripts describing retrotransposon activation in tauopathies and the rationale for NRTI repurposing. \ue200cite\ue202turn0search5\ue201"
+    ]
+}

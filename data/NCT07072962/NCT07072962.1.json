@@ -1,0 +1,437 @@
+{
+    "nct_id": "NCT07072962",
+    "title": "TeleExergame: Remotely-supervised Exercise Platform for Improving Cognition and Motor Function Using Telemedicine - Phase I",
+    "status": "COMPLETED",
+    "last_update_time": "2025-07-22",
+    "description_brief": "This longitudinal Phase I feasibility trial combines care-as-usual with a 6-week, single-arm exercise intervention using Tele-Exergame, an interactive, self-administered home-based exercise program aimed at improving cognitive-motor function in individuals with mild cognitive impairment (MCI) and dementia. Fifteen participants will complete two 30-minute sessions per week via the Tele-Exergame platform. Outcomes will be assessed at baseline and post-intervention, with the primary outcome being change in cognition. Secondary outcomes include acceptability, dropout rate, and changes in anxiety.",
+    "description_detailed": "At the beginning of the 6-week in-home exergaming intervention using the proposed Tele-Exergame system, participants will complete baseline assessments to evaluate system acceptance, cognitive function, and anxiety levels. Acceptance will be measured using the Technology Acceptance Model (TAM) questionnaire-a validated, intention-based Likert scale tool assessing user satisfaction with technology-comprising 11 items (two on ease of use, seven on perceived benefit, and two on attitudes toward use). Cognitive function will be assessed using the Montreal Cognitive Assessment (MoCA), and anxiety levels will be evaluated using the Beck Anxiety Inventory (BAI). Participants will be instructed to perform leg-raising or foot-flexion exercises, guided by the Tele-Exergame platform, for approximately 30 minutes twice per week over six consecutive weeks. Motion sensors (a motion sensor, which is part of of the Tele-Exergame system) will be worn on the upper leg for leg-raising exercises and on the foot for foot-flexion exercises. At the end of the 6-week intervention, participants will complete post-assessments for acceptance, cognition, and anxiety using the same measures.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "SUPPORTIVE_CARE",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "TeleExergame",
+                    "description": "Participants in the Tele-Exergame arm will use a home-based, tablet-guided exercise program, called TeleExergame, designed to improve foot and ankle mobility, balance, and cognitive function in older adults with cognitive impairment or mild dementia. The 6-week program consists of two 20-30 minute sessions per week, featuring safe, repetitive exercises such as foot flexion, ankle dorsiflexion, and seated marching. Instructions are provided through synchronized audio, visual, and text prompts. A foot-worn motion sensor tracks movements in real time, offering immediate feedback and securely transmitting adherence and performance data to a cloud server for remote monitoring. The system also supports telemedicine-based coaching and education when needed."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "15"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "12"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "TeleExergame",
+                    "description": "Participants used a home-based, tablet-guided exercise program, called TeleExergame, designed to improve foot and ankle mobility, balance, and cognitive function in older adults with cognitive impairment or mild dementia. The 6-week program consists of two 20-30 minute sessions per week, featuring safe, repetitive exercises such as foot flexion, ankle dorsiflexion, and seated marching. Instructions are provided through synchronized audio, visual, and text prompts. A foot-worn motion sensor tracks movements in real time, offering immediate feedback and securely transmitting adherence and performance data to a cloud server for remote monitoring. The system also supports telemedicine-based coaching and education when needed."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "15"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "68.2",
+                                            "spread": "5.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Percentage Change in Cognitive Function at 6 Weeks Compared to Baseline",
+                    "description": "Cognitive function will be assessed using the Montreal Cognitive Assessment (MoCA), a validated 30-point screening tool designed to detect mild cognitive impairment and early dementia. The MoCA evaluates multiple cognitive domains, including memory, attention, language, visuospatial abilities, executive function, and orientation. Scores range from 0 to 30, with higher scores indicating better cognitive performance. The MoCA will be administered at baseline and at 6 weeks. The outcome will be reported as the percentage change in total MoCA score from baseline to 6 weeks, calculated as:\n\n\\[(Week 6 Score - Baseline Score) / Baseline Score\\] \u00d7 100. A positive percentage indicates improved cognitive performance.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "percentage change",
+                    "timeFrame": "Baseline and 6 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "TeleExergame",
+                            "description": "Participants iused a home-based, tablet-guided exercise program, called TeleExergame, designed to improve foot and ankle mobility, balance, and cognitive function in older adults with cognitive impairment or mild dementia. The 6-week program consists of two 20-30 minute sessions per week, featuring safe, repetitive exercises such as foot flexion, ankle dorsiflexion, and seated marching. Instructions are provided through synchronized audio, visual, and text prompts. A foot-worn motion sensor tracks movements in real time, offering immediate feedback and securely transmitting adherence and performance data to a cloud server for remote monitoring. The system also supports telemedicine-based coaching and education when needed."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "9.7",
+                                            "spread": "10.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Acceptability",
+                    "description": "To evaluate participant acceptance of the Tele-Exergame system, the Technology Acceptance Model (TAM) questionnaire was administered. TAM is an intention-based framework widely used to assess user satisfaction and acceptance of new technologies. The questionnaire included 31 items: 15 assessed perceived ease of use, 11 evaluated perceived benefits, and 5 measured attitudes toward use. Responses were rated on a 5-point Likert scale ranging from 0 (strongly disagree) to 4 (strongly agree), resulting in a total score range of 0 to 124. A score of 93 or higher was considered indicative of an acceptable level of program acceptance.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "week 6",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "TeleExergame",
+                            "description": "Participants used a home-based, tablet-guided exercise program, called TeleExergame, designed to improve foot and ankle mobility, balance, and cognitive function in older adults with cognitive impairment or mild dementia. The 6-week program consists of two 20-30 minute sessions per week, featuring safe, repetitive exercises such as foot flexion, ankle dorsiflexion, and seated marching. Instructions are provided through synchronized audio, visual, and text prompts. A foot-worn motion sensor tracks movements in real time, offering immediate feedback and securely transmitting adherence and performance data to a cloud server for remote monitoring. The system also supports telemedicine-based coaching and education when needed."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "93.3",
+                                            "spread": "17.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Percentage Change in Anxiety Levels at 6 Weeks Compared to Baseline",
+                    "description": "Anxiety will be assessed using the Beck Anxiety Inventory (BAI), a 21-item self-report questionnaire that measures the severity of anxiety symptoms. Each item is scored on a scale from 0 (not at all) to 3 (severely), resulting in a total score ranging from 0 to 63, with higher scores indicating greater anxiety. The BAI will be administered at baseline and at 6 weeks. The outcome will be reported as the percentage change in total BAI score from baseline to 6 weeks, calculated as:\n\n\\[(Week 6 Score - Baseline Score) / Baseline Score\\] \u00d7 100. A negative percentage indicates a reduction in anxiety symptoms",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "percentage change",
+                    "timeFrame": "baseline and week 6",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "TeleExergame",
+                            "description": "Participants used a home-based, tablet-guided exercise program, called TeleExergame, designed to improve foot and ankle mobility, balance, and cognitive function in older adults with cognitive impairment or mild dementia. The 6-week program consists of two 20-30 minute sessions per week, featuring safe, repetitive exercises such as foot flexion, ankle dorsiflexion, and seated marching. Instructions are provided through synchronized audio, visual, and text prompts. A foot-worn motion sensor tracks movements in real time, offering immediate feedback and securely transmitting adherence and performance data to a cloud server for remote monitoring. The system also supports telemedicine-based coaching and education when needed."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-52.4",
+                                            "spread": "40.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "6 weeks",
+            "description": "The following adverse events were monitored: muscle strain, joint pain, tendonitis, cramps, dizziness, headache, palpitations, chest discomfort, shortness of breath, falls, sprains, nausea, fatigue, weakness, excessive sweating, and exercise intolerance. Serious events included dementia progression, hospitalization, accidents preventing exercise, and death.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "TeleExergame",
+                    "description": "Participants used a home-based, tablet-guided exercise program, called TeleExergame, designed to improve foot and ankle mobility, balance, and cognitive function in older adults with cognitive impairment or mild dementia. The 6-week program consists of two 20-30 minute sessions per week, featuring safe, repetitive exercises such as foot flexion, ankle dorsiflexion, and seated marching. Instructions are provided through synchronized audio, visual, and text prompts. A foot-worn motion sensor tracks movements in real time, offering immediate feedback and securely transmitting adherence and performance data to a cloud server for remote monitoring. The system also supports telemedicine-based coaching and education when needed",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 15,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 15,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 15
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "This is an NIH SBIR grant with BioSensics LLC as the prime awardee. A subaward contract agreement between BioSensics LLC and Baylor College of Medicine is in place, which may restrict the sharing of certain results deemed confidential."
+            },
+            "pointOfContact": {
+                "title": "Bijan Najafi",
+                "organization": "Baylor College of Medicine",
+                "email": "najafi.bijan@gmail.com",
+                "phone": "424-467-7127"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The described trial tests a 6-week, single\u2011arm, remotely\u2011supervised home exercise (Tele-Exergame) intervention intended to improve cognitive-motor function and cognition in people with MCI / mild dementia (primary outcome = change in cognition). This is a behavioral/technology-based exercise intervention, not a pharmacologic agent. \ue200cite\ue202turn0search3\ue202turn0search4\ue201",
+        "Act: Extracted details \u2014 Intervention: Tele-Exergame (sensor-enabled, gamified, telemedicine-supervised home exercise platform); Dose/frequency: two 30\u2011minute sessions/week for 6 weeks; Participants: 15 (Phase I feasibility); Outcomes: MoCA for cognition, acceptability, dropout, anxiety. No drug, biologic, or placebo is mentioned in the protocol or related publications, so there is no drug to look up. Sources used: clinical trial registry entry for TeleExergame (NCT07072962) and the Tele-Exergame feasibility/acceptability proof\u2011of\u2011concept paper. \ue200cite\ue202turn0search3\ue202turn0search4\ue201",
+        "Reflect: Classification check \u2014 The four predefined categories are drug/biologic-focused (disease-targeted biologic; disease-targeted small molecule; cognitive enhancer [drug]); and neuropsychiatric symptom improvement (drug or device to treat behavioral symptoms). Because this trial evaluates a non-pharmacologic, exercise/telemedicine platform to improve cognition and motor function, it does not fit any of those drug\u2011centric categories and is therefore classified as 'N/A'. If you want a conceptual label (non\u2011pharmacologic cognitive/motor intervention), I can provide that as well. \ue200cite\ue202turn0search0\ue202turn0search4\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

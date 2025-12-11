@@ -1,0 +1,728 @@
+{
+    "nct_id": "NCT04057807",
+    "title": "PBR28 Brain Positron Emission Tomography Imaging With Lipopolysaccharide (LPS) Challenge for the Study of Microglia Function in Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2024-02-01",
+    "description_brief": "To examine the differences in the capacity to activate microglia in patients with Alzheimer's Disease (AD) compared to age-comparable cognitively normal subjects and younger healthy controls.",
+    "description_detailed": "The primary outcome is Microglia Activation Reserve Index (MARI) (calculated in the parietal region of interest (ROIs)) in AD patients compared to elderly controls. The researchers will recruit up to 20 participants. The investigators will use 7 AD and 7 comparably aged cognitively normal successfully scanned subjects to calculate the microglial activation reserve index. The expectations are significant differences between the two groups suggesting altered reactivity of the microglia in AD. The result would be an exciting one suggesting at least one mechanism by which some patients with significant amyloid load have progressive dementia while comparable others are either cognitively normal or have stable Mild Cognitive Impairment (MCI). It will also suggest avenues for intervention in amyloid positive MCIs to prevent progression to Alzheimer's dementia. The exploratory analysis will include:\n\n1. Effects of aging on MARI: The researchers will evaluate the effects of aging on MARI. Comparisons will be made for MARI between cognitively normal elderly and the 8 healthy individuals to whom the investigators applied this protocol in an earlier study. The reactivity of microglia is reported to change with age and so the investigators expect MARI to change in the cognitively normal elderly. However, the expectation is that the differences between the young and elderly cognitively normal subjects to be small relative to the comparison of AD and elderly normal controls.\n2. Effects of amyloid on MARI: The researchers will look at the relationship of regional and global amyloid load to MARI. The presence of a relationship suggests that one of the reasons for altered microglial reactivity might be interactions of microglia with pathologic amyloid.\n3. Effects of MARI on cognition: The researchers will explore whether MARI would correlate with the measure of disease stage, with higher MARIs associated with worse neuropsychological score and more severe disease. The researchers will look for correlations between MARI and the individual neuropsychological scores. This would determine if disease severity is correlated with microglial activation reserve.",
+    "phase": [
+        "EARLY_PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Patients Receiving Endotoxin",
+                    "description": "The enrolled subjects will have LPS (0.4 ng/kg) administered intravenously\n\nLPS: LPS (0.4 ng/kg)"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "12"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "1 Week Follow up",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "1 participant did not receive one week follow up (missed visit), resumed at 6 month follow up",
+                                    "numSubjects": "11"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "6 Month Follow up",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "12"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "12"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Patients Receiving Endotoxin",
+                    "description": "The enrolled subjects, both with AD and cognitively normal, will have LPS (0.4 ng/kg) administered intravenously\n\nLPS: LPS (0.4 ng/kg)"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "12"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "populationDescription": "Baseline measures were collected by cognitive status.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "title": "Alzheimer's Disease",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "75.3",
+                                            "spread": "2.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Cognitively Normal",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "67.2",
+                                            "spread": "6.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "populationDescription": "Baseline measures were collected by cognitive status.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "Alzheimer's Disease",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Cognitively Normal",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race/Ethnicity, Customized",
+                    "populationDescription": "Baseline measures were collected by cognitive status.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "Alzheimer's Disease",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Cognitively Normal",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Global Clinical Dementia Rating Global Score (CDR)",
+                    "description": "CDR rates 6 domains of functioning: memory, orientation, judgment and problem solving, community affairs, home and hobbies, and personal care. Each domain is rated on a 5-point scale of functioning as follows: 0, no impairment; 0.5, questionable impairment; 1, mild impairment; 2, moderate impairment; and 3, severe impairment (personal care is scored on a 4-point scale without a 0.5 rating available). The global score is obtained by summing each of the domain box scores, with scores ranging from 0 to 18. Higher scores indicate more severe dementia.",
+                    "populationDescription": "Baseline measures were collected by cognitive status.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "score on a scale",
+                    "classes": [
+                        {
+                            "title": "Alzheimer's Disease",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0.75",
+                                            "spread": "0.27"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Cognitively Normal",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0",
+                                            "spread": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Montreal Cognitive Assessment (MOCA)",
+                    "description": "MOCA is a brief, useful and validated cognitive screening instrument to differentiate mild cognitive impairment (MCI) or dementia from normal. Range of total score 0-30 where higher scores represent better cognitive performance.",
+                    "populationDescription": "Baseline measures were collected by cognitive status.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "score on a scale",
+                    "classes": [
+                        {
+                            "title": "Alzheimer's Disease",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21.5",
+                                            "spread": "3.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Cognitively Normal",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "26.7",
+                                            "spread": "2.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Number of participants with one of two rs6971 polymorphism",
+                    "description": "To determine which rs6971 polymorphism is present in the two cognitive states.",
+                    "populationDescription": "Baseline measures were collected by cognitive status.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "Alzheimer's Disease",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "mixed affinity binder (MAB)",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "high affinity binder (HAB)",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Cognitively Normal",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "mixed affinity binder (MAB)",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "high affinity binder (HAB)",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Microglial Activation Reserve Index (MARI)",
+                    "description": "Participants will undergo \\[11C\\]PBR PET scanning both before and then after LPS injection. Parametric images of volume of distribution (VT)were generated for each using multilinear analysis (MA1) and MARI was calculated in the parietal cortex using the equation \\[(VT post LPS - VT pre LPS)/VT post LPS\\] x 100%. Higher values of MARI are thought to represent higher levels of microglial activation. There are no clinically relevant thresholds for this measure.",
+                    "populationDescription": "One participant from the cognitively normal group was excluded from this analysis since blood input function data for the baseline scan was inadequate for pharmacokinetic modeling.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "percentage of MARI",
+                    "timeFrame": "180 minutes post intervention",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Patients Receiving Endotoxin",
+                            "description": "The enrolled subjects will have LPS (0.4 ng/kg) administered intravenously\n\nLPS: LPS (0.4 ng/kg)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Alzheimer's Disease",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "17.7",
+                                            "spread": "0.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Cognitively Normal",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30.1",
+                                            "spread": "0.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.14",
+                            "statisticalMethod": "unpaired t-tests (continuous variables)"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Effects of MARI on Cognition",
+                    "description": "The Pearson's correlation between MARI and performance on the Montreal Cognitive Assessment (MOCA) will be calculated. The MOCA is a global assessment of cognitive function ranging from 0 to 30 where higher scores represent better cognitive performance.",
+                    "populationDescription": "Data are from correlation between parietal cortex MARI and MOCA scores for participants with AD",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Pearson r",
+                    "timeFrame": "180 minutes post intervention",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Patients Receiving Endotoxin",
+                            "description": "The enrolled subjects will have LPS (0.4 ng/kg) administered intravenously\n\nLPS: LPS (0.4 ng/kg)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "6"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.82",
+                            "statisticalMethod": "univariate linear regression analysis",
+                            "statisticalComment": "two-tailed P value was obtained from a univariate linear regression analysis"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "180 minutes post intervention",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Patients Receiving Endotoxin",
+                    "description": "The enrolled subjects, both with AD and cognitively normal, will have LPS (0.4 ng/kg) administered intravenously\n\nLPS: LPS (0.4 ng/kg)",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 12,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 12,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 12
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "Adam Mecca",
+                "organization": "Yale School of Medicine",
+                "email": "adam.mecca@yale.edu",
+                "phone": "203.764.8100"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "Lipopolysaccharide (LPS) \u2014 experimental peripheral immune challenge",
+        "11C\u2011PBR28 (PBR28) \u2014 TSPO PET radioligand (imaging agent)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The study uses 11C\u2011PBR28 PET imaging combined with an intravenous lipopolysaccharide (LPS) challenge to probe microglial activation capacity in people with Alzheimer's disease versus controls. This is an imaging/biomarker and mechanistic challenge paradigm (measuring microglial response), not a therapeutic intervention intended to modify disease, improve cognition, or treat neuropsychiatric symptoms. \ue200cite\ue202turn0search0\ue202turn0search7\ue201",
+        "Act: Key extracted details \u2014 intervention: IV LPS used as an immune activator/challenge; imaging agent: 11C\u2011PBR28 (a TSPO ligand) to quantify microglial activation (e.g., change in PBR28 binding after LPS). The published paradigm demonstrates LPS reliably increases PBR28 binding (microglial activation) and has been used to compare groups (healthy vs AD). These sources describe the method and findings. \ue200cite\ue202turn0search3\ue202turn0search0\ue201",
+        "Reflect: Given the intervention (LPS challenge) and primary measure (PBR28 PET imaging of TSPO/microglia), the trial is a diagnostic/biomarker/mechanistic study rather than a trial of a disease\u2011targeted biologic, a disease\u2011targeted small molecule, a cognitive enhancer, or a neuropsychiatric\u2011symptom treatment. Therefore the correct category is 'N/A'. \ue200cite\ue202turn0search7\ue202turn0search4\ue201",
+        "Web search results (key sources found): 1) Salardini et al., PBR28 Brain PET with LPS challenge \u2014 pilot human study showing reduced microglial activation reserve in AD using 11C\u2011PBR28 and IV LPS. \ue200cite\ue202turn0search0\ue201 2) Human PET study showing robust microglial activation after LPS administration measured with [11C]PBR28 (demonstrates the LPS \u2192 increased PBR28 binding paradigm). \ue200cite\ue202turn0search3\ue202turn0search7\ue201 3) Preclinical and imaging literature describing 11C\u2011PBR28 as a TSPO tracer for microglial activation and its use in AD models and human studies. \ue200cite\ue202turn0search6\ue202turn0search5\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

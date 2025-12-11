@@ -1,0 +1,887 @@
+{
+    "nct_id": "NCT03461861",
+    "title": "Network-Level Mechanisms for Preclinical Alzheimer's Disease Development",
+    "status": "COMPLETED",
+    "last_update_time": "2023-06-30",
+    "description_brief": "The purpose of this project is to test the hypothesis that AGB101 low dose levetiracetam extended release formulation can reduce abnormal hyperfunctional activity in the hippocampus in normal, healthy adults. The investigators will compare the functional connectivity results after taking AGB101 or placebo.",
+    "description_detailed": "In this study the investigators want to find out whether the use of a perturbation, such as AGB101 low dose of levetiracetam extended release formulation, in healthy adults can reduce abnormal hippocampal network activity. The investigators also want to study whether this low dose of LEV can improve memory function.\n\nGeneric levetiracetam is a type of drug called an anti-epileptic or anti-seizure medication. It is FDA approved worldwide for adults and children as young as one month with seizures. It is a generic drug used in long-term epilepsy treatment. It is relatively safe and has an acceptable side-effect profile.\n\nAGB101 has been developed as a novel extended release formulation of low dose levetiracetam (below clinically marketed doses for epilepsy) for slowing the progression of amnestic mild cognitive impairment.\n\nIt is known that age and the APOE 4 gene are important risk factors for late-onset Alzheimer's disease. Further studies have shown that cognitively normal, older adults have more hyperfunctional brain network activity, increased alpha beta accumulation, decreased memory function, and decreased brain volume, which is consistent with Alzheimer's disease patterns.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "PREVENTION",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "AGB101 220 mg, Then Placebo",
+                    "description": "AGB101 220 mg/day capsule, once daily dosing for 2 weeks. After a 4 week washout, to be followed by Placebo, given as a capsule, once daily dosing for 2 weeks.\n\nAGB101 220 mg: AGB101 oral dose of 220 mg/day capsule, given as once-daily dosing.\n\nPlacebo: Placebo, oral capsule given once-daily."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo, Then AGB101 220 mg",
+                    "description": "Placebo, given as a capsule, once daily for 2 weeks. After a 4 week washout, to be followed by AGB101 220 mg/day capsule, once daily dosing for 2 weeks.\n\nAGB101 220 mg: AGB101 oral dose of 220 mg/day capsule, given as once-daily dosing.\n\nPlacebo: Placebo, oral capsule given once-daily."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "13"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "13"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "13"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "13"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "One enrolled subject did not have detectable LEV in their blood sample and was discarded in analysis",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "AGB101 220 mg, Then Placebo",
+                    "description": "AGB101 220 mg/day capsule, once daily dosing for 2 weeks. After a 4 week washout, to be followed by Placebo, given as a capsule, once daily dosing for 2 weeks.\n\nAGB101 220 mg: AGB101 oral dose of 220 mg/day capsule, given as once-daily dosing.\n\nPlacebo: Placebo, oral capsule given once-daily."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo, Then AGB101 220 mg",
+                    "description": "Placebo, given as a capsule, once daily for 2 weeks. After a 4 week washout, to be followed by AGB101 220 mg/day capsule, once daily dosing for 2 weeks.\n\nAGB101 220 mg: AGB101 oral dose of 220 mg/day capsule, given as once-daily dosing.\n\nPlacebo: Placebo, oral capsule given once-daily."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "13"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "12"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "25"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "populationDescription": "One enrolled subject did not have detectable LEV in their blood sample and was discarded in analysis",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "9"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "populationDescription": "One enrolled subject did not have detectable LEV in their blood sample and was discarded in analysis",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "66",
+                                            "spread": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "67",
+                                            "spread": "5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "66.2",
+                                            "spread": "4.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "populationDescription": "One enrolled subject did not have detectable LEV in their blood sample and was discarded in analysis",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "15"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "populationDescription": "One enrolled subject did not have detectable LEV in their blood sample and was discarded in analysis",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "25"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "populationDescription": "One enrolled subject did not have detectable LEV in their blood sample and was discarded in analysis",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "25"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "populationDescription": "One enrolled subject did not have detectable LEV in their blood sample and was discarded in analysis",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "26"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Apolipoprotein E (APOE) Status",
+                    "populationDescription": "One enrolled subject did not have detectable LEV in their blood sample and was discarded in analysis",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "APOE e4 Carrier",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "APOE e4 Non-Carrier",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "20"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Functional Connectivity Strengths of Neural Networks",
+                    "description": "The seed-based functional connectivity strengths of the hippocampus network and the default mode network will be employed to measure the changes between AGB101 and Placebo perturbation. The functional connectivity strengths will be measured with the median of the Pearson cross-correlation coefficients over entire brain regions.",
+                    "populationDescription": "A total of 25 subjects who were treated with AGB 101 and Placebo (order-balanced), then conducted a paired t-test to detect the treatment effect vs placebo.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Pearson coefficient",
+                    "timeFrame": "2 weeks after treatment between AGB101 and Placebo",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AGB101 220 mg",
+                            "description": "AGB101 220 mg/day capsule, once daily dosing for 2 weeks.\n\nAGB101 220 mg: AGB101 oral dose of 220 mg/day capsule, given as once-daily dosing."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Placebo, given as a capsule, once daily for 2 weeks.\n\nPlacebo: Placebo, oral capsule given once-daily."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "25"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "25"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.233",
+                                            "spread": "0.132"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.318",
+                                            "spread": "0.127"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "The null hypothesis (H0) of this superiority trials asserts that there is no true difference in functional connectivity between the interventions of placebo and AGB101, and the alternative hypothesis (H1) states that there is a difference between the interventions of placebo and AGB101. A type I error is the error of rejecting H0 when it is actually true.",
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.007567",
+                            "statisticalMethod": "t-test, 2 sided",
+                            "paramType": "Median Difference (Final Values)",
+                            "paramValue": "-0.083",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-0.0886",
+                            "ciUpperLimit": "-0.0774",
+                            "dispersionType": "STANDARD_DEVIATION",
+                            "dispersionValue": "0.0056"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Rey Auditory Verbal Learning Test (AVLT), Delayed Recall Scaled Integer. The Higher is the Better",
+                    "description": "Rey Auditory Verbal Learning Test (AVLT), delayed recall Scaled integer will be employed to measure the episodic memory changes before and after AGB101 treatment. The AVLT score will be recorded as a standard score. The theoretical range: min 50, max 155, the higher the better. The higher the number is, the better the memory. It is an integer number.",
+                    "populationDescription": "Measure RAVLT Delayed recall standard score memory test",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Placebo vs AGB101 2 weeks after treatment paired t-test",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AGB101 220 mg",
+                            "description": "AGB101 220 mg/day capsule, once daily dosing for 2 weeks.\n\nAGB101 220 mg: AGB101 oral dose of 220 mg/day capsule, given as once-daily dosing."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Placebo, given as a capsule, once daily for 2 weeks.\n\nPlacebo: Placebo, oral capsule given once-daily."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "25"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "25"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "108",
+                                            "spread": "17"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "105",
+                                            "spread": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "The null hypothesis (H0) of this trial asserts that there is no true difference in AVLT between the interventions of placebo and AGB101, and the alternative hypothesis (H1) states that there is a difference between the interventions of placebo and AGB101. A type I error is the error of rejecting H0 when it is actually true.",
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.900593",
+                            "statisticalMethod": "t-test, 2 sided",
+                            "paramType": "Mean Difference (Final Values)",
+                            "paramValue": "3.12",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "1.72",
+                            "ciUpperLimit": "4.52",
+                            "dispersionType": "STANDARD_DEVIATION",
+                            "dispersionValue": "1.40"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "3",
+            "timeFrame": "From Baseline Visit Through 4 Week Follow Up Call (an average of 12 weeks)",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "AGB101 220 mg",
+                    "description": "AEs judged related to intervention while on AGB101 220 mg",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 26,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 26,
+                    "otherNumAffected": 6,
+                    "otherNumAtRisk": 26
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "AEs judged related to intervention while on Placebo",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 26,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 26,
+                    "otherNumAffected": 3,
+                    "otherNumAtRisk": 26
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 26
+                        }
+                    ]
+                },
+                {
+                    "term": "Sleepiness",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 26
+                        }
+                    ]
+                },
+                {
+                    "term": "Brain Zaps",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 26
+                        }
+                    ]
+                },
+                {
+                    "term": "Visual Aura",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 26
+                        }
+                    ]
+                },
+                {
+                    "term": "Cold Symptoms",
+                    "organSystem": "Infections and infestations",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 26
+                        }
+                    ]
+                },
+                {
+                    "term": "Feeling Jittery",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 26
+                        }
+                    ]
+                },
+                {
+                    "term": "Depressed Mood",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 26
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "limitationsAndCaveats": {
+                "description": "26 total patients were enrolled in the project, and 25 total patients were included in analysis. One enrolled subject did not have detectable LEV in their blood sample and was discarded in analysis."
+            },
+            "certainAgreement": {
+                "piSponsorEmployee": true,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "There is an agreement between Dr. Li and AgeneBio since AgeneBio supplies AGB101 drug to Dr. Li's for conducting the trial. The only restriction on the PI is that the sponsor can review results communications prior to public release."
+            },
+            "pointOfContact": {
+                "title": "Dr. Yang Wang",
+                "organization": "Medical College of Wisconsin",
+                "email": "yangwang@mcw.edu",
+                "phone": "4149555473"
+            }
+        }
+    },
+    "target_category": "Cognitive enhancer",
+    "drug": [
+        "AGB101 (low\u2011dose, extended\u2011release levetiracetam)"
+    ],
+    "placebo": [
+        "placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests AGB101 \u2014 a low\u2011dose, extended\u2011release formulation of levetiracetam \u2014 given to reduce abnormal hippocampal hyperactivity and assess functional connectivity changes (i.e., modulating neuronal/network activity rather than directly targeting amyloid or tau pathology). \ue200cite\ue202turn0search2\ue202turn0search5\ue201",
+        "Act (extracted details + sources): AGB101 is identified as a proprietary low\u2011dose ER formulation of levetiracetam that acts as an SV2A modulator to reduce neuronal hyperexcitability; the trial compares AGB101 vs placebo to reduce hippocampal overactivity in (preclinical/healthy) participants. Key supporting sources: clinical trial record NCT03461861 (trial description). \ue200cite\ue202turn0search2\ue201 The compound identity and rationale (AGB101 = low\u2011dose levetiracetam; targets SV2A; developed by AgeneBio for hippocampal overactivity) are described on AlzForum and company materials. \ue200cite\ue202turn0search5\ue202turn0search7\ue201 Preclinical/physiologic studies supporting levetiracetam\u2019s effect on hippocampal/network activity and gamma oscillations are reported in PubMed literature. \ue200cite\ue202turn0search1\ue202turn0search3\ue201",
+        "Reflect (classification and rationale): This intervention is a small\u2011molecule anticonvulsant repurposed at low dose to reduce hippocampal hyperactivity with the aim of normalizing network function and (implicitly) preserving cognition. It is not a biologic and does not directly target canonical AD pathology (amyloid/tau) via disease\u2011modifying mechanisms; instead it modulates neural activity to improve/normalize cognitive\u2011relevant network function. Therefore the appropriate category is 'Cognitive enhancer'. \ue200cite\ue202turn0search5\ue202turn0search0\ue201",
+        "Web search results (short summaries & citations): 1) Clinical trial record: NCT03461861 \u2014 'Network\u2011Level Mechanisms for Preclinical Alzheimer\u2019s Disease Development' \u2014 trial purpose text stating AGB101 low\u2011dose levetiracetam ER vs placebo to reduce hippocampal hyperfunctional activity. \ue200cite\ue202turn0search2\ue201 2) AlzForum entry for AGB101 \u2014 identifies AGB101 as low\u2011dose, once\u2011daily, extended\u2011release levetiracetam; notes SV2A mechanism and rationale to tamp down hippocampal overactivity in early AD/aMCI. \ue200cite\ue202turn0search5\ue201 3) PubMed (mechanistic/preclinical) articles \u2014 levetiracetam/SV2A modulation restores hippocampal/network oscillations and counters A\u03b2\u2011induced network alterations. (examples: PubMed entries summarizing effects on gamma oscillations and SV2A interplay). \ue200cite\ue202turn0search1\ue202turn0search3\ue201 4) AgeneBio / press coverage \u2014 pharmacokinetic and developer material describing AGB101 as a proprietary low\u2011dose ER levetiracetam formulation intended to reduce hippocampal overactivity and preserve cognition. \ue200cite\ue202turn0search7\ue202turn0search4\ue201 5) HOPE4MCI / related clinical reports \u2014 descriptions of AGB101 dosing rationale to diminish hippocampal overactivity in MCI/early AD populations. \ue200cite\ue202turn0search0\ue201",
+        "Notes / ambiguity: The trial title mentions 'preclinical Alzheimer's disease development' and the developer frames AGB101 as potentially slowing progression in MCI \u2014 but the mechanism of AGB101 is network modulation (SV2A modulation) rather than directly binding/removing amyloid or tau. If one interprets 'targets disease mechanisms' broadly (i.e., reducing hyperexcitability that may contribute to pathology spread), an argument could be made for a disease\u2011modifying intent; however, given the intervention type (small molecule anticonvulsant acting on SV2A) and the immediate measured outcome (hippocampal hyperactivity / functional connectivity), the clearest fit among the provided categories is 'Cognitive enhancer'. \ue200cite\ue202turn0search5\ue202turn0search0\ue201"
+    ],
+    "agent_type": "M) Synaptic Plasticity/Neuroprotection",
+    "explanation_agent": [
+        "Reason: The trial tests AGB101, a low\u2011dose extended\u2011release formulation of levetiracetam, intended to reduce hippocampal hyperactivity and normalize network-level neuronal activity (not to directly remove amyloid or tau). This mechanism modulates synaptic function and neuronal excitability via the synaptic vesicle protein SV2A. \ue200cite\ue202turn0search0\ue202turn0search3\ue201",
+        "Act: Extracted details \u2014 AGB101 = low\u2011dose ER levetiracetam targeting SV2A; study compares AGB101 vs placebo to reduce hippocampal overactivity and assess functional connectivity and memory outcomes. Mechanistic reviews and preclinical studies link levetiracetam\u2019s SV2A modulation to reduced hyperexcitability and restoration of synaptic/network function. \ue200cite\ue202turn0search3\ue202turn0search6\ue202turn0search1\ue201",
+        "Reflect: CADRO category M) Synaptic Plasticity/Neuroprotection best fits because the intervention acts on synaptic vesicle biology to modulate network excitability and aims to preserve/restore synaptic/network function (a synaptic\u2011level neuroprotective/cognitive\u2011enhancing strategy), rather than targeting amyloid, tau, or classical neurotransmitter receptors. Key web sources supporting these points are listed below. \ue200cite\ue202turn0search0\ue202turn0search5\ue201",
+        "Web search results (supporting sources cited above): 1) AlzForum AGB101 overview \u2014 describes AGB101 as low\u2011dose ER levetiracetam, SV2A mechanism, rationale to reduce hippocampal overactivity. \ue200cite\ue202turn0search0\ue201 2) Trial record (NCT03461861 / MedPath summary) \u2014 Network\u2011Level Mechanisms for Preclinical AD Development: AGB101 220 mg vs placebo to reduce hippocampal hyperfunctional activity and change functional connectivity. \ue200cite\ue202turn0search3\ue201 3) Mechanism review \u2014 levetiracetam mechanisms and SV2A role in reducing hyperexcitability. \ue200cite\ue202turn0search6\ue201 4) PubMed study on levetiracetam reversing synaptic deficits related to SV2A \u2014 mechanistic support. \ue200cite\ue202turn0search1\ue201 5) Preclinical work linking SV2A modulation/levetiracetam to effects on hippocampal amyloidogenesis and network function. \ue200cite\ue202turn0search5\ue201"
+    ]
+}

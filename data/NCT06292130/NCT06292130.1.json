@@ -1,0 +1,479 @@
+{
+    "nct_id": "NCT06292130",
+    "title": "FHIR-ed Up for Tobacco Cessation: Health-Kit Enabled Mobile App for Tobacco Cessation",
+    "status": "COMPLETED",
+    "last_update_time": "2025-05-06",
+    "description_brief": "Tobacco use is the leading preventable cause of death in the US, contributing to more than 480,000 premature deaths each year. The Tobacco Treatment Guidelines underscore the need to offer patients who use tobacco products brief interventions that include prescriptions for proven pharmacological smoking cessation aids and proactive connections to evidence-based behavioral support. The rapid expansion of smart phone capabilities enhances the potential for tobacco cessation apps to personalize behavior change guidance and to send contextually relevant tailored behavior change nudges based on readiness to quit and electronic heath record (EHR) data. Rich data from EHRs are now available to third-party apps from the Health app (iOS) via Fast Healthcare Interoperability Resources standard Application Programming Interface (API).\n\nThis Phase I Small Business Innovation Research (SBIR) explored the effects of one such innovative health IT solution. refresh is a highly individualized tobacco cessation HealthKit enabled app that 1) implemented a full range of best practices in tailored health behavior change communications based on readiness to change; 2) provided individualized behavior change guidance based on Health app data; and 3) concisely provided data and documentation of key actionable insights in the EHR on the patient's smoking status, app usage, and brief micro-message delivered by clinicians to reinforce and accelerate a patient's behavior change progress. This interoperability provided value to both patients and clinicians; empowered and supported successful and lasting behavior change; and enabled the implementation and evaluation of a best-in-class approach to tobacco and nicotine treatment.\n\nExtensive end user and stakeholder input ensured that refresh was designed for rapid dissemination. Patients of an integrated delivery system with an upcoming appointment (n=51) were recruited to participate in a 30-day pilot test. Pre-post comparisons of Patient-Reported Outcomes Measurement Information System (PROMIS) measure for tobacco (psychosocial expectancies) and confidence for quitting provided preliminary data on the effects of the program. The hypothesis was that the patients who utilize refresh will have significantly higher psychosocial expectancies regarding tobacco at follow-up and greater confidence to quit smoking.",
+    "description_detailed": "N/A",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "App Users",
+                    "description": "All participants will be provided with access to the intervention app (refresh).\n\nrefresh: A theoretically-grounded, highly individualized tobacco cessation Health-Kit enabled app. Unlike existing tobacco cessation apps, refresh: 1) implements a full range of best practices in tailored health behavior change communications; 2) individualizes messaging based on the patient's clinical context using Health app data obtained through Fast Healthcare Interoperability Resources (FHIR) standard Application Programming Interfaces (API) and behavior change constructs; and 3) provides data and key insights back to the electronic health record (EHR)."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "51"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "39"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "12"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "App Users",
+                    "description": "All participants will be provided with access to the intervention app (refresh).\n\nrefresh: A theoretically-grounded, highly individualized tobacco cessation Health-Kit enabled app. Unlike existing tobacco cessation apps, refresh: 1) implements a full range of best practices in tailored health behavior change communications; 2) individualizes messaging based on the patient's clinical context using Health app data obtained through Fast Healthcare Interoperability Resources (FHIR) standard Application Programming Interfaces (API) and behavior change constructs; and 3) provides data and key insights back to the EHR."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "51"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "49"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "47.4",
+                                            "spread": "11.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "38"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "43"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "24"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "51"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Psychosocial Expectancies (PROMIS Smoking Initiative) Patient Reported Outcome",
+                    "description": "This reliable and valid 6-item assessment measures feelings of social disapproval of smoking, normative values associated with smoking, and negative beliefs about appearance when smoking (e.g., If I quit smoking I will be more in control of my life). It will be the primary outcome as it is appropriate for all smokers (ready to quit or not) and is highly correlated with interest in quitting (r=0.59). It is also correlated with recency of quit attempts. Participants respond on a 5-point Likert Scale from 0 (Not at all) to 4 (Very much). Raw scores range from a minimum of 0 to a maximum of 24, with higher scores indicating better outcomes. The reliability of the scale is 0.85.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Pretest (baseline) and Posttest (30 day follow-up)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "App Users",
+                            "description": "All participants will be provided with access to the intervention app (refresh).\n\nrefresh: A theoretically-grounded, highly individualized tobacco cessation Health-Kit enabled app. Unlike existing tobacco cessation apps, refresh: 1) implements a full range of best practices in tailored health behavior change communications; 2) individualizes messaging based on the patient's clinical context using Health app data obtained through Fast Healthcare Interoperability Resources (FHIR) standard Application Programming Interfaces (API) and behavior change constructs; and 3) provides data and key insights back to the EHR."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Pretest (baseline)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12.7",
+                                            "spread": "6.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Posttest (30 day follow-up)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "13.6",
+                                            "spread": "5.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.17",
+                            "statisticalMethod": "t-test, 2 sided"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Confidence",
+                    "description": "This 3-item scale assesses an individual's confidence level to refrain from using tobacco even in difficult situations and is a leading indicator of movement to cessation. Ratings of confidence will be made on a 5-point Likert scale (1=not at all; 5=extremely confident). Raw scores range from a minimum of 3 to a maximum of 15, with higher scores indicating better outcomes.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Pretest (baseline) and Posttest (30 day follow-up)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "App Users",
+                            "description": "All participants will be provided with access to the intervention app (refresh).\n\nrefresh: A theoretically-grounded, highly individualized tobacco cessation Health-Kit enabled app. Unlike existing tobacco cessation apps, refresh: 1) implements a full range of best practices in tailored health behavior change communications; 2) individualizes messaging based on the patient's clinical context using Health app data obtained through Fast Healthcare Interoperability Resources (FHIR) standard Application Programming Interfaces (API) and behavior change constructs; and 3) provides data and key insights back to the EHR."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "39"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Pretest (baseline)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6.3",
+                                            "spread": "2.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Posttest (30 day follow-up)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7.6",
+                                            "spread": "2.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.006",
+                            "statisticalMethod": "t-test, 2 sided"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "30 days",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "App Users",
+                    "description": "All participants were provided with access to the intervention app (refresh).\n\nrefresh: A theoretically-grounded, highly individualized tobacco cessation Health-Kit enabled app. Unlike existing tobacco cessation apps, refresh: 1) implements a full range of best practices in tailored health behavior change communications; 2) individualizes messaging based on the patient's clinical context using Health app data obtained through Fast Healthcare Interoperability Resources (FHIR) standard Application Programming Interfaces (API) and behavior change constructs; and 3) provides data and key insights back to the EHR.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 51,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 51,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 51
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Sara Johnson, PhD",
+                "organization": "Pro-Change Behavior Systems, Inc.",
+                "email": "sjohnson@prochange.com",
+                "phone": "401.360.2980"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention is a HealthKit-enabled mobile app ('refresh' / FHIR-ed Up) delivering tailored behavior-change communications and EHR interoperability for tobacco cessation \u2014 a digital behavioral intervention, not a pharmacologic small molecule or biologic, nor a cognitive enhancer or neuropsychiatric\u2011symptom drug. \ue200cite\ue202turn0search0\ue202turn0search2\ue201",
+        "Act: Key extracted details \u2014 app name: refresh (aka FHIR-ed Up); Phase I SBIR pilot (30-day) testing acceptability and preliminary effects on PROMIS psychosocial expectancies and confidence to quit; patients recruited from integrated delivery system; Health app (iOS) / FHIR interoperability used to tailor messaging and push insights to the EHR. No drug or biologic is involved. \ue200cite\ue202turn0search2\ue202turn0search1\ue201",
+        "Reflect: Classification check \u2014 fits none of the four Alzheimer-focused therapeutic categories (disease-targeted biologic, disease-targeted small molecule, cognitive enhancer, neuropsychiatric symptom improvement). This is a non\u2011therapeutic digital health behavioral intervention for smoking cessation; therefore 'N/A' is appropriate. Relevant sources confirming the app and trial description: SBIR summary and trial registry entries. \ue200cite\ue202turn0search0\ue202turn0search5\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

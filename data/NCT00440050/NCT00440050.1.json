@@ -1,0 +1,694 @@
+{
+    "nct_id": "NCT00440050",
+    "title": "A Randomized Double-Blind Placebo-Controlled Trial Of The Effects Of Docosahexaenoic Acid (DHA) In Slowing The Progression Of Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2014-09-15",
+    "description_brief": "The purpose of this study is to determine whether chronic DHA (Docosahexaenoic Acid) supplementation slows the progression of cognitive and functional decline in mild to moderate Alzheimer's disease (AD).",
+    "description_detailed": "Preliminary studies have shown a reduced risk of Alzheimer's disease (AD) in people consuming increased amounts of fish in their diets. Many of the health benefits of fish are attributed to the abundance of omega 3 fatty acids. Docosahexaenoic Acid (DHA) is the most abundant omega 3 fatty acid in the brain. Data from several animal models supports the hypothesis that DHA may be an effective treatment for AD by means of anti-amyloid, antioxidant, and neuroprotectant mechanisms.\n\nIn this study, 400 individuals with mild to moderate AD will participate at approximately 53 study sites throughout the US for 18 months. Participants will be randomized so that 60% will receive approximately 2 grams of DHA, divided into 4 capsules, 2 capsules taken twice a day, while 40% receive an identical placebo.\n\nPotential participants will go to their study site for a screening visit, where eligibility is determined, and if accepted, for a baseline visit where cognitive status, behavioral status, functional status, and global severity of dementia will be assessed. Vital signs and biomarker labs will also be obtained. Subsequent visits will occur every three months for medication checks and, every 6 months, further assessments, physical exams, and labs.\n\nSome participants will also take part in MRI (magnetic resonance imaging) and/or CSF (cerebrospinal fluid) sub-studies. For the MRI sub-study, scans will be done prior to beginning the study medication, and again after 18 months. Likewise, for the CSF sub-study, a lumbar puncture will be done prior to beginning the study medication, and again after 18 months.\n\nEnrollment is restricted to individuals who consume no more than 200 mg of DHA per day, which is almost 300% of the average daily intake in an American diet. Individuals who take fish oil or omega 3 fatty acid supplements are also not eligible. Each visit will include completion of a very brief food frequency questionnaire to monitor dietary DHA levels.",
+    "phase": [
+        "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "Out of 555 subjects screened, 402 met the study criteria and were randomized.",
+            "recruitmentDetails": "Subjects were recruited at 51 sites in the United States between February and November 2007.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Placebo",
+                    "description": "Dosing of 2 grams of placebo administered in a divided dose twice daily with food."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Docosahexaenoic Acid (DHA)",
+                    "description": "Dosing of 2 grams of DHA administered in a divided dose twice daily with food."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "164"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "238"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "124"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "171"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "40"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "67"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Placebo",
+                    "description": "Dosing of 2 grams of placebo administered in a divided dose twice daily with food."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Docosahexaenoic Acid (DHA)",
+                    "description": "Dosing of 2 grams of DHA administered in a divided dose twice daily with food."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "164"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "238"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "402"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "76",
+                                            "spread": "9.3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "76",
+                                            "spread": "7.8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "76",
+                                            "spread": "8.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "98"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "112"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "210"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "66"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "126"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "192"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "164"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "238"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "402"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Rate of Change on the ADAS-Cog 11.",
+                    "description": "ADAS-cog 11 = Alzheimer's Disease Assessment Scale, cognitive sub-scale in points per year. This is a psychometric measure sensitive to change in mild to moderate AD. The range of this instrument is 0 to 70 with higher numbers indicating greater impairment.",
+                    "reportingStatus": "POSTED",
+                    "anticipatedPostingDate": "2010-05",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ADAS points per year",
+                    "timeFrame": "Baseline, 6, 12, 18 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Dosing of 2 grams of placebo administered in a divided dose twice daily with food."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Docosahexaenoic Acid (DHA)",
+                            "description": "Dosing of 2 grams of DHA administered in a divided dose twice daily with food."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "164"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "238"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7.98",
+                                            "spread": "9.84"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "8.27",
+                                            "spread": "8.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Rate of Change on CDR-SOB",
+                    "description": "CDR-SOB = Clinical Dementia Rating, Sum of Boxes. This is a global rating of dementia severity based on the clinician's interpretation of the history and examination. The range of this instrument is 0 to 18 with higher numbers indicating greater impairment.",
+                    "reportingStatus": "POSTED",
+                    "anticipatedPostingDate": "2010-05",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Units on a scale",
+                    "timeFrame": "18 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Dosing of 2 grams of placebo administered in a divided dose twice daily with food."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Docosahexaenoic Acid (DHA)",
+                            "description": "Dosing of 2 grams of DHA administered in a divided dose twice daily with food."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "164"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "238"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.87",
+                                            "spread": "2.93"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2.93",
+                                            "spread": "2.83"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "ADCS-ADL",
+                    "description": "ADCS-ADL = Alzheimer's Disease Cooperative Study Activities of Daily Living Score. This is a structured questionnaire about activities of daily living, administered to the subject's caregiver/study partner. The range of this instrument is 0 to 6 with lower numbers indicating greater impairment.",
+                    "reportingStatus": "POSTED",
+                    "anticipatedPostingDate": "2010-05",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Units on a scale",
+                    "timeFrame": "18 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Dosing of 2 grams of placebo administered in a divided dose twice daily with food."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Docosahexaenoic Acid (DHA)",
+                            "description": "Dosing of 2 grams of DHA administered in a divided dose twice daily with food."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "164"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "238"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10.43",
+                                            "spread": "11.74"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "11.51",
+                                            "spread": "13.23"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Neuropsychiatric Inventory (NPI)",
+                    "description": "The Neuropsychiatric Inventory quantifies behavioral changes in dementia, including depression, anxiety, psychosis, agitation, sleep change, appetite change, and others. This is a structured questionnaire administered to the subject's caregiver/study partner. The range of this instrument is 0 to 120 with higher numbers indicating greater impairment.",
+                    "reportingStatus": "POSTED",
+                    "anticipatedPostingDate": "2010-05",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Units on a scale",
+                    "timeFrame": "18 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Dosing of 2 grams of placebo administered in a divided dose twice daily with food."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Docosahexaenoic Acid (DHA)",
+                            "description": "Dosing of 2 grams of DHA administered in a divided dose twice daily with food."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "164"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "238"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.93",
+                                            "spread": "13.62"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5.09",
+                                            "spread": "15.08"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Placebo",
+                    "description": "Dosing of 2 grams of placebo administered in a divided dose twice daily with food.",
+                    "seriousNumAffected": 50,
+                    "seriousNumAtRisk": 164,
+                    "otherNumAffected": 144,
+                    "otherNumAtRisk": 164
+                },
+                {
+                    "id": "EG001",
+                    "title": "Docosahexaenoic Acid (DHA)",
+                    "description": "Dosing of 2 grams of DHA administered in a divided dose twice daily with food.",
+                    "seriousNumAffected": 76,
+                    "seriousNumAtRisk": 238,
+                    "otherNumAffected": 214,
+                    "otherNumAtRisk": 238
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "death",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 164
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 11,
+                            "numAffected": 11,
+                            "numAtRisk": 214
+                        }
+                    ]
+                },
+                {
+                    "term": "deep venous thrombosis/pulmonary embolus",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 164
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 8,
+                            "numAffected": 8,
+                            "numAtRisk": 214
+                        }
+                    ]
+                },
+                {
+                    "term": "other",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 44,
+                            "numAffected": 44,
+                            "numAtRisk": 164
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 57,
+                            "numAffected": 57,
+                            "numAtRisk": 214
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "diarrhea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 10,
+                            "numAffected": 10,
+                            "numAtRisk": 164
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 18,
+                            "numAffected": 18,
+                            "numAtRisk": 238
+                        }
+                    ]
+                },
+                {
+                    "term": "urinary tract infection",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 12,
+                            "numAffected": 12,
+                            "numAtRisk": 164
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 23,
+                            "numAffected": 23,
+                            "numAtRisk": 238
+                        }
+                    ]
+                },
+                {
+                    "term": "fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 33,
+                            "numAffected": 33,
+                            "numAtRisk": 164
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 42,
+                            "numAffected": 42,
+                            "numAtRisk": 238
+                        }
+                    ]
+                },
+                {
+                    "term": "dizziness",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 9,
+                            "numAffected": 9,
+                            "numAtRisk": 164
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 12,
+                            "numAffected": 12,
+                            "numAtRisk": 238
+                        }
+                    ]
+                },
+                {
+                    "term": "agitation",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 12,
+                            "numAffected": 12,
+                            "numAtRisk": 164
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 24,
+                            "numAffected": 24,
+                            "numAtRisk": 238
+                        }
+                    ]
+                },
+                {
+                    "term": "other",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 88,
+                            "numAffected": 88,
+                            "numAtRisk": 164
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 119,
+                            "numAffected": 119,
+                            "numAtRisk": 238
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Joseph Quinn, MD",
+                "organization": "Oregon Health and Sciences University/Portland VA Medical Center, Portland, Oregon.",
+                "email": "quinnj@ohsu.edu",
+                "phone": "503-494-6976"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "Docosahexaenoic Acid (DHA) \u2014 algal DHA, 2 g/day (given as 4 capsules: 2 capsules twice daily)"
+    ],
+    "placebo": [
+        "Identical placebo (matching capsules/placebo oil)"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests chronic supplementation with docosahexaenoic acid (DHA) to determine whether it \"slows the progression of cognitive and functional decline in mild to moderate Alzheimer's disease,\" i.e., an intent to modify disease course rather than only treat symptoms. \ue200cite\ue202turn6search0\ue202turn3view0\ue201",
+        "Reason (drug type): DHA is a long\u2011chain omega\u20113 polyunsaturated fatty acid (a small molecule nutritional/biochemical compound concentrated in brain membranes), not a biologic like a monoclonal antibody or vaccine. Its proposed mechanisms include membrane effects, anti\u2011inflammatory and anti\u2011amyloid/neuroprotective actions. \ue200cite\ue202turn4search2\ue202turn6search6\ue201",
+        "Act (key trial details extracted): This randomized, double\u2011blind, placebo\u2011controlled trial (NCT00440050 / ADCS) randomized 402 participants with mild\u2013moderate AD to algal DHA 2 g/day (60% of participants) versus identical placebo for 18 months; outcomes included ADAS\u2011cog, CDR\u2011sum of boxes and brain atrophy by MRI. DHA was supplied by Martek for the NIH\u2011sponsored trial. \ue200cite\ue202turn3view0\ue202turn6search7\ue201",
+        "Act (outcome summary / relevance): The published JAMA report concluded that supplementation with DHA did not slow the rate of cognitive or functional decline in the overall study population; subgroup signals (e.g., APOE \u03b54\u2013negative) were explored but the primary result was negative. This confirms the trial's disease\u2011modification intent even though it was neutral. \ue200cite\ue202turn3view0\ue201",
+        "Reflect (classification decision): Because the intervention is a small\u2011molecule fatty acid (DHA) given to target disease progression/pathology (neuroprotection, anti\u2011amyloid/anti\u2011inflammatory effects) rather than a biologic agent or solely a symptomatic cognitive enhancer or a neuropsychiatric symptom treatment, the correct category is 'disease-targeted small molecule.' Animal and mechanistic data motivated the disease\u2011modification hypothesis, supporting this classification. \ue200cite\ue202turn6search6\ue202turn4search2\ue201",
+        "Web search results / sources used (for transparency): PubMed JAMA randomized trial (Quinn et al., 2010) reporting the DHA ADCS trial and results. \ue200cite\ue202turn3view0\ue201",
+        "Web source: Clinical-trial registry / trial snapshot for NCT00440050 describing trial title, design, dose, and purpose. \ue200cite\ue202turn6search0\ue201",
+        "Web source: NIH news release about the NIA\u2011supported nationwide DHA trial (details including supplier and trial intent). \ue200cite\ue202turn6search7\ue201",
+        "Web source: Reviews describing DHA as the predominant brain omega\u20113 fatty acid and its proposed neuroprotective mechanisms. \ue200cite\ue202turn4search2\ue202turn4search9\ue201"
+    ],
+    "agent_type": "C) ApoE, Lipids and Lipoprotein Receptors",
+    "explanation_agent": [
+        "Reason: The intervention is docosahexaenoic acid (DHA), a long\u2011chain omega\u20113 polyunsaturated fatty acid (a lipid/small\u2011molecule nutritional compound) given to modify disease progression through membrane/lipid effects, interactions with lipid metabolism/ApoE biology, and related neuroprotective/anti\u2011inflammatory actions. This biological focus maps best to the CADRO category for ApoE, lipids and lipoprotein receptors rather than a protein\u2011specific target like amyloid or tau. \ue200cite\ue202turn0search0\ue202turn0search7\ue201",
+        "Act: Key trial details: randomized, double\u2011blind, placebo\u2011controlled ADCS trial (NCT00440050) testing algal DHA 2 g/day vs placebo in 402 mild\u2013moderate AD participants over 18 months; primary intent was disease modification (ADAS\u2011cog, CDR\u2011SOB, MRI outcomes). The published JAMA report found no overall clinical benefit, though subgroup/APOE analyses were explored. These trial facts support that the intervention is a lipid\u2011based, disease\u2011targeted small molecule acting via lipid/ApoE\u2011related pathways. \ue200cite\ue202turn0search1\ue202turn0search0\ue201",
+        "Reflect: Classification choice \u2014 C) ApoE, Lipids and Lipoprotein Receptors \u2014 is the most specific CADRO match because DHA is a lipid that primarily affects membrane composition and lipid metabolism (and interacts with ApoE\u2011dependent processes). Alternative relevant CADRO categories include F) Inflammation and M) Synaptic Plasticity/Neuroprotection (both describe secondary proposed mechanisms), but those are mechanistic effects of the lipid intervention rather than the principal molecular class targeted, so C is preferred. Supporting sources: JAMA trial report (Quinn et al., 2010), ADCS/ClinicalTrials registry trial description (NCT00440050), and reviews/analyses of DHA mechanisms and APOE effects. \ue200cite\ue202turn0search0\ue202turn0search7\ue202turn0search4\ue201",
+        "Web search results / sources used: JAMA randomized trial (Quinn et al., 2010) reporting the DHA ADCS trial and negative primary outcome. \ue200cite\ue202turn0search0\ue201",
+        "Clinical trial registry / trial snapshot and results for NCT00440050 (ADCS documents / trial result summary). \ue200cite\ue202turn0search1\ue202turn0search7\ue201",
+        "Mechanistic and follow\u2011up analyses describing DHA as the predominant brain omega\u20113 fatty acid with membrane, lipid\u2011metabolism, APOE\u2011related, anti\u2011inflammatory, and neuroprotective effects (examples: AD/omega\u20113 reviews, APOE subgroup analyses). \ue200cite\ue202turn0search3\ue202turn0search4\ue201"
+    ]
+}

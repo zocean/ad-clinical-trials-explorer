@@ -1,0 +1,298 @@
+{
+    "nct_id": "NCT01565356",
+    "title": "Comparison of PET Images Acquired at 30 Min and 50 Min Post Injection of 18F-AV-45 in Healthy Volunteers and Alzheimer's Disease Patients",
+    "status": "COMPLETED",
+    "last_update_time": "2012-05-03",
+    "description_brief": "This study will re-read 10-minute positron emission tomography (PET) scans acquired in previous clinical studies of AV-45 at 30 and 50 minutes after injection and compare the results.",
+    "description_detailed": "N/A",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "NO SUBJECTS WERE ENROLLED IN THIS STUDY - this study re-read scans obtained in other clinical studies",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "All Subject Scans",
+                    "description": "22 florbetapir-PET scans obtained in Study A01 and and 19 scans obtained in A03"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "41"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "41"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "All Subject Scans",
+                    "description": "22 florbetapir-PET scans obtained in Study A01 and and 19 scans obtained in A03"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "41"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "65.49",
+                                            "spread": "15.302"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "27"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "41"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Percent Agreement of Interpretation Between 30-40 and 50-60 Min Reads - Qualitative Evaluation",
+                    "description": "Three independent readers blinded to subject identification, subject diagnosis, subject demographics and PET scan time points post-injection read each scan and reported as amyloid positive or amyloid negative. Results show the percentage of agreement between the majority read of 30-40 min scan and the majority read of the 50-60 min scan.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "percentage of agreement",
+                    "timeFrame": "Scans acquired 30-40 min and 50-60 min after injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "All Scans",
+                            "description": "22 florbetapir-PET scans obtained in Study A01(NCT01565291) and and 19 scans obtained in A03(NCT01565330)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "41"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "100"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Cohen's (simple) kappa statistic",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "paramType": "Kappa statistic",
+                            "paramValue": "1.00",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "1.00",
+                            "ciUpperLimit": "1.00"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Agreement of Interpretation Between 30-40 and 50-60 Min Reads - Semi-quantitative Evaluation",
+                    "description": "Three independent readers blinded to subject identification, subject diagnosis, subject demographics and PET scan time points post-injection read each scan and reported the results using a 5-point scale (0=no amyloid; 4=high levels of amyloid deposition). Results are reported as a weighted kappa statistic.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "weighted kappa",
+                    "timeFrame": "Scans acquired 30-40 min and 50-60 min post-injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "All Scans",
+                            "description": "22 florbetapir-PET scans obtained in Study A01(NCT01565291) and and 19 scans obtained in A03(NCT01565330)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "41"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.946",
+                                            "lowerLimit": "0.906",
+                                            "upperLimit": "0.987"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "description": "No subjects received florbetapir in this study. This study consisted of rereads of scans previously acquired in other clinical studies (A01,A03).",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "All Subject Scans",
+                    "description": "22 florbetapir-PET scans obtained in Study A01 and and 19 scans obtained in A03",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 0,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 0
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "GT60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Chief Medical Officer",
+                "organization": "Avid Radiopharmaceuticals",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "18F-AV-45 (florbetapir F18, trade name Amyvid)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial description says it will re-read 10-minute PET scans acquired at 30 and 50 minutes after injection of AV-45 \u2014 this is a methodological/diagnostic imaging comparison (scan timing), not a therapeutic intervention aimed at disease modification, cognition, or neuropsychiatric symptoms.",
+        "Act: AV-45 is the PET radiotracer florbetapir (florbetapir F18), an imaging agent that binds \u03b2-amyloid plaques and is used clinically to assess amyloid burden (trade name Amyvid). \ue200cite\ue202turn0search1\ue202turn0search4\ue201",
+        "Classification decision: Because the intervention is a diagnostic PET tracer and the study compares imaging acquisition times (30 vs 50 minutes post-injection) rather than testing a drug for therapeutic effect, the trial does not fit any of the four therapeutic categories (disease-targeted biologic, disease-targeted small molecule, cognitive enhancer, or neuropsychiatric symptom improvement). Therefore the correct category is 'N/A'.",
+        "Reflect: Confirmed that florbetapir/AV-45 is an imaging agent for A\u03b2 (not a therapeutic biologic or small molecule drug intended to modify disease or symptoms), and the study objective (image timing comparison) is diagnostic/methodological, so 'N/A' is appropriate. \ue200cite\ue202turn0search5\ue202turn0search2\ue201",
+        "Web search results used: - Florbetapir (F18-AV-45) performance and amyloid imaging in AD (PubMed / florbetapir PET studies). \ue200cite\ue202turn0search1\ue201 - Using PET with 18F-AV-45 (florbetapir) to quantify brain amyloid load (PMC full text). \ue200cite\ue202turn0search4\ue201 - GMP synthesis and description of [(18)F]AV-45 (florbetapir) as a tracer for beta-amyloid plaques. \ue200cite\ue202turn0search5\ue201 - Review and newer derivative references noting [18F]AV-45 (florbetapir, Amyvid) as an FDA-approved PET imaging agent targeting A\u03b2. \ue200cite\ue202turn0search2\ue202turn0search7\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

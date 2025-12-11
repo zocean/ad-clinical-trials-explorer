@@ -1,0 +1,716 @@
+{
+    "nct_id": "NCT01028053",
+    "title": "A Principal Open-label Study to Assess the Prognostic Usefulness of Flutemetamol (18F) Injection for Identifying Subjects With Amnestic Mild Cognitive Impairment Who Will Convert to Clinically Probable Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2014-09-03",
+    "description_brief": "This study will investigate the efficacy of the Flutemetamol (18F) Injection PET tracer in identifying abnormal (18F) flutemetamol uptake patterns which predict the conversion from aMCI to a b-amyloid associated clinically probable Alzheimer's disease.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Flutemetamol (18F) Injection",
+                    "description": "Flutemetamol (18F) Injection: All subjects will receive an i.v. dose of (18F) flutemetamol (less than 10 mg flutemetamol). The nominal activity of a single administration of (18F) flutemetamol will be 185 MBq."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "365"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "232"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "133"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Screen Failure",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "113"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Patient Request",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "11"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Protocol Violation",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Physician Decision",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Technical Problem",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Terminated by Sponsor",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Various reasons",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Flutemetamol (18F) Injection",
+                    "description": "Flutemetamol (18F) Injection: All subjects will receive an i.v. dose of (18F) flutemetamol (less than 10 mg flutemetamol). The nominal activity of a single administration of (18F) flutemetamol will be 185 MBq."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "232"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "71.1",
+                                            "spread": "8.62"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "63"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "169"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "118"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "114"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "109"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Belgium",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Denmark",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Finland",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Sweden",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "United Kingdom",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "80"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Hazard Ratio (HR) by PET Scan Readers for Conversion to Probable Alzheimer's Disease Based on Visual Image Interpretation.",
+                    "description": "Visual Interpretation of the PET scan by independent readers.\n\nNote: The statistic Hazard ratio (HR) is the ratio of the hazard rates in the 2 groups (1 group being normal (negative for amyloid B) and 1 group being abnormal (positive for amyloid B). Under the null hypothesis of equal rates, the HR would be equal to 1.\n\nAs the HR increases above 1, the chances of being probable Alzheimer's Disease (pAD) also increases.\n\nNote: Eight Subjects who withdrew prior to the first Clinical Adjudication Committee (CAC) evaluation are not included in the analysis. (232 - 8 = 224 Subjects included).",
+                    "populationDescription": "Eight Subjects who withdrew prior to the first Clinical Adjudication Committee (CAC) evaluation are not included in the analysis. (232 - 8 = 224 Subjects included).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Ratio of visual interpretations",
+                    "timeFrame": "Up to 36 months post flutemetamol administration",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Hazard Ratio",
+                            "description": "The statistic Hazard ratio (HR) is the ratio of the hazard rates in the 2 groups (1 group being normal (negative for amyloid B) and 1 group being abnormal (positive for amyloid B). Under the null hypothesis of equal rates, the HR would be equal to 1.\n\nAs the HR increases above 1, the chances of being probable Alzheimer's Disease (pAD) also increases."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "224"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1 - Visual Interpretation",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3.418"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 - Visual Interpretation",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.962"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3 - Visual Interpretation",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.561"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4 - Visual Interpretation",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.633"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5 - Visual Interpretation",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.580"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "The of Normal and Abnormal Subjects Who Convert to Probable Alzheimer's Disease (pAD) Within the Follow up Period.",
+                    "description": "Numbers of subjects with normal and abnormal patterns of \\[18F\\]flutemetamol uptake who converted to pAD.",
+                    "populationDescription": "Eight Subjects who withdrew prior to the first Clinical Adjudication Committee (CAC) evaluation are not included in the analysis. (232 - 8 = 224 Subjects included).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Number of subjects",
+                    "timeFrame": "Up to 36 months post flutemetamol administration.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Not Clinically Probable Alzheimer's Disease",
+                            "description": "A blinded visual interpretation of a clinical diagnosis of the number of Normal-Scan and Abnormal-Scan Subjects who Converted to not clinically probable Alzheimer's Disease (pAD)."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Clinically Probable Alzheimer's Disease",
+                            "description": "A blinded visual interpretation of a clinical diagnosis of the number of Normal-Scan and Abnormal-Scan Subjects who Converted to clinically probable Alzheimer's Disease (pAD)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "143"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "81"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1 - Normal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "111"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "31"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 1 - Abnormal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "50"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 - Normal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "72"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "21"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 - Abnormal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "71"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "60"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3 - Normal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "108"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "37"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3 - Abnormal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "35"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4 - Normal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "98"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "28"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4 - Abnormal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "45"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "53"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5 - Normal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "98"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5 - Abnormal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "45"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "52"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Majority Reads - Normal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "98"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Majority Reads - Abnormal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "45"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "52"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Flutemetamol (18F) Injection",
+                    "description": "Flutemetamol (18F) Injection: All subjects will receive an intravenous dose of (18F) flutemetamol (less than 10 mg flutemetamol). The nominal activity of a single administration of (18F) flutemetamol will be 185 MBq.",
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 232,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 232
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Anaphylactoid Reaction",
+                    "organSystem": "Immune system disorders",
+                    "sourceVocabulary": "MedDRA 13.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 232
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Paul Sherwin M.D.",
+                "organization": "GE Healthcare",
+                "email": "Paul.Sherwin@ge.com",
+                "phone": "16095146820"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "Flutemetamol (18F) Injection (brand: Vizamyl) \u2014 an 18F-labeled PET amyloid imaging tracer"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention is Flutemetamol (18F) PET tracer used to image fibrillar amyloid-\u03b2 and estimate cortical amyloid plaque burden (a diagnostic/prognostic imaging agent), not a therapeutic drug intended to modify disease biology or improve cognition directly. \ue200cite\ue202turn0search7\ue202turn0search5\ue201",
+        "Act: Key extracted details \u2014 trial title and description state this is an open-label prognostic study using Flutemetamol (18F) Injection to identify abnormal uptake patterns that predict conversion from amnestic MCI to amyloid-associated probable Alzheimer's disease; the tracer is marketed as Vizamyl and is an FDA\u2011approved PET imaging agent for amyloid detection. \ue200cite\ue202turn0search4\ue202turn0search5\ue201",
+        "Web-search evidence (sources consulted): MedPath trial listing for this open-label prognostic study (trial description). \ue200cite\ue202turn0search4\ue201; Drugs.com / Vizamyl summary confirming flutemetamol F 18 (Vizamyl) is a PET amyloid imaging agent (brand information and diagnostic indication). \ue200cite\ue202turn0search5\ue201; Cochrane review and other studies evaluating flutemetamol PET performance for predicting progression from MCI to AD. \ue200cite\ue202turn0search6\ue202turn0search0\ue201; Validation/autopsy and performance studies showing flutemetamol binds amyloid and is used to detect in vivo amyloid plaque burden. \ue200cite\ue202turn0search7\ue202turn0search8\ue201",
+        "Reflect: Classification check \u2014 by category definitions: (1) disease-targeted biologic = biologic therapy (e.g., mAb) targeting pathology \u2014 NOT applicable; (2) disease-targeted small molecule = small-molecule therapeutic targeting pathology \u2014 NOT applicable; (3) cognitive enhancer = therapeutic to improve cognition \u2014 NOT applicable; (4) neuropsychiatric symptom improvement = behavioral/psychiatric treatment \u2014 NOT applicable. The trial evaluates a diagnostic/prognostic imaging tracer, so it does not fit any therapeutic category and is therefore classified as 'N/A'. \ue200cite\ue202turn0search4\ue202turn0search5\ue201",
+        "Notes / ambiguity: None substantive \u2014 the provided description clearly indicates a diagnostic PET tracer study (prognostic use), not a therapeutic intervention. Sources above support that flutemetamol (18F) is an amyloid PET imaging agent (Vizamyl). \ue200cite\ue202turn0search5\ue202turn0search6\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

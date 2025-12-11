@@ -1,0 +1,818 @@
+{
+    "nct_id": "NCT02350634",
+    "title": "A High Resolution Autopsy Study Evaluating the Relationship of 18F-AV-1451 PET Imaging and Tau Pathology",
+    "status": "COMPLETED",
+    "last_update_time": "2025-05-22",
+    "description_brief": "The study is designed to examine the relationship between imaging results detected on a 18F-AV-1451 PET scan and pathology found at autopsy within six months of imaging.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "To be considered eligible for the primary analysis, death had to occur within 6 months of flortaucipir scan and valid autopsy was required.",
+            "recruitmentDetails": "Enrollment was opened in June 2015 and closed in May 2018. First patient enrolled in November 2016 and last enrolled patient completed the study procedures in June 2017. Study enrolled end-of-life subjects (life expectancy less than 6 months) at medical centers in the US who consented to a flortaucipir PET scan and to brain donation at autopsy.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "All Enrolled Cohort",
+                    "description": "End-of-life subjects (life expectancy \\< 6 months) consenting to brain donation at autopsy. Subjects will receive a single IV bolus injection of 370 MBq (10 mCi) of flortaucipir."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "subject survived greater than 6 months following dosing",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "All subjects consenting to flortaucipir PET and brain donation at autopsy",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "All Enrolled Cohort",
+                    "description": "End-of-life subjects (life expectancy \\< 6 months) consenting to brain donation at autopsy. Subjects received a single IV bolus injection of 370 MBq (10 mCi) of flortaucipir."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "3"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "76.00",
+                                            "spread": "11.533"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "calculatePct": false,
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "calculatePct": false,
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Mini Mental Status Exam (MMSE) Score",
+                    "description": "MMSE is an 11-question measure that tests five areas of cognitive function: orientation, registration, attention and calculation, recall, and language. The score ranges from 0 to 30. A score of 23 or lower is indicative of cognitive impairment.",
+                    "populationDescription": "n=2 for cognitively impaired subjects. Cognitively normal subject mental status was not measured.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14.50",
+                                            "spread": "20.5061"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Informant Questionnaire on Cognitive Decline in the Elderly (IQCODE) Score",
+                    "description": "IQCODE is short questionnaire designed to assess cognitive decline and dementia in elderly people. The questionnaire is filled out by a relative or friend who has known the elderly person for 10 years or more. The result is a score that ranges from 1 to 5. A score of 3 means that the subject is rated on average as 'no change'. A score of 4 means an average of 'a bit worse'. A score of 5 an average of 'much worse'.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4.75",
+                                            "spread": "0.4330"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Relationship of Flortaucipir Scan and Pathology - Whole Cortical Composite Region",
+                    "description": "Correlation between flortaucipir standard uptake value ratio (SUVr) and neuropathology at autopsy. SUVr measurements for the analysis consisted of whole cortical global quantitation of the PET scan from 82 FreeSurfer-defined regions of interest (ROIs). Values were normalized to the brainstem to obtain the SUVr. Neuropathology was measured by immunohistology using AT8 antibody. Spearman correlation coefficient was calculated. Spearman correlation coefficients range from -1 to +1. A value of -1 indicates perfect negative correlation, and a value of +1 indicates a perfect positive correlation.",
+                    "populationDescription": "One subject did not come to autopsy within 6 months of the flortaucipir scan.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Correlation coefficient",
+                    "timeFrame": "autopsy within 6 months of scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Autopsy Cohort",
+                            "description": "End-of-life subjects (life expectancy \\< 6 months) consenting to brain donation at autopsy. Subjects received a single IV bolus injection of 370 MBq(10 mCi) of flortaucipir and came to autopsy within 6 months of flortaucipir scan."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.429"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Null hypothesis is no correlation (correlation coefficient = 0)",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "<0.001",
+                            "pValueComment": "A two-sided correlation test (rho \u2260 0) was performed with a significance level of alpha = 0.05 to assess a significant correlation.",
+                            "statisticalMethod": "Spearman's Rank Order Correlation test",
+                            "paramType": "Correlation coefficient",
+                            "paramValue": "0.429",
+                            "ciNumSides": "TWO_SIDED"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Relationship of Flortaucipir Scan and Pathology - Frontal Composite Region",
+                    "description": "Correlation between flortaucipir standard uptake value ratio (SUVr) and neuropathology at autopsy. SUVr measurements for the analysis consisted of frontal composite region quantitation of the PET scan regions of interest (ROIs). Values were normalized to the brainstem to obtain the SUVr. Neuropathology was measured by immunohistology using AT8 antibody. Spearman correlation coefficient was calculated. Spearman correlation coefficients range from -1 to +1. A value of -1 indicates perfect negative correlation, and a value of +1 indicates a perfect positive correlation.",
+                    "populationDescription": "One subject did not come to autopsy within 6 months of the flortaucipir scan.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Correlation coefficient",
+                    "timeFrame": "autopsy within 6 months of scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Autopsy Cohort",
+                            "description": "End-of-life subjects (life expectancy \\< 6 months) consenting to brain donation at autopsy. Subjects received a single IV bolus injection of 370 MBq(10 mCi) of flortaucipir and came to autopsy within 6 months of flortaucipir scan."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.681"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Null hypothesis is no correlation (correlation coefficient = 0)",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "<0.001",
+                            "pValueComment": "A two-sided correlation test (rho \u2260 0) was performed with a significance level of alpha = 0.05 to assess a significant correlation.",
+                            "statisticalMethod": "Spearman's Rank Order Correlation test",
+                            "paramType": "Correlation coefficient",
+                            "paramValue": "0.681",
+                            "ciNumSides": "TWO_SIDED"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Relationship of Flortaucipir Scan and Pathology - Parietal Composite Region",
+                    "description": "Correlation between flortaucipir standard uptake value ratio (SUVr) and neuropathology at autopsy. SUVr measurements for the analysis consisted of parietal composite region quantitation of the PET scan regions of interest (ROIs). Values were normalized to the brainstem to obtain the SUVr. Neuropathology was measured by immunohistology using AT8 antibody. Spearman correlation coefficient was calculated. Spearman correlation coefficients range from -1 to +1. A value of -1 indicates perfect negative correlation, and a value of +1 indicates a perfect positive correlation.",
+                    "populationDescription": "One subject did not come to autopsy within 6 months of the flortaucipir scan.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Correlation coefficient",
+                    "timeFrame": "autopsy within 6 months of scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Autopsy Cohort",
+                            "description": "End-of-life subjects (life expectancy \\< 6 months) consenting to brain donation at autopsy. Subjects received a single IV bolus injection of 370 MBq(10 mCi) of flortaucipir and came to autopsy within 6 months of flortaucipir scan."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.644"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Null hypothesis is no correlation (correlation coefficient = 0)",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.00278",
+                            "pValueComment": "A two-sided correlation test (rho \u2260 0) was performed with a significance level of alpha = 0.05 to assess a significant correlation.",
+                            "statisticalMethod": "Spearman's Rank Order Correlation test",
+                            "paramType": "Correlation coefficient",
+                            "paramValue": "0.644",
+                            "ciNumSides": "TWO_SIDED"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Relationship of Flortaucipir Scan and Pathology - Cingulate Composite Region",
+                    "description": "Correlation between flortaucipir standard uptake value ratio (SUVr) and neuropathology at autopsy. SUVr measurements for the analysis consisted of cingulate composite region quantitation of the PET scan regions of interest (ROIs). Values were normalized to the brainstem to obtain the SUVr. Neuropathology was measured by immunohistology using AT8 antibody. Spearman correlation coefficient was calculated. Spearman correlation coefficients range from -1 to +1. A value of -1 indicates perfect negative correlation, and a value of +1 indicates a perfect positive correlation.",
+                    "populationDescription": "One subject did not come to autopsy within 6 months of the flortaucipir scan.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Correlation coefficient",
+                    "timeFrame": "autopsy within 6 months of scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Autopsy Cohort",
+                            "description": "End-of-life subjects (life expectancy \\< 6 months) consenting to brain donation at autopsy. Subjects received a single IV bolus injection of 370 MBq(10 mCi) of flortaucipir and came to autopsy within 6 months of flortaucipir scan."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.437"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Null hypothesis is no correlation (correlation coefficient = 0)",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.12",
+                            "pValueComment": "A two-sided correlation test (rho \u2260 0) was performed with a significance level of alpha = 0.05 to assess a significant correlation.",
+                            "statisticalMethod": "Spearman's Rank Order Correlation test",
+                            "paramType": "Correlation coefficient",
+                            "paramValue": "0.437",
+                            "ciNumSides": "TWO_SIDED"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Relationship of Flortaucipir Scan and Pathology - Temporal Composite Region",
+                    "description": "Correlation between flortaucipir standard uptake value ratio (SUVr) and neuropathology at autopsy. SUVr measurements for the analysis consisted of temporal composite region quantitation of the PET scan regions of interest (ROIs). Values were normalized to the brainstem to obtain the SUVr. Neuropathology was measured by immunohistology using AT8 antibody. Spearman correlation coefficient was calculated. Spearman correlation coefficients range from -1 to +1. A value of -1 indicates perfect negative correlation, and a value of +1 indicates a perfect positive correlation.",
+                    "populationDescription": "One subject did not come to autopsy within 6 months of the flortaucipir scan.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Correlation coefficient",
+                    "timeFrame": "autopsy within 6 months of scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Autopsy Cohort",
+                            "description": "End-of-life subjects (life expectancy \\< 6 months) consenting to brain donation at autopsy. Subjects received a single IV bolus injection of 370 MBq(10 mCi) of flortaucipir and came to autopsy within 6 months of flortaucipir scan."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.324"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Null hypothesis is no correlation (correlation coefficient = 0)",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.0712",
+                            "pValueComment": "A two-sided correlation test (rho \u2260 0) was performed with a significance level of alpha = 0.05 to assess a significant correlation.",
+                            "statisticalMethod": "Spearman's Rank Order Correlation test",
+                            "paramType": "Correlation coefficient",
+                            "paramValue": "0.324",
+                            "ciNumSides": "TWO_SIDED"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Relationship of Flortaucipir Scan and Pathology - Occipital Composite Region",
+                    "description": "Correlation between flortaucipir standard uptake value ratio (SUVr) and neuropathology at autopsy. SUVr measurements for the analysis consisted of occipital composite region quantitation of the PET scan regions of interest (ROIs). Values were normalized to the brainstem to obtain the SUVr. Neuropathology was measured by immunohistology using AT8 antibody. Spearman correlation coefficient was calculated. Spearman correlation coefficients range from -1 to +1. A value of -1 indicates perfect negative correlation, and a value of +1 indicates a perfect positive correlation.",
+                    "populationDescription": "One subject did not come to autopsy within 6 months of the flortaucipir scan.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Correlation coefficient",
+                    "timeFrame": "autopsy within 6 months of scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Autopsy Cohort",
+                            "description": "End-of-life subjects (life expectancy \\< 6 months) consenting to brain donation at autopsy. Subjects received a single IV bolus injection of 370 MBq(10 mCi) of flortaucipir and came to autopsy within 6 months of flortaucipir scan."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.564"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Null hypothesis is no correlation (correlation coefficient = 0)",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.0958",
+                            "pValueComment": "A two-sided correlation test (rho \u2260 0) was performed with a significance level of alpha = 0.05 to assess a significant correlation.",
+                            "statisticalMethod": "Spearman's Rank Order Correlation test",
+                            "paramType": "Correlation coefficient",
+                            "paramValue": "0.564",
+                            "ciNumSides": "TWO_SIDED"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Relationship of Flortaucipir Scan and Pathology - Limbic Composite Region",
+                    "description": "Correlation between flortaucipir standard uptake value ratio (SUVr) and neuropathology at autopsy. SUVr measurements for the analysis consisted of limbic composite region quantitation of the PET scan regions of interest (ROIs). Values were normalized to the brainstem to obtain the SUVr. Neuropathology was measured by immunohistology using AT8 antibody. Spearman correlation coefficient was calculated. Spearman correlation coefficients range from -1 to +1. A value of -1 indicates perfect negative correlation, and a value of +1 indicates a perfect positive correlation.",
+                    "populationDescription": "One subject did not come to autopsy within 6 months of the flortaucipir scan.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Correlation coefficient",
+                    "timeFrame": "autopsy within 6 months of scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Autopsy Cohort",
+                            "description": "End-of-life subjects (life expectancy \\< 6 months) consenting to brain donation at autopsy. Subjects received a single IV bolus injection of 370 MBq(10 mCi) of flortaucipir and came to autopsy within 6 months of flortaucipir scan."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.189"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Null hypothesis is no correlation (correlation coefficient = 0)",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.558",
+                            "pValueComment": "A two-sided correlation test (rho \u2260 0) was performed with a significance level of alpha = 0.05 to assess a significant correlation.",
+                            "statisticalMethod": "Spearman's Rank Order Correlation test",
+                            "paramType": "Correlation coefficient",
+                            "paramValue": "-0.189",
+                            "ciNumSides": "TWO_SIDED"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Up to a total of 6 months",
+            "description": "Adverse events (AEs) were collected at scan visits, regardless of attribution to study drug. End of study for AE reporting was 48 hours after the last study drug administration. AEs occurring after study drug administration, but outside that window were not recorded, unless considered attributable to study drug.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Safety Analysis Cohort",
+                    "description": "End-of-life subjects (life expectancy \\< 6 months) consenting to brain donation at autopsy. Subjects received a single IV bolus injection of 370 MBq (10 mCi) of flortaucipir.",
+                    "deathsNumAffected": 2,
+                    "deathsNumAtRisk": 3,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 3,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 3
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "limitationsAndCaveats": {
+                "description": "The original intent of the protocol was to assess relationships between in vivo flortaucipir PET signal and tau pathology at a higher resolution than the Free Surfer ROIs, such as voxel-wise. Higher resolution could potentially offer more precise insights into tracer distribution patterns. However, the analysis was constrained by challenges in acquiring a complete set of pathology images from collaborators and unanticipated technical challenges in image processing."
+            },
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Medical Director",
+                "organization": "Avid Radiopharmaceuticals, Inc.",
+                "email": "AVD_Clinical_Ops@lists.lilly.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "18F-AV-1451 (flortaucipir F18; aka AV-1451, T807; marketed as TAUVID)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial compares 18F-AV-1451 PET imaging to autopsy tau pathology within six months \u2014 this is a diagnostic/imaging validation study (aim: relate PET signal to post\u2011mortem tau NFTs), not a therapeutic intervention. 18F-AV-1451 is a PET radiotracer that binds aggregated tau (neurofibrillary tangles). \ue200cite\ue202turn0search1\ue202turn0search0\ue201",
+        "Act (extracted details + web search results): 18F-AV-1451 (synonyms: AV-1451, T807) is flortaucipir F18, marketed as TAUVID \u2014 a radioactive diagnostic agent for PET imaging of tau NFTs approved by the FDA for use in evaluating adults with cognitive impairment. This agent is a diagnostic tracer, not a therapeutic drug. Sources: FDA approval announcement and Eli Lilly TAUVID product information. \ue200cite\ue202turn0search1\ue202turn0search0\ue202turn0search2\ue201",
+        "Web search results (key hits used):\n- FDA press release announcing first approval to image tau (TAUVID / flortaucipir F18). \ue200cite\ue202turn0search1\ue201\n- TAUVID (flortaucipir F18) product/prescribing information from Eli Lilly. \ue200cite\ue202turn0search0\ue202turn0search3\ue201\n- Lilly news release on TAUVID approval summarizing imaging vs autopsy studies used for approval. \ue200cite\ue202turn0search2\ue201\n- FDA Drug Trial Snapshot summarizing clinical trials supporting TAUVID. \ue200cite\ue202turn0search6\ue201",
+        "Reflect: Applying the category definitions: (1) Disease-targeted biologic \u2014 requires a biologic therapeutic (e.g., antibody) targeting pathology: not applicable. (2) Disease-targeted small molecule \u2014 requires a therapeutic small molecule targeting pathology: not applicable. (3) Cognitive enhancer \u2014 requires an intervention intended to improve cognition: not applicable. (4) Neuropsychiatric symptom improvement \u2014 requires intervention aimed at behavioral/psychiatric symptoms: not applicable. The study is diagnostic (imaging validation), so the correct classification is 'N/A'. No ambiguity in the description that would place it into any therapeutic category."
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

@@ -1,0 +1,897 @@
+{
+    "nct_id": "NCT02248636",
+    "title": "Cholinesterase Inhibitor Discontinuation",
+    "status": "COMPLETED",
+    "last_update_time": "2020-09-29",
+    "description_brief": "This study tries to determine if stopping certain medications that are used to treat dementia will cause worsening from the patient and family perspective.\n\nAll of the participants will take pills that look identical, and that may contain active drug or an inactive pill (a placebo). Half of the group will receive the same treatment they were taking before the study -- this is called the \"sham discontinuation\" arm. The other half will receive a reduced dose of their medication, and then an inactive pill (placebo) -- this is called the \"real discontinuation\" arm.\n\nParticipants will be able to return to their previous dose of medication at any time during the study. The percentage of people who return will be measured and compared. Other medical events and factors such as behaviors, thinking, and caregiver distress, will be measured and compared between the groups.",
+    "description_detailed": "There are no reliable findings from controlled trials about discontinuation of cholinesterase inhibitors from a patient and family perspective. It is unknown at what point these medications do not have effects, and how they can safely be discontinued.\n\nThe investigators will identify Veterans who have been taking a cholinesterase inhibitor (CI) (donepezil or galantamine) for at least one year. After informed consent, the investigators will randomize them to Real Taper (half-dose of the CI they had taken for 3 weeks, then placebo for 3 weeks), or Sham Taper (continued full dose of the CI they had taken for 6 weeks). The pills will be blinded by over-encapsulating of the drug or placebo.\n\nAn intake interview will ascertain history and measure behaviors, cognitive symptoms, and mood, as well as caregiver burden. Phone calls will assess treatment use and adverse events at week 2 and week 4. An exit interview at week 6 will measure the same variables as at baseline. Participants will be unblinded at that point so they will know which treatment had been used. A follow-up call at 12 weeks will ascertain ongoing treatment and any further adverse events.\n\nAt any point in the study, participants and caregivers will be able to return to their pre-study dose of medication.\n\nThe primary outcome is the percentage of participants who successfully complete a 6-week discontinuation. This will be compared between arms. Other outcomes related to medical events (e.g. hospitalizations, falls), symptoms (e.g. cognition, behaviors), and caregiver distress will be measured and compared.",
+    "phase": [
+        "PHASE2",
+        "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "72 people were enrolled and consented, but only 61 were randomized.",
+            "recruitmentDetails": "Veterans who have received a prescription for a cholinesterase inhibitor for one year or greater.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Real Discontinuation",
+                    "description": "This group is tapered off their previous cholinesterase inhibitor medication.\n\nCholinesterase inhibitor: This group receives a half-dose of their previous cholinesterase inhibitor medication (in overencapsulated form) for two weeks, then receives placebo."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Sham Discontinuation",
+                    "description": "This group receives their previous cholinesterase inhibitor medication, but in in placebo form.\n\nSham discontinuation: This group receives their previous dose of cholinesterase inhibitor medication, but in overencapsulated form"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "26"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "35"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "20"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "32"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "6"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Real Discontinuation",
+                    "description": "This group is tapered off their previous cholinesterase inhibitor medication.\n\nCholinesterase inhibitor: This group receives a half-dose of their previous cholinesterase inhibitor medication (in overencapsulated form) for two weeks, then receives placebo."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Sham Discontinuation",
+                    "description": "This group receives their previous cholinesterase inhibitor medication, but in in placebo form.\n\nSham discontinuation: This group receives their previous dose of cholinesterase inhibitor medication, but in overencapsulated form."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "26"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "35"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "61"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "23"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "56"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "77.34",
+                                            "spread": "10.48"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "77.94",
+                                            "spread": "9.72"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "77.69",
+                                            "spread": "9.97"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "35"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "60"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "34"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "60"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "29"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "54"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Successful Completion",
+                    "description": "Participants can return to their pre-study dose of medication at any time. If they complete 6 weeks of either real discontinuation or sham discontinuation, they are considered to have successfully completed treatment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "6 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Real Discontinuation",
+                            "description": "This group is tapered off their previous cholinesterase inhibitor medication.\n\nCholinesterase inhibitor: This group receives a half-dose of their previous cholinesterase inhibitor medication (in overencapsulated form) for two weeks, then receives placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham Discontinuation",
+                            "description": "This group receives their previous cholinesterase inhibitor medication, but in in placebo form.\n\nSham discontinuation: This group receives their previous dose of cholinesterase inhibitor medication, but in overencapsulated form"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "26"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "35"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "32"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Caregiver Burden",
+                    "description": "The Zarit Caregiver Burden Interview contains 22 items, each on a 5-point scale, for a maximum score of 110. The minimum score is 0. A higher score indicates worse subjective burden.",
+                    "populationDescription": "Not all of the caregivers completed the instrument. Some were unavailable after study enrollment. Some had a change in caregiver. Some refused to respond to all of the questions, since the instrument is rather lengthy.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Change in Zarit score",
+                    "timeFrame": "6 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Real Discontinuation",
+                            "description": "This group is tapered off their previous cholinesterase inhibitor medication.\n\nCholinesterase inhibitor: This group receives a half-dose of their previous cholinesterase inhibitor medication (in overencapsulated form) for two weeks, then receives placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham Discontinuation",
+                            "description": "This group receives their previous cholinesterase inhibitor medication, but in in placebo form.\n\nSham discontinuation: This group receives their previous dose of cholinesterase inhibitor medication, but in overencapsulated form"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "18"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5.58",
+                                            "spread": "11.13"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.66",
+                                            "spread": "17.56"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Veteran Cognition",
+                    "description": "Six-Item Screener is a telephone-based assessment of cognitive status. The score ranges from 0 to 6. A higher score indicates better cognition.",
+                    "populationDescription": "Some of the participants refused to complete the cognitive instrument over the phone.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Change in Six-Item Screener Score",
+                    "timeFrame": "6 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Real Discontinuation",
+                            "description": "This group is tapered off their previous cholinesterase inhibitor medication.\n\nCholinesterase inhibitor: This group receives a half-dose of their previous cholinesterase inhibitor medication (in overencapsulated form) for two weeks, then receives placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham Discontinuation",
+                            "description": "This group receives their previous cholinesterase inhibitor medication, but in in placebo form.\n\nSham discontinuation: This group receives their previous dose of cholinesterase inhibitor medication, but in overencapsulated form"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "20"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "30"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.15",
+                                            "spread": "2.13"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.13",
+                                            "spread": "0.90"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Veteran Functioning",
+                    "description": "The Alzheimer's Disease Cooperative Study ADL Scale (ADCS-ADL) is a 23-item scale divided into activities of daily living and independent activities of daily living. Scores range from 0-78. A lower score indicates worse functional ability.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "6 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Real Discontinuation",
+                            "description": "This group is tapered off their previous cholinesterase inhibitor medication.\n\nCholinesterase inhibitor: This group receives a half-dose of their previous cholinesterase inhibitor medication (in overencapsulated form) for two weeks, then receives placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham Discontinuation",
+                            "description": "This group receives their previous cholinesterase inhibitor medication, but in in placebo form.\n\nSham discontinuation: This group receives their previous dose of cholinesterase inhibitor medication, but in overencapsulated form"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "26"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "35"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.44",
+                                            "spread": "11.87"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.59",
+                                            "spread": "6.72"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Behavioral Symptoms",
+                    "description": "The Behavioral Pathology in Alzheimer's Disease Rating Scale (BEHAVE-AD) is a 25-item instrument. Scores range from 0-75, with a higher number indicating worse behavioral symptoms.",
+                    "populationDescription": "Not all caregivers were willing to respond to all the items.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "6 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Real Discontinuation",
+                            "description": "This group is tapered off their previous cholinesterase inhibitor medication.\n\nCholinesterase inhibitor: This group receives a half-dose of their previous cholinesterase inhibitor medication (in overencapsulated form) for two weeks, then receives placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham Discontinuation",
+                            "description": "This group receives their previous cholinesterase inhibitor medication, but in in placebo form.\n\nSham discontinuation: This group receives their previous dose of cholinesterase inhibitor medication, but in overencapsulated form"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "24"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "35"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.63",
+                                            "spread": "6.26"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-1.23",
+                                            "spread": "3.79"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Post-study Treatment Choice",
+                    "description": "Veteran and caregiver decision to continue, or to have restarted, the pre-study medication at 12 weeks. The participants were unblinded at 6 weeks, and were requested to make their own decision about restarting.",
+                    "populationDescription": "We were unable to reach some participants at 12 weeks.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "12 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Real Discontinuation",
+                            "description": "This group is tapered off their previous cholinesterase inhibitor medication.\n\nCholinesterase inhibitor: This group receives a half-dose of their previous cholinesterase inhibitor medication (in overencapsulated form) for two weeks, then receives placebo."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Sham Discontinuation",
+                            "description": "This group receives their previous cholinesterase inhibitor medication, but in in placebo form.\n\nSham discontinuation: This group receives their previous dose of cholinesterase inhibitor medication, but in overencapsulated form"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "25"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "32"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Participants taking pre-study medication",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Participants not taking pre-study medication",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Six weeks.",
+            "description": "Dementia patients have a variety of behavioral and health events, which may fluctuate over time. We considered adverse events to be novel medical events differing from baseline.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Real Discontinuation",
+                    "description": "This group is tapered off their previous cholinesterase inhibitor medication.\n\nCholinesterase inhibitor: This group receives a half-dose of their previous cholinesterase inhibitor medication (in overencapsulated form) for two weeks, then receives placebo.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 26,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 26,
+                    "otherNumAffected": 9,
+                    "otherNumAtRisk": 26
+                },
+                {
+                    "id": "EG001",
+                    "title": "Sham Discontinuation",
+                    "description": "This group receives their previous cholinesterase inhibitor medication, but in in placebo form.\n\nSham discontinuation: This group receives their previous dose of cholinesterase inhibitor medication, but in overencapsulated form",
+                    "deathsNumAffected": 1,
+                    "deathsNumAtRisk": 35,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 35,
+                    "otherNumAffected": 3,
+                    "otherNumAtRisk": 35
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Behavior",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "notes": "Behavior changed significantly",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 9,
+                            "numAffected": 9,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 35
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "limitationsAndCaveats": {
+                "description": "The study was designed to allow participants to stop the study medication at any time, and for any reason. This is different than administrative withdrawal."
+            },
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "William Banks, Associate Chief of Staff for Research",
+                "organization": "Puget Sound VA",
+                "email": "william.banks4@va.gov",
+                "phone": "206 764-2701"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "donepezil",
+        "rivastigmine",
+        "galantamine",
+        "(class: cholinesterase inhibitors)"
+    ],
+    "placebo": [
+        "inactive pill (placebo)",
+        "sham discontinuation (continued active drug)"
+    ],
+    "explanation_target": [
+        "Reason: The protocol is a discontinuation study of cholinesterase inhibitors (title: \"Cholinesterase Inhibitor Discontinuation\") \u2014 these drugs act by inhibiting acetylcholinesterase to increase acetylcholine and are used to improve cognition/behavior in Alzheimer's disease rather than to reliably alter core pathology. \ue200cite\ue202turn0search3\ue202turn0search9\ue201",
+        "Act: Key details extracted \u2014 intervention = stopping/reducing cholinesterase inhibitors vs sham discontinuation with identical-appearing pills; common drugs in this class are donepezil, rivastigmine, and galantamine. Clinical literature describes these agents as symptomatic (cognitive/behavioral) treatments, not established disease-modifying therapies. \ue200cite\ue202turn0search0\ue202turn0search3\ue201",
+        "Reflect: Classification as 'cognitive enhancer' fits because the trial manipulates symptomatic cholinergic therapy to see whether cognition/behavior/caregiver distress worsen when the symptomatic drug is withdrawn. Although some research has explored potential disease-modifying effects of cholinesterase inhibitors, those effects are not established and the clinical role of these drugs is symptomatic management \u2014 therefore the trial does not target core AD pathology (amyloid/tau) and is not a disease-targeting biologic or small molecule in that sense. Note: measures include behavior and caregiver outcomes, but the intervention's mechanism and approved indication support 'cognitive enhancer' as the correct category. \ue200cite\ue202turn0search6\ue202turn0search3\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The trial is a discontinuation study of cholinesterase inhibitors (donepezil, rivastigmine, galantamine). These drugs increase synaptic acetylcholine by inhibiting cholinesterase enzymes and thereby enhance cholinergic neurotransmission to improve cognition/behavior in AD \u2014 i.e., they act on neurotransmitter systems rather than on core disease pathology (amyloid/tau). \ue200cite\ue202turn0search2\ue202turn0search0\ue202turn0search6\ue201",
+        "Act: Extracted details and supporting web results \u2014 donepezil: a centrally acting, reversible acetylcholinesterase inhibitor that increases acetylcholine at synapses. \ue200cite\ue202turn0search2\ue201; rivastigmine: inhibits acetylcholinesterase and butyrylcholinesterase (dual cholinesterase inhibitor), increasing cholinergic transmission. \ue200cite\ue202turn0search0\ue202turn0search3\ue201; galantamine: inhibits acetylcholinesterase and allosterically modulates nicotinic receptors (dual mechanism enhancing cholinergic signalling). These agents are described in clinical literature as symptomatic/cognitive enhancers rather than established disease\u2011modifying therapies. \ue200cite\ue202turn0search6\ue202turn0search2\ue201",
+        "Reflect: Classification as 'D) Neurotransmitter Receptors' is appropriate because the intervention modulates cholinergic neurotransmission (a neurotransmitter system). Although cholinesterase inhibitors target enzymes (acetyl-/butyrylcholinesterase) rather than a receptor protein per se, CADRO's 'Neurotransmitter Receptors' category covers interventions that act on neurotransmitter systems (cholinergic signalling) and symptomatic cognitive enhancers; the trial is not disease\u2011modifying or multi\u2011target in the sense of CADRO R. If more detail were given suggesting direct disease\u2011modifying intent or another pathway, reassessment would be needed. \ue200cite\ue202turn0search3\ue202turn0search6\ue201"
+    ]
+}

@@ -1,0 +1,554 @@
+{
+    "nct_id": "NCT01565343",
+    "title": "Test-retest Reproducibility of 18F-AV-45 for Brain Imaging of Amyloid in Healthy Volunteers and Alzheimer's Disease Patients",
+    "status": "COMPLETED",
+    "last_update_time": "2012-05-08",
+    "description_brief": "This study will test if two AV-45 PET scans up to 4 weeks apart in AD subjects and healthy volunteers provide the same results. The study will also test two different AV-45 injection methods in a small subgroup of enrolled AD subjects (slow vs. fast bolus group).",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "AD Subjects",
+                    "description": "Male or female subjects \\> 50 years old; probable AD according to NINCDS-ADRDA criteria; MMSE 10-24"
+                },
+                {
+                    "id": "FG001",
+                    "title": "AD Subjects: Slow vs. Fast Bolus Group",
+                    "description": "Same inclusion criteria as AD subjects. The first injection given as a rapid bolus (\\< 5 second injection, with immediate flush). The second injection given as a slow bolus (approximately 20 to 30 second injection with a flush delayed by 10 seconds after dose administration)."
+                },
+                {
+                    "id": "FG002",
+                    "title": "Control Subjects",
+                    "description": "Healthy male or female subjects; 35-55 years old; no evidence of cognitive impairment; MMSE 29 or higher"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "11"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "10"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "10"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "10"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Administrative decision/technical issues",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "AD Subjects",
+                    "description": "Male or female subjects \\> 50 years old; probable AD according to NINCDS-ADRDA criteria; MMSE 10-24"
+                },
+                {
+                    "id": "BG001",
+                    "title": "AD Subjects: Slow vs. Fast Bolus Group",
+                    "description": "Same inclusion criteria as AD subjects. The first injection given as a rapid bolus (\\< 5 second injection, with immediate flush). The second injection given as a slow bolus (approximately 20 to 30 second injection with a flush delayed by 10 seconds after dose administration)."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Control Subjects",
+                    "description": "Healthy male or female subjects; 35-55 years old; no evidence of cognitive impairment; MMSE 29 or higher"
+                },
+                {
+                    "id": "BG003",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "11"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "4"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "10"
+                        },
+                        {
+                            "groupId": "BG003",
+                            "value": "25"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "69.7",
+                                            "spread": "10.66"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "79.0",
+                                            "spread": "3.56"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "44.4",
+                                            "spread": "5.64"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "61.1",
+                                            "spread": "16.30"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "16"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "25"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Mean Cortical to Cerebellum SUVR",
+                    "description": "Standardized Uptake Value ratio (SUVR) is the ratio of tracer uptake in predefined cortical regions, relative to uptake in the whole cerebellum.",
+                    "populationDescription": "Due to poor subject positioning that resulted in an incomplete brain image on the retest image day, accurate quantitative analysis for one healthy control was not possible, and the subject was excluded from the SUVR-based analyses.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "SUVR",
+                    "timeFrame": "50-70 min after injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AD Subjects",
+                            "description": "Male or female subjects \\> 50 years old; probable Alzheimer's Disease) AD according to National Institute of Neurological and Communication Disorders and Stroke-Alzheimer's Disease and Related Disorders Association (NINCDS-ADRDA) criteria; Mini-Mental State Examination (MMSE) 10-24"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Control Subjects",
+                            "description": "Healthy male or female subjects; 35-55 years old; no evidence of cognitive impairment; MMSE 29 or higher"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "9"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Test (50-70 min)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.416",
+                                            "spread": "0.245"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.005",
+                                            "spread": "0.055"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Retest (50-70 min)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.407",
+                                            "spread": "0.269"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.007",
+                                            "spread": "0.061"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Intra-class Correlation Coefficient (ICC) of AD subjects 50-70 min test vs. retest values",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "statisticalMethod": "ICC",
+                            "paramType": "ICC",
+                            "paramValue": "0.9893",
+                            "ciPctValue": "95"
+                        },
+                        {
+                            "groupIds": [
+                                "OG001"
+                            ],
+                            "groupDescription": "Intra-class Correlation Coefficient of Control subjects 50-70 min test vs. retest values",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "statisticalMethod": "ICC",
+                            "paramType": "ICC",
+                            "paramValue": "0.9574",
+                            "ciPctValue": "95"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Intra-subject variability (% difference) of AD subjects 50-70 min test vs. retest values",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "paramType": "Mean % difference",
+                            "paramValue": "2.35",
+                            "ciPctValue": "95",
+                            "dispersionType": "STANDARD_DEVIATION",
+                            "dispersionValue": "1.413"
+                        },
+                        {
+                            "groupIds": [
+                                "OG001"
+                            ],
+                            "groupDescription": "Intra-subject variability (% difference) of control subjects 50-70 min test vs. retest values",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "paramType": "Mean % difference",
+                            "paramValue": "1.49",
+                            "ciPctValue": "95",
+                            "dispersionType": "STANDARD_DEVIATION",
+                            "dispersionValue": "0.839"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "AEs reported within 7 days of injection. SAEs reported within 30 days of injection.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "AD Subjects",
+                    "description": "Male or female subjects \\> 50 years old; probable AD according to NINCDS-ADRDA criteria; MMSE 10-24",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 11,
+                    "otherNumAffected": 1,
+                    "otherNumAtRisk": 11
+                },
+                {
+                    "id": "EG001",
+                    "title": "AD Subjects: Slow vs. Fast Bolus Group",
+                    "description": "Same inclusion criteria as AD subjects. The first injection given as a rapid bolus (\\< 5 second injection, with immediate flush). The second injection given as a slow bolus (approximately 20 to 30 second injection with a flush delayed by 10 seconds after dose administration).",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 4,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 4
+                },
+                {
+                    "id": "EG002",
+                    "title": "Control Subjects",
+                    "description": "Healthy male or female subjects; 35-55 years old; no evidence of cognitive impairment; MMSE 29 or higher",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 10,
+                    "otherNumAffected": 1,
+                    "otherNumAtRisk": 10
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "SUPRAVENTRICULAR EXTRASYSTOLES",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA (11.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 4
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "VENTRICULAR EXTRASYSTOLES",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA (11.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 4
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 10
+                        }
+                    ]
+                },
+                {
+                    "term": "DYSGEUSIA",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (11.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 4
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "GT60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Chief Medical Officer",
+                "organization": "Avid Radiopharmaceuticals",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "18F-AV-45 (florbetapir; trade name Amyvid) \u2014 diagnostic PET radiotracer (not a therapeutic drug). \ue200cite\ue202turn0search3\ue202turn0search5\ue201"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The protocol describes repeat 18F-AV-45 (AV-45) PET scans and comparison of two injection methods (slow vs fast bolus) to assess test\u2013retest reproducibility of an amyloid imaging agent \u2014 i.e., a diagnostic imaging study, not a treatment trial. \ue200cite\ue202turn1search1\ue202turn0search4\ue201",
+        "Act: 18F-AV-45 is florbetapir (marketed as Amyvid), an F-18 PET radiotracer used to image beta-amyloid neuritic plaque density for diagnostic/adjunct evaluation of Alzheimer's disease; it is not a disease-modifying therapeutic (no active pharmacologic treatment or placebo is being tested). \ue200cite\ue202turn0search3\ue202turn0search5\ue202turn0search6\ue201",
+        "Act (trial record): The registered study (NCT01565343) explicitly describes two AV-45 PET scans up to 4 weeks apart and a small subgroup comparison of injection methods, confirming this is a reproducibility/diagnostic imaging protocol. \ue200cite\ue202turn1search1\ue201",
+        "Reflect: Given the intervention is a diagnostic radiotracer and the aim is measurement reproducibility (not to modify disease biology or cognitive/behavioral symptoms), the correct category is 'N/A' (does not fit the four therapeutic categories). No therapeutic small molecule, biologic, cognitive enhancer, or neuropsychiatric intervention is being evaluated. \ue200cite\ue202turn0search5\ue202turn1search1\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

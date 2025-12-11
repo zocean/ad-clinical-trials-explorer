@@ -1,0 +1,833 @@
+{
+    "nct_id": "NCT05069155",
+    "title": "Gamification to Improve Physical Activity in Older Adults at Risk for Alzheimer's: the STEP 4Life Trial",
+    "status": "COMPLETED",
+    "last_update_time": "2023-11-07",
+    "description_brief": "The objective of this study is to test the feasibility of using behavioral economic interventions (gamification with social incentives) targeting daily step counts to prevent or delay the development of Alzheimer's Disease and Related Dementias (ADRD).",
+    "description_detailed": "Increased physical activity by walking further or more vigorously may prevent or delay the development of Alzheimer's Disease and Related Dementias (ADRD) but reaching higher levels of activity and maintaining it as a long-term habit is difficult to do. This project will use concepts from behavioral science to create a game older adults can play in order to increase their levels of activity while having fun doing it. The game is played with a support partner who is a spouse, family member, or close friend who provides feedback and encouragement to help the game-player reach activity goals and maintain them as habits over time. Participants in the game will use their own smartphone and a wristwatch that tracks activity (such as a FitBit, provided by this study) to set goals, get feedback, and play the game for 12 weeks. Participants will be asked to continue wearing the wristwatch for another 6 weeks to track activity after the game is over. To determine the effectiveness of this game, investigators will randomly assign 50 people to the game and 50 people to only get the wristwatch but no game component. All participants in this study will be recruited from an online registry of adults age 55-75 who have not been diagnosed with Alzheimer's (GeneMatch) which offers genetic testing on risk for ADRD to all participants. Investigators will recruit participants who have elevated genetic risk as well as those without specific genetic risks for the study to see if either group responds differently to the game.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "HEALTH_SERVICES_RESEARCH",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "240 participants were officially consented and enrolled per study design protocol. Out of 240, 137 are deemed ineligible due to high baseline (\\>7500 steps) during the 2-week run-in or did not complete all recruitment steps before the study closed for enrollment.\n\nOut of 103 randomized, 9 from the intervention arm dropped before starting the study.",
+            "recruitmentDetails": "After a participant consented to participating in the study, they are given a Fitbit device to wear for a 2 week run-in period to collect step and sleep data to estimate their 2-week baseline. Participants with a baseline above 7500 are excluded from the study due to them being too active.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Control",
+                    "description": "Participants will receive a wearable device (e.g. FitBit) but no other interventions during the intervention or follow-up periods.Participants will also complete milestones within the study, such as the cognition and function assessment during weeks 1- 2, and 15-16. Participants will complete an end-of-study questionnaire on their experience with the wearable device and time in the study."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Gamification",
+                    "description": "Intervention participants will receive a wearable device (eg. FitBit) and enter a game designed with behavioral economics concepts over a 12-week intervention period. At the end of the 12 weeks, participants will enter a 6 week follow-up period where interventions will cease but passive step data collection will continue. Participants will complete milestones within the study: cognition and function assessment at weeks 1- 2, and 15-16. They will complete an end-of-study questionnaire on their experience with the wearable device and intervention design.\n\nGamification: Each participant signs a pre-commitment contract agreeing to try their best to achieve their daily step goal. Each week over the 12 week intervention period, participants are endowed 70 points (10/day). Participants are told they will lose 10 points for each day the step goal is not met. Points are refreshed at the start of the week. At the end of the week, if the participant has 40 points or more, they will advance one level, or drop one level if they have less than 40 points. The levels include: blue (lowest), bronze, silver, gold, platinum (highest). Each participant begins in the middle (silver). Each participant will select a spouse, family member, or friend they see often to serve as supportive sponsor that receives a weekly email on participant progress including points, game level, and average step count. The supportive sponsor will enhance social incentives to motivate the participant towards their goal."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "50"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "44"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "49"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "41"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "94 participants were started in the study, but 4 participants dropped out. 90 participants completed the entire study.",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Control",
+                    "description": "Participants will receive a wearable device (e.g. FitBit) but no other interventions during the intervention or follow-up periods.Participants will also complete milestones within the study, such as the cognition and function assessment during weeks 1- 2, and 15-16. Participants will complete an end-of-study questionnaire on their experience with the wearable device and time in the study."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Gamification",
+                    "description": "Intervention participants will receive a wearable device (eg. FitBit) and enter a game designed with behavioral economics concepts over a 12-week intervention period. At the end of the 12 weeks, participants will enter a 6 week follow-up period where interventions will cease but passive step data collection will continue. Participants will complete milestones within the study: cognition and function assessment at weeks 1- 2, and 15-16. They will complete an end-of-study questionnaire on their experience with the wearable device and intervention design.\n\nGamification: Each participant signs a pre-commitment contract agreeing to try their best to achieve their daily step goal. Each week over the 12 week intervention period, participants are endowed 70 points (10/day). Participants are told they will lose 10 points for each day the step goal is not met. Points are refreshed at the start of the week. At the end of the week, if the participant has 40 points or more, they will advance one level, or drop one level if they have less than 40 points. The levels include: blue (lowest), bronze, silver, gold, platinum (highest). Each participant begins in the middle (silver). Each participant will select a spouse, family member, or friend they see often to serve as supportive sponsor that receives a weekly email on participant progress including points, game level, and average step count. The supportive sponsor will enhance social incentives to motivate the participant towards their goal."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "50"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "44"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "94"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "49"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "42"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "91"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "populationDescription": "Larger amount of participants in intervention arm dropped out or considered lost to follow-up compared to control arm.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "36"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "34"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "70"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "24"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "populationDescription": "Larger amount of participants in intervention arm dropped out or considered lost to follow-up compared to control arm.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "50"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "42"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "92"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "populationDescription": "Larger amount of participants in intervention arm dropped out or considered lost to follow-up compared to control arm.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "48"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "44"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "92"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "populationDescription": "Larger amount of participants in intervention arm dropped out or considered lost to follow-up compared to control arm.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "50"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "44"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "94"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "APOE4 genotype",
+                    "description": "The APOE4 genotype increases the risk of developing Alzheimer's disease. Participants are categorized as being a carrier (higher risk) or non-carrier.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Carrier",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "52"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Non-carrier",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "23"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "40"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Missing",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Mean Daily Steps From the Baseline Period to the End of the 12 Week Intervention Period.",
+                    "description": "The primary outcome of the study is the change in mean daily steps from the baseline period to the end of the 12 week intervention period collected by Fitbit Inspire device.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "steps",
+                    "timeFrame": "Baseline to 12 week intervention period (Weeks 1 - 12)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Control",
+                            "description": "Participants will receive a wearable device (e.g. FitBit) but no other interventions during the intervention or follow-up periods.Participants will also complete milestones within the study, such as the cognition and function assessment during weeks 1- 2, and 15-16. Participants will complete an end-of-study questionnaire on their experience with the wearable device and time in the study."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Gamification",
+                            "description": "Intervention participants will receive a wearable device (eg. FitBit) and enter a game designed with behavioral economics concepts over a 12-week intervention period. At the end of the 12 weeks, participants will enter a 6 week follow-up period where interventions will cease but passive step data collection will continue. Participants will complete milestones within the study: cognition and function assessment at weeks 1- 2, and 15-16. They will complete an end-of-study questionnaire on their experience with the wearable device and intervention design.\n\nGamification: Each participant signs a pre-commitment contract agreeing to try their best to achieve their daily step goal. Each week over the 12 week intervention period, participants are endowed 70 points (10/day). Participants are told they will lose 10 points for each day the step goal is not met. Points are refreshed at the start of the week. At the end of the week, if the participant has 40 points or more, they will advance one level, or drop one level if they have less than 40 points. The levels include: blue (lowest), bronze, silver, gold, platinum (highest). Each participant begins in the middle (silver). Each participant will select a spouse, family member, or friend they see often to serve as supportive sponsor that receives a weekly email on participant progress including points, game level, and average step count. The supportive sponsor will enhance social incentives to motivate the participant towards their goal."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "50"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "44"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "735",
+                                            "spread": "1306"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2422",
+                                            "spread": "1460"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Mean Daily Step Counts During the 6 Week Follow-up Period After the End of the Intervention Period Tracked by Fitbit Inspire Device.",
+                    "description": "The secondary outcome will examine the change in mean daily step counts during the 6 week follow-up period after the end of the 12 week intervention period.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "steps",
+                    "timeFrame": "6 week follow-up period (Weeks 13 - 18)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Control",
+                            "description": "Participants will receive a wearable device (e.g. FitBit) but no other interventions during the intervention or follow-up periods.Participants will also complete milestones within the study, such as the cognition and function assessment during weeks 1- 2, and 15-16. Participants will complete an end-of-study questionnaire on their experience with the wearable device and time in the study."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Gamification",
+                            "description": "Intervention participants will receive a wearable device (eg. FitBit) and enter a game designed with behavioral economics concepts over a 12-week intervention period. At the end of the 12 weeks, participants will enter a 6 week follow-up period where interventions will cease but passive step data collection will continue. Participants will complete milestones within the study: cognition and function assessment at weeks 1- 2, and 15-16. They will complete an end-of-study questionnaire on their experience with the wearable device and intervention design.\n\nGamification: Each participant signs a pre-commitment contract agreeing to try their best to achieve their daily step goal. Each week over the 12 week intervention period, participants are endowed 70 points (10/day). Participants are told they will lose 10 points for each day the step goal is not met. Points are refreshed at the start of the week. At the end of the week, if the participant has 40 points or more, they will advance one level, or drop one level if they have less than 40 points. The levels include: blue (lowest), bronze, silver, gold, platinum (highest). Each participant begins in the middle (silver). Each participant will select a spouse, family member, or friend they see often to serve as supportive sponsor that receives a weekly email on participant progress including points, game level, and average step count. The supportive sponsor will enhance social incentives to motivate the participant towards their goal."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "50"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "44"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "705",
+                                            "spread": "1916"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1983",
+                                            "spread": "1478"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Change in Moderate-vigorous Physical Activity Minutes (MVPA) During the Start of the Intervention Period Compared to Baseline Period.",
+                    "description": "MVPA is defined as \u2265 100 steps per minute. We will calculate minutes of MVPA per day.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "minutes",
+                    "timeFrame": "Baseline to 12 week intervention period (Weeks 1-2)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Control",
+                            "description": "Participants will receive a wearable device (e.g. FitBit) but no other interventions during the intervention or follow-up periods.Participants will also complete milestones within the study, such as the cognition and function assessment during weeks 1- 2, and 15-16. Participants will complete an end-of-study questionnaire on their experience with the wearable device and time in the study."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Gamification",
+                            "description": "Intervention participants will receive a wearable device (eg. FitBit) and enter a game designed with behavioral economics concepts over a 12-week intervention period. At the end of the 12 weeks, participants will enter a 6 week follow-up period where interventions will cease but passive step data collection will continue. Participants will complete milestones within the study: cognition and function assessment at weeks 1- 2, and 15-16. They will complete an end-of-study questionnaire on their experience with the wearable device and intervention design.\n\nGamification: Each participant signs a pre-commitment contract agreeing to try their best to achieve their daily step goal. Each week over the 12 week intervention period, participants are endowed 70 points (10/day). Participants are told they will lose 10 points for each day the step goal is not met. Points are refreshed at the start of the week. At the end of the week, if the participant has 40 points or more, they will advance one level, or drop one level if they have less than 40 points. The levels include: blue (lowest), bronze, silver, gold, platinum (highest). Each participant begins in the middle (silver). Each participant will select a spouse, family member, or friend they see often to serve as supportive sponsor that receives a weekly email on participant progress including points, game level, and average step count. The supportive sponsor will enhance social incentives to motivate the participant towards their goal."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "50"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "44"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4.2",
+                                            "spread": "6.4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "9.1",
+                                            "spread": "10.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Change in Moderate-vigorous Physical Activity (MVPA) Minutes During the Baseline and Follow-up Period (Weeks 13-18).",
+                    "description": "MVPA is defined as \u2265 100 steps per minute. We will calculate minutes of MVPA per day.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "minutes",
+                    "timeFrame": "Baseline and 6 week follow-up period (Weeks 13 - 18)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Control",
+                            "description": "Participants will receive a wearable device (e.g. FitBit) but no other interventions during the intervention or follow-up periods.Participants will also complete milestones within the study, such as the cognition and function assessment during weeks 1- 2, and 15-16. Participants will complete an end-of-study questionnaire on their experience with the wearable device and time in the study."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Gamification",
+                            "description": "Intervention participants will receive a wearable device (eg. FitBit) and enter a game designed with behavioral economics concepts over a 12-week intervention period. At the end of the 12 weeks, participants will enter a 6 week follow-up period where interventions will cease but passive step data collection will continue. Participants will complete milestones within the study: cognition and function assessment at weeks 1- 2, and 15-16. They will complete an end-of-study questionnaire on their experience with the wearable device and intervention design.\n\nGamification: Each participant signs a pre-commitment contract agreeing to try their best to achieve their daily step goal. Each week over the 12 week intervention period, participants are endowed 70 points (10/day). Participants are told they will lose 10 points for each day the step goal is not met. Points are refreshed at the start of the week. At the end of the week, if the participant has 40 points or more, they will advance one level, or drop one level if they have less than 40 points. The levels include: blue (lowest), bronze, silver, gold, platinum (highest). Each participant begins in the middle (silver). Each participant will select a spouse, family member, or friend they see often to serve as supportive sponsor that receives a weekly email on participant progress including points, game level, and average step count. The supportive sponsor will enhance social incentives to motivate the participant towards their goal."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "50"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "44"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3.8",
+                                            "spread": "11.5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "8",
+                                            "spread": "11.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "12-week intervention and 6-week follow-up",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Control",
+                    "description": "Participants will receive a wearable device (e.g. FitBit) but no other interventions during the intervention or follow-up periods.Participants will also complete milestones within the study, such as the cognition and function assessment during weeks 1- 2, and 15-16. Participants will complete an end-of-study questionnaire on their experience with the wearable device and time in the study.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 50,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 50,
+                    "otherNumAffected": 2,
+                    "otherNumAtRisk": 50
+                },
+                {
+                    "id": "EG001",
+                    "title": "Gamification",
+                    "description": "Intervention participants will receive a wearable device (eg. FitBit) and enter a game designed with behavioral economics concepts over a 12-week intervention period. At the end of the 12 weeks, participants will enter a 6 week follow-up period where interventions will cease but passive step data collection will continue. Participants will complete milestones within the study: cognition and function assessment at weeks 1- 2, and 15-16. They will complete an end-of-study questionnaire on their experience with the wearable device and intervention design.\n\nGamification: Each participant signs a pre-commitment contract agreeing to try their best to achieve their daily step goal. Each week over the 12 week intervention period, participants are endowed 70 points (10/day). Participants are told they will lose 10 points for each day the step goal is not met. Points are refreshed at the start of the week. At the end of the week, if the participant has 40 points or more, they will advance one level, or drop one level if they have less than 40 points. The levels include: blue (lowest), bronze, silver, gold, platinum (highest). Each participant begins in the middle (silver). Each participant will select a spouse, family member, or friend they see often to serve as supportive sponsor that receives a weekly email on participant progress including points, game level, and average step count. The supportive sponsor will enhance social incentives to motivate the participant towards their goal.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 44,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 44,
+                    "otherNumAffected": 2,
+                    "otherNumAtRisk": 44
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Skin rash",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "notes": "Rash at the site of watch wristband",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 50
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 44
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Clinical research coordinator",
+                "organization": "University of Pennsylvania",
+                "email": "aileen.oon@pennmedicine.upenn.edu",
+                "phone": "7574471579"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The study (STEP 4Life) tests a behavioral-economic gamification intervention (game with social/support partner incentives) to increase daily step counts and physical activity in older adults at risk for Alzheimer's disease, with the aim of preventing or delaying ADRD. This is a behavioral/behavior-change intervention, not a pharmacologic agent or biologic targeting AD pathology. \ue200cite\ue202turn0search4\ue202turn0search0\ue201",
+        "Act (extracted details & web search results): Title: \"Effect of gamification with a support partner to increase physical activity in older adults at risk for Alzheimer's disease: The STEP 4Life randomized clinical trial\" (STEP 4Life). Intervention: behaviorally designed gamified program with a support partner to increase steps. Design: 12-week randomized controlled trial with 3\u2011week follow-up; control set step goals + daily feedback; intervention added gamified incentives and support partner. Result highlight: intervention increased mean daily steps by ~1699 steps/day vs control (sustained at follow-up). Trial registration: ClinicalTrials.gov NCT05069155. Sources: PubMed/Alzheimer's & Dementia abstract and full text (PMC). \ue200cite\ue202turn0search0\ue202turn0search4\ue202turn0search1\ue201",
+        "Web search results (selected): - PubMed record / journal abstract: \"Effect of gamification...: The STEP 4Life randomized clinical trial.\" (Alzheimers Dement. 2024). \ue200cite\ue202turn0search0\ue201 - Full-text (PMC) of the trial with methods/results and discussion. \ue200cite\ue202turn0search4\ue201 - University page / pilot award summary describing aims of the gamification intervention. \ue200cite\ue202turn0search5\ue201 - eScholarship / other mirrors with trial summary. \ue200cite\ue202turn0search3\ue201 - DOI/abstract mirrors summarizing the randomized trial. \ue200cite\ue202turn0search6\ue201",
+        "Reflect: Classification check \u2014 by the provided category definitions: (1) disease-targeted biologic = biologic targeting AD pathology (e.g., monoclonal antibody) \u2014 not applicable; (2) disease-targeted small molecule = small-molecule drug targeting pathology \u2014 not applicable; (3) cognitive enhancer = pharmacologic agent aimed at improving cognition without targeting pathology \u2014 not applicable; (4) neuropsychiatric symptom improvement = interventions for behavioral/psychiatric symptoms \u2014 not applicable. The STEP 4Life intervention is a non-pharmacologic behavioral intervention to increase physical activity (a prevention strategy), so the correct classification is 'N/A'. \ue200cite\ue202turn0search4\ue202turn0search0\ue201",
+        "Note on ambiguity/missing info: No drug or biologic is involved in this trial; therefore no drug name or placebo exists to search for. Web sources above confirm the behavioral nature of the intervention and provide trial details. \ue200cite\ue202turn0search4\ue202turn0search1\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

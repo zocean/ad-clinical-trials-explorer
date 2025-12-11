@@ -1,0 +1,1328 @@
+{
+    "nct_id": "NCT04330482",
+    "title": "Translating a Dementia Caregiver Intervention Into a Mobile Application",
+    "status": "COMPLETED",
+    "last_update_time": "2023-09-06",
+    "description_brief": "The overall goal of this development project is to combine elements of two efficacious interventions into a mobile health (mHealth) App for informal dementia caregivers. The investigators will conduct a 3-month feasibility trial of the newly-developed CARE-Well App in 40 dementia caregivers to establish acceptability and feasibility of the intervention, study procedures, and outcome measures.",
+    "description_detailed": "Caring for a person with dementia is a highly stressful activity and is associated with negative physical and mental health consequences, including increased risk of depression and worse reported health-related quality of life. The proposed project aims to develop and translate an evidence-based, multi-component intervention into a mHealth App that has the potential to increase dementia caregivers' access to support and care.\n\nThe investigators will conduct a feasibility trial, in which 40 dementia caregivers will be randomized to receive a computer tablet preloaded with the CARE-well App or preloaded with internet links relevant to dementia and caregiving. Paper outcome measures will be assessed at baseline and end of intervention (3 months) during each study visit. To measure sustainability of the App, the first 10 caregivers from each group will be offered the tablets for an additional month to monitor usage of the App outside the formal trial. The goal of this aim is to determine feasibility of the intervention, study procedures, and outcome measures.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Internet Links",
+                    "description": "A tablet pre-loaded with a list of internet links relating to dementia caregiving that participants will be instructed to use at least 4 times weekly for 3 months.\n\nInternet Links: Participants randomized into this group will be instructed to use a computer tablet pre-loaded with a list of internet links relevant to dementia caregiving at least 4 times per week."
+                },
+                {
+                    "id": "FG001",
+                    "title": "CARE-Well App",
+                    "description": "A tablet pre-loaded with the CARE-Well app that participants will be instructed to use at least 4 times weekly for 3 months.\n\nCARE-Well App: Participants randomized into this group will be instructed to use the CARE-Well App at least 4 times per week."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "20"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "20"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "18"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "16"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Internet Links",
+                    "description": "A tablet pre-loaded with a list of internet links relating to dementia caregiving that participants will be instructed to use at least 4 times weekly for 3 months.\n\nInternet Links: Participants randomized into this group will be instructed to use a computer tablet pre-loaded with a list of internet links relevant to dementia caregiving at least 4 times per week."
+                },
+                {
+                    "id": "BG001",
+                    "title": "CARE-Well App",
+                    "description": "A tablet pre-loaded with the CARE-Well app that participants will be instructed to use at least 4 times weekly for 3 months.\n\nCARE-Well App: Participants randomized into this group will be instructed to use the CARE-Well App at least 4 times per week."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "20"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "20"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "40"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "16"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "24"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "68.70",
+                                            "spread": "8.15"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "64.05",
+                                            "spread": "12.43"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "66.38",
+                                            "spread": "10.64"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "27"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "38"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "38"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "40"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Depression",
+                    "description": "Center for Epidemiologic Studies- Depression Scale; scores range from 0-30; higher scores reflect greater depression",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12.95",
+                                            "spread": "8.02"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "13.55",
+                                            "spread": "9.69"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "13.25",
+                                            "spread": "9.69"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Randomization",
+                    "description": "Percentage of participants who decline participation because of randomization.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Internet Links",
+                            "description": "A tablet pre-loaded with a list of internet links relating to dementia caregiving that participants will be instructed to use at least 4 times weekly for 3 months.\n\nInternet Links: Participants randomized into this group will be instructed to use a computer tablet pre-loaded with a list of internet links relevant to dementia caregiving at least 4 times per week."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "CARE-Well App",
+                            "description": "A tablet pre-loaded with the CARE-Well app that participants will be instructed to use at least 4 times weekly for 3 months.\n\nCARE-Well App: Participants randomized into this group will be instructed to use the CARE-Well App at least 4 times per week."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "20"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Study Enrollment Rate and Retention",
+                    "description": "Percentage of participants enrolled and who remain enrolled for the duration of the study.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Internet Links",
+                            "description": "A tablet pre-loaded with a list of internet links relating to dementia caregiving that participants will be instructed to use at least 4 times weekly for 3 months.\n\nInternet Links: Participants randomized into this group will be instructed to use a computer tablet pre-loaded with a list of internet links relevant to dementia caregiving at least 4 times per week."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "CARE-Well App",
+                            "description": "A tablet pre-loaded with the CARE-Well app that participants will be instructed to use at least 4 times weekly for 3 months.\n\nCARE-Well App: Participants randomized into this group will be instructed to use the CARE-Well App at least 4 times per week."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "20"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Intervention Adherence",
+                    "description": "Percentage of participants who used the internet links or the app for the 3-month intervention period.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Internet Links",
+                            "description": "A tablet pre-loaded with a list of internet links relating to dementia caregiving that participants will be instructed to use at least 4 times weekly for 3 months.\n\nInternet Links: Participants randomized into this group will be instructed to use a computer tablet pre-loaded with a list of internet links relevant to dementia caregiving at least 4 times per week."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "CARE-Well App",
+                            "description": "A tablet pre-loaded with the CARE-Well app that participants will be instructed to use at least 4 times weekly for 3 months.\n\nCARE-Well App: Participants randomized into this group will be instructed to use the CARE-Well App at least 4 times per week."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "18"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Timing of Assessments",
+                    "description": "Percentage of participants who completed assessments at baseline and follow-up within two weeks of enrollment or completion of the study.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Internet Links",
+                            "description": "A tablet pre-loaded with a list of internet links relating to dementia caregiving that participants will be instructed to use at least 4 times weekly for 3 months.\n\nInternet Links: Participants randomized into this group will be instructed to use a computer tablet pre-loaded with a list of internet links relevant to dementia caregiving at least 4 times per week."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "CARE-Well App",
+                            "description": "A tablet pre-loaded with the CARE-Well app that participants will be instructed to use at least 4 times weekly for 3 months.\n\nCARE-Well App: Participants randomized into this group will be instructed to use the CARE-Well App at least 4 times per week."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "18"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Completion Rates",
+                    "description": "Percentage of participants who completed the intervention.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Internet Links",
+                            "description": "A tablet pre-loaded with a list of internet links relating to dementia caregiving that participants will be instructed to use at least 4 times weekly for 3 months.\n\nInternet Links: Participants randomized into this group will be instructed to use a computer tablet pre-loaded with a list of internet links relevant to dementia caregiving at least 4 times per week."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "CARE-Well App",
+                            "description": "A tablet pre-loaded with the CARE-Well app that participants will be instructed to use at least 4 times weekly for 3 months.\n\nCARE-Well App: Participants randomized into this group will be instructed to use the CARE-Well App at least 4 times per week."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "20"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Interest in Continuation of Tablet/App Use After Formal Trial",
+                    "description": "Percentage of participants in a subset of caregivers (10 from each group) interested in continuing to use tablet/App use after formal trial as an estimate of sustainability.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Internet Links",
+                            "description": "A tablet pre-loaded with a list of internet links relating to dementia caregiving that participants will be instructed to use at least 4 times weekly for 3 months.\n\nInternet Links: Participants randomized into this group will be instructed to use a computer tablet pre-loaded with a list of internet links relevant to dementia caregiving at least 4 times per week."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "CARE-Well App",
+                            "description": "A tablet pre-loaded with the CARE-Well app that participants will be instructed to use at least 4 times weekly for 3 months.\n\nCARE-Well App: Participants randomized into this group will be instructed to use the CARE-Well App at least 4 times per week."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "App Technology Satisfaction",
+                    "description": "Percentage of participants satisfied or very satisfied with App technology.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Internet Links",
+                            "description": "A tablet pre-loaded with a list of internet links relating to dementia caregiving that participants will be instructed to use at least 4 times weekly for 3 months.\n\nInternet Links: Participants randomized into this group will be instructed to use a computer tablet pre-loaded with a list of internet links relevant to dementia caregiving at least 4 times per week."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "CARE-Well App",
+                            "description": "A tablet pre-loaded with the CARE-Well app that participants will be instructed to use at least 4 times weekly for 3 months.\n\nCARE-Well App: Participants randomized into this group will be instructed to use the CARE-Well App at least 4 times per week."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "18"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "App Content Satisfaction",
+                    "description": "Percentage of participants satisfied or very satisfied with App content.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Internet Links",
+                            "description": "A tablet pre-loaded with a list of internet links relating to dementia caregiving that participants will be instructed to use at least 4 times weekly for 3 months.\n\nInternet Links: Participants randomized into this group will be instructed to use a computer tablet pre-loaded with a list of internet links relevant to dementia caregiving at least 4 times per week."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "CARE-Well App",
+                            "description": "A tablet pre-loaded with the CARE-Well app that participants will be instructed to use at least 4 times weekly for 3 months.\n\nCARE-Well App: Participants randomized into this group will be instructed to use the CARE-Well App at least 4 times per week."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "18"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Center for Epidemiologic Studies Depression Scale",
+                    "description": "Depression scale; 0-30 points; higher scores indicate worse outcome.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline and immediately Post-Intervention at 3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Internet Links",
+                            "description": "A tablet pre-loaded with a list of internet links relating to dementia caregiving that participants will be instructed to use at least 4 times weekly for 3 months.\n\nInternet Links: Participants randomized into this group will be instructed to use a computer tablet pre-loaded with a list of internet links relevant to dementia caregiving at least 4 times per week."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "CARE-Well App",
+                            "description": "A tablet pre-loaded with the CARE-Well app that participants will be instructed to use at least 4 times weekly for 3 months.\n\nCARE-Well App: Participants randomized into this group will be instructed to use the CARE-Well App at least 4 times per week."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "18"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "13.29",
+                                            "spread": "7.88"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "13.94",
+                                            "spread": "12.19"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Post-Intervention",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "16.71",
+                                            "spread": "8.36"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "17.38",
+                                            "spread": "11.67"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Zarit Burden Interview",
+                    "description": "Caregiver burden scale; 0-88 points; higher scores indicate worse outcome.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline and immediately Post-Intervention at 3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Internet Links",
+                            "description": "A tablet pre-loaded with a list of internet links relating to dementia caregiving that participants will be instructed to use at least 4 times weekly for 3 months.\n\nInternet Links: Participants randomized into this group will be instructed to use a computer tablet pre-loaded with a list of internet links relevant to dementia caregiving at least 4 times per week."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "CARE-Well App",
+                            "description": "A tablet pre-loaded with the CARE-Well app that participants will be instructed to use at least 4 times weekly for 3 months.\n\nCARE-Well App: Participants randomized into this group will be instructed to use the CARE-Well App at least 4 times per week."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "18"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "55.53",
+                                            "spread": "9.82"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "56.56",
+                                            "spread": "14.40"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Post Intervention",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "58.11",
+                                            "spread": "10.93"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "57.56",
+                                            "spread": "13.22"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Revised Memory and Behavior Problem Checklist",
+                    "description": "Caregiver reaction to problem behaviors; range 0-96 Higher scores indicate worse outcomes.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline and immediately Post-Intervention at 3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Internet Links",
+                            "description": "A tablet pre-loaded with a list of internet links relating to dementia caregiving that participants will be instructed to use at least 4 times weekly for 3 months.\n\nInternet Links: Participants randomized into this group will be instructed to use a computer tablet pre-loaded with a list of internet links relevant to dementia caregiving at least 4 times per week."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "CARE-Well App",
+                            "description": "A tablet pre-loaded with the CARE-Well app that participants will be instructed to use at least 4 times weekly for 3 months.\n\nCARE-Well App: Participants randomized into this group will be instructed to use the CARE-Well App at least 4 times per week."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "18"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "22.88",
+                                            "spread": "7.90"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "22.00",
+                                            "spread": "8.61"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Post Intervention",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "18.10",
+                                            "spread": "10.56"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "11.56",
+                                            "spread": "16.91"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Desire to Institutionalize Scale",
+                    "description": "Caregiver desire to institutionalize care recipient; 0-7 points; high scores indicate worse outcome (or stronger desire to institutionalize).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline and immediately Post-Intervention at 3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Internet Links",
+                            "description": "A tablet pre-loaded with a list of internet links relating to dementia caregiving that participants will be instructed to use at least 4 times weekly for 3 months.\n\nInternet Links: Participants randomized into this group will be instructed to use a computer tablet pre-loaded with a list of internet links relevant to dementia caregiving at least 4 times per week."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "CARE-Well App",
+                            "description": "A tablet pre-loaded with the CARE-Well app that participants will be instructed to use at least 4 times weekly for 3 months.\n\nCARE-Well App: Participants randomized into this group will be instructed to use the CARE-Well App at least 4 times per week."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "18"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.82",
+                                            "spread": "1.24"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.38",
+                                            "spread": "1.45"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Post Intervention",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.12",
+                                            "spread": "1.54"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.94",
+                                            "spread": "2.29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "3 months for each participant",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Internet Links",
+                    "description": "A tablet pre-loaded with a list of internet links relating to dementia caregiving that participants will be instructed to use at least 4 times weekly for 3 months.\n\nInternet Links: Participants randomized into this group will be instructed to use a computer tablet pre-loaded with a list of internet links relevant to dementia caregiving at least 4 times per week.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 20,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 20,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 20
+                },
+                {
+                    "id": "EG001",
+                    "title": "CARE-Well App",
+                    "description": "A tablet pre-loaded with the CARE-Well app that participants will be instructed to use at least 4 times weekly for 3 months.\n\nCARE-Well App: Participants randomized into this group will be instructed to use the CARE-Well App at least 4 times per week.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 20,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 20,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 20
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Geoffrey Tremont",
+                "organization": "Rhode Island Hospital",
+                "email": "gtremont@lifespan.org",
+                "phone": "401-444-4500"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention is a mobile health (mHealth) behavioral app (CARE\u2011Well) for informal dementia caregivers intended to test acceptability and feasibility (a psychosocial/support intervention), not a pharmacologic agent or a biologic targeting Alzheimer pathology. \ue200cite\ue202turn0search0\ue202turn0search2\ue201",
+        "Act: Key extracted trial details \u2014 3\u2011month feasibility randomized trial in 40 dementia caregivers; participants receive a tablet preloaded with either the CARE\u2011Well App or a set of internet links; caregivers were instructed to use the App/links ~4\u00d7 weekly; the App includes self\u2011assessments, psychoeducation, behavior\u2011management content, goal diary, and online support. These details come from the trial registry and publications describing the CARE\u2011Well development and pilot. \ue200cite\ue202turn0search0\ue202turn0search1\ue202turn0search2\ue201",
+        "Reflect: Because the study tests a behavioral/mobile intervention for caregivers (no drug, biologic, or small\u2011molecule is involved and there is no placebo arm), it does not fit the four therapeutic categories (disease\u2011targeted biologic, disease\u2011targeted small molecule, cognitive enhancer, or neuropsychiatric symptom improvement). The correct classification is 'N/A'. \ue200cite\ue202turn0search0\ue202turn0search2\ue201",
+        "Web search results (sources used): 1) Trial registry entry for NCT04330482 / 'Translating a Dementia Caregiver Intervention Into a Mobile Application' \u2014 describes the CARE\u2011Well App feasibility RCT (40 caregivers, 3 months, tablet with CARE\u2011Well vs internet links). \ue200cite\ue202turn0search0\ue202turn0search4\ue201 2) 'Initial Translation of a Dementia Caregiver Intervention Into a Mobile Health Application' (PMC article) \u2014 describes development of the CARE\u2011Well App, its components (assessments, psychoeducation, behavior management, forum, video library) and plans for pilot testing. \ue200cite\ue202turn0search2\ue201 3) Cambridge Core / Journal report summarizing the feasibility trial outcomes and App components (feasibility metrics, app usage, satisfaction). \ue200cite\ue202turn0search1\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

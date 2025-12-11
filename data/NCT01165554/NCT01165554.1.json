@@ -1,0 +1,714 @@
+{
+    "nct_id": "NCT01165554",
+    "title": "A Principal Open-Label Study to Compare the Brain Uptake of [18F]Flutemetamol With Brain Amyloid Levels Determined Post-Mortem",
+    "status": "COMPLETED",
+    "last_update_time": "2013-11-08",
+    "description_brief": "To determine the level of association between quantitative regional estimates of brain uptake of \\[18F\\]flutemetamol and quantitative immunohistochemical regional estimates of brain levels of amyloid estimated from post-mortem analysis of corresponding brain tissue samples.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "23 subjects withdrew from study prior to dosing of the product.",
+            "recruitmentDetails": "Study started on May, 2010 and ended on November 2011.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Flutemetamol Injection",
+                    "description": "\\[18F\\]flutemetamol (less than 10 microgram (ug) flutemetamol). The nominal activity of a single administration of \\[18F\\]flutemetamol was 185 to 370 megabecquerels (MBq)."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "This was the number of subjects that started the study.",
+                                    "numSubjects": "203"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "180"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "23"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "23"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Flutemetamol Injection",
+                    "description": "\\[18F\\]flutemetamol (less than 10 microgram (ug) flutemetamol). The nominal activity of a single administration of \\[18F\\]flutemetamol was 185 to 370 megabecquerels (MBq)."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "180"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "165"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "79.9",
+                                            "spread": "9.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "103"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "77"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "168"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "United Kingdom",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "The Sensitivity of Blinded Visual Interpretations of [18F]Flutemetamol Positron Emission Tomography (PET) Images Without Anatomic Brain Images for Detecting Brain Fibrillar Amyloid \u03b2.",
+                    "description": "A calculation used to assess Sensitivity was (Number of Blinded Reads determined abnormal by Reader \"N\") divided by the (Total number of abnormal participants).\n\nBlinded visual interpretations of \\[18F\\]flutemetamol Positron Emission Tomography (PET) images without anatomic brain images for detecting brain fibrillar amyloid \u03b2.",
+                    "populationDescription": "The assessments were post-mortum based on the estimates of the presence of amyloid plaque in the brain.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Percentage of Sensitivity by Reader",
+                    "timeFrame": "Post flutemetamol administration.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Sensitivity Percentage of Abnormal Visual Reads"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "43"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1- Abnormal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "81"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 - Abnormal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "88"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3 - Abnormal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "93"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4 - Abnormal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "93"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5 - Abnormal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "88"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Blinded Visual Interpretation of Each Subject's Flutemetamol F 18 Injection Brain PET Images as Normal, Without Anatomic Brain Images.",
+                    "description": "A calculation used to assess Specificity was (Number of Blinded Reads determined normal by Reader \"N\") divided by the (Total number of normal participants).\n\nBlinded visual interpretation of each subject's Flutemetamol F 18 Injection brain PET images as normal, without anatomic brain images.",
+                    "populationDescription": "The assessment was done post-mortum based on the estimates of the presence of amyloid plaque in the brain.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Percentage of Specificity by Reader",
+                    "timeFrame": "Post Flutemetamol administrations",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Specificity Percentage of Normal Visual Reads"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "25"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1 - Normal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "88"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 - Normal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "92"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3 - Normal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "44"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4 - Normal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "80"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5 - Normal",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "92"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Blinded Visual Interpretation of Each Subject's Flutemetamol F 18 Injection Brain PET Images as Abnormal, With Anatomic CT Brain Images for Reference.",
+                    "description": "Blinded visual interpretation of each subject's Flutemetamol F 18 Injection brain PET images as abnormal, with anatomic CT brain images for reference.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "Percent of Sensitivity-Abnormal Reads",
+                    "timeFrame": "Post flutemetamol administration.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Sensitivity-Abnormal Visual Reads",
+                            "description": "\\[18F\\]flutemetamol (less than 10 microgram (ug) flutemetamol). The nominal activity of a single administration of \\[18F\\]flutemetamol was 185 to 370 megabecquerels (MBq)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "43"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "91",
+                                            "lowerLimit": "78",
+                                            "upperLimit": "97"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "95",
+                                            "lowerLimit": "84",
+                                            "upperLimit": "99"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "98",
+                                            "lowerLimit": "88",
+                                            "upperLimit": "100"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "91",
+                                            "lowerLimit": "78",
+                                            "upperLimit": "97"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "91",
+                                            "lowerLimit": "77",
+                                            "upperLimit": "97"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Blinded Visual Interpretation of Each Subject's Flutemetamol F 18 Injection Brain PET Images as Normal, With Anatomic CT Brain Images for Reference.",
+                    "description": "Blinded visual interpretation of each subject's Flutemetamol F 18 Injection brain PET images as normal, with anatomic CT brain images for reference.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "Percent of Specificity-Normal Reads",
+                    "timeFrame": "Post flutemetamol administration.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Specificity-Normal Visual Reads",
+                            "description": "\\[18F\\]flutemetamol (less than 10 microgram (ug) flutemetamol). The nominal activity of a single administration of \\[18F\\]flutemetamol was 185 to 370 megabecquerels (MBq)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "25"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "92",
+                                            "lowerLimit": "74",
+                                            "upperLimit": "99"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "88",
+                                            "lowerLimit": "69",
+                                            "upperLimit": "98"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "56",
+                                            "lowerLimit": "35",
+                                            "upperLimit": "76"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "88",
+                                            "lowerLimit": "69",
+                                            "upperLimit": "98"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "92",
+                                            "lowerLimit": "74",
+                                            "upperLimit": "99"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Flutemetamol Injection",
+                    "description": "\\[18F\\]flutemetamol (less than 10 microgram (ug) flutemetamol). The nominal activity of a single administration of \\[18F\\]flutemetamol was 185 to 370 megabecquerels (MBq).",
+                    "seriousNumAffected": 4,
+                    "seriousNumAtRisk": 180,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 180
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Prostate Cancer",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "sourceVocabulary": "MedDRA 13.1",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 180
+                        }
+                    ]
+                },
+                {
+                    "term": "Anemia",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "sourceVocabulary": "MedDRA 13.1",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 180
+                        }
+                    ]
+                },
+                {
+                    "term": "Senile Dementia",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 13.1",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 180
+                        }
+                    ]
+                },
+                {
+                    "term": "Change in Mental Status",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 13.1",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 180
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Dr. Paul Sherwin",
+                "organization": "GE Healthcare",
+                "email": "paulsherwin@ge.com",
+                "phone": "1-609-514-6820"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "flutemetamol (Vizamyl) \u2014 an 18F-labeled PET radiotracer that binds \u03b2\u2011amyloid plaques"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention named ([18F]flutemetamol, aka Vizamyl) is a radiopharmaceutical PET tracer used to image and estimate brain \u03b2\u2011amyloid plaque burden for diagnostic/correlation purposes, not to treat disease or symptoms. \ue200cite\ue202turn0search4\ue202turn0search5\ue201",
+        "Act: Extracted details from the trial description \u2014 it compares quantitative regional brain uptake of [18F]flutemetamol with post\u2011mortem immunohistochemical measures of amyloid. Web sources confirm flutemetamol is an 18F\u2011labeled amyloid PET tracer (Vizamyl) indicated for estimating amyloid neuritic plaque density and used diagnostically rather than therapeutically. \ue200cite\ue202turn0search3\ue202turn0search4\ue202turn0search5\ue201",
+        "Web search results (key supporting references): PubMed description of flutemetamol as an 18F amyloid PET tracer. \ue200cite\ue202turn0search4\ue201; EMA summary describing Vizamyl as a PET agent that targets and attaches to \u03b2\u2011amyloid plaques for imaging. \ue200cite\ue202turn0search5\ue201; FDA/package\u2011insert style information confirming Vizamyl (flutemetamol F18) is indicated for PET to estimate amyloid plaque density (diagnostic use). \ue200cite\ue202turn0search3\ue202turn0search2\ue201",
+        "Reflect: Classification check \u2014 this trial evaluates a diagnostic imaging agent and correlation with post\u2011mortem pathology. It does not test a biologic therapeutic (e.g., monoclonal antibody) or a small\u2011molecule disease\u2011modifying drug, nor a cognitive enhancer or a neuropsychiatric symptom treatment. Therefore the correct category is 'N/A' (non\u2011therapeutic/diagnostic). No ambiguity in the description; the tracer is diagnostic only per labeling. \ue200cite\ue202turn0search3\ue202turn0search5\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

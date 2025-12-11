@@ -1,0 +1,854 @@
+{
+    "nct_id": "NCT00090402",
+    "title": "Fish Oil and Alpha Lipoic Acid in Mild Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2017-06-21",
+    "description_brief": "The purpose of this study is to determine the effect of fish oil and the antioxidant alpha lipoic acid on factors in the blood that are associated with the progression of Alzheimer's Disease (AD).",
+    "description_detailed": "Alzheimer's disease (AD) is a serious condition associated with increased inflammation, cholesterol, and oxidative stress (a condition involving an excess of free radicals and a decrease in antioxidant levels). Fish oil and alpha lipoic acid, which have few side effects, may help relieve these problems; therefore, these supplements may slow the progression of AD, particularly when given in combination. This study will evaluate the effect of fish oil and alpha lipoic acid on inflammation, lipid levels, and oxidative stress.\n\nParticipants in this study will be randomly assigned to receive fish oil alone, fish oil and alpha lipoic acid, or placebo for 1 year. AD rating scales as well as urine and blood tests will be used to assess participants. Participants will have monthly clinic visits during the study to monitor adverse events and to undergo various laboratory tests.",
+    "phase": [
+        "PHASE1",
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Fish Oil",
+                    "description": "Fish oil concentrate, daily dose 3 grams per day containing 675 mg docosahexanoic acid and 975 mg eicosapentanoic acid, taken for 12 months."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "Placebo oil (soybean oil), daily dose 3 grams taken for 12 months"
+                },
+                {
+                    "id": "FG002",
+                    "title": "Fish Oil Plus Lipoic Acid",
+                    "description": "Fish oil concentrate, daily dose 3 grams per day containing 675 mg docosahexaenoic acid and 975 mg eicosapentanoic acid plus alpha lipoic acid (racemic) daily dose 600 mg taken for 12 months."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "13"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "13"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "13"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "11"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "11"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "12"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Death",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "subject moved",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "stopped taking study medication",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Placebo",
+                    "description": "Placebo oil (soybean oil), daily dose 3 grams taken for 12 months"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Fish Oil",
+                    "description": "Fish oil concentrate, daily dose 3 grams per day containing 675 mg docosahexaenoic acid and 975 mg eicosapentanoic acid, taken for 12 months."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Fish Oil Plus Lipoic Acid",
+                    "description": "Fish oil concentrate, daily dose 3 grams per day containing 675 mg docosahexaenoic acid and 975 mg eicosapentanoic acid plus alpha lipoic acid (racemic) daily dose 600 mg taken for 12 months."
+                },
+                {
+                    "id": "BG003",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "13"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "13"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "13"
+                        },
+                        {
+                            "groupId": "BG003",
+                            "value": "39"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "33"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "75.2",
+                                            "spread": "10.8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "75.9",
+                                            "spread": "8.1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "76.7",
+                                            "spread": "10.6"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "75.9",
+                                            "spread": "9.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "21"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "39"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "F2-isoprostane Level Urine F2-Isoprostanes",
+                    "description": "F2-isoprostane is a biomarker was used as an effective indicator for detecting a decrease in systemic oxidative damage (oxidative damage in lipids). Urine F2-Isoprostanes were used to avoid ex vivo lipid peroxidation that can occur with plasma samples.",
+                    "populationDescription": "intention to treat (ITT)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "nanogram per miligram",
+                    "timeFrame": "baseline, 12 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Placebo oil (soybean oil), daily dose 3 grams taken for 12 months"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Fish Oil",
+                            "description": "Fish oil concentrate, daily dose 3 grams per day containing 675 mg docosahexaenoic acid and 975 mg eicosapentanoic acid, taken for 12 months."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Fish Oil Plus Lipoic Acid",
+                            "description": "Fish oil concentrate, daily dose 3 grams per day containing 675 mg docosahexaenoic acid and 975 mg eicosapentanoic acid plus alpha lipoic acid (racemic) daily dose 600 mg taken for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "13"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "13"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.40",
+                                            "spread": "1.10"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2.02",
+                                            "spread": "3.30"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0.45",
+                                            "spread": "0.53"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001",
+                                "OG002"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.83",
+                            "statisticalMethod": "Regression, Linear",
+                            "statisticalComment": "Adjusted for age and body mass index",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Mini-Mental State Exam (MMSE) Score From Baseline to 12 Months",
+                    "description": "The MMSE is a measure of global cognitive function, and scores range from 0-30, with a lower score indicates greater cognitive impairment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "baseline, 12 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Placebo oil (soybean oil), daily dose 3 grams taken for 12 months"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Fish Oil",
+                            "description": "Fish oil concentrate, daily dose 3 grams per day containing 675 mg docosahexaenoic acid and 975 mg eicosapentanoic acid, taken for 12 months."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Fish Oil Plus Lipoic Acid",
+                            "description": "Fish oil concentrate, daily dose 3 grams per day containing 675 mg docosahexaenoic acid and 975 mg eicosapentanoic acid plus alpha lipoic acid (racemic) daily dose 600 mg taken for 12 months."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-4.64",
+                                            "spread": "4.65"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-4.27",
+                                            "spread": "4.15"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "-1.00",
+                                            "spread": "2.30"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Activities of Daily Living/Instrumental Activities of Daily Living (ADL/IADL) Scores From Baseline to 12 Months",
+                    "description": "The Activities of Daily Living/Instrumental Activities of Daily Living (ADL/IADL) measures an individual's ability to carry out tasks that are important for daily living and capture functional changes. Scores for each question range from 0 (no assistance needed) to 2 (full assistance needed), and were assessed by informant interview. The combination of scores for ADL (ranging from 0-18) and IADL (0-14) is the outcome (0-32), with higher scores indicating lesser ability to carry out daily living tasks.",
+                    "populationDescription": "In the placebo group there were 2 discontinuations (1 moved, 1 death). In the fish oil group there were 2 discontinuations (1 discontinue, 1 death). In the fish oil and lipoic acid group there was 1 discontinuation (due to meds). These discontinuations did not complete the study.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "baseline, 12 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Three 1-gram placebo-fish oil capsule per day and 1 placebo-lipoic acid (LA) capsule per day (600 mg). Placebo fish oil capsules consisted of soybean oil flavored with lemon flavor and 5% fish oil to match fish oil concentrate. LA placebo contained no LA and the following excipients: lactose, hypromellose, silicon dioxide, microcrystalline cellulose, polyethylene glycol, povidone, corn starch, talc, and magnesium stearate.\n\nPlacebo: Soybean oil 3 grams a day and placebo lipoic acid 600 milligrams a day taken for 12 months."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Fish Oil",
+                            "description": "Three 1-gram fish oil concentrate capsules in triglyceride form per day (675 mg DHA and 975 mg EPA) and 1 placebo-lipoic acid (LA) capsule (600 mg) per day. LA placebo contained no LA and the following excipients: lactose, hypromellose, silicon dioxide, microcrystalline cellulose, polyethylene glycol, povidone, corn starch, talc, and magnesium stearate.\n\nFish Oil: Fish oil concentrate (daily dose 3 grams containing 675 milligrams docosahexanoic acid and 975 milligrams eicosapentanoic acid) taken for 12 months."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Fish Oil and Lipoic Acid",
+                            "description": "Three 1-gram fish oil concentrate capsules in triglyceride form per day (675 mg DHA and 975 mg EPA) and 1 lipoic acid (LA) capsule in the racemic form per day (600 mg).\n\nFish Oil and Lipoic acid: Fish oil concentrate(daily dose 3 grams containing 675 milligrams docosahexanoic acid and 975 milligrams eicosapentanoic acid) plus lipoic acid (daily dose 600 milligrams)taken for 12 months"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4.2",
+                                            "spread": "0.9"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.7",
+                                            "spread": "1.0"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0.9",
+                                            "spread": "1.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "12 months",
+            "description": "Monthly subject report assessment; prothrombin time and comprehensive metabolic panel at baseline, 6 months, 12 months.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Placebo",
+                    "description": "Three 1-gram placebo-fish oil capsule per day and 1 placebo-lipoic acid (LA) capsule per day (600 mg). Placebo fish oil capsules consisted of soybean oil flavored with lemon flavor and 5% fish oil to match fish oil concentrate. LA placebo contained no LA and the following excipients: lactose, hypromellose, silicon dioxide, microcrystalline cellulose, polyethylene glycol, povidone, corn starch, talc, and magnesium stearate",
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 13,
+                    "otherNumAffected": 9,
+                    "otherNumAtRisk": 13
+                },
+                {
+                    "id": "EG001",
+                    "title": "Fish Oil",
+                    "description": "Three 1-gram fish oil concentrate capsules in triglyceride form per day (675 mg DHA and 975 mg EPA) and 1 placebo-lipoic acid (LA) capsule (600 mg) per day. LA placebo contained no LA and the following excipients: lactose, hypromellose, silicon dioxide, microcrystalline cellulose, polyethylene glycol, povidone, corn starch, talc, and magnesium stearate.",
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 13,
+                    "otherNumAffected": 5,
+                    "otherNumAtRisk": 13
+                },
+                {
+                    "id": "EG002",
+                    "title": "Fish Oil Plus Lipoic Acid",
+                    "description": "Three 1-gram fish oil concentrate capsules in triglyceride form per day (675 mg DHA and 975 mg EPA) and 1 lipoic acid (LA) capsule in the racemic form per day (600 mg).",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 13,
+                    "otherNumAffected": 7,
+                    "otherNumAtRisk": 13
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Heart Failure",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "SNOMED CT",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "death from heart failure subject in fish oil group",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary Tract Infection (UTI)",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "SNOMED CT",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Death resulting from UTI complications in placebo group.",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 13
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Endocrine disorders",
+                    "sourceVocabulary": "SNOMED CT",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "Falls",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "SNOMED CT",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "cold",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "SNOMED CT",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 13
+                        }
+                    ]
+                },
+                {
+                    "term": "loose stools",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "SNOMED CT",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 13
+                        },
+                        {
+                            "groupId": "EG002",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 13
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Lynne Shinto, ND, MPH",
+                "organization": "Oregon Health & Science University",
+                "email": "shintol@ohsu.edu",
+                "phone": "503-494-5035"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "Fish oil (omega\u20113 fatty acids \u2014 DHA/EPA)",
+        "Alpha\u2011lipoic acid (antioxidant)"
+    ],
+    "placebo": [
+        "Placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests fish oil (omega\u20113 fatty acids) and alpha\u2011lipoic acid to affect blood biomarkers associated with progression of Alzheimer\u2019s disease \u2014 i.e., an intervention aiming to modify disease\u2011related biology rather than only treat symptoms. \ue200cite\ue202turn0search3\ue202turn0search1\ue201.",
+        "Act: Key trial details \u2014 a 3\u2011arm, double\u2011blind, placebo\u2011controlled pilot in mild AD comparing omega\u20113 (fish oil) alone, omega\u20113 + alpha\u2011lipoic acid, and placebo; primary outcomes include oxidative stress biomarkers (urine F2\u2011isoprostanes) and secondary cognitive/functional measures. \ue200cite\ue202turn0search1\ue202turn0search3\ue201.",
+        "Mechanistic support: Omega\u20113 fatty acids (DHA/EPA) have proposed neuroprotective and anti\u2011amyloid/anti\u2011inflammatory actions; alpha\u2011lipoic acid is an antioxidant that may reduce oxidative stress \u2014 both target biological processes implicated in AD progression rather than purely symptomatic cognitive enhancement. \ue200cite\ue202turn0search4\ue202turn0search5\ue201.",
+        "Evidence from the published pilot: A randomized 12\u2011month pilot reported that the combination (\u03c9\u20113 + LA) showed less decline on MMSE and IADL versus placebo, and the study was designed to examine effects on oxidative stress biomarkers. This supports classifying the interventions as disease\u2011directed small molecules/nutraceuticals. \ue200cite\ue202turn0search3\ue201.",
+        "Reflect: Classification rationale \u2014 these are small\u2011molecule/nutraceutical chemical interventions (not biologics or devices) intended to alter disease biology (oxidative stress, lipid metabolism, inflammation) and progression signals, so the best fit among the provided categories is 'disease\u2011targeted small molecule'. If one instead emphasized only symptomatic cognitive changes, 'cognitive enhancer' could be considered, but the trial primary outcomes are biological markers of disease progression, supporting the disease\u2011targeted classification. \ue200cite\ue202turn0search3\ue202turn0search4\ue201."
+    ],
+    "agent_type": "R) Multi-target",
+    "explanation_agent": [
+        "Reason: The trial tests two disease-directed small-molecule/nutraceutical interventions \u2014 omega\u20113 fatty acids (DHA/EPA) and alpha\u2011lipoic acid \u2014 with the explicit aim of modifying biological processes linked to AD progression (oxidative stress, lipid metabolism and inflammation) rather than only treating symptoms. The published pilot frames oxidative stress biomarkers as the primary outcome and cites proposed neuroprotective/anti\u2011inflammatory and antioxidant mechanisms for the two agents. \ue200cite\ue202turn0search1\ue202turn0search5\ue202turn1search5\ue201",
+        "Act: Key trial details extracted from the published report: a randomized, double\u2011blind, placebo\u2011controlled 3\u2011arm pilot in mild AD (placebo vs \u03c9\u20113 vs \u03c9\u20113 + alpha\u2011lipoic acid) with 12\u2011month treatment; primary outcome = urine F2\u2011isoprostanes (oxidative stress); secondary cognitive/functional measures included MMSE, ADAS\u2011Cog, ADL/IADL. The trial reported that the \u03c9\u20113 + LA combination showed less decline on MMSE and IADL versus placebo. These facts support that the interventions target oxidative stress and lipid\u2011related processes. \ue200cite\ue202turn0search1\ue201",
+        "Reflect: Mapping to CADRO categories \u2014 omega\u20113 (DHA/EPA) actions (modulation of lipid metabolism, effects on membrane fluidity, generation of pro\u2011resolving lipid mediators, modulation of neuroinflammation and A\u03b2 handling) fit CADRO C) ApoE, Lipids and Lipoprotein Receptors; alpha\u2011lipoic acid (free radical scavenging, GSH regeneration, Nrf2 activation, mitigation of lipid peroxidation/mitochondrial oxidative damage) fits CADRO G) Oxidative Stress. Because the trial intentionally combines agents addressing both lipid\u2011related pathways and oxidative stress (i.e., two distinct CADRO mechanisms), the most appropriate CADRO assignment is R) Multi\u2011target. \ue200cite\ue202turn0search2\ue202turn0search5\ue202turn1search5\ue202turn1search8\ue201",
+        "Web search results (sources used to support the classification): 1) A Randomized Placebo\u2011Controlled Pilot Trial of Omega\u20113 Fatty Acids and Alpha Lipoic Acid in Alzheimer\u2019s Disease (12\u2011month pilot; primary outcome urine F2\u2011isoprostanes; cognitive/functional secondary outcomes). \ue200cite\ue202turn0search1\ue201 2) Reviews and mechanistic literature on omega\u20113 (DHA/EPA) \u2014 proposed neuroprotective, anti\u2011inflammatory, membrane/lipid mediator and A\u03b2\u2011related effects. \ue200cite\ue202turn0search5\ue202turn0search2\ue201 3) Reviews and preclinical/clinical literature on alpha\u2011lipoic acid \u2014 antioxidant, GSH regeneration, metal chelation, Nrf2 activation, mitigation of lipid peroxidation and mitochondrial oxidative stress; clinical follow\u2011up and preclinical tau/ferroptosis data cited. \ue200cite\ue202turn1search5\ue202turn1search8\ue201"
+    ]
+}

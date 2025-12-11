@@ -1,0 +1,1312 @@
+{
+    "nct_id": "NCT01703702",
+    "title": "A Randomized, Multicenter, Multicountry Study to Evaluate the Effectiveness of Florbetapir (18F) PET Imaging in Changing Patient Management and to Evaluate the Relationship Between Florbetapir (18F) PET Scan Status and Cognitive Decline",
+    "status": "COMPLETED",
+    "last_update_time": "2016-07-08",
+    "description_brief": "This study is designed to determine the effectiveness of florbetapir (18F) in changing patient management and to evaluate the association between scan status and cognitive decline.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE4"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "641 patients enrolled in the study. 21 patients withdrew before receiving a florbetapir (F18) PET scan. 620 patients received florbetapir and comprise the Safety Population; 2 patients did not have a valid PET scan. Therefore; 618 patients were randomized to the intervention or control arms and comprise the Efficacy Population.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Intervention",
+                    "description": "Subjects will receive florbetapir (18F) PET scans and physicians will have immediate access to PET scan results.\n\nflorbetapir (18F): Single i.v. bolus injection of 370MBq (10 mCi) followed by saline flush, 50 minutes prior to imaging, 10 minute image duration"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Control",
+                    "description": "Subjects will receive florbetapir (18F) PET scans but physicians will be blinded to PET scan results for 12 months\n\nflorbetapir (18F): Single i.v. bolus injection of 370MBq (10 mCi) followed by saline flush, 50 minutes prior to imaging, 10 minute image duration"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "308"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "310"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "272"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "288"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "36"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "22"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Intervention",
+                    "description": "Subjects will receive florbetapir (18F) PET scans and physicians will have immediate access to PET scan results.\n\nflorbetapir (18F): Single i.v. bolus injection of 370MBq (10 mCi) followed by saline flush, 50 minutes prior to imaging, 10 minute image duration"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Control",
+                    "description": "Subjects will receive florbetapir (18F) PET scans but physicians will be blinded to PET scan results for 12 months\n\nflorbetapir (18F): Single i.v. bolus injection of 370MBq (10 mCi) followed by saline flush, 50 minutes prior to imaging, 10 minute image duration"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "308"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "310"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "618"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "73.1",
+                                            "spread": "8.2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "72.7",
+                                            "spread": "7.94"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "72.9",
+                                            "spread": "8.07"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "142"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "160"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "302"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "166"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "150"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "316"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "112"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "111"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "223"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Italy",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "109"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "112"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "221"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "France",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "87"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "87"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "174"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Clinical and Diagnostic Change in Patient Management",
+                    "description": "Comparison of the percentage of patients who have a change in management from baseline to 3 months for patients who receive scan results immediately (intervention arm) and those who receive scan results 12 months later (control arm).",
+                    "populationDescription": "Analysis population for this endpoint only includes those patients with both a baseline and follow-up value.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "percentage of patients",
+                    "timeFrame": "Baseline and 3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Subjects will receive florbetapir (18F) PET scans and physicians will have immediate access to PET scan results."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Control",
+                            "description": "Subjects will receive florbetapir (18F) PET scans but physicians will be blinded to PET scan results for 12 months"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "300"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "299"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "68.0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "55.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.002",
+                            "statisticalMethod": "Chi-squared",
+                            "paramType": "Odds Ratio (OR)",
+                            "paramValue": "1.70",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "1.22",
+                            "ciUpperLimit": "2.38"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in ADAS-Cog 11 Total Score",
+                    "description": "Change from baseline in the Alzheimer's Disease Assessment Scale - cognitive subscale (ADAS-cog) 11 Score in patients with mild impairment by positive or negative florbetapir (18F) PET scan result (A\u00df+/A\u00df-). ADAS-Cog scores (range 0-70) indicate performance on a series of 11 cognitive tasks where 0 indicates the highest level of cognitive performance and 70 indicates the lowest level of cognitive performance. Change in ADAS-Cog scores were calculated by subtracting the baseline score from the 12 month score. A change in ADAS-Cog greater than 0 indicates a deterioration in cognitive performance whereas a change in ADAS-Cog less than 0 indicates improved cognitive performance.",
+                    "populationDescription": "Analysis population for this endpoint only includes those patients with mild cognitive impairment, and who reported both a baseline and follow-up value.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline and 12 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Mild Impairment AB+",
+                            "description": "Patients diagnosed with a cognitive status of mild impairment and AB+ scan result."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Mild Impairment AB-",
+                            "description": "Patients diagnosed with a cognitive status of mild impairment and AB- scan result."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "178"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "134"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.95",
+                                            "spread": "0.38"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.29",
+                                            "spread": "0.43"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.568",
+                            "statisticalMethod": "ANCOVA",
+                            "statisticalComment": "Adjusted for: Baseline ADAS-Cog score, study arm, Alzheimer's treatment, country, and interaction between study arm and Alzheimer's treatment.",
+                            "paramType": "LS Mean Difference",
+                            "paramValue": "-0.35",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-1.54",
+                            "ciUpperLimit": "0.84"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Patient's Clinical Diagnosis",
+                    "description": "Comparison of the percentage of patients who have a change in diagnosis from baseline to 3 months for patients in the intervention and control arms for whom the scan result was not predicted by the initial diagnosis.",
+                    "populationDescription": "Analysis population for this endpoint only includes those patients whose scan result was not predicted by their baseline clinical diagnosis and recorded both a baseline and follow-up value.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "percentage of patients",
+                    "timeFrame": "Baseline and 3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention Scan/Diagnosis Discordant",
+                            "description": "Intervention arm patients whose florbetapir F18 PET scan results were not predicted by their baseline clinical diagnosis."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Control Scan/Diagnosis Discordant",
+                            "description": "Intervention arm patients whose florbetapir F18 PET scan results were not predicted by their initial diagnosis"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "111"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "109"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "85.6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "11.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "<0.001",
+                            "statisticalMethod": "Chi-squared",
+                            "paramType": "Odds Ratio (OR)",
+                            "paramValue": "43.9",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "20",
+                            "ciUpperLimit": "96.12"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Diagnostic Confidence",
+                    "description": "Comparison of the percentage point change in the physician's diagnostic confidence from baseline to month 3 in the intervention and control arms for patients whose scan result was predicted by their baseline clinical diagnosis. Diagnostic confidence was recorded by the physician as a whole number percent from 0-100% and the change in confidence was calculated by subtracting the baseline confidence from the confidence recorded at the specified timepoint. Values greater than zero reflect increased diagnostic confidence; values less than zero reflect decreased diagnostic confidence.",
+                    "populationDescription": "Analysis population for this endpoint only includes those patients whose scan result was predicted by their baseline clinical diagnosis and recorded both a baseline and follow-up value.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Percentage Point",
+                    "timeFrame": "Baseline and 3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention Scan/Diagnosis Concordant",
+                            "description": "Intervention arm patients whose florbetapir F18 PET scan results were predicted by their initial diagnosis"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Control Scan/Diagnosis Concordant",
+                            "description": "Control arm patients whose florbetapir F18 PET scan results were predicted by their initial diagnosis"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "189"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "190"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "23.54",
+                                            "spread": "1.13"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2.85",
+                                            "spread": "1.15"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Comparison of change in diagnostic confidence at follow-up (3 months)",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "<0.001",
+                            "statisticalMethod": "ANCOVA",
+                            "statisticalComment": "Adjusted for: Cognitive status (mild impairment/dementia), physician/practice type, country and florbetapir F18 PET scan result (A\u00df+/A\u00df-)",
+                            "paramType": "LS Mean Difference",
+                            "paramValue": "20.69",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "18.95",
+                            "ciUpperLimit": "22.43"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Patient Management: Advice/Counseling",
+                    "description": "Comparison of the percentage of patients in the intervention and control arms who have a change in management relating to advice and counseling from baseline to 3 months.",
+                    "populationDescription": "Analysis population for this endpoint only includes those patients with both a baseline and follow-up value.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "percentage of patients",
+                    "timeFrame": "Baseline and 3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Subjects will receive florbetapir (18F) PET scans and physicians will have immediate access to PET scan results."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Control",
+                            "description": "Subjects will receive florbetapir (18F) PET scans but physicians will be blinded to PET scan results for 12 months"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "300"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "299"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "64.7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "58.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.144",
+                            "statisticalMethod": "Chi-squared",
+                            "paramType": "Odds Ratio (OR)",
+                            "paramValue": "1.28",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.92",
+                            "ciUpperLimit": "1.78"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Caregiver Self-efficacy",
+                    "description": "Comparison of the change in self-efficacy between intervention and control arms. Change in self-efficacy is defined as the difference between total score on the Fortinsky: Family caregivers' self-efficacy for managing dementia scale at Follow-up (3 months) and baseline. Self-efficacy for managing dementia is defined in terms of specific behaviors or tasks that can be learned, and that are highly relevant to daily management of the disease process. The scale consists of 10 questions, each with responses ranging from 1 (not at all certain) to 10 (very certain). The total score is calculated by summing the response for each item. The total score ranges from 10 to 100, with increasing scores representing increasing caregiver self-efficacy.",
+                    "populationDescription": "Analysis population for this endpoint only includes those patients with both a baseline and follow-up value.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline and 3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Subjects will receive florbetapir (18F) PET scans and physicians will have immediate access to PET scan results."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Control",
+                            "description": "Subjects will receive florbetapir (18F) PET scans but physicians will be blinded to PET scan results for 12 months"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "301"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "297"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.16",
+                                            "spread": "1.24"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.00",
+                                            "spread": "1.26"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.925",
+                            "statisticalMethod": "ANCOVA",
+                            "statisticalComment": "Adjusted for: Baseline scale, Cognitive status (mild impairment/dementia), country and florbetapir F18 PET scan result (A\u00df+/A\u00df-).",
+                            "paramType": "LS Mean Difference",
+                            "paramValue": "0.16",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-3.20",
+                            "ciUpperLimit": "3.53"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Patient Management: Individual Categories",
+                    "description": "Compare the percentage of patients with a change from baseline in the individual patient management categories at 3 months in the interventional and control arms.The individual categories are: Major diagnostic tests, Alzheimer's/cognition medication, neuropsychological tests, physician follow-up for re-evaluation or specialist referral.",
+                    "populationDescription": "Analysis population for this endpoint only includes those patients with both a baseline and follow-up value.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "percentage of patients",
+                    "timeFrame": "Baseline and 3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Intervention",
+                            "description": "Subjects will receive florbetapir (18F) PET scans and physicians will have immediate access to PET scan results."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Control",
+                            "description": "Subjects will receive florbetapir (18F) PET scans but physicians will be blinded to PET scan results for 12 months"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "300"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "299"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Major Diagnostic Tests",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "20.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Alzheimer's/Cognitive Medication",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "35.7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "22.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Neuropsychological Tests",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "14.7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "9.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Physician Follow-up for Re-evaluation",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "15.0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "14.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Specialist Referral",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30.7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "23.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Major Diagnostic Tests",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.857",
+                            "statisticalMethod": "Chi-squared",
+                            "paramType": "Odds Ratio (OR)",
+                            "paramValue": "1.04",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.70",
+                            "ciUpperLimit": "1.54"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Alzheimer's/Cognitive Medication",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "<0.001",
+                            "statisticalMethod": "Chi-squared",
+                            "paramType": "Odds Ratio (OR)",
+                            "paramValue": "1.96",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "1.36",
+                            "ciUpperLimit": "2.81"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Neuropsychological Tests",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.063",
+                            "statisticalMethod": "Chi-squared",
+                            "paramType": "Odds Ratio (OR)",
+                            "paramValue": "1.60",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.97",
+                            "ciUpperLimit": "2.64"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Physician Follow-up for Re-evaluation",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.741",
+                            "statisticalMethod": "Chi-squared",
+                            "paramType": "Odds Ratio (OR)",
+                            "paramValue": "1.08",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.69",
+                            "ciUpperLimit": "1.70"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Specialist Referral",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.046",
+                            "statisticalMethod": "Chi-squared",
+                            "paramType": "Odds Ratio (OR)",
+                            "paramValue": "1.45",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "1.01",
+                            "ciUpperLimit": "2.08"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "48 hours post-injection",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Safety Population",
+                    "description": "620 patients received florbetapir (18F) and comprise the Safety Population.",
+                    "seriousNumAffected": 2,
+                    "seriousNumAtRisk": 620,
+                    "otherNumAffected": 36,
+                    "otherNumAtRisk": 620
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Subdural haematoma",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Cerebral haemorrhage",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Flushing",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Post procedural haematoma",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Palpitations",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Epistaxis",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 17,
+                            "numAffected": 17,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Vertigo",
+                    "organSystem": "Ear and labyrinth disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Asthenia",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Feeling abnormal",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Malaise",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Confusional state",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Hallicination, olfactory",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Insomnia",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Irritability",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Sleep disorder",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Abnormal faeces",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Dysuria",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Back pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Myalgia",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                },
+                {
+                    "term": "Upper respiratory tract infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA (18.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 620
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "LTE60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Chief Medical Officer",
+                "organization": "Avid Radiopharmaceuticals",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "florbetapir (18F) \u2014 PET radiotracer (brand: Amyvid)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial describes use of florbetapir (18F) PET imaging to evaluate its effect on patient management and association between scan status and cognitive decline. That indicates a diagnostic imaging agent (amyloid PET), not a therapeutic intended to modify disease, improve cognition, or treat neuropsychiatric symptoms. \ue200cite\ue202turn0search1\ue202turn0search8\ue201",
+        "Act: Florbetapir (18F) is an 18F-labeled PET tracer that binds to beta-amyloid plaques and is marketed as Amyvid; it is indicated for PET imaging to estimate amyloid neuritic plaque density in adults being evaluated for Alzheimer's disease and other causes of cognitive decline (diagnostic use). The trial\u2019s aim (change in patient management and relate scan status to decline) is consistent with a diagnostic utility study rather than a therapeutic intervention. \ue200cite\ue202turn0search0\ue202turn0search4\ue201",
+        "Reflect: Given the intervention is a radioactive diagnostic agent (amyloid-binding PET tracer) and not a drug intended to modify pathology or cognition, the correct classification is 'N/A' (does not fit the four therapeutic categories). No ambiguity in the description suggests a therapeutic mechanism \u2014 it is a diagnostic imaging study. \ue200cite\ue202turn0search2\ue202turn0search5\ue201",
+        "Web search summary / supporting sources:",
+        "- Florbetapir (18F) is an 18F-labeled PET tracer that binds to A\u03b2 (amyloid\u2011\u03b2) plaques and was developed for detecting Alzheimer's-related amyloid pathology. \ue200cite\ue202turn0search1\ue201",
+        "- Florbetapir PET imaging (Amyvid) was approved/marketed for estimating beta\u2011amyloid neuritic plaque density to aid evaluation of cognitive impairment; it is intended as an adjunct diagnostic tool, not a therapy. \ue200cite\ue202turn0search0\ue202turn0search4\ue201",
+        "- Studies show florbetapir PET image status correlates with postmortem measures of amyloid and can affect diagnostic classification and management decisions in clinical practice. \ue200cite\ue202turn0search8\ue202turn0search2\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

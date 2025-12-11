@@ -1,0 +1,560 @@
+{
+    "nct_id": "NCT05411822",
+    "title": "Understanding Circadian Responses to Light in Persons With Mild Cognitive Impairment and Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2025-06-05",
+    "description_brief": "The purpose of this research study is to investigate the relationship between light, the thickness of the pigment at the back of your eye, melatonin levels, and memory. The study will investigate whether changing light distribution pattern from \"on-axis\"' (i.e., directed along the eye's visual axis to the fovea) to \"off-axis\" (i.e., directed on the periphery of the eye's visual axis) impact melatonin suppression in 24 mild cognitive impairment participants and 24 healthy, age-matched controls.",
+    "description_detailed": "Eligible enrolled subjects will be exposed to 4 different lighting conditions in addition to one dark control condition. There will be 5 study session and each one will last for 90 minutes and will be separated by one week. Subjects will collect 3 saliva samples, each one 30 minutes apart for melatonin levels during each study session.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Participants With Mild Cognitive Impairment",
+                    "description": "Every participant experienced all 5 conditions:\n\nBlue light (\u03bbmax = 451 nm) on axis and off axis.\n\nGreen light (\u03bbmax = 522 nm) on and off axis\n\nDim-light control condition (\\< 5 lux at the eye) for 30 min\n\neach narrowband source will have distinct lighting distribution patterns but calibrated to deliver the same targeted levels of circadian light (CLA) and circadian stimulus (CS) at the eye."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Matched Control",
+                    "description": "Healthy Age-Matched Control"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "17"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "19"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "15"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "18"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Participants With Mild Cognitive Impairment",
+                    "description": "Every participant experienced all 5 conditions:\n\nBlue light (\u03bbmax = 451 nm) on axis and off axis.\n\nGreen light (\u03bbmax = 522 nm) on and off axis\n\nDim-light control condition (\\< 5 lux at the eye) for 30 min\n\neach narrowband source will have distinct lighting distribution patterns but calibrated to deliver the same targeted levels of circadian light (CLA) and circadian stimulus (CS) at the eye."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Healthy Age-Matched Control",
+                    "description": "Healthy Age-Matched Control"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "17"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "19"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "36"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "36"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "59.1",
+                                            "spread": "7.4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "58.7",
+                                            "spread": "7.6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "58.8",
+                                            "spread": "7.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "36"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "28"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race and Ethnicity Not Collected",
+                    "populationDescription": "Race and Ethnicity were not collected from any participant.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Melatonin Levels",
+                    "description": "Saliva samples collected for melatonin levels for the different conditions. Blue light (\u03bbmax = 451 nm) on axis and off axis: for each narrowband source, designated on-axis or off-axis, will have distinct lighting distribution patterns but calibrated to deliver the same targeted levels of circadian light (CLA) and circadian stimulus (CS) at the eye.\n\nGreen light (\u03bbmax = 522 nm) on and off axis: for each narrowband source, designated on-axis or off-axis, will have distinct lighting distribution patterns but calibrated to deliver the same targeted levels of circadian light (CLA) and circadian stimulus (CS) at the eye.\n\nDim-light control condition: (\\< 5 lux at the eye) for 30 min",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "pg/mL",
+                    "timeFrame": "post-intervention (60 minutes) on each night of intervention (one night a week for 5 weeks)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Mild Cognitive Impairment",
+                            "description": "Participants who have mild cognitive impairment"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Healthy Control",
+                            "description": "Participants who are healthy."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "13"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "15"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Blue light (\u03bbmax = 451 nm) on axis",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.89",
+                                            "spread": "0.49"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.84",
+                                            "spread": "0.51"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Blue light (\u03bbmax = 451 nm) off axis",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.9",
+                                            "spread": "0.46"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.68",
+                                            "spread": "0.21"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Green light (\u03bbmax = 522 nm) on axis",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.73",
+                                            "spread": "0.14"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.73",
+                                            "spread": "0.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Green light (\u03bbmax = 522 nm) off axis",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.82",
+                                            "spread": "0.39"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.79",
+                                            "spread": "0.24"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Dim Light",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.53",
+                                            "spread": "0.7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.27",
+                                            "spread": "0.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "60 minutes of intervention over 1 day per week for 5 weeks.",
+            "description": "Adverse events reporting by comparing conditions. All participants received all conditions.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Mild Cognitive Impairment - Lighting Intervention Blue - On Axis",
+                    "description": "Blue light (\u03bbmax = 451 nm) on axis\n\nfor each narrowband source, designated on-axis, will have distinct lighting distribution patterns but calibrated to deliver the same targeted levels of circadian light (CLA) and circadian stimulus (CS) at the eye.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 13,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 13,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 13
+                },
+                {
+                    "id": "EG001",
+                    "title": "Mild Cognitive Impairment - Blue - Off Axis",
+                    "description": "Blue light (\u03bbmax = 451 nm)\n\nfor each narrowband source, designated off-axis, will have distinct lighting distribution patterns but calibrated to deliver the same targeted levels of circadian light (CLA) and circadian stimulus (CS) at the eye.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 13,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 13,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 13
+                },
+                {
+                    "id": "EG002",
+                    "title": "Mild Cognitive Impairment - Lighting Intervention Green - On Axis",
+                    "description": "Green light (\u03bbmax = 522 nm) on and off axis\n\nfor each narrowband source, designated on-axis, will have distinct lighting distribution patterns but calibrated to deliver the same targeted levels of circadian light (CLA) and circadian stimulus (CS) at the eye.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 13,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 13,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 13
+                },
+                {
+                    "id": "EG003",
+                    "title": "Mild Cognitive Impairment - Green - Off Axis",
+                    "description": "Green light (\u03bbmax = 522 nm)\n\nfor each narrowband source, designated off-axis, will have distinct lighting distribution patterns but calibrated to deliver the same targeted levels of circadian light (CLA) and circadian stimulus (CS) at the eye.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 13,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 13,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 13
+                },
+                {
+                    "id": "EG004",
+                    "title": "Mild Cognitive Impairment - Dim Light",
+                    "description": "Dim-light control condition\n\n(\\< 5 lux at the eye) for 30 min",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 13,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 13,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 13
+                },
+                {
+                    "id": "EG005",
+                    "title": "Healthy Control - Lighting Intervention Blue - On Axis",
+                    "description": "Blue light (\u03bbmax = 451 nm) on axis\n\nfor each narrowband source, designated on-axis, will have distinct lighting distribution patterns but calibrated to deliver the same targeted levels of circadian light (CLA) and circadian stimulus (CS) at the eye.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 15,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 15,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 15
+                },
+                {
+                    "id": "EG006",
+                    "title": "Healthy Control - Blue - Off Axis",
+                    "description": "Blue light (\u03bbmax = 451 nm)\n\nfor each narrowband source, designated off-axis, will have distinct lighting distribution patterns but calibrated to deliver the same targeted levels of circadian light (CLA) and circadian stimulus (CS) at the eye.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 15,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 15,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 15
+                },
+                {
+                    "id": "EG007",
+                    "title": "Health Control - Lighting Intervention Green - On Axis",
+                    "description": "Green light (\u03bbmax = 522 nm) on and off axis\n\nfor each narrowband source, designated on-axis, will have distinct lighting distribution patterns but calibrated to deliver the same targeted levels of circadian light (CLA) and circadian stimulus (CS) at the eye.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 15,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 15,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 15
+                },
+                {
+                    "id": "EG008",
+                    "title": "Healthy Control - Green - Off Axis",
+                    "description": "Green light (\u03bbmax = 522 nm)\n\nfor each narrowband source, designated off-axis, will have distinct lighting distribution patterns but calibrated to deliver the same targeted levels of circadian light (CLA) and circadian stimulus (CS) at the eye.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 15,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 15,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 15
+                },
+                {
+                    "id": "EG009",
+                    "title": "Health Control Dim Light",
+                    "description": "Dim-light control condition\n\n(\\< 5 lux at the eye) for 30 min",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 15,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 15,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 15
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Mariana Figueiro, PhD",
+                "organization": "Icahn School of Medicine at Mount Sinai",
+                "email": "Mariana.Figueiro@mountsinai.org",
+                "phone": "(518) 366-9306"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The study is an interventional lighting (device) study testing how on-axis vs off-axis light (blue/green) affects melatonin suppression, macular pigment density, and memory in MCI and control participants \u2014 i.e., a circadian/light physiology intervention rather than a pharmacologic treatment. \ue200cite\ue202turn1search2\ue202turn1search3\ue201",
+        "Act (key extracted details): The protocol (NCT05411822) is sponsored by Icahn School of Medicine at Mount Sinai and uses lighting interventions (Blue light, \u03bbmax \u2248 451 nm; Green light, \u03bbmax \u2248 522 nm) vs a dim-light control; participants include ~24 MCI and 24 age-matched controls; primary outcomes include melatonin measured from saliva samples during controlled sessions. \ue200cite\ue202turn1search2\ue202turn1search1\ue202turn1search4\ue201",
+        "Reflect (classification rationale and supporting literature): This does not match any of the four drug/biologic categories: it's not a biologic or small molecule targeting AD pathology, nor is it a drug labelled as a cognitive enhancer or a neuropsychiatric medication. Although light therapy can influence circadian rhythms and thereby indirectly affect sleep and cognition (and prior studies have examined light therapy effects on sleep/cognition in AD/MCI), the intervention here is a non-pharmacologic lighting/device intervention \u2014 so the correct classification is 'N/A'. For context on light therapy and cognitive/circadian effects in AD/MCI, see related literature. \ue200cite\ue202turn0search7\ue202turn0search8\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

@@ -1,0 +1,894 @@
+{
+    "nct_id": "NCT01142336",
+    "title": "Effects of Simvastatin on CSF AD Biomarkers in Cognitively Normal Subjects",
+    "status": "COMPLETED",
+    "last_update_time": "2017-06-30",
+    "description_brief": "A year-long randomized, double-blind, placebo-controlled trial of simvastatin to see if it produces beneficial changes in cerebral spinal fluid proteins associated with Alzheimer's disease.",
+    "description_detailed": "The purpose of this study is to see if a drug called simvastatin (brand name Zocor) beneficially affects the level of certain molecules (such as proteins) in the spinal fluid of people. The molecules the investigators are measuring are thought to be important in the development of Alzheimer's disease (AD), and the investigators are testing whether simvastatin can change proteins to a level that is associated with a reduced risk for AD.\n\nSimvastatin has been approved by the United States Food and Drug Administration (FDA) for the treatment of high cholesterol and to reduce the risk of coronary artery disease. It is an investigational drug in this study.\n\nParticipants will be randomly assigned to Placebo or Simvastatin. The investigators and the participant will be blinded. Randomization will be stratified by age and gender.\n\nThis study is being funded by the National Institute on Aging. The investigators will take part in this study at the VA Puget Sound Health Care System.\n\nThis study will last up to 1 year. Participants will be asked to come to the VA in Seattle a total of 9 times, 2 of those times will be for lumbar punctures (also known as a spinal tap).\n\nThe investigators would also like to ask a person who knows the participant well (such as a spouse, child, sibling, or good friend) some questions about the participant's health, memory, mood and behavior, and abilities to do daily tasks at the beginning and the end of the study.\n\nParticipants must be cognitively normal, healthy, willing to have a lumbar puncture, and not need or take any medications to control cholesterol.",
+    "phase": [
+        "PHASE4"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "PREVENTION",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "917 people were pre-screened by phone for eligibility, 400 did not respond or declined, 457 did not meet inclusion/exclusion criteria.\n\n60 completed a full screen visit. Of these 60 potential participants, 2 were lost to follow-up after screen, 2 withdrew, 7 screen failed and 49 were enrolled and randomized.",
+            "recruitmentDetails": "Statin-na\u00efve middle-aged adults were recruited for this single-site trial (Seattle, WA) from the University of Washington Alzheimer's Disease Research Center Registry or the community through newsletters, websites, educational talks, health fairs, local clinics, and newspaper and magazine advertisements.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Simvastatin",
+                    "description": "Simvastatin 40mg qHS for 1 year"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "Placebo 1 tablet qHS for 1 year"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "26"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "23"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "25"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "21"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Adverse Event",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Placebo",
+                    "description": "Placebo 1 tablet qHS for 1 year"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Simvastatin",
+                    "description": "Simvastatin 40mg qHS for 1 year"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "23"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "26"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "49"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "56.1",
+                                            "spread": "4.9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "55.7",
+                                            "spread": "4.5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "55.9",
+                                            "spread": "4.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "37"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "23"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "49"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "CSF A\u03b242 level",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "pg/ml",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "515",
+                                            "spread": "113"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "520",
+                                            "spread": "114"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "517",
+                                            "spread": "113"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "CSF total tau level",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "pg/ml",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "43",
+                                            "spread": "17"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "38",
+                                            "spread": "16"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "41",
+                                            "spread": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "CSF ptau level",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "pg/ml",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "31",
+                                            "spread": "15"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "27",
+                                            "spread": "10"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "29",
+                                            "spread": "12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline in A\u03b242 in Cerebrospinal Fluid (CSF) at 1 Year",
+                    "description": "CSF A\u03b242 concentration were measured at baseline and after 1-year intervention.",
+                    "populationDescription": "In the Placebo group, 1 participant was dropped due to AE and 1 was lost to follow-up.\n\nIn the Simvastatin group, 1 participant was dropped due to AE. These 3 participants were not included in the primary analysis per analysis plan.\n\nAll these 3 subjects were not included in the primary analysis based on our per protocol analysis plan.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "1-yr change, pg/ml",
+                    "timeFrame": "1-year change of CSF A\u03b242 from baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "1 tab qHS for 1 year"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Simvastatin",
+                            "description": "40mg qHS for 1 year"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "21"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "25"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5.3",
+                                            "spread": "31"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.5",
+                                            "spread": "42"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.53",
+                            "pValueComment": "Threshold for significance: 0.05, adjust for 3 primary outcomes using Holm Correction",
+                            "statisticalMethod": "ANCOVA",
+                            "statisticalComment": "Response variable was A\u03b242 in CSF at 1 year, and predictor variables were A\u03b242 in CSF at baseline, treatment group, age, sex, and APOE e4 allele."
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline in CSF Total Tau at 1 Year",
+                    "description": "CSF total tau was measured at baseline and after 1-year of intervention",
+                    "populationDescription": "In the Placebo group, 1 participant was dropped due to AE and 1 was lost to follow-up.\n\nIn the Simvastatin group, 1 participant was dropped due to AE. These 3 participants were not included in the primary analysis per analysis plan.\n\nAll these 3 subjects were not included in the primary analysis based on our per protocol analysis plan.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "pg/ml",
+                    "timeFrame": "1-yr change",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "1 tablet qHS for 1 year"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Simvastatin",
+                            "description": "40mg qHS for 1 year"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "21"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "25"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.1",
+                                            "spread": "3.9"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.6",
+                                            "spread": "4.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.36",
+                            "pValueComment": "Threshold for significance: 0.05, adjusted for 3 primary outcomes using Holm correction",
+                            "statisticalMethod": "ANCOVA",
+                            "statisticalComment": "Response variable was total tau in CSF at 1 year, and predictor were total tau in at baseline, treatment group, age, sex, and APOE e4 allele status"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline in CSF ptau181 at 1 Year",
+                    "description": "ptau 181 measured in CSF at baseline and after 1-year intervention",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "1-yr change (final - baseline), pg/ml",
+                    "timeFrame": "1-year change from baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Placebo 1 tablet qHS for 1 year"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Simvastatin",
+                            "description": "Simvastatin 40mg qHS for 1 year"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "21"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "25"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-2.9",
+                                            "spread": "12.9"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.7",
+                                            "spread": "6.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.25",
+                            "pValueComment": "Threshold for significance: 0.05, adjusted for 3 primary outcomes using Holm correction.",
+                            "statisticalMethod": "ANCOVA",
+                            "statisticalComment": "Response variable was p-tau181 in CSF at 1 year, and predictor were p-tau181 in at baseline, treatment group, age, sex, and APOE e4 allele status"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "1 year",
+            "description": "Adverse event information was collected systematically at phone and in-person safety visits spaced 6 weeks to 3 months apart for the duration of the 1 year study.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Simvastatin",
+                    "description": "Simvastatin 40mg qHS for 1 year",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 26,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 26,
+                    "otherNumAffected": 26,
+                    "otherNumAtRisk": 26
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Placebo 1 tablet qHS for 1 year",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 23,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 23,
+                    "otherNumAffected": 22,
+                    "otherNumAtRisk": 23
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Headache",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "New or worsening Headache",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 7,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 8,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "New or worsening Nausea",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Diarrhea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "New or worsening diarrhea",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 5,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Constipation",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "New or worsening constipation",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Upper Respiratory Infection",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "New or worsening upper respiratory infection",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 14,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 9,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Memory Problems",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Self-reported new or worsening memory problems",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 5,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Depressed Mood",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Self-reported new or worsening depressed mood",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 4,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Anxiety",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Self-reported new or worsening anxiety",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 8,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Insomnia",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "New or worsening insomnia",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 7,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 5,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Muscle Pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "New or worsening muscle pain",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 6,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 8,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Muscle Weakness",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "New or worsening muscle weakness",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Elevated Blood Glucose",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Fasting Blood Glucose lab reading above normal limits",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 5,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Elevated serum glutamic-oxaloacetic transaminase (SGOT)",
+                    "organSystem": "Hepatobiliary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "SGOT lab reading above normal limits",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 5,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Elevated Serum glutamic pyruvic transaminase (SGPT)",
+                    "organSystem": "Hepatobiliary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "SGPT lab reading above normal limits",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 6,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 23
+                        }
+                    ]
+                },
+                {
+                    "term": "Elevated serum creatine phosphokinase (CPK)",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "serum CPK lab reading above normal limits",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 7,
+                            "numAtRisk": 26
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 6,
+                            "numAtRisk": 23
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "limitationsAndCaveats": {
+                "description": "Sample size is small and statistical power is limited."
+            },
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Ge Li, MD, PhD",
+                "organization": "University of Washington",
+                "email": "gli@uw.edu",
+                "phone": "(206) 764-2485"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "simvastatin (HMG-CoA reductase inhibitor; statin)"
+    ],
+    "placebo": [
+        "placebo (identical)"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests simvastatin's effect on cerebrospinal fluid (CSF) Alzheimer\u2019s disease (AD) biomarkers (A\u03b242, total tau, p\u2011tau181) in cognitively normal adults \u2014 an intervention intended to alter AD-related pathology rather than only treat symptoms. \ue200cite\ue202turn0search0\ue201",
+        "Act: Key trial details \u2014 randomized, double\u2011blind, placebo\u2011controlled, 12\u2011month study of simvastatin titrated to 40 mg/day with primary outcomes of CSF A\u03b242, total tau, and p\u2011tau181. Simvastatin is a small\u2011molecule HMG\u2011CoA reductase inhibitor (a statin) that can cross the blood\u2013brain barrier and has been studied for potential effects on amyloid/tau biology via cholesterol metabolism. \ue200cite\ue202turn0search0\ue202turn0search4\ue202turn0search5\ue201",
+        "Reflect: This intervention is not a biologic (e.g., antibody or vaccine), not described as a symptomatic cognitive enhancer, and not aimed at neuropsychiatric symptoms \u2014 it targets AD pathology (biomarkers), so the correct category is disease\u2011targeted small molecule. Note: clinical trials of statins in AD have given mixed clinical results (larger trials found no cognitive benefit while some smaller/shorter studies showed biomarker or selective cognitive changes), but the present trial\u2019s primary aim is biomarker (pathology) modification rather than symptomatic treatment. \ue200cite\ue202turn0search3\ue202turn0search2\ue201",
+        "Web search results used: PubMed summary of the 12\u2011month CSF biomarker trial (Effects of Simvastatin on CSF AD Biomarkers in Cognitively Normal Subjects). \ue200cite\ue202turn0search0\ue201; Neurology multicenter RCT of simvastatin in mild\u2011moderate AD showing no clinical benefit on ADAS\u2011Cog. \ue200cite\ue202turn0search3\ue201; reviews/other studies on statins, CNS penetration, and effects on CSF p\u2011tau/amyloid. \ue200cite\ue202turn0search5\ue202turn0search6\ue201"
+    ],
+    "agent_type": "C) ApoE, Lipids and Lipoprotein Receptors",
+    "explanation_agent": [
+        "Reason: The trial tests simvastatin (an HMG\u2011CoA reductase inhibitor/statin) for effects on CSF A\u03b242, total tau and p\u2011tau181 in cognitively normal adults \u2014 an intervention intended to modify cholesterol/lipoprotein biology that can influence amyloid and tau processing, so the biological focus is on lipids/lipoprotein pathways (CADRO C). \ue200cite\ue202turn0search1\ue202turn0search5\ue202turn0search8\ue201",
+        "Act: Key extracted details \u2014 12\u2011month randomized, double\u2011blind, placebo\u2011controlled trial of simvastatin titrated to 40 mg/day with primary outcomes CSF A\u03b242, total tau, and p\u2011tau181; simvastatin is a small\u2011molecule HMG\u2011CoA reductase inhibitor that alters cholesterol metabolism and has been studied for effects on brain cholesterol, amyloid production, and CSF tau. Based on the drug mechanism (modulation of cholesterol/lipoprotein pathways) the most specific CADRO match is C) ApoE, Lipids and Lipoprotein Receptors. \ue200cite\ue202turn0search1\ue202turn0search7\ue202turn0search5\ue201",
+        "Reflect: Classification check \u2014 the intervention targets lipid metabolism/lipoprotein biology rather than directly targeting amyloid protein or tau protein with a biologic, nor is it described as symptomatic only. It therefore fits CADRO category C rather than A (amyloid), B (tau), J (metabolism broadly), or R (multi\u2011target). Note that large clinical trials of statins showed no cognitive benefit despite biomarker/biologic signals in some studies, but that does not change the mechanistic classification here. \ue200cite\ue202turn0search0\ue202turn0search3\ue201",
+        "Web search results (sources used): 1) Effect of simvastatin on CSF Alzheimer disease biomarkers in cognitively normal adults \u2014 PubMed (12\u2011month randomized CSF biomarker trial). \ue200cite\ue202turn0search1\ue201 2) A randomized, double\u2011blind, placebo\u2011controlled trial of simvastatin to treat Alzheimer disease \u2014 Neurology / PMC (large 18\u2011month AD clinical outcomes trial). \ue200cite\ue202turn0search7\ue202turn0search0\ue201 3) Effects of simvastatin on cholesterol metabolism and Alzheimer disease biomarkers (open\u2011label biomarker study; brain cholesterol/CSF measures). \ue200cite\ue202turn0search5\ue201 4) Randomized controlled atorvastatin (LEADe) trial in mild\u2013moderate AD (no clinical benefit). \ue200cite\ue202turn0search3\ue202turn0search4\ue201 5) Comparison of CNS\u2011penetrant (simvastatin) vs less\u2011penetrant (pravastatin) effects on CSF p\u2011tau \u2014 evidence that CNS penetration/lipophilicity matters. \ue200cite\ue202turn0search8\ue201"
+    ]
+}

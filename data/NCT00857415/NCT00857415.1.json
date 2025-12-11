@@ -1,0 +1,648 @@
+{
+    "nct_id": "NCT00857415",
+    "title": "A Phase III Study of the Correlation Between Florbetapir F 18 (18F-AV-45) PET Imaging and Amyloid Pathology",
+    "status": "COMPLETED",
+    "last_update_time": "2012-05-17",
+    "description_brief": "The study is designed to test the relationship between measurements of brain amyloid using florbetapir F 18 PET imaging and true levels of amyloid by dissection of the brain at autopsy. Amyloid in the brain is a key feature of Alzheimer's Disease (AD).",
+    "description_detailed": "There will be two primary analyses:\n\n* The first primary analysis will evaluate the correlation between the blinded readers' rating of amyloid plaque density on the PET scan and the cortical amyloid plaque density at autopsy.\n* The second primary analysis will evaluate the specificity of the blinded readers' rating of presence or absence of amyloid plaque density on the PET scan\n\nFor the autopsy population, subjects will be enrolled from various end-of-life (e.g. hospice / hospital / nursing home) and late-life (longitudinal studies of aging) populations. Enrollment will include subjects with various levels of cognitive status, ranging from cognitively normal through dementia. It is expected that amyloid plaque density in this elderly population will range from very low (normal aging) through moderate (e.g. cognitively normal subjects with asymptomatic amyloid deposits or mild cognitive impairment (MCI) subjects with intermediate levels of amyloid deposits) to very high (subjects with AD). The study will also enroll younger healthy subjects presumably devoid of amyloid in the specificity cohort.\n\nScreening assessments may take place over several days and will include collection of demographic information, diagnostic interview, and safety assessments. At the time of screening, subjects or caregivers will be asked to provide consent for brain donation if they are not already enrolled in a brain donation program affiliated with this study, in addition to providing informed consent for the screening and imaging procedures in the study.\n\nSubjects who qualify for the study will have a catheter placed for intravenous (i.v.) administration of florbetapir F 18. Subjects will receive a single i.v. bolus of 370 MBq (10 mCi) of florbetapir F 18 followed by brain PET imaging for 10 minutes duration, beginning approximately 50 minutes post-injection. Vital signs and safety labs will be obtained prior to the administration of florbetapir F 18 and at the completion of the imaging session. Adverse events will be continuously monitored during the imaging session. Subjects who experience an adverse event will not be discharged until the event has been resolved or stabilized.",
+    "phase": [
+        "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Autopsy Cohort",
+                    "description": "End-of-life subjects consenting to brain donation at autopsy. Subjects received a single intravenous injection of 370 MBq florbetapir followed by a 10-minute PET scan 50 minutes post-injection."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Specificity Cohort",
+                    "description": "Younger healthy controls presumed to be devoid of beta-amyloid plaques. Subjects received a single intravenous injection of 370 MBq florbetapir followed by a 10-minute PET scan 50 minutes post-injection."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "152"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "74"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Deceased Within One Year of AV-45 Scan",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "37"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "comment": "Subjects in the specificity cohort were not followed to autopsy",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "35"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "74"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "117"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Image acquisition failure",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Invalid image or not imaged",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Subject still living at end of study",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "110"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Deceased with no autopsy",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Autopsy Cohort",
+                    "description": "End-of-life subjects consenting to brain donation at autopsy. Subjects received a single intravenous injection of 370 MBq florbetapir followed by a 10-minute PET scan 50 minutes post-injection."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Specificity Cohort",
+                    "description": "Younger healthy controls presumed to be devoid of beta-amyloid plaques. Subjects received a single intravenous injection of 370 MBq florbetapir followed by a 10-minute PET scan 50 minutes post-injection."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "152"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "74"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "226"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "78.1",
+                                            "spread": "13.35"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "26.6",
+                                            "spread": "6.50"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "61.3",
+                                            "spread": "26.84"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "81"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "107"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "71"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "48"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "119"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "152"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "74"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "226"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Correlation of Florbetapir-PET Image and Amyloid Plaque Density",
+                    "description": "Spearman's rank order correlation of the median semi-quantitative visual read of the florbetapir-PET image and the amyloid plaque density assessed post-mortem by quantitative immunohistochemistry (IHC) averaged across 6 brain regions (precuneus, parietal cortex, frontal cortex, temporal cortex, posterior cingulate, anterior cingulate). Spearman's rank order correlation ranges from -1 to +1. A value of -1 indicates perfect negative correlation, and a value of +1 indicates a perfect positive correlation.",
+                    "populationDescription": "All subjects with a valid image who came to autopsy within 1 year of scan, minus 6 subjects who served as front-runners",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "Correlation coefficient",
+                    "timeFrame": "at autopsy up to 12 months post-scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Autopsy Cohort",
+                            "description": "End-of-life subjects consenting to brain donation at autopsy"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.78",
+                                            "lowerLimit": "0.58",
+                                            "upperLimit": "0.89"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Spearman's Rank Order Correlation of the median semiquantitative read (three readers) and the quantitative IHC measurement of cortical amyloid plaque density averaged across six brain regions.",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "<0.0001",
+                            "pValueComment": "A one-sided test (rho \\> 0) was performed with a significance level of alpha=0.05 to assess a significant correlation.",
+                            "statisticalMethod": "Spearman's Rank Correlation test",
+                            "paramType": "Correlation coefficient",
+                            "paramValue": "0.78",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.58",
+                            "ciUpperLimit": "0.89",
+                            "dispersionType": "STANDARD_ERROR_OF_MEAN",
+                            "dispersionValue": "0.194",
+                            "estimateComment": "Asymptotic standard error and 95 percent CI used Fisher z-transformation."
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Specificity Analysis",
+                    "description": "Specificity of florbetapir-PET scan in younger healthy controls presumed to be negative for amyloid. Specificity results are reported as the number of subjects who had a negative scan based on majority of 3 blinded readers.",
+                    "populationDescription": "Per protocol, 27 subjects who were genetic carriers for ApoE e4 or whose genetic status was unknown were excluded from the analysis",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "timeFrame": "50-60 min after injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Specificity Cohort",
+                            "description": "Younger healthy controls presumed to be devoid of beta-amyloid plaques"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "47"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Positive for amyloid",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0",
+                                            "lowerLimit": "91",
+                                            "upperLimit": "100"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Negative for amyloid",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "47"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Proportion of subjects who had a negative scan based on majority of 3 blinded readers",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "paramType": "Specificity",
+                            "paramValue": "100",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "91",
+                            "ciUpperLimit": "100",
+                            "estimateComment": "95% CI calculated by Wilson score method"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Regional Correlation Analysis",
+                    "description": "Spearman's rank order correlation of median visual read of the florbetapir-PET image vs. amyloid plaque density assessed post-mortem by quantitative IHC of six individual brain regions (precuneus, parietal cortex, frontal cortex, temporal cortex, posterior cingulate, anterior cingulate). Spearman's rank order correlation ranges from -1 to +1. A value of -1 indicates perfect negative correlation, and a value of +1 indicates a perfect positive correlation.",
+                    "populationDescription": "All subjects with a valid image who came to autopsy within 1 year of scan, minus 6 subjects who served as front-runners",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "Correlation coefficient",
+                    "timeFrame": "at autopsy up to 12 months post-scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Autopsy Cohort",
+                            "description": "End-of-life subjects consenting to brain donation at autopsy"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Precuneus",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.75",
+                                            "lowerLimit": "0.53",
+                                            "upperLimit": "0.88"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Parietal cortex",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.77",
+                                            "lowerLimit": "0.56",
+                                            "upperLimit": "0.88"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Frontal cortex",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.69",
+                                            "lowerLimit": "0.44",
+                                            "upperLimit": "0.84"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Temporal cortex",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.68",
+                                            "lowerLimit": "0.42",
+                                            "upperLimit": "0.84"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Posterior cingulate",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.70",
+                                            "lowerLimit": "0.44",
+                                            "upperLimit": "0.85"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Anterior cingulate",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.74",
+                                            "lowerLimit": "0.51",
+                                            "upperLimit": "0.87"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "2",
+            "timeFrame": "AEs were collected up to 48 hours after injection. SAEs were collected up to 30 days after injection.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Autopsy Cohort",
+                    "description": "End-of-life subjects consenting to brain donation at autopsy. Subjects received a single intravenous injection of 370 MBq florbetapir followed by a 10-minute PET scan 50 minutes post-injection.",
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 152,
+                    "otherNumAffected": 3,
+                    "otherNumAtRisk": 152
+                },
+                {
+                    "id": "EG001",
+                    "title": "Specificity Cohort",
+                    "description": "Younger healthy controls presumed to be devoid of beta-amyloid plaques. Subjects received a single intravenous injection of 370 MBq florbetapir followed by a 10-minute PET scan 50 minutes post-injection.",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 74,
+                    "otherNumAffected": 2,
+                    "otherNumAtRisk": 74
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Respiratory failure",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA (11.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 152,
+                            "numAffected": 1,
+                            "numAtRisk": 152
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 74
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (11.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 152
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 74
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "GT60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Chief Medical Officer",
+                "organization": "Avid Radiopharmaceuticals",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "Florbetapir F 18 (18F\u2011AV\u201145) \u2014 a radioactive PET imaging tracer (brand name: Amyvid)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention described is florbetapir F 18 (18F\u2011AV\u201145), a radiolabeled PET tracer that binds \u03b2\u2011amyloid plaques in brain tissue to produce images estimating amyloid burden; the study tests how PET measurements correlate with actual amyloid at autopsy. This is a diagnostic imaging agent, not a therapeutic drug intended to modify disease, improve cognition, or treat neuropsychiatric symptoms. \ue200cite\ue202turn0search2\ue202turn0search7\ue201",
+        "Act: Key details extracted from the trial description \u2014 Phase III study of florbetapir F 18 (18F\u2011AV\u201145) PET imaging vs postmortem amyloid pathology. Florbetapir is marketed as AMYVID (Florbetapir F 18 injection) and was evaluated in clinical studies showing correlation between PET reads and postmortem amyloid measures. The tracer\u2019s purpose is to detect/estimate amyloid neuritic plaque density in vivo. No therapeutic mechanism (small molecule or biologic) or clinical treatment/placebo arm is indicated. \ue200cite\ue202turn0search1\ue202turn0search4\ue202turn0search7\ue201",
+        "Reflect: Classification check \u2014 fits none of the four therapeutic categories (disease\u2011targeted biologic; disease\u2011targeted small molecule; cognitive enhancer; neuropsychiatric symptom improvement). It is a diagnostic PET imaging agent used to detect Alzheimer pathology, so the correct category is 'N/A'. No ambiguity in the description that would suggest a therapeutic intervention or placebo-controlled treatment arm. \ue200cite\ue202turn0search1\ue202turn0search2\ue201",
+        "Web search summary (sources used): Florbetapir (18F\u2011AV\u201145) binds \u03b2\u2011amyloid plaques and correlates with postmortem amyloid burden in Phase III/autopsy validation studies (see JAMA/PMC and PubMed summaries). It is approved/marketed as AMYVID for PET imaging to estimate beta\u2011amyloid neuritic plaque density and is intended as an adjunct diagnostic tool rather than a treatment. \ue200cite\ue202turn0search7\ue202turn0search2\ue202turn0search1\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

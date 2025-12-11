@@ -1,0 +1,1445 @@
+{
+    "nct_id": "NCT03991988",
+    "title": "Effects of Montelukast Therapy on Alzheimer's Disease (EMERALD)",
+    "status": "COMPLETED",
+    "last_update_time": "2024-02-13",
+    "description_brief": "This is a one-year, double-blind placebo-controlled randomized clinical trial that compares montelukast to placebo in individuals with mild cognitive impairment (MCI) and early Alzheimer's disease (AD) dementia. The measures include cognitive function, cerebrospinal fluid (CSF) biomarkers and neuroimaging (cerebral perfusion and markers of vascular brain damage).\n\nParticipants will be treated with montelukast (escalating doses:10, 20 to 40 mg) or matched placebo.",
+    "description_detailed": "Treatment options for Alzheimer's disease (AD) remain limited, especially treatments linking neurovascular and neuroinflammatory changes with clinical manifestations of the disease. Prior research studies have documented a positive effect of cysteinyl leukotriene type 1 (cysLT-1) receptor antagonist, particularly Montelukast, on inflammatory processes in the brain and on neuronal injury, blood-brain-barrier (BBB) integrity, and amyloid-\u03b242 (A\u03b2) protein accumulation. Although montelukast is currently in use for the treatment of inflammatory diseases e.g. bronchial asthma and exercise-induced bronchospasm, its effects on memory and thinking abilities and on AD biomarkers are yet to be fully understood.\n\nThis is a single site randomized controlled trial at Emory University that compares the effects of montelukast vs. placebo on memory and thinking abilities, as well as on brain imaging and markers of brain degeneration. Each participant will undergo a screening process following informed consent to determine if they meet study eligibility criteria. Participants will be enrolled in the study for 1 year.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Montelukast Group",
+                    "description": "Montelukast (10, 20, or 40 mg)\n\nMontelukast: Participants in this arm will take a pill of Montelukast daily on escalating doses: 10, 20 to 40 mg.\n\nAll participants will be initiated on 10 mg. The dose will be increased in 2-week increments to 20 mg and 40 mg as long as participants report no intolerable symptoms or adverse events."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo Group",
+                    "description": "Matched placebo pill\n\nPlacebo oral tablet: Participants in this arm will take a matched placebo pill daily"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "16"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "16"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "14"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "14"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Montelukast Group",
+                    "description": "Montelukast (10, 20, or 40 mg)\n\nMontelukast: Participants in this arm will take a pill of Montelukast daily on escalating doses: 10, 20 to 40 mg.\n\nAll participants will be initiated on 10 mg. The dose will be increased in 2-week increments to 20 mg and 40 mg as long as participants report no intolerable symptoms or adverse events."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo Group",
+                    "description": "Matched placebo pill\n\nPlacebo oral tablet: Participants in this arm will take a matched placebo pill daily"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "16"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "16"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "32"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "71.3",
+                                            "spread": "8.8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "73.9",
+                                            "spread": "7.7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "72.6",
+                                            "spread": "8.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "21"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "32"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "28"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "32"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Mild Cognitive Impairment (MCI)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "19"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Dementia",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants With Any Gastrointestinal (GI) Symptoms",
+                    "description": "Number of participants with any GI symptoms reported: diarrhea, nausea, vomiting",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Baseline, 1 year",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Montelukast Group",
+                            "description": "Montelukast (10, 20, or 40 mg)\n\nMontelukast: Participants in this arm will take a pill of Montelukast daily on escalating doses: 10, 20 to 40 mg.\n\nAll participants will be initiated on 10 mg. The dose will be increased in 2-week increments to 20 mg and 40 mg as long as participants report no intolerable symptoms or adverse events."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo Group",
+                            "description": "Matched placebo pill\n\nPlacebo oral tablet: Participants in this arm will take a matched placebo pill daily"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "16"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants With Reported Anaphylaxis",
+                    "description": "Number of participants with reported anaphylaxis during follow up time",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Baseline, 1 year",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Montelukast Group",
+                            "description": "Montelukast (10, 20, or 40 mg)\n\nMontelukast: Participants in this arm will take a pill of Montelukast daily on escalating doses: 10, 20 to 40 mg.\n\nAll participants will be initiated on 10 mg. The dose will be increased in 2-week increments to 20 mg and 40 mg as long as participants report no intolerable symptoms or adverse events."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo Group",
+                            "description": "Matched placebo pill\n\nPlacebo oral tablet: Participants in this arm will take a matched placebo pill daily"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "16"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants With Elevated Liver Enzymes",
+                    "description": "Number of participants with elevated liver enzymes during follow up",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Baseline, 1 year",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Montelukast Group",
+                            "description": "Montelukast (10, 20, or 40 mg)\n\nMontelukast: Participants in this arm will take a pill of Montelukast daily on escalating doses: 10, 20 to 40 mg.\n\nAll participants will be initiated on 10 mg. The dose will be increased in 2-week increments to 20 mg and 40 mg as long as participants report no intolerable symptoms or adverse events."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo Group",
+                            "description": "Matched placebo pill\n\nPlacebo oral tablet: Participants in this arm will take a matched placebo pill daily"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "16"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Prothrombin Time (PT)/ International Normalized Ratio (INR)",
+                    "description": "Prothrombin time (PT)/ international normalized ratio (INR) will be measured at baseline and 1 year.",
+                    "populationDescription": "Data captured from participants with CSF data or who completed a lumbar puncture procedure and have available results for PT/INR.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "ratio",
+                    "timeFrame": "Baseline, 1 year",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Montelukast Group",
+                            "description": "Montelukast (10, 20, or 40 mg)\n\nMontelukast: Participants in this arm will take a pill of Montelukast daily on escalating doses: 10, 20 to 40 mg.\n\nAll participants will be initiated on 10 mg. The dose will be increased in 2-week increments to 20 mg and 40 mg as long as participants report no intolerable symptoms or adverse events."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo Group",
+                            "description": "Matched placebo pill\n\nPlacebo oral tablet: Participants in this arm will take a matched placebo pill daily"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "10"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.05",
+                                            "spread": "0.02"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.02",
+                                            "spread": "0.01"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "1 year",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.05",
+                                            "spread": "0.05"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Neuropsychiatric Inventory Questionnaire (NPI-Q) Score",
+                    "description": "The NPI-Q is designed to be a self-administered questionnaire completed by informants about patients for whom they care. Each of the 12 NPI-Q domains contains a survey question that reflects cardinal symptoms of that domain. Initial responses to each domain question are \"Yes\" (present) or \"No\" (absent). If the response to the domain question is \"No\", the informant goes to the next question. If \"Yes\", the informant then rates both the Severity of the symptoms present within the last month on a 3-point scale and the associated impact of the symptom manifestations on them (i.e. Caregiver Distress) using a 5-point scale. The NPI-Q provides symptom Severity and Distress ratings for each symptom reported, and total Severity and Distress scores reflecting the sum of individual domain scores. NPI-Q Severity score range: 0-36 (lower is better).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline, 1 year",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Montelukast Group",
+                            "description": "Montelukast (10, 20, or 40 mg)\n\nMontelukast: Participants in this arm will take a pill of Montelukast daily on escalating doses: 10, 20 to 40 mg.\n\nAll participants will be initiated on 10 mg. The dose will be increased in 2-week increments to 20 mg and 40 mg as long as participants report no intolerable symptoms or adverse events."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo Group",
+                            "description": "Matched placebo pill\n\nPlacebo oral tablet: Participants in this arm will take a matched placebo pill daily"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "16"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5.00",
+                                            "spread": "0.97"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2.62",
+                                            "spread": "0.95"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "1 year",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5.68",
+                                            "spread": "1.04"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2.73",
+                                            "spread": "1.02"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Patients With Seizures",
+                    "description": "Number of participants that reported seizures during follow up time",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Baseline, 1 year",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Montelukast Group",
+                            "description": "Montelukast (10, 20, or 40 mg)\n\nMontelukast: Participants in this arm will take a pill of Montelukast daily on escalating doses: 10, 20 to 40 mg.\n\nAll participants will be initiated on 10 mg. The dose will be increased in 2-week increments to 20 mg and 40 mg as long as participants report no intolerable symptoms or adverse events."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo Group",
+                            "description": "Matched placebo pill\n\nPlacebo oral tablet: Participants in this arm will take a matched placebo pill daily"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "16"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Discontinuations From Montelukast",
+                    "description": "Number of participants that stopped taking Montelukast during follow up time",
+                    "populationDescription": "This outcome measured the number of participants that stopped taking Montelukast. This outcome was not assessed in the Placebo group.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Baseline, 1 year",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Montelukast Group",
+                            "description": "Montelukast (10, 20, or 40 mg)\n\nMontelukast: Participants in this arm will take a pill of Montelukast daily on escalating doses: 10, 20 to 40 mg.\n\nAll participants will be initiated on 10 mg. The dose will be increased in 2-week increments to 20 mg and 40 mg as long as participants report no intolerable symptoms or adverse events."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo Group",
+                            "description": "Matched placebo pill\n\nPlacebo oral tablet: Participants in this arm will take a matched placebo pill daily"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "16"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "CSF Amyloid",
+                    "description": "A lumbar puncture will be done at baseline and at 12 months follow up Approximately 30-45 ml of CSF will be collected using sterile polypropylene collection tubes.\n\nAmyloid-\u03b242 is reported as pg/ml.",
+                    "populationDescription": "22 participants with CSF amyloid data captured (11 in Montelukast group and 11 in placebo group).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "pg/ml",
+                    "timeFrame": "Baseline, 1 year",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Montelukast Group",
+                            "description": "Montelukast (10, 20, or 40 mg)\n\nMontelukast: Participants in this arm will take a pill of Montelukast daily on escalating doses: 10, 20 to 40 mg.\n\nAll participants will be initiated on 10 mg. The dose will be increased in 2-week increments to 20 mg and 40 mg as long as participants report no intolerable symptoms or adverse events."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo Group",
+                            "description": "Matched placebo pill\n\nPlacebo oral tablet: Participants in this arm will take a matched placebo pill daily"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "849.4",
+                                            "spread": "77.34"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "704.6",
+                                            "spread": "89.48"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "1 year",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "795.5",
+                                            "spread": "76.60"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "695.2",
+                                            "spread": "88.11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "CSF Tau Levels",
+                    "description": "CSF tau protein (CSF-tau) is found in most patients with Alzheimer's disease. A lumbar puncture will be done at baseline and at 12 months follow up. Approximately 30-45 ml of CSF will be collected using sterile polypropylene collection tubes. Results will be reported as Phospho tau (p-tau181) in pg/ml.",
+                    "populationDescription": "22 participants with CSF tau data captured (11 in Montelukast group and 11 in placebo group).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "pg/ml",
+                    "timeFrame": "Baseline, 1 year",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Montelukast Group",
+                            "description": "Montelukast (10, 20, or 40 mg)\n\nMontelukast: Participants in this arm will take a pill of Montelukast daily on escalating doses: 10, 20 to 40 mg.\n\nAll participants will be initiated on 10 mg. The dose will be increased in 2-week increments to 20 mg and 40 mg as long as participants report no intolerable symptoms or adverse events."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo Group",
+                            "description": "Matched placebo pill\n\nPlacebo oral tablet: Participants in this arm will take a matched placebo pill daily"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "20.6",
+                                            "spread": "2.42"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "22.8",
+                                            "spread": "2.81"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "1 year",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "21.1",
+                                            "spread": "2.48"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "21.9",
+                                            "spread": "2.86"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Clinical Dementia Rating (CDR) Score",
+                    "description": "The CDR rates each of the six general domains (or boxes) involving memory, orientation, judgment and problem-solving, community affairs, home and hobbies, and personal care, and a global rating is then generated, ranging from 0 to 3. A score of 0 = normal, 0.5 = very mild dementia, 1 = mild dementia, 2 = moderate dementia, and 3 = severe dementia.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline, 1 year",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Montelukast Group",
+                            "description": "Montelukast (10, 20, or 40 mg)\n\nMontelukast: Participants in this arm will take a pill of Montelukast daily on escalating doses: 10, 20 to 40 mg.\n\nAll participants will be initiated on 10 mg. The dose will be increased in 2-week increments to 20 mg and 40 mg as long as participants report no intolerable symptoms or adverse events."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo Group",
+                            "description": "Matched placebo pill\n\nPlacebo oral tablet: Participants in this arm will take a matched placebo pill daily"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "16"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.6",
+                                            "spread": "0.05"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.6",
+                                            "spread": "0.04"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "1 year",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.7",
+                                            "spread": "0.07"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.7",
+                                            "spread": "0.07"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "NIH Toolbox Cognition Battery (NIHTB-CB)",
+                    "description": "The NIH Toolbox\u00ae is a computer-based comprehensive set of neuro-behavioral measurements that reliably and validly assesses neurocognitive sub-domains in clinical trials, including working memory, episodic memory, processing speed, language, attention and executive function. The fluid cognitive composite (FCC) score is derived by averaging the standard scores of each of the fluid tests (Picture Sequence Memory, List Sorting, Pattern Comparison, Flanker, and Dimensional Change Card Sort.), and then deriving standard scores based on this new distribution. The fully-adjusted FCC T-score is reported. Higher score indicates with better performance. The score ranged from a minimum of 19 (0th percentile) to a maximum of 58 (79th percentile) in this sample. The population-level T-score and percentile rank range from 23 (0.3th percentile) to 77 (99.6th percentile) with mean=50 and SD=10.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "t-score",
+                    "timeFrame": "Baseline, 1 year",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Montelukast Group",
+                            "description": "Montelukast (10, 20, or 40 mg)\n\nMontelukast: Participants in this arm will take a pill of Montelukast daily on escalating doses: 10, 20 to 40 mg.\n\nAll participants will be initiated on 10 mg. The dose will be increased in 2-week increments to 20 mg and 40 mg as long as participants report no intolerable symptoms or adverse events."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo Group",
+                            "description": "Matched placebo pill\n\nPlacebo oral tablet: Participants in this arm will take a matched placebo pill daily"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "16"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "35.2",
+                                            "spread": "2.53"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "35.4",
+                                            "spread": "2.93"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "1 year",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "33.9",
+                                            "spread": "2.89"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "37.3",
+                                            "spread": "3.41"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "During follow up time, an average of 1 year",
+            "description": "All participants on the Montelukast arm with reported AEs were safely escalated to 40 mg dose, and all their AEs resolved spontaneously with no sequelae. AE results were collected altogether (not dose based).",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Montelukast Group",
+                    "description": "Montelukast (10, 20, or 40 mg)\n\nMontelukast: Participants in this arm will take a pill of Montelukast daily on escalating doses: 10, 20 to 40 mg.\n\nAll participants were initiated on 10 mg, and the dose increased in 2-week increments to 20 mg and 40 mg as long as participants report no intolerable symptoms or adverse events.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 16,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 16,
+                    "otherNumAffected": 3,
+                    "otherNumAtRisk": 16
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo Group",
+                    "description": "Matched placebo pill\n\nPlacebo oral tablet: Participants in this arm will take a matched placebo pill daily",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 16,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 16,
+                    "otherNumAffected": 2,
+                    "otherNumAtRisk": 16
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Vomiting",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 16
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Rash",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 16
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 16
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "Low Mood",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 16
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "limitationsAndCaveats": {
+                "description": "A limitation of the study is its relatively small sample size."
+            },
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "Dr. Ihab Hajjar",
+                "organization": "Emory University",
+                "email": "ihajjar@emory.edu",
+                "phone": "4047121763"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "montelukast"
+    ],
+    "placebo": [
+        "placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial (EMERALD, NCT03991988) tests montelukast versus placebo in MCI and early AD with outcomes that include cognition, CSF biomarkers, and neuroimaging (cerebral perfusion and vascular damage markers), which indicates an intent to affect disease-related biology rather than only symptomatic relief. \ue200cite\ue202turn0search0\ue201",
+        "Montelukast is a small-molecule, orally available cysteinyl leukotriene receptor 1 (CysLT1) antagonist (approved for asthma/allergic rhinitis) \u2014 i.e., a small-molecule drug rather than a biologic. \ue200cite\ue202turn1search0\ue202turn1search5\ue201",
+        "Preclinical and translational studies show montelukast can reduce blood\u2013brain barrier permeability, neuroinflammation, and A\u03b2-induced neuronal toxicity \u2014 mechanisms relevant to AD pathophysiology \u2014 which supports classifying the intervention as disease-targeted (repurposed small molecule aiming to modify neuroinflammatory/vascular contributors to AD). \ue200cite\ue202turn0search1\ue202turn0search2\ue202turn0search5\ue201",
+        "Act: Key trial details extracted \u2014 Drug: montelukast (escalating oral doses 10 \u2192 20 \u2192 40 mg), Comparator: matched placebo, Population: MCI and early AD dementia, Outcomes: cognitive tests, CSF biomarkers, neuroimaging (perfusion, vascular damage). These details come from the trial registry (EMERALD). \ue200cite\ue202turn0search0\ue202turn0search7\ue201",
+        "Reflect: Given montelukast is a small molecule with a putative mechanism acting on leukotriene-mediated inflammation and vascular/BBB processes (pathophysiologic targets in AD) and the trial measures disease biomarkers, the best-fit category is 'disease-targeted small molecule'. Note: montelukast has also been associated with neuropsychiatric adverse reports in post-marketing data (safety consideration) but that does not change the trial\u2019s therapeutic intent. \ue200cite\ue202turn1news12\ue202turn0search9\ue201",
+        "Web-search sources used (selected): EMERALD trial listing (clinical trial registry). \ue200cite\ue202turn0search0\ue202turn0search7\ue201; Montelukast rescues neurons from A\u03b2 toxicity (mechanistic/preclinical). \ue200cite\ue202turn0search2\ue201; Montelukast protects BBB / reduces endothelial injury (preclinical). \ue200cite\ue202turn0search1\ue201; Preclinical neuroprotection after cerebral ischemia (supporting vascular/neuroprotective effects). \ue200cite\ue202turn0search5\ue201; Drug mechanism and clinical use (StatPearls / FDA label summary). \ue200cite\ue202turn1search0\ue202turn1search5\ue201"
+    ],
+    "agent_type": "F) Inflammation",
+    "explanation_agent": [
+        "Reason: The EMERALD trial tests montelukast (a small\u2011molecule cysteinyl leukotriene receptor 1 (CysLT1) antagonist) in MCI/early AD with outcomes including cognition, CSF biomarkers and neuroimaging \u2014 indicating a disease\u2011modifying intent via inflammatory/vascular mechanisms. \ue200cite\ue202turn0search2\ue202turn0search3\ue201",
+        "Act: Key extracted facts \u2014 Drug: montelukast (CysLT1 antagonist). Mechanism/class: blockade of cysteinyl\u2011leukotriene signaling (an inflammatory pathway). Preclinical data show montelukast reduces A\u03b2\u2011induced neuronal toxicity and neuroinflammation and protects/reduces blood\u2013brain barrier permeability, supporting an anti\u2011inflammatory (and vascular/BBB\u2011stabilizing) mechanism relevant to AD. Based on this, the intervention most specifically maps to CADRO category F) Inflammation. \ue200cite\ue202turn0search3\ue202turn1search1\ue202turn1search2\ue202turn1search0\ue201",
+        "Reflect: Montelukast\u2019s primary pharmacologic target is the leukotriene receptor (an inflammatory mediator), and the trial measures disease biomarkers tied to neuroinflammation/vascular injury. Although vascular/BBB effects are reported (which could suggest K) Vasculature as a secondary label), the drug\u2019s direct target is an inflammatory receptor\u2014so F) Inflammation is the most specific CADRO category. If a trial targeted multiple distinct primary mechanisms explicitly, we would use R) Multi\u2011target, but here inflammation is the mechanistic focus. \ue200cite\ue202turn1search0\ue202turn1search2\ue201",
+        "Web search results used (selected): (1) EMERALD trial registry (NCT03991988) \u2014 trial details, population, dosing, outcomes. \ue200cite\ue202turn0search2\ue201 (2) Mechanism / clinical use \u2014 montelukast is a selective cysteinyl leukotriene receptor 1 antagonist. \ue200cite\ue202turn0search3\ue202turn0search4\ue201 (3) Preclinical studies: montelukast rescues neurons from A\u03b21\u201142 toxicity via inhibition of CysLT1R/NF\u2011\u03baB signaling. \ue200cite\ue202turn1search1\ue202turn1search2\ue201 (4) Preclinical vascular/BBB protection studies showing reduced BBB permeability and endothelial injury. \ue200cite\ue202turn1search0\ue202turn1search5\ue201"
+    ]
+}

@@ -1,0 +1,934 @@
+{
+    "nct_id": "NCT00486044",
+    "title": "Effect of Statins on Pathobiology of Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2019-02-14",
+    "description_brief": "The purpose of this study is to see how simvastatin, a cholesterol-lowering drug, affects processes related to the development of Alzheimer's disease, including: 1) levels of a substance called beta-amyloid-42 found in the spinal fluid surrounding the brain, 2) blood flow in the brain, 3) inflammation in the brain, and 4) cognitive function.",
+    "description_detailed": "Some studies suggest that statin medications, which are a group of cholesterol-lowering medicines, may help prevent Alzheimer's disease. However, this has not been proven in humans. The purpose of this study is to see how simvastatin affects a substance in the spinal fluid around the brain called beta-amyloid-42 which is thought to contribute to Alzheimer's disease. This study also evaluates whether simvastatin improves regional brain blood flow (on magnetic resonance imaging \\[MRI\\]), reduces inflammation, and improves cognitive function.\n\nThe ESPRIT study was a 9-month randomized, controlled clinical trial that randomized 100 middle-aged adults with a parental history of Alzheimer's disease. Participants were randomized to simvastatin 40 mg for one month then 80 mg daily or matching placebo tablets. Fifty of the ESPRIT subjects participated in the MRI sub-study.\n\nParticipants had the following data collected: fasting blood tests (baseline and months 3 and 9), medical history and medication questionnaires (each visit), study medication side effect review (all visits), lumbar puncture procedure (baseline and month 9), memory testing (baseline and months 3 and 9), and MRI (baseline and month 9 in 50 sub-study participants).",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "PREVENTION",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "103 participants enrolled in the trial and 100 were randomized to treatment (1 no longer met inclusion criteria, 2 declined participation).",
+            "recruitmentDetails": "Middle-aged adults with parental history of Alzheimer's disease were recruited for this single-site trial (Madison, Wisconsin) from the Wisconsin Registry for Alzheimer's Prevention (WRAP) or the community through newsletters, websites, educational talks, health fairs, local clinics, and newspaper and magazine advertisements.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Simvastatin",
+                    "description": "Simvastatin 40 mg tablet nightly for 1 month then 80 mg tablet nightly for 8 months"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "Matching placebo tablet nightly for 9 months"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "50 received assigned intervention (1 withdrew during baseline) 27 in MRI sub-study",
+                                    "numSubjects": "51"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "comment": "23 in MRI sub-study",
+                                    "numSubjects": "49"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "27 completed MRI sub-study",
+                                    "numSubjects": "49"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "comment": "21 completed MRI sub-study",
+                                    "numSubjects": "46"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Adverse Event",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Simvastatin",
+                    "description": "Simvastatin 40 mg tablet nightly for 1 month then 80 mg tablet nightly for 8 months"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo",
+                    "description": "Matching placebo tablet nightly for 9 months"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "51"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "49"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "100"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "49"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "42"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "91"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "53.3",
+                                            "spread": "7.4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "52.4",
+                                            "spread": "8.5"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "52.8",
+                                            "spread": "8.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "35"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "35"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "70"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "51"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "49"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "100"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Education",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16.1",
+                                            "spread": "2."
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16.3",
+                                            "spread": "3.2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "16.2",
+                                            "spread": "2.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Cognitive Function",
+                    "description": "Measured by Mini Mental State Exam (MMSE), a cognitive battery scored on a 0-30 point range where \\>24 points indiacte better outcomes; \\<24 points indicates cognitive dysfunction.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "points",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "29.5",
+                                            "spread": "0.8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "29.6",
+                                            "spread": "0.6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "29.5",
+                                            "spread": "0.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Apolipoprotein E4 carrier",
+                    "description": "Apolipoprotein E4 (APOE4) carrier status was determined by genotyping whole blood from subjects.",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "38"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Total cholesterol",
+                    "description": "Measured by nuclear magnetic resonance (NMR) spectroscopy",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "mg/dL",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "192.8",
+                                            "spread": "36.4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "187.6",
+                                            "spread": "27.7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "190.3",
+                                            "spread": "32.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "High-sensitivity c-reactive protein",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "mg/L",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2.59",
+                                            "spread": "3.71"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2.03",
+                                            "spread": "2.21"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2.32",
+                                            "spread": "3.06"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Cerebrospinal fluid beta-amyloid-42",
+                    "description": "Cerebrospinal fluid beta amyloid 42 was measured by XMAP.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "ng/L",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "345.6",
+                                            "spread": "77.1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "331.0",
+                                            "spread": "83.7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "338.7",
+                                            "spread": "80.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Cerebrospinal Fluid (CSF) Beta-amyloid-42",
+                    "populationDescription": "1 participant declined follow up CSF collection in simvastatin arm; CSF could not be accessed at month 9 in 1 participant in placebo arm",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ng/L",
+                    "timeFrame": "baseline and 9 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Simvastatin",
+                            "description": "Simvastatin 40 mg tablet nightly for 1 month then 80 mg tablet nightly for 8 months"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Matching placebo tablet nightly for 9 months"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "48"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "45"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-5.2",
+                                            "spread": "44.1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-3.1",
+                                            "spread": "38.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.966",
+                            "statisticalMethod": "Kruskal-Wallis",
+                            "ciPctValue": "95"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Changes in Regional Cerebral Blood Flow on MRI",
+                    "description": "Mean changes noted in posterior cingulate cortex",
+                    "populationDescription": "Number of participants analyzed represent participants in MRI substudy with readable MRI scans at both baseline and 9 months; 24 and 17 readable MRI scans in simvastatin and placebo arms, respectively. Unusable MRI scans resulted from poor quality images due to technical problems.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "mL/100 g/min",
+                    "timeFrame": "baseline and 9 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Simvastatin",
+                            "description": "Simvastatin 40 mg tablet nightly for 1 month then 80 mg tablet nightly for 8 months"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Matching placebo tablet nightly for 9 months"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "24"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "17"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4.09",
+                                            "spread": "6.69"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-5.08",
+                                            "spread": "8.28"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.015",
+                            "statisticalMethod": "ANCOVA",
+                            "ciPctValue": "95"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Inflammatory Markers",
+                    "description": "Change noted in serum high-sensitivity c-reactive protein",
+                    "populationDescription": "2 participants in the simvastatin arm and 3 participants in the placebo arm had incomplete hs-CRP results",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "mg/L",
+                    "timeFrame": "baseline and 9 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Simvastatin",
+                            "description": "Simvastatin 40 mg tablet nightly for 1 month then 80 mg tablet nightly for 8 months"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Matching placebo tablet nightly for 9 months"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "47"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "43"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.16",
+                                            "spread": "3.55"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.31",
+                                            "spread": "1.83"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.113",
+                            "statisticalMethod": "Kruskal-Wallis",
+                            "ciPctValue": "95"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Changes in Cognitive Performance",
+                    "description": "Change in Hopkins Verbal Learning Test Delayed Recall\n\nThe Hopkins Verbal Learning Test Delayed Recall score is the raw number of words recalled at Trial 4, adjusted for years of education and age. This is a 12-item word list test.",
+                    "populationDescription": "1 participant in simvastatin arm with missing data",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "adjusted words recalled",
+                    "timeFrame": "Baseline and 9 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Simvastatin",
+                            "description": "Simvastatin 40 mg tablet nightly for 1 month then 80 mg tablet nightly for 8 months"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Matching placebo tablet nightly for 9 months"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "48"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "46"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.40",
+                                            "spread": "1.38"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.26",
+                                            "spread": "1.54"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.210",
+                            "statisticalMethod": "Kruskal-Wallis",
+                            "ciPctValue": "95"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "2",
+            "timeFrame": "9 months",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Simvastatin",
+                    "description": "Simvastatin 40 mg tablet nightly for 1 month then 80 mg tablet nightly for 8 months",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 51,
+                    "otherNumAffected": 4,
+                    "otherNumAtRisk": 51
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Matching placebo tablet nightly for 9 months",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 49,
+                    "otherNumAffected": 1,
+                    "otherNumAtRisk": 49
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Elevated creatine kinase (CK) (> 2 times upper limit of normal)",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 51
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 49
+                        }
+                    ]
+                },
+                {
+                    "term": "Elevated liver transaminases (>2 times upper limit of normal)",
+                    "organSystem": "Hepatobiliary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 51
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 49
+                        }
+                    ]
+                },
+                {
+                    "term": "Anxiety/depression",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 51
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 49
+                        }
+                    ]
+                },
+                {
+                    "term": "Gastrointestinal discomfort",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 51
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 49
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Cynthia M. Carlsson, MD, MS",
+                "organization": "University of Wisconsin School of Medicine and Public Health",
+                "email": "cmc@medicine.wisc.edu",
+                "phone": "608-280-7000"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "simvastatin (HMG-CoA reductase inhibitor, statin)"
+    ],
+    "placebo": [
+        "placebo"
+    ],
+    "explanation_target": [
+        "Reason: The study tests simvastatin\u2019s effects on Alzheimer\u2011related pathobiology \u2014 specifically CSF A\u03b242, cerebral blood flow, brain inflammation, and cognition \u2014 which indicates the intervention is being evaluated for effects on disease mechanisms rather than only symptomatic cognitive enhancement. \ue200cite\ue202turn1search1\ue201",
+        "Simvastatin is a small\u2011molecule HMG\u2011CoA reductase inhibitor (a statin) used to lower cholesterol; it is not a biologic (e.g., monoclonal antibody or vaccine). \ue200cite\ue202turn0search4\ue201",
+        "Act: Preclinical and some clinical studies have tested simvastatin for effects on amyloid and other AD biomarkers (e.g., reductions in A\u03b2 in animal models and trials measuring CSF A\u03b2/tau and other biomarkers), supporting that the drug is being evaluated as a small\u2011molecule agent that may modify disease\u2011related biology. \ue200cite\ue202turn1search0\ue202turn1search2\ue201",
+        "Reflect: Given the intervention is a small\u2011molecule statin and the trial\u2019s stated aim is to influence AD pathobiology (amyloid, inflammation, blood flow), the correct category is 'disease-targeted small molecule'. Note: simvastatin does not directly target amyloid or tau like a monoclonal antibody, and clinical results have been mixed, but the trial\u2019s focus on biomarkers of disease supports the disease\u2011targeted small molecule classification. \ue200cite\ue202turn1search6\ue202turn1search3\ue201",
+        "Web-search results cited above (key sources used): UW\u2013Madison description of the 'Effects of Statins on Pathobiology of Alzheimer\u2019s Disease (ESPRIT)' trial describing endpoints (A\u03b242 in CSF, cerebral blood flow, inflammation, cognition). \ue200cite\ue202turn1search1\ue201",
+        "PNAS preclinical study showing simvastatin reduced A\u03b242 and A\u03b240 in vitro and in vivo (supporting rationale for testing effects on amyloid). \ue200cite\ue202turn1search0\ue201",
+        "PubMed clinical trials and biomarker studies of simvastatin in Alzheimer disease (examples of mixed clinical/biomarker findings). \ue200cite\ue202turn1search2\ue202turn1search3\ue201"
+    ],
+    "agent_type": "C) ApoE, Lipids and Lipoprotein Receptors",
+    "explanation_agent": [
+        "Reason: The trial tests simvastatin, an HMG-CoA reductase inhibitor (a statin) that primarily modulates cholesterol and lipid metabolism and related pathways (including effects on apoE/lipid handling). The study explicitly aims to alter AD-related pathobiology via effects on CSF A\u03b2, cerebral blood flow, and inflammation \u2014 but the drug\u2019s direct molecular target is lipid biosynthesis (HMG-CoA reductase), implicating the ApoE/Lipids/Lipoprotein Receptors CADRO domain. \ue200cite\ue202turn0search0\ue202turn1search0\ue201",
+        "Act: Extracted details: drug = simvastatin (small\u2011molecule HMG\u2011CoA reductase inhibitor); trial endpoints include CSF A\u03b242, cerebral blood flow, inflammatory markers and cognition, and prior preclinical work shows statins can lower A\u03b2 levels. These facts support assigning the trial to CADRO category C) ApoE, Lipids and Lipoprotein Receptors because the intervention acts on lipid/cholesterol metabolism which is closely linked to apoE and lipid receptor biology in AD. \ue200cite\ue202turn1search4\ue202turn0search0\ue201",
+        "Reflect: Although the trial measures amyloid, inflammation, and vascular outcomes (which map to CADRO A, F, and K respectively), simvastatin\u2019s primary pharmacologic mechanism is modulation of cholesterol synthesis and lipid pathways. CADRO guidance calls for the most specific biological match \u2014 therefore C) ApoE, Lipids and Lipoprotein Receptors is the best fit. Clinical results have been mixed (some trials showed cognitive or biomarker changes while others did not), but that does not change the mechanistic classification. \ue200cite\ue202turn1search6\ue202turn1search5\ue201",
+        "Web search results (key sources cited): 1) UW\u2013Madison ESPRIT trial page describing the simvastatin trial and endpoints (CSF A\u03b242, cerebral blood flow, inflammation, cognition). \ue200cite\ue202turn1search0\ue201 2) PNAS preclinical study showing simvastatin reduced A\u03b240/A\u03b242 in vitro and in vivo. \ue200cite\ue202turn0search0\ue201 3) PubMed randomized 4\u2011month study of simvastatin in at\u2011risk middle\u2011aged adults reporting cognitive findings and CSF biomarker measures. \ue200cite\ue202turn1search4\ue201 4) PubMed 26\u2011week randomized trial in AD patients reporting CSF A\u03b2 results (mixed findings). \ue200cite\ue202turn1search6\ue201 5) Open\u2011label biomarker study of simvastatin showing effects on brain cholesterol metabolites and AD biomarkers. \ue200cite\ue202turn1search5\ue201"
+    ]
+}

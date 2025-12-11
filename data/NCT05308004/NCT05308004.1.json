@@ -1,0 +1,668 @@
+{
+    "nct_id": "NCT05308004",
+    "title": "Palliative Care Consultations for Persons With Alzheimer's Disease and Related Dementia and Cognitive Impairment in the Medicare Skilled Nursing Facility (SNF) Setting",
+    "status": "COMPLETED",
+    "last_update_time": "2024-12-02",
+    "description_brief": "Alzheimer's disease and related dementias (ADRD) are serious, life limiting illnesses with no known cure. Dementia is the fifth-leading cause of death in older adults and the majority of people with advanced dementia die in nursing homes (NHs). Miller et al reported that 40% of U.S. NH residents dying with advanced dementia received Skilled Nursing Facility (SNF) care in the last 90 days of life, and receipt of this care was associated significantly with poorer end-of-life outcomes, including a higher risk of dying in a hospital, compared to decedents with no SNF care. SNF care is a Medicare post-acute rehabilitation service delivered in NHs focused on intense rehabilitation and/or aggressive, disease-modifying therapies. Regardless of life expectancy, use of SNF care precludes access to Hospice services. Palliative care (PC) offers an evidence-based alternative.",
+    "description_detailed": "In this pragmatic clinical trial, broadcast notification will be utilized to inform all newly admitted patients at each study site of their participation in this trial. During the admission process, potential subjects will be provided with a 1-page summary sheet (Broadcast notification) detailing their participation in this study that will include contact information for the study team, should the subject or their LAR/surrogate decision maker elect to opt-out of participating.\n\nBaseline data will be collected virtually via telephone by asking each subject or if unable to respond their surrogate decision maker to complete the Patient Outcomes Scale (POSv2), the Satisfaction With Care at the End of Life in Dementia (SWC-EOLD), and the Symptom Management at the End of Life in Dementia (SM-EOLD).\n\nBetween 14 days and 21 days after the baseline POSv2, SW-EOLD, and the SM-EOLD are administered, all subjects or if unable to respond their surrogate decision maker will be asked to complete the POSv2, SW-EOLD, and the SM-EOLD again virtually via telephone. The POSv2, SW-EOLD, and the SM-EOLD will be given a total of two times to those in the INTERVENTION and CONTROL groups; at baseline and follow up (14-21 days later).\n\nDeidentified subject demographics will be collected on all participants in the following way: Study team members will review subject's medical records and enter de-identified data into a Research Electronic Data Capture (REDCap) database (Acts staff assists with the study team's access to subject's medical record).\n\nPalliative Care Encounter Trained provider will discuss illness trajectories, establish and communicate patient-directed goals that guide health care decisions, identify and treat illness-related symptoms, and identify psycho-spiritual needs and approaches to mitigate suffering.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "SUPPORTIVE_CARE",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "Participants enrolled are patients only, not caregivers.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Standard Care",
+                    "description": "Participants received the standard Medicare Skilled Nursing Facility care."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Palliative Care Consult",
+                    "description": "Participants received the standard Medicare Skilled Nursing Facility care plus a Palliative Care Consultation with a trained provider."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "4"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "4"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Not seen by Palliative Care NP",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "Baseline Characteristics were not collected for caregiver participants because they were not enrolled into the study.",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Standard Care",
+                    "description": "Participants (patients) received the standard Medicare Skilled Nursing Facility care."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Palliative Care Consult",
+                    "description": "Participants (patients) received the standard Medicare Skilled Nursing Facility care plus a Palliative Care Consultation with a trained provider."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "4"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "3"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "7"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Number of Participants That Completed Patient Quality of Life Survey",
+                    "description": "12-item survey that measures quality of life in five dimensions: 1) physical; 2) emotional; 3) psychological; 4) spiritual needs, and 5) provision of information and support. Items scored on a 5 point Likert Scale (0=not at all, 4= overwhelmingly) based on symptom/need in the past week. Overall profile score is calculated by summing responses (range 0-40). Source: patient or family caregiver; Time to complete: 5-7 minutes",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Collected upon admission to the nursing home (Baseline) and again 21 days post-admission to the nursing home (Follow up)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Standard Care",
+                            "description": "Participants will receive the standard Medicare Skilled Nursing Facility care."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Palliative Care Consult",
+                            "description": "Participants will receive the standard Medicare Skilled Nursing Facility care plus a Palliative Care Consultation with a trained provider.\n\nPalliative Care Consultation: Trained provider will discuss illness trajectories, establish and communicate patient-directed goals that guide health care decisions, identify and treat illness-related symptoms, and identify psycho-spiritual needs and approaches to mitigate suffering"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "4"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "3"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Follow up",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Number of Participants That Completed Satisfaction With Care Survey (SWC-EOLD)",
+                    "description": "10-item scale that measures caregiver satisfaction with care for persons with dementia. Each item is measured on a 4-point Likert scale ranging from 1 (\"strongly disagree\") to 4 (\"strongly agree\"). Specific elements include satisfaction with medical and nursing care, decision-making, and their understanding of the persons with dementia illness. All items are summed, yielding a range of scores of 10-40. Higher scores indicate greater satisfaction.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Collected upon admission to the nursing home and again 21 days post-admission to the nursing home",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Standard Care",
+                            "description": "Participants received the standard Medicare Skilled Nursing Facility care."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Palliative Care Consult",
+                            "description": "Participants received the standard Medicare Skilled Nursing Facility care plus a Palliative Care Consultation with a trained provider."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "4"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "3"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline SWC-EOLD",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Follow-up SWC-EOLD",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Number of Participants That Completed the Symptom Management Survey (SM-EOLD)",
+                    "description": "9-item scale administered to a caregiver that measures persons with dementia physical and psychological symptoms. Each item is rated on a 6-point Likert scale ranging from 0 to 5 (0 = \"daily\", 1 = \"several days a week\", 2 = \"once per week\", 3 = \"2 or 3 days a month\", 4 = \"once a month\", 5 = \"never\"). Scores are summed and range from 0 to 45. Higher scores indicate better symptom management.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Collected upon admission to the nursing home and again 21 days post-admission to the nursing home",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Standard Care",
+                            "description": "Participants received the standard Medicare Skilled Nursing Facility care."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Palliative Care Consult",
+                            "description": "Participants received the standard Medicare Skilled Nursing Facility care plus a Palliative Care Consultation with a trained provider."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "4"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "3"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline SM-EOLD",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Follow-up SM-EOLD",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "All-Cause Mortality, Serious, and Other [Not Including Serious] Adverse Events were not monitored/assessed",
+            "description": "All-Cause Mortality, Serious, and Other \\[Not Including Serious\\] Adverse Events were not monitored/assessed",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Standard Care",
+                    "description": "Participants will receive the standard Medicare Skilled Nursing Facility care.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 0,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 0,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 0
+                },
+                {
+                    "id": "EG001",
+                    "title": "Palliative Care Consult",
+                    "description": "Participants will receive the standard Medicare Skilled Nursing Facility care plus a Palliative Care Consultation with a trained provider.\n\nPalliative Care Consultation: Trained provider will discuss illness trajectories, establish and communicate patient-directed goals that guide health care decisions, identify and treat illness-related symptoms, and identify psycho-spiritual needs and approaches to mitigate suffering",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 0,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 0,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 0
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "Dr. Joan Carpenter",
+                "organization": "University of Maryland School of Nursing",
+                "email": "joan.carpenter@umaryland.edu",
+                "phone": "443-880-1430"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The described study is testing palliative care consultations (a care-delivery / palliative intervention) for persons with Alzheimer\u2019s disease and related dementias in the Medicare SNF setting. This is not a pharmacologic agent (neither a biologic nor a small molecule), nor an intervention whose primary aim is to directly enhance cognition or primarily treat neuropsychiatric symptoms. By the provided category definitions, it does not fit disease-targeted biologic, disease-targeted small molecule, cognitive enhancer, or neuropsychiatric symptom improvement.",
+        "Act (key details extracted): Intervention = palliative care consultations / palliative care model in skilled nursing facilities; Intended effect = improve end-of-life care, reduce burdensome aggressive treatments and improve palliative outcomes (hospice access, fewer hospital deaths), not to modify Alzheimer pathology or directly improve cognition. The user-cited literature (Miller et al.) reports that ~40% of U.S. nursing home residents dying with advanced dementia had SNF care in the last 90 days of life, and that SNF care is associated with lower hospice use and worse end-of-life outcomes\u2014findings relevant to the rationale for studying palliative consultations. \ue200cite\ue202turn0search0\ue202turn0search5\ue201",
+        "Reflect: Given the intervention type (palliative care consultations) and goals (care quality / end-of-life outcomes, hospice access), the trial is a care-delivery / palliative intervention rather than a drug or cognitive/neuropsychiatric treatment. Therefore the correct classification is 'N/A' (does not fit any of the four therapeutic categories). No drug name was provided or identified, so no drug/placebo entries apply.",
+        "Web search results (supporting citations): - Miller et al., reporting that 40% of U.S. nursing home residents dying with advanced dementia had SNF care in the last 90 days and describing the SNF\u2013hospice access issue. \ue200cite\ue202turn0search0\ue201 - Additional analyses showing associations between SNF care, hospice enrollment, and end-of-life outcomes in advanced dementia (influence of hospice among SNF recipients). \ue200cite\ue202turn0search5\ue201 - Related summaries and commentary on SNF vs hospice policy impacts (conference/abstract and news summaries). \ue200cite\ue202turn0search2\ue202turn0search4\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

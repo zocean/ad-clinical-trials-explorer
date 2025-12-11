@@ -1,0 +1,361 @@
+{
+    "nct_id": "NCT03100617",
+    "title": "Single Arm Study of Modified REACH-VA Alzheimer's Caregiver Intervention in Vietnam",
+    "status": "COMPLETED",
+    "last_update_time": "2020-08-20",
+    "description_brief": "This is a single arm pilot study of 6-8 families to test the feasibility and acceptability of a Alzheimer's family caregiver intervention in Vietnam.",
+    "description_detailed": "This is a single arm pilot study of 6-8 families to test the feasibility and acceptability of a modified version of the REACH-VA caregiver intervention in Vietnam. The REACH-VA caregiver intervention is an evidence-based intervention that has been shown to be effective in multicultural populations in the US. The model has been modified for use in Vietnam. This study will test the modified model in Vietnam. Participants in this study will be adult family caregivers of non-institutionalized persons with dementia who are living in Hanoi, Vietnam. They will receive 4-6 sessions delivered over the course of 2-3 months that will included the following components: 1) education about the nature of the disease, 2) risk assessment, 3) enhancing caregiver skills and problem-solving, and 4) caregiver stress reduction. The intervention will be delivered by a social worker or nurse using a Vietnamese language versions of the REACH-VA protocol and caregiver intervention notebook.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Treatment",
+                    "description": "This group received the REACH-VA intervention"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "REACH-VA Family Caregiver Intervention",
+                    "description": "Behavioral intervention with several components including 1) caregiver education, 2) risk assessment, 3) caregiver needs assessment, 4) caregiver skill building and problem solving, and 4) caregiver stress reduction.\n\nPsychosocial caregiver intervention: Modified version of the REACH-VA intervention for family caregivers of persons with dementia. The intervention has several components including 1) caregiver education, 2) risk assessment, 3) caregiver needs assessment, 4) caregiver skill building and problem solving, and 4) caregiver stress reduction."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "6"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "FULL_RANGE",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "51.7",
+                                            "lowerLimit": "43",
+                                            "upperLimit": "69"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race and Ethnicity Not Collected",
+                    "populationDescription": "Race and Ethnicity were not collected from any participant.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "Vietnam",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Zarit Burden Scale 4-item",
+                    "description": "This instrument measures the amount of caregiving burden experienced by the participant. Each of the 4 items on the Zarit Burden Inventory is rated from 0 (no burden) to 4 (high burden). The range is therefore from 0 (lowest level of burden) to 16 (highest level of burden).",
+                    "paramType": "MEAN",
+                    "dispersionType": "FULL_RANGE",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7.8",
+                                            "lowerLimit": "0",
+                                            "upperLimit": "15"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Caregiver Burden",
+                    "description": "Zarit Burden scale",
+                    "populationDescription": "This was a feasibility study. Outcome data not collected.",
+                    "reportingStatus": "POSTED",
+                    "timeFrame": "Change from baseline Zarit burden scale score to 3 months.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Treatment",
+                            "description": "This group received the REACH-VA intervention"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "3 months",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Treatment",
+                    "description": "Behavioral intervention",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 6,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 6,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 6
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "limitationsAndCaveats": {
+                "description": "This was a small case series to examine acceptability and feasibility of the intervention and no outcome data were collected from the 6 participants."
+            },
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Dr. Ladson Hinton",
+                "organization": "UCaliforniaDavis",
+                "email": "lwhinton@ucdavis.edu",
+                "phone": "9167343485"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention described is a family caregiver program (Modified REACH-VA) delivered to caregivers to test feasibility and acceptability. REACH/REACH-VA are behavioral, multicomponent caregiver support interventions (education, problem-solving, stress/mood management, skills training) and do not involve a drug or biologic targeting Alzheimer pathology or cognition directly. \ue200cite\ue202turn0search0\ue202turn0search5\ue201",
+        "Act: Key extracted details \u2014 single-arm pilot of a Modified REACH-VA Alzheimer's caregiver intervention in Vietnam enrolling ~6\u20138 families to assess feasibility/acceptability. Published and program sources describe REACH adaptations in Vietnam (REACH VN) as in\u2011home, 4\u20136 session multicomponent caregiver interventions delivered over 2\u20133 months. Because this is a non-pharmacologic caregiver support intervention, it does not fit the four therapeutic categories and is classified as 'N/A'. \ue200cite\ue202turn0search8\ue202turn0search4\ue201",
+        "Reflect: The trial targets caregiver outcomes (burden, distress, skills) and care-management processes rather than molecular Alzheimer targets, cognitive-enhancing pharmacology, or treatment of neuropsychiatric symptoms in patients via medication. Therefore 'N/A' (non\u2011therapeutic/behavioral intervention) is the correct category. Key supporting sources below. \ue200cite\ue202turn0search8\ue202turn0search0\ue201",
+        "Web search results / sources (summary): 1) VA Caregiver Support \u2014 REACH VA program description (behavioral caregiver coaching; stress/mood management, problem solving). \ue200cite\ue202turn0search0\ue201 2) REACH VN / cluster RCT in Northern Vietnam \u2014 culturally adapted REACH tested for efficacy with caregivers (multicomponent, 4\u20136 sessions). \ue200cite\ue202turn0search8\ue202turn0search4\ue201 3) NINR summary \u2014 REACH program improves caregiver health outcomes in Alzheimer\u2019s caregivers. \ue200cite\ue202turn0search5\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

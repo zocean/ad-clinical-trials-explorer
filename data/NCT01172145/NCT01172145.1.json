@@ -1,0 +1,844 @@
+{
+    "nct_id": "NCT01172145",
+    "title": "Treatment of Apathy in Alzheimer's Disease With Modafinil",
+    "status": "COMPLETED",
+    "last_update_time": "2011-02-09",
+    "description_brief": "This study examined the effects of modafinil on apathetic symptomatology, performance of activities of daily living (ADLs) and caregiver burden in individuals with Alzheimer's disease (AD).",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "Participants were recruited from a Memory Disorders Clinic and the community between 2005 and 2007",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Cholinesterase Inhibitor Only",
+                    "description": "participants who received placebo"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Cholinesterase Plus Modafinil",
+                    "description": "participants who received modafinil (200 mg per day)"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "11"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "11"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "11"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "11"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Cholinesterase Inhibitor Only",
+                    "description": "participants who received placebo"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Cholinesterase Plus Modafinil",
+                    "description": "participants who received modafinil (200 mg per day)"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "11"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "11"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "22"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "21"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "79.36",
+                                            "spread": "7.62"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "75.27",
+                                            "spread": "8.34"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "77.32",
+                                            "spread": "8.07"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "11"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "22"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Apathy",
+                    "description": "The Frontal Systems Behavior Scale. Raw scores are converted to T-Scores using published norms. T-Scores have a mean of 50 and a standard deviation of 10. T-scores less than or equal to 64 are within average range. T-scores equal to or greater than 65 are indicative of a clinically significant problem. Higher scores indicate greater problem severity.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "T-score",
+                    "timeFrame": "at baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Cholinesterase Inhibitor Only",
+                            "description": "participants who received placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Cholinesterase Plus Modafinil",
+                            "description": "participants who received modafinil (200 mg per day)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "88.91",
+                                            "spread": "11.95"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "95.64",
+                                            "spread": "10.79"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "0.181",
+                            "statisticalMethod": "t-test, 2 sided",
+                            "paramType": "Mean Difference (Final Values)",
+                            "paramValue": "-1.385",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "-16.86",
+                            "ciUpperLimit": "3.40",
+                            "dispersionType": "STANDARD_ERROR_OF_MEAN",
+                            "dispersionValue": "4.86"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Apathy",
+                    "description": "The Frontal Systems Behavior Scale.Raw scores are converted to T-Scores using published norms. T-Scores have a mean of 50 and a standard deviation of 10. T-scores less than or equal to 64 are within the average range. T-scores equal to or greater than 65 are indicative of a clinically significant problem. Higher scores indicate greater problem severity.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "T-score",
+                    "timeFrame": "after 8 weeks of treatment",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Cholinesterase Inhibitor Only",
+                            "description": "participants who received placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Cholinesterase Plus Modafinil",
+                            "description": "participants who received modafinil (200 mg per day)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "82.09",
+                                            "spread": "13.52"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "89.09",
+                                            "spread": "9.61"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Lawton Brody Activities of Daily Living Questionnaire",
+                    "description": "Caregiver reported performance of personal and instrumental activities of daily living (ADLs. There are 6 personal ADLs (i.e. dressing, grooming, eating, etc) and 8 instrumental ADLs (i.e. managing finances, transportation, food preparation) which are assessed. Each item is awarded 2 points for fully independent, 1 point for minimal or moderate support required, and 0 points for full support. Maximum score for independence with all personal and instrumental ADL's is 28.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "raw score",
+                    "timeFrame": "at baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Cholinesterase Inhibitor Only",
+                            "description": "participants who received placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Cholinesterase Plus Modafinil",
+                            "description": "participants who received modafinil (200 mg per day)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "19.00",
+                                            "spread": "5.25"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16.18",
+                                            "spread": "4.81"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "The Direct Assessment of Functional Status Scale",
+                    "description": "A direct, examiner observed assessment of basic and instrumental activities of daily living. Participants are awarded points for correct performance of activities. Raw score is used for statistical comparison.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "raw score",
+                    "timeFrame": "at baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Cholinesterase Inhibitor Only",
+                            "description": "participants who received placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Cholinesterase Plus Modafinil",
+                            "description": "participants who received modafinil (200 mg per day)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "89.09",
+                                            "spread": "7.84"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "84.55",
+                                            "spread": "16.11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Zarit Burden Inventory",
+                    "description": "Measure of Caregiver Burden. Caregiver rates each item assessing burden on a 0 to 4 point scale with higher numbers reflecting more frequent occurence of the behavior or feeling being assessed.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "raw score",
+                    "timeFrame": "at baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Cholinesterase Inhibitor Only",
+                            "description": "participants who received placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Cholinesterase Plus Modafinil",
+                            "description": "participants who received modafinil (200 mg per day)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "28.36",
+                                            "spread": "21.09"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "31.18",
+                                            "spread": "8.73"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Lawton Brody Activities of Daily Living Questionnaire",
+                    "description": "Caregiver reported performance of personal and instrumental activities of daily living (ADLs. There are 6 personal ADLs (i.e. dressing, grooming, eating, etc) and 8 instrumental ADLs (i.e. managing finances, transportation, food preparation) which are assessed. Each item is awarded 2 points for fully independent, 1 point for minimal or moderate support required, and 0 points for full support. Maximum score for independence with all personal and instrumental ADL's is 28.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "raw score",
+                    "timeFrame": "after 8 weeks of treatment",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Cholinesterase Inhibitor Only",
+                            "description": "participants who received placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Cholinesterase Plus Modafinil",
+                            "description": "participants who received modafinil (200 mg per day)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "19.00",
+                                            "spread": "5.54"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "15.64",
+                                            "spread": "5.43"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "The Direct Assessment of Functional Status Scale",
+                    "description": "A direct, examiner observed assessment of basic and instrumental activities of daily living. Participants are awarded points for correct performance of activities. Raw score is used for statistical comparison.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "raw score",
+                    "timeFrame": "after 8 weeks of treatment",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Cholinesterase Inhibitor Only",
+                            "description": "participants who received placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Cholinesterase Plus Modafinil",
+                            "description": "participants who received modafinil (200 mg per day)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "88.36",
+                                            "spread": "8.35"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "85.27",
+                                            "spread": "14.16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Zarit Burden Inventory",
+                    "description": "Measure of Caregiver Burden. Caregiver rates each item assessing burden on a 0 to 4 point scale with higher numbers reflecting more frequent occurence of the behavior or feeling being assessed.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "raw score",
+                    "timeFrame": "after 8 weeks of treatment",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Cholinesterase Inhibitor Only",
+                            "description": "participants who received placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Cholinesterase Plus Modafinil",
+                            "description": "participants who received modafinil (200 mg per day)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "30.00",
+                                            "spread": "20.56"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "30.00",
+                                            "spread": "4.17"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Cholinesterase Inhibitor Only",
+                    "description": "participants who received placebo",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 11,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 11
+                },
+                {
+                    "id": "EG001",
+                    "title": "Cholinesterase Plus Modafinil",
+                    "description": "participants who received modafinil (200 mg per day)",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 11,
+                    "otherNumAffected": 1,
+                    "otherNumAtRisk": 11
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Motor Tics",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "notes": "assessed by study neurologist",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 11
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 11
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Laura L. Frakey",
+                "organization": "Brown University",
+                "email": "lfrakey@gmail.com",
+                "phone": "401-729-3163"
+            }
+        }
+    },
+    "target_category": "neuropsychiatric symptom improvement",
+    "drug": [
+        "modafinil"
+    ],
+    "placebo": [
+        "placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial tested modafinil specifically for apathy (a neuropsychiatric/behavioral symptom) and measured caregiver burden and ADLs; the intervention is symptomatic (aiming to reduce apathy) rather than targeting AD pathology (amyloid/tau). \ue200cite\ue202turn0search0\ue202turn0search2\ue201",
+        "Act (key extracted details): The intervention was modafinil 200 mg daily versus placebo in people with mild-to-moderate Alzheimer's disease (N=23); primary outcomes included measures of apathy (Frontal Systems Behavior Scale), ADL performance, and caregiver burden. The trial found no significant additional reduction in apathy with modafinil compared with placebo. Modafinil is a wakefulness\u2011promoting CNS stimulant (small\u2011molecule drug), not a biologic or an anti\u2011amyloid/tau disease\u2011modifying agent. \ue200cite\ue202turn0search2\ue202turn0search0\ue202turn0search3\ue201",
+        "Reflect: By the provided category definitions, this trial fits 'neuropsychiatric symptom improvement' \u2014 the drug was tested to treat apathy (a behavioral symptom). Although modafinil is a small molecule, it was used here as a symptomatic neuropsychiatric treatment (not as a disease\u2011targeted small molecule aimed at AD pathology), so the correct category is 'neuropsychiatric symptom improvement'. Note: the trial was small and negative; systematic review evidence also notes only one small modafinil trial with no demonstrated benefit for apathy. \ue200cite\ue202turn0search1\ue202turn0search4\ue201",
+        "Web search results consulted (selected):\n- PubMed / trial abstract: 'A randomized, double\u2011blind, placebo\u2011controlled trial of modafinil for the treatment of apathy in individuals with mild\u2011to\u2011moderate Alzheimer's disease.' \ue200cite\ue202turn0search0\ue201\n- Journal article / J Clin Psychiatry summary of the randomized trial. \ue200cite\ue202turn0search2\ue201\n- Drugs.com summary of modafinil (drug class/mechanism: wakefulness\u2011promoting CNS stimulant). \ue200cite\ue202turn0search3\ue201\n- Cochrane review summarizing drug trials for apathy in AD (notes one small modafinil trial with no evidence of benefit). \ue200cite\ue202turn0search1\ue202turn0search4\ue201\n- Trial registry / MedPath summary (trial NCT01172145; Butler Hospital, Providence, RI). \ue200cite\ue202turn0search5\ue202turn0search8\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The trial tested modafinil (a small\u2011molecule, wakefulness\u2011promoting CNS stimulant) to treat apathy \u2014 a neuropsychiatric/symptomatic intervention rather than an anti\u2011amyloid or anti\u2011tau disease\u2011modifying approach. Modafinil's known actions are through modulation of monoaminergic and other neurotransmitter systems (dopamine transporter inhibition/monoamine effects, and downstream effects on orexin, histamine, glutamate/GABA systems), so the most specific CADRO match is D) Neurotransmitter Receptors.",
+        "Act: Key extracted details from the description \u2014 trial drug: modafinil 200 mg daily vs placebo in mild\u2011to\u2011moderate AD (N=23); primary outcomes were apathy scales, ADLs and caregiver burden; trial was symptomatic and negative. Mechanistically, modafinil is a wakefulness\u2011promoting CNS stimulant that acts by modulating neurotransmitter systems rather than targeting amyloid, tau, inflammation, or other AD pathologies. Therefore assign D) Neurotransmitter Receptors.",
+        "Reflect: The classification aligns with CADRO because the intervention targets neurotransmitter systems to modify a neuropsychiatric symptom (apathy). Although modafinil's precise molecular mechanism is incompletely understood and it affects several systems, these are all within neurotransmitter/modulator domains rather than disease\u2011modifying pathways \u2014 so D is more appropriate than R) Multi\u2011target or T) Other. If the user prefers classification based on 'symptomatic vs disease\u2011modifying' alone, a label of 'symptomatic neuropsychiatric treatment' would be accurate, but within CADRO the best fit is D) Neurotransmitter Receptors.",
+        "Web search results consulted (as provided):",
+        "- PubMed / trial abstract: 'A randomized, double\u2011blind, placebo\u2011controlled trial of modafinil for the treatment of apathy in individuals with mild\u2011to\u2011moderate Alzheimer's disease.'",
+        "- J Clin Psychiatry / randomized trial summary.",
+        "- Drugs.com summary of modafinil (drug class/mechanism: wakefulness\u2011promoting CNS stimulant).",
+        "- Cochrane review summarizing drug trials for apathy in AD (notes one small modafinil trial with no evidence of benefit).",
+        "- Trial registry / MedPath summary (trial NCT01172145; Butler Hospital, Providence, RI)."
+    ]
+}

@@ -1,0 +1,1121 @@
+{
+    "nct_id": "NCT02176226",
+    "title": "Artificial Intelligence in a Mobile Intervention for Depression and Anxiety (AIM)",
+    "status": "COMPLETED",
+    "last_update_time": "2023-03-31",
+    "description_brief": "This study will evaluate a Smartphone intervention for depression and anxiety that uses machine learning to tailor treatment for patients. The intervention, referred to as IntelliCare, delivers patient-specific treatment material and motivational messaging via a mobile phone, to help individuals with depression and/or anxiety. Information and data received from the patient will inform the tailored treatment approach through machine learning. The purpose of this study is to obtain preliminary information on the feasibility and effectiveness of IntelliCare in improving symptoms of depression and anxiety.",
+    "description_detailed": "Major depressive disorder (MDD) is a common mental disorder, with up to 10.3% of the population experiencing the disorder in a given 12-month period. The relationship between depression and anxiety has been well documented. Depression is a significant predictor of future anxiety, and anxiety is a significant predictor of future onset of depression. Indeed, studies find that more than 50% of all individuals with MDD also have a current anxiety disorder. Although effective treatments have been developed over the years to address depression and anxiety, the lack of personalization and inability to adapt to patient needs or preferences contributes to poor treatment adherence and outcomes.\n\nWe are developing an intelligent treatment system that uses state of the art machine learning approaches within a mobile intervention application to treat MDD and anxiety. Machine learning, a branch of artificial intelligence, focuses on the development of algorithms that automatically improve and evolve based on collected data. The intervention, called IntelliCare, uses a mobile application to continuously collect patient data and adapt intervention content and motivational messaging to create a highly tailored and user-responsive treatment system.\n\nDuring the pilot study, 200 participants with Major Depression and/or Anxiety will use Intellicare apps for up to 8 weeks and may be invited to provide feedback about their experience at two follow-up time points: weeks 4 and 8. All participants will first undergo initial assessments that will include a telephone interview and a series of online questionnaires about their mood. Eligible participants will receive up to 8 weeks of access to the IntelliCare system, which consists of apps with lessons and tools designed to teach skills for mood management. It is suggested that participants utilize the mobile phone tools every day. Each week, participants will receive a brief motivational intervention from a coach. This coach will also be available to participants via email throughout the 8 week study. We will use data from the pilot study to examine whether IntelliCare is a feasible and effective intervention. Data collected will also be used to develop and evaluate machine learning methods which will be used in the subsequent AIM trials.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "8-Week Single Arm Field Trial",
+                    "description": "Use of IntelliCare program for 8 weeks.\n\nIntelliCare: Behavioral interventions for depression and anxiety via a suite of mobile phone applications, IntelliCare."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "105"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "96"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "9"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Withdrew prior to treatment",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "6"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "8-Week Single Arm Field Trial",
+                    "description": "Use of IntelliCare program for 8 weeks.\n\nIntelliCare: Behavioral interventions for depression and anxiety via a mobile phone application, IntelliCare."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "105"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "INTER_QUARTILE_RANGE",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "36",
+                                            "lowerLimit": "27",
+                                            "upperLimit": "50"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "80"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "25"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "99"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "88"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Marital Status",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Single",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "35"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Married or domestic partner",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "38"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Separated",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Divorced",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Widowed",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Living with significant other",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Education",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Some high school",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Completed high school or GED",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Some college",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "20"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "2-year college (Associate)",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "4-year college (BA, BS)",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "37"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Master's degree",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "22"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Doctoral degree",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Professional degree (MD, JD)",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Employment status",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Employed",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "76"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unemployed",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Disability",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Retired",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Other",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Number of hours per week spent working",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "INTER_QUARTILE_RANGE",
+                    "unitOfMeasure": "hours per week spent working",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "40",
+                                            "lowerLimit": "7",
+                                            "upperLimit": "40"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Income, yearly household income",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "INTER_QUARTILE_RANGE",
+                    "unitOfMeasure": "USD",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "63,000",
+                                            "lowerLimit": "30,000",
+                                            "upperLimit": "100,000"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Income, yearly personal gross income",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "INTER_QUARTILE_RANGE",
+                    "unitOfMeasure": "USD",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "35,000",
+                                            "lowerLimit": "15,000",
+                                            "upperLimit": "58,000"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Treatment",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Psychotherapy",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "23"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Pharmacotherapy",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "66"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "None",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Recruitment Source",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "HealthPartners Healthcare system",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "38"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Web or social media",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "ResearchMatch",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Other",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "40"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Patient Health Questionnaire - 9 (PHQ-9) - Depression Severity Module",
+                    "description": "The PHQ-9 measures degree of depression severity. Possible range of scores for the PHQ-9 is 0-27. Higher values represent a worse outcome. Specifically, scores of 0-4 indicate minimal or no depression; 5-9 is mild; 10-14 is moderate; 15-19 is moderately severe; and 20-27 is severe.",
+                    "populationDescription": "Two participants missed week 4 assessment; and two participants missed week 8 assessment. This is why number analyzed in Week 4 row and Week 8 row differs from overall.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline, Week 4, and Week 8",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "8-Week Single Arm Field Trial",
+                            "description": "Use of IntelliCare program for 8 weeks.\n\nIntelliCare: Behavioral interventions for depression and anxiety via a suite of mobile phone applications, IntelliCare."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "96"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "96"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12.5",
+                                            "spread": "4.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 4",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "94"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8.4",
+                                            "spread": "4.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "94"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6.4",
+                                            "spread": "4.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "<.001",
+                            "statisticalMethod": "t-test, 2 sided"
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "GAD-7 (Generalized Anxiety Disorder Scale-7)",
+                    "description": "The GAD-7 is a self-administered 7 item instrument that uses some of the DSM-V criteria for GAD (General Anxiety Disorder) to identify probable cases of GAD along with measuring anxiety symptom severity. GAD-7 total score for the seven items ranges from 0 to 21. Higher values represent a worse outcome. Specifically, scores of 1-4 indicate minimal anxiety symptoms; 5-9 is mild anxiety symptoms; 10-14 is moderate anxiety symptoms; and 15-21 is severe anxiety symptoms.",
+                    "populationDescription": "Two participants missed week 4 assessment; and two participants missed week 8 assessment. This is why number analyzed in Week 4 row and Week 8 row differs from overall.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline, Week 4, and Week 8",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "8-Week Single Arm Field Trial",
+                            "description": "Use of IntelliCare program for 8 weeks.\n\nIntelliCare: Behavioral interventions for depression and anxiety via a suite of mobile phone applications, IntelliCare."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "96"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "96"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10.9",
+                                            "spread": "4.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 4",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "94"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7.1",
+                                            "spread": "3.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "94"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5.8",
+                                            "spread": "4.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "<.001",
+                            "statisticalMethod": "t-test, 2 sided"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Mean Number of Treatment App Use Sessions by Study Week",
+                    "populationDescription": "Of the 99 participants who initiated the treatment, 96.0% (95/99) continued to use the apps at week 5 and 90.1% (90/99) continued through week 8.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "number of treatment app use sessions",
+                    "timeFrame": "Weekly for Two Months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "8-Week Single Arm Field Trial",
+                            "description": "Use of IntelliCare program for 8 weeks.\n\nIntelliCare: Behavioral interventions for depression and anxiety via a suite of mobile phone applications, IntelliCare."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "98"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Week 1",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "98"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "20.09",
+                                            "spread": "15.63"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 2",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "97"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "22.79",
+                                            "spread": "16.76"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 3",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "97"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "24.1",
+                                            "spread": "20.21"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 4",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "94"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "25.33",
+                                            "spread": "20.68"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 5",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "94"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26.07",
+                                            "spread": "20.41"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 6",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "91"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "26.25",
+                                            "spread": "23.66"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 7",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "89"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "23.44",
+                                            "spread": "22.27"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Week 8",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "90"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "23.3",
+                                            "spread": "25.57"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "8 weeks",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "8-Week Single Arm Field Trial",
+                    "description": "Use of IntelliCare program for 8 weeks.\n\nIntelliCare: Behavioral interventions for depression and anxiety via a suite of mobile phone applications, IntelliCare.",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 105,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 105
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "David C. Mohr, PhD",
+                "organization": "Northwestern University",
+                "email": "d-mohr@northwestern.edu",
+                "phone": "312-503-1403"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention is a smartphone-based, machine-learning\u2013driven behavioral program called IntelliCare that delivers app-based lessons, tools, and motivational messaging to treat depression and anxiety \u2014 not a biologic or small-molecule drug, nor an Alzheimer\u2019s-directed cognitive-enhancer or neuropsychiatric-symptom drug. \ue200cite\ue202turn0search2\ue202turn0search0\ue201",
+        "Act: Key extracted details \u2014 Intervention: IntelliCare (mobile app platform with a recommender/hub and optional coaching); Mechanism: data collection and machine-learning personalization of content and messaging; Purpose: improve symptoms of depression and anxiety and assess feasibility/effectiveness. This is a digital behavioral intervention (non-pharmacologic). \ue200cite\ue202turn0search2\ue202turn0search3\ue201",
+        "Reflect: Given the category definitions (disease-targeted biologic = biologics for AD pathology; disease-targeted small molecule = small-molecule AD pathology drugs; cognitive enhancer = drugs to boost cognition without targeting pathology; neuropsychiatric symptom improvement = interventions for behavioral/psychiatric symptoms in dementia), this trial does not fit any of the four Alzheimer\u2019s-focused categories. It is a digital mental-health intervention for depression/anxiety \u2014 therefore classified as 'N/A'. \ue200cite\ue202turn0search1\ue202turn0search6\ue201",
+        "Web search results (sources found and used): Clinical trial entries and summaries for IntelliCare AIM (NCT02801877 and NCT02176226) describing the ML-tailored mobile intervention and study design; publications and trial reports on IntelliCare showing its use as a coached mobile app platform for depression/anxiety (JAMA/PubMed). \ue200cite\ue202turn0search2\ue202turn0search0\ue202turn0search1\ue202turn0search3\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

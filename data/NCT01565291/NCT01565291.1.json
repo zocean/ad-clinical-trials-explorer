@@ -1,0 +1,446 @@
+{
+    "nct_id": "NCT01565291",
+    "title": "A Preliminary Evaluation of the Amyloid Binding Properties, Pharmacokinetics and Safety of 18F-AV-45 in Healthy Elderly Volunteers and Patients With Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2012-05-11",
+    "description_brief": "A preliminary study to test how florbetapir F 18 (18F-AV-45) acts in the brains and bodies of healthy elderly people and patients with Alzheimer's Disease (AD) by using a positron emission tomography (PET) scanner.",
+    "description_detailed": "N/A",
+    "phase": [
+        "EARLY_PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Subjects With AD",
+                    "description": "Probable AD, National Institute of Neurological and Communicative Disorders and Stroke-Alzheimer's Disease and Related Disorders Association (NINCDS-ADRDA) criteria, with mild/moderate dementia (Mini-Mental State Examination \\[MMSE\\] from 10 to 24)"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Healthy Elderly Subjects",
+                    "description": "Cognitively normal with MMSE of 29 or higher; age 50 years or older"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "16"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "16"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "15"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "16"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Subjects With AD",
+                    "description": "Probable AD, National Institute of Neurological and Communicative Disorders and Stroke-Alzheimer's Disease and Related Disorders Association (NINCDS-ADRDA) criteria, with mild/moderate dementia (Mini-Mental State Examination \\[MMSE\\] from 10 to 24)"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Healthy Elderly Subjects",
+                    "description": "Cognitively normal with MMSE of 29 or higher; age 50 years or older"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "16"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "16"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "32"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "75.8",
+                                            "spread": "9.2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "72.5",
+                                            "spread": "11.56"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "74.3",
+                                            "spread": "10.44"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "14"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "32"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Mean Cortical to Cerebellum SUVR",
+                    "description": "Standardized Uptake Value ratio (SUVR) is the ratio of tracer uptake in predefined cortical regions, relative to uptake in the cerebellum gray matter. Total scan length was 200 min.",
+                    "populationDescription": "4 subjects in AD group and 1 subject in the healthy elderly group were excluded due to poor placement and/or excessive movement in the scanner during the 200-minute procedure.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "SUVR",
+                    "timeFrame": "50-60 min after injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Subjects With AD",
+                            "description": "Probable AD, National Institute of Neurological and Communicative Disorders and Stroke-Alzheimer's Disease and Related Disorders Association (NINCDS-ADRDA) criteria, with mild/moderate dementia (Mini-Mental State Examination \\[MMSE\\] from 10 to 24)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Healthy Elderly Subjects",
+                            "description": "Cognitively normal with MMSE of 29 or higher; age 50 years or older"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "15"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.665",
+                                            "spread": "0.175"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.246",
+                                            "spread": "0.177"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Precuneus to Cerebellum SUVR",
+                    "description": "Ratio of uptake in the precuneus to uptake in the cerebellum.",
+                    "populationDescription": "4 subjects in AD group and 1 subject in the healthy elderly group were excluded due to poor placement and/or excessive movement in the scanner during the 200-minute procedure.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "SUVR",
+                    "timeFrame": "50-60 min after injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Subjects With AD",
+                            "description": "Probable AD, National Institute of Neurological and Communicative Disorders and Stroke-Alzheimer's Disease and Related Disorders Association (NINCDS-ADRDA) criteria, with mild/moderate dementia (Mini-Mental State Examination \\[MMSE\\] from 10 to 24)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Healthy Elderly Subjects",
+                            "description": "Cognitively normal with MMSE of 29 or higher; age 50 years or older"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "15"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.847",
+                                            "spread": "0.237"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.300",
+                                            "spread": "0.271"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "AEs occuring within 3 days of injection. SAEs occuring within 30 days of injection",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Subjects With AD",
+                    "description": "Probable AD, National Institute of Neurological and Communicative Disorders and Stroke-Alzheimer's Disease and Related Disorders Association (NINCDS-ADRDA) criteria, with mild/moderate dementia (Mini-Mental State Examination \\[MMSE\\] from 10 to 24)",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 16,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 16
+                },
+                {
+                    "id": "EG001",
+                    "title": "Healthy Elderly Subjects",
+                    "description": "Cognitively normal with MMSE of 29 or higher; age 50 years or older",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 16,
+                    "otherNumAffected": 2,
+                    "otherNumAtRisk": 16
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "HEADACHE",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (9.1)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 16
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                },
+                {
+                    "term": "CLAUSTROPHOBIA",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA (9.1)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 16
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 16
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "GT60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Chief Medical Officer",
+                "organization": "Avid Radiopharmaceuticals",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "florbetapir F 18 (18F-AV-45) \u2014 radioactive PET amyloid imaging tracer (branded Amyvid)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention is florbetapir F 18 (18F-AV-45), a radioactive PET tracer developed to bind \u03b2\u2011amyloid plaques and provide an image-based estimate of amyloid/neurotic plaque density in the brain (i.e., a diagnostic imaging agent rather than a therapeutic). \ue200cite\ue202turn0search4\ue202turn0search5\ue201",
+        "Act: Key extracted details \u2014 drug: florbetapir F 18 (18F-AV-45; marketed as AMYVID); type: radiolabeled small molecule PET tracer used for amyloid imaging; intended effect: detect/quantify amyloid in vivo and evaluate pharmacokinetics and safety. Because the trial evaluates imaging properties, pharmacokinetics and safety (diagnostic use), it does not test a disease-modifying biologic or small-molecule therapy, a cognitive enhancer, or an intervention for neuropsychiatric symptoms \u2014 therefore classification: 'N/A'. \ue200cite\ue202turn0search5\ue202turn0search0\ue201",
+        "Reflect: Verification \u2014 florbetapir selectively binds \u03b2\u2011amyloid plaques and is used clinically as an adjunct diagnostic PET agent (FDA-approved as AMYVID for estimating amyloid neuritic plaque density); the study title/description (evaluation of amyloid binding properties, pharmacokinetics and safety by PET) confirms a diagnostic imaging study rather than a therapeutic trial, so 'N/A' is the appropriate category. \ue200cite\ue202turn0search0\ue202turn0search4\ue201",
+        "Web search results used (short list of supporting sources): 1) FDA / Lilly AMYVID (florbetapir F 18) approval and label information (describes diagnostic indication and limitations). \ue200cite\ue202turn0search0\ue201 2) In vivo imaging trial describing 18F-AV-45 (florbetapir) PET accumulation in AD vs controls and reporting PK/safety data. \ue200cite\ue202turn0search5\ue201 3) Postmortem correlation study showing florbetapir binding correlates with \u03b2\u2011amyloid plaque burden (supports mechanism as amyloid imaging ligand). \ue200cite\ue202turn0search4\ue201 4) GMP synthesis/manufacturing note for 18F-AV-45 (supporting tracer identity and clinical use). \ue200cite\ue202turn0search3\ue201 5) Clinical-environment feasibility study using 18F-AV-45 for amyloid quantification. \ue200cite\ue202turn0search1\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

@@ -1,0 +1,556 @@
+{
+    "nct_id": "NCT02423200",
+    "title": "A Randomized, Open-Label, Multiple Dose Clinical Pharmacology Study of Two Doses of a Selective p38 MAP Kinase Inhibitor, VX-745 in Patients With Mild Cognitive Impairment (MCI) Due to Alzheimer's Disease (AD) or With Mild AD",
+    "status": "COMPLETED",
+    "last_update_time": "2018-04-02",
+    "description_brief": "This study will assess the effects of VX-745 on markers of disease in the central nervous system of patients with MCI due to AD or with mild AD. The study will also evaluate the safety and tolerability of VX-745 in these patients during 6 weeks of dosing, as well as the plasma and cerebrospinal fluid concentrations of VX-745 during dosing.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "During the course of the study, and after one subject had been enrolled in the 125 mg dose group, FDA mandated the removal of the 125 mg dose group. As a result, the number subjects was revised downward to 9, 8 as planned in the 40 mg dose group and 1 in the 125 mg dose group.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Neflamapimod (VX-745) Dose Level 1",
+                    "description": "Active Group 1: VX-745 40 mg twice daily\n\nNeflamapimod (VX-745): Orally-active P38 MAP kinase alpha-selective inhibitor"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Neflamapimod (VX-745) Dose Level 2",
+                    "description": "Active Group 1: VX-745 125 mg twice daily\n\nNeflamapimod (VX-745): Orally-active P38 MAP kinase alpha-selective inhibitor"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "8"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "7"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "VX-745 Dose Level 1",
+                    "description": "Active Group 1: VX-745 dose level 1 twice daily\n\nVX-745: Orally-active P38 MAP kinase alpha-selective inhibitor"
+                },
+                {
+                    "id": "BG001",
+                    "title": "VX-745 Dose Level 2",
+                    "description": "Active Group 1: VX-745 dose level 2 twice daily\n\nVX-745: Orally-active P38 MAP kinase alpha-selective inhibitor"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "8"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "1"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "9"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "FULL_RANGE",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "71",
+                                            "lowerLimit": "66",
+                                            "upperLimit": "74"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "68",
+                                            "lowerLimit": "68",
+                                            "upperLimit": "68"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "71",
+                                            "lowerLimit": "66",
+                                            "upperLimit": "74"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "count of participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Percent Change From Baseline to End of Treatment in Cerebrospinal Fluid Levels of Cytokines",
+                    "description": "Cytokines: Of nine cytokines assessed, only CSF IL-8 quantifiable at all time points. And so, only IL-8 levels are being reported herein. The analysis was exploratory and no statistical analysis was performed.",
+                    "populationDescription": "As there was only one subject in the 125 mg dose group (see Pre-Assignment Details), and the blood concentration levels in this subject was similar to that in 125 mg dose group, this subjects data was combined with the 40 mg dose group in this analysis. In addition, two subjects did not have Day 42 CSF samples available for analysis",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "percentage of baseline at Day 42",
+                    "timeFrame": "Baseline and Day 42 of dosing with VX-745",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Overall Study Population",
+                            "description": "Combined 40 mg and 125 mg subjects; N=7 with baseline and Day 42 results"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "137",
+                                            "spread": "115"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Severe or Serious Adverse Events",
+                    "description": "Number of patients with severe or serious adverse events",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "At baseline and at each study visit during (days 1, 7, 14, 21, 28, 35 and 42) and after (day 51) dosing",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Neflamapimod (VX-745) Dose Level 1",
+                            "description": "Active Group 1: VX-745 40 mg twice daily\n\nNeflamapimod (VX-745): Orally-active P38 MAP kinase alpha-selective inhibitor"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Neflamapimod (VX-745) Dose Level 2",
+                            "description": "Active Group 1: VX-745 125 mg twice daily\n\nNeflamapimod (VX-745): Orally-active P38 MAP kinase alpha-selective inhibitor"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Maximal CSF VX-745 Concentration",
+                    "description": "Ratio fo CSF to plasma drug concentration at time matched time points. Samples taken",
+                    "populationDescription": "As there was only one subject in the 125 mg dose group (see Pre-Assignment Details), and the blood concentration levels in this subject was similar to that in 125 mg dose group, this subjects data was combined with the 40 mg dose group in this analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ratio of plasma drug concentration",
+                    "timeFrame": "All samples with quantifiable CSF drug levels were included (n=12). Eight were obtained 3-hours post-dose, either on Day 1 (n=4) or Day 42 (n=4). 3 samples were at 6-hours post-dose on Day 42; and one was at 6-hours post-dose on Day 1.",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Overall Study Population",
+                            "description": "Combined 40 mg and 125 mg subjects"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "9"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.062",
+                                            "spread": "0.01"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Episodic Memory Function",
+                    "description": "Total Recall in Hopkins Verbal Learning Test (HVLT). Range is 0-36, with increases in score indicating improvement in cognitive function.",
+                    "populationDescription": "As there was only one subject in the 125 mg dose group (see Pre-Assignment Details), and the blood concentration levels in this subject was similar to that in 125 mg dose group, this subjects data was combined with the 40 mg dose group in all outcome measure analyses. In addition, one subject did not have a Day 42 HVLT-R analysis.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "points on HLVT Total Recall (range 0-36)",
+                    "timeFrame": "Change from baseline to Day 42",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Overall Study Population",
+                            "description": "Combined 40 mg and 125 mg subjects"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3.5",
+                                            "spread": "3.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Overall Study Population",
+                    "description": "Combined 40 mg and 125 mg subjects. As there was only one subject in the 125 mg dose group (see Pre-Assignment Details), and the blood concentration levels in this subject was similar to that in 125 mg dose group, this subjects data was combined with the 40 mg dose group in the adverse event analysis.",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 9,
+                    "otherNumAffected": 9,
+                    "otherNumAtRisk": 9
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Somnolence",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Orthostatic hypotension",
+                    "organSystem": "Vascular disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Diarrhea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Vomiting",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "Hot flush",
+                    "organSystem": "Vascular disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "Clinical study was conducted at at clinical pharmacology unit owned by a contract research organization (CRO; Parexel) that was contracted by the sponsor to conduct the study. Site principal investigator is an employee of a contract research organization. As per the contract, the sponsor has \"all rights, title and interest in the results\"."
+            },
+            "pointOfContact": {
+                "title": "John Alam",
+                "organization": "EIP Pharma",
+                "email": "jalam@eippharma.com",
+                "phone": "617-945-0794"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "VX-745 (neflamapimod)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The investigational product VX-745 is a selective small-molecule inhibitor of the p38\u03b1 mitogen-activated protein kinase (p38 MAPK) and is being developed to target molecular/pathophysiologic mechanisms (synaptic dysfunction/neuroinflammation) in early Alzheimer's disease rather than as a symptomatic cognitive enhancer or a neuropsychiatric treatment. \ue200cite\ue202turn0search5\ue202turn0search1\ue201",
+        "Act: Key extracted details \u2014 drug name and type: VX-745, also known as neflamapimod, is an oral small-molecule, ATP-competitive p38\u03b1 MAPK inhibitor. Development and clinical testing have been performed for CNS indications including MCI/mild AD. \ue200cite\ue202turn0search6\ue202turn0search5\ue201",
+        "Act (trial-specific): The described study is an open-label, multiple-dose clinical pharmacology study assessing VX-745 effects on CNS disease markers, safety/tolerability and plasma/CSF drug levels over 6 weeks in patients with MCI due to AD or mild AD \u2014 consistent with a disease-targeting pharmacologic approach. \ue200cite\ue202turn0search4\ue202turn0search2\ue201",
+        "Reflect: Classification check \u2014 because VX-745/neflamapimod is a small-molecule kinase inhibitor aimed at modulating AD-related biology (p38\u03b1 signaling and downstream neuroinflammatory/synaptic processes), it fits the definition of a \"disease-targeted small molecule\" rather than a biologic, purely symptomatic cognitive enhancer, or a neuropsychiatric symptomatic treatment. No placebo is indicated in the provided open-label design. \ue200cite\ue202turn0search5\ue202turn0search4\ue201"
+    ],
+    "agent_type": "F) Inflammation",
+    "explanation_agent": [
+        "Reason: VX-745 (neflamapimod) is a selective small\u2011molecule inhibitor of p38\u03b1 MAP kinase (MAPK14). p38\u03b1 is a central signaling kinase that drives production of pro\u2011inflammatory mediators (e.g., IL\u20111\u03b2, TNF\u03b1) and is implicated in neuroinflammation that contributes to AD pathophysiology; the program is explicitly described as modulating neuroinflammatory/synaptic processes in early AD. \ue200cite\ue202turn0search3\ue202turn0search4\ue202turn0search1\ue201",
+        "Act: Extracted experimental details \u2014 drug: VX\u2011745 (neflamapimod), mechanism: ATP\u2011competitive/ selective p38\u03b1 MAPK inhibitor; clinical context: tested in MCI/mild AD to target disease biology (reduce neuroinflammation and restore synaptic function) rather than only symptomatic treatment. The specific study described is an open\u2011label, multiple\u2011dose pharmacology study assessing CNS markers, safety, and PK/CSF levels. \ue200cite\ue202turn0search5\ue202turn0search4\ue202turn0search2\ue201",
+        "Reflect: Mapping to CADRO \u2014 p38\u03b1 inhibition primarily intervenes in inflammatory signaling in the brain (neuroinflammation) and thereby secondarily affects synaptic function. The most specific CADRO category that matches the drug's direct biological target and stated mechanism is F) Inflammation. Note: because the drug is a single molecular kinase inhibitor (not a broad multi\u2011target agent), and its principal mechanistic rationale is modulation of inflammatory signaling (even though synaptic plasticity is an important downstream goal), F) Inflammation is the most appropriate classification rather than M) Synaptic Plasticity/Neuroprotection or R) Multi\u2011target. \ue200cite\ue202turn0search4\ue202turn0search6\ue201",
+        "Supporting web search results (key sources):",
+        "- Neflamapimod (VX\u2011745) described as a brain\u2011penetrant, selective p38\u03b1 (MAPK14) inhibitor being developed for early AD; clinical review noting its development to reverse synaptic dysfunction via p38\u03b1 inhibition. \ue200cite\ue202turn0search4\ue201",
+        "- NCATS / drug database entry summarizing neflamapimod as a brain\u2011penetrant p38\u03b1 inhibitor in Phase 2 for early AD and describing suppression of inflammatory mediators (IL\u20111\u03b2, TNF\u03b1). \ue200cite\ue202turn0search3\ue201",
+        "- Trial registry/clinical listings and trial descriptions for VX\u2011745 / neflamapimod in MCI/mild AD (phase 2 studies; pharmacology and PoC trials). \ue200cite\ue202turn0search2\ue202turn0search5\ue201",
+        "- Preclinical/experimental reports showing that neflamapimod inhibits p38\u03b1 phosphorylation and downstream targets (e.g., Hsp27), reduces inflammatory signaling and produces physiologic effects relevant to AD models. \ue200cite\ue202turn0search1\ue202turn0search6\ue201"
+    ]
+}

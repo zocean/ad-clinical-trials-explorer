@@ -1,0 +1,898 @@
+{
+    "nct_id": "NCT01729598",
+    "title": "Safety And Target Engagement Of Clu1 By Valproic Acid In Subjects With Intact Cognition: Proof Of Concept For The Development Of A Prevention Trial For Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2019-10-07",
+    "description_brief": "The purpose of this study is to evaluate the safety of administration and effects of valproic acid on clusterin expression in cognitively-intact, healthy, elderly subjects. Clusterin mutations have recently been identified as a risk factor for the development of Alzheimer's Disease and changes in clusterin expression are seen in the elderly who develop Alzheimer's disease irrespective of whether they carry these genetic mutations or not. Valproic acid may prevent or reverse these changes.\n\nFourteen subjects with normal memory and thinking will participate in this study. Ten of these subjects will receive valproic acid and 4 will receive a \"placebo\" capsule with no active medicine. Participants will take study medication or placebo for 28 days and be followed for a total 35 days in this trial.",
+    "description_detailed": "This is a placebo-controlled, single-center, multiple ascending dose study. Seven healthy volunteers will be enrolled into 2 sequential cohorts, for a total of 14 enrolled subjects. The study will be conducted using two doses of valproate (250 mg PO bid, followed by 500 mg PO bid). At each dose level, 7 cognitively intact normal elderly subjects will be entered into the study with two subjects randomly selected to receive placebo while the other five subjects receive the designated dose of valproate.\n\nStudy procedures will include routine assessment of adverse events, safety labs, baseline MRI, physical and neurological exams, and cerebrospinal fluid collection.\n\nOther investigational medication or devices are prohibited during this study.",
+    "phase": [
+        "EARLY_PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "BASIC_SCIENCE",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Valproic Acid",
+                    "description": "Valproic acid 250 mg or 500mg by mouth twice daily.\n\nValproic Acid: generic valproic acid tablets packaged in placebo-matched capsules."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "Placebo capsule by mouth twice daily.\n\nPlacebo: Placebo capsule without active study medication in identical capsules as experimental medicine."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "10"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "10"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Valproic Acid",
+                    "description": "Valproic acid 250 mg or 500mg by mouth twice daily.\n\nValproic Acid: generic valproic acid tablets packaged in placebo-matched capsules."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo",
+                    "description": "Placebo capsule by mouth twice daily.\n\nPlacebo: Placebo capsule without active study medication in identical capsules as experimental medicine."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "10"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "4"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "14"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "76",
+                                            "spread": "7.3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "81",
+                                            "spread": "12.2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "78",
+                                            "spread": "8.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "14"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "14"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Frequency of Adverse Events Over the Duration of the Study by Study Arm",
+                    "description": "Safety assessments will be based on medical review of adverse event reports and the results of vital sign measurements, physical examinations, and clinical laboratory tests throughout the study. The incidence of observed toxicities and adverse events will be tabulated, the frequencies compared in participants who receive active medication and those who receive placebo, and reviewed for potential significance and clinical importance.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Day 35",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Valproic Acid",
+                            "description": "Valproic acid 250 mg or 500mg by mouth twice daily.\n\nValproic Acid: generic valproic acid tablets packaged in placebo-matched capsules."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Placebo capsule by mouth twice daily.\n\nPlacebo: Placebo capsule without active study medication in identical capsules as experimental medicine."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "4"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Cerebrospinal Fluid Amyloid Levels (pg/ml) Over 28 Day Intervention Period by Study Arm",
+                    "description": "Change in cerebrospinal fluid amyloid-beta 1-42 levels in pg/ml from baseline to end of treatment (day 28)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "pg/ml",
+                    "timeFrame": "Baseline and day 28",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Valproic Acid",
+                            "description": "Valproic acid 250 mg or 500mg by mouth twice daily.\n\nValproic Acid: generic valproic acid tablets packaged in placebo-matched capsules."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Placebo capsule by mouth twice daily.\n\nPlacebo: Placebo capsule without active study medication in identical capsules as experimental medicine."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "4"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "57.1",
+                                            "spread": "28.4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "44.7",
+                                            "spread": "24.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.55",
+                            "statisticalMethod": "t-test, 2 sided"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Cerebrospinal Fluid P-tau Levels (pg/ml)",
+                    "description": "Change in cerebrospinal fluid p181-tau levels (pg/ml) from baseline to end of treatment (Day 28)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "pg/ml",
+                    "timeFrame": "Baseline and day 28",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Valproic Acid",
+                            "description": "Valproic acid 250 mg or 500mg by mouth twice daily.\n\nValproic Acid: generic valproic acid tablets packaged in placebo-matched capsules."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Placebo capsule by mouth twice daily.\n\nPlacebo: Placebo capsule without active study medication in identical capsules as experimental medicine."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "4"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-5.7",
+                                            "spread": "11.9"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "11.0",
+                                            "spread": "25.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.19",
+                            "statisticalMethod": "t-test, 2 sided"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Free & Cued Selective Reminding Test- Free Recall (Number of Items Correct)",
+                    "description": "Change in Free \\& Cued Selective Reminding Test- delayed free recall from baseline to end of treatment (Day 28)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "number of items recalled",
+                    "timeFrame": "Baseline and day 28",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Valproic Acid",
+                            "description": "Valproic acid 250 mg or 500mg by mouth twice daily.\n\nValproic Acid: generic valproic acid tablets packaged in placebo-matched capsules."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Placebo capsule by mouth twice daily.\n\nPlacebo: Placebo capsule without active study medication in identical capsules as experimental medicine."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "4"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.4",
+                                            "spread": "3.5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-4.5",
+                                            "spread": "3.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.02",
+                            "statisticalMethod": "t-test, 2 sided"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Cerebrospinal Fluid Clusterin Levels (pg/ml)",
+                    "description": "Change in cerebrospinal fluid clusterin levels (pg/ml) from baseline to end of treatment (Day 28)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "pg/ml",
+                    "timeFrame": "Baseline and day 28",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Valproic Acid",
+                            "description": "Valproic acid 250 mg or 500mg by mouth twice daily.\n\nValproic Acid: generic valproic acid tablets packaged in placebo-matched capsules."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Placebo capsule by mouth twice daily.\n\nPlacebo: Placebo capsule without active study medication in identical capsules as experimental medicine."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "10"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "4"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2610",
+                                            "spread": "4373"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "201",
+                                            "spread": "871"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY",
+                            "pValue": "0.31",
+                            "statisticalMethod": "t-test, 2 sided"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "35 days",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Valproic Acid",
+                    "description": "Valproic acid 250 mg or 500mg by mouth twice daily.\n\nValproic Acid: generic valproic acid tablets packaged in placebo-matched capsules.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 10,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 10,
+                    "otherNumAffected": 8,
+                    "otherNumAtRisk": 10
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Placebo capsule by mouth twice daily.\n\nPlacebo: Placebo capsule without active study medication in identical capsules as experimental medicine.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 4,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 4,
+                    "otherNumAffected": 1,
+                    "otherNumAtRisk": 4
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "hypoglycemia",
+                    "organSystem": "Endocrine disorders",
+                    "sourceVocabulary": "MedDRA (10.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 10
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 4
+                        }
+                    ]
+                },
+                {
+                    "term": "fatigue",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (10.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 3,
+                            "numAtRisk": 10
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 4
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (10.0)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 10
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Dr. Gregory A. Jicha",
+                "organization": "University of Kentucky",
+                "email": "gregory.jicha@uky.edu",
+                "phone": "859-323-5550"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "Valproic acid (small-molecule; histone deacetylase inhibitor)"
+    ],
+    "placebo": [
+        "Placebo capsule (no active medicine)"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests valproic acid to modulate clusterin (CLU) expression \u2014 CLU is a genetic/biomarker risk factor linked to Alzheimer\u2019s pathology (amyloid-related processes), so the intervention is aimed at a disease-associated pathway rather than symptomatic cognition or neuropsychiatric signs. \ue200cite\ue202turn0search5\ue202turn0search4\ue201.",
+        "Act: Extracted trial details \u2014 phase: early Phase 1 proof-of-concept; 14 cognitively-intact elderly subjects; 10 receive valproic acid, 4 receive placebo; treatment 28 days with 35-day follow-up; title: Safety And Target Engagement Of Clu1 By Valproic Acid In Subjects With Intact Cognition: Proof Of Concept For The Development Of A Prevention Trial For Alzheimer's Disease. (trial listing). \ue200cite\ue202turn0search7\ue201.",
+        "Act (drug mechanism/evidence): Valproic acid is a small-molecule anticonvulsant/mood stabilizer that acts as a histone deacetylase (HDAC) inhibitor and has been shown to induce/stimulate clusterin expression in human astrocytes at therapeutic concentrations \u2014 providing the proposed target engagement rationale. \ue200cite\ue202turn0search2\ue202turn0search1\ue201.",
+        "Reflect: Classification rationale \u2014 because valproic acid is a small-molecule drug being used to modulate a disease-associated protein (clusterin) with the intent of prevention/disease-modifying target engagement, the correct category is 'disease-targeted small molecule'. Note: this is a short proof-of-concept safety/target-engagement study (biomarker endpoint) rather than a cognitive or symptom-management trial. \ue200cite\ue202turn0search1\ue202turn0search7\ue201.",
+        "Web search results used: valproate FDA information (drug class/approved uses) and safety context; PubMed study showing valproic acid stimulates clusterin expression in human astrocytes; PubMed study describing VPA as an HDAC inhibitor; clinical-trial listing with the trial details. \ue200cite\ue202turn0search0\ue202turn0search1\ue202turn0search2\ue202turn0search7\ue201"
+    ],
+    "agent_type": "A) Amyloid beta",
+    "explanation_agent": [
+        "Reason: The trial uses valproic acid (a small\u2011molecule HDAC inhibitor) to upregulate clusterin (CLU), a protein genetically linked to AD that modulates amyloid-\u03b2 aggregation and clearance; therefore the intervention is aimed at an amyloid-related disease pathway rather than symptomatic care. \ue200cite\ue202turn0search0\ue202turn0search3\ue202turn0search9\ue201",
+        "Act: Extracted trial details \u2014 early Phase 1 proof-of-concept safety/target-engagement study of valproic acid in cognitively-intact elderly subjects (N\u224814) to assess effects on clusterin expression. Valproic acid is an anticonvulsant/mood stabilizer with HDAC inhibitory activity and has been shown to induce clusterin expression in human astrocytes at therapeutic concentrations. These facts support assigning the trial to an amyloid-related CADRO category because CLU modulation is intended to affect A\u03b2 pathology. \ue200cite\ue202turn0search2\ue202turn0search0\ue202turn0search3\ue201",
+        "Reflect: CLU is mechanistically implicated in amyloid metabolism (overexpression reduces amyloid burden in AD models), so a pharmacologic strategy to increase CLU to prevent or reduce A\u03b2 aggregation best maps to CADRO A) Amyloid beta rather than a non-amyloid category. If the trial had instead targeted CLU for synaptic or non-amyloid mechanisms only, another category might be considered, but the provided rationale emphasizes amyloid-related processes. \ue200cite\ue202turn0search9\ue202turn0search7\ue201",
+        "Web search results used (brief): 1) FDA valproate information \u2014 valproate drug class/uses and safety context. \ue200cite\ue202turn0search0\ue201; 2) PubMed \u2014 Valproic acid stimulates clusterin expression in human astrocytes (demonstrates VPA\u2192CLU). \ue200cite\ue202turn0search3\ue201; 3) PubMed/other \u2014 VPA described as an HDAC inhibitor and other HDAC inhibitor effects in glia. \ue200cite\ue202turn0search1\ue202turn0search5\ue201; 4) Clinical-trial listing (NCT01729598) \u2014 trial title, design and target engagement goal. \ue200cite\ue202turn0search2\ue201; 5) Molecular Neurodegeneration (2020) and related papers \u2014 astrocyte-derived CLU suppresses amyloid formation in vivo (supports CLU\u2192reduced A\u03b2). \ue200cite\ue202turn0search9\ue202turn0search7\ue201"
+    ]
+}

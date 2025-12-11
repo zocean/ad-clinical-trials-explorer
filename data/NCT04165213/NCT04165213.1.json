@@ -1,0 +1,2377 @@
+{
+    "nct_id": "NCT04165213",
+    "title": "A Training and Fidelity Model to Move and Scale Evidence-based Dementia Care and Caregiver Support Programs Into Practice: The Case for COPE in PACE Service Settings",
+    "status": "COMPLETED",
+    "last_update_time": "2025-06-06",
+    "description_brief": "The protocol is organized into three Phases - In Phase I an online training program will be developed in \"Care of Persons with Dementia in their Environments\" (COPE) -an evidence-based bio-behavioral dementia program -using state-of-the science simulation and best online learning practices. In addition an automated approach to fidelity monitoring using computational linguistics (automatic classification programs) will be developed. In Phase II, ten long term care community-based (PACE) organizations will be randomized into two groups; 5 PACE organizations will serve as the \"control\" site in which staff training will be provided via the traditional high intensity face-to-face training in the COPE program. 5 PACE organizations will serve as the comparison and staff will be trained using the online COPE training program. Phase II will evaluate the whether an online training program is the same or better in improving PACE staff competency and fidelity to COPE principles and protocols compared to a high intensity face-to-face traditional form of training. In Phase III the efficacy of the COPE program on PACE participant outcomes by type of COPE training will be evaluated. Each of the PACE organizations will enroll 5 persons with dementia and their caregivers in the study. This will yield 50 family dyads (25 dyads in traditional training sites and 25 dyads in online training sites). Dyads will be followed for 4 months. Non-inferiority analysis will be used to assess whether dyads will yield the same or better outcomes regardless of how PACE staff were trained.",
+    "description_detailed": "PHASE 1a - The Online Training Program - We will develop ten self-paced online learning modules. These modules will enable OTs and RNs to participant to have anytime/anywhere access to content and activities to aid their learning. The modules will include rich multimedia content and interactive assessments to keep the learner engaged. The modules will allow for easy packaging of the content into the latest interoperability standards for such content including the latest Shareable Content Object Reference Model (SCORM) specifications, which will allow for repurposing and sharing with other institutions.\n\nTo accommodate diversity of learning needs, the modules will be designed using a hyperlearning model with four dimensions. The general principles will begin with the module learning objectives and follow with a review of core concepts and required and/or self-directed learning activities. The mini-lecture component of the modules will include information on the major concepts of the module. Since the modules will be self-paced, the learner can take his/her time going through them and perform in the embedded interactive learning activities. The clinical reasoning dimension will provide the learner with an opportunity for problem-solving and clinical decision-making. This dimension will contain vignettes and case studies with questions requiring analysis and synthesis. The final dimension will be evaluation/ assessment of learning outcomes. This dimension will use teacher-made and standardized pre-and post-tests to assess attainment of specified learning outcomes. The self-paced modules will be highly interactive featuring integrated multimedia content, assessments, and learner evaluations to allow PACE staff to engage with the content at a high level and practice application in simulated scenarios. Each module will require approximately 45-60 minutes/module for the learner to complete. Participants can use the modules separately at different times throughout a training curriculum or they can be assigned at the beginning of a training time by having this information front-loaded.\n\nTo develop the modules, we will work intensely in year 01 with an instructional design team at Drexel University with specialists in dementia care, the COPE program and experts in simulation, use of standardized patients, and training of nurses and other health professionals from Penn, Trinity Health and Jefferson. We anticipate the modules to contain the following content: module 1 - introduction to COPE program, research evidence, and core principles underlying the program; module 2 - overview of delivery characteristics, role of RN and OT, three phases (assessment, implementation, generalizability) of the COPE program, permissible adaptations; module 3 and 4-assessment phase, introduction to clinical interview and all assessments and forms; module 5 and 6- implementation phase including helping caregiver identify 3 problem areas, engaging in problem solving and brainstorming, developing and providing an assessment report and offering prescriptions (strategies) for each identified problem area; module 7 and 8 - generalizability phase or helping caregivers use strategies for one problem area to address another and planning for the future; module 9- developing rapport and working with family caregivers from different backgrounds, cultures, living environments and relationships and helping families balance caregiving with other life roles, adjusting approach by level of readiness; module 10 - challenging cases, motivational interviewing, how to explain the program, how to meet caregivers where they are at and provide validation and support.\n\nScripts for each module will be developed and shared with OTs/RNs who are not part of the study but work within Trinity PACE programs. This will allow for continuous feedback loops to assure that the scenarios meet the needs of PACE staff. We will compare the online program to our traditional 3-day face-to-face training currently used with COPE.\n\nThe 3-day training program will be conducted by Dr. Piersol using a slide deck and case presentations as we have previously done. The comparison of the two training programs is described in Phase 2 and 3 below.\n\nPHASE 1b -The Fidelity Monitoring Program- We seek to develop a scalable approach to assess fidelity to the COPE Program when it is implemented in a real-world setting such as PACE using computational linguistics techniques (e.g. natural language processing). The essence of fidelity to the Core Principles of COPE program will be captured by using automatic classification programs that evaluate both the content that should be included in COPE sessions, and the style of delivery. While automatic classification programs have been applied to measure quality metrics of transcribed narratives in the field of psychotherapy (21), it has not been used to measure other aspects of quality- namely fidelity to evidence-based practices or dementia care and caregiver supportive programs. The development of the automated Fidelity Monitoring Program will occur in three steps and will be carried out by a technical team consisting of an expert in content analysis, Dr. Ani Nenkova, and a consultant expert in speech recognition and prosody, Dr Mari Ostendorf. Co- I Nenkova has worked extensively on automatic summarization, evaluation of automatic summarization and readability and linguistic style. The ultimate goal of our efforts is to develop a system that- given a recording of a COPE delivery session (e.g. in real time immediately after interaction between the clinician and the caregiver)- produces a three-tiered score, indicating if the fidelity was 'excellent', 'acceptable' or 'problematic'. Special emphasis will be given to the accuracy of identifying 'problematic' COPE fidelity which is not fateful to training and may not produce the same desired outcomes as intervention delivered with higher fidelity. First, we will obtain n-best list speech recognition of the COPE interaction . This will help mitigate recognition errors in the next stage. Until recently, audio recording transcription was fraught with challenges particularly in sessions involving two or more speakers. Advances in audio signaling and speech recognition have brought technology for automating language analysis within reach. Recent research has suggested that text based features may be more effective than using audio features alone when classifying fidelity in behavioral research (47). Automatic speech recognition software will be used to transcribe sessions and the resulting words will be used in a text-based model of fidelity. All COPE training, practice and implementation sessions will be audio taped with participant consent. There are several of automatic speech recognition tools that we can use. We will pick the one that best balances accuracy of recognition in our domain and privacy.Once the transcripts are obtained, there are two approaches that we will develop and contrast: (1) comparison with a reference delivery and (2) a supervised classification approach. The first has the advantage of needing only a small number of excellent deliveries and several acceptable deliveries, for each of the seven dimensions, while the other needs a larger set of labeled data but would potentially lead to higher accuracy of prediction.\n\nComparison or similarity to reference (Steps A and B): Our approach will leverage techniques widely used in the evaluation of automatically produced content, such as machine translation and automatic text summarization. In these applications it is not feasible to track system improvement with human judgments of quality. Instead, most of the progress is measured by computing similarity between a set of sample reference text (i.e. what a 'good' translation or a 'good' summary would be) and the system output. Such automatic evaluation approaches are widely used for machine translation (48) and summarization (49). While there have been some concerns that the automatic measures are not fine enough to distinguish between levels of very good context, these measures show strong ability to distinguish 'very bad' content (50,51), (or poor fidelity) aligns with the needs of our project.\n\nIn Step A we will compile 10 examples of 'excellent' COPE fidelity deliveries, with the regions where desired aspects is expressed will be explicitly marked, i.e. marked parts where person-environment fit is discussed, or parts of the interaction where the clinician asks open ended questions or confirms the caregiver understanding of the content. Next, new interactions will be ranked by their similarity with the reference 'excellent' interactions (52). In Step 2 we will identify 'problematic' fidelity deliveries. We will make use of 10 negative examples of 'acceptable' but imperfect deliveries. If the new interaction ranks lower than most of these, it will be considered unacceptable or 'problematic'. Parameters and decision rules will be developed at this step to determine cut-off levels for declaring an interaction problematic.\n\nDetermination of \"excellent\" versus \"problematic\" fidelity ratings of the audio recordings will be assessed by Drs Hirshman and Renz (who were not the original developers of COPE and thus they offer an independent review) using the COPE Adherence Scale developed for the original clinical trial in order to evaluate the extent to which core treatment principles were implemented effectively. Ratings from the Adherence Scale have been standardized such that 1.00 represents perfect fidelity and 0.00 represent complete non-fidelity. The scale was previously modeled off of the NIH REACH I and II fidelity approach. Findings from the combined fidelity ratings will be used to refine the automated fidelity program into a \"best model\" to be tested in Step C (53).\n\nSupervised classification (Step C) For this approach, we will need to examine all recorded sessions (600+). We will train a supervised classifier or a regression model to predict the score (1 to 3, corresponding to excellent, acceptable and problematic) of a given interaction. We will experiment with a number of classifiers, including deep learning frameworks and more traditional support vector machine and (logistic) regression models.The resulting final validation set of 100 labeled interactions will serve to finalize the best model for fidelity prediction.\n\nPHASE 2 - Evaluation of Online Training Program in Interventionist Uptake and Fidelity Phase 2 of this study involves a series of activities designed to evaluate the whether an online training program is the same or better in improving interventionist uptake of- and fidelity to- COPE principles and protocols compared to a high intensity face-to-face traditional form of training.\n\nPHASE 3 (Aim 3) - Efficacy of COPE on PACE participant outcomes by type of COPE training.\n\nThis aim will be accomplished by evaluating dyad outcomes of the COPE program under the two different training approaches. Following training, each of the PACE organizations will enroll 5 persons with dementia and their caregivers in the study. This will yield 50 family dyads (25 dyads in traditional training sites and 25 dyads in online training sites).\n\nThe recruitment plan includes the following goals:\n\n25% recruitment complete by August 1, 2022 50% recruitment complete by October 31, 2022 75% recruitment complete by December 28, 2022 100% recruitment complete by February 28, 2023 Data analysis completed by April 28, 2023",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "SUPPORTIVE_CARE",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "Prior to assignment, the study team worked with Trinity Health PACE to ensure at least 10 PACE sites would enroll in the study.",
+            "recruitmentDetails": "Once at least 10 PACE sites agreed to participate, each site was randomized to the control or intervention groups. Clinicians were enrolled and received the type of training that had already been assigned to their site. Intervention = online module training. Control = Instructor-led training. After training, clinicians and staff enrolled dyads (PLWDs \\& CGs) to receive COPE. Dyads are assigned to the study arm according to which training their clinician received.",
+            "typeUnitsAnalyzed": "sites",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Traditional Training",
+                    "description": "These sites were randomized to the control group. Clinicians at these sites received the traditional instructor-led training in the COPE program before delivering to dyads enrolled at their sites."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Module Training",
+                    "description": "These sites were randomized to the intervention group. Clinicians at these sites received the new module training in the COPE program before delivering to dyads enrolled at their sites."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Clinician Enrollment",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "15",
+                                    "numUnits": "7"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "12",
+                                    "numUnits": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Clinician Training Complete",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "3 clinicians left the study after baseline measures due to staffing issues, workload and competing priorities. They did not receive training/complete this milestone.",
+                                    "numSubjects": "12",
+                                    "numUnits": "7"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "12",
+                                    "numUnits": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Post-training Surveys Complete",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "12",
+                                    "numUnits": "7"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "12",
+                                    "numUnits": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COPE Delivery Complete",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "1 clinician did not deliver COPE/complete this milestone. 3 clinicians resigned before this milestone.",
+                                    "numSubjects": "8",
+                                    "numUnits": "5"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "comment": "2 clinicians did not deliver COPE/complete this milestone.\n\n1 clinician was terminated before completing this milestone.",
+                                    "numSubjects": "9",
+                                    "numUnits": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "8",
+                                    "numUnits": "5"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "9",
+                                    "numUnits": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "7",
+                                    "numUnits": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3",
+                                    "numUnits": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Did not deliver COPE to dyads",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "6"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Termination from site",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Caregiver Enrollment",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "comment": "This is the start of the caregiver enrollment period. Participants numbers are not related to clinician enrollment numbers above.",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "12",
+                                    "numUnits": "7"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "17",
+                                    "numUnits": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Baseline Measures Collected.",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "2 caregivers left the study before completing baseline measures.",
+                                    "numSubjects": "10",
+                                    "numUnits": "5"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "comment": "5 caregivers left the study before completing baseline measures.",
+                                    "numSubjects": "12",
+                                    "numUnits": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Minimal Dose of COPE (4 Sessions) Received.",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "1 caregiver left the study based on the PLWD's physician's decision.",
+                                    "numSubjects": "9",
+                                    "numUnits": "5"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "comment": "2 caregivers did not receive COPE. 2 caregivers received less than the minimal dose of COPE to be included in sample.",
+                                    "numSubjects": "8",
+                                    "numUnits": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "2 caregivers were lost to follow up.",
+                                    "numSubjects": "7",
+                                    "numUnits": "5"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "comment": "1 caregiver was lost to follow up.",
+                                    "numSubjects": "7",
+                                    "numUnits": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "5",
+                                    "numUnits": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "10",
+                                    "numUnits": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "5"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Physician Decision",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "PLWD entered long term care, no longer eligible",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "PLWD death",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Did not receive minimal dose of COPE",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "PLWD Enrollment",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "12",
+                                    "numUnits": "7"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "17",
+                                    "numUnits": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Baseline Measures Collected.",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "2 PLWDs left the study before caregiver completed baseline measures.",
+                                    "numSubjects": "10",
+                                    "numUnits": "5"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "comment": "5 PLWDs left the study before caregivers completing baseline measures.",
+                                    "numSubjects": "12",
+                                    "numUnits": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Minimal Dose of COPE (4 Sessions) Received.",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "comment": "1 PLWD's physician decided they should leave the study.",
+                                    "numSubjects": "9",
+                                    "numUnits": "5"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "comment": "2 PLWD caregivers did not receive COPE. 2 PLWD caregivers received less than the minimal dose of COPE to be included in sample.",
+                                    "numSubjects": "8",
+                                    "numUnits": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "7",
+                                    "numUnits": "5"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "7",
+                                    "numUnits": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "5",
+                                    "numUnits": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "10",
+                                    "numUnits": "0"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "5"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Physician Decision",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Entered long term care, no longer eligible",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Death",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Did not receive minimal dose of COPE",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Instructor-trained COPE Clinicians",
+                    "description": "Clinicians from PACE sites randomized to this study arm (control) will receive instructor-led training in the evidence-based dementia care program called COPE. After clinician consent and enrollment, outcome measures will be collected prior to training (pre-training baseline), after training (post-training baseline), and after delivering COPE to dyads (4 months post-implementation).\n\nDyads (caregivers and PLWDs) receiving COPE from Instructor-trained COPE clinicians are represented in the study arms \"Caregivers receiving COPE from instructor-trained COPE clinicians\" and \"PLWDs COPE from instructor-trained COPE clinicians.\"\n\nThese participants are receiving the usual instructor-led training - not the experimental training."
+                },
+                {
+                    "id": "BG001",
+                    "title": "COPE Module-trained Clinicians",
+                    "description": "Clinicians from PACE sites randomized to this study arm (intervention) will receive self-paced online module training in the evidence-based dementia care program called COPE. After clinician consent and enrollment, outcome measures will be collected prior to training (pre-training baseline), after training (post-training baseline), and after delivering COPE to dyads (4 months post-implementation).\n\nDyads (caregivers and PLWDs) receiving COPE from module-trained COPE clinicians are represented in the study arms \"Caregivers receiving COPE from module-trained COPE clinicians\" and \"PLWDs COPE from module-trained COPE clinicians.\"\n\nCare of Older Persons in their Environment (COPE) online module training: An online module version of training for clinicians (OTs and RNs) in the evidence-based dementia caregiving program called Care of Older Persons in their Environment (COPE) is the intervention being tested for non-inferiority against the usual instructor-led COPE training. COPE modules include rich multimedia content, simulated scenarios, interactive assessments to keep the learner engaged The content is packaged into the latest the latest Shareable Content Object Reference Model (SCORM) specifications, which will allow for repurposing and sharing with other institutions. Each of the ten modules last 45-60 minutes."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Caregivers Receiving COPE From Instructor-trained COPE Clinicians",
+                    "description": "Caregivers of eligible PLWDS enrolled at PACE sites randomized to the control arm will be recruited by \"instructor-trained COPE clinicians.\" After initial recruitment, the study team will carry out consent and screening procedures with caregivers and collect caregiver outcome data at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). Caregivers must complete a minimal dose of 4 sessions out of 10 to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"caregivers receiving COPE from module-trained COPE clinicians\" for non-inferiority.\n\nThese participants are receiving COPE from clinicians trained in the instructor-led COPE training."
+                },
+                {
+                    "id": "BG003",
+                    "title": "Caregivers Receiving COPE From Module-trained COPE Clinicians",
+                    "description": "Primary caregivers of eligible PLWDS enrolled at PACE sites randomized to the intervention arm will be recruited by \"module-trained COPE clinicians.\" After initial recruitment, the study team will carry out consent and screening procedures with caregivers and collect caregiver outcome data at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). Caregivers must complete a minimal dose of 4 sessions out of 10 to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"caregivers receiving COPE from instructor-trained COPE clinicians\" for non-inferiority.\n\nCare of Older Persons in their Environment (COPE) online module training: An online module version of training for clinicians (OTs and RNs) in the evidence-based dementia caregiving program called Care of Older Persons in their Environment (COPE) is the intervention being tested for non-inferiority against the usual instructor-led COPE training. COPE modules include rich multimedia content, simulated scenarios, interactive assessments to keep the learner engaged The content is packaged into the latest the latest Shareable Content Object Reference Model (SCORM) specifications, which will allow for repurposing and sharing with other institutions. Each of the ten modules last 45-60 minutes."
+                },
+                {
+                    "id": "BG004",
+                    "title": "PLWDs Receiving COPE From Instructor-trained COPE Clinicians",
+                    "description": "Eligible PLWDS enrolled at PACE sites randomized to the control arm will be screened for eligibility and initial interest by \"instructor-trained COPE clinicians\" before caregiver recruitment. PLWDs will only be enrolled if caregivers consent to participate. PLWD outcome data will be collected at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). A minimal dose of 4 sessions out of 10 sessions must be completed for PLWD to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"PLWDS receiving COPE from module-trained COPE clinicians\" for non-inferiority.\n\nThese participants are receiving COPE from clinicians trained in the usual instructor-led COPE training."
+                },
+                {
+                    "id": "BG005",
+                    "title": "PLWDs Receiving COPE From Module-trained COPE Clinicians",
+                    "description": "Eligible PLWDS enrolled at PACE sites randomized to the intervention arm will be screened for eligibility and initial interest by \"module-trained COPE clinicians\" before caregiver recruitment. PLWDs will only be enrolled if caregivers consent to participate. PLWD outcome data will be collected at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). A minimal dose of 4 sessions out of 10 sessions must be completed for PLWD to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"PLWDS receiving COPE from instructor-trained COPE clinicians\" for non-inferiority.\n\nCare of Older Persons in their Environment (COPE) online module training: An online module version of training for clinicians (OTs and RNs) in the evidence-based dementia caregiving program called Care of Older Persons in their Environment (COPE) is the intervention being tested for non-inferiority against the usual instructor-led COPE training. COPE modules include rich multimedia content, simulated scenarios, interactive assessments to keep the learner engaged The content is packaged into the latest the latest Shareable Content Object Reference Model (SCORM) specifications, which will allow for repurposing and sharing with other institutions. Each of the ten modules last 45-60 minutes."
+                },
+                {
+                    "id": "BG006",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "12"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "12"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "10"
+                        },
+                        {
+                            "groupId": "BG003",
+                            "value": "12"
+                        },
+                        {
+                            "groupId": "BG004",
+                            "value": "10"
+                        },
+                        {
+                            "groupId": "BG005",
+                            "value": "12"
+                        },
+                        {
+                            "groupId": "BG006",
+                            "value": "68"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "description": "Clinician and Caregiver Ages",
+                    "populationDescription": "The age of PLWDS was shared by Trinity Health PACE within a limited data set. The true age of participants aged 89 and older could not be included but only in the category \"89 years of age and older.\"",
+                    "paramType": "MEAN",
+                    "dispersionType": "FULL_RANGE",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "title": "Mean Age (Years)",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "46"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "44",
+                                            "lowerLimit": "27",
+                                            "upperLimit": "65"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "48",
+                                            "lowerLimit": "30",
+                                            "upperLimit": "58"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "56",
+                                            "lowerLimit": "39",
+                                            "upperLimit": "77"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "63",
+                                            "lowerLimit": "40",
+                                            "upperLimit": "89"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "53",
+                                            "lowerLimit": "27",
+                                            "upperLimit": "89"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Customized",
+                    "description": "PLWD age categories",
+                    "populationDescription": "Clinicians and caregivers mean ages are reported in another measure titles \"PLWD age categories.\"",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "60-69 years",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "22"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "70-79 years",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "22"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "80-88 years",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "22"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "89 years and older",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "22"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "68"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "57"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "68"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "8"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "61"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "68"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "21"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "40"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG004",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG005",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG006",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Determinants of Implementation Behavior Questionnaire (Clinicians)",
+                    "description": "The Determinants of Implementation Behavior Questionnaire (DIBQ) contains 93 items assessing 18 domains and is used to identify determinants of implementation behaviors in order to be able to develop effective strategies to improve healthcare professionals' implementation behaviors. Clinicians in this study were assessed for implementation behavior at post training baseline (prior to COPE implementation) and at follow up (post-implementation) for two DIBQ domains, \"knowledge\" and \"skills.\" These two domains have demonstrated good discriminant validity and are highly correlated in recent studies (https://doi.org/10.1186/1748-5908-9-33). Participants answer each item with a response from 1 (strongly disagree agree) to 5 (strongly agree) with an option to refuse to respond (score of 0). Each domain has a minimum total score of 0 and maximum total score of 10. Higher scores are positive and indicate improved knowledge and skills in COPE.",
+                    "populationDescription": "These outcome measures were collected from clinicians in the control and intervention study arms at post-training baseline (just after training) and follow-up (after implementing COPE to dyads). The means reported are change scores between those timepoints.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Post-training baseline, 14 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Instructor-trained COPE Clinicians",
+                            "description": "Clinicians from PACE sites randomized to this study arm (control) will receive instructor-led training in the evidence-based dementia care program called COPE. After clinician consent and enrollment, outcome measures will be collected prior to training (pre-training baseline), after training (post-training baseline), and after delivering COPE to dyads (4 months post-implementation).\n\nDyads (caregivers and PLWDs) receiving COPE from Instructor-trained COPE clinicians are represented in the study arms \"Caregivers receiving COPE from instructor-trained COPE clinicians\" and \"PLWDs COPE from instructor-trained COPE clinicians.\"\n\nThese participants are receiving the usual instructor-led training - not the experimental training."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "COPE Module-trained Clinicians",
+                            "description": "Clinicians from PACE sites randomized to this study arm (intervention) will receive self-paced online module training in the evidence-based dementia care program called COPE. After clinician consent and enrollment, outcome measures will be collected prior to training (pre-training baseline), after training (post-training baseline), and after delivering COPE to dyads (4 months post-implementation).\n\nDyads (caregivers and PLWDs) receiving COPE from module-trained COPE clinicians are represented in the study arms \"Caregivers receiving COPE from module-trained COPE clinicians\" and \"PLWDs COPE from module-trained COPE clinicians.\"\n\nCare of Older Persons in their Environment (COPE) online module training: An online module version of training for clinicians (OTs and RNs) in the evidence-based dementia caregiving program called Care of Older Persons in their Environment (COPE) is the intervention being tested for non-inferiority against the usual instructor-led COPE training. COPE modules include rich multimedia content, simulated scenarios, interactive assessments to keep the learner engaged The content is packaged into the latest the latest Shareable Content Object Reference Model (SCORM) specifications, which will allow for repurposing and sharing with other institutions. Each of the ten modules last 45-60 minutes."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "9"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Domain 1 (knowledge) change score",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.06",
+                                            "spread": "0.53"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.25",
+                                            "spread": "0.76"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Domain 2 (skills) change score",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.33",
+                                            "spread": "0.87"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.06",
+                                            "spread": "0.78"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Perceived Change for Better Index (Caregivers)",
+                    "description": "The Perceived Change for Better Index is a 13-item scale that measures caregiver appraisals of self-improvement or decline in areas of well-being within a month of survey completion. Caregivers rate items on a 5-point Likert-type scale (1 = became much worse, 2 = became somewhat worse, 3 = stayed the same, 4 = improved somewhat, 5 = improved a lot). Total scores at one time point range from 13-65. Higher scores indicate better outcomes.",
+                    "populationDescription": "The means reported indicate the change from baseline to follow up. A positive value indicates an improved perception of well being and better outcome.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline, 4 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Caregivers Receiving COPE From Instructor-trained COPE Clinicians",
+                            "description": "Caregivers of eligible PLWDS enrolled at PACE sites randomized to the control arm will be recruited by \"instructor-trained COPE clinicians.\" After initial recruitment, the study team will carry out consent and screening procedures with caregivers and collect caregiver outcome data at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). Caregivers must complete a minimal dose of 4 sessions out of 10 to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"caregivers receiving COPE from module-trained COPE clinicians\" for non-inferiority.\n\nThese participants are receiving COPE from clinicians trained in the instructor-led COPE training."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Caregivers Receiving COPE From Module-trained COPE Clinicians",
+                            "description": "Primary caregivers of eligible PLWDS enrolled at PACE sites randomized to the intervention arm will be recruited by \"module-trained COPE clinicians.\" After initial recruitment, the study team will carry out consent and screening procedures with caregivers and collect caregiver outcome data at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). Caregivers must complete a minimal dose of 4 sessions out of 10 to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"caregivers receiving COPE from instructor-trained COPE clinicians\" for non-inferiority.\n\nCare of Older Persons in their Environment (COPE) online module training: An online module version of training for clinicians (OTs and RNs) in the evidence-based dementia caregiving program called Care of Older Persons in their Environment (COPE) is the intervention being tested for non-inferiority against the usual instructor-led COPE training. COPE modules include rich multimedia content, simulated scenarios, interactive assessments to keep the learner engaged The content is packaged into the latest the latest Shareable Content Object Reference Model (SCORM) specifications, which will allow for repurposing and sharing with other institutions. Each of the ten modules last 45-60 minutes."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "7"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "9.71",
+                                            "spread": "8.65"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4.43",
+                                            "spread": "4.50"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Target Behaviors (Caregivers)",
+                    "description": "This measure captures the top 3 dementia behaviors exhibited by the PLWD and chosen by the caregiver to work on in the COPE program. At baseline, the caregiver selects and ranks the top 3 behaviors (assessed via the Neuropsychiatric Inventory brief questionnaire) and/or activities (assessed via the Caregiver Assessment of Function and Upset Function) and rates confidence levels (0 = not at all, 4 = extremely). Caregivers reassess confidence levels at the 4-month follow up. The means reported are the change scores from baseline to follow up. A positive value indicates greater confidence and a better outcome.",
+                    "populationDescription": "1 caregiver in the control group refused to complete the assessment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline, 4 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Caregivers Receiving COPE From Instructor-trained COPE Clinicians",
+                            "description": "Caregivers of eligible PLWDS enrolled at PACE sites randomized to the control arm will be recruited by \"instructor-trained COPE clinicians.\" After initial recruitment, the study team will carry out consent and screening procedures with caregivers and collect caregiver outcome data at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). Caregivers must complete a minimal dose of 4 sessions out of 10 to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"caregivers receiving COPE from module-trained COPE clinicians\" for non-inferiority.\n\nThese participants are receiving COPE from clinicians trained in the instructor-led COPE training."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Caregivers Receiving COPE From Module-trained COPE Clinicians",
+                            "description": "Primary caregivers of eligible PLWDS enrolled at PACE sites randomized to the intervention arm will be recruited by \"module-trained COPE clinicians.\" After initial recruitment, the study team will carry out consent and screening procedures with caregivers and collect caregiver outcome data at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). Caregivers must complete a minimal dose of 4 sessions out of 10 to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"caregivers receiving COPE from instructor-trained COPE clinicians\" for non-inferiority.\n\nCare of Older Persons in their Environment (COPE) online module training: An online module version of training for clinicians (OTs and RNs) in the evidence-based dementia caregiving program called Care of Older Persons in their Environment (COPE) is the intervention being tested for non-inferiority against the usual instructor-led COPE training. COPE modules include rich multimedia content, simulated scenarios, interactive assessments to keep the learner engaged The content is packaged into the latest the latest Shareable Content Object Reference Model (SCORM) specifications, which will allow for repurposing and sharing with other institutions. Each of the ten modules last 45-60 minutes."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "6"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "PLWD behavior ranked #1 in upset level by Caregiver",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.33",
+                                            "spread": "0.82"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.43",
+                                            "spread": "0.79"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "PLWD behavior ranked #2 in upset level by Caregiver",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.67",
+                                            "spread": "1.63"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.00",
+                                            "spread": "1.29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "PLWD behavior ranked #3 in upset level by Caregiver",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.60",
+                                            "spread": "1.52"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.29",
+                                            "spread": "1.11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Neuropsychiatric Inventory Brief Questionnaire (NPI-Q) (PLWDs)",
+                    "description": "Presence of 12 neuropsychiatric symptoms related to dementia. Caregivers answer yes or no to behaviors exhibited by the PLWD in the month prior to enrollment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PLWDs Receiving COPE From Instructor-trained COPE Clinicians",
+                            "description": "Eligible PLWDS enrolled at PACE sites randomized to the control arm will be screened for eligibility and initial interest by \"instructor-trained COPE clinicians\" before caregiver recruitment. PLWDs will only be enrolled if caregivers consent to participate. PLWD outcome data will be collected at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). A minimal dose of 4 sessions out of 10 sessions must be completed for PLWD to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"PLWDS receiving COPE from module-trained COPE clinicians\" for non-inferiority.\n\nThese participants are receiving COPE from clinicians trained in the usual instructor-led COPE training."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "PLWDs Receiving COPE From Module-trained COPE Clinicians",
+                            "description": "Eligible PLWDS enrolled at PACE sites randomized to the intervention arm will be screened for eligibility and initial interest by \"module-trained COPE clinicians\" before caregiver recruitment. PLWDs will only be enrolled if caregivers consent to participate. PLWD outcome data will be collected at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). A minimal dose of 4 sessions out of 10 sessions must be completed for PLWD to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"PLWDS receiving COPE from instructor-trained COPE clinicians\" for non-inferiority.\n\nCare of Older Persons in their Environment (COPE) online module training: An online module version of training for clinicians (OTs and RNs) in the evidence-based dementia caregiving program called Care of Older Persons in their Environment (COPE) is the intervention being tested for non-inferiority against the usual instructor-led COPE training. COPE modules include rich multimedia content, simulated scenarios, interactive assessments to keep the learner engaged The content is packaged into the latest the latest Shareable Content Object Reference Model (SCORM) specifications, which will allow for repurposing and sharing with other institutions. Each of the ten modules last 45-60 minutes."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "7"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Delusions",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Hallucinations",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Agitation/Aggression",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Depression",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Anxiety",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Elation/Europhia",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Apathy/Indifference",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Disinhibition",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Irritability/Lability",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Motor Disturbance",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Nighttime behaviors",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Appetite Change",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Caregiver Assessment of Function and Upset Function (CAFU) (Caregivers)",
+                    "description": "Caregivers report instrumental activities of daily living (IADLs) and activities of daily living (ADLs) support for PLWDs and their upset and confidence in providing support. CG chooses up to 16 IADLs/ADLs for which they provide support for the PLWD. Then, the CG rates their own upset level 0 (not upset) to 10 (extremely upset) and confidence level from 0 (not confident at all) to 10 (extremely confident) for each IADL/ADL. Upset and confidence scores are sums of 16 items rated 0-10 on Likert scale. Higher numbers for upset are negative and higher numbers for confidence are positive.",
+                    "populationDescription": "Caregivers report IADL and ADL support for PLWDs and their upset and confidence in providing support.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Caregivers Receiving COPE From Instructor-trained COPE Clinicians",
+                            "description": "Caregivers of eligible PLWDS enrolled at PACE sites randomized to the control arm will be recruited by \"instructor-trained COPE clinicians.\" After initial recruitment, the study team will carry out consent and screening procedures with caregivers and collect caregiver outcome data at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). Caregivers must complete a minimal dose of 4 sessions out of 10 to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"caregivers receiving COPE from module-trained COPE clinicians\" for non-inferiority.\n\nThese participants are receiving COPE from clinicians trained in the instructor-led COPE training."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Caregivers Receiving COPE From Module-trained COPE Clinicians",
+                            "description": "Primary caregivers of eligible PLWDS enrolled at PACE sites randomized to the intervention arm will be recruited by \"module-trained COPE clinicians.\" After initial recruitment, the study team will carry out consent and screening procedures with caregivers and collect caregiver outcome data at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). Caregivers must complete a minimal dose of 4 sessions out of 10 to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"caregivers receiving COPE from instructor-trained COPE clinicians\" for non-inferiority.\n\nCare of Older Persons in their Environment (COPE) online module training: An online module version of training for clinicians (OTs and RNs) in the evidence-based dementia caregiving program called Care of Older Persons in their Environment (COPE) is the intervention being tested for non-inferiority against the usual instructor-led COPE training. COPE modules include rich multimedia content, simulated scenarios, interactive assessments to keep the learner engaged The content is packaged into the latest the latest Shareable Content Object Reference Model (SCORM) specifications, which will allow for repurposing and sharing with other institutions. Each of the ten modules last 45-60 minutes."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "7"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Report of ADL/IADLs",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8.00",
+                                            "spread": "3.37"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "10.57",
+                                            "spread": "2.88"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Level of CG confidence for ADL/IADLs support (sum across 16 items on Likert scale 0-10)",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "77.50",
+                                            "spread": "32.17"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "100.7",
+                                            "spread": "37.18"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Level of CG upset for ADL/IADLs support (sum across 16 items on Likert scale 0-10)",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "22.57",
+                                            "spread": "8.38"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "22.43",
+                                            "spread": "9.98"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Zarit Burden Scale",
+                    "description": "The Zarit Burden Scale (Short 12-items) measures caregiver burden via 12 items assessed via the caregiver as (0 = never, 5 = nearly always). Total scores range from 0 to 48 and indicate no to mild burden (0-10), mild to moderate burden (10-20) and high burden (\\> 20).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline, 4 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Caregivers Receiving COPE From Instructor-trained COPE Clinicians",
+                            "description": "Caregivers of eligible PLWDS enrolled at PACE sites randomized to the control arm will be recruited by \"instructor-trained COPE clinicians.\" After initial recruitment, the study team will carry out consent and screening procedures with caregivers and collect caregiver outcome data at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). Caregivers must complete a minimal dose of 4 sessions out of 10 to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"caregivers receiving COPE from module-trained COPE clinicians\" for non-inferiority.\n\nThese participants are receiving COPE from clinicians trained in the instructor-led COPE training."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Caregivers Receiving COPE From Module-trained COPE Clinicians",
+                            "description": "Primary caregivers of eligible PLWDS enrolled at PACE sites randomized to the intervention arm will be recruited by \"module-trained COPE clinicians.\" After initial recruitment, the study team will carry out consent and screening procedures with caregivers and collect caregiver outcome data at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). Caregivers must complete a minimal dose of 4 sessions out of 10 to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"caregivers receiving COPE from instructor-trained COPE clinicians\" for non-inferiority.\n\nCare of Older Persons in their Environment (COPE) online module training: An online module version of training for clinicians (OTs and RNs) in the evidence-based dementia caregiving program called Care of Older Persons in their Environment (COPE) is the intervention being tested for non-inferiority against the usual instructor-led COPE training. COPE modules include rich multimedia content, simulated scenarios, interactive assessments to keep the learner engaged The content is packaged into the latest the latest Shareable Content Object Reference Model (SCORM) specifications, which will allow for repurposing and sharing with other institutions. Each of the ten modules last 45-60 minutes."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "7"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "16.71",
+                                            "spread": "6.32"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "20.86",
+                                            "spread": "11.68"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Short Sense of Competence Questionnaire (SSCQ) (Caregivers)",
+                    "description": "The 7-item SSCQ assesses CG sense of capability and confidence in providing assistance to relatives. Respondents respond to statements about being a caregiver on a 5-point Likert-type scale (1 = strongly agree, 2 = agree, 3 = neither agree not disagree, 4 = disagree, 5 = strongly disagree). Total scores at one time point range from 7-35. The SSCQ has demonstrated reliability (\u03b1=.76), content validity via expert consensus panel, and construct validity (r=.88).",
+                    "populationDescription": "Participant data is missing for 1 caregiver in the control group as this participant refused to complete this measure at baseline.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline, 4 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Caregivers Receiving COPE From Instructor-trained COPE Clinicians",
+                            "description": "Caregivers of eligible PLWDS enrolled at PACE sites randomized to the control arm will be recruited by \"instructor-trained COPE clinicians.\" After initial recruitment, the study team will carry out consent and screening procedures with caregivers and collect caregiver outcome data at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). Caregivers must complete a minimal dose of 4 sessions out of 10 to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"caregivers receiving COPE from module-trained COPE clinicians\" for non-inferiority.\n\nThese participants are receiving COPE from clinicians trained in the instructor-led COPE training."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Caregivers Receiving COPE From Module-trained COPE Clinicians",
+                            "description": "Primary caregivers of eligible PLWDS enrolled at PACE sites randomized to the intervention arm will be recruited by \"module-trained COPE clinicians.\" After initial recruitment, the study team will carry out consent and screening procedures with caregivers and collect caregiver outcome data at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). Caregivers must complete a minimal dose of 4 sessions out of 10 to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"caregivers receiving COPE from instructor-trained COPE clinicians\" for non-inferiority.\n\nCare of Older Persons in their Environment (COPE) online module training: An online module version of training for clinicians (OTs and RNs) in the evidence-based dementia caregiving program called Care of Older Persons in their Environment (COPE) is the intervention being tested for non-inferiority against the usual instructor-led COPE training. COPE modules include rich multimedia content, simulated scenarios, interactive assessments to keep the learner engaged The content is packaged into the latest the latest Shareable Content Object Reference Model (SCORM) specifications, which will allow for repurposing and sharing with other institutions. Each of the ten modules last 45-60 minutes."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "6"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.17",
+                                            "spread": "5.19"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2.43",
+                                            "spread": "2.99"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Quality of Life in Alzheimer's Disease (QOL-AD) (PLWDs)",
+                    "description": "Caregivers complete this 13-item questionnaire as proxies to measure the quality of life of the person living with dementia (PLWD). Points are assigned to each item (poor = 1, fair = 2, good = 3, excellent = 4). The total score is the sum of all 13 items that generates summary scales for physical components (PCS) and for mental health components (MCS). Total scores range from 13-52.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline, 4 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "PLWDs Receiving COPE From Instructor-trained COPE Clinicians",
+                            "description": "Eligible PLWDS enrolled at PACE sites randomized to the control arm will be screened for eligibility and initial interest by \"instructor-trained COPE clinicians\" before caregiver recruitment. PLWDs will only be enrolled if caregivers consent to participate. PLWD outcome data will be collected at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). A minimal dose of 4 sessions out of 10 sessions must be completed for PLWD to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"PLWDS receiving COPE from module-trained COPE clinicians\" for non-inferiority.\n\nThese participants are receiving COPE from clinicians trained in the usual instructor-led COPE training."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "PLWDs Receiving COPE From Module-trained COPE Clinicians",
+                            "description": "Eligible PLWDS enrolled at PACE sites randomized to the intervention arm will be screened for eligibility and initial interest by \"module-trained COPE clinicians\" before caregiver recruitment. PLWDs will only be enrolled if caregivers consent to participate. PLWD outcome data will be collected at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). A minimal dose of 4 sessions out of 10 sessions must be completed for PLWD to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"PLWDS receiving COPE from instructor-trained COPE clinicians\" for non-inferiority.\n\nCare of Older Persons in their Environment (COPE) online module training: An online module version of training for clinicians (OTs and RNs) in the evidence-based dementia caregiving program called Care of Older Persons in their Environment (COPE) is the intervention being tested for non-inferiority against the usual instructor-led COPE training. COPE modules include rich multimedia content, simulated scenarios, interactive assessments to keep the learner engaged The content is packaged into the latest the latest Shareable Content Object Reference Model (SCORM) specifications, which will allow for repurposing and sharing with other institutions. Each of the ten modules last 45-60 minutes."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "7"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-1.71",
+                                            "spread": "4.92"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.43",
+                                            "spread": "4.69"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Lubben Social Network Scale (LSNS) (Caregivers)",
+                    "description": "Self-report measure of social engagement including family and friends via 12 items. Items assess how many people participant sees at different time periods (0 = none, 5 = nine of more) and how often participant has social interactions (0 = less than monthly, 5 = daily). Total scores range from 0 - 60.",
+                    "populationDescription": "One caregiver in the control group refused to answer this baseline measure.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "Baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Caregivers Receiving COPE From Instructor-trained COPE Clinicians",
+                            "description": "Caregivers of eligible PLWDS enrolled at PACE sites randomized to the control arm will be recruited by \"instructor-trained COPE clinicians.\" After initial recruitment, the study team will carry out consent and screening procedures with caregivers and collect caregiver outcome data at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). Caregivers must complete a minimal dose of 4 sessions out of 10 to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"caregivers receiving COPE from module-trained COPE clinicians\" for non-inferiority.\n\nThese participants are receiving COPE from clinicians trained in the instructor-led COPE training."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Caregivers Receiving COPE From Module-trained COPE Clinicians",
+                            "description": "Primary caregivers of eligible PLWDS enrolled at PACE sites randomized to the intervention arm will be recruited by \"module-trained COPE clinicians.\" After initial recruitment, the study team will carry out consent and screening procedures with caregivers and collect caregiver outcome data at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). Caregivers must complete a minimal dose of 4 sessions out of 10 to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"caregivers receiving COPE from instructor-trained COPE clinicians\" for non-inferiority.\n\nCare of Older Persons in their Environment (COPE) online module training: An online module version of training for clinicians (OTs and RNs) in the evidence-based dementia caregiving program called Care of Older Persons in their Environment (COPE) is the intervention being tested for non-inferiority against the usual instructor-led COPE training. COPE modules include rich multimedia content, simulated scenarios, interactive assessments to keep the learner engaged The content is packaged into the latest the latest Shareable Content Object Reference Model (SCORM) specifications, which will allow for repurposing and sharing with other institutions. Each of the ten modules last 45-60 minutes."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "6"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "7"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "35.33",
+                                            "spread": "7.81"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "35.14",
+                                            "spread": "3.44"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "14 months",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Instructor-trained COPE Clinicians",
+                    "description": "Clinicians from PACE sites randomized to this study arm (control) will receive instructor-led training in the evidence-based dementia care program called COPE and then deliver COPE to dyads at their site.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 8,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 8,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 8
+                },
+                {
+                    "id": "EG001",
+                    "title": "COPE Module-trained Clinicians",
+                    "description": "Clinicians from PACE sites randomized to this study arm (intervention) will receive self-paced online module training in the evidence-based dementia care program called COPE and then deliver COPE to dyads at their site.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 9,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 9,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 9
+                },
+                {
+                    "id": "EG002",
+                    "title": "Caregivers Receiving COPE From Instructor-trained COPE Clinicians",
+                    "description": "Caregivers of eligible PLWDS enrolled at PACE sites randomized to the control arm will be recruited by \"instructor-trained COPE clinicians.\" After initial recruitment, the study team will carry out consent and screening procedures with caregivers and collect caregiver outcome data at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). Caregivers must complete a minimal dose of 4 sessions out of 10 to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"caregivers receiving COPE from module-trained COPE clinicians\" for non-inferiority.\n\nThese participants are receiving COPE from clinicians trained in the instructor-led COPE training.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 7,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 7,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 7
+                },
+                {
+                    "id": "EG003",
+                    "title": "Caregivers Receiving COPE From Module-trained COPE Clinicians",
+                    "description": "Caregivers of eligible PLWDS enrolled at PACE sites randomized to the intervention arm will be recruited by \"module-trained COPE clinicians.\" After initial recruitment, the study team will carry out consent and screening procedures with caregivers and collect caregiver outcome data at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). Caregivers must complete a minimal dose of 4 sessions out of 10 to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"caregivers receiving COPE from instructor-trained COPE clinicians\" for non-inferiority.\n\nCare of Older Persons in their Environment (COPE) online module training: An online module version of training for clinicians (OTs and RNs) in the evidence-based dementia caregiving program called Care of Older Persons in their Environment (COPE) is the intervention being tested for non-inferiority against the usual instructor-led COPE training.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 7,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 7,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 7
+                },
+                {
+                    "id": "EG004",
+                    "title": "PLWDs Receiving COPE From Instructor-trained COPE Clinicians",
+                    "description": "Eligible PLWDS enrolled at PACE sites randomized to the control arm will be screened for eligibility and initial interest by \"instructor-trained COPE clinicians\" before caregiver recruitment. PLWDs will only be enrolled if caregivers consent to participate. PLWD outcome data will be collected at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). A minimal dose of 4 sessions out of 10 sessions must be completed for PLWD to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"PLWDS receiving COPE from module-trained COPE clinicians\" for non-inferiority.\n\nThese participants are receiving COPE from clinicians trained in the usual instructor-led COPE training.",
+                    "deathsNumAffected": 2,
+                    "deathsNumAtRisk": 7,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 7,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 7
+                },
+                {
+                    "id": "EG005",
+                    "title": "PLWDs Receiving COPE From Module-trained COPE Clinicians",
+                    "description": "Eligible PLWDS enrolled at PACE sites randomized to the intervention arm will be screened for eligibility and initial interest by \"module-trained COPE clinicians\" before caregiver recruitment. PLWDs will only be enrolled if caregivers consent to participate. PLWD outcome data will be collected at baseline (before meeting with COPE clinicians) and follow-up (4 months post-implementation). A minimal dose of 4 sessions out of 10 sessions must be completed for PLWD to be included in follow-up measures. Outcomes will be reviewed for change from baseline to follow-up and compared to \"PLWDS receiving COPE from instructor-trained COPE clinicians\" for non-inferiority.\n\nCare of Older Persons in their Environment (COPE) online module training: An online module version of training for clinicians (OTs and RNs) in the evidence-based dementia caregiving program called Care of Older Persons in their Environment (COPE) is the intervention being tested for non-inferiority against the usual instructor-led COPE training. COPE modules include rich multimedia content, simulated scenarios, interactive assessments to keep the learner engaged The content is packaged into the latest the latest Shareable Content Object Reference Model (SCORM) specifications, which will allow for repurposing and sharing with other institutions. Each of the ten modules last 45-60 minutes.",
+                    "deathsNumAffected": 2,
+                    "deathsNumAtRisk": 7,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 7,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 7
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Emily Summerhayes, Project Manager",
+                "organization": "University of Pennsylvania, School of Nursing",
+                "email": "esummer@nursing.upenn.edu",
+                "phone": "6099233786"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The protocol describes developing and testing an online training and fidelity-monitoring implementation model for COPE (Care of Persons with Dementia in their Environments), an evidence-based bio-behavioral (non\u2011pharmacologic) dementia care and caregiver support program, and comparing online vs. face-to-face staff training in PACE sites. This is an implementation/training trial, not a drug or device trial. \ue200cite\ue202turn0search0\ue202turn0search1\ue201",
+        "Act: Key extracted details \u2014 Phase I: develop online COPE training modules and automated fidelity monitoring (computational linguistics); Phase II: randomize 10 PACE organizations (5 online training vs 5 face-to-face) to compare staff competency and fidelity; Phase III: enroll 50 dyads (25 per arm) and follow for 4 months with a non-inferiority analysis of participant and caregiver outcomes. These trial details and aims are described in the published protocol and trial listings. \ue200cite\ue202turn0search4\ue202turn0search3\ue201",
+        "Reflect: Classification justification \u2014 Because the intervention is behavioral/educational (training PACE staff to deliver COPE) and the measured effects are implementation fidelity and participant/caregiver outcomes, this does not fit any of the four therapeutic categories (disease-targeted biologic, disease-targeted small molecule, cognitive enhancer, or neuropsychiatric symptom drug intervention). It is an implementation/non-pharmacologic behavioral intervention; therefore the correct category is 'N/A'. The protocol and implementation/fidelity literature support this interpretation. \ue200cite\ue202turn0search6\ue202turn0search0\ue201",
+        "Web search results used (selected sources): PubMed protocol for the COPE-in-PACE pragmatic non-inferiority trial (protocol/overview; NCT04165213). \ue200cite\ue202turn0search0\ue201; Grantome NIH R01 description of the COPE in PACE training and fidelity R01. \ue200cite\ue202turn0search1\ue201; Contemporary Clinical Trials Communications / DOAJ article describing the trial protocol. \ue200cite\ue202turn0search3\ue201; MedPath trial listing with Phase details and enrollment description. \ue200cite\ue202turn0search4\ue201; PMC/InnovAge article on tracking adaptation and fidelity when embedding COPE in PACE sites. \ue200cite\ue202turn0search6\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

@@ -1,0 +1,1709 @@
+{
+    "nct_id": "NCT02097056",
+    "title": "Safety and Efficacy of Donepezil HCl 23 mg in Patients With Moderate to Severe Alzheimer's Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2016-05-20",
+    "description_brief": "This is a multi-center, open-label, single-arm, prospective, phase IV trial, evaluating safety and efficacy of donepezil hydrochloride in patients with moderate to severe Alzheimer's disease.",
+    "description_detailed": "This study consisted of pre-treatment and treatment phase. Pre-treatment phase was approximately 4 weeks including the screening and baseline process. In treatment phase, about 190 subjects received Donepezil HCl 23 mg once daily for 24 weeks.",
+    "phase": [
+        "PHASE4"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "Out of the 171 participants enrolled into the study, 1 was not treated resulting in 170 participants in the safety population.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Donepezil Hydrochloride",
+                    "description": "Donepezil hydrochloride (HCl) at 23 mg was administered once daily, just before bed, for 24 weeks."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "171"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ParticipantsTreated",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "170"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "113"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "58"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Protocol Violation",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "15"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Adverse Event",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "37"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Other",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "Safety population included all participants who received at least one dose of study treatment and had at least one postbaseline safety assessment.",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Donepezil Hydrochloride",
+                    "description": "Donepezil hydrochloride (HCl) at 23 mg was administered once daily, just before bed, for 24 weeks."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "170"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "74.82",
+                                            "spread": "7.18"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "123"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "47"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Overall Summary of Adverse Events (AEs)",
+                    "description": "Safety of study drug was assessed by clinical laboratory assessments, vital signs, weight, 12-lead electrocardiogram (ECG), physical and neurological examination. Treatment-Emergent Adverse Events (TEAEs) were defined as any event not present prior to the initiation of study treatment or any event already present that worsens in either intensity or frequency following exposure to study treatment. Serious adverse events were defined as AEs that led to or were life-threatening, resulted in or prolonged hospitalization, caused important or long-lasting disability, caused congenital abnormality or malformation, or resulted in death. Adverse drug reactions were defined as any harmful or unintended reaction to study treatment and were considered possibly related or probably related to study drug. Specific AEs and SAEs due to changes in clinical laboratory assessments, vital signs, weight, ECG, and physical and neurological exam are listed in the safety section.",
+                    "populationDescription": "Safety population included all participants who received at least one dose of study treatment and had at least one postbaseline safety assessment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Percentage of participants",
+                    "timeFrame": "Baseline (Day 1) up to Week 24",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Donepezil Hydrochloride",
+                            "description": "Donepezil hydrochloride (HCl) at 23 mg was administered once daily, just before bed, for 24 weeks."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "170"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "AEs",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "67.65"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "ADRs",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "47.06"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "SAEs",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "7.06"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Serious ADRs",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.59"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in the Mini-Mental State Examination (MMSE) Score",
+                    "description": "The MMSE was used to measure cognitive impairment. The MMSE can evaluate overall cognitive function, and is widely used for the assessment of cognitive impairment in dementia patients. The questionnaire consists of 11 items, and each item aims to evaluate different cognitive domains such as orientation, memory, attention, and construction. The score ranged from 0 to 30, with a higher score indicating better function. A positive change score indicated improvement from baseline. The mean change was analyzed by Wilcoxon's signed rank test.",
+                    "populationDescription": "Efficacy analysis population included all participants who took at least one dose of study drug and had at least one baseline and at least one post-baseline assessment of the efficacy parameter. Twenty participants had no efficacy variables collected.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Scores on a scale",
+                    "timeFrame": "Baseline, Week 12, and Week 24 (Final visit)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Donepezil Hydrochloride",
+                            "description": "Donepezil hydrochloride (HCl) at 23 mg was administered once daily, just before bed, for 24 weeks."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "150"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change W12",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.31",
+                                            "spread": "2.76"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change W24",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.40",
+                                            "spread": "2.75"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline in the Neuropsychiatric Inventory Questionnaire (NPI-Q) Severity and Distress Total Scores",
+                    "description": "The NPI-Q assessed twelve behavioral domains common in dementia including; hallucinations, delusions, agitation/aggression, dysphoria/depression, anxiety, irritability, disinhibition, euphoria, apathy, aberrant motor behavior, sleep/night-time behavior change, and appetite/eating change. The questionnaire is given by the clinician to the patient's caregiver who was asked if the behavior described is present in the patient. If \"Yes\", the informant then rates both the Severity of the symptoms present within the last month on a 3-point scale (1 = mild, 2= moderate, and 3= severe) and the associated impact of the symptom manifestations on them (i.e. Caregiver Distress) using a 5-point scale (0 = not distressing at all, 1 = minimal, 2 = mild, 3 = moderate, 4 = severe, and 5 = extreme or very severe). The total severity score represents the sum of individual scores and ranges from 0 to 36. The total distress score represents the sum of individual symptom scores and ranges from 0 to 60.",
+                    "populationDescription": "Efficacy analysis population included all participants who took at least one dose of study drug and had at least one baseline and at least one post-baseline assessment of the efficacy parameter. Twenty participants had no efficacy variables collected.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Scores on a scale",
+                    "timeFrame": "Baseline, Week 12, and Week 24 (Follow up visit)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Donepezil Hydrochloride",
+                            "description": "Donepezil hydrochloride (HCl) at 23 mg was administered once daily, just before bed, for 24 weeks."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "150"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Change Week 12 (Severity)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.33",
+                                            "spread": "4.74"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change Week 24 (Severity)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.09",
+                                            "spread": "5.67"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change Week 12 (Distress)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.19",
+                                            "spread": "6.83"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Change Week 24 (Distress)",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.29",
+                                            "spread": "7.60"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "AEs were collected from Day 1 through Week 24 of study.",
+            "description": "Safety population included all participants who received at least one dose of study treatment and had at least one postbaseline safety assessment. Summary and analysis of adverse events were analyzed using TEAEs.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Donepezil Hydrochloride",
+                    "description": "Donepezil hydrochloride (HCl) at 23 mg was administered once daily, just before bed, for 24 weeks.",
+                    "seriousNumAffected": 12,
+                    "seriousNumAtRisk": 170,
+                    "otherNumAffected": 109,
+                    "otherNumAtRisk": 170
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Femur fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Rib fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Ankle fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Cervical vertebral fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Ligament injury",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Lumbar vertebral fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Diarrhoea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Gait disturbance",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Pneumonia",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Decreased appetite",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 21,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Vomiting",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 19,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Diarrhoea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 11,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 13,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Lethargy",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 8,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Decreased appetite",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 16,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Dyspepsia",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 5,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 6,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Somnolence",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 6,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Abdominal discomfort",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Gastrointestinal disorder",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Abdominal pain",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Faecal incontinence",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Constipation",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Dental caries",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Sedation",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Tremor",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Dreamy state",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Drooling",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Dysarthria",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Facial spasm",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypersomnia",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Paraesthesia",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Anxiety",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 6,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Insomnia",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 5,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Aggression",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 4,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Behavioural and psychiatric symptoms of dementia",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Depression",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Irritability",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Sleep disorder",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Compulsions",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Compulsive hoarding",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Confusional state",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Delusion",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Depressed mood",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Disinhibition",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Nightmare",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Restlessness",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Hyperlipidaemia",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypophagia",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Hyperglycaemia",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypoglycaemia",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Hyponatraemia",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Electrocardiogram QT prolonged",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 5,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Weight decreased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 5,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood glucose increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Glucose urine present",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Alanine aminotransferase increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Aspartate aminotransferase increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood cholesterol increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood creatine phosphokinase increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood triglycerides increased",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Electrocardiogram ST segment elevation",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Electrocardiogram T wave abnormal",
+                    "organSystem": "Investigations",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Asthenia",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 4,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Gait disturbance",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Chills",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Oedema",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Pain",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Ankle fracture",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Contusion",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary incontinence",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 6,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Acute kidney injury",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Enuresis",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Incontinence",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Nocturia",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Pollakiuria",
+                    "organSystem": "Renal and urinary disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Nasopharyngitis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Periodontitis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Pharyngitis",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary tract infection",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Hyperhidrosis",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Cold sweat",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Dyspnoea",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Hiccups",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Nasal discomfort",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Productive cough",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Rhinitis allergic",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Atrioventricular block second degree",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Bradycardia",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypertension",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Pallor",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Eye pain",
+                    "organSystem": "Eye disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                },
+                {
+                    "term": "Hypersensitivity",
+                    "organSystem": "Immune system disorders",
+                    "sourceVocabulary": "MedDRA 18.0",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 170
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Youngji Pyo",
+                "organization": "Eisai Korea Inc.",
+                "email": "y-pyo@eisaikorea.com",
+                "phone": "+82-2-3451-5533"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "donepezil hydrochloride (Aricept) 23 mg"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial tests donepezil HCl 23 mg in patients with moderate-to-severe Alzheimer\u2019s disease. Donepezil is a centrally acting, reversible acetylcholinesterase inhibitor that increases synaptic acetylcholine and is used to improve cognition/symptoms in AD rather than to modify underlying pathology. \ue200cite\ue202turn2search1\ue202turn2search6\ue201",
+        "Act: The provided trial description (phase IV, open\u2011label, single\u2011arm) matches a post\u2011marketing/clinical use study of high\u2011dose donepezil (23 mg). The 23 mg dose was studied and approved for moderate\u2011to\u2011severe AD and has demonstrated incremental cognitive benefit over 10 mg in randomized trials. The specific trial record for this study (NCT02097056) lists Donepezil HCl 23 mg as the intervention. \ue200cite\ue202turn1search4\ue202turn0search3\ue202turn0search10\ue201",
+        "Reflect: Mapping to the predefined categories: donepezil is a small\u2011molecule cholinesterase inhibitor used to alleviate cognitive symptoms (not a biologic and not principally targeting disease pathology like amyloid/tau). Therefore the correct category is 'cognitive enhancer'. The classification is supported by prescribing information, review articles, and the pivotal 23 mg clinical program. \ue200cite\ue202turn2search1\ue202turn2search6\ue202turn0search3\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The trial tests donepezil HCl 23 mg in moderate-to-severe AD. Donepezil is a centrally acting, reversible acetylcholinesterase (cholinesterase) inhibitor that increases acetylcholine availability at cholinergic synapses to improve cognition and symptoms, and is not considered disease\u2011modifying. \ue200cite\ue202turn0search4\ue202turn0search6\ue201",
+        "Act: Extracted details from the trial description and public records: intervention = donepezil (Aricept) 23 mg once daily; study type = Phase 4, open\u2011label, single\u2011arm (NCT02097056). The 23 mg dose was studied and approved for moderate\u2011to\u2011severe AD and has documented incremental cognitive benefit vs 10 mg. These facts support that the intervention\u2019s primary biological focus is on augmenting cholinergic neurotransmission rather than on amyloid, tau, inflammation, etc. \ue200cite\ue202turn0search1\ue202turn0search5\ue202turn0search0\ue201",
+        "Reflect: Mapping to CADRO \u2014 the intervention targets the cholinergic neurotransmitter system (increasing synaptic acetylcholine). Although donepezil\u2019s direct molecular target is the enzyme acetylcholinesterase (not a receptor), the CADRO category that best captures therapies aimed at modulating neurotransmitter systems and synaptic signaling is D) Neurotransmitter Receptors. The trial is therefore classified as D) Neurotransmitter Receptors rather than a pathology\u2011modifying CADRO category. (No strong evidence in the trial description that multiple CADRO domains are targeted, so R) Multi\u2011target is not appropriate.)",
+        "Web search results used (brief):",
+        "- Donepezil mechanism and clinical role: review noting donepezil is a reversible acetylcholinesterase inhibitor that increases acetylcholine and is symptomatic (not disease\u2011modifying). \ue200cite\ue202turn0search4\ue201",
+        "- Aricept (donepezil) prescribing information (package insert) describing donepezil as a reversible acetylcholinesterase inhibitor and available as 5, 10, and 23 mg. \ue200cite\ue202turn0search6\ue201",
+        "- Pivotal/safety literature on donepezil 23 mg in moderate\u2011to\u2011severe AD (phase 3/extension safety analyses). \ue200cite\ue202turn0search0\ue202turn0search2\ue201",
+        "- Clinical trial record for the specific study (NCT02097056) listing Donepezil HCl 23 mg, phase 4, open\u2011label single\u2011arm. \ue200cite\ue202turn0search1\ue202turn0search3\ue201"
+    ]
+}

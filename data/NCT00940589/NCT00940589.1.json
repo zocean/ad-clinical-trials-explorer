@@ -1,0 +1,1063 @@
+{
+    "nct_id": "NCT00940589",
+    "title": "A Double-blind, Parallel Group, Randomized, Placebo Controlled Study of the Efficacy of Circadin\u00ae 2mg in Patients With Mild to Moderate Alzheimer Disease (AD) Treated With Acetylcholinesterase (AChE) Inhibitor",
+    "status": "COMPLETED",
+    "last_update_time": "2018-05-29",
+    "description_brief": "The aim of this exploratory randomized, placebo controlled study is to evaluate the efficacy of Circadin\u00ae 2mg in patients with mild to moderate Alzheimer Disease (AD) treated with the acetylcholinesterase (AChE) inhibitor. The effects of add-on Circadin\u00ae 2mg vs. placebo on the decline in cognitive skills and global functioning, as well as on daytime somnolence and will be assessed.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Circadin",
+                    "description": "Drug\n\nCircadin: Prolonged Release melatonin (Circadin) 2mg tablets"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "drug\n\nPlacebo: Matched placebo tablets, with identical features to the Circadin tablets"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "39"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "34"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "31"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "29"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "8"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "5"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Circadin",
+                    "description": "Drug\n\nCircadin: Prolonged Release melatonin (Circadin) 2mg tablets"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo",
+                    "description": "drug\n\nPlacebo: Matched placebo tablets, with identical features to the Circadin tablets"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "39"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "34"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "73"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "73.5",
+                                            "spread": "8.6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "77.3",
+                                            "spread": "6.6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "75.4",
+                                            "spread": "7.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "36"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "23"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "37"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change From Baseline to 24 Weeks in ADAS-cog",
+                    "description": "ADAS-cog (Alzheimer's Disease Assessment Scale-cognitive subscale) is a cognitive testing instrument used in clinical trials. It consists of 11 tasks measuring the disturbances of memory, language, praxis, attention, and other cognitive abilities that are often referred to as the core symptoms of AD. The test comprises 11 items summed to a total score ranging from 0 to 70, with lower scores indicating less severe impairment. A negative change indicates an improvement from baseline. ADAS-cog was measured at base line and at end of treatment after 24 weeks.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Scores on a scale",
+                    "timeFrame": "24 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Circadin",
+                            "description": "Drug\n\nCircadin: Prolonged Release melatonin (Circadin) 2mg tablets"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "drug\n\nPlacebo: Matched placebo tablets, with identical features to the Circadin tablets"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "29"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "26"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.45",
+                                            "spread": "5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.19",
+                                            "spread": "6.28"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline to 24 Weeks in iADL",
+                    "description": "Instrumental Activities of Daily Living (iADL). The scale rates activities that represent key life tasks that people need to manage. These tasks are valuable for evaluating persons with early-stage disease, both to assess the level of disease and to determine the person's ability to care for himself or herself. Scores of 0 or 1 are given to every task (Bathing, Dressing, Tolieting, transferring, Continence and Feeding) to a total score of 6. , while 0 represents a patient who is very dependent and 6 represents patient who is independent. iADL was measured at base line and at end of treatment after 24 weeks.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Scores on a scale",
+                    "timeFrame": "24 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Circadin",
+                            "description": "Drug\n\nCircadin: Prolonged Release melatonin (Circadin) 2mg tablets"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "drug\n\nPlacebo: Matched placebo tablets, with identical features to the Circadin tablets"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "31"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.77",
+                                            "spread": "1.41"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.62",
+                                            "spread": "1.57"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "<0.045",
+                            "statisticalMethod": "ANCOVA",
+                            "ciNumSides": "TWO_SIDED"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change From Baseline to 24 Weeks in MMSE",
+                    "description": "The Mini Mental State Examination (MMSE) is a brief assessment instrument used to assess cognitive function in elderly patients. The MMSE can be used to screen for cognitive impairment and as a measurement of cognition over time and with pharmacologic treatment. The instrument is divided into 2 sections. The first section measures orientation, memory, and attention: the maximum score is 21. The second section tests the ability of the patient to name objects, follow verbal and written commands, write a sentence, and copy figures: the maximum score is 9. The scoring range for the MMSE is 0-30. Higher score represents better performance. MMSE was measured at base line and at end of treatment after 24 weeks.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Scores on a scale",
+                    "timeFrame": "24 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Circadin",
+                            "description": "Drug\n\nCircadin: Prolonged Release melatonin (Circadin) 2mg tablets"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "drug\n\nPlacebo: Matched placebo tablets, with identical features to the Circadin tablets"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "32"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.3",
+                                            "spread": "2.8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-1.9",
+                                            "spread": "3.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "<0.044",
+                            "statisticalMethod": "ANCOVA",
+                            "ciNumSides": "TWO_SIDED"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "26 weeks",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Circadin",
+                    "description": "Drug\n\nCircadin: Prolonged Release melatonin (Circadin) 2mg tablets",
+                    "seriousNumAffected": 2,
+                    "seriousNumAtRisk": 39,
+                    "otherNumAffected": 32,
+                    "otherNumAtRisk": 39
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "drug\n\nPlacebo: Matched placebo tablets, with identical features to the Circadin tablets",
+                    "seriousNumAffected": 5,
+                    "seriousNumAtRisk": 34,
+                    "otherNumAffected": 23,
+                    "otherNumAtRisk": 34
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "esophageal stenosis",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Not related to the study drug.",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Severe miocardial infraction",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Pain in extremity",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Somnolence",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Rhinorrhoea",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Gastritis",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Hyperglycaemia",
+                    "organSystem": "Endocrine disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Oesophageal stenosis",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Pneumonia aspiration",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Dehydration",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary tract infection",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Angina pectoris",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Abdominal discomfort",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Diarrhoea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Vomiting",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood creatinine increased",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Blood glucose increased",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Decreased appetite",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Back pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Abnormal dreams",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Agitation",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Cognitive disorder",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Insomnia",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Urinary tract infection",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 6,
+                            "numAffected": 5,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Cough",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Nasopharyngitis",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Sinusitis",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 34
+                        }
+                    ]
+                },
+                {
+                    "term": "Upper respiratory tract infection",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 39
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 34
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "GT60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Amnon Katz",
+                "organization": "Neurim Pharmaceuticals (1991) LTD",
+                "email": "amnonk@neurim.com",
+                "phone": "972-3-768-4906"
+            }
+        }
+    },
+    "target_category": "Cognitive enhancer",
+    "drug": [
+        "Circadin (prolonged\u2011release melatonin, 2 mg)"
+    ],
+    "placebo": [
+        "placebo"
+    ],
+    "explanation_target": [
+        "Reason: The investigational product is Circadin\u00ae 2 mg, which is a prolonged\u2011release formulation of melatonin \u2014 a small molecule/hormone that regulates sleep and circadian rhythms, not a biologic targeting AD pathology. \ue200cite\ue202turn0search0\ue202turn0search5\ue201",
+        "Act (evidence from trial): The trial title and registry description state this is an add\u2011on, double\u2011blind, randomized, placebo\u2011controlled study of Circadin 2 mg in mild\u2013moderate Alzheimer disease, assessing effects on cognitive decline, global functioning and daytime somnolence (i.e., cognition and sleep endpoints). \ue200cite\ue202turn1search0\ue202turn1search2\ue201",
+        "Interpretation / category mapping: Under the provided category definitions, this intervention is a small\u2011molecule/hormone used to improve sleep and (in this trial) tested for effects on cognition and functioning \u2014 it does not target Alzheimer\u2019s core pathology (amyloid or tau) and is therefore best classified as a \"Cognitive enhancer\" (an agent tested to improve cognitive function without disease\u2011modifying mechanism). Evidence from the published trial also reports effects on cognitive measures and sleep maintenance when added to standard therapy. \ue200cite\ue202turn1search2\ue202turn1search5\ue201",
+        "Reflect: Alternative classification could be \"neuropsychiatric symptom improvement\" because melatonin primarily treats sleep disturbance; however the trial explicitly evaluates cognitive and global functioning as primary outcomes in addition to sleep, and melatonin is not an anti\u2011pathology biologic or small\u2011molecule disease\u2011modifier \u2014 so \"Cognitive enhancer\" fits the stated aims and the category definitions better. No indication in the protocol that Circadin targets AD pathology. \ue200cite\ue202turn1search0\ue202turn0search0\ue201"
+    ],
+    "agent_type": "O) Circadian Rhythm",
+    "explanation_agent": [
+        "Reason: The investigational product is Circadin\u00ae, a prolonged\u2011release formulation of melatonin \u2014 an endogenous hormone that regulates sleep and circadian rhythms and acts via melatonin receptors (MT1/MT2). This indicates the biological focus is on circadian/sleep regulation rather than amyloid, tau, or other core AD pathologies. \ue200cite\ue202turn0search0\ue202turn0search5\ue202turn0search1\ue201",
+        "Act: Evidence from the trial description and reports shows Circadin 2 mg was tested as an add\u2011on in mild\u2013moderate Alzheimer disease with cognition and sleep/daytime somnolence endpoints; the drug is therefore being evaluated for effects on sleep/circadian function and secondary cognitive/global outcomes rather than as a disease\u2011modifying anti\u2011amyloid or anti\u2011tau agent. \ue200cite\ue202turn0search2\ue202turn0search0\ue201",
+        "Reflect: Mapping to CADRO, the most specific match is O) Circadian Rhythm because the intervention is a melatonin formulation targeting circadian/sleep mechanisms. While the trial lists cognitive endpoints (and some reviewers call it a cognitive enhancer), the mechanism of action (melatonin receptor agonism, circadian regulation) aligns directly with CADRO category O rather than other categories (A\u2013N). No evidence in the protocol indicates targeting amyloid, tau, inflammation, or other CADRO pathways. \ue200cite\ue202turn0search1\ue202turn0search5\ue201",
+        "Web search sources used (brief):",
+        "- EMA product page for Circadin (prolonged\u2011release melatonin 2 mg) \u2014 product description and indication. \ue200cite\ue202turn0search0\ue201",
+        "- Alzforum summary of the Circadin 2 mg add\u2011on trial in mild\u2013moderate AD (trial design and outcomes). \ue200cite\ue202turn0search2\ue201",
+        "- Mechanistic literature showing melatonin acts via MT1/MT2 receptors to regulate the suprachiasmatic nucleus and circadian phase. \ue200cite\ue202turn0search1\ue202turn0search5\ue201"
+    ]
+}

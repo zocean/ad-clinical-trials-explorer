@@ -1,0 +1,905 @@
+{
+    "nct_id": "NCT05225389",
+    "title": "A Phase 1, Open-Label Study to Assess the Absorption, Metabolism, Excretion, and Mass Balance of a Single Oral Dose of [14C] CT1812 in Healthy Adult Male Subjects",
+    "status": "COMPLETED",
+    "last_update_time": "2023-07-19",
+    "description_brief": "Open-label, single-dose study to assess the absorption, metabolism, excretion and mass balance of \\[C14\\] CT1812",
+    "description_detailed": "Open-label, single-dose study to assess the absorption, metabolism, excretion and mass balance of \\[C14\\] CT1812 in 8 healthy male subjects\n\nSubjects will be screened 28-days prior to dosing to determine eligibility.\n\nEligible subjects will be admitted to the clinical research unit (CRU) on Day -1. On Day 1, subjects will receive a single dose of CT1812 with a microtracer dose of \\[14C\\] CT1812. Whole blood, plasma, urine and fecal samples will be collection during the confinement period. Safety will be monitored throughout the study by repeated clinical and laboratory evaluations.\n\nSubjects will be and discharged from the CRU following completion of procedures 168 hours post dose (Day 8)",
+    "phase": [
+        "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "BASIC_SCIENCE",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "Subjects were required to have a negative COVID-19 polymerase chain reaction (PCR) test in order to be enrolled in the study, as per the requirements outlined in the COVID-19 Clinical Pharmacology Unit Management Strategy and Study Risk Assessment documents.",
+            "recruitmentDetails": "Subjects were admitted to the clinical research unit (CRU).",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "300 mg",
+                    "description": "Single oral dose of 300 mg CT1812 (2 capsules) with a microtracer dose of \\~1 \u00b5Ci \\[14C\\]-CT1812 (1 capsule)."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "8"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "5"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Three participants were discontinued by the Investigator on day 7 due to positive COVID-19 tests.",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "300 mg",
+                    "description": "Single oral dose of 300 mg CT1812 (2 capsules) with a microtracer dose of \\~1 \u00b5Ci \\[14C\\]-CT1812 (1 capsule)."
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "8"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33.6",
+                                            "spread": "11.72"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race/Ethnicity, Customized",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Weight",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Kg",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "81.91",
+                                            "spread": "12.908"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Height",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "cm",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "180.3",
+                                            "spread": "3.54"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Body Mass Index",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "kg/m^2",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "25.233",
+                                            "spread": "3.5198"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Plasma CT1812 Concentration at 96 Hours Timepoint",
+                    "description": "Plasma concentrations of CT1812 were determined using a validated liquid chromatography with tandem mass spectrometry (LC-MS/MS) following a single oral dose of 300 mg (\\~1 \u03bcCi) \\[14C\\]-CT1812 administered in healthy adult male subjects.",
+                    "populationDescription": "For the calculation of summary statistics, values that are below the limit of quantitation (BLQ) of 0.00005 \u03bcg/mL are treated as 0.00 before the first quantifiable concentration and as missing elsewhere. No values were reported for the 120, 144, 168 hours timepoints. Three subjects were discontinued from the study after testing positive for COVID-19.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "\u03bcg/mL",
+                    "timeFrame": "Predose through 96 hours postdose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "300 mg",
+                            "description": "Single oral dose of 300 mg CT1812 (2 capsules) with a microtracer dose of \\~1 \u00b5Ci \\[14C\\]-CT1812 (1 capsule)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0000707",
+                                            "spread": "0.0000240"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Plasma M6/CP199 Concentration at 144 Hours Timepoint",
+                    "description": "Plasma concentrations of M6/CP199 were determined using a validated liquid chromatography with tandem mass spectrometry (LC-MS/MS) following a single oral dose of 300 mg (\\~1 \u03bcCi) \\[14C\\]-CT1812 administered in healthy adult male subjects.",
+                    "populationDescription": "For the calculation of summary statistics, values that are below the limit of quantitation (BLQ) of 0.00005 \u03bcg/mL are treated as 0.00 before the first quantifiable concentration and as missing elsewhere. Three subjects were discontinued from the study after testing positive for COVID-19",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "\u03bcg/mL",
+                    "timeFrame": "Predose through 144 hours postdose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "300 mg",
+                            "description": "Single oral dose of 300 mg CT1812 (2 capsules) with a microtracer dose of \\~1 \u00b5Ci \\[14C\\]-CT1812 (1 capsule)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.00001501",
+                                            "spread": "0.0001370"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Plasma Total Radioactivity (TRA) Concentration CT1812-Equivalents at 168 Hours Timepoint",
+                    "description": "Plasma Total Radioactivity Concentration of CT1812-Equivalents was performed using Liquid Scintillation Counting (LSC) method following a single oral dose of 300 mg (\\~1 \u03bcCi) \\[14C\\]-CT1812 administered in healthy adult male subjects.",
+                    "populationDescription": "For the calculation of summary statistics, values that are below the limits of quantitation (BLQ) ranging between 0.0261 - 0.0328 \u03bcg Eq/mL are treated as 0.00 before the first quantifiable concentration and as missing elsewhere. Three subjects were discontinued from the study after testing positive for COVID-19",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "\u03bcg Eq/mL",
+                    "timeFrame": "Predose, 0.5, 1, 2, 3, 4, 6, 8, 12, 16, 24, 36, 48, 72, 96, 120, 144, 168 hours postdose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "300 mg",
+                            "description": "Single oral dose of 300 mg CT1812 (2 capsules) with a microtracer dose of \\~1 \u00b5Ci \\[14C\\]-CT1812 (1 capsule)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.08720",
+                                            "spread": "0.068380"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Whole Blood Total Radioactivity (TRA) Concentration CT1812-Equivalents at 144 Hours Timepoint",
+                    "description": "The analysis of Whole Blood Total Radioactivity Concentration of CT1812-Equivalents was performed using combustion followed by Liquid Scintillation Counting (LSC) method following a single oral dose of 300 mg (\\~1 \u03bcCi) \\[14C\\]-CT1812 administered in healthy adult male subjects.",
+                    "populationDescription": "For the calculation of summary statistics, values that are below the limits of quantitation (BLQ) ranging between 0.0368 - 0.0406 \u03bcg Eq/mL are treated as 0.00 before the first quantifiable concentration and as missing elsewhere. Three subjects were discontinued from the study after testing positive for COVID-19. No values were reported at 168 hours timepoint.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "\u03bcg Eq/mL",
+                    "timeFrame": "Predose through 144 hours postdose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "300 mg",
+                            "description": "Single oral dose of 300 mg CT1812 (2 capsules) with a microtracer dose of \\~1 \u00b5Ci \\[14C\\]-CT1812 (1 capsule)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.04413",
+                                            "spread": "0.0086904"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Cumulative Percentage of Radioactive Dose (Cum%Dose) Excreted in the Urine",
+                    "description": "Cumulative radioactive dose (Cum%Dose) excreted in the urine was determined using Liquid Scintillation Counting (LSC) following a single oral dose of 300 mg (\\~1 \u03bcCi) \\[14C\\]-CT1812 administered in healthy adult male subjects.",
+                    "populationDescription": "For the calculation of recovery parameters and summary statistics, concentration values that are below the limits.of quantitation (BLQ) ranging between 0.00205 to 0.00488 \u03bcg Eq/g are treated as 0.00. Three subjects were discontinued from the study after testing positive for COVID-19.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "percentage of radioactive eliminated",
+                    "timeFrame": "Predose and 0 to 4, 4 to 8, 8 to 12, and 12 to 24 hours postdose, and every 24 hours (pooled) until Day 8 (168 hours postdose).",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "300 mg",
+                            "description": "Single oral dose of 300 mg CT1812 (2 capsules) with a microtracer dose of \\~1 \u00b5Ci \\[14C\\]-CT1812 (1 capsule)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "81.13",
+                                            "spread": "2.9789"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Cumulative Percentage of Radioactive Dose (Cum%Dose) Excreted in the Feces",
+                    "description": "Cumulative radioactive dose (Cum%Dose) excreted in the feces was performed using combustion followed by Liquid Scintillation Counting (LSC) method following a single oral dose of 300 mg (\\~1 \u03bcCi) \\[14C\\]-CT1812 administered in healthy adult male subjects.",
+                    "populationDescription": "For the calculation of recovery parameters and summary statistics of concentration data, concentration values that are below the limits of quantitation (BLQ) are treated as 0.00. Three subjects were discontinued from the study after testing positive for COVID-19.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "percentage of radioactive eliminated",
+                    "timeFrame": "Predose, 0-24, 24-48, 48-72, 72-96, 96-120, 120-144, 144-168 hours postdose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "300 mg",
+                            "description": "Single oral dose of 300 mg CT1812 (2 capsules) with a microtracer dose of \\~1 \u00b5Ci \\[14C\\]-CT1812 (1 capsule)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "19.29",
+                                            "spread": "3,2123"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "CT1812 Plasma Exposure According to AUC0-last Pharmacokinetic Parameter",
+                    "description": "Plasma CT1812 Concentration were measured using the area under the concentration-time curve, from time 0 to the last observed non-zero concentration, as calculated by the linear trapezoidal method following a single oral dose of 300 mg (\\~1 \u03bcCi) \\[14C\\]-CT1812 administered in healthy adult male subjects. Plasma concentrations of CT1812 were determined using a validated liquid chromatography with tandem mass spectrometry (LC-MS/MS).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ug*hr/mL",
+                    "timeFrame": "Predose, 0.5, 1, 2, 3, 4, 6, 8, 12, 16, 24, 36, 48, 72, 96, 120, 144, 168 hours postdose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "300 mg",
+                            "description": "Single oral dose of 300 mg CT1812 (2 capsules) with a microtracer dose of \\~1 \u00b5Ci \\[14C\\]-CT1812 (1 capsule)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.6636",
+                                            "spread": "0.31014"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "M6/CP199 Plasma Exposure According to AUC0-last Pharmacokinetic Parameter",
+                    "description": "M6/CP199 Plasma Concentration was measured using the area under the concentration-time curve, from time 0 to the last observed non-zero concentration, as calculated by the linear trapezoidal method following a single oral dose of 300 mg (\\~1 \u03bcCi) \\[14C\\]-CT1812 administered in healthy adult male subjects. M6/CP199 plasma concentrations were determined using a validated liquid chromatography with tandem mass spectrometry (LC-MS/MS).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ug*hr/mL)",
+                    "timeFrame": "Predose, 0.5, 1, 2, 3, 4, 6, 8, 12, 16, 24, 36, 48, 72, 96, 120, 144, 168 hours postdose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "300 mg",
+                            "description": "Single oral dose of 300 mg CT1812 (2 capsules) with a microtracer dose of \\~1 \u00b5Ci \\[14C\\]-CT1812 (1 capsule)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "48.46",
+                                            "spread": "9.8619"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Plasma Total Radioactivity According to AUC0-last Pharmacokinetic Parameter",
+                    "description": "Plasma Total Radioactivity was measured using the area under the concentration-time curve, from time 0 to the last observed non-zero concentration, as calculated by the linear trapezoidal method following a single oral dose of 300 mg (\\~1 \u03bcCi) \\[14C\\]-CT1812 administered in healthy adult male subjects. Plasma Total Radioactivity Concentration of CT1812-Equivalents was performed using Liquid Scintillation Counting (LSC).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "\u03bcg Eq*hr/mL",
+                    "timeFrame": "Predose, 0.5, 1, 2, 3, 4, 6, 8, 12, 16, 24, 36, 48, 72, 96, 120, 144, 168 hours postdose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "300 mg",
+                            "description": "Single oral dose of 300 mg CT1812 (2 capsules) with a microtracer dose of \\~1 \u00b5Ci \\[14C\\]-CT1812 (1 capsule)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "85.24",
+                                            "spread": "11.436"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Whole Blood Total Radioactivity According to AUC0-last Pharmacokinetic Parameter",
+                    "description": "Whole Blood Total Radioactivity was measured using the area under the concentration-time curve, from time 0 to the last observed non-zero concentration, as calculated by the linear trapezoidal method following a single oral dose of 300 mg (\\~1 \u03bcCi) \\[14C\\]-CT1812 administered in healthy adult male subjects. Plasma Total Radioactivity Concentration of CT1812-Equivalents was performed using Liquid Scintillation Counting (LSC)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "\u03bcg Eq*hr/mL",
+                    "timeFrame": "Predose, 0.5, 1, 2, 3, 4, 6, 8, 12, 16, 24, 36, 48, 72, 96, 120, 144, 168 hours postdose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "300 mg",
+                            "description": "Single oral dose of 300 mg CT1812 (2 capsules) with a microtracer dose of \\~1 \u00b5Ci \\[14C\\]-CT1812 (1 capsule)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "52.51",
+                                            "spread": "11.371"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Whole Blood:Plasma Total Radioactivity Partitioning Ratios Over Time up to 144 Hours Timepoint",
+                    "description": "This measure describes the percentage of TRA in whole blood relative to plasma. The fraction of \\[14C\\]-radioactivity associated with whole blood and plasma and with red blood cells and other cellular components of whole blood was determined by using the concentration of \\[14C\\]-radioactivity in whole blood and plasma.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ratio",
+                    "timeFrame": "Predose through 144 hours postdose",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "300 mg",
+                            "description": "Single oral dose of 300 mg CT1812 (2 capsules) with a microtracer dose of \\~1 \u00b5Ci \\[14C\\]-CT1812 (1 capsule)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.4519",
+                                            "spread": "0.11051"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Number of TEAEs, Related TEAEs, SAEs, and Related SAEs",
+                    "description": "Incidence and Severity of Adverse Events. All AEs that occurred during this clinical trial were coded using the Medical Dictionary for Regulatory Activities (MedDRA\u00ae), Version 24.1.",
+                    "populationDescription": "Single oral dose of 300 mg CT1812 (2 capsules) with a microtracer dose of \\~1 \u00b5Ci \\[14C\\]-CT1812 (1 capsule).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Events",
+                    "timeFrame": "Predose, 0.5, 1, 2, 3, 4, 6, 8, 12, 16, 24, 36, 48, 72, 96, 120, 144, 168 hours",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "300 mg",
+                            "description": "Single oral dose of 300 mg CT1812 (2 capsules) with a microtracer dose of \\~1 \u00b5Ci \\[14C\\]-CT1812 (1 capsule)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "All TEAEs",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Mild TEAEs",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Moderate TEAEs",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Severe TEAEs",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Related TEAEs",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "TEAEs Leading to Treatment Discontinuation",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "15 days",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "300 mg",
+                    "description": "Single oral dose of 300 mg CT1812 (2 capsules) with a microtracer dose of \\~1 \u00b5Ci \\[14C\\]-CT1812 (1 capsule).",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 8,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 8,
+                    "otherNumAffected": 3,
+                    "otherNumAtRisk": 8
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "COVID 19",
+                    "organSystem": "Infections and infestations",
+                    "sourceVocabulary": "MedDra 24.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 8
+                        }
+                    ]
+                },
+                {
+                    "term": "Headache",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDra 24.1",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 1,
+                            "numAtRisk": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "OTHER",
+                "restrictiveAgreement": true,
+                "otherDetails": "The Institution will not publish or present any Study Data, results, Study Inventions, or Sponsor Confidential Information without prior written approval from the Sponsor. Institution will keep confidential and not disclose any information provided by or on behalf of Sponsor or CRO or that is generated, discovered, or obtained by any Party as a result of the Study (other than patient medical records), including the Study results, Study Inventions and information related thereto."
+            },
+            "pointOfContact": {
+                "title": "Chief Medical Officer, Head of R&D",
+                "organization": "Cogntion Therapeutics Inc",
+                "email": "acaggiano@cogrx.com",
+                "phone": "914-221-6730"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "CT1812 (Elayta) \u2014 brain\u2011penetrant small\u2011molecule allosteric antagonist of the sigma\u20112 receptor complex that displaces/blocks A\u03b2 oligomers"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: CT1812 is described in the literature as a brain\u2011penetrant small molecule that allosterically antagonizes the sigma\u20112 receptor complex and prevents/displaces amyloid\u2011beta oligomers (A\u03b2Os) from neuronal receptors \u2014 a mechanism aimed at mitigating Alzheimer\u2019s pathology (disease\u2011targeting). \ue200cite\ue202turn0search1\ue202turn0search3\ue201",
+        "Act: The provided trial is an open\u2011label, single\u2011dose [14C] mass\u2011balance/ADME study of CT1812 in healthy adult males (NCT05225389 / 300 mg [14C] CT1812). This is a pharmacokinetics/metabolism study rather than an efficacy trial, but the investigational product (CT1812) itself targets A\u03b2 oligomers via the sigma\u20112 receptor complex. \ue200cite\ue202turn3view0\ue202turn0search0\ue201",
+        "Reflect: Given the drug class (small molecule) and its described mechanism (displacing A\u03b2 oligomers \u2014 targeting core AD pathology), the correct category is 'disease\u2011targeted small molecule'. The specific trial described is a PK/mass\u2011balance study (not testing symptomatic or neuropsychiatric endpoints), so classification is based on the drug\u2019s mechanism rather than the study design. No substantial ambiguity found. \ue200cite\ue202turn0search1\ue202turn3view0\ue201",
+        "Key sources found (web search results referenced): PubMed phase\u20111 description of CT1812 and mechanism (Elayta). \ue200cite\ue202turn0search1\ue201; Wiley/Alzheimer\u2019s & Dementia articles describing sigma\u20112 receptor antagonism and preclinical/PK data. \ue200cite\ue202turn0search0\ue202turn0search3\ue201; Clinical trial listing for the [14C] CT1812 ADME/mass balance study (NCT05225389) showing single oral dose 300 mg in healthy males (study details/dates/results posted). \ue200cite\ue202turn3view0\ue201"
+    ],
+    "agent_type": "A) Amyloid beta",
+    "explanation_agent": [
+        "Reason: CT1812 (Elayta) is a brain\u2011penetrant small\u2011molecule allosteric antagonist of the sigma\u20112/TMEM97 receptor complex that selectively prevents and displaces A\u03b2 oligomers from neuronal/synaptic receptors \u2014 i.e., its pharmacologic action is to reduce the pathological effects of amyloid\u2011\u03b2 oligomers. \ue200cite\ue202turn0search0\ue202turn0search1\ue202turn0search4\ue201",
+        "Act: The provided trial is a Phase 1, open\u2011label, single\u2011dose [14C] absorption/metabolism/excretion/mass\u2011balance (ADME) study of CT1812 in healthy adult males (NCT05225389; 300 mg [14C] CT1812), so although the study itself is PK/metabolism focused, the investigational drug\u2019s mechanism targets A\u03b2 oligomers via sigma\u20112 modulation \u2014 supporting classification by the drug\u2019s biological target. \ue200cite\ue202turn1search0\ue202turn1search1\ue201",
+        "Reflect: CADRO categories are organized by biological target/pathway. Although CT1812 binds sigma\u20112/TMEM97 (a receptor complex), its intended disease\u2011modifying effect is displacement of amyloid\u2011\u03b2 oligomers (A\u03b2Os), which places it squarely under CADRO category A) Amyloid beta rather than an alternative category. There is no indication this agent is primarily targeting tau, inflammation, synaptic plasticity as the main mechanism, nor is the trial non\u2011therapeutic; therefore A) Amyloid beta is the most specific fit. \ue200cite\ue202turn0search3\ue202turn0search8\ue201",
+        "Key web sources supporting the above: PubMed phase\u20111 description and mechanism (CT1812/Elayta). \ue200cite\ue202turn0search1\ue201; Izzo et al., Preclinical/biomarker review (Alzheimer\u2019s & Dementia / Wiley). \ue200cite\ue202turn0search0\ue201; Reviews/clinical summaries describing sigma\u20112/TMEM97 antagonism and A\u03b2 oligomer displacement. \ue200cite\ue202turn0search3\ue202turn0search5\ue201; Trial registry and mass\u2011balance/ADME listing for NCT05225389 (300 mg [14C] CT1812 in healthy males). \ue200cite\ue202turn1search0\ue202turn1search1\ue201"
+    ]
+}

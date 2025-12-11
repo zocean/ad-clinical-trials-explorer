@@ -1,0 +1,529 @@
+{
+    "nct_id": "NCT02708485",
+    "title": "Evaluating the Impact of Physical Exercise on Mild Alzheimer's Disease in a Randomized Clinical Trial: Quantification With 18F -FDG and 11C- AcAc PET Imaging",
+    "status": "COMPLETED",
+    "last_update_time": "2017-12-14",
+    "description_brief": "The aim of this study is to evaluate the effect of a 3-month walking program on brain energy metabolism in patient with mild Alzheimer's disease (AD). Two groups of sedentary patients with mild AD are followed and compared over a 3-month period of time: Control (non-active) and walking (from 15 to 45 minutes of exercise on a treadmill, 3 times a week for 12 weeks) groups. All the participants are evaluated on their cognition, brain volumes (MRI) and brain fuel consumption (PET scan with 18-FDG and 11C-AcAc) at the beginning and at the end of the study.",
+    "description_detailed": "N/A",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Control Group",
+                    "description": "No intervention"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Physical Exercise",
+                    "description": "A 3-month walking program (3 times a week for 12 weeks) on treadmill supervised by a physiotherapist. Duration of the exercise is progressively increased from 15 min to 45 min over a 6-week period and the intensity of the exercise is moderate (a 12-13 score on Borg scale).\n\nPhysical exercise: A 3-month walking program (3 times a week for 12 weeks) on treadmill supervised by a physiotherapist. Duration of the exercise is progressively increased from 15 min to 45 min over a 6-week period and the intensity of the exercise is moderate (a 12-13 score on Borg scale)."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "12"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "10"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Control",
+                    "description": "The Sedentary group received no active treatment."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Physical Exercise",
+                    "description": "A 3-month walking program (3 times a week for 12 weeks) on treadmill supervised by a physiotherapist. Duration of the exercise is progressively increased from 15 min to 45 min over a 6-week period and the intensity of the exercise is moderate (a 12-13 score on Borg scale)."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "3"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "10"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "13"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "77",
+                                            "spread": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "73",
+                                            "spread": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "75",
+                                            "spread": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "9"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race and Ethnicity Not Collected",
+                    "populationDescription": "Race and Ethnicity were not collected from any participant.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Mini-Mental State Examination",
+                    "description": "The Mini-Mental State Examination (MMSE) is a 30-point questionnaire to measure cognitive impairment. A total score \u226526/30 indicates a normal cognition. Scores below this can indicate mild (20-25 points) , moderate (10-20 points) or severe (\u22649 points) cognitive impairment.",
+                    "paramType": "MEAN",
+                    "dispersionType": "FULL_RANGE",
+                    "unitOfMeasure": "points",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "26",
+                                            "lowerLimit": "23",
+                                            "upperLimit": "27"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "26",
+                                            "lowerLimit": "23",
+                                            "upperLimit": "29"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "26",
+                                            "lowerLimit": "23",
+                                            "upperLimit": "29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Brain Glucose Consumption",
+                    "description": "Brain glucose uptake (umol/100g/min) using 18F-FDG PET imaging",
+                    "populationDescription": "Participants of the Control group discontinued the study because of the intense imaging protocol without the possibility of some level of benefit (N=3)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "umol/100 g/min",
+                    "timeFrame": "3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Control",
+                            "description": "The Sedentary group received no active treatment."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Physical Exercise",
+                            "description": "A 3-month walking program (3 times a week for 12 weeks) on treadmill supervised by a physiotherapist. Duration of the exercise is progressively increased from 15 min to 45 min over a 6-week period and the intensity of the exercise is moderate (a 12-13 score on Borg scale).\n\nPhysical exercise: A 3-month walking program (3 times a week for 12 weeks) on treadmill supervised by a physiotherapist. Duration of the exercise is progressively increased from 15 min to 45 min over a 6-week period and the intensity of the exercise is moderate (a 12-13 score on Borg scale)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "0"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "27.9",
+                                            "spread": "3.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "3-month",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "28.1",
+                                            "spread": "3.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Brain Acetoacetate Consumption",
+                    "description": "Brain acetoacetate uptake (umol/100g/min) using 11C-AcAc PET imaging",
+                    "populationDescription": "Participants of the Control group discontinued the study because of the intense imaging protocol without the possibility of some level of benefit (N=3). Two participants in the Walking group decided to withdraw from the study prior to the commencement of the exercise program. There were no dropouts over the training period (N=10).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "umol/100 g/min",
+                    "timeFrame": "3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Control",
+                            "description": "The Sedentary group received no active treatment."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Physical Exercise",
+                            "description": "A 3-month walking program (3 times a week for 12 weeks) on treadmill supervised by a physiotherapist. Duration of the exercise is progressively increased from 15 min to 45 min over a 6-week period and the intensity of the exercise is moderate (a 12-13 score on Borg scale).\n\nPhysical exercise: A 3-month walking program (3 times a week for 12 weeks) on treadmill supervised by a physiotherapist. Duration of the exercise is progressively increased from 15 min to 45 min over a 6-week period and the intensity of the exercise is moderate (a 12-13 score on Borg scale)."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "0"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "10"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.24",
+                                            "spread": "0.12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "3-month",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.64",
+                                            "spread": "0.40"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "All-Cause Mortality, Serious, and Other (Not Including Serious) Adverse Events were not monitored/assessed.",
+            "description": "All-Cause Mortality, Serious, and Other (Not Including Serious) Adverse Events were not monitored/assessed.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Control Group",
+                    "description": "No intervention",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 0,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 0,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 0
+                },
+                {
+                    "id": "EG001",
+                    "title": "Physical Exercise",
+                    "description": "A 3-month walking program (3 times a week for 12 weeks) on treadmill supervised by a physiotherapist. Duration of the exercise is progressively increased from 15 min to 45 min over a 6-week period and the intensity of the exercise is moderate (a 12-13 score on Borg scale).\n\nPhysical exercise: A 3-month walking program (3 times a week for 12 weeks) on treadmill supervised by a physiotherapist. Duration of the exercise is progressively increased from 15 min to 45 min over a 6-week period and the intensity of the exercise is moderate (a 12-13 score on Borg scale).",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 0,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 0,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 0
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Stephen Cunnane",
+                "organization": "USherbrooke",
+                "email": "Stephen.Cunnane@USherbrooke.ca",
+                "phone": "1-819-780-2220",
+                "phoneExt": "45670"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention described is a 3-month walking/physical exercise program (treadmill walking 15\u201345 min, 3\u00d7/week) with outcomes measured by cognition, MRI, and PET (18F\u2011FDG and 11C\u2011AcAc). The four target categories provided are all drug-focused (biologic, small molecule, cognitive-enhancing drugs, or drugs for neuropsychiatric symptoms). Because this is a non\u2011pharmacologic exercise intervention, it does not match any of those drug-focused categories. \ue200cite\ue202turn0search0\ue201",
+        "Act: I searched for the trial and related publications. The trial is registered/described as \"Evaluating the Impact of Physical Exercise on Mild Alzheimer's Disease...\" with the intervention listed as Physical exercise (walking). A related uncontrolled 3\u2011month aerobic training neuroimaging study reports improvements in brain energy metabolism after a walking program. These sources confirm there is no drug being tested in this trial. \ue200cite\ue202turn0search0\ue202turn0search9\ue201",
+        "Reflect: Classification decision \u2014 'N/A'. Rationale: no pharmacologic agent (neither biologic nor small molecule) is tested; the trial evaluates a behavioral (exercise) intervention and uses PET/MRI as outcome/biomarker measures. If you prefer a broader interpretation (exercise as a cognitive-enhancing intervention), note that the provided category list was explicitly drug/therapy-type focused; following those definitions, 'N/A' is the correct classification. For context on exercise trials and imaging/mechanistic outcomes in AD, see systematic reviews and exercise RCT protocols. \ue200cite\ue202turn0search2\ue202turn0search6\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

@@ -1,0 +1,370 @@
+{
+    "nct_id": "NCT01565369",
+    "title": "Evaluation of Physician Training for Interpretation of Florbetapir-PET Scans: Validation of Binary Image Rating Methodology Using Amyloid Histopathology at Autopsy as the Reference Standard.",
+    "status": "COMPLETED",
+    "last_update_time": "2012-05-03",
+    "description_brief": "The purpose of this study is re-read of brain amyloid positron emission tomography (PET) scans acquired in previous florbetapir F 18 clinical studies by readers trained using updated reading methodology. The scans in this study came from subjects who had an autopsy to reveal the subject's true amyloid status.",
+    "description_detailed": "N/A",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "NO SUBJECTS WERE ENROLLED IN THIS STUDY - this study re-read scans obtained in other clinical studies",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "All A07 Autopsy Subjects",
+                    "description": "Subjects who had a valid florbetapir-PET scan and came to autopsy in Study A07"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "35"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "35"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "All A07 Autopsy Subjects",
+                    "description": "Subjects who had a valid florbetapir-PET scan and came to autopsy in Study A07"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "35"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "79.3",
+                                            "spread": "13.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "17"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "35"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Sensitivity of Florbetapir PET Scans to Detect Moderate to Frequent Amyloid Plaque",
+                    "description": "Nine readers blinded to all clinical information using the binary read methodology (amyloid positive/negative). Sensitivity will be calculated as the percent of true positives (as determined by the reference standard, moderate or frequent amyloid plaque at autopsy) that are correctly identified as amyloid positive by the PET scan read. Reported as the median sensitivity of the nine readers.",
+                    "populationDescription": "19 of the 35 subjects had moderate or frequent plaques at autopsy",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "Full Range",
+                    "unitOfMeasure": "percentage of true positives",
+                    "timeFrame": "50-60 min after injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "All A07(NCT00857415) Autopsy Subjects",
+                            "description": "Subjects who had a valid florbetapir-PET scan and came to autopsy in Study A07(NCT00857415)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "19"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "100",
+                                            "lowerLimit": "84.2",
+                                            "upperLimit": "100"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Specificity of Florbetapir PET Scans to Detect Moderate to Frequent Amyloid Plaque",
+                    "description": "Nine readers blinded to all clinical information using the binary read methodology (amyloid positive/negative). Specificity will be calculated as the percent of true negatives (as determined by the reference standard, no or sparse amyloid plaque at autopsy) that are correctly identified as amyloid negative by the PET scan read. Reported as the median specificity of the nine readers.",
+                    "populationDescription": "16 of the 35 subjects had none or sparse plaques at autopsy",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEDIAN",
+                    "dispersionType": "Full Range",
+                    "unitOfMeasure": "percentage of true negatives",
+                    "timeFrame": "50-60 min after injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "All A07 Autopsy Subjects",
+                            "description": "Subjects who had a valid florbetapir-PET scan and came to autopsy in Study A07(NCT00857415)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "16"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "93.8",
+                                            "lowerLimit": "68.8",
+                                            "upperLimit": "100"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Inter-reader Agreement",
+                    "description": "Percentage of individual scan reads that agreed or disagreed with the majority read across nine readers",
+                    "populationDescription": "315 scans = 35 subjects x 9 readers",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "percentage of scans",
+                    "timeFrame": "50-60 min after injection",
+                    "typeUnitsAnalyzed": "florbetapir PET scan reads",
+                    "denomUnitsSelected": "Participants",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "All A07(NCT00857415) Autopsy Subjects",
+                            "description": "Subjects who had a valid florbetapir-PET scan and came to autopsy in Study A07(NCT00857415)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "35"
+                                }
+                            ]
+                        },
+                        {
+                            "units": "florbetapir PET scan reads",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "315"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Agreed with majority read",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "96.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Discrepant with majority read",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Fleiss' kappa",
+                            "testedNonInferiority": false,
+                            "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+                            "pValue": "<0.0001",
+                            "pValueComment": "evaluated at the .05 significance level",
+                            "statisticalMethod": "Fleiss' kappa",
+                            "paramType": "Fleiss' kappa",
+                            "paramValue": "0.8547",
+                            "ciPctValue": "95",
+                            "dispersionType": "STANDARD_ERROR_OF_MEAN",
+                            "dispersionValue": "0.0282"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "description": "No subjects received florbetapir in this study. This study consisted of rereads of scans previously acquired in another clinical study (A07).",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "All A07 Autopsy Subjects",
+                    "description": "Subjects who had a valid florbetapir-PET scan and came to autopsy in Study A07",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 0,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 0
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "GT60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Chief Medical Officer",
+                "organization": "Avid Radiopharmaceuticals",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-798-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "florbetapir F 18 (Amyvid) \u2014 diagnostic radiopharmaceutical (PET tracer)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial description is a re-read/validation study of brain amyloid PET scans acquired with florbetapir F 18, using autopsy amyloid histopathology as the reference standard. This is a diagnostic imaging validation (assessment of read methodology and reader training), not a therapeutic trial testing a drug for disease modification, cognitive enhancement, or neuropsychiatric symptom management. \ue200cite\ue202turn0search0\ue202turn0search1\ue201",
+        "Act: Key extracted details \u2014 intervention/agent: florbetapir F 18 (brand name Amyvid), which is a radioactive PET imaging agent used to estimate brain beta\u2011amyloid neuritic plaque density. It is a diagnostic radiopharmaceutical, not a biologic or small\u2011molecule therapy; therefore the study does not fit any of the four therapeutic categories and should be classified as 'N/A'. Supporting sources: Amyvid product/clinical information and FDA/approval history. \ue200cite\ue202turn0search3\ue202turn0search6\ue202turn0search8\ue201",
+        "Reflect: The classification 'N/A' is consistent with the study aim (validation of image reading methodology against autopsy). No therapeutic mechanism of action is described and no treatment/placebo arms are implied. Web search results (selected) used to verify florbetapir F 18 is a diagnostic PET tracer and to provide the validation/autopsy study context: (1) PubMed report of florbetapir F18 PET performance in AD/MCI/controls and use of visual/quantitative reads. \ue200cite\ue202turn0search0\ue201 (2) Amyvid (florbetapir F 18) clinical/HCP site describing binary visual read methodology validated against autopsy. \ue200cite\ue202turn0search1\ue202turn0search4\ue201 (3) Eli Lilly / FDA approval and product information describing Amyvid as a diagnostic agent and the autopsy\u2011validation studies. \ue200cite\ue202turn0search3\ue201 (4) Approval history summary (Drugs.com). \ue200cite\ue202turn0search6\ue201 (5) Recent label/indication updates reported in press coverage. \ue200cite\ue202turn0search2\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

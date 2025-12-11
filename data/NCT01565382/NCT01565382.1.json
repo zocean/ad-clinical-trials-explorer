@@ -1,0 +1,381 @@
+{
+    "nct_id": "NCT01565382",
+    "title": "Evaluation of Physician Training for Interpretation of Florbetapir-PET Scans: Evaluation of Inter-reader Reliability Using Images From Subjects With a Clinical Presentation of AD or MCI",
+    "status": "COMPLETED",
+    "last_update_time": "2022-07-18",
+    "description_brief": "Re-read of brain amyloid scans acquired in previous AV-45 clinical studies by readers trained using updated reading methodology. The scans in this study came from subjects who had Alzheimer's Disease (AD) or Mild Cognitive Impairment (MCI).",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "NO SUBJECTS WERE ENROLLED IN THIS STUDY - this study re-read 40 scans obtained from 25 mild cognitive impairment (MCI) subjects and 15 Alzheimer's Disease (AD) subjects randomly selected from Study A05 (NCT00702143).",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "A05 Florbetapir-PET Scans",
+                    "description": "Subjects who received a valid florbetapir-PET scan in Study A05 (NCT00702143)"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "40"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "40"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "A05 Florbetapir-PET Scans",
+                    "description": "Subjects who received a valid florbetapir-PET scan in Study A05 (NCT00702143)"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "40"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "72.7",
+                                            "spread": "9.38"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "20"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "20"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "40"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Inter-reader Agreement - Median Kappa Statistic",
+                    "description": "Seven readers blinded to all clinical information using the binary read methodology (amyloid positive/negative). Simple kappa statistics were calculated for each reader versus the other 6 readers. Primary outcome measure was the median kappa of each reader versus the other 6 readers.",
+                    "populationDescription": "Seven private practice nuclear medicine physicians with no prior training in reading florbetapir-PET scans each rated 40 florbetapir-PET scans (7 readers x 40 scans = 280 scan reads) as either amyloid positive or negative.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "median kappa",
+                    "timeFrame": "50-60 min after injection",
+                    "typeUnitsAnalyzed": "florbetapir PET scan reads",
+                    "denomUnitsSelected": "florbetapir PET scan reads",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "A05 Florbetapir-PET Scans",
+                            "description": "Subjects who received a valid florbetapir-PET scan in Study A05(NCT00702143)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "40"
+                                }
+                            ]
+                        },
+                        {
+                            "units": "florbetapir PET scan reads",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "280"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.72"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.70"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.25"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.75"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.68"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 6",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.83"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 7",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.68"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Overall Inter-reader Agreement - Fleiss' Kappa",
+                    "description": "Seven readers blinded to all clinical information using the binary read methodology (amyloid positive/negative). Fleiss' kappa was calculated across all inter-reader comparisons.",
+                    "populationDescription": "Seven private practice nuclear medicine physicians with no prior training in reading florbetapir-PET scans each rated 40 florbetapir-PET scans (7 readers x 40 scans = 280 scan reads) as either amyloid positive or negative.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "Fleiss' kappa",
+                    "timeFrame": "50-60 min after injection",
+                    "typeUnitsAnalyzed": "florbetapir PET scans",
+                    "denomUnitsSelected": "florbetapir PET scans",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "A05 Florbetapir-PET Scans",
+                            "description": "Subjects who received a valid florbetapir-PET scan in Study A05 (NCT00702143)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "40"
+                                }
+                            ]
+                        },
+                        {
+                            "units": "florbetapir PET scans",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "280"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.61"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "description": "Adverse Events were not collected for this study. No subjects received florbetapir in this study. This study consisted of rereads of scans previously acquired in another clinical study (A05\\[NCT00702143\\]).",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "A05 Florbetapir-PET Scans",
+                    "description": "Subjects who received a valid florbetapir-PET scan in Study A05 (NCT00702143)",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 0,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 0
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "GT60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Chief Medical Officer",
+                "organization": "Avid Radiopharmaceuticals",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "Florbetapir (18F\u2011AV\u201145; trade name Amyvid) \u2014 PET amyloid imaging tracer"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The study description and title state this is a re\u2011read / physician training and inter\u2011reader reliability evaluation of AV\u201145 (florbetapir) PET brain amyloid scans from prior AD/MCI studies. That indicates a diagnostic/imaging reader\u2011training study (assessing scan interpretation), not a therapeutic trial testing a drug to modify disease, improve cognition, or treat neuropsychiatric symptoms. \ue200cite\ue202turn0search7\ue202turn0search4\ue201",
+        "Act: Key extracted details \u2014 Intervention/subject material: florbetapir (18F\u2011AV\u201145, aka Amyvid) PET scans; Purpose: evaluate physician training and inter\u2011reader reliability for interpretation of amyloid PET images in subjects with clinical AD or MCI; Intended effect: improve diagnostic/interpretive accuracy, not clinical treatment. Therefore the trial does not match any of the four therapeutic categories and is classified as 'N/A'. \ue200cite\ue202turn0search1\ue202turn0search4\ue201",
+        "Reflect: Classification check \u2014 florbetapir/AV\u201145 is a PET radiotracer that binds beta\u2011amyloid and is used as a diagnostic imaging agent (FDA\u2011approved as Amyvid), not a disease\u2011modifying biologic or small molecule therapy, nor a cognitive enhancer or neuropsychiatric treatment. The study\u2019s focus on re\u2011reading scans and reader training confirms this is diagnostic rather than interventional, so 'N/A' is appropriate. No substantive ambiguity in the description; if you want, I can label this as 'Diagnostic imaging / reader training' instead. \ue200cite\ue202turn0search4\ue202turn0search7\ue201",
+        "Web search results (sources used): 1) Using PET with 18F\u2011AV\u201145 (florbetapir) to quantify brain amyloid \u2014 PMC article describing AV\u201145 as an amyloid PET tracer and visual/quantitative use in AD/MCI. \ue200cite\ue202turn0search7\ue201 2) Florbetapir (F18\u2011AV\u201145) PET to assess amyloid burden \u2014 multicenter study on florbetapir performance in AD/MCI/controls. \ue200cite\ue202turn0search1\ue201 3) FDA / Eli Lilly press release on approval of Amyvid (florbetapir F18 injection) and inter\u2011reader reproducibility/training data. \ue200cite\ue202turn0search4\ue201 4) Early methodological/production papers describing AV\u201145 synthesis and imaging characteristics. \ue200cite\ue202turn0search2\ue202turn0search3\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

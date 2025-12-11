@@ -1,0 +1,623 @@
+{
+    "nct_id": "NCT02309723",
+    "title": "A Survey of Clinicians to Assess the Influence of Beta-amyloid Imagining Information on the Diagnosis and Management of Hypothetical Patients With Cognitive Complaints",
+    "status": "COMPLETED",
+    "last_update_time": "2017-02-22",
+    "description_brief": "When older patients develop cognitive problems - like memory loss - there may be any of several underlying causes, sometimes occurring in combination. Clinicians have a better chance of providing appropriate treatment if they understand what the cause of the problem is. A diagnostic tool can help the patient by helping the clinician to make a more accurate diagnosis. This study investigates whether a new diagnostic tool - beta amyloid imaging - may potentially improve medical practice. The tool can potentially improve practice only if it can influence clinical judgment. This study investigates whether the provision of beta amyloid imaging information influences clinical judgment. The investigators will conduct a survey that presents clinicians with descriptions of hypothetical older patients with cognitive complaints. Some of the respondents also receive beta amyloid imaging information. The investigators will test the investigators hypothesis that the information will affect diagnostic judgment and management recommendations by comparing the responses of clinicians who receive the beta amyloid information to the responses of clinicians who do not.",
+    "description_detailed": "N/A",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Positive Beta Amyloid Findings",
+                    "description": "Beta amyloid imaging results indicated a positive finding.\n\nBeta amyloid imaging"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Negative Beta Amyloid Findings",
+                    "description": "Beta amyloid imaging results indicated a negative finding.\n\nBeta amyloid imaging"
+                },
+                {
+                    "id": "FG002",
+                    "title": "No Beta Amyloid Information"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "129"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "128"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "129"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "105"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "105"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "105"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "24"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "23"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "24"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Withdrawal by Subject",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "24"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "23"
+                                },
+                                {
+                                    "groupId": "FG002",
+                                    "numSubjects": "24"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "number of clinicians responded to the email",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Positive Beta Amyloid Findings",
+                    "description": "Survey respondents presented scenario in which beta amyloid imaging results indicated a positive finding."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Negative Beta Amyloid Findings",
+                    "description": "Survey respondents presented scenario in which beta amyloid imaging results indicated a negative finding."
+                },
+                {
+                    "id": "BG002",
+                    "title": "No Beta Amyloid Information",
+                    "description": "Survey respondents presented scenario with no beta amyloid information."
+                },
+                {
+                    "id": "BG003",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "106"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "105"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "104"
+                        },
+                        {
+                            "groupId": "BG003",
+                            "value": "315"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "description": "Baseline characteristics are reported by subject.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "51.3",
+                                            "spread": "8.8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "51.5",
+                                            "spread": "7.8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "52.7",
+                                            "spread": "8.0"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "51.8",
+                                            "spread": "8.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "24"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "23"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "87"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "134"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "82"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "82"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "181"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Beta Amyloid imaging findings",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "106"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "105"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "104"
+                                        },
+                                        {
+                                            "groupId": "BG003",
+                                            "value": "315"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Influence of the Neuroimaging Test on a Finding of Alzheimer's Disease as the Underlying Cause of the Mild Memory Loss",
+                    "description": "Proportion of respondents who identify Alzheimer's Disease as the sole or a contributing factor that is responsible for the patient's cognitive complaint.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "timeFrame": "Online Survey - completion during the estimated 2-3 month field period",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Positive Beta Amyloid Findings",
+                            "description": "Beta amyloid imaging results indicated a positive finding.\n\nBeta amyloid imaging"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Negative Beta Amyloid Findings",
+                            "description": "Beta amyloid imaging results indicated a negative finding.\n\nBeta amyloid imaging"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "No Beta Amyloid Information"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "105"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "106"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "104"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Diagnosis confidence: not at all confident",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Diagnosis confidence: somewhat confident",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "34"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Diagnosis confidence: confident",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "43"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "38"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "46"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Diagnosis confidence: very confident",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Diagnosis confidence: extremely confident",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Likelihood of Recommending a Medication Indicated for Alzheimer's Disease",
+                    "description": "Proportion of respondents who recommend a medication indicated for the treatment of Alzheimer's Disease, including Acetylcholinesterase inhibitors, N-methyl-D-aspartate receptor antagonists, Typical antipsychotics - e.g., Chlorpromazine (Thorazine), Haloperidol (Haldol), Atypical antipsychotics - e.g., Clozapine (Clozaril), Risperidone (Risperdal), Antidepressant - e.g., Citalopram (Celexa), Venlafaxine (Effexor), Antianxiety agent - e.g. Benzodiazepines, Buspirone (Buspar).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "timeFrame": "Online Survey - completion during the estimated 2-3 month field period",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Positive Beta Amyloid Findings",
+                            "description": "Beta amyloid imaging results indicated a positive finding.\n\nBeta amyloid imaging"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Negative Beta Amyloid Findings",
+                            "description": "Beta amyloid imaging results indicated a negative finding.\n\nBeta amyloid imaging"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "No Beta Amyloid Information"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "106"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "105"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "104"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "93"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "76"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "92"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Likelihood of Recommending That Spouse Take Various Cognitive Deficit Disease Management Measures",
+                    "description": "Proportion of respondents who recommend that the patient's spouse take actions that would be appropriate if the patient has Alzheimer's disease, including: (1) discussion of advance care planning, (2) monitoring of patient's finances, (3) assessment of how compatible the patient's job is with his conditions, (4) the initiation of precautions to ensure the patient is properly taking his medications to manage hypertension and hyperlipidemia.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "timeFrame": "Online Survey - completion during the estimated 2-3 month field period",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Positive Beta Amyloid Findings",
+                            "description": "Beta amyloid imaging results indicated a positive finding.\n\nBeta amyloid imaging"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Negative Beta Amyloid Findings",
+                            "description": "Beta amyloid imaging results indicated a negative finding.\n\nBeta amyloid imaging"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "No Beta Amyloid Information"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "106"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "105"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "104"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "67"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "61"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "66"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Positive Beta Amyloid Findings",
+                    "description": "Beta amyloid imaging results indicated a positive finding.\n\nBeta amyloid imaging",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 106,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 106
+                },
+                {
+                    "id": "EG001",
+                    "title": "Negative Beta Amyloid Findings",
+                    "description": "Beta amyloid imaging results indicated a negative finding.\n\nBeta amyloid imaging",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 105,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 105
+                },
+                {
+                    "id": "EG002",
+                    "title": "No Beta Amyloid Information",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 104,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 104
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Dr.Yue Zhong, Project Director of Center for the Evaluation of Value and Risk in Health",
+                "organization": "Tufts Medical Center",
+                "email": "yzhong@tuftsmedicalcenter.org",
+                "phone": "6176361424"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The study evaluates whether beta\u2011amyloid imaging (amyloid PET) information influences clinicians' diagnostic judgments and management recommendations \u2014 it is explicitly a diagnostic/survey study, not a therapeutic trial. The intervention is described as a device (beta amyloid imaging) and the primary purpose is diagnostic. \ue200cite\ue202turn0search0\ue202turn0search4\ue201",
+        "Act: Key extracted details \u2014 Title: \u201cA Survey of Clinicians to Assess the Influence of Beta\u2011amyloid Imaging Information on the Diagnosis and Management of Hypothetical Patients With Cognitive Complaints.\u201d Intervention: beta\u2011amyloid imaging (amyloid PET) provided vs not provided in vignettes; randomized survey of clinicians to measure impact on diagnosis/management. This matches descriptions on trial registries and an abstract reporting the same survey approach. \ue200cite\ue202turn0search4\ue202turn0search1\ue202turn0search2\ue201",
+        "Web evidence (sources found): clinical trial registry entries and summaries showing the study is a diagnostic device/survey (not a drug trial). \ue200cite\ue202turn0search0\ue202turn0search2\ue202turn0search4\ue201",
+        "Context: Beta\u2011amyloid PET is a diagnostic imaging biomarker used to detect amyloid plaques and to inform diagnosis and prognosis in cognitive impairment and AD \u2014 literature describes its role as a diagnostic tool rather than a therapeutic agent. This supports interpreting the study as diagnostic research. \ue200cite\ue202turn0search3\ue202turn0search1\ue201",
+        "Reflect: Because the trial tests an imaging diagnostic (amyloid PET) and not a drug or behavioral therapy, it does not fit any of the four therapeutic categories (disease\u2011targeted biologic, disease\u2011targeted small molecule, cognitive enhancer, or neuropsychiatric symptom improvement). Therefore the correct classification is 'N/A'. The registry pages explicitly list the intervention as beta\u2011amyloid imaging (device) and the primary purpose as diagnostic, confirming this classification. \ue200cite\ue202turn0search0\ue202turn0search4\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

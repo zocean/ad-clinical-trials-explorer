@@ -1,0 +1,713 @@
+{
+    "nct_id": "NCT01564706",
+    "title": "Positron Emission Tomography Whole Body Biodistribution Using 18F-AV-45",
+    "status": "COMPLETED",
+    "last_update_time": "2012-05-11",
+    "description_brief": "This study will determine how florbetapir F 18 (18F-AV-45) radioactivity is distributed throughout the body.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Healthy Volunteers",
+                    "description": "Single i.v. administration of approximately 10mCi 18F-AV-45"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "9"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "9"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Healthy Volunteers",
+                    "description": "Single i.v. administration of approximately 10mCi 18F-AV-45"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "9"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "57.9",
+                                            "spread": "10.31"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race/Ethnicity, Customized",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "Black",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Caucasian",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Whole Body Radiation Dosimetry",
+                    "description": "Radiation dose values (millisieverts/megabecquerel \\[mSv/MBq\\]) for regions of the whole body. Target organs included the adrenals, brain, breasts, gall bladder wall, lower large intestine wall, small intestine wall, stomach wall, upper large intestine wall, heart wall, kidneys, liver, lungs, muscle, ovaries, pancreas, osteogenic cells, skin, spleen, testes, thymus, thyroid, urinary bladder wall, uterus, and total body.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "mSv/MBq",
+                    "timeFrame": "0-380 min after injection",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Healthy Volunteers",
+                            "description": "Single i.v. administration of approximately 10mCi 18F-AV-45"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "9"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Effective Dose",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0186",
+                                            "spread": "0.00426"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Adrenals",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0136",
+                                            "spread": "0.00129"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Brain",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.01",
+                                            "spread": "0.00186"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Breasts",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.00624",
+                                            "spread": "0.000865"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Gallbladder Wall",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.143",
+                                            "spread": "0.0802"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lower Large Intestine Wall",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0278",
+                                            "spread": "0.0102"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Small Intestine",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0655",
+                                            "spread": "0.0296"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Stomach Wall",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0117",
+                                            "spread": "0.000906"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Upper Large Intestine Wall",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0745",
+                                            "spread": "0.0342"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Heart Wall",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0131",
+                                            "spread": "0.00159"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Kidneys",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.013",
+                                            "spread": "0.00111"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Liver",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0644",
+                                            "spread": "0.0221"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lungs",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.00852",
+                                            "spread": "0.000801"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Muscle",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.00863",
+                                            "spread": "0.000762"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Ovaries",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0176",
+                                            "spread": "0.00434"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Pancreas",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0144",
+                                            "spread": "0.00134"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Red Marrow",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0143",
+                                            "spread": "0.00178"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Osteogenic Cells",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0276",
+                                            "spread": "0.00371"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Skin",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.00593",
+                                            "spread": "0.000809"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Spleen",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0089",
+                                            "spread": "0.000986"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Testes",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.00681",
+                                            "spread": "0.00129"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Thymus",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.00727",
+                                            "spread": "0.00122"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Thyroid",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.00675",
+                                            "spread": "0.00143"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Urinary Bladder Wall",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0271",
+                                            "spread": "0.0117"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Uterus",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0156",
+                                            "spread": "0.00319"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Total Body",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0116",
+                                            "spread": "0.000951"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "AEs occuring within 3 days of injection; SAEs occuring within 30 days of injection",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Healthy Volunteers",
+                    "description": "Single i.v. administration of approximately 10mCi 18F-AV-45",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 9,
+                    "otherNumAffected": 5,
+                    "otherNumAtRisk": 9
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "PALPITATIONS",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "MedDRA (10.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "NAUSEA",
+                    "organSystem": "Gastrointestinal disorders",
+                    "sourceVocabulary": "MedDRA (10.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "CHEST PAIN",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA (10.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "BACK PAIN",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA (10.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "MUSCULOSKELETAL PAIN",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "sourceVocabulary": "MedDRA (10.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 9
+                        }
+                    ]
+                },
+                {
+                    "term": "ANXIETY",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "MedDRA (10.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "GT60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Chief Medical Officer",
+                "organization": "Avid Radiopharmaceuticals",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "florbetapir F 18 (18F-AV-45) \u2014 commercial name Amyvid"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The described intervention, florbetapir F 18 (18F-AV-45), is a radioactive PET imaging ligand that selectively binds \u03b2-amyloid plaques for in vivo detection/quantification of amyloid \u2014 i.e., a diagnostic radiotracer rather than a therapeutic agent. \ue200cite\ue202turn0search2\ue202turn0search4\ue201",
+        "Act: Extracted details from the description/title: florbetapir F 18 (18F-AV-45) is the agent under study and the trial is a whole-body biodistribution PET study (measuring how radioactivity is distributed through the body). Florbetapir is marketed as Amyvid and is an FDA\u2011approved PET diagnostic for estimating brain \u03b2-amyloid neuritic plaque density in patients being evaluated for cognitive decline. Given that this is a diagnostic imaging/biodistribution study (not a treatment), it does not fit disease-targeted biologic, disease-targeted small molecule, cognitive enhancer, or neuropsychiatric symptom improvement categories used for therapeutic trials \u2014 therefore classification is 'N/A'. \ue200cite\ue202turn0search3\ue202turn0search6\ue201",
+        "Web search results (sources used):",
+        "- Florbetapir selectively binds \u03b2-amyloid in human brain tissue; correlation with postmortem plaque density (PMC article). \ue200cite\ue202turn0search2\ue201",
+        "- FDA approval / Amyvid (florbetapir F 18 injection) indicated as a radioactive diagnostic PET agent to estimate \u03b2-amyloid neuritic plaque density. \ue200cite\ue202turn0search3\ue201",
+        "- Early clinical PET studies showing florbetapir (18F-AV-45) discriminates AD from controls and is suitable as an amyloid biomarker. \ue200cite\ue202turn0search7\ue202turn0search1\ue201",
+        "- Review/discussion of 18F-AV-45 (florbetapir) as an 18F amyloid PET ligand used in research and trials. \ue200cite\ue202turn0search4\ue201",
+        "- Technical/biodistribution notes: florbetapir is distributed throughout the body, cleared primarily via liver/gastrointestinal excretion, with imaging timepoints ~50\u201360 min post-injection (relevant to whole-body biodistribution studies). \ue200cite\ue202turn0search6\ue201",
+        "Reflect: The trial title and description explicitly state a PET whole-body biodistribution study of florbetapir F 18 \u2014 an imaging radiotracer used to detect amyloid \u2014 which is diagnostic, not therapeutic. This matches 'N/A' under the provided therapeutic-target categories. There is no indication of a therapeutic mechanism (biologic or small molecule) or of administering a cognitive enhancer or neuropsychiatric treatment, so the 'N/A' classification is appropriate. \ue200cite\ue202turn0search2\ue202turn0search3\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

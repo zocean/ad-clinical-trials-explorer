@@ -1,0 +1,756 @@
+{
+    "nct_id": "NCT02795780",
+    "title": "An Open Label, Multicenter Study Evaluating the Imaging Characteristics of a Follow up 18F-AV-1451 Scan in Subjects That Participated in the Confirmatory Cohort of 18F-AV-1451-A05",
+    "status": "COMPLETED",
+    "last_update_time": "2020-08-07",
+    "description_brief": "This study will evaluate longitudinal change of tau deposition as measured by flortaucipir F 18 uptake over time.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "Enrolled between Aug 2016 and Aug 2017. The only subjects eligible were those who completed the Confirmatory Phase of Study A05 (NCT02016560).",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "AD Subjects",
+                    "description": "Clinically diagnosed dementia with a suspected neurodegenerative cause with an MMSE score \u226520 and \u226427"
+                },
+                {
+                    "id": "FG001",
+                    "title": "MCI Subjects",
+                    "description": "Clinically diagnosed mild cognitive impairment with a suspected neurodegenerative cause with an MMSE score \u226520 and \u226427"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "25"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "54"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "25"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "54"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "AD Subjects",
+                    "description": "Clinically diagnosed dementia with a suspected neurodegenerative cause with an MMSE score \u226520 and \u226427 from the flortaucipir PET scan arm"
+                },
+                {
+                    "id": "BG001",
+                    "title": "MCI Subjects",
+                    "description": "Clinically diagnosed mild cognitive impairment with a suspected neurodegenerative cause with an MMSE score \u226520 and \u226427 from the flortaucipir PET scan arm"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "25"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "54"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "79"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "73.8",
+                                            "spread": "10.63"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "73.2",
+                                            "spread": "9.1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "73.4",
+                                            "spread": "9.54"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "22"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "31"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "48"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "24"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "51"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "75"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "51"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "76"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "25"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "54"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "79"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "MMSE",
+                    "description": "Mini-mental status exam (MMSE) is a 30-point questionnaire that is used to measure cognitive impairment. Scores range from 0 to 30 with lower scores representing greater levels of cognitive impairment.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "23.7",
+                                            "spread": "2.39"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "25.9",
+                                            "spread": "1.48"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "25.2",
+                                            "spread": "2.06"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "CDR-SB",
+                    "description": "The CDR scale (Berg 1988) examines 6 cognitive functioning domains individually on a scale of 0 to 3. CDR Sum of Boxes (CDR-SB) is generated by summing the total score across domains. Scores range from 0 to 18, with higher scores indicating higher levels of cognitive impairment.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4.8",
+                                            "spread": "1.53"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2.6",
+                                            "spread": "1.91"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "3.3",
+                                            "spread": "2.05"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Amyloid status",
+                    "description": "Amyloid status (positive/negative) determined by florbetapir PET",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Amyloid positive",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "26"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "45"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Amyloid Negative",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "28"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "34"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Tau Deposition Over Time by Diagnostic Group and Amyloid Status",
+                    "description": "Change in flortaucipir standardized uptake value ratio (SUVr) over 18 months. For SUVr, a value of 1 signifies no flortaucipir activity above background, values greater than 1 signify increasing flortaucipir activity in the brain. A positive change in SUVr represents an increase in tau deposition in the brain. Change = 18 month SUVr - baseline SUVr obtained in Study A05.",
+                    "populationDescription": "Excluded 1 MCI A\u03b2+ and 1 MCI A\u03b2- subject for whom 18 month follow-up clinical was not available",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "standardized uptake value ratio (SUVr)",
+                    "timeFrame": "18 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AD A\u03b2+ Subjects",
+                            "description": "Amyloid positive AD subjects from the flortaucipir PET scan arm"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "AD A\u03b2- Subjects",
+                            "description": "Amyloid negative AD subjects from the flortaucipir PET scan arm"
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "MCI A\u03b2+ Subjects",
+                            "description": "Amyloid positive MCI subjects from the flortaucipir PET scan arm"
+                        },
+                        {
+                            "id": "OG003",
+                            "title": "MCI A\u03b2- Subjects",
+                            "description": "Amyloid negative MCI subjects from the flortaucipir PET scan arm"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "19"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "6"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "26"
+                                },
+                                {
+                                    "groupId": "OG003",
+                                    "value": "26"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.0205",
+                                            "spread": "0.01871"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.0912",
+                                            "spread": "0.03619"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "0.0352",
+                                            "spread": "0.01185"
+                                        },
+                                        {
+                                            "groupId": "OG003",
+                                            "value": "-0.0124",
+                                            "spread": "0.01185"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000",
+                                "OG001"
+                            ],
+                            "groupDescription": "Test of whether difference in least squares mean change is 0",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.0166",
+                            "pValueComment": "No adjustments for multiplicity. No a priori threshold defined.",
+                            "statisticalMethod": "ANCOVA",
+                            "statisticalComment": "Adjusted for baseline SUVr, age, and diagnosis group (AD/MCI)"
+                        },
+                        {
+                            "groupIds": [
+                                "OG002",
+                                "OG003"
+                            ],
+                            "groupDescription": "Test of whether difference in least squares mean change is 0",
+                            "nonInferiorityType": "OTHER",
+                            "pValue": "0.0108",
+                            "pValueComment": "No adjustments for multiplicity. No a priori threshold defined.",
+                            "statisticalMethod": "ANCOVA",
+                            "statisticalComment": "Adjusted for baseline SUVr, age, and diagnosis group (AD/MCI)"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0.5",
+            "timeFrame": "48 hours after study drug administration",
+            "description": "Adverse events (AEs) were collected at scan visits, regardless of attribution to study drug. AEs occurring after study drug administration, but outside that window were not recorded, unless considered attributable to study drug.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "MCI Subjects",
+                    "description": "MCI subjects receiving a dose of flortaucipir",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 54,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 54,
+                    "otherNumAffected": 2,
+                    "otherNumAtRisk": 54
+                },
+                {
+                    "id": "EG001",
+                    "title": "AD Subjects",
+                    "description": "AD subjects receiving a dose of flortaucipir",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 25,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 25,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 25
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "injection site pain",
+                    "organSystem": "General disorders",
+                    "sourceVocabulary": "MedDRA (20.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 54
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 25
+                        }
+                    ]
+                },
+                {
+                    "term": "dizziness",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "MedDRA (20.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 54
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 25
+                        }
+                    ]
+                },
+                {
+                    "term": "flushing",
+                    "organSystem": "Vascular disorders",
+                    "sourceVocabulary": "MedDRA (20.0)",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 54
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 25
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "LTE60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Medical Director",
+                "organization": "Avid Radiopharmaceuticals, Inc.",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "flortaucipir F 18 (18F\u2011AV\u20111451, aka Tauvid, an 18F PET tau imaging tracer)"
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial description and title state this is an imaging study evaluating longitudinal change in tau deposition measured by flortaucipir F 18 (18F\u2011AV\u20111451) uptake \u2014 i.e., a PET imaging biomarker study, not a therapeutic intervention. \ue200cite\ue202turn0search3\ue202turn0search4\ue201",
+        "Act (drug identification): Flortaucipir F 18 is the PET tracer also known as 18F\u2011AV\u20111451 (and marketed as TAUVID), used to image aggregated tau neurofibrillary tangles in the brain; it is a diagnostic radiopharmaceutical rather than a disease\u2011modifying drug. \ue200cite\ue202turn0search5\ue202turn0search0\ue201",
+        "Act (supporting context): TAUVID (flortaucipir F18) is FDA\u2011approved for PET imaging to estimate density/distribution of aggregated tau in adults being evaluated for Alzheimer\u2019s disease. This supports that the agent is a diagnostic imaging tracer. \ue200cite\ue202turn0search1\ue202turn0search0\ue201",
+        "Reflect: Because the intervention is a diagnostic PET tracer and the study objective is to evaluate imaging characteristics/longitudinal tau deposition (not to test a biologic or small\u2011molecule therapy, cognitive enhancer, or symptom treatment), the trial does not fit any of the four therapeutic categories and should be classified as 'N/A'. \ue200cite\ue202turn0search3\ue202turn0search1\ue201",
+        "Web search results used: identification and function of flortaucipir F18 / 18F\u2011AV\u20111451 (TAUVID) and publications on longitudinal flortaucipir PET imaging. \ue200cite\ue202turn0search0\ue202turn0search1\ue202turn0search3\ue202turn0search5\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

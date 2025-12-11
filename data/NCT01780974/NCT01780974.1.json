@@ -1,0 +1,1709 @@
+{
+    "nct_id": "NCT01780974",
+    "title": "Pilot Study: Lipoic Acid and Omega-3 Fatty Acid for Alzheimer's Disease Prevention",
+    "status": "COMPLETED",
+    "last_update_time": "2017-02-22",
+    "description_brief": "The primary aim of the pilot study is to provide data that can be used to better determine sample size for the design of a larger clinical trial. The pilot will evaluate the effectiveness of Lipoic Acid (LA) plus Omega-3 fatty acids (Omega-3) on preventing Alzheimer's Disease (AD). The investigators will also collect data to evaluate recruitment rate, safety, and compliance over the 12 month study period.",
+    "description_detailed": "The primary aim is to collect data so that we can determine effect size between lipoic acid plus omega-3 fatty acids and placebo on the primary outcome measure Trails B (executive function). This is designed as a pilot randomized, double-blind, placebo-controlled study with a 12 month intervention period. Thirty participants diagnosed with hypertension that is treated (systolic blood pressure 90-160 mm Hg, diastolic blood pressure 60-90 mm Hg) that have low omega-3 fatty acid levels, and normal cognitive function will be randomized to receive study drug or placebo.",
+    "phase": [
+        "PHASE1",
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "PREVENTION",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "Med exclusions included Omega-3 fatty acid supplement intake \\< 4 months prior to enrollment; Lipoic acid supplementation \\< 1 month prior to enrollment; stable dosage for 4 months prior to enrollment of antihypertensive medication and (if prescribed) lipid lowering medication. Other exclusions included labs and test scores out of range.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Placebo",
+                    "description": "Lipoic Acid plus Omega-3 Fatty Acids: alpha lipoic acid (racemic) and fish oil concentrate"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Lipoic Acid Plus Omega-3 Fatty Acids",
+                    "description": "Lipoic Acid plus Omega-3 Fatty Acids: alpha lipoic acid (racemic) and fish oil concentrate"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "21"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "21"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "19"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "18"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Death",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Adverse Event",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Placebo",
+                    "description": "Lipoic Acid plus Omega-3 Fatty Acids: alpha lipoic acid (racemic) and fish oil concentrate"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Lipoic Acid Plus Omega-3 Fatty Acids",
+                    "description": "Lipoic Acid plus Omega-3 Fatty Acids: alpha lipoic acid (racemic) and fish oil concentrate"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "21"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "21"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "42"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "42"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "66.05",
+                                            "spread": "8.19"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "65.38",
+                                            "spread": "5.84"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "65.71",
+                                            "spread": "7.03"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "42"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "27"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "15"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "42"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "39"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "42"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "38"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Education",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "42"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "High school or less",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Some college",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Completed college",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "12"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Masters/Graduate School",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "21"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Apo E4 Carrier",
+                    "populationDescription": "Apo E data for 2 participants missing",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "40"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Yes",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "12"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "No",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "28"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Systolic BP",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "mmHg",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "42"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "131.76",
+                                            "spread": "15.77"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "141.67",
+                                            "spread": "14.64"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "136.71",
+                                            "spread": "15.84"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Diastolic BP",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "mmHg",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "42"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "74.29",
+                                            "spread": "10.79"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "77.05",
+                                            "spread": "9.76"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "75.67",
+                                            "spread": "10.26"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Exercise",
+                    "populationDescription": "Demographic information form missing for 3 participants",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "39"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Doesn't exercise",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Some exercise",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Exercises 2+ times/week",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Smoking",
+                    "populationDescription": "Demographic information missing for 2 participants",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "40"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Non-smoker",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "21"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Former smoker",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "9"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "19"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Smoker",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Arachidonic Acid (AA)",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "% composition of blood",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "42"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9.33",
+                                            "spread": "1.40"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "10.64",
+                                            "spread": "1.56"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "9.98",
+                                            "spread": "1.61"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Eicosapentaenoic Acid (EPA)",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "% composition of blood",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "42"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0.84",
+                                            "spread": "0.41"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0.62",
+                                            "spread": "0.19"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0.73",
+                                            "spread": "0.33"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Docosahexaenoic Acid (DHA)",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "% composition of blood",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "42"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2.62",
+                                            "spread": "1.01"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2.53",
+                                            "spread": "0.59"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2.58",
+                                            "spread": "0.82"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Trails Making Test Part B (Executive Function)",
+                    "description": "The trail Making Test consist of 25 circles distributed over a sheet of paper. In Part A, the circles are numbered 1 - 25, and the patient should draw lines to connect the numbers in ascending order. In Part B, the circles include both numbers (1 - 13) and letters (A - L); as in Part A, the patient draws lines to connect the circles in an ascending pattern, but with the added task of alternating between the numbers and letters (i.e., 1-A-2-B-3-C, etc.). The patient should be instructed to connect the circles as quickly as possible, without lifting the pen or pencil from the paper. Time the patient as he or she connects the \"trail.\" If the patient makes an error, point it out immediately and allow the patient to correct it. Results for part B are reported as the number of seconds required to complete the task; therefore, higher scores reveal greater impairment.",
+                    "populationDescription": "Not all tests were completed by all randomized subjects due to missed visits and/or discontinuations.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "time to completion (seconds)",
+                    "timeFrame": "Baseline, 6 months, and 12 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Three placebo oil capsules per day (2 caps morning, 1 cap evening) + 2 placebo lipoic acid capsules per day. Capsules will be taken with food or a meal.\n\nPlacebo: placebo capsules"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Lipoic Acid Plus Omega-3 Fatty Acids",
+                            "description": "Three 1-gram fish oil concentrate capsules per day (2 caps morning, 1 cap evening) containing a daily dose of 675 mg DHA and 975 mg EPA plus 2 lipoic acid capsules per day with a daily dose of 600 mg. Capsules will be taken with food or a meal.\n\nLipoic Acid plus Omega-3 Fatty Acids: alpha lipoic acid (racemic) and fish oil concentrate"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "21"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "21"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "21"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "69.57",
+                                            "spread": "19.15"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "81.59",
+                                            "spread": "53.08"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "6 Months",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "20"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "18"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "62.53",
+                                            "spread": "16.59"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "69.25",
+                                            "spread": "20.55"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "12 Months",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "18"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "17"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "69.75",
+                                            "spread": "20.79"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "71.10",
+                                            "spread": "32.77"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "White Matter Hyperintensity Volume (Brain MRI)",
+                    "populationDescription": "At baseline, 4 participants either could not complete the MRI or the MRI could not be analyzed due to quality; at 12 months, 13 participants either discontinued, could not complete the MRI, or did not complete the baseline and therefore were not scanned.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "cubic centimeters",
+                    "timeFrame": "Baseline and 12 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Three placebo oil capsules per day (2 caps morning, 1 cap evening) + 2 placebo lipoic acid capsules per day. Capsules will be taken with food or a meal.\n\nPlacebo: placebo capsules"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Lipoic Acid Plus Omega-3 Fatty Acids",
+                            "description": "Three 1-gram fish oil concentrate capsules per day (2 caps morning, 1 cap evening) containing a daily dose of 675 mg DHA and 975 mg EPA plus 2 lipoic acid capsules per day with a daily dose of 600 mg. Capsules will be taken with food or a meal.\n\nLipoic Acid plus Omega-3 Fatty Acids: alpha lipoic acid (racemic) and fish oil concentrate"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "21"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "21"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "19"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "19"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6.13",
+                                            "spread": "11.91"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5.31",
+                                            "spread": "7.37"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "12 Months",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "14"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5.14",
+                                            "spread": "13.04"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5.07",
+                                            "spread": "7.01"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "5",
+            "timeFrame": "From baseline to 12 months (end of treatment)",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Placebo",
+                    "description": "placebo capsules",
+                    "seriousNumAffected": 3,
+                    "seriousNumAtRisk": 21,
+                    "otherNumAffected": 16,
+                    "otherNumAtRisk": 21
+                },
+                {
+                    "id": "EG001",
+                    "title": "Lipoic Acid Plus Omega-3 Fatty Acids",
+                    "description": "Lipoic Acid plus Omega-3 Fatty Acids: alpha lipoic acid (racemic) and fish oil concentrate",
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 21,
+                    "otherNumAffected": 17,
+                    "otherNumAtRisk": 21
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Benign peripheral position vertigo requiring hospitalization",
+                    "organSystem": "Nervous system disorders",
+                    "sourceVocabulary": "Vertigo positional",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Hospitalized overnight with diagnosis of benign peripheral positional vertigo",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 21
+                        }
+                    ]
+                },
+                {
+                    "term": "Severe angina with worsening symptoms",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "Angina unstable",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Severe angina with worsening symptoms, hospitalized and admitted for coronary bypass surgery",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 21
+                        }
+                    ]
+                },
+                {
+                    "term": "Suicide attempt",
+                    "organSystem": "Psychiatric disorders",
+                    "sourceVocabulary": "Suicide attempt",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Hospitalized after suicide attempt",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 21
+                        }
+                    ]
+                },
+                {
+                    "term": "Death from unknown cardiac event",
+                    "organSystem": "Cardiac disorders",
+                    "sourceVocabulary": "Cardiac death",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Death from cardiac event",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 21
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Gastrooesophageal reflux disease",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 4,
+                            "numAtRisk": 21
+                        }
+                    ]
+                },
+                {
+                    "term": "Dizziness/Vertigo",
+                    "organSystem": "Vascular disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 21
+                        }
+                    ]
+                },
+                {
+                    "term": "Arm pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 21
+                        }
+                    ]
+                },
+                {
+                    "term": "Dyspepsia",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 7,
+                            "numAtRisk": 21
+                        }
+                    ]
+                },
+                {
+                    "term": "Back pain",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 1,
+                            "numAtRisk": 21
+                        }
+                    ]
+                },
+                {
+                    "term": "Fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 21
+                        }
+                    ]
+                },
+                {
+                    "term": "Suicidal ideations & behaviors",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 21
+                        }
+                    ]
+                },
+                {
+                    "term": "Accident-related injuries",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 5,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 3,
+                            "numAtRisk": 21
+                        }
+                    ]
+                },
+                {
+                    "term": "Supplement-related difficulties",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Expected side-effects from supplement (i.e., trouble swallowing, fish burps)",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 21
+                        }
+                    ]
+                },
+                {
+                    "term": "Respiratory tract infection",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 3,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 0,
+                            "numAtRisk": 21
+                        }
+                    ]
+                },
+                {
+                    "term": "Vomiting",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 2,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 21
+                        }
+                    ]
+                },
+                {
+                    "term": "Nausea",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 1,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 3,
+                            "numAtRisk": 21
+                        }
+                    ]
+                },
+                {
+                    "term": "Fatigue",
+                    "organSystem": "General disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 0,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 21
+                        }
+                    ]
+                },
+                {
+                    "term": "Surgery",
+                    "organSystem": "Surgical and medical procedures",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "notes": "Surgeries for pre-existing conditions",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numAffected": 5,
+                            "numAtRisk": 21
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numAffected": 2,
+                            "numAtRisk": 21
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "limitationsAndCaveats": {
+                "description": "No Omega-3 only or lipoic acid only arm; not excluding over-the-counter medications and supplements"
+            },
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Lynne Shinto, ND, MPH",
+                "organization": "Oregon Health & Science University",
+                "email": "shintol@ohsu.edu",
+                "phone": "503-494-5035"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "Alpha-lipoic acid (LA; alpha-lipoic / thioctic acid)",
+        "Omega-3 fatty acids (primarily DHA / EPA)"
+    ],
+    "placebo": [
+        "placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests Lipoic Acid (LA) plus Omega-3 fatty acids to prevent Alzheimer's disease (intent: disease prevention/modification rather than symptomatic behavioral treatment). (Trial title/description). \ue200cite\ue202turn1search3\ue202turn1search0\ue201",
+        "LA identity & mechanism: LA in the protocol is alpha\u2011lipoic acid, a small\u2011molecule antioxidant / mitochondrial cofactor with proposed neuroprotective, antioxidant and anti\u2011inflammatory effects. This is a non\u2011biologic small molecule (nutraceutical/drug). \ue200cite\ue202turn2search0\ue202turn2search4\ue201",
+        "Omega\u20113 identity & rationale: Omega\u20113 PUFAs (DHA/EPA) are small\u2011molecule dietary fatty acids with suggested neuroprotective and anti\u2011inflammatory effects; population and trial evidence is mixed but they are studied for cognitive decline prevention. \ue200cite\ue202turn0search5\ue202turn0search3\ue201",
+        "Prior data / pilot evidence: A small randomized pilot (Shinto et al.) of \u03c9\u20113 and \u03b1\u2011lipoic acid showed less decline on some cognitive/functional measures over 12 months in a small sample, supporting further study of the combination. \ue200cite\ue202turn1search0\ue201",
+        "Act & classification: Because the interventions are small molecules/nutraceuticals (not biologics such as antibodies or vaccines) and the stated aim is AD prevention (disease\u2011targeted effect) rather than only symptomatic cognitive boosting or neuropsychiatric symptom control, the correct category is 'disease-targeted small molecule'. (No evidence in the description of a biologic or a purely symptomatic/neuropsychiatric intervention.) \ue200cite\ue202turn1search3\ue202turn2search0\ue201",
+        "Reflect / caveats: Some ambiguity arises because these are nutritional supplements (nutraceuticals) rather than conventional investigational drugs; outcomes and mechanism are pleiotropic (antioxidant, anti\u2011inflammatory) rather than a single validated disease target (e.g., amyloid or tau). However, under the provided category definitions they best fit 'disease\u2011targeted small molecule'. \ue200cite\ue202turn2search3\ue202turn0search6\ue201"
+    ],
+    "agent_type": "R) Multi-target",
+    "explanation_agent": [
+        "Reason: The trial tests alpha\u2011lipoic acid (ALA) and omega\u20113 fatty acids (DHA/EPA). ALA is described in the literature as an antioxidant, mitochondrial cofactor and pleiotropic neuroprotective agent (antioxidant, metal\u2011chelator, supports glutathione and mitochondrial function). \ue200cite\ue202turn0search2\ue202turn0search4\ue201 Omega\u20113 PUFAs (DHA/EPA) are described as lipid small molecules with anti\u2011inflammatory and neuroprotective actions and effects on membrane/lipid biology relevant to brain health. \ue200cite\ue202turn0search7\ue202turn0search5\ue201",
+        "Act: Extracted items \u2014 drug names: alpha\u2011lipoic acid (small\u2011molecule nutraceutical) and omega\u20113 PUFAs (DHA/EPA). The mechanistic descriptions in the literature point to antioxidant/anti\u2011inflammatory and bioenergetic/lipid effects rather than a single canonical AD target (e.g., amyloid or tau). Given that the two agents act across multiple biological pathways (oxidative stress, inflammation, mitochondrial/bioenergetic support, lipid biology), the most specific CADRO classification is R) Multi\u2011target. (Also note there are pilot clinical data combining these agents in AD supporting further study.) \ue200cite\ue202turn0search5\ue202turn0search1\ue201",
+        "Reflect: I considered single CADRO categories that partially fit (G) Oxidative Stress for ALA, (F) Inflammation for omega\u20113s, and (J) Metabolism & Bioenergetics for mitochondrial/bioenergetic effects; because both agents have overlapping, pleiotropic mechanisms and the trial tests them together for disease prevention/modification, R) Multi\u2011target best captures the intervention\u2019s biological focus. This classification acknowledges some ambiguity because these are nutraceutical small molecules with broad mechanisms rather than a single validated molecular target. \ue200cite\ue202turn0search2\ue202turn0search7\ue201",
+        "Web search results used (key sources): 1) \"Alpha\u2011Lipoic Acid: Biological Mechanisms and Health Benefits\" (MDPI review). \ue200cite\ue202turn0search2\ue201 2) \"Therapeutic Potential of Alpha\u2011Lipoic Acid: Unraveling Its Role in Oxidative Stress and Inflammatory Conditions\" (MDPI review). \ue200cite\ue202turn0search4\ue201 3) PubMed: ALA clinical follow\u2011up / ALA and cognitive trials. \ue200cite\ue202turn0search1\ue202turn0search3\ue201 4) \"Omega\u20113 fatty acids for the treatment of dementia\" (systematic review / PubMed summary referencing the Shinto randomized pilot of omega\u20113 + ALA). \ue200cite\ue202turn0search5\ue201 5) Review on \u03c9\u20113 PUFAs, neuroinflammation and neuroprotection. \ue200cite\ue202turn0search7\ue201"
+    ]
+}

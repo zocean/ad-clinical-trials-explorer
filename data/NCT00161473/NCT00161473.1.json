@@ -1,0 +1,747 @@
+{
+    "nct_id": "NCT00161473",
+    "title": "Alzheimer's in Long-Term Care--Treatment for Agitation",
+    "status": "COMPLETED",
+    "last_update_time": "2012-06-26",
+    "description_brief": "The purpose of this study is to see if a medication called prazosin is useful in the treatment of agitation and aggression in persons with Alzheimer's disease (AD) and other types of dementia in late life.",
+    "description_detailed": "Although the occurrence of disruptive agitation behaviors likely are influenced by environmental/ interpersonal factors, it is also likely that behaviorally relevant neurobiologic abnormalities lower the threshold for the expression of such behavior in Alzheimer's disease. Because of the success prazosin has had in the treatment of Posttraumatic Stress Disorder, it is thought that it could be used similarly with disruptive agitation. Originally designed to evaluate Alzheimer's disease patients in nursing homes, the study now includes outpatients. It is a 9-week placebo-controlled trial.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Prazosin",
+                    "description": "Participants taking prazosin. Prazosin was administered as 1 or 2 mg capsules. Doses were initiated at 1 mg at bedtime. Titration based on tolerability was conducted up to a dose of 2 mg in the morning plus 4mg at bedtime."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "Placebo is an inert substance used as a standard comparator in clinical pharmacologic trials."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "12"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "12"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "7"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "5"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "6"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Prazosin",
+                    "description": "Participants taking prazosin. Prazosin was administered as 1 or 2 mg capsules. Doses were initiated at 1 mg at bedtime. Titration based on tolerability was conducted up to a dose of 2 mg in the morning plus 4mg at bedtime."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo",
+                    "description": "Placebo is an inert substance used as a standard comparator in clinical pharmacologic trials."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "12"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "12"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "24"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "24"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "83.2",
+                                            "spread": "11.5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "78.1",
+                                            "spread": "10.8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "80.6",
+                                            "spread": "11.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "11"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "7"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "24"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Mean Clinical Global Impression of Change (CGIC) at Last Observation",
+                    "description": "The Clinical Global Impression of Change (CGIC) is a 7 point scale, where 1 indicates \"markedly improved,\" 4 indicates \"no change,\" and 7 indicates \"markedly worse.\"",
+                    "populationDescription": "Participants with at least one follow-up behavioral assessment visit were included in this analysis",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Week 8",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Prazosin",
+                            "description": "Participants taking prazosin. Prazosin was administered as 1 or 2 mg capsules. Doses were initiated at 1 mg at bedtime. Titration based on tolerability was conducted up to a dose of 2 mg in the morning plus 4mg at bedtime."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Placebo is an inert substance used as a standard comparator in clinical pharmacologic trials."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.6",
+                                            "spread": "1.0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4.5",
+                                            "spread": "1.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Neuropsychiatric Inventory (NPI) Total Score Over the Course of Study Participation",
+                    "description": "The Neuropsychiatric Inventory (NPI) is a 12-item scale that assesses the frequency and severity of behavioral symptoms in patients with dementia. Each Neuropsychiatric Inventory item ranges from 0 to 12. Therefore the Neuropsychiatric Inventory total score has a minimum total value of 0 and maximum 144, where 144 indicates higher levels of behavioral symptoms.\n\nA change in Neuropsychiatric Inventory total score that is a negative number (that is, an Neuropsychiatric Inventory score decrease), indicates behavioral improvement.",
+                    "populationDescription": "Participants with at least one follow-up behavioral assessment visit were included in this analysis.\n\nThe mean group change was calculated by calculating the mean of each participant's follow-up measures, subtracting this mean from the baseline value, and then from these values, calculating group means and standard deviations.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Weeks 2, 4, 6, and 8 (change from Baseline)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Prazosin",
+                            "description": "Participants taking prazosin. Prazosin was administered as 1 or 2 mg capsules. Doses were initiated at 1 mg at bedtime. Titration based on tolerability was conducted up to a dose of 2 mg in the morning plus 4mg at bedtime."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Placebo is an inert substance used as a standard comparator in clinical pharmacologic trials."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-19",
+                                            "spread": "21"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-2",
+                                            "spread": "15"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Number of Behavioral Assessment Visits Completed",
+                    "description": "This measure reflects the length of time participants remained in the study. There were 6 behavioral assessment visits included in the protocol.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "number of visits",
+                    "timeFrame": "Last behavioral assessment (Baseline, Weeks 1, 2, 4, 6, or 8)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Prazosin",
+                            "description": "Participants taking prazosin. Prazosin was administered as 1 or 2 mg capsules. Doses were initiated at 1 mg at bedtime. Titration based on tolerability was conducted up to a dose of 2 mg in the morning plus 4mg at bedtime."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Placebo is an inert substance used as a standard comparator in clinical pharmacologic trials."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "12"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "12"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4.8",
+                                            "spread": "1.6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "4.5",
+                                            "spread": "1.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Change in Brief Psychiatric Rating Scale (BPRS) Total Score Over the Course of Study Participation",
+                    "description": "The Brief Psychiatric Rating Scale (BPRS) is an 18-item scale that rates psychiatric symptoms. Each item ranges from 1 to 7. Therefore, the Brief Psychiatric Rating Scale total score ranges from a minimum of 0 to a maximum of 126, where 126 indicates higher levels of behavioral symptoms.\n\nA change Brief Psychiatric Rating Scale score that is a negative number (that is, a Brief Psychiatric Rating Scale score decrease), indicates behavioral improvement.",
+                    "populationDescription": "Participants with at least one follow-up behavioral assessment visit were included in this analysis.\n\nThe mean group change was determined by calculating the mean of each participant's follow-up measures, subtracting this mean from the baseline value, and then from these values, calculating group means and standard deviations.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Weeks 2, 4, 6, and 8 (change from Baseline)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Prazosin",
+                            "description": "Participants taking prazosin. Prazosin was administered as 1 or 2 mg capsules. Doses were initiated at 1 mg at bedtime. Titration based on tolerability was conducted up to a dose of 2 mg in the morning plus 4mg at bedtime."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Placebo is an inert substance used as a standard comparator in clinical pharmacologic trials."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "11"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "11"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-9",
+                                            "spread": "9"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-3",
+                                            "spread": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "Adverse event data were collected from informed consent up until volunteers reached the end of their participation per protocol. Monitoring period was 10-12 weeks (2-4 weeks to start and titrate study drug, plus the 8 week follow-up period).",
+            "description": "Adverse effects were collected at each study visit. Study staff inquired about specific symptoms known to be potential side effects of prazosin using a preexisting checklist. Participants and their study companions were also asked about any new changes in health or medications.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Prazosin",
+                    "description": "Participants taking prazosin. Prazosin was administered as 1 or 2 mg capsules. Doses were initiated at 1 mg at bedtime. Titration based on tolerability was conducted up to a dose of 2 mg in the morning plus 4mg at bedtime.",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 12,
+                    "otherNumAffected": 6,
+                    "otherNumAtRisk": 12
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Placebo is an inert substance used as a standard comparator in clinical pharmacologic trials.",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 12,
+                    "otherNumAffected": 9,
+                    "otherNumAtRisk": 12
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "sedation",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 12
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 12
+                        }
+                    ]
+                },
+                {
+                    "term": "confusion",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 12
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 12
+                        }
+                    ]
+                },
+                {
+                    "term": "lower extremity edema",
+                    "organSystem": "Vascular disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 12
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 12
+                        }
+                    ]
+                },
+                {
+                    "term": "hypotension",
+                    "organSystem": "Vascular disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 12
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 12
+                        }
+                    ]
+                },
+                {
+                    "term": "headache",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 12
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 12
+                        }
+                    ]
+                },
+                {
+                    "term": "cough",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 12
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 12
+                        }
+                    ]
+                },
+                {
+                    "term": "hallucinations",
+                    "organSystem": "Psychiatric disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 12
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 12
+                        }
+                    ]
+                },
+                {
+                    "term": "dizziness on standing",
+                    "organSystem": "Vascular disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 12
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 12
+                        }
+                    ]
+                },
+                {
+                    "term": "rash",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 12
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Lucy Y. Wang, M.D.",
+                "organization": "VA Puget Sound Healthcare System",
+                "email": "wanglucy@u.washington.edu",
+                "phone": "206-277-5089"
+            }
+        }
+    },
+    "target_category": "neuropsychiatric symptom improvement",
+    "drug": [
+        "prazosin \u2014 small\u2011molecule alpha\u20111 adrenergic (\u03b11) receptor antagonist"
+    ],
+    "placebo": [
+        "placebo (inert comparator used in the trial)"
+    ],
+    "explanation_target": [
+        "Reason: The trial description and title state the study tests prazosin for agitation and aggression in persons with Alzheimer\u2019s disease (a behavioral/psychiatric symptom), which indicates the aim is to improve neuropsychiatric symptoms rather than modify underlying AD pathology. \ue200cite\ue202turn1search3\ue202turn1search4\ue201",
+        "Act: Key extracted details \u2014 intervention: prazosin (oral, titrated dosing) with placebo comparator; population: patients with Alzheimer disease and agitation/aggression; design: randomized, double\u2011blind pilot RCT reporting benefit on behavioral scales (NPI, BPRS, CGIC). These trial results and registry entries identify prazosin as the tested drug for behavioral symptom management in AD. \ue200cite\ue202turn1search1\ue202turn1search3\ue201",
+        "Act (drug mechanism): Prazosin is a well\u2011known small\u2011molecule (quinazoline derivative) that antagonizes central and peripheral \u03b11\u2011adrenergic receptors \u2014 i.e., it blocks noradrenergic (norepinephrine) effects \u2014 and is used for hypertension and off\u2011label for PTSD\u2011related nightmares and related hyperarousal symptoms. Its mechanism (\u03b11 blockade, small molecule) shows it is not a biologic and does not target amyloid/tau pathology. \ue200cite\ue202turn2search4\ue202turn2search6\ue202turn0search7\ue201",
+        "Reflect: Classification check \u2014 given (a) the intervention is a small\u2011molecule drug (not a biologic), (b) the trial objective is to reduce agitation/aggression (behavioral symptoms), and (c) published RCT data report improvement in neuropsychiatric measures, the correct category is 'neuropsychiatric symptom improvement'. There is no indication the trial intended disease modification or cognitive enhancement, so other categories do not fit. \ue200cite\ue202turn1search1\ue202turn1search2\ue201",
+        "Web search results (sources found): 1) PubMed RCT: 'Prazosin for the treatment of behavioral symptoms in patients with Alzheimer disease with agitation and aggression' (pilot double\u2011blind RCT). \ue200cite\ue202turn1search1\ue201 2) Alzheimer's & Dementia conference abstract / pilot trial report (Wang et al.). \ue200cite\ue202turn1search0\ue201 3) Clinical trial registry entry 'Alzheimer's in Long\u2011Term Care--Treatment for Agitation' (NCT00161473 / University of Washington). \ue200cite\ue202turn1search3\ue202turn1search4\ue201 4) Reviews/meta\u2011analyses and guidance showing prazosin's psychiatric uses (PTSD/nightmares; rationale via noradrenergic blockade). \ue200cite\ue202turn0search6\ue202turn0search1\ue201 5) Drug/pharmacology references confirming prazosin is an \u03b11\u2011adrenergic antagonist small molecule (LiverTox / StatPearls / FDA/DailyMed excerpts). \ue200cite\ue202turn2search4\ue202turn2search6\ue202turn2search7\ue201"
+    ],
+    "agent_type": "D) Neurotransmitter Receptors",
+    "explanation_agent": [
+        "Reason: The intervention is prazosin, a small\u2011molecule antagonist of alpha\u20111 adrenergic (\u03b11) receptors that modulates noradrenergic neurotransmission and was tested to reduce agitation/aggression (a neuropsychiatric symptom) in people with Alzheimer disease \u2014 this implicates a neurotransmitter receptor target rather than amyloid/tau or other disease\u2011modifying pathways. \ue200cite\ue202turn0search1\ue202turn0search0\ue201",
+        "Act: Extracted trial details and mechanism \u2014 randomized, double\u2011blind pilot RCT of prazosin vs placebo for agitation/aggression in AD showing improvement on behavioral scales (NPI, BPRS, CGIC). The drug\u2019s pharmacology is \u03b11\u2011adrenergic receptor antagonism (blocks central/peripheral norepinephrine effects), confirming the molecular target is a neurotransmitter receptor. Key sources: the RCT report (pilot study) and pharmacology references. \ue200cite\ue202turn0search0\ue202turn0search4\ue201",
+        "Reflect: Classification check \u2014 CADRO category D) Neurotransmitter Receptors best fits because the trial tests a drug acting on adrenergic (norepinephrine) receptors to treat behavioral symptoms. The study\u2019s aim is symptomatic/neuropsychiatric improvement, not targeting amyloid, tau, inflammation, or other disease mechanisms; therefore D is the appropriate, specific CADRO category. A multi\u2011target (R) label is unnecessary since the mechanism is a defined neurotransmitter receptor antagonist. \ue200cite\ue202turn0search2\ue201",
+        "Web search results (sources used): 1) PubMed RCT 'Prazosin for the treatment of behavioral symptoms in patients with Alzheimer disease with agitation and aggression' (pilot double\u2011blind RCT) \u2014 evidence of symptomatic benefit. \ue200cite\ue202turn0search0\ue201 2) StatPearls / NCBI Bookshelf entry on prazosin \u2014 \u03b11\u2011adrenergic receptor antagonist that crosses the blood\u2011brain barrier and pharmacology details. \ue200cite\ue202turn0search1\ue201 3) Reviews on prazosin for behavioral and psychological symptoms of dementia \u2014 summary of limited RCT evidence and clinical context. \ue200cite\ue202turn0search2\ue201 4) Older clinical pharmacology references summarizing prazosin\u2019s \u03b11 selectivity and therapeutic use. \ue200cite\ue202turn0search4\ue201"
+    ]
+}

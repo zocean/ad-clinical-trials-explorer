@@ -1,0 +1,1318 @@
+{
+    "nct_id": "NCT02849639",
+    "title": "INtervention for Cognitive Reserve Enhancement in Delaying the Onset of Alzheimer's Symptomatic Expression: The INCREASE Study",
+    "status": "COMPLETED",
+    "last_update_time": "2023-06-27",
+    "description_brief": "The study will examine the impact on cognitive reserve of a pharmacist-physician patient-centered medication therapy management intervention to address inappropriate medication use as identified by the Beers 2015 list. By bolstering cognitive reserve, this project will directly address the National Alzheimer's Project Act 2015 priorities serving to delay onset of symptoms in preclinical dementia. The results of this study will provide valuable insights on how to expand this intervention to reduce the prevalence and associated healthcare costs of symptomatic Alzheimer's disease.",
+    "description_detailed": "This is a 12-month, parallel arm, study to be conducted at the University of Kentucky. The study will involve assessing medication use and identifying any medicines that may be inappropriate for elderly adults.\n\nAt the beginning of the study, participants will be asked to undergo one amyloid-PET scan to detect early amyloid plaques in their brain which could increase the risk of Alzheimer's disease in the near future. In addition, at the beginning and end of the study, participants will be asked to use a scopolamine patch. This patch is not being used to prevent motion sickness (as approved by the FDA), but instead is being used to challenge the participant's memory and thinking abilities.\n\nPart of the study includes collecting information regarding participants memory and thinking abilities. Participants will be asked to complete questionnaires as well as memory and thinking tests.\n\nA study doctor will review participants medical history and then perform routine medical (physical and neurological) examinations.\n\nTwo of the study visits will be conducted by phone to check up on the participants.\n\nAt the beginning, middle, and end of the study, participants will meet with a doctor and pharmacist to review and make any changes deemed appropriate to their current medicines. This will be done in order to try and eliminate medicines that are not recommended for the elderly. These visits are referred to as the Medication Therapy Management (MTM).",
+    "phase": [
+        "EARLY_PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "PREVENTION",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Placebo",
+                    "description": "Participants enrolled into this arm will only receive educational materials, but will not receive specific recommendations to make changes to the medications they are taking.\n\nCognitive testing at the beginning and the end of the study will be done with and without a scopolamine patch to reveal cognitive reserve.\n\nPlacebo: Participants will receive educational materials, but will not receive MTM.\n\nScopolamine patch: At the beginning and end of the study, participants will be asked to use a scopolamine patch. This patch is not being used to prevent motion sickness (as approved by the FDA), but instead is being used to challenge the participant's memory and thinking abilities and determine cognitive reserve."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Medication Therapy Management (MTM)",
+                    "description": "Participants enrolled into this arm will receive educational materials and will have their medications assessed; recommendations for changes in the medications taken will be made when appropriate.\n\nCognitive testing at the beginning and the end of the study will be done with and without a scopolamine patch to reveal cognitive reserve.\n\nMedication Therapy Management (MTM): Participants will receive MTM in addition to the educational materials.\n\nScopolamine patch: At the beginning and end of the study, participants will be asked to use a scopolamine patch. This patch is not being used to prevent motion sickness (as approved by the FDA), but instead is being used to challenge the participant's memory and thinking abilities and determine cognitive reserve."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "44"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "46"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "41"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "44"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "3"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Placebo",
+                    "description": "Participants enrolled into this arm will only receive educational materials, but will not receive specific recommendations to make changes to the medications they are taking.\n\nCognitive testing at the beginning and the end of the study will be done with and without a scopolamine patch to reveal cognitive reserve.\n\nPlacebo: Participants will receive educational materials, but will not receive MTM.\n\nScopolamine patch: At the beginning and end of the study, participants will be asked to use a scopolamine patch. This patch is not being used to prevent motion sickness (as approved by the FDA), but instead is being used to challenge the participant's memory and thinking abilities and determine cognitive reserve."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Medication Therapy Management (MTM)",
+                    "description": "Participants enrolled into this arm will receive educational materials and will have their medications assessed; recommendations for changes in the medications taken will be made when appropriate.\n\nCognitive testing at the beginning and the end of the study will be done with and without a scopolamine patch to reveal cognitive reserve.\n\nMedication Therapy Management (MTM): Participants will receive MTM in addition to the educational materials.\n\nScopolamine patch: At the beginning and end of the study, participants will be asked to use a scopolamine patch. This patch is not being used to prevent motion sickness (as approved by the FDA), but instead is being used to challenge the participant's memory and thinking abilities and determine cognitive reserve."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "44"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "46"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "90"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "74.1",
+                                            "spread": "6.6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "73.4",
+                                            "spread": "5.6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "73.9",
+                                            "spread": "6.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "23"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "34"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "57"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "21"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "33"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "44"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "46"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "90"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "40"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "40"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "80"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Standardized Uptake Value ratio",
+                    "description": "Quantitative SUVR determinations based on A\u03b2-PET imaging allow for the specification of amyloid burden as a continuous variable. We used predefined cut-off points at 1.2 and 1.4 to categorize amyloid burden. Values grater than 1.4 in the absence of cognitive impairment indicate a preclinical Alzheimer's Disease state.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "SUVr<1.2",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "27"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "1.2<=SUVr<1.4",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "34"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "SUVr>=1.4",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Years of education",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16.4",
+                                            "spread": "2.6"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16.5",
+                                            "spread": "3.0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "16.5",
+                                            "spread": "2.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Total number of medications",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "medications",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "12.9",
+                                            "spread": "4.8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12.7",
+                                            "spread": "5.0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "12.8",
+                                            "spread": "4.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Number of medications on 2015 Beers list",
+                    "description": "Beers criteria list medications that are considered potentially inappropriate for adults 65 years and older. The list is updated on a regular basis through expert panel review under the American Geriatrics Society.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "medications",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2.2",
+                                            "spread": "1.2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2.5",
+                                            "spread": "1.2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2.4",
+                                            "spread": "1.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Medication appropriateness index",
+                    "description": "The MAI rates medications as \"appropriate\", \"marginally appropriate\", or \"inappropriate\" based on ten criteria. All medications reported by study participants were evaluated by the study team and assigned a medication-specific MAI. As an outcome measure, the total MAI was obtained by adding the medication specific MAIs for all medications reported by the participant. Minimum score for one medication is 0 (appropriate) and the maximum is 18 (inappropriate for all criteria). Total MAI depends on the number of medications taken by participant.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "units on a scale",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10.6",
+                                            "spread": "7.4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "13.5",
+                                            "spread": "9.4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "12.1",
+                                            "spread": "8.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Medication Appropriateness Index",
+                    "description": "Change from baseline to end of study. The Medication Appropriateness Index (MAI) rates medications as \"appropriate\", \"marginally appropriate\", or \"inappropriate\" based on ten criteria. All medications reported by study participants were evaluated by the study team and assigned a medication-specific MAI. As an outcome measure, the total MAI was obtained by adding the medication specific MAIs for all medications reported by the participant. Minimum score for one medication is 0 (appropriate) and the maximum is 18 (inappropriate for all criteria). Total MAI depends on the number of medications taken by participant. A decrease in MAI from baseline to end of study indicates improvement in medication appropriateness.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "change from baseline to end of study, an average of 1 year",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Participants enrolled into this arm will only receive educational materials, but will not receive specific recommendations to make changes to the medications they are taking.\n\nCognitive testing at the beginning and the end of the study will be done with and without a scopolamine patch to reveal cognitive reserve.\n\nPlacebo: Participants will receive educational materials, but will not receive MTM.\n\nScopolamine patch: At the beginning and end of the study, participants will be asked to use a scopolamine patch. This patch is not being used to prevent motion sickness (as approved by the FDA), but instead is being used to challenge the participant's memory and thinking abilities and determine cognitive reserve."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Medication Therapy Management (MTM)",
+                            "description": "Participants enrolled into this arm will receive educational materials and will have their medications assessed; recommendations for changes in the medications taken will be made when appropriate.\n\nCognitive testing at the beginning and the end of the study will be done with and without a scopolamine patch to reveal cognitive reserve.\n\nMedication Therapy Management (MTM): Participants will receive MTM in addition to the educational materials.\n\nScopolamine patch: At the beginning and end of the study, participants will be asked to use a scopolamine patch. This patch is not being used to prevent motion sickness (as approved by the FDA), but instead is being used to challenge the participant's memory and thinking abilities and determine cognitive reserve."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "41"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "44"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "11.2",
+                                            "spread": "0.6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "9.4",
+                                            "spread": "0.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Trail Making Test B With the Scopolamine Patch",
+                    "description": "End of study for Trail Making Test B with the scopolamine patch. The mean and standard used to compute the TMTB z-scores were taken from a sample of cognitively intact older adult research volunteers (Weintraub et al. 2009; mean = 90.3, SD = 50) (22). Z-scores were then multiplied by -1 to facilitate interpretation, since higher TMTB scores are worse. For the z-score, we converted time in seconds to units of standard deviations from a mean of 0, where 0 represents the mean performance of cognitively intact (normal) older adult research volunteers enrolled in longitudinal studies at Alzheimer's Disease Research Centers in the United States. Scores that are at least 1.5 standard deviations below the mean are indicative of potential cognitive impairment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "z-scores",
+                    "timeFrame": "baseline to end of study, an average of 1 year",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Participants enrolled into this arm will only receive educational materials, but will not receive specific recommendations to make changes to the medications they are taking.\n\nCognitive testing at the beginning and the end of the study will be done with and without a scopolamine patch to reveal cognitive reserve.\n\nPlacebo: Participants will receive educational materials, but will not receive MTM.\n\nScopolamine patch: At the beginning and end of the study, participants will be asked to use a scopolamine patch. This patch is not being used to prevent motion sickness (as approved by the FDA), but instead is being used to challenge the participant's memory and thinking abilities and determine cognitive reserve."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Medication Therapy Management (MTM)",
+                            "description": "Participants enrolled into this arm will receive educational materials and will have their medications assessed; recommendations for changes in the medications taken will be made when appropriate.\n\nCognitive testing at the beginning and the end of the study will be done with and without a scopolamine patch to reveal cognitive reserve.\n\nMedication Therapy Management (MTM): Participants will receive MTM in addition to the educational materials.\n\nScopolamine patch: At the beginning and end of the study, participants will be asked to use a scopolamine patch. This patch is not being used to prevent motion sickness (as approved by the FDA), but instead is being used to challenge the participant's memory and thinking abilities and determine cognitive reserve."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "40"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "42"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.1",
+                                            "spread": "0.14"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.03",
+                                            "spread": "0.14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Cognitive Reserve: Montreal Cognitive Assessment",
+                    "description": "Change from baseline to end of study for Montreal Cognitive Assessment. Z score is based on the NACC cognitively normal population (https://files.alz.washington.edu/documentation/weintraub-2018-v3.pdf), Z score = 0 corresponds mean MoCA score for cognitively normal older adults; higher Z scores are better; typical neuropsych interpretation of z scores is that -1.5 indicates impaired performance on that test.",
+                    "populationDescription": "MoCA (Z score, NACC UDS norms), challenged condition",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "z-score",
+                    "timeFrame": "change from baseline to end of study, an average of 1 year",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Participants enrolled into this arm will only receive educational materials"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Medication Therapy Management (MTM)",
+                            "description": "Participants enrolled into this arm will receive educational materials and will have their medications assessed; recommendations for changes in the medications taken will be made when appropriate"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "41"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "44"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.15",
+                                            "spread": "0.12"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.31",
+                                            "spread": "0.13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Cognitive Reserve: California Verbal Learning Test",
+                    "description": "Change from baseline to end of study for California Verbal Learning test. Z scores (higher scores are better; Z score = 0 corresponds mean CVLT score for cognitively normal older adults; typical neuropsych interpretation of z scores is that -1.5 indicates impaired performance on that test) are adjusted for age and sex and are based on the normative population used to develop norms for CVLT-II; \"individuals sampled to create the normative data were tested cross-sectionally, demographically matched to the most recent U.S. Censuses, and screened for self-reported neurological, psychiatric, or debilitating medical illnesses.\" Delis, D. C., Kramer, J. H., Kaplan, E., \\& Ober, B. A. (1987-2000). California Verbal Learning Test--Second Edition (CVLT -II) \\[Database record\\]. APA PsycTests.\n\nhttps://doi.org/10.1037/t15072-000",
+                    "populationDescription": "CVLT Long Delay (Z score), challenged condition",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "z-score",
+                    "timeFrame": "change from baseline to end of study, an average of 1 year",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Participants enrolled into this arm will only receive educational materials"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Medication Therapy Management (MTM)",
+                            "description": "Participants enrolled into this arm will receive educational materials and will have their medications assessed; recommendations for changes in the medications taken will be made when appropriate"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "41"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "44"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-0.10",
+                                            "spread": "0.15"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "-0.083",
+                                            "spread": "0.14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Perceived Health Status",
+                    "description": "Change from baseline to end of study for Short Form Health Survey (SF-36). T scores have a mean of 50 and SD of 10; higher scores are better; mean = 50 represents expected mean in general US adult population, with no available clinically relevant thresholds .",
+                    "populationDescription": "SF-36 Mental Component Score (T score), challenged condition",
+                    "reportingStatus": "POSTED",
+                    "paramType": "LEAST_SQUARES_MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "t-score",
+                    "timeFrame": "change from baseline to end of study, an average of 1 year",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "Participants enrolled into this arm will only receive educational materials"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Medication Therapy Management (MTM)",
+                            "description": "Participants enrolled into this arm will receive educational materials and will have their medications assessed; recommendations for changes in the medications taken will be made when appropriate"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "41"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "44"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "41.4",
+                                            "spread": "1.2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "41.2",
+                                            "spread": "1.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "1 year",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Placebo",
+                    "description": "Participants enrolled into this arm will only receive educational materials, but will not receive specific recommendations to make changes to the medications they are taking.\n\nCognitive testing at the beginning and the end of the study will be done with and without a scopolamine patch to reveal cognitive reserve.\n\nPlacebo: Participants will receive educational materials, but will not receive MTM.\n\nScopolamine patch: At the beginning and end of the study, participants will be asked to use a scopolamine patch. This patch is not being used to prevent motion sickness (as approved by the FDA), but instead is being used to challenge the participant's memory and thinking abilities and determine cognitive reserve.",
+                    "deathsNumAffected": 2,
+                    "deathsNumAtRisk": 44,
+                    "seriousNumAffected": 9,
+                    "seriousNumAtRisk": 44,
+                    "otherNumAffected": 42,
+                    "otherNumAtRisk": 44
+                },
+                {
+                    "id": "EG001",
+                    "title": "Medication Therapy Management (MTM)",
+                    "description": "Participants enrolled into this arm will receive educational materials and will have their medications assessed; recommendations for changes in the medications taken will be made when appropriate.\n\nCognitive testing at the beginning and the end of the study will be done with and without a scopolamine patch to reveal cognitive reserve.\n\nMedication Therapy Management (MTM): Participants will receive MTM in addition to the educational materials.\n\nScopolamine patch: At the beginning and end of the study, participants will be asked to use a scopolamine patch. This patch is not being used to prevent motion sickness (as approved by the FDA), but instead is being used to challenge the participant's memory and thinking abilities and determine cognitive reserve.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 46,
+                    "seriousNumAffected": 7,
+                    "seriousNumAtRisk": 46,
+                    "otherNumAffected": 41,
+                    "otherNumAtRisk": 46
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Injurious fall",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Infections",
+                    "organSystem": "Infections and infestations",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 4,
+                            "numAffected": 4,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Major cardiac event",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Stroke",
+                    "organSystem": "Vascular disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "GI emergencies",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Cancer",
+                    "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Surgical complications",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Car accident",
+                    "organSystem": "Injury, poisoning and procedural complications",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 46
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "Neurological",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 32,
+                            "numAffected": 28,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 34,
+                            "numAffected": 29,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "GI",
+                    "organSystem": "Gastrointestinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 26,
+                            "numAffected": 24,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 27,
+                            "numAffected": 27,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Infections",
+                    "organSystem": "Infections and infestations",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 9,
+                            "numAffected": 9,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 8,
+                            "numAffected": 7,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Allergies",
+                    "organSystem": "Immune system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Musculoskeletal",
+                    "organSystem": "Musculoskeletal and connective tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 16,
+                            "numAffected": 16,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 22,
+                            "numAffected": 21,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Cardiovascular",
+                    "organSystem": "Cardiac disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 6,
+                            "numAffected": 6,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 5,
+                            "numAffected": 5,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Renal and GU",
+                    "organSystem": "Renal and urinary disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 4,
+                            "numAffected": 3,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Skin",
+                    "organSystem": "Skin and subcutaneous tissue disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 5,
+                            "numAffected": 5,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Other",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Metabolic",
+                    "organSystem": "Metabolism and nutrition disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 5,
+                            "numAffected": 5,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 6,
+                            "numAffected": 5,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Visual",
+                    "organSystem": "Eye disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 5,
+                            "numAffected": 5,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Pulmonary",
+                    "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 3,
+                            "numAffected": 3,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 46
+                        }
+                    ]
+                },
+                {
+                    "term": "Auditory",
+                    "organSystem": "Ear and labyrinth disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 44
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 46
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Daniela C Moga MD PhD, Associate Professor",
+                "organization": "University of Kentucky",
+                "email": "daniela.moga@uky.edu",
+                "phone": "859-323-9682"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial tests a pharmacist\u2013physician medication therapy management (MTM) intervention to reduce potentially inappropriate medications (per the Beers 2015 criteria) with the goal of bolstering cognitive reserve and delaying symptomatic Alzheimer's disease. This is an optimization/deprescribing intervention (not a biologic, not a small molecule, and not a cognitive-enhancing drug or neuropsychiatric-targeted pharmacotherapy). \ue200cite\ue202turn0search3\ue202turn0search6\ue201",
+        "Act (evidence extracted): Key trial details extracted from the protocol and published results: it is the INCREASE trial (INtervention for Cognitive Reserve Enhancement in Delaying the Onset of Alzheimer\u2019s Symptomatic Expression); intervention = patient-centered pharmacist\u2013physician team medication therapy management vs standard of care; eligibility required at least one potentially inappropriate medication per Beers 2015; primary outcomes included Medication Appropriateness Index and challenged cognitive testing (e.g., Trail Making Test B under scopolamine). No specific investigational drug or biologic is being tested. \ue200cite\ue202turn0search6\ue202turn0search3\ue201",
+        "Reflect: Classification rationale \u2014 the four allowed categories are limited to: disease-targeted biologic, disease-targeted small molecule, cognitive enhancer (drug), or neuropsychiatric symptom improvement (drug/symptom-targeted). Because INCREASE is a non-pharmacologic MTM/deprescribing intervention (aiming to improve cognitive reserve by optimizing medication regimens) and does not test a biologic or small molecule or a cognitive-enhancing drug, it does not fit any of the four categories and is therefore classified as 'N/A'. The published results also report no single drug being evaluated and show MTM reduced inappropriate prescribing with subgroup cognitive benefit in amyloid-positive participants, which supports the non-drug, implementation-focused nature of the trial. \ue200cite\ue202turn0search3\ue202turn0search1\ue201",
+        "Web search results (supporting sources used): - INCREASE study project description (University of Kentucky). \ue200cite\ue202turn0search0\ue201 - Full-text article (results) in PubMed Central: randomized RCT of MTM vs standard care, outcomes and subgroup findings. \ue200cite\ue202turn0search3\ue201 - PubMed listing / abstract and results summary. \ue200cite\ue202turn0search1\ue201 - Trial protocol / design paper (rationale and methods) on PubMed. \ue200cite\ue202turn0search6\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

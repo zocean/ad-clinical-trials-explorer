@@ -1,0 +1,667 @@
+{
+    "nct_id": "NCT00939822",
+    "title": "Statin Effects on Beta-Amyloid and Cerebral Perfusion in Adults at Risk for AD: \"Statins in Healthy, At-Risk Adults: Impact on Amyloid and Regional Perfusion (SHARP)\" Study",
+    "status": "COMPLETED",
+    "last_update_time": "2019-08-02",
+    "description_brief": "The purpose of the research is to see how simvastatin affects a substance in the body called beta-amyloid. Beta-amyloid is found in the brain and in the liquid around the brain and spinal cord. High amounts of beta-amyloid may be associated with a greater risk of getting Alzheimer's disease. This study will see if simvastatin can lower the amount of beta-amyloid in the spinal fluid. This study will also see if simvastatin affects memory and thinking, blood flow in the brain, and blood vessel function. The investigators hope that future studies show whether simvastatin might prevent memory loss and decrease the chance of developing Alzheimer's disease.",
+    "description_detailed": "Studies show that some medicines that lower cholesterol may reduce the risk of developing Alzheimer's disease, but this has not yet been proven in humans. We are looking for individuals to participate in this study to see if a cholesterol-lowering medication, called simvastatin affects blood flow to the brain, blood vessel function and a substance in the spinal fluid related to the changes in Alzheimer's disease.\n\nThe SHARP study included 88 adults ages 40-72 with parental history of documented Alzheimer's disease. The study had 9 visits over the course of 18 months. Participants had fasting blood tests collected, completed a medical history questionnaire and medication side effect review, underwent lumbar puncture procedure, completed memory testing, and had ultrasound and MRI procedures. Participants were randomly assigned to receive either simvastatin or a placebo each night for 18 months.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "PREVENTION",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "Screened individuals were not randomized to drug or placebo if they withdrew consent, were unable to complete baseline procedures or no longer met inclusion criteria.",
+            "recruitmentDetails": "Asymptomatic middle-aged adults (ages 40-72 years) with parental history of AD were recruited from the community through local memory clinics, newsletters, educational talks, booths at health fairs, and newspaper and magazine advertisements.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Simvastatin",
+                    "description": "40 mg. Simvastatin/day\n\nSimvastatin: 40 mg Simvastatin/day"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "Matching Placebo\n\nPlacebo: Matching Placebo"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "44"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "44"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "42"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "41"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "3"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Lost to Follow-up",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "withdrew from study due to busy schedule",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Mental health issues",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Simvastatin",
+                    "description": "40 mg. Simvastatin/day\n\nSimvastatin: 40 mg Simvastatin/day"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Placebo",
+                    "description": "Matching Placebo\n\nPlacebo: Matching Placebo"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "44"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "44"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "88"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "41"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "38"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "79"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "6"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "55.95",
+                                            "spread": "6.2"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "54.4",
+                                            "spread": "7.8"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "55.21",
+                                            "spread": "6.99"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "63"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "12"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "25"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "44"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "44"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "88"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Changes in Cerebrospinal Fluid (CSF) Beta-amyloid-42 Levels Compared to Baseline as Measured by xMAP",
+                    "description": "Change in CSF beta-amyloid-42 was defined as the ratio of 18-month levels to baseline levels.\n\nBeta-amyloid-42 is a substance found in the plaques in the brain of people with Alzheimer's disease and can be detected in CSF. There is no defined normal range yet for middle-aged adults.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "ratio",
+                    "timeFrame": "Baseline and 18 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Simvastatin",
+                            "description": "40 mg. Simvastatin/day\n\nSimvastatin: 40 mg Simvastatin/day"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Matching Placebo\n\nPlacebo: Matching Placebo"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "39"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "40"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.01",
+                                            "lowerLimit": "0.96",
+                                            "upperLimit": "1.07"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.98",
+                                            "lowerLimit": "0.95",
+                                            "upperLimit": "1.02"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Changes in CSF Beta-amyloid-40 Levels as Measured by xMAP (Multi-Analyte Profiling) )",
+                    "description": "Change in CSF beta-amyloid-40 was defined as the ratio of 18-month levels to baseline levels.\n\nBeta amyloid-40 is a substance found in the brain vessels of individuals with Alzheimer's disease and has more potent cerebrovascular effects on individuals with Alzheimer's disease than any other form of beta amyloid.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "ratio",
+                    "timeFrame": "Baseline and 18 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Simvastatin",
+                            "description": "40 mg. Simvastatin/day\n\nSimvastatin: 40 mg Simvastatin/day"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Matching Placebo\n\nPlacebo: Matching Placebo"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "39"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "40"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.03",
+                                            "lowerLimit": "0.99",
+                                            "upperLimit": "1.07"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.98",
+                                            "lowerLimit": "0.94",
+                                            "upperLimit": "1.01"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Changes in CSF Soluble Alpha Precursor Proteins (sAPP-alpha) and Soluble Beta Precursor Proteins (sAPP-beta) as Measured by Duplex",
+                    "description": "Changes in CSF sAPP-alpha and sAPP-beta were defined as the ratio of 18-month levels to baseline levels.\n\nsAPP-alpha and sAPP-beta are components of beta-amyloid that provide information on beta-amyloid breakdown.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "ratio",
+                    "timeFrame": "Baseline and 18 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Simvastatin",
+                            "description": "40 mg. Simvastatin/day\n\nSimvastatin: 40 mg Simvastatin/day"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Matching Placebo\n\nPlacebo: Matching Placebo"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "39"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "40"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "sAPP-alpha",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.96",
+                                            "lowerLimit": "0.92",
+                                            "upperLimit": "1.00"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.03",
+                                            "lowerLimit": "0.97",
+                                            "upperLimit": "1.09"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "sAPP-beta",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.98",
+                                            "lowerLimit": "0.93",
+                                            "upperLimit": "1.02"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.00",
+                                            "lowerLimit": "0.97",
+                                            "upperLimit": "1.04"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Changes in CSF Total Tau (T-tau) and Phosphorylated Tau (P-tau) as Measured by xMAP",
+                    "description": "Changes in CSF t-tau and p-tau were defined as the ratio of 18-month levels to baseline levels.\n\nT-tau and p-tau are substances found in the brain that can provide information on nerve cell health in the brain and tangle formation in nerve cells.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "ratio",
+                    "timeFrame": "Baseline and 18 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Simvastatin",
+                            "description": "40 mg. Simvastatin/day\n\nSimvastatin: 40 mg Simvastatin/day"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Placebo",
+                            "description": "Matching Placebo\n\nPlacebo: Matching Placebo"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "39"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "40"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Total tau",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.01",
+                                            "lowerLimit": "0.97",
+                                            "upperLimit": "1.05"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.01",
+                                            "lowerLimit": "0.98",
+                                            "upperLimit": "1.05"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Phosphorylated tau",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.16",
+                                            "lowerLimit": "0.90",
+                                            "upperLimit": "1.42"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.15",
+                                            "lowerLimit": "1.00",
+                                            "upperLimit": "1.29"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Simvastatin",
+                    "description": "40 mg. Simvastatin/day\n\nSimvastatin: 40 mg Simvastatin/day",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 44,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 44,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 44
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "Matching Placebo\n\nPlacebo: Matching Placebo",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 44,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 44,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 44
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true
+            },
+            "pointOfContact": {
+                "title": "Dr. Cynthia M. Carlsson",
+                "organization": "University of Wisconsin School of Medicine and Public Health",
+                "email": "cmc@medicine.wisc.edu",
+                "phone": "608-256-1901",
+                "phoneExt": "11691"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "Simvastatin (small-molecule HMG-CoA reductase inhibitor)"
+    ],
+    "placebo": [
+        "Placebo"
+    ],
+    "explanation_target": [
+        "Reason: The trial tests simvastatin's effect on beta-amyloid (A\u03b2) levels in cerebrospinal fluid and on cerebral perfusion/cognition \u2014 i.e., it evaluates an intervention expected to modify a disease-related biomarker (A\u03b2) rather than a biologic therapy or purely symptomatic cognitive/behavioral treatment. \ue200cite\ue202turn0search1\ue201",
+        "Act (key extracted details): The intervention is simvastatin, a small-molecule cholesterol-lowering drug (an HMG-CoA reductase inhibitor). The SHARP study title and description explicitly state it will examine simvastatin's effects on A\u03b2 metabolism and regional cerebral perfusion in adults at risk for AD. \ue200cite\ue202turn0search4\ue202turn0search1\ue201",
+        "Supporting evidence from the literature: Preclinical and some clinical studies report that simvastatin can reduce A\u03b2 levels in vitro/in vivo and can alter CSF biomarkers and cognition in small trials \u2014 showing a biological rationale for targeting A\u03b2 with this small molecule. Examples include the original PNAS/preclinical report and randomized/controlled and open-label human studies of simvastatin and CSF A\u03b2 or cognition. \ue200cite\ue202turn0search0\ue202turn0search2\ue202turn0search9\ue201",
+        "Reflect: Given simvastatin is a small-molecule statin (not a monoclonal antibody, vaccine, or biologic) and the trial's primary outcome focuses on lowering beta-amyloid (a disease pathology biomarker) rather than solely symptomatic cognitive enhancement or neuropsychiatric symptom relief, the appropriate classification is 'disease-targeted small molecule'. This classification aligns with the trial's stated aim to test a pathological (amyloid-related) mechanism rather than only symptomatic endpoints. \ue200cite\ue202turn0search1\ue202turn0search8\ue201",
+        "Web search results used (representative sources cited above): UW\u2013Madison SHARP study page describing the simvastatin trial (SHARP). \ue200cite\ue202turn0search1\ue201; PNAS and PubMed papers showing simvastatin reduces A\u03b2 in preclinical models. \ue200cite\ue202turn0search0\ue202turn0search2\ue201; Clinical/biomarker studies of simvastatin in humans (CSF biomarkers, cognition). \ue200cite\ue202turn0search9\ue202turn0search3\ue201"
+    ],
+    "agent_type": "C) ApoE, Lipids and Lipoprotein Receptors",
+    "explanation_agent": [
+        "Reason: The trial drug is simvastatin, a small-molecule HMG-CoA reductase inhibitor that acts on cholesterol/lipid metabolism. Although the study measures effects on beta-amyloid and cerebral perfusion, the drug\u2019s primary biological target/pathway is lipid biosynthesis and lipoprotein regulation, which maps to CADRO category C (ApoE, Lipids and Lipoprotein Receptors).",
+        "Act: Key extracted details \u2014 Drug: Simvastatin (HMG\u2011CoA reductase inhibitor). Stated trial aim: examine simvastatin\u2019s effects on A\u03b2 biomarkers and regional cerebral perfusion in at\u2011risk adults. The molecular target (HMG\u2011CoA reductase / lipid metabolism) is explicitly a lipid pathway rather than a direct amyloid or tau-targeting therapeutic.",
+        "Reflect: Confirmed that the intervention is a lipid\u2011lowering small molecule with a clear mechanistic link to ApoE/lipid biology; while outcomes include amyloid measures, the CADRO classification asks for the drug/target type, so category C is the most specific and appropriate. This is not multi-target (R) nor a non-therapeutic diagnostic (T). No web search was required because simvastatin\u2019s target (HMG\u2011CoA reductase; lipid pathway) is standard pharmacology and was provided in the description."
+    ]
+}

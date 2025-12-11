@@ -1,0 +1,2133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alzheimer's Disease Clinical Trials Explorer</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
+    <style>
+        :root {
+            --bg-primary: #0a0f1a;
+            --bg-secondary: #111827;
+            --bg-card: #1a2332;
+            --bg-card-hover: #1f2937;
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            --accent-blue: #3b82f6;
+            --accent-blue-dark: #2563eb;
+            --accent-cyan: #06b6d4;
+            --accent-purple: #8b5cf6;
+            --accent-emerald: #10b981;
+            --accent-amber: #f59e0b;
+            --accent-rose: #f43f5e;
+            --border-color: #374151;
+            --gradient-1: linear-gradient(135deg, #1e3a5f 0%, #0a0f1a 100%);
+            --gradient-2: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.4);
+            --shadow-glow: 0 0 30px rgba(59, 130, 246, 0.15);
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #f8fafc;
+            --bg-secondary: #ffffff;
+            --bg-card: #ffffff;
+            --bg-card-hover: #f1f5f9;
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #64748b;
+            --border-color: #e2e8f0;
+            --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.1);
+            --shadow-glow: 0 0 30px rgba(59, 130, 246, 0.1);
+        }
+
+        [data-theme="light"] body::before {
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(59, 130, 246, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(139, 92, 246, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(6, 182, 212, 0.02) 0%, transparent 70%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', system-ui, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Background pattern */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(59, 130, 246, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(139, 92, 246, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(6, 182, 212, 0.05) 0%, transparent 70%);
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        /* Header */
+        .header {
+            background: rgba(17, 24, 39, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1600px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--gradient-2);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            box-shadow: var(--shadow-glow);
+        }
+
+        .logo-text h1 {
+            font-family: 'Crimson Pro', Georgia, serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            background: var(--gradient-2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .logo-text span {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Search Bar */
+        .search-container {
+            flex: 1;
+            max-width: 500px;
+            min-width: 280px;
+        }
+
+        .search-box {
+            position: relative;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 0.875rem 1.25rem 0.875rem 3rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+        }
+
+        .search-box input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .stats-bar {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-cyan);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Word Cloud Section */
+        .wordcloud-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        @media (max-width: 1200px) {
+            .wordcloud-section {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .wordcloud-section {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .wordcloud-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            padding: 1.5rem;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .network-section {
+            margin-bottom: 2.5rem;
+        }
+
+        .network-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            padding: 1.5rem;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .network-card h3 {
+            font-family: 'Crimson Pro', Georgia, serif;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        .network-description {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .wordcloud-card h3 {
+            font-family: 'Crimson Pro', Georgia, serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .wordcloud-card h3 .icon {
+            color: var(--accent-cyan);
+        }
+
+        .wordcloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            align-items: center;
+            justify-content: center;
+            min-height: 120px;
+        }
+
+        .word-tag {
+            padding: 0.35rem 0.75rem;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        .word-tag:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .word-tag.drug {
+            background: rgba(59, 130, 246, 0.15);
+            color: var(--accent-blue);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+        }
+
+        .word-tag.drug:hover {
+            background: rgba(59, 130, 246, 0.25);
+        }
+
+        .word-tag.agent {
+            background: rgba(139, 92, 246, 0.15);
+            color: var(--accent-purple);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+        }
+
+        .word-tag.agent:hover {
+            background: rgba(139, 92, 246, 0.25);
+        }
+
+        .word-tag.gene {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent-emerald);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+
+        .word-tag.gene:hover {
+            background: rgba(16, 185, 129, 0.25);
+        }
+
+        /* Category Sections */
+        .category-section {
+            margin-bottom: 2rem;
+        }
+
+        .category-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 1.5rem;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-bottom: 1rem;
+        }
+
+        .category-header:hover {
+            border-color: var(--accent-blue);
+            background: var(--bg-card);
+        }
+
+        .category-header.expanded {
+            border-color: var(--accent-blue);
+            background: var(--bg-card);
+        }
+
+        .category-title {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .category-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+        }
+
+        .category-name {
+            font-family: 'Crimson Pro', Georgia, serif;
+            font-size: 1.35rem;
+            font-weight: 600;
+        }
+
+        .category-count {
+            background: var(--accent-blue);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .category-toggle {
+            font-size: 1.5rem;
+            color: var(--text-secondary);
+            transition: transform 0.3s ease;
+        }
+
+        .category-header.expanded .category-toggle {
+            transform: rotate(180deg);
+        }
+
+        /* Tooltip */
+        .tooltip-trigger {
+            position: relative;
+            cursor: help;
+        }
+
+        .tooltip-content {
+            position: fixed !important;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1rem 1.25rem;
+            width: 350px;
+            max-width: calc(100vw - 40px);
+            box-shadow: var(--shadow-lg);
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s ease, visibility 0.2s ease;
+            z-index: 99999 !important;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            pointer-events: none;
+        }
+
+        .tooltip-trigger:hover .tooltip-content {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .tooltip-content h4 {
+            color: var(--accent-cyan);
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .tooltip-content p {
+            color: var(--text-secondary);
+        }
+
+        /* Trial Cards Grid */
+        .trials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 1.25rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease;
+        }
+
+        @media (max-width: 500px) {
+            .trials-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .trials-grid.expanded {
+            max-height: none;
+        }
+
+        /* Trial Card */
+        .trial-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            color: var(--text-primary);
+            box-shadow: var(--shadow-lg);
+        }
+
+        [data-theme="light"] .trial-card {
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            color: #1e293b;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .trial-card:hover {
+            border-color: var(--accent-blue);
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-glow);
+        }
+
+        .trial-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .trial-source {
+            font-size: 0.9rem;
+            color: var(--accent-cyan);
+            font-weight: 600;
+            font-family: 'Crimson Pro', Georgia, serif;
+        }
+
+        [data-theme="light"] .trial-source {
+            color: #1e40af;
+        }
+
+        .trial-nct {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            font-family: monospace;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        [data-theme="light"] .trial-nct {
+            color: #475569;
+        }
+
+        .trial-nct:hover {
+            color: var(--accent-blue);
+        }
+
+        .trial-title {
+            font-family: 'Crimson Pro', Georgia, serif;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        [data-theme="light"] .trial-title {
+            color: #0f172a;
+        }
+
+        .trial-meta {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 0.4rem 1rem;
+            font-size: 0.875rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-label {
+            color: var(--accent-blue);
+            font-weight: 600;
+            font-family: 'Crimson Pro', Georgia, serif;
+        }
+
+        [data-theme="light"] .meta-label {
+            color: #1e40af;
+        }
+
+        .meta-value {
+            color: var(--text-secondary);
+        }
+
+        [data-theme="light"] .meta-value {
+            color: #475569;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 0.15rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .status-COMPLETED {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent-emerald);
+        }
+
+        [data-theme="light"] .status-COMPLETED {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .status-ACTIVE, .status-RECRUITING {
+            background: rgba(59, 130, 246, 0.15);
+            color: var(--accent-blue);
+        }
+
+        [data-theme="light"] .status-ACTIVE, [data-theme="light"] .status-RECRUITING {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .status-TERMINATED, .status-WITHDRAWN {
+            background: rgba(244, 63, 94, 0.15);
+            color: var(--accent-rose);
+        }
+
+        [data-theme="light"] .status-TERMINATED, [data-theme="light"] .status-WITHDRAWN {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .trial-summary-section {
+            margin-bottom: 1rem;
+            flex-grow: 1;
+        }
+
+        .trial-summary-title {
+            color: var(--accent-blue);
+            font-weight: 600;
+            font-family: 'Crimson Pro', Georgia, serif;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+
+        [data-theme="light"] .trial-summary-title {
+            color: #1e40af;
+        }
+
+        .trial-summary {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            text-align: justify;
+        }
+
+        [data-theme="light"] .trial-summary {
+            color: #475569;
+        }
+
+        .trial-summary.collapsed {
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .read-more-btn {
+            background: none;
+            border: none;
+            color: #3b82f6;
+            cursor: pointer;
+            font-size: 0.8rem;
+            padding: 0.25rem 0;
+            margin-top: 0.25rem;
+            font-weight: 500;
+        }
+
+        .read-more-btn:hover {
+            text-decoration: underline;
+        }
+
+        .trial-footer {
+            border-top: 1px solid var(--border-color);
+            padding-top: 1rem;
+            margin-top: auto;
+        }
+
+        .trial-category-section {
+            margin-bottom: 0.75rem;
+        }
+
+        .trial-category-row {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .trial-category-label {
+            color: var(--accent-blue);
+            font-weight: 600;
+            font-family: 'Crimson Pro', Georgia, serif;
+            font-size: 0.9rem;
+        }
+
+        [data-theme="light"] .trial-category-label {
+            color: #1e40af;
+        }
+
+        .trial-category-value {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        [data-theme="light"] .trial-category-value {
+            color: #475569;
+        }
+
+        .trial-genes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+            margin-top: 0.25rem;
+        }
+
+        .gene-tag {
+            padding: 0.15rem 0.4rem;
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            border-radius: 4px;
+            font-size: 0.7rem;
+            color: var(--accent-emerald);
+            font-family: monospace;
+        }
+
+        [data-theme="light"] .gene-tag {
+            background: #d1fae5;
+            border-color: #6ee7b7;
+            color: #065f46;
+        }
+
+        .trial-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .tag {
+            padding: 0.25rem 0.6rem;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .tag-category {
+            background: rgba(6, 182, 212, 0.15);
+            color: #0891b2;
+            border: 1px solid rgba(6, 182, 212, 0.3);
+        }
+
+        .tag-agent {
+            background: rgba(139, 92, 246, 0.15);
+            color: #7c3aed;
+            border: 1px solid rgba(139, 92, 246, 0.3);
+        }
+
+        .trial-drugs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            align-items: center;
+        }
+
+        .drug-tag {
+            padding: 0.2rem 0.5rem;
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 4px;
+            font-size: 0.75rem;
+            color: var(--accent-blue);
+        }
+
+        [data-theme="light"] .drug-tag {
+            background: #dbeafe;
+            border-color: #93c5fd;
+            color: #1e40af;
+        }
+
+        /* Loading state */
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 300px;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .loading-spinner {
+            width: 48px;
+            height: 48px;
+            border: 3px solid var(--border-color);
+            border-top-color: var(--accent-blue);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* No results */
+        .no-results {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-muted);
+        }
+
+        .no-results h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-secondary);
+        }
+
+        /* Agent type tooltip styling */
+        .agent-tooltip {
+            position: relative;
+            display: inline-block;
+        }
+
+        .agent-tooltip .tooltip-box {
+            position: absolute;
+            bottom: calc(100% + 8px);
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 0.875rem 1rem;
+            width: 320px;
+            max-width: 90vw;
+            box-shadow: var(--shadow-lg);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.2s ease;
+            z-index: 1000;
+            font-size: 0.85rem;
+        }
+
+        .agent-tooltip:hover .tooltip-box {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .agent-tooltip .tooltip-box::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 6px solid transparent;
+            border-top-color: var(--border-color);
+        }
+
+        .tooltip-section {
+            margin-bottom: 0.75rem;
+        }
+
+        .tooltip-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .tooltip-section-title {
+            font-weight: 600;
+            color: var(--accent-cyan);
+            font-size: 0.8rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .tooltip-section-content {
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        /* Category explanations */
+        .category-tooltip {
+            margin-left: 0.5rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
+            background: rgba(6, 182, 212, 0.2);
+            border-radius: 50%;
+            font-size: 0.75rem;
+            color: var(--accent-cyan);
+            cursor: help;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid var(--border-color);
+            margin-top: 3rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        /* Expand/Collapse button */
+        .expand-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: transparent;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.2s ease;
+        }
+
+        .expand-btn:hover {
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        /* Clear search */
+        .clear-search {
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 1.1rem;
+            padding: 0.25rem;
+            display: none;
+        }
+
+        .clear-search.visible {
+            display: block;
+        }
+
+        .clear-search:hover {
+            color: var(--text-secondary);
+        }
+
+        /* Theme Toggle */
+        .theme-toggle {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        .theme-toggle:hover {
+            border-color: var(--accent-blue);
+            background: var(--bg-card-hover);
+        }
+
+        .theme-toggle-icon {
+            font-size: 1.1rem;
+        }
+
+        /* Detail tooltip for Reason/Act/Reflect */
+        .detail-tooltip {
+            position: relative;
+            cursor: help;
+            display: inline;
+            border-bottom: 1px dashed var(--text-muted);
+        }
+
+        .detail-tooltip-box {
+            position: fixed !important;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            width: 500px;
+            max-width: calc(100vw - 40px);
+            box-shadow: var(--shadow-lg);
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s ease, visibility 0.2s ease;
+            z-index: 99999 !important;
+            font-size: 0.85rem;
+            max-height: min(450px, calc(100vh - 40px));
+            overflow-y: auto;
+            pointer-events: none;
+            color: var(--text-primary);
+        }
+
+        [data-theme="light"] .detail-tooltip-box {
+            background: #ffffff;
+            border-color: #e2e8f0;
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.05);
+        }
+
+        .detail-tooltip:hover .detail-tooltip-box {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+        
+        /* Ensure tooltip is positioned before it becomes visible */
+        .detail-tooltip-box {
+            transition: opacity 0.15s ease, visibility 0.15s ease;
+        }
+
+        .tooltip-exp-section {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .tooltip-exp-section:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .tooltip-exp-title {
+            font-weight: 700;
+            color: var(--accent-blue);
+            font-size: 0.9rem;
+            margin-bottom: 0.4rem;
+            font-family: 'Crimson Pro', Georgia, serif;
+        }
+
+        [data-theme="light"] .tooltip-exp-title {
+            color: #1e40af;
+        }
+
+        .tooltip-exp-content {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        [data-theme="light"] .tooltip-exp-content {
+            color: #475569;
+        }
+
+        /* Scrollbar styling for tooltip */
+        .detail-tooltip-box::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .detail-tooltip-box::-webkit-scrollbar-track {
+            background: #f1f5f9;
+            border-radius: 3px;
+        }
+
+        .detail-tooltip-box::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 3px;
+        }
+
+        .detail-tooltip-box::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-icon">🧠</div>
+                <div class="logo-text">
+                    <h1>AD Clinical Trials Explorer</h1>
+                    <span>Alzheimer's Disease Research Database</span>
+                </div>
+            </div>
+            
+            <div class="search-container">
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" placeholder="Search by drug, NCT ID, title, or agent type...">
+                    <button class="clear-search" id="clearSearch">✕</button>
+                </div>
+            </div>
+            
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <div class="stat-value" id="totalTrials">-</div>
+                    <div class="stat-label">Total Trials</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="totalDrugs">-</div>
+                    <div class="stat-label">Unique Drugs</div>
+                </div>
+            </div>
+            
+            <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">
+                <span class="theme-toggle-icon" id="themeIcon">🌙</span>
+                <span id="themeText">Dark</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- Word Clouds -->
+        <section class="wordcloud-section">
+            <div class="wordcloud-card">
+                <h3><span class="icon">💊</span> Top Drugs in Clinical Trials</h3>
+                <div class="wordcloud" id="drugWordcloud"></div>
+            </div>
+            <div class="wordcloud-card">
+                <h3><span class="icon">🧬</span> Target Genes</h3>
+                <div class="wordcloud" id="geneWordcloud"></div>
+            </div>
+            <div class="wordcloud-card">
+                <h3><span class="icon">🎯</span> Agent Types (CADRO Categories)</h3>
+                <div class="wordcloud" id="agentWordcloud"></div>
+            </div>
+        </section>
+
+        <!-- Network Visualization -->
+        <section class="network-section">
+            <div class="network-card">
+                <h3><span class="icon">🕸️</span> Drug-Cell Type Network</h3>
+                <p class="network-description">Click on a drug node to filter trials. Drugs are connected to cell types they target.</p>
+                <div id="cy-network" style="width: 100%; height: 600px; background-color: #ffffff; border-radius: 8px; border: 1px solid var(--border-color);"></div>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section id="categoriesContainer">
+            <div class="loading">
+                <div class="loading-spinner"></div>
+                <p>Loading clinical trials data...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Data sourced from ClinicalTrials.gov • Built for Alzheimer's Disease research exploration</p>
+    </footer>
+
+    <script src="trials_data.js"></script>
+    <script src="data/networks.js"></script>
+    <script src="data/network_styles.js"></script>
+    <script>
+        // Category descriptions for tooltips
+        const CATEGORY_DESCRIPTIONS = {
+            "Cognitive Enhancer": {
+                title: "Cognitive Enhancer",
+                description: "Drugs that aim to improve or maintain cognitive function (memory, attention, thinking) without targeting the underlying disease pathology. Examples include cholinesterase inhibitors like donepezil, rivastigmine, and galantamine."
+            },
+            "Disease-Targeted Small Molecule": {
+                title: "Disease-Targeted Small Molecule",
+                description: "Small chemical compounds designed to modify the underlying disease process by targeting specific pathological mechanisms such as amyloid-beta production, tau phosphorylation, or neuroinflammation."
+            },
+            "Disease-Targeted Biologic": {
+                title: "Disease-Targeted Biologic",
+                description: "Large molecule therapies (antibodies, vaccines, gene therapies) that target core Alzheimer's pathology, such as anti-amyloid antibodies (aducanumab, lecanemab) or anti-tau immunotherapies."
+            },
+            "Neuropsychiatric Symptom Improvement": {
+                title: "Neuropsychiatric Symptom Improvement",
+                description: "Treatments focused on managing behavioral and psychological symptoms of dementia (BPSD) such as agitation, depression, sleep disturbances, and anxiety, rather than cognitive decline."
+            },
+            "N/A": {
+                title: "Not Classified",
+                description: "Trials that have not been categorized into a specific treatment category. This may include observational studies, diagnostic trials, or trials with insufficient classification information."
+            }
+        };
+
+        // Agent type descriptions
+        const AGENT_TYPE_DESCRIPTIONS = {
+            "A) Amyloid beta": "Targets amyloid-beta protein, the main component of amyloid plaques found in Alzheimer's brains.",
+            "B) Tau": "Targets tau protein, which forms neurofibrillary tangles in Alzheimer's disease.",
+            "C) ApoE": "Targets apolipoprotein E, a genetic risk factor for Alzheimer's disease.",
+            "D) Neurotransmitter Receptors": "Modulates neurotransmitter systems (acetylcholine, glutamate, serotonin, etc.) to improve brain function.",
+            "E) Inflammation": "Targets neuroinflammation and immune responses in the brain.",
+            "F) Lipid-based therapies": "Focuses on brain cholesterol and lipid metabolism.",
+            "G) Oxidative Stress": "Targets reactive oxygen species and oxidative damage in neurons.",
+            "H) Cell Death": "Prevents neuronal apoptosis and cell death pathways.",
+            "I) Epigenetics": "Modifies gene expression through epigenetic mechanisms.",
+            "J) Metabolism & Bioenergetics": "Targets brain energy metabolism and mitochondrial function.",
+            "K) Proteostasis/Proteinopathies": "Addresses protein misfolding and aggregation.",
+            "L) Vasculature": "Targets cerebrovascular health and blood-brain barrier function.",
+            "M) Synaptic Plasticity/Neuroprotection": "Enhances synaptic function and protects neurons from damage.",
+            "N) Gut-Brain Axis": "Targets the gut microbiome and its connection to brain health.",
+            "O) Circadian Rhythm": "Addresses sleep and circadian rhythm disturbances.",
+            "P) Growth Factors and Hormones": "Uses neurotrophic factors or hormones to support brain function.",
+            "Q) Stem Cells and Gene Therapy": "Cell-based and genetic approaches to replace or repair neurons.",
+            "R) Multi-target": "Agents that target multiple biological pathways simultaneously.",
+            "S) Lifestyle/environmental": "Non-pharmacological interventions including diet, exercise, and cognitive training.",
+            "T) Other": "Other mechanisms not covered by the above categories.",
+            "N/A": "Agent type not specified or not applicable."
+        };
+
+        // Category icons and colors
+        const CATEGORY_STYLES = {
+            "Cognitive Enhancer": { icon: "🧠", color: "#3b82f6" },
+            "Disease-Targeted Small Molecule": { icon: "⚗️", color: "#8b5cf6" },
+            "Disease-Targeted Biologic": { icon: "🧬", color: "#10b981" },
+            "Neuropsychiatric Symptom Improvement": { icon: "💭", color: "#f59e0b" },
+            "N/A": { icon: "📋", color: "#6b7280" }
+        };
+
+        let allTrials = [];
+        let filteredTrials = [];
+
+        // Initialize the app
+        function init() {
+            if (typeof TRIALS_DATA !== 'undefined') {
+                allTrials = TRIALS_DATA.trials;
+                filteredTrials = [...allTrials];
+                
+                document.getElementById('totalTrials').textContent = TRIALS_DATA.total_trials.toLocaleString();
+                
+                // Calculate unique drugs from all trials (use stored value if available, otherwise calculate)
+                let totalUniqueDrugs;
+                if (TRIALS_DATA.total_unique_drugs !== undefined) {
+                    totalUniqueDrugs = TRIALS_DATA.total_unique_drugs;
+                } else {
+                    // Calculate from all trials as fallback
+                    const uniqueDrugs = new Set();
+                    allTrials.forEach(trial => {
+                        if (trial.drug && Array.isArray(trial.drug)) {
+                            trial.drug.forEach(drug => {
+                                if (drug && drug.trim()) {
+                                    uniqueDrugs.add(drug.trim());
+                                }
+                            });
+                        }
+                    });
+                    totalUniqueDrugs = uniqueDrugs.size;
+                }
+                document.getElementById('totalDrugs').textContent = totalUniqueDrugs.toLocaleString();
+                
+                renderWordClouds();
+                renderCategories();
+                setupSearch();
+                initNetwork();
+            } else {
+                document.getElementById('categoriesContainer').innerHTML = `
+                    <div class="no-results">
+                        <h3>Data Not Found</h3>
+                        <p>Please run the build script to generate trials_data.js</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Render word clouds
+        function renderWordClouds() {
+            // Drug word cloud
+            const drugCloud = document.getElementById('drugWordcloud');
+            const drugs = Object.entries(TRIALS_DATA.drug_counts || {}).slice(0, 25);
+            const maxDrugCount = drugs.length > 0 ? Math.max(...drugs.map(d => d[1])) : 1;
+            
+            drugCloud.innerHTML = drugs.map(([drug, count]) => {
+                const size = 0.7 + (count / maxDrugCount) * 0.8;
+                return `<span class="word-tag drug" style="font-size: ${size}rem" 
+                    onclick="searchFor('${drug.replace(/'/g, "\\'")}')" 
+                    title="${count} trials">${drug}</span>`;
+            }).join('');
+
+            // Gene word cloud
+            const geneCloud = document.getElementById('geneWordcloud');
+            const genes = Object.entries(TRIALS_DATA.gene_counts || {})
+                .filter(([g]) => g && g !== 'N/A')
+                .slice(0, 30);
+            const maxGeneCount = genes.length > 0 ? Math.max(...genes.map(g => g[1])) : 1;
+            
+            geneCloud.innerHTML = genes.map(([gene, count]) => {
+                const size = 0.7 + (count / maxGeneCount) * 0.8;
+                return `<span class="word-tag gene" style="font-size: ${size}rem" 
+                    onclick="searchFor('${gene.replace(/'/g, "\\'")}')" 
+                    title="${gene}: ${count} trials">${gene}</span>`;
+            }).join('');
+
+            // Agent type word cloud
+            const agentCloud = document.getElementById('agentWordcloud');
+            const agents = Object.entries(TRIALS_DATA.agent_type_counts || {})
+                .filter(([a]) => a && a !== 'N/A')
+                .slice(0, 20);
+            const maxAgentCount = agents.length > 0 ? Math.max(...agents.map(a => a[1])) : 1;
+            
+            agentCloud.innerHTML = agents.map(([agent, count]) => {
+                const size = 0.7 + (count / maxAgentCount) * 0.7;
+                const shortAgent = agent.length > 30 ? agent.substring(0, 27) + '...' : agent;
+                return `<span class="word-tag agent" style="font-size: ${size}rem" 
+                    onclick="searchFor('${agent.replace(/'/g, "\\'")}')" 
+                    title="${agent}: ${count} trials">${shortAgent}</span>`;
+            }).join('');
+        }
+
+        // Render categories
+        window.renderCategories = function renderCategories() {
+            const container = document.getElementById('categoriesContainer');
+            
+            // Group trials by category
+            const categories = {};
+            filteredTrials.forEach(trial => {
+                const cat = trial.target_category || 'N/A';
+                if (!categories[cat]) categories[cat] = [];
+                categories[cat].push(trial);
+            });
+
+            // Sort categories by count
+            const sortedCategories = Object.entries(categories)
+                .sort((a, b) => b[1].length - a[1].length);
+
+            if (sortedCategories.length === 0) {
+                container.innerHTML = `
+                    <div class="no-results">
+                        <h3>No trials found</h3>
+                        <p>Try adjusting your search terms</p>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = sortedCategories.map(([category, trials]) => {
+                const style = CATEGORY_STYLES[category] || CATEGORY_STYLES['N/A'];
+                const desc = CATEGORY_DESCRIPTIONS[category] || CATEGORY_DESCRIPTIONS['N/A'];
+                
+                return `
+                    <div class="category-section" data-category="${category}">
+                        <div class="category-header" onclick="toggleCategory(this)">
+                            <div class="category-title">
+                                <div class="category-icon" style="background: ${style.color}22; color: ${style.color}">
+                                    ${style.icon}
+                                </div>
+                                <div class="tooltip-trigger">
+                                    <span class="category-name">${category}</span>
+                                    <span class="category-tooltip">?</span>
+                                    <div class="tooltip-content">
+                                        <h4>${desc.title}</h4>
+                                        <p>${desc.description}</p>
+                                    </div>
+                                </div>
+                                <span class="category-count">${trials.length} trials</span>
+                            </div>
+                            <span class="category-toggle">▼</span>
+                        </div>
+                        <div class="trials-grid">
+                            ${trials.map(trial => renderTrialCard(trial)).join('')}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Clean citation markers from text
+        function cleanCitations(text) {
+            if (!text) return '';
+            return text.replace(/\ue200cite\ue202[^\ue201]*\ue201/g, '').trim();
+        }
+
+        // Parse explanation sections
+        function parseExplanations(explanations) {
+            const sections = {
+                reason: [],
+                act: [],
+                reflect: [],
+                sources: []
+            };
+            
+            explanations.forEach(exp => {
+                const cleanExp = cleanCitations(exp);
+                if (cleanExp.startsWith('Reason:')) {
+                    sections.reason.push(cleanExp.substring(7).trim());
+                } else if (cleanExp.startsWith('Act:')) {
+                    sections.act.push(cleanExp.substring(4).trim());
+                } else if (cleanExp.startsWith('Reflect:')) {
+                    sections.reflect.push(cleanExp.substring(8).trim());
+                } else if (cleanExp.includes('web search') || cleanExp.includes('Web search') || cleanExp.includes('sources')) {
+                    sections.sources.push(cleanExp);
+                }
+            });
+            
+            return sections;
+        }
+
+        // Render individual trial card
+        function renderTrialCard(trial) {
+            const statusClass = `status-${trial.status.replace(/\s+/g, '_')}`;
+            const phases = trial.phase ? trial.phase.map(p => p.replace('PHASE', 'Phase ')).join(', ') : 'N/A';
+            const drugs = trial.drug || [];
+            const summary = trial.description_brief || 'No description available.';
+            const agentType = trial.agent_type || 'N/A';
+            const targetCategory = trial.target_category || 'N/A';
+            
+            // Parse explanations for tooltips
+            const targetExplanations = parseExplanations(trial.explanation_target || []);
+            const agentExplanations = parseExplanations(trial.explanation_agent || []);
+            const geneExplanations = parseExplanations(trial.explanation_target_gene || []);
+            
+            // Build target category tooltip content
+            const targetTooltipContent = buildTooltipContent(targetExplanations);
+            
+            // Build agent type tooltip content
+            const agentTooltipContent = buildTooltipContent(agentExplanations);
+            
+            // Build gene tooltip content
+            const geneTooltipContent = buildTooltipContent(geneExplanations);
+            
+            // Get genes
+            const genes = trial.gene_symbol || [];
+
+            return `
+                <article class="trial-card">
+                    <div class="trial-header">
+                        <span class="trial-source">Clinicaltrials.gov</span>
+                        <a href="https://clinicaltrials.gov/study/${trial.nct_id}" target="_blank" class="trial-nct">${trial.nct_id}</a>
+                    </div>
+                    
+                    <h3 class="trial-title">${escapeHtml(trial.title)}</h3>
+                    
+                    <div class="trial-meta">
+                        <span class="meta-label">Status</span>
+                        <span class="meta-value"><span class="${statusClass} status-badge">${trial.status}</span></span>
+                        
+                        <span class="meta-label">Last Updated</span>
+                        <span class="meta-value">${trial.last_update_time}</span>
+                        
+                        <span class="meta-label">Phase</span>
+                        <span class="meta-value">${phases}</span>
+                        
+                        <span class="meta-label">Study Type</span>
+                        <span class="meta-value">${trial.study_type || 'N/A'}</span>
+                        
+                        ${drugs.length > 0 ? `
+                        <span class="meta-label">Intervention</span>
+                        <span class="meta-value">${drugs.map(d => escapeHtml(d)).join('<br>')}</span>
+                        ` : ''}
+                    </div>
+                    
+                    <div class="trial-summary-section">
+                        <div class="trial-summary-title">Study Summary (brief)</div>
+                        <p class="trial-summary collapsed" id="summary-${trial.nct_id}">${escapeHtml(summary)}</p>
+                        ${summary.length > 300 ? `<button class="read-more-btn" onclick="toggleSummary('${trial.nct_id}')">Read more ▼</button>` : ''}
+                    </div>
+                    
+                    <div class="trial-footer">
+                        <div class="trial-category-section">
+                            <div class="trial-category-row">
+                                <span class="trial-category-label">Target Category</span>
+                                <span class="detail-tooltip">
+                                    <span class="trial-category-value">${targetCategory}</span>
+                                    ${targetTooltipContent ? `
+                                    <div class="detail-tooltip-box">
+                                        ${targetTooltipContent}
+                                    </div>
+                                    ` : ''}
+                                </span>
+                            </div>
+                            
+                            <div class="trial-category-row">
+                                <span class="trial-category-label">CADGO Term</span>
+                                <span class="detail-tooltip">
+                                    <span class="trial-category-value">${agentType}</span>
+                                    ${agentTooltipContent ? `
+                                    <div class="detail-tooltip-box">
+                                        ${agentTooltipContent}
+                                    </div>
+                                    ` : ''}
+                                </span>
+                            </div>
+                            
+                            ${genes.length > 0 ? `
+                            <div class="trial-category-row">
+                                <span class="trial-category-label">Target Genes</span>
+                                <span class="detail-tooltip">
+                                    <div class="trial-genes">
+                                        ${genes.map(g => `<span class="gene-tag">${escapeHtml(g)}</span>`).join('')}
+                                    </div>
+                                    ${geneTooltipContent ? `
+                                    <div class="detail-tooltip-box">
+                                        ${geneTooltipContent}
+                                    </div>
+                                    ` : ''}
+                                </span>
+                            </div>
+                            ` : ''}
+                        </div>
+                    </div>
+                </article>
+            `;
+        }
+
+        // Build tooltip content from parsed explanations
+        function buildTooltipContent(sections) {
+            let content = '';
+            
+            if (sections.reason.length > 0) {
+                content += `
+                    <div class="tooltip-exp-section">
+                        <div class="tooltip-exp-title">Reason:</div>
+                        <div class="tooltip-exp-content">${escapeHtml(sections.reason[0].substring(0, 400))}${sections.reason[0].length > 400 ? '...' : ''}</div>
+                    </div>
+                `;
+            }
+            
+            if (sections.act.length > 0) {
+                content += `
+                    <div class="tooltip-exp-section">
+                        <div class="tooltip-exp-title">Act:</div>
+                        <div class="tooltip-exp-content">${escapeHtml(sections.act[0].substring(0, 400))}${sections.act[0].length > 400 ? '...' : ''}</div>
+                    </div>
+                `;
+            }
+            
+            if (sections.reflect.length > 0) {
+                content += `
+                    <div class="tooltip-exp-section">
+                        <div class="tooltip-exp-title">Reflect:</div>
+                        <div class="tooltip-exp-content">${escapeHtml(sections.reflect[0].substring(0, 400))}${sections.reflect[0].length > 400 ? '...' : ''}</div>
+                    </div>
+                `;
+            }
+            
+            if (sections.sources.length > 0) {
+                content += `
+                    <div class="tooltip-exp-section">
+                        <div class="tooltip-exp-title">Selected web search results used:</div>
+                        <div class="tooltip-exp-content">${escapeHtml(sections.sources[0].substring(0, 300))}${sections.sources[0].length > 300 ? '...' : ''}</div>
+                    </div>
+                `;
+            }
+            
+            return content;
+        }
+
+        // HTML escape function
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Toggle category expansion
+        function toggleCategory(header) {
+            const grid = header.nextElementSibling;
+            const isExpanded = header.classList.contains('expanded');
+            
+            header.classList.toggle('expanded');
+            grid.classList.toggle('expanded');
+        }
+
+        // Toggle summary text
+        function toggleSummary(nctId) {
+            const summary = document.getElementById(`summary-${nctId}`);
+            const btn = summary.nextElementSibling;
+            
+            if (summary.classList.contains('collapsed')) {
+                summary.classList.remove('collapsed');
+                btn.textContent = 'Show less ▲';
+            } else {
+                summary.classList.add('collapsed');
+                btn.textContent = 'Read more ▼';
+            }
+        }
+
+        // Search functionality
+        function setupSearch() {
+            const searchInput = document.getElementById('searchInput');
+            const clearBtn = document.getElementById('clearSearch');
+            let debounceTimer;
+
+            searchInput.addEventListener('input', (e) => {
+                clearTimeout(debounceTimer);
+                const query = e.target.value.trim();
+                
+                clearBtn.classList.toggle('visible', query.length > 0);
+                
+                debounceTimer = setTimeout(() => {
+                    filterTrials(query);
+                }, 300);
+            });
+
+            clearBtn.addEventListener('click', () => {
+                searchInput.value = '';
+                clearBtn.classList.remove('visible');
+                filterTrials('');
+            });
+        }
+
+        function searchFor(term) {
+            const searchInput = document.getElementById('searchInput');
+            searchInput.value = term;
+            document.getElementById('clearSearch').classList.add('visible');
+            filterTrials(term);
+            
+            // Scroll to categories
+            document.getElementById('categoriesContainer').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function filterTrials(query) {
+            // Clear network highlighting when filter changes
+            if (cyNetwork) {
+                cyNetwork.elements().removeClass('highlighted');
+                cyNetwork.elements('node[type="drug"]').style('border-width', '0px');
+            }
+            
+            if (!query) {
+                filteredTrials = [...allTrials];
+                document.getElementById('totalTrials').textContent = TRIALS_DATA.total_trials.toLocaleString();
+                document.getElementById('totalDrugs').textContent = (TRIALS_DATA.total_unique_drugs || Object.keys(TRIALS_DATA.drug_counts).length).toLocaleString();
+            } else {
+                const lowerQuery = query.toLowerCase();
+                filteredTrials = allTrials.filter(trial => {
+                    const searchFields = [
+                        trial.title,
+                        trial.nct_id,
+                        trial.target_category,
+                        trial.agent_type,
+                        trial.description_brief,
+                        ...(trial.drug || []),
+                        ...(trial.gene_symbol || [])
+                    ].filter(Boolean);
+                    
+                    return searchFields.some(field => 
+                        field.toLowerCase().includes(lowerQuery)
+                    );
+                });
+                document.getElementById('totalTrials').textContent = filteredTrials.length.toLocaleString();
+                
+                // Calculate unique drugs from filtered trials
+                const uniqueDrugs = new Set();
+                filteredTrials.forEach(trial => {
+                    if (trial.drug && Array.isArray(trial.drug)) {
+                        trial.drug.forEach(drug => {
+                            if (drug && drug.trim()) {
+                                uniqueDrugs.add(drug.trim());
+                            }
+                        });
+                    }
+                });
+                document.getElementById('totalDrugs').textContent = uniqueDrugs.size.toLocaleString();
+            }
+            
+            renderCategories();
+            
+            // Auto-expand first few categories when searching
+            if (query) {
+                const headers = document.querySelectorAll('.category-header');
+                headers.forEach((header, index) => {
+                    if (index < 3) {
+                        header.classList.add('expanded');
+                        header.nextElementSibling.classList.add('expanded');
+                    }
+                });
+            }
+        }
+
+        // Position category tooltips (the ? tooltips)
+        function positionCategoryTooltip(trigger, tooltip) {
+            const padding = 20; // space from viewport edges
+            const gap = 8;      // gap between trigger and tooltip
+
+            // Save inline styles we will mutate
+            const original = {
+                position: tooltip.style.position,
+                visibility: tooltip.style.visibility,
+                opacity: tooltip.style.opacity,
+                display: tooltip.style.display,
+                left: tooltip.style.left,
+                top: tooltip.style.top,
+                transform: tooltip.style.transform
+            };
+
+            // Make sure we can measure it
+            tooltip.style.position = 'fixed';     // match viewport coordinates
+            tooltip.style.visibility = 'hidden';
+            tooltip.style.opacity = '0';
+            tooltip.style.display = 'block';
+            tooltip.style.transform = '';         // no horizontal centering transform
+
+            const triggerRect = trigger.getBoundingClientRect();
+            const tooltipRect = tooltip.getBoundingClientRect();
+            const viewportWidth = window.innerWidth;
+            const viewportHeight = window.innerHeight;
+
+            // ----- Vertical positioning -----
+            let top = triggerRect.top - tooltipRect.height - gap; // above trigger
+
+            // If not enough space above, place below
+            if (top < padding) {
+                top = triggerRect.bottom + gap;
+            }
+
+            // Clamp vertically inside viewport
+            if (top + tooltipRect.height > viewportHeight - padding) {
+                top = Math.max(padding, viewportHeight - tooltipRect.height - padding);
+            }
+
+            // ----- Horizontal positioning -----
+            // Determine trigger position in viewport
+            const triggerCenterX = triggerRect.left + (triggerRect.width / 2);
+            const isInLeftPortion = triggerCenterX < viewportWidth * 0.4;
+            const isInRightPortion = triggerCenterX > viewportWidth * 0.6;
+            
+            let left;
+            
+            // For left portion, align tooltip's left edge with trigger's left edge (or close to it)
+            if (isInLeftPortion) {
+                left = triggerRect.left;
+                // But don't let it go off the left edge
+                if (left < padding) {
+                    left = padding;
+                }
+            }
+            // For right portion, align tooltip's right edge with trigger's right edge
+            else if (isInRightPortion) {
+                left = triggerRect.right - tooltipRect.width;
+                // But don't let it go off the right edge
+                if (left + tooltipRect.width > viewportWidth - padding) {
+                    left = viewportWidth - padding - tooltipRect.width;
+                }
+            }
+            // For center portion, center on trigger
+            else {
+                left = triggerRect.left + (triggerRect.width / 2) - (tooltipRect.width / 2);
+            }
+
+            // Final clamp to ensure it stays within viewport
+            if (left < padding) {
+                left = padding;
+            }
+            if (left + tooltipRect.width > viewportWidth - padding) {
+                left = viewportWidth - padding - tooltipRect.width;
+            }
+
+            // Apply final position
+            tooltip.style.left = `${left}px`;
+            tooltip.style.top = `${top}px`;
+            tooltip.style.position = 'fixed';
+            tooltip.style.zIndex = '99999';
+            // We keep transform empty so there is no extra shift
+            tooltip.style.transform = '';
+
+            // Restore only visibility/opacity/display to original values;
+            // keep our position & transform
+            tooltip.style.visibility = original.visibility;
+            tooltip.style.opacity = original.opacity;
+            tooltip.style.display = original.display;
+        }
+
+        function setupCategoryTooltips() {
+            // Position tooltips when they become visible
+            const positionTooltipOnHover = (trigger) => {
+                const tooltip = trigger.querySelector('.tooltip-content');
+                if (!tooltip) return;
+                
+                // Use multiple attempts to ensure positioning happens
+                positionCategoryTooltip(trigger, tooltip);
+                
+                // Also position after a short delay to catch CSS hover
+                setTimeout(() => {
+                    positionCategoryTooltip(trigger, tooltip);
+                }, 10);
+                
+                // And on next frame
+                requestAnimationFrame(() => {
+                    positionCategoryTooltip(trigger, tooltip);
+                });
+            };
+            
+            // Handle mouseenter
+            document.addEventListener('mouseenter', (e) => {
+                const trigger = e.target.closest('.tooltip-trigger');
+                if (trigger) {
+                    positionTooltipOnHover(trigger);
+                }
+            }, true);
+            
+            // Also handle when tooltip becomes visible via CSS hover
+            const observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
+                        const target = mutation.target;
+                        if (target.classList.contains('tooltip-content') && 
+                            target.style.visibility === 'visible') {
+                            const trigger = target.closest('.tooltip-trigger');
+                            if (trigger) {
+                                positionCategoryTooltip(trigger, target);
+                            }
+                        }
+                    }
+                });
+            });
+            
+            // Observe all tooltip-content elements
+            document.querySelectorAll('.tooltip-content').forEach(box => {
+                observer.observe(box, { attributes: true, attributeFilter: ['style'] });
+            });
+        }
+
+        // Position tooltips dynamically
+        function positionTooltip(trigger, tooltip) {
+            const padding = 20; // space from viewport edges
+            const gap = 8;      // gap between trigger and tooltip
+
+            // Save inline styles we will mutate
+            const original = {
+                position: tooltip.style.position,
+                visibility: tooltip.style.visibility,
+                opacity: tooltip.style.opacity,
+                display: tooltip.style.display,
+                left: tooltip.style.left,
+                top: tooltip.style.top,
+                transform: tooltip.style.transform
+            };
+
+            // Make sure we can measure it
+            tooltip.style.position = 'fixed';     // match viewport coordinates
+            tooltip.style.visibility = 'hidden';
+            tooltip.style.opacity = '0';
+            tooltip.style.display = 'block';
+            tooltip.style.transform = '';         // no horizontal centering transform
+
+            const triggerRect = trigger.getBoundingClientRect();
+            const tooltipRect = tooltip.getBoundingClientRect();
+            const viewportWidth = window.innerWidth;
+            const viewportHeight = window.innerHeight;
+
+            // ----- Vertical positioning -----
+            let top = triggerRect.top - tooltipRect.height - gap; // above trigger
+
+            // If not enough space above, place below
+            if (top < padding) {
+                top = triggerRect.bottom + gap;
+            }
+
+            // Clamp vertically inside viewport
+            if (top + tooltipRect.height > viewportHeight - padding) {
+                top = Math.max(padding, viewportHeight - tooltipRect.height - padding);
+            }
+
+            // ----- Horizontal positioning -----
+            // Determine trigger position in viewport
+            const triggerCenterX = triggerRect.left + (triggerRect.width / 2);
+            const isInLeftPortion = triggerCenterX < viewportWidth * 0.4;
+            const isInRightPortion = triggerCenterX > viewportWidth * 0.6;
+            
+            let left;
+            
+            // For left portion, align tooltip's left edge with trigger's left edge (or close to it)
+            if (isInLeftPortion) {
+                left = triggerRect.left;
+                // But don't let it go off the left edge
+                if (left < padding) {
+                    left = padding;
+                }
+            }
+            // For right portion, align tooltip's right edge with trigger's right edge
+            else if (isInRightPortion) {
+                left = triggerRect.right - tooltipRect.width;
+                // But don't let it go off the right edge
+                if (left + tooltipRect.width > viewportWidth - padding) {
+                    left = viewportWidth - padding - tooltipRect.width;
+                }
+            }
+            // For center portion, center on trigger
+            else {
+                left = triggerRect.left + (triggerRect.width / 2) - (tooltipRect.width / 2);
+            }
+
+            // Final clamp to ensure it stays within viewport
+            if (left < padding) {
+                left = padding;
+            }
+            if (left + tooltipRect.width > viewportWidth - padding) {
+                left = viewportWidth - padding - tooltipRect.width;
+            }
+
+            // Apply final position
+            tooltip.style.left = `${left}px`;
+            tooltip.style.top = `${top}px`;
+            tooltip.style.position = 'fixed';
+            tooltip.style.zIndex = '99999';
+            // We keep transform empty so there is no extra shift
+            tooltip.style.transform = '';
+
+            // Restore only visibility/opacity/display to original values;
+            // keep our position & transform
+            tooltip.style.visibility = original.visibility;
+            tooltip.style.opacity = original.opacity;
+            tooltip.style.display = original.display;
+        }
+
+        function setupTooltips() {
+            // Position tooltips when they become visible
+            const positionTooltipOnHover = (trigger) => {
+                const tooltip = trigger.querySelector('.detail-tooltip-box');
+                if (!tooltip) return;
+                
+                // Use multiple attempts to ensure positioning happens
+                positionTooltip(trigger, tooltip);
+                
+                // Also position after a short delay to catch CSS hover
+                setTimeout(() => {
+                    positionTooltip(trigger, tooltip);
+                }, 10);
+                
+                // And on next frame
+                requestAnimationFrame(() => {
+                    positionTooltip(trigger, tooltip);
+                });
+            };
+            
+            // Handle mouseenter
+            document.addEventListener('mouseenter', (e) => {
+                const trigger = e.target.closest('.detail-tooltip');
+                if (trigger) {
+                    positionTooltipOnHover(trigger);
+                }
+            }, true);
+            
+            // Also handle when tooltip becomes visible via CSS hover
+            const observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
+                        const target = mutation.target;
+                        if (target.classList.contains('detail-tooltip-box') && 
+                            target.style.visibility === 'visible') {
+                            const trigger = target.closest('.detail-tooltip');
+                            if (trigger) {
+                                positionTooltip(trigger, target);
+                            }
+                        }
+                    }
+                });
+            });
+            
+            // Observe all detail-tooltip-box elements
+            document.querySelectorAll('.detail-tooltip-box').forEach(box => {
+                observer.observe(box, { attributes: true, attributeFilter: ['style'] });
+            });
+            
+            // Re-observe after rendering - hook into renderCategories
+            const originalRenderCategories = window.renderCategories;
+            if (typeof renderCategories === 'function') {
+                const originalFn = renderCategories;
+                window.renderCategories = function() {
+                    originalFn.apply(this, arguments);
+                    setTimeout(() => {
+                        document.querySelectorAll('.detail-tooltip-box').forEach(box => {
+                            observer.observe(box, { attributes: true, attributeFilter: ['style'] });
+                        });
+                    }, 100);
+                };
+            }
+        }
+
+        // Initialize Cytoscape network
+        let cyNetwork = null;
+        
+        function initNetwork() {
+            if (typeof networks === 'undefined' || typeof styles === 'undefined') {
+                console.warn('Network data or styles not loaded');
+                return;
+            }
+            
+            // Get the first network (usually "G")
+            const networkKey = Object.keys(networks)[0];
+            const networkData = networks[networkKey];
+            
+            if (!networkData || !networkData.elements) {
+                console.warn('Network data structure invalid');
+                return;
+            }
+            
+            // Find BioPAX_SIF style or use first available style
+            let selectedStyle = null;
+            for (let i = 0; i < styles.length; i++) {
+                if (styles[i].title === 'BioPAX_SIF') {
+                    selectedStyle = styles[i].style;
+                    break;
+                }
+            }
+            // Fallback to first style if BioPAX_SIF not found
+            if (!selectedStyle && styles.length > 0) {
+                selectedStyle = styles[0].style;
+            }
+            
+            // Initialize Cytoscape
+            const container = document.getElementById('cy-network');
+            if (!container) {
+                console.warn('Network container not found');
+                return;
+            }
+            
+            cyNetwork = cytoscape({
+                container: container,
+                elements: networkData.elements,
+                style: selectedStyle || [],
+                layout: {
+                    name: 'preset',
+                    positions: function(node) {
+                        const pos = networkData.elements.nodes.find(n => n.data.id === node.id());
+                        return pos ? pos.position : undefined;
+                    },
+                    fit: true,
+                    padding: 30,
+                    zoom: 1
+                },
+                minZoom: 0.1,
+                maxZoom: 4,
+                wheelSensitivity: 0.2
+            });
+            
+            // Add click handler for drug nodes
+            cyNetwork.on('tap', 'node[type="drug"]', function(evt) {
+                const node = evt.target;
+                const drugName = node.data('name') || node.data('shared_name');
+                if (drugName) {
+                    // Filter trials by drug name
+                    searchFor(drugName);
+                    
+                    // Highlight the clicked node
+                    cyNetwork.elements().removeClass('highlighted');
+                    node.addClass('highlighted');
+                }
+            });
+            
+            // Add hover effects
+            cyNetwork.on('mouseover', 'node[type="drug"]', function(evt) {
+                const node = evt.target;
+                const degree = node.data('degree_layout') || 1;
+                const hoverSize = Math.max(35, degree * 17.5);
+                node.style('border-width', '4px');
+                node.style('border-color', '#3b82f6');
+                node.style('background-color', '#c7d2fe');
+                node.style('width', hoverSize);
+                node.style('height', hoverSize);
+            });
+            
+            cyNetwork.on('mouseout', 'node[type="drug"]', function(evt) {
+                const node = evt.target;
+                if (!node.hasClass('highlighted')) {
+                    const degree = node.data('degree_layout') || 1;
+                    const normalSize = Math.max(30, degree * 15);
+                    node.style('border-width', '2px');
+                    node.style('background-color', '#e0e7ff');
+                    node.style('width', normalSize);
+                    node.style('height', normalSize);
+                }
+            });
+            
+            // Style for highlighted nodes
+            cyNetwork.style()
+                .selector('node.highlighted')
+                .style({
+                    'border-width': '4px',
+                    'border-color': '#3b82f6',
+                    'border-opacity': 1,
+                    'background-color': '#a5b4fc',
+                    'width': function(ele) {
+                        const degree = ele.data('degree_layout') || 1;
+                        return Math.max(35, degree * 17.5);
+                    },
+                    'height': function(ele) {
+                        const degree = ele.data('degree_layout') || 1;
+                        return Math.max(35, degree * 17.5);
+                    }
+                })
+                .update();
+            
+            // Add custom styles for drug vs cell_type nodes
+            // Make drug nodes larger and easier to click
+            // Note: color, font-weight, and font-family are preserved from original styles
+            cyNetwork.style()
+                .selector('node[type="drug"]')
+                .style({
+                    'cursor': 'pointer',
+                    'width': function(ele) {
+                        const degree = ele.data('degree_layout') || 1;
+                        // Scale up: minimum 30px, scale with degree (50% of original)
+                        return Math.max(30, degree * 15);
+                    },
+                    'height': function(ele) {
+                        const degree = ele.data('degree_layout') || 1;
+                        return Math.max(30, degree * 15);
+                    },
+                    'background-opacity': 0.9,
+                    'background-color': '#e0e7ff',
+                    'border-width': '2px',
+                    'border-color': '#6366f1',
+                    'text-outline-width': '2px',
+                    'text-outline-color': '#ffffff',
+                    'text-valign': 'center',
+                    'text-halign': 'center'
+                })
+                .update();
+            
+            cyNetwork.style()
+                .selector('node[type="cell_type"]')
+                .style({
+                    'cursor': 'default',
+                    'shape': 'hexagon',
+                    'background-color': '#8b5cf6',
+                    'width': 100,
+                    'height': 100,
+                    'color': '#ffffff',
+                    'font-size': '12px',
+                    'font-weight': 'bold',
+                    'text-outline-width': '2px',
+                    'text-outline-color': '#000000'
+                })
+                .update();
+            
+            // Update edge styles for better visibility on white background
+            cyNetwork.style()
+                .selector('edge')
+                .style({
+                    'width': '2px',
+                    'line-color': '#94a3b8',
+                    'opacity': 0.6
+                })
+                .update();
+        }
+
+        // Theme toggle
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            
+            const icon = document.getElementById('themeIcon');
+            const text = document.getElementById('themeText');
+            icon.textContent = newTheme === 'light' ? '🌙' : '☀️';
+            text.textContent = newTheme === 'light' ? 'Dark' : 'Light';
+        }
+
+        // Load saved theme
+        function loadTheme() {
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            const html = document.documentElement;
+            html.setAttribute('data-theme', savedTheme);
+            
+            const icon = document.getElementById('themeIcon');
+            const text = document.getElementById('themeText');
+            icon.textContent = savedTheme === 'light' ? '🌙' : '☀️';
+            text.textContent = savedTheme === 'light' ? 'Dark' : 'Light';
+        }
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', () => {
+            loadTheme();
+            init();
+            setupTooltips();
+            setupCategoryTooltips();
+        });
+    </script>
+</body>
+</html>

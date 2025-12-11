@@ -1,0 +1,1813 @@
+{
+    "nct_id": "NCT03901092",
+    "title": "A Reader Study to Assess Accuracy and Reliability of Flortaucipir F 18 PET Scan Interpretation",
+    "status": "COMPLETED",
+    "last_update_time": "2020-08-21",
+    "description_brief": "This study will evaluate the performance of physician readers trained to read flortaucipir-PET (positron emission tomography) scans.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "DIAGNOSTIC",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "Subjects were not recruited for this study. Study scans were selected from 2 previously completed imaging studies. Scans previously acquired from Study A16 (NCT02516046) and A05 (NCT02016560) were read by 5 independent, blinded to other study information.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "All Autopsy Cases",
+                    "description": "Cases that had a valid scan and came to autopsy in in study A16 and the A16 supplemental cohort"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Non-Autopsy Cases",
+                    "description": "Mild cognitive impairment (MCI) and AD cases from the A05 confirmatory cohort"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "83"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "159"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "83"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "159"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "All Cases",
+                    "description": "All eligible subject scans from contributing studies"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "242"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "populationDescription": "Baseline analysis includes Study A16 autopsy cases (n=83) and Study A05 Non-autopsy cases (n=159).",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "title": "Study A16 Autopsy Cases",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "83"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "81.6",
+                                            "spread": "9.91"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Study A05 Non-autopsy Cases",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "159"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "72.9",
+                                            "spread": "9.64"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "populationDescription": "Baseline analysis includes Study A16 autopsy cases (n=83) and Study A05 Non-autopsy cases (n=159).",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "Study A16 Autopsy Cases",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "83"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "41"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "42"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Study A05 Non-autopsy Cases",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "159"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "74"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "85"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Ethnicity (NIH/OMB)",
+                    "populationDescription": "Measure Analysis Population Description: Baseline analysis includes Study A16 autopsy cases (n=83) and Study A05 Non-autopsy cases (n=159).",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "Study A16 Autopsy Cases",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "83"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "79"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Study A05 Non-autopsy Cases",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "159"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Not Hispanic or Latino",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "150"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "populationDescription": "Measure Analysis Population Description: Baseline analysis includes Study A16 autopsy cases (n=83) and Study A05 Non-autopsy cases (n=159).",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "title": "Study A16 Autopsy Cases",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "83"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "81"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Study A05 Non-autopsy Cases",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "159"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "154"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Primary Objective 1 Analysis 1: Diagnostic Performance of Individual Readers (NFT Score)",
+                    "description": "Sensitivity and specificity of 5 independent readers' interpretations of ante-mortem 18F-AV-1451 PET imaging for detection of a pattern of 18F-AV-1451 neocortical uptake that corresponds to neurofibrillary tangles (NFT) Score of B3 (Hyman et al., 2012; Montine et al., 2012). NFT B scores range from B0 (no NFTs in the brain) to B3 (widespread NFTs in the brain). Sensitivity and specificity are percentages that can range from 0 to 100%. The hypothesis tested was that, of the 5 independent imaging physicians, at least 3 will have the lower bounds of 2-sided 95% CIs \u226550%, for both sensitivity and specificity.",
+                    "populationDescription": "Analysis included all autopsy subjects with an evaluable flortaucipir PET scan interpretation (n=82). One autopsy subject scan was rated as unevaluable. n=47 were truth positive for NFTs. n=35 were truth negative for NFTs.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "percentage of cases correctly identified",
+                    "timeFrame": "baseline scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Sensitivity of Flortaucipir vs Autopsy NFT Score",
+                            "description": "Subjects with a positive autopsy NFT score truth standard (NFT B3)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Specificity of Flortaucipir vs Autopsy NFT Score",
+                            "description": "Subjects with a negative autopsy NFT score truth standard (NFT B2 or lower)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "47"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "35"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "91.5",
+                                            "lowerLimit": "80.07",
+                                            "upperLimit": "96.64"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "77.1",
+                                            "lowerLimit": "60.98",
+                                            "upperLimit": "87.93"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "89.4",
+                                            "lowerLimit": "77.41",
+                                            "upperLimit": "95.37"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "91.4",
+                                            "lowerLimit": "77.62",
+                                            "upperLimit": "97.04"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "87.2",
+                                            "lowerLimit": "74.83",
+                                            "upperLimit": "94.02"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "85.7",
+                                            "lowerLimit": "70.62",
+                                            "upperLimit": "93.74"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "93.6",
+                                            "lowerLimit": "82.84",
+                                            "upperLimit": "97.81"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "62.9",
+                                            "lowerLimit": "46.34",
+                                            "upperLimit": "76.83"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "89.4",
+                                            "lowerLimit": "77.41",
+                                            "upperLimit": "95.37"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "77.1",
+                                            "lowerLimit": "60.98",
+                                            "upperLimit": "87.93"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Primary Objective 1 Analysis 2: Diagnostic Performance of Individual Readers (NIA-AA Autopsy Diagnosis)",
+                    "description": "Sensitivity and specificity of 5 independent readers' interpretations of ante-mortem 18F-AV-1451 PET imaging for detection of a pattern of 18F-AV-1451 neocortical uptake that corresponds to high levels of AD neuropathologic change (High ADNC) as defined by National Institute on Aging-Alzheimer's Association (NIA-AA) criteria (see Hyman et al. 2012). ADNC categories are None, Low, Intermediate and High, with High indicating the most severe level of AD-related pathology changes in the brain. The hypothesis tested was that, of the 5 independent imaging physicians, at least 3 will have the lower bounds of 2-sided 95% CIs \u226550%, for both sensitivity and specificity.",
+                    "populationDescription": "Analysis included all autopsy subjects with an evaluable flortaucipir PET scan interpretation (n=82). One autopsy subject scan was rated as unevaluable. n=41 were truth positive. n=41 were truth negative.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "percentage of cases correctly identified",
+                    "timeFrame": "baseline scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Sensitivity of Flortaucipir vs NIA-AA Autopsy Diagnosis",
+                            "description": "Subjects with a positive truth standard (High ADNC)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Specificity of Flortaucipir vs NIA-AA Autopsy Diagnosis",
+                            "description": "Subjects with a negative truth standard (No/Low/Intermediate ADNC)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "41"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "41"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "95.1",
+                                            "lowerLimit": "83.86",
+                                            "upperLimit": "98.65"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "70.7",
+                                            "lowerLimit": "55.52",
+                                            "upperLimit": "82.39"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "95.1",
+                                            "lowerLimit": "83.86",
+                                            "upperLimit": "98.65"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "85.4",
+                                            "lowerLimit": "71.56",
+                                            "upperLimit": "93.12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "95.1",
+                                            "lowerLimit": "83.86",
+                                            "upperLimit": "98.65"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "82.9",
+                                            "lowerLimit": "68.74",
+                                            "upperLimit": "91.47"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "97.6",
+                                            "lowerLimit": "87.40",
+                                            "upperLimit": "99.57"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "58.5",
+                                            "lowerLimit": "43.37",
+                                            "upperLimit": "72.24"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "95.1",
+                                            "lowerLimit": "83.86",
+                                            "upperLimit": "98.65"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "73.2",
+                                            "lowerLimit": "58.07",
+                                            "upperLimit": "84.31"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Primary Objective 2: Inter-reader Reliability of Reader Interpretation of Flortaucipir-PET Imaging",
+                    "description": "As measured by Fleiss' Kappa across all scans read. Fleiss' kappa is a statistical measure for assessing the reliability of agreement between a fixed number of raters when assigning categorical ratings to a number of items or classifying items. Fleiss' kappa can range from 0 to 1 with 1 indicating perfect agreement between the readers. Scan results binarized as positive AD pattern versus negative AD pattern. Results are displayed as percentage of agreement for individual reader pairs, computed as follows: number of images for which reader had the same interpretation divided by the total number of images evaluated, multiplied by 100%.",
+                    "populationDescription": "Analysis included all subjects who had a valid flortaucipir PET scan in the autopsy and non-autopsy groups (n=241)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "percentage agreement of cases",
+                    "timeFrame": "baseline scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "All Cases",
+                            "description": "All autopsy and non-autopsy cases"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "241"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1 v Reader 2",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "95.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 1 v Reader 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "93.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 1 v Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "94.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 1 v Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "97.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 v Reader 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "97.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 v Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "91.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 v Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "94.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3 v Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "91.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3 v Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "93.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4 v Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "95.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Fleiss' kappa is a statistical measure for assessing the reliability of agreement between a fixed number of raters when assigning categorical ratings to a number of items or classifying items. The primary hypothesis to be tested was that the lower bound of two-sided 95% confidence interval of Fleiss' Kappa will be greater than or equal to 0.6.",
+                            "nonInferiorityType": "OTHER",
+                            "paramType": "Fleiss' kappa",
+                            "paramValue": "0.87",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.83",
+                            "ciUpperLimit": "0.91"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Secondary Objective 1 Analysis 1: Diagnostic Performance of \u03c4AD++ Flortaucipir PET Images to Detect B3 NFTs",
+                    "description": "Flortaucipir F 18 PET imaging will be classified by each reader as either neocortical uptake not consistent with AD (\u03c4AD-), neocortical uptake consistent with AD (\u03c4AD+), or neocortical uptake consistent with AD with uptake beyond the temporal/occipital regions (\u03c4AD++). NFT scoring is according to Hyman, et al 2012. Truth positive is a NFT B3 score. Truth negative is NFT \\<B3 score.",
+                    "populationDescription": "Analysis included all autopsy subjects with an evaluable flortaucipir PET scan interpretation (n=82). One autopsy subject scan was rated as unevaluable. n=47 were truth positive for NFTs. n=35 were truth negative for NFTs.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "percentage cases correctly identified",
+                    "timeFrame": "baseline scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Sensitivity of Flortaucipir tAD++ vs Autopsy NFT Score",
+                            "description": "Subjects with a positive autopsy NFT score truth standard (NFT B3)"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Specificity of Flortaucipir tAD++ vs Autopsy NFT Score",
+                            "description": "Subjects with a negative autopsy NFT score truth standard (NFT B2 or lower)"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "47"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "35"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "87.2",
+                                            "lowerLimit": "74.83",
+                                            "upperLimit": "94.02"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "88.6",
+                                            "lowerLimit": "74.05",
+                                            "upperLimit": "95.46"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "80.9",
+                                            "lowerLimit": "67.46",
+                                            "upperLimit": "89.58"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "100.0",
+                                            "lowerLimit": "90.11",
+                                            "upperLimit": "100.00"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "76.6",
+                                            "lowerLimit": "62.78",
+                                            "upperLimit": "86.40"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "94.3",
+                                            "lowerLimit": "81.39",
+                                            "upperLimit": "98.42"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "89.4",
+                                            "lowerLimit": "77.41",
+                                            "upperLimit": "95.37"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "82.9",
+                                            "lowerLimit": "67.32",
+                                            "upperLimit": "91.90"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "83.0",
+                                            "lowerLimit": "69.86",
+                                            "upperLimit": "91.11"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "94.3",
+                                            "lowerLimit": "81.39",
+                                            "upperLimit": "98.42"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Secondary Objective 1 Analysis 2: Diagnostic Performance of \u03c4AD++ Flortaucipir PET Images to Detect High ADNC",
+                    "description": "Sensitivity and specificity of 5 independent readers' interpretations of ante-mortem 18F-AV-1451 PET imaging for detection of a pattern of 18F-AV-1451 neocortical uptake that corresponds to high levels of AD neuropathologic change (High ADNC) as defined by National Institute on Aging-Alzheimer's Association (NIA-AA) criteria (Hyman et al. 2012). Truth positive is a High ADNC score. Truth negative is No/Low/Intermediate ADNC score.",
+                    "populationDescription": "Analysis included all autopsy subjects with an evaluable flortaucipir PET scan interpretation (n=82). One autopsy subject scan was rated as unevaluable. n=41 were truth positive. n=41 were truth negative.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "dispersionType": "95% Confidence Interval",
+                    "unitOfMeasure": "percentage of cases correctly identified",
+                    "timeFrame": "baseline scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Sensitivity",
+                            "description": "Sensitivity individual Flortaucipir PET scan interpreted as \u03c4AD++ pattern versus NIA-AA autopsy Diagnosis Truth Standard"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Specificity",
+                            "description": "Specificity individual Flortaucipir PET scan interpreted as \u03c4AD++ pattern versus NIA-AA autopsy Diagnosis Truth Standard"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "41"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "41"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "92.7",
+                                            "lowerLimit": "80.57",
+                                            "upperLimit": "97.48"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "82.9",
+                                            "lowerLimit": "68.74",
+                                            "upperLimit": "91.47"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "85.4",
+                                            "lowerLimit": "71.56",
+                                            "upperLimit": "93.12"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "92.7",
+                                            "lowerLimit": "80.57",
+                                            "upperLimit": "97.48"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "85.4",
+                                            "lowerLimit": "71.56",
+                                            "upperLimit": "93.12"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "92.7",
+                                            "lowerLimit": "80.57",
+                                            "upperLimit": "97.48"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "92.7",
+                                            "lowerLimit": "80.57",
+                                            "upperLimit": "97.48"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "75.6",
+                                            "lowerLimit": "60.66",
+                                            "upperLimit": "86.17"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "87.8",
+                                            "lowerLimit": "74.46",
+                                            "upperLimit": "94.68"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "87.8",
+                                            "lowerLimit": "74.46",
+                                            "upperLimit": "94.68"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Secondary Objective 2: Inter-reader Reliability of Reader Interpretation of \u03c4AD++ Flortaucipir PET Images",
+                    "description": "Overall reader agreement as measured by Fleiss' Kappa statistic. Scan results binarized as \u03c4AD++ versus \u03c4AD+/\u03c4AD-. Results are displayed as percentage of agreement for individual reader pairs, computed as follows: number of images for which reader had the same interpretation divided by the total number of images evaluated, multiplied by 100%.",
+                    "populationDescription": "Analysis included all subjects who had a valid flortaucipir PET scan in the autopsy and non-autopsy groups (n=241)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "percentage agreement of cases",
+                    "timeFrame": "baseline scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "All Cases",
+                            "description": "All autopsy and non-autopsy cases"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "241"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1 v Reader 2",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "92.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 1 v Reader 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "90.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 1 v Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "91.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 1 v Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "95.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 v Reader 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "91.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 v Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "90.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 v Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "94.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3 v Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "88.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3 v Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "92.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4 v Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "92.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Fleiss' kappa is a statistical measure for assessing the reliability of agreement between a fixed number of raters when assigning categorical ratings to a number of items or classifying items. The primary hypothesis to be tested was that the lower bound of two-sided 95% confidence interval of Fleiss' Kappa will be greater than or equal to 0.6.",
+                            "nonInferiorityType": "OTHER",
+                            "paramType": "Fleiss' kappa",
+                            "paramValue": "0.84",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.80",
+                            "ciUpperLimit": "0.88"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Secondary Objective 3: Inter-reader Reliability of Flortaucipir PET Scan Interpretation in the Population of Intended Use",
+                    "description": "Reader agreement measured by Fleiss' Kappa across scans from non-autopsy cases from Study A05. Scan results binarized as positive for AD pattern versus negative for AD pattern. Results are displayed as percentage of agreement for individual reader pairs, computed as follows: number of images for which reader had the same interpretation divided by the total number of images evaluated, multiplied by 100%.",
+                    "populationDescription": "Non-autopsy cases from Study A05",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "percentage agreement of cases",
+                    "timeFrame": "baseline scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "A05 Cases",
+                            "description": "All non-autopsy cases from the Study A05 population of intended use"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "159"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1 v Reader 2",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "97.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 1 v Reader 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "93.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 1 v Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "95.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 1 v Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "97.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 v Reader 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "93.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 v Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "94.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2 v Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "96.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3 v Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "93.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3 v Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "93.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4 v Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "96.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Fleiss' kappa is a statistical measure for assessing the reliability of agreement between a fixed number of raters when assigning categorical ratings to a number of items or classifying items. The hypothesis to be tested was that the lower bound of two-sided 95% confidence interval of Fleiss' Kappa will be greater than or equal to 0.6.",
+                            "nonInferiorityType": "OTHER",
+                            "paramType": "Fleiss' kappa",
+                            "paramValue": "0.90",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.85",
+                            "ciUpperLimit": "0.95"
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Secondary Objective 4: Intra-reader Reliability of Reader Interpretation of Flortaucipir-PET Imaging",
+                    "description": "Cohen's Kappa will be calculated for each of 5 readers to assess the intra-reader reliability of flortaucipir F 18 PET scan visual interpretation. The statistic takes into account the possibility of the agreement occurring by chance. Cohen's kappa values range from 0 to 1 with 1 representing perfect agreement. Results are displayed as percentage of agreement within a reader, computed as follows: number of images for which reader had the same interpretation at initial and second read divided by the total number of images evaluated twice by a reader, multiplied by 100%.",
+                    "populationDescription": "20 scans read twice to assess the intra-reader reliability",
+                    "reportingStatus": "POSTED",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "percentage agreement of cases",
+                    "timeFrame": "baseline scan",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Randomly Selected Re-reads",
+                            "description": "Cases randomly selected to be read twice by the same reader"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "20"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Reader 1",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "95.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 2",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "85.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "80.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 4",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "95.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Reader 5",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "90.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "analyses": [
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Cohen's kappa statistic for Reader 1",
+                            "nonInferiorityType": "OTHER",
+                            "paramType": "Cohen's kappa",
+                            "paramValue": "0.89",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.69",
+                            "ciUpperLimit": "1.00"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Cohen's kappa statistic for Reader 2",
+                            "nonInferiorityType": "OTHER",
+                            "paramType": "Cohen's kappa",
+                            "paramValue": "0.71",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.41",
+                            "ciUpperLimit": "1.00"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Cohen's kappa statistic for Reader 3",
+                            "nonInferiorityType": "OTHER",
+                            "paramType": "Cohen's kappa",
+                            "paramValue": "0.60",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.24",
+                            "ciUpperLimit": "0.95"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Cohen's kappa statistic for Reader 4",
+                            "nonInferiorityType": "OTHER",
+                            "paramType": "Cohen's kappa",
+                            "paramValue": "0.89",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.67",
+                            "ciUpperLimit": "1.00"
+                        },
+                        {
+                            "groupIds": [
+                                "OG000"
+                            ],
+                            "groupDescription": "Cohen's kappa statistic for Reader 5",
+                            "nonInferiorityType": "OTHER",
+                            "paramType": "Cohen's kappa",
+                            "paramValue": "0.79",
+                            "ciPctValue": "95",
+                            "ciNumSides": "TWO_SIDED",
+                            "ciLowerLimit": "0.52",
+                            "ciUpperLimit": "1.00"
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0.5",
+            "timeFrame": "Not applicable. Adverse events were not assessed during this study.",
+            "description": "Adverse events were not assessed during this study.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "All Cases",
+                    "description": "No study drug will be administered. Scans previously acquired from Study A16 (NCT02516046) and A05 (NCT02016560) will be read by independent, blinded readers.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 0,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 0,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 0
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictionType": "LTE60",
+                "restrictiveAgreement": true
+            },
+            "pointOfContact": {
+                "title": "Medical Director",
+                "organization": "Avid Radiopharmaceuticals, Inc.",
+                "email": "clinicaloperations@avidrp.com",
+                "phone": "215-298-0700"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [
+        "Flortaucipir F 18 (TAUVID) \u2014 a radioactive PET imaging tracer (diagnostic radiopharmaceutical) for detecting aggregated tau neurofibrillary tangles; not a therapeutic drug."
+    ],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The trial description and title state this is a reader study to assess accuracy/reliability of flortaucipir\u2011PET scan interpretation (i.e., training/assessing physician readers of an imaging test). That makes this a diagnostic imaging study, not a therapeutic intervention aimed at disease modification, cognitive enhancement, or neuropsychiatric symptom reduction. ",
+        "Act: Flortaucipir F 18 (marketed as TAUVID) is an FDA\u2011approved radiopharmaceutical PET tracer used to image aggregated tau neurofibrillary tangles in adults being evaluated for Alzheimer\u2019s disease \u2014 it is a diagnostic agent, not a biologic or small\u2011molecule therapy. \ue200cite\ue202turn0search0\ue202turn0search2\ue201",
+        "Reflect: Because the intervention under study is an imaging diagnostic (reader performance on PET scans) rather than a therapeutic agent or symptom\u2011directed treatment, none of the four therapeutic categories apply (disease\u2011targeted biologic, disease\u2011targeted small molecule, cognitive enhancer, neuropsychiatric symptom improvement). Therefore the correct classification is 'N/A'.",
+        "Web search results (sources used):",
+        "- TAUVID (flortaucipir F 18) product/prescribing information (Lilly) \u2014 indicates TAUVID is indicated for PET imaging of aggregated tau NFTs in adults evaluated for AD. \ue200cite\ue202turn0search0\ue201",
+        "- Lilly press release announcing FDA approval of TAUVID (May 28, 2020) \u2014 describes TAUVID as the first FDA\u2011approved diagnostic agent to image tau NFTs. \ue200cite\ue202turn0search2\ue201",
+        "- Medical information / FAQ on TAUVID (test accuracy and intended use). \ue200cite\ue202turn0search1\ue201",
+        "- PubMed article on flortaucipir PET and its relationship to tau/amyloid pathology (research validation). \ue200cite\ue202turn0search4\ue201",
+        "- JAMA Radiology / JAMA study on discriminative accuracy of [18F]flortaucipir PET for Alzheimer disease vs other neurodegenerative disorders. \ue200cite\ue202turn0search5\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

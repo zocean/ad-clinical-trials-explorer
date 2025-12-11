@@ -1,0 +1,2779 @@
+{
+    "nct_id": "NCT00205179",
+    "title": "Alzheimer's Disease: Potential Benefit of Isoflavones",
+    "status": "COMPLETED",
+    "last_update_time": "2020-01-13",
+    "description_brief": "The purpose of this pilot study is to evaluate the potential effects of soy isoflavone supplements on cognitive function for men and women with Alzheimer's Disease (AD). Preliminary studies evaluating the effects of soy supplements on memory in cognitively healthy older adults have yielded promising results that are now being evaluated in patients with AD. It is hypothesized that isoflavone supplements will ameliorate cognitive declines for older adults diagnosed with Alzheimer's disease, when compared to subjects on placebo.",
+    "description_detailed": "N/A",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "preAssignmentDetails": "4 subjects withdrew consent; 3 subjects ineligible due to abnormal laboratory tests or inability to complete testing",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Novasoy",
+                    "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                },
+                {
+                    "id": "FG001",
+                    "title": "Placebo",
+                    "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "32"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "33"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "30"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "29"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "2"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "4"
+                                }
+                            ]
+                        }
+                    ],
+                    "dropWithdraws": [
+                        {
+                            "type": "Death",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Physician Decision",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Adverse Event",
+                            "reasons": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "populationDescription": "Older adults with Alzheimer's disease",
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Placebo",
+                    "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                },
+                {
+                    "id": "BG001",
+                    "title": "Novasoy",
+                    "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "33"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "32"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "65"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "65"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "76.8",
+                                            "spread": "6.8"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "75.7",
+                                            "spread": "7.7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "76",
+                                            "spread": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "65"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "17"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "34"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "31"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race/Ethnicity, Customized",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "White",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "65"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "64"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Latino",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "65"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "65"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "65"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Number of participants with Apolipoprotein E4 (ApoE4) allele",
+                    "description": "One subject in each group declined to undergo ApoE genotyping",
+                    "populationDescription": "One subject in each group declined to undergo ApoE genotyping",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "63"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "31"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Education in years",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "65"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14.2",
+                                            "spread": "2.5"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "14.8",
+                                            "spread": "2.7"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "14.5",
+                                            "spread": "2.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Total weekly isoflavone intake at Baseline",
+                    "description": "Established with Food Frequency Questionnaire (FFQ)",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "mg/week",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "65"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "6.5",
+                                            "spread": "34.1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16.5",
+                                            "spread": "66.3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "12.5",
+                                            "spread": "45.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Global cognition: Mini-Mental State Examination score",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "score on a scale",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "65"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "22.4",
+                                            "spread": "5.3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "23.5",
+                                            "spread": "4.0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "22.95",
+                                            "spread": "4.65"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Mood symptoms: Geriatric Depression Scale-Short Form score",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "score on scale",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "65"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2.6",
+                                            "spread": "2.4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "3.2",
+                                            "spread": "3.3"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2.9",
+                                            "spread": "2.85"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Number of participants on Acetylcholinesterase-Inhibitors (AchE-I)",
+                    "description": "Acetylcholinesterase-Inhibitors included Donepezil, Galantamine Hydrobromide, and Rivastigmine4NMDA-",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "65"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "30"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "61"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Number of participants on N-methyl-D-aspartate receptor (NMDAR) blocker-Memantine",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "65"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "16"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Body Mass Index",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "kg/m^2",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "65"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "27.9",
+                                            "spread": "5.4"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "27.5",
+                                            "spread": "5.0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "27.7",
+                                            "spread": "5.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Cognitive Outcomes - Language Executive Function : Category Fluency Assessed as Number of Words Generated/Min",
+                    "description": "Participants are given 1 min to produce as many unique words as possible within a category (category fluency). More words per minute will correlates to better category fluency",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "number of words generated per minute",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "27"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "21.5",
+                                            "spread": "1.9"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "25.7",
+                                            "spread": "2.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Cognitive Outcomes - Language Executive Function : Phonemic Fluency/Verbal Fluency Assessed as Number of Words Generated Per Minute",
+                    "description": "Participants are given 1 min to produce as many words as possible starting with a given letter (letter fluency). More number of words per minute correlates to better phonemic fluency/verbal fluency",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "number of words generated per minute",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "25.9",
+                                            "spread": "2.4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "35.2",
+                                            "spread": "2.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Immediate and Delayed Recall on Verbal Memory/ List Learning Immediate and Delayed Free Recall: Number of Words Recalled",
+                    "description": "List of 15 semantically unrelated words is presented verbally to the participants once, after which they are asked to free recall as many words as possible. Subsequently, this presentation-test routine (learning trials) is repeated four more times. A total recall score is determined by adding the number of recalled items for the five learning trials. After presentation of a distractor list and a delay of approximately 20 minutes, participants are asked to freely recall items from the original word list. A delayed recall score is then derived from this test.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Number of words recalled",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "29"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.8",
+                                            "spread": "0.50"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2.2",
+                                            "spread": "0.50"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Immediate and Delayed Recall on Verbal Memory/ Logical Memory Immediate and Delayed Recall: Number of Story Elements Recalled",
+                    "description": "In the logical delayed memory test, participants are read a logically organized story. Approximately 20 minutes later, the participants are asked to recall the story from memory (Delayed Recall). The version used in this study uses only one story (Story A) read once to participants at each study visit. Possible scores for delayed recall trials range from 0 to 25, with higher scores reflecting more details recalled.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Number of story elements recalled",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "29"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4.6",
+                                            "spread": "0.95"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "5.7",
+                                            "spread": "0.9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Measure of Divided Attention: Time to Complete Trail Making Test B",
+                    "description": "Trail Making Test-Version B (TMT B) \\[113\\], a measure of divided attention, the subject is asked to draw lines to connect consecutively numbered and lettered circles, alternating between the 2 sequences. The time needed to complete the task is recorded.\n\nMore time taken to complete the test or higher score indicates lower executive function/higher impairment.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Seconds",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy Treated",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "25"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "27"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "95.5",
+                                            "spread": "16.7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "95.7",
+                                            "spread": "16.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "A Test of Planning: Time to Complete Mazes",
+                    "description": "Time to complete mazes is a test of planning. Subjects are asked to complete a set of 3 mazes. The time taken to complete the maze is inversely proportional to the cognitive function.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Seconds",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "27"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "26"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "32.2",
+                                            "spread": "5.3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "22.6",
+                                            "spread": "5.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Measure of Selective Attention: Time to Complete Stroop Color Word Test",
+                    "description": "Selective attention was evaluated with the Stroop Color Word Interference Test. In the interference portion of this test, the subject identifies the color of ink in which words (\"red\", \"green\", or \"blue\") are printed, requiring the subject to inhibit their natural tendency to read the word. A subject's score is the time taken to identify 50 stimulus items.\n\nThe time taken to complete the maze is inversely proportional to the cognitive function.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Seconds",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "27"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "27"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "105",
+                                            "spread": "12"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "91.8",
+                                            "spread": "12"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Visual Memory Test: Complex Figure Delayed Recall; Number of Points",
+                    "description": "Visual memory will be evaluated by complex figure delayed recall test. In this test , a two dimensional figure is shown to the subjects. After a delay of 30 min, they are asked to draw the same figure based on their memory. The Complex Figure Test assesses the subject's ability to remember a 2-dimensional figure presented briefly. The scoring system used includes scores related to location, accuracy and organization. Higher score correlates to better visual memory.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "number of points",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10.6",
+                                            "spread": "1.8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "13.4",
+                                            "spread": "1.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Visual Memory : Benton Visual Retention Test: Number of Correct Figures",
+                    "description": "The Benton Visual Retention Test (or simply Benton test or BVRT) is an individually administered test for people aged from 8 years to adulthood that measures visual perception and visual memory. It can also be used to help identify possible learning disabilities among other afflictions that might affect an individual's memory. The individual examined is shown 10 designs, one at a time, and asked to reproduce each one as exactly as possible on plain paper from memory. The test is untimed, and the results are professionally scored by form, shape, pattern, and arrangement on the paper.\n\nFor the 'test of number of correct figures' score is calculated based on an all-or-nothing approach; points are awarded if the reproduction of the design matches the original.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "number of correct figures",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.7",
+                                            "spread": "0.4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2.8",
+                                            "spread": "0.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Cognitive Outcomes - Visual Memory : Benton Visual Retention; Number of Errors",
+                    "description": "The Benton Visual Retention Test is an individually administered test for people aged from 8 years to adulthood that measures visual perception and visual memory. It can also be used to help identify possible learning disabilities among other afflictions that might affect an individual's memory. The individual examined is shown 10 designs, one at a time, and asked to reproduce each one as exactly as possible on plain paper from memory. The test is untimed, and the results are professionally scored by form, shape, pattern, and arrangement on the paper.\n\nFor the 'test of number of errors' score is calculated based on the number and type of errors made for each design. The major categories for these errors are omissions, distortions, perseverations, rotations, misplacements, and size errors.These scores are then be compared to several sets of normative data available in the manual, each representing different demographic characteristics, and conclusions can be drawn by the examiner.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "Number of errors",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "14.5",
+                                            "spread": "1.2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "13.1",
+                                            "spread": "1.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Cognitive Outcomes - Visual Motor : Complex Figure Copy; Number of Points",
+                    "description": "Visual memory will be evaluated by Complex Figure copy test. The Complex Figure Test assesses the subject's ability to copy a 2-dimensional figure. The scoring system used include scores related to location, accuracy and organization. Higher score correlates to better visual memory.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "number of points",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "29"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "27.6",
+                                            "spread": "1.1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "29.0",
+                                            "spread": "1.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Cognitive Outcomes - Visual Motor : Time to Complete Grooved Pegboard Test Using the Dominant Hand",
+                    "description": "The Grooved Pegboard is a dexterity test consisting of 25 holes with randomly positioned slots. Pegs with a key on one side must be rotated to match the hole before they can be inserted. Participants are instructed to place all pegs into the 25 holes, picking up one at a time, and using just one hand. They use their dominant hand. Time taken to finish the test inversely correlates to the cognitive ability.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "time in seconds",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "24"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "27"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "134.3",
+                                            "spread": "17.6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "149.8",
+                                            "spread": "16.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Cognitive Outcomes - Visual Motor : Time to Complete Grooved Pegboard Test Using the Non-Dominant Hand",
+                    "description": "The Grooved Pegboard is a dexterity test consisting of 25 holes with randomly positioned slots. Pegs with a key on one side must be rotated to match the hole before they can be inserted. Participants are instructed to place all pegs into the 25 holes, picking up one at a time, and using just one hand. They use their non-dominant hand. Time taken to finish the test inversely correlates to the cognitive ability.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "time in seconds",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "22"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "26"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "161.8",
+                                            "spread": "24.4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "156",
+                                            "spread": "22.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Cognitive Outcomes-Global Cognition : Mini-Mental State Examination (MMSE) Score",
+                    "description": "During the MMSE, a health professional asks a participant a series of questions designed to test memory, ability to solve simple problems and other thinking skills.\n\nThe maximum MMSE score - 30 points. Score of 20 to 24 - mild dementia, 13 to 20 - moderate dementia, and \\<12 indicates severe dementia.\n\nOn average, the MMSE score of a person with Alzheimer's declines about 2 to 4 points each year.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "29"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "30"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "21.3",
+                                            "spread": "1.0"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "23.4",
+                                            "spread": "1.0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Multiple Mood States: Profile of Mood States (POMS)-Depression Scale",
+                    "description": "Depression scale is one of the subscale of POMS. Depression scale has 15 items and scores ranges from 0-60. Higher score indicates more severe depression.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy Treated",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "9",
+                                            "spread": "1.8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "11.4",
+                                            "spread": "1.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Multiple Mood States: Profile of Mood States (POMS)-Tension Scale",
+                    "description": "Tension scale is one of the subscale of POMS. Tension scale has 9 items and scores ranges from 0-36. Higher score indicates more severe outcomes.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy Treated",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "8.2",
+                                            "spread": "1.3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "9.3",
+                                            "spread": "1.3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Multiple Mood States: Profile of Mood States (POMS)-Anger Scale",
+                    "description": "Anger scale is one of the subscale of POMS. Tension scale has 12 items and scores ranges from 0-48. Higher score indicates more anger issues.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy Treated",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "6.8",
+                                            "spread": "1.4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "8.3",
+                                            "spread": "1.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Multiple Mood States: Profile of Mood States (POMS)-Fatigue Scale",
+                    "description": "Fatigue scale is one of the subscale of POMS. Tension scale has 7 items and scores ranges from 0-28. Higher score indicates more fatigue.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy Treated",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10.3",
+                                            "spread": "1.2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "10.3",
+                                            "spread": "1.2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Multiple Mood States: Profile of Mood States (POMS)-Vigor Scale",
+                    "description": "Vigor scale is one of the subscale of POMS. Vigor scale has 8 items and scores ranges from 0-32. Higher score indicates more severe outcomes.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy Treated",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "12.4",
+                                            "spread": "1.1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "12.0",
+                                            "spread": "1.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Multiple Mood States: Profile of Mood States (POMS)-Confusion Scale",
+                    "description": "Confusion scale is one of the subscale of POMS. Confusion scale has 7 items and scores ranges from 0-28. Higher score indicates more severe outcomes.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy Treated",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "28"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "15.5",
+                                            "spread": "1.1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "14",
+                                            "spread": "1.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Geriatric Depression Scale-Subject Report",
+                    "description": "Geriatric Depression Scale (GDS) has been tested and used extensively with the older population to measure depression.\n\nSubject will self-report a short form GDS consisting of 15 questions. Out of 15 items, 10 indicate the presence of depression when answered positively, while the rest (question numbers 1, 5, 7, 11, 13) indicate depression when answered negatively.\n\nScores of 0-4 are considered normal, depending on age, education, and complaints; Scores of 5-8 indicate mild depression; 9-11 indicate moderate depression; and Scores of 12-15 indicate severe depression.\n\nThe Short Form is more easily used by physically ill and mildly to moderately demented patients who have short attention spans and/or feel easily fatigued. It takes about 5 to 7 minutes to complete",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "29"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.1",
+                                            "spread": "0.6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3.3",
+                                            "spread": "0.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Geriatric Depression Scale-Study Partner Report",
+                    "description": "Study partner is someone who has frequent contact with the subject (e.g. an average of 10 hours per week or more), and can accompany the subject to all clinic visits for the duration of the protocol.\n\nStudy partner will report a short form GDS consisting of 15 questions. Out of 15 items, 10 indicate the presence of depression when answered positively, while the rest (question numbers 1, 5, 7, 11, 13) indicate depression when answered negatively.\n\nScores of 0-4 are considered normal, depending on age, education, and complaints; Scores of 5-8 indicate mild depression; 9-11 indicate moderate depression; and Scores of 12-15 indicate severe depression.\n\nThe Short Form is more easily used by physically ill and mildly to moderately demented patients who have short attention spans and/or feel easily fatigued. It takes about 5 to 7 minutes to complete.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Error",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "6 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "29"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "28"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5.2",
+                                            "spread": "0.7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6.3",
+                                            "spread": "0.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Number of Participants With ApoE4 Allele",
+                    "description": "The epsilon-4 allele of the apolipoprotein E gene (APOE4) has been consistently associated with a greater risk of Alzheimer's disease (AD) as well as an earlier onset of AD.\n\nDetermination of apolipoprotein E (APOE) genotype was performed on a non-fasting blood sample collected at Baseline, using standard Polymerase chain reaction (PCR) and DNA sequencing techniques in a Clinical Laboratory Improvement Amendments (CLIA) certified laboratory. DNA extracted from whole blood was amplified by PCR using specific primers for the ApoE gene and the DNA then sequenced and analyzed for genotype using the FinchTV program (Version 1.3; Geospiza, Inc.)",
+                    "populationDescription": "Older adults with Alzheimer's disease",
+                    "reportingStatus": "POSTED",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "timeFrame": "Baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "33"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "32"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Plasma Concentrations of Isoflavones at Baseline",
+                    "description": "Isoflavone assays will be performed on non-fasting blood samples collected at baseline.\n\nNovasoy capsules predominantly contain purified glycoside forms of isoflavones known genistein and diadzein. The plasma level of genistein and diadzine will be measured in the participants plasma.There is large inter-individual variations in the extent of intestinal metabolism, even when the quantity of isoflavone intake is standardized. Equol is a metabolite of isoflavones. Equol has high biological efficacy. Therefore, along with genistein and diadzein, plasma levels of equol will be measured to understand the isoflavone metabolism in the participants.",
+                    "populationDescription": "Data is unavailable for 2 subject from placebo group and 1 subjects from Novasoy group",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ng/ml",
+                    "timeFrame": "baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy Treated",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "33"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "32"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Genistein",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "31"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "31"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4.8",
+                                            "spread": "11.4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.5",
+                                            "spread": "2.6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Daidzein",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "32"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.8",
+                                            "spread": "6.1"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.3",
+                                            "spread": "2.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Equol",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "32"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.3",
+                                            "spread": "1.5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "0.1",
+                                            "spread": "0.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Plasma Concentrations of Isoflavones at Month 3",
+                    "description": "Isoflavone assays will be performed on non-fasting blood samples collected at month 3.\n\nNovasoy capsules predominantly contain purified glycoside forms of isoflavones known genistein and diadzein. The plasma level of genistein and diadzine will be measured in the participants plasma.There is large inter-individual variations in the extent of intestinal metabolism, even when the quantity of isoflavone intake is standardized. Equol is a metabolite of isoflavones. Equol has high biological efficacy. Therefore, along with genistein and diadzein, plasma levels of equol will be measured to understand the isoflavone metabolism in the participants.",
+                    "populationDescription": "Data is unavailable for 1 subject from each group",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ng/ml",
+                    "timeFrame": "At month 3",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy Treated",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "33"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "32"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Genistein",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "31"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "2.1",
+                                            "spread": "3.7"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2777.7",
+                                            "spread": "188.4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Daidzein",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "32"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.1",
+                                            "spread": "2.3"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "197.3",
+                                            "spread": "150.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Equol",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "32"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.2",
+                                            "spread": "0.5"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "20.3",
+                                            "spread": "50.7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Plasma Concentrations of Isoflavones at Month 6",
+                    "description": "Isoflavone assays will be performed on non-fasting blood samples collected at month 6.\n\nNovasoy capsules predominantly contain purified glycoside forms of isoflavones known genistein and diadzein. The plasma level of genistein and diadzine will be measured in the participants plasma.There is large inter-individual variations in the extent of intestinal metabolism, even when the quantity of isoflavone intake is standardized. Equol is a metabolite of isoflavones. Equol has high biological efficacy. Therefore, along with genistein and diadzein, plasma levels of equol will be measured to understand the isoflavone metabolism in the participants.",
+                    "populationDescription": "Data is unavailable for 1 subject from placebo group and 3 subjects from Novasoy group",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "ng/ml",
+                    "timeFrame": "At month 6",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy Treated",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "33"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "32"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Genistein",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "32"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "29"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "15.6",
+                                            "spread": "35.4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "338.6",
+                                            "spread": "308.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Daidzein",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "32"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "10.6",
+                                            "spread": "37.8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "206.6",
+                                            "spread": "156.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Equol",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "33"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "32"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "0.1",
+                                            "spread": "0.6"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "19.6",
+                                            "spread": "40.5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Plasma Concentrations of Estradiol at Baseline",
+                    "description": "Estradiol assay will be performed on non-fasting blood samples collected at baseline using an enzyme immunoassay kit.",
+                    "populationDescription": "Estradiol analysis done by the same investigator as part of another project with different subjects (PMID: 9054783 linked in the citation), did not show any change in the estradiol levels. Based on that, investigators did not see the justification for running these analyses in the current study. No estradiol analyses were performed for this study.",
+                    "reportingStatus": "POSTED",
+                    "timeFrame": "baseline",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy Treated",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "0"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Plasma Concentrations of Estradiol at 3 Month",
+                    "description": "Estradiol assay will be performed on non-fasting blood samples collected at baseline using an enzyme immunoassay kit.",
+                    "populationDescription": "Estradiol analysis done by the same investigator as part of another project with different subjects (PMID: 9054783 linked in the citation), did not show any change in the estradiol levels. Based on that, investigators did not see the justification for running these analyses in the current study. No estradiol analyses were performed for this study.",
+                    "reportingStatus": "POSTED",
+                    "timeFrame": "At 3 month",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy Treated",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "0"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "SECONDARY",
+                    "title": "Plasma Concentrations of Estradiol at 6 Month",
+                    "description": "Estradiol assay will be performed on non-fasting blood samples collected at baseline using an enzyme immunoassay kit.",
+                    "populationDescription": "Estradiol analysis done by the same investigator as part of another project with different subjects (PMID: 9054783 linked in the citation), did not show any change in the estradiol levels. Based on that, investigators did not see the justification for running these analyses in the current study. No estradiol analyses were performed for this study.",
+                    "reportingStatus": "POSTED",
+                    "timeFrame": "At 6 month",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Placebo",
+                            "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo"
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Novasoy Treated",
+                            "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "0"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Active",
+                    "description": "100mg/day soy isoflavones\n\nNovasoy: 100mg/day soy isoflavones",
+                    "seriousNumAffected": 1,
+                    "seriousNumAtRisk": 32,
+                    "otherNumAffected": 25,
+                    "otherNumAtRisk": 32
+                },
+                {
+                    "id": "EG001",
+                    "title": "Placebo",
+                    "description": "100mg/day matching placebo\n\nPlacebo: 100mg/day matching placebo",
+                    "seriousNumAffected": 3,
+                    "seriousNumAtRisk": 33,
+                    "otherNumAffected": 23,
+                    "otherNumAtRisk": 33
+                }
+            ],
+            "seriousEvents": [
+                {
+                    "term": "Death",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "notes": "Death due to complications from Alzheimer's disease",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 32
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 2,
+                            "numAffected": 2,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "Seizures",
+                    "organSystem": "Nervous system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "notes": "Developed seizures secondary to Alzheimer's",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 32
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 33
+                        }
+                    ]
+                },
+                {
+                    "term": "DVT",
+                    "organSystem": "Blood and lymphatic system disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 0,
+                            "numAffected": 0,
+                            "numAtRisk": 32
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 33
+                        }
+                    ]
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "other illness not related to treatment",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 25,
+                            "numAffected": 25,
+                            "numAtRisk": 32
+                        },
+                        {
+                            "groupId": "EG001",
+                            "numEvents": 23,
+                            "numAffected": 23,
+                            "numAtRisk": 33
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Dr. Carey Gleason",
+                "organization": "University of Wisconsin",
+                "email": "ceg@medicine.wisc.edu",
+                "phone": "608-280-7000"
+            }
+        }
+    },
+    "target_category": "cognitive enhancer",
+    "drug": [
+        "soy isoflavone supplements (primarily genistein and daidzein; metabolite equol)"
+    ],
+    "placebo": [
+        "matching placebo capsules"
+    ],
+    "explanation_target": [
+        "Reason: The trial description tests oral soy isoflavone supplements to \"ameliorate cognitive declines\" in people with Alzheimer's disease, so the intended effect is improvement of cognition rather than a biologic (e.g., antibody) that targets core Alzheimer pathology (amyloid/tau). This fits the \"Cognitive enhancer\" category by the provided definitions.",
+        "Act: Key extracted details \u2014 intervention: soy isoflavone supplements (100 mg/day in the pilot described in the literature); common constituents are genistein and daidzein (and the metabolite equol), and the comparator was matching placebo capsules. Clinical trial reports of this intervention in AD and older adults exist (pilot RCT in AD; other RCTs/meta-analyses of cognitive outcomes). \ue200cite\ue202turn0search7\ue202turn0search8\ue202turn0search4\ue201",
+        "Evidence from the literature: a randomized pilot trial of 100 mg/day soy isoflavones in older adults with AD found no overall cognitive benefit versus placebo after 6 months, though exploratory analyses linked equol levels to some cognitive measures. Meta-analyses of RCTs in older adults report small improvements in overall cognition and memory with soy isoflavones. These sources show the intervention is a dietary small-molecule phytoestrogen tested for cognitive effects rather than a disease-modifying biologic. \ue200cite\ue202turn0search7\ue202turn0search4\ue202turn0search1\ue201",
+        "Reflect: Classification confirmed \u2014 soy isoflavones are plant-derived small molecules (phytoestrogens) intended here to improve cognitive performance/symptoms; they are not monoclonal antibodies/vaccines (biologics) nor described as directly targeting amyloid or tau pathology. Some uncertainty remains about effect size and responders (e.g., equol producers), but that does not change the category. \ue200cite\ue202turn0search4\ue202turn0search7\ue201"
+    ],
+    "agent_type": "M) Synaptic Plasticity/Neuroprotection",
+    "explanation_agent": [
+        "Reason: The trial tests oral soy isoflavone supplements (genistein, daidzein, metabolite equol) to improve cognition in people with Alzheimer\u2019s disease \u2014 a symptomatic/cognitive-enhancing approach rather than a disease-modifying therapy directed at amyloid or tau. This is described in the randomized AD trial and pilot RCTs. \ue200cite\ue202turn0search3\ue202turn0search4\ue201",
+        "Act: Key extracted details and mechanism: intervention = soy isoflavone supplements (commonly 100 mg/day in trials); principal constituents = genistein and daidzein, with equol as an active metabolite. Isoflavones are plant-derived phytoestrogens that preferentially bind estrogen receptors (notably ER\u03b2) and have antioxidant and neuroprotective effects in preclinical models \u2014 mechanisms consistent with modulation of synaptic plasticity and neuroprotection rather than targeting amyloid/tau directly. Clinical RCT evidence in AD and older adults shows mixed/small symptomatic effects but does not support a disease-modifying anti-amyloid or anti-tau action. \ue200cite\ue202turn0search4\ue202turn0search5\ue202turn0search7\ue201",
+        "Reflect: CADRO mapping \u2014 the most specific CADRO category matching a symptomatic cognitive enhancer / neuroprotective small molecule (phytoestrogen) is M) Synaptic Plasticity/Neuroprotection. Although isoflavones act via hormone receptors (phytoestrogen/ER interaction), the trial intent (improve cognition/neuroprotection) and mechanisms (synaptic modulation, antioxidant/neuroprotective effects) align better with M than with L (Growth Factors & Hormones), which is typically used for classical endocrine/growth-factor interventions. The AD trials cited describe symptomatic cognitive endpoints rather than direct targeting of core AD proteinopathies (amyloid/tau). \ue200cite\ue202turn0search3\ue202turn0search7\ue201",
+        "Web search results (key sources used): 1) \"Cognitive Effects of Soy Isoflavones in Patients with Alzheimer\u2019s Disease\" (RCT, PMC). \ue200cite\ue202turn0search3\ue201 2) \"A preliminary study of the safety, feasibility and cognitive efficacy of soy isoflavone supplements in older men and women\" (pilot RCT, PMC). \ue200cite\ue202turn0search4\ue201 3) Review/preclinical evidence on genistein/daidzein neuroprotection and ER\u03b2 affinity (physiology journal). \ue200cite\ue202turn0search5\ue201 4) Alzheimer's Drug Discovery Foundation summary on soy isoflavones (clinical evidence & interpretation). \ue200cite\ue202turn0search7\ue201"
+    ]
+}

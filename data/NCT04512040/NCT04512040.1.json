@@ -1,0 +1,601 @@
+{
+    "nct_id": "NCT04512040",
+    "title": "Feasibility of At-Home Telehealth Yoga for Treating Chronic Pain",
+    "status": "COMPLETED",
+    "last_update_time": "2023-06-13",
+    "description_brief": "This feasibility study will evaluate yoga as a treatment for chronic pain in people living with Alzheimer's disease, and their Caregivers. The experimental treatment is yoga delivered via a tablet computer to participants at home (\"teleyoga\").",
+    "description_detailed": "The investigators will demonstrate the feasibility of conducting a trial involving teleyoga for people with Alzheimer's disease and their Caregivers. Participants with Alzheimer's disease and chronic pain (n=15) and their Caregivers (n=15) will all participate in teleyoga classes. Yoga classes will be given weekly for 12 weeks. At the end of treatment, participants will provide feedback by completing a satisfaction questionnaire.",
+    "phase": [
+        "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "AD Patients",
+                    "description": "Yoga will be delivered in either a 1-on-1 format or a group format between the yoga therapist and the AD/caregiver dyad.\n\nParticipants will receive at-home teleyoga classes via video conferencing."
+                },
+                {
+                    "id": "FG001",
+                    "title": "Caregivers",
+                    "description": "Yoga will be delivered in either a 1-on-1 format or a group format between the yoga therapist and the AD/caregiver dyad.\n\nParticipants will receive at-home teleyoga classes via video conferencing."
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "15"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "15"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "14"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "14"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "1"
+                                },
+                                {
+                                    "groupId": "FG001",
+                                    "numSubjects": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "AD Patients",
+                    "description": "Yoga will be delivered in 1-on-1 format between the yoga therapist and the AD/caregiver dyad.\n\nParticipants will receive at-home teleyoga classes via video conferencing."
+                },
+                {
+                    "id": "BG001",
+                    "title": "Caregivers",
+                    "description": "Yoga will be delivered in 1-on-1 format between the yoga therapist and the AD/caregiver dyad.\n\nParticipants will receive at-home teleyoga classes via video conferencing."
+                },
+                {
+                    "id": "BG002",
+                    "title": "Total",
+                    "description": "Total of all reporting groups"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "15"
+                        },
+                        {
+                            "groupId": "BG001",
+                            "value": "15"
+                        },
+                        {
+                            "groupId": "BG002",
+                            "value": "30"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "populationDescription": "1 caregiver did not provide their age at baseline",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "Years",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "29"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "73.33",
+                                            "spread": "9.79"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "63.86",
+                                            "spread": "9.31"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "68.60",
+                                            "spread": "9.55"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "populationDescription": "Number of analyzed in rows differ from overall number due to no responses by some participants.",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "14"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "27"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "20"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "calculatePct": false,
+                    "classes": [
+                        {
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "11"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "24"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "0"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "denoms": [
+                                {
+                                    "units": "Participants",
+                                    "counts": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG001",
+                                            "value": "15"
+                                        },
+                                        {
+                                            "groupId": "BG002",
+                                            "value": "30"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Attendance",
+                    "description": "% of classes attended in 12 weeks of treatment",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "percentage of classes attended",
+                    "timeFrame": "12 weeks",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AD Patients",
+                            "description": "Yoga will be delivered in 1-on-1 format between the yoga therapist and the AD/caregiver dyad.\n\nParticipants will receive at-home teleyoga classes via video conferencing."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Caregivers",
+                            "description": "Yoga will be delivered in 1-on-1 format between the yoga therapist and the AD/caregiver dyad.\n\nParticipants will receive at-home teleyoga classes via video conferencing."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "14"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "14"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "85.12",
+                                            "spread": "15.75"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "86.31",
+                                            "spread": "15.19"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "OTHER_PRE_SPECIFIED",
+                    "title": "Treatment Satisfaction: Questionnaire",
+                    "description": "Satisfaction of treatment was measured using the Multi-Dimensional Treatment Satisfaction Measure (MDTSM), which is composed of 33 questions that assess treatment process and outcome attributes.\n\nEach of the 33 questions is scored on a zero to 4 Likert rating scale with a score of zero indicating \"not at all satisfied\" and a score of 4 indicating \"very satisfied\". For each participant the mean score from all 33 ratings is calculated, which produces a score ranging from zero (not at all satisfied) to 4 (very satisfied). For the assessment of feasibility, we set the group mean target score on the MDTSM to \u22652, representing neutral or positive satisfaction.",
+                    "populationDescription": "1 dyad dropped out during intervention, 1 dyad lost to follow up after intervention (total of 13 dyads completed outcome measures)",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "score on a scale",
+                    "timeFrame": "immediately after the final treatment session (1 day)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "AD Patients",
+                            "description": "Yoga will be delivered in either a 1-on-1 format or a group format between the yoga therapist and the AD/caregiver dyad.\n\nParticipants will receive at-home teleyoga classes via video conferencing."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Caregivers",
+                            "description": "Yoga will be delivered in either a 1-on-1 format or a group format between the yoga therapist and the AD/caregiver dyad.\n\nParticipants will receive at-home teleyoga classes via video conferencing."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "13"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "13"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "3.01",
+                                            "spread": "0.69"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "3.30",
+                                            "spread": "0.63"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "baseline to end of treatment (12 weeks)",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "AD Patients",
+                    "description": "Yoga will be delivered in either a 1-on-1 format or a group format between the yoga therapist and the AD/caregiver dyad.\n\nParticipants will receive at-home teleyoga classes via video conferencing.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 15,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 15,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 15
+                },
+                {
+                    "id": "EG001",
+                    "title": "Caregivers",
+                    "description": "Yoga will be delivered in either a 1-on-1 format or a group format between the yoga therapist and the AD/caregiver dyad.\n\nParticipants will receive at-home teleyoga classes via video conferencing.",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 15,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 15,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 15
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Peter Bayley, PhD",
+                "organization": "VA Palo Alto Health Care System",
+                "email": "peter.bayley@va.gov",
+                "phone": "650-493-5000",
+                "phoneExt": "68653"
+            }
+        }
+    },
+    "target_category": "N/A",
+    "drug": [],
+    "placebo": [],
+    "explanation_target": [
+        "Reason: The intervention is yoga delivered via tablet (\"teleyoga\") to treat chronic musculoskeletal pain in people with Alzheimer's disease and their caregivers \u2014 a behavioral/non-pharmacologic intervention, not a drug or biologic. This does not fit any of the four therapeutic drug categories (disease-targeted biologic, disease-targeted small molecule, cognitive enhancer, or neuropsychiatric symptom improvement). \ue200cite\ue202turn0search6\ue202turn0search5\ue201",
+        "Act: Key extracted details \u2014 Intervention: At-home teleyoga (behavioral). Population: people with Alzheimer's disease + caregivers. Purpose: treat chronic musculoskeletal pain (feasibility study). No drug or placebo is listed in the trial registration or the published feasibility report. Therefore there is no drug target to classify. \ue200cite\ue202turn0search6\ue202turn0search5\ue201",
+        "Reflect: Classification verified against the trial description and the published feasibility study: teleyoga is a non-pharmacologic pain intervention delivered by telehealth, so the correct category is 'N/A' under the provided drug-target categories. If you\u2019d like, I can reclassify under a different taxonomy (e.g., 'non-pharmacologic behavioral intervention' or 'symptom management for pain'). \ue200cite\ue202turn0search5\ue202turn0search6\ue201",
+        "Web search results found (sources): PubMed/PMCID full text of the teleyoga feasibility study (Teleyoga for Patients With Alzheimer\u2019s Disease and Chronic Musculoskeletal Pain and Their Caregivers). \ue200cite\ue202turn0search5\ue201",
+        "ClinicalTrials.gov listing for \"At-Home Telehealth Yoga for Treating Chronic Pain in People With Alzheimer's Disease and Their Caregiver's\" (NCT04512040) showing Intervention: Behavioral: At-Home Yoga (no drug/placebo listed). \ue200cite\ue202turn0search6\ue201",
+        "Additional related literature (examples): PubMed summary of the teleyoga feasibility study and other teleyoga/chair-yoga feasibility studies in older adults with dementia and chronic pain. \ue200cite\ue202turn0search0\ue202turn0search3\ue201"
+    ],
+    "agent_type": "N/A",
+    "explanation_agent": []
+}

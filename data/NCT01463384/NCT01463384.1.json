@@ -1,0 +1,592 @@
+{
+    "nct_id": "NCT01463384",
+    "title": "MRI and MRS Diagnosis and Treatment Monitoring of Alzheimer's Disease With Novel Therapy",
+    "status": "COMPLETED",
+    "last_update_time": "2014-09-23",
+    "description_brief": "Cognitively normal individuals, patients with Mild Cognitive Impairment (MCI) or Alzheimer's Disease (AD) will undergo clinical screening, neuropsychological tests, blood and urine analyses, quantitative magnetic resonance imaging (MRI) and proton (1H ) and carbon 13 (13C) magnetic resonance spectroscopy (MRS). Each individual will receive minocycline oral administration for 4 weeks initially, after which MRI, MRS and neuropsychological results will be recorded. If no adverse side effects occur, subjects will continue minocycline administration for an additional 5 months.",
+    "description_detailed": "In the course of on-going trials of novel MRI procedures for Neurological Diagnosis, the investigators have established non-invasive BIOMARKERS (Note: Biomarkers are objective Laboratory tests used in, but not replacing Clinical diagnostic criteria of any disease,in this case age-related dementia of the Alzheimer type and its pre-clinical forms including Mild Cognitive Impairment - MCI) which significantly assist in the Diagnosis of Alzheimer's Disease. MRS, rather like blood tests which are applied for screening and exclusion of medical disorders, provides a pattern of brain chemicals from which this and many other diagnoses have become available (see: Magnetic Resonance Spectroscopy in Neurological Diagnosis: E.R Danielsen and B.D. Ross, Marcel Dekker New York, 1999). Diagnosis of Alzheimer's Disease has hitherto been exclusively a clinical diagnosis, made on the basis of non-specific tests by the treating physician/neurologist. Furthermore, treatments have been of limited efficacy so that the pressure for conclusive diagnosis or an objective characterization of disease progression (or better, regression) has not been a priority. This conservative approach to Alzheimer's Disease changed in 2010 with the Report of National Institutes of Aging. First: The failures of treatment have been ascribed to introduction only in patients with advanced disease (\"dementia\"). Second: A preliminary form of AD, known as pre-clinical or Mild Cognitive Impairment, has been recognized, distinct from, and generally earlier in the disease course. Third: A new set of diagnostic criteria, which include objective 'biomarkers', from cerebrospinal fluid, genetic and imaging analyzes, has been accepted by the Expert Panel. Finally, Clinical trials of existing and new drugs for Alzheimer's Disease are expected to yield better results if initiated earlier - in the pre-clinical phase - and the outcomes evaluated by the earlier changes in an approved panel of biomarkers.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "recruitmentDetails": "Patients were recruited from local physicians, through Clinical Trials website and the AD association.",
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Minocycline",
+                    "description": "Subjects were administered 50mg minocycline twice daily for 6 months"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "13"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "13"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Minocycline",
+                    "description": "Subjects administered 50mg minocycline twice daily for 6 months"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "13"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Categorical",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "<=18 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Between 18 and 65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": ">=65 years",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "73.5",
+                                            "spread": "8.8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Repeatable Battery for the Assessment of Neuropsychological Status (RBANS)",
+                    "description": "RBANS is a brief neurocognitive battery with four alternate forms, measuring immediate and delayed memory, attention, language, and visuospatial skills. RBANS was developed as a stand-alone \"core\" battery for the detection and neurocognitive characterization of dementia and as a brief neurocognitive battery for the detection and tracking of neurocognitive deficits in a variety of disorders. (Reference: http://rbans.com/)\n\nQualitative Description of Index Scores:\n\nIndex Score Classification 130 and above Very Superior 120-129 Superior 110-119 High Average 90-109 Average 80-89 Low Average 70-79 Borderline 69 and below Extremely Low\n\nPsychometric range for RBANS:\n\nAD 0 - 77 MCI 78 - 99 Normal \\> 100\n\nRange of scores: Minimum = 0, Maximum = 130\n\nValues are reported below for Baseline, averaged for 1-3 months, and averaged for 4-6 months during minocycline administration.",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "units on a scale",
+                    "timeFrame": "Baseline values, 1-3 Months Values (averaged), 4-6 Months Values (averaged)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Minocycline AD",
+                            "description": "Alzheimer subjects who were administered 50mg minocycline twice daily."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Minocycline MCI",
+                            "description": "Mild cognitively impaired subject who was administered 50mg minocycline twice daily."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Minocycline NC",
+                            "description": "Normal control subjects who were administered 50mg minocycline twice daily."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "4"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "1"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline Values",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "49",
+                                            "spread": "8"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "81"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "106",
+                                            "spread": "13"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Averaged Values for Months 1-3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "32.5",
+                                            "spread": "3.4"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "58.7"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "108.4",
+                                            "spread": "26"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Averaged Values for Months 4-6",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "32.9",
+                                            "spread": "4.2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "63.8"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "123.6",
+                                            "spread": "37.1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Hippocampal Volumes Measured in Three Groups: Alzheimer Disease (AD), Mild Cognitive Impairment (MCI) and Normal, Age-matched Controls (NC).",
+                    "description": "Using magnetic resonance images acquired, hippocampal volume was measured monthly for 6 months.\n\nNormal range for hippocampal volume in aged-matched controls is 6.6 - 8.8 cm\\^3.\n\nValues are reported below for Baseline, averaged for 1-3 months, and averaged for 4-6 months during minocycline administration.",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "cm^3",
+                    "timeFrame": "Baseline values, 1-3 Months Values (averaged), 4-6 Months Values (averaged)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Minocycline AD",
+                            "description": "Alzheimer subjects who were administered 50mg minocycline twice daily."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Minocycline MCI",
+                            "description": "Mild cognitively impaired subject who was administered 50mg minocycline twice daily."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Minocycline NC",
+                            "description": "Normal control subjects who were administered 50mg minocycline twice daily."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "4"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "1"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline Values",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5.49",
+                                            "spread": "1.14"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6.35"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "6.98",
+                                            "spread": "1.18"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Averaged Values for Months 1-3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "5.42",
+                                            "spread": "1.06"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "6.30"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "6.92",
+                                            "spread": "0.48"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Averaged Values for Months 4-6",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "4.94",
+                                            "spread": "1.2"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "7.60"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "6.82",
+                                            "spread": "0.45"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Biomarker NAA/mI Measured in Three Groups: Alzheimer Disease (AD), Mild Cognitive Impairment (MCI) and Normal, Age-matched Controls (NC)",
+                    "description": "It has been demonstrated in numerous studies over the past decade that magnetic resonance spectroscopy (MRS) can be used for the diagnosis of Alzheimer's disease. By measuring an area within the posterior cingulate gyrus, one can obtain a biochemical signature of that region in AD whereby NAA is reduced and mI is increased.\n\nThese two biomarkers, N-acetylaspartate (NAA, a neuronal marker) and myo-inositol (mI, a glial marker) were quantified and then used to calculate NAA/mI (an index currently widely used for AD and MCI diagnosis).\n\nScale of MRS biomarkers for aged-matched controls: NAA = 1.43, mI = 0.60, NAA/mI = 2.38. Any value lower than NAA/mI of 2.38 are considered not normal.\n\nValues are reported below for Baseline, averaged for 1-3 months, and averaged for 4-6 months during minocycline administration.",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "Ratio",
+                    "timeFrame": "Baseline values, 1-3 Months Values (averaged), 4-6 Months Values (averaged)",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Minocycline AD",
+                            "description": "Alzheimer subjects who were administered 50mg minocycline twice daily."
+                        },
+                        {
+                            "id": "OG001",
+                            "title": "Minocycline MCI",
+                            "description": "Mild cognitively impaired subject who was administered 50mg minocycline twice daily."
+                        },
+                        {
+                            "id": "OG002",
+                            "title": "Minocycline NC",
+                            "description": "Normal control subjects who were administered 50mg minocycline twice daily."
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "4"
+                                },
+                                {
+                                    "groupId": "OG001",
+                                    "value": "1"
+                                },
+                                {
+                                    "groupId": "OG002",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Baseline Values",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.69",
+                                            "spread": "0.38"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.87"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "2.42",
+                                            "spread": "0.08"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Averaged Values for Months 1-3",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.78",
+                                            "spread": "0.61"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "1.80"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "2.44",
+                                            "spread": "0.26"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Averaged Values for Months 4-6",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "1.84",
+                                            "spread": "0.61"
+                                        },
+                                        {
+                                            "groupId": "OG001",
+                                            "value": "2.08"
+                                        },
+                                        {
+                                            "groupId": "OG002",
+                                            "value": "2.47",
+                                            "spread": "0.41"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "7 months",
+            "description": "No adverse events were reported.",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Minocycline",
+                    "description": "No adverse events were reported in any subjects who were taking minocycline. All subjects underwent monthly blood tests to monitor alanine transaminase and blood urea nitrogen levels.",
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 13,
+                    "otherNumAffected": 0,
+                    "otherNumAtRisk": 13
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "certainAgreement": {
+                "piSponsorEmployee": true,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Principal Investigator",
+                "organization": "Huntington Medical Research Institutes",
+                "email": "mrs@hmri.org",
+                "phone": "6263975840"
+            }
+        }
+    },
+    "target_category": "disease-targeted small molecule",
+    "drug": [
+        "minocycline"
+    ],
+    "placebo": [
+        "sugar pill (placebo)"
+    ],
+    "explanation_target": [
+        "Reason: The intervention is minocycline, a semi-synthetic tetracycline antibiotic (small molecule) repurposed for its anti-inflammatory/neuroprotective effects in Alzheimer's models; the trial uses MRI/MRS and neuropsychological measures to detect changes consistent with disease modification rather than solely symptomatic cognitive enhancement or neuropsychiatric symptom control. \ue200cite\ue202turn0search2\ue202turn0search9\ue201",
+        "Act (key extracted details): The trial (NCT01463384, \"MRI and MRS Diagnosis and Treatment Monitoring of Alzheimer's Disease With Novel Therapy\") administered oral minocycline (50 mg twice daily for 6 months) to cognitively normal, MCI, and AD participants and tracked MRI/MRS biomarkers and neuropsychological outcomes. This identifies the agent (minocycline), route, dose, and the trial's disease\u2011biomarker focus. \ue200cite\ue202turn1search0\ue202turn1search2\ue201",
+        "Mechanistic support / web evidence: Preclinical and mechanistic studies report that minocycline crosses the blood\u2013brain barrier and exerts anti\u2011inflammatory, anti\u2011apoptotic, and other neuroprotective effects (including effects on amyloid/tau\u2013related pathways), which is why it has been tested as a potential disease\u2011modifying therapy in AD models and early clinical studies. \ue200cite\ue202turn0search2\ue202turn0search8\ue202turn0search6\ue201",
+        "Context and caveat: Minocycline is a small molecule antibiotic repurposed for neuroprotection; later larger clinical testing in mild AD populations has reported negative results (no slowing of cognitive decline), indicating limited clinical efficacy to date \u2014 this affects expectations but does not change the intervention\u2019s classification. \ue200cite\ue202turn0search3\ue201",
+        "Reflect: Given that minocycline is a small\u2011molecule drug (not a biologic), and it is being used for its purported effects on AD pathology/inflammation and monitored with disease biomarkers (MRI/MRS), the correct category is 'disease-targeted small molecule'. There is low ambiguity: the trial drug is named and its intended disease\u2011modifying/neuroprotective rationale is documented. \ue200cite\ue202turn1search0\ue202turn0search9\ue201"
+    ],
+    "agent_type": "F) Inflammation",
+    "explanation_agent": [
+        "Reason: The intervention is minocycline, a small\u2011molecule tetracycline antibiotic repurposed in AD for anti\u2011inflammatory and neuroprotective actions (inhibits pro\u2011inflammatory microglial activation, reduces cytokine release, has anti\u2011apoptotic effects and can affect related pathways). This pharmacologic rationale matches CADRO category F (Inflammation). \ue200cite\ue202turn0search0\ue202turn0search3\ue201",
+        "Act: Key extracted trial details \u2014 NCT01463384 (\"MRI and MRS Diagnosis and Treatment Monitoring of Alzheimer's Disease With Novel Therapy\") administered oral minocycline (50 mg twice daily for up to 6 months) to cognitively normal, MCI, and AD participants and used MRI/MRS and neuropsychological measures to monitor disease\u2011related biomarker changes; the agent and trial design therefore identify a disease\u2011targeted small molecule acting primarily via anti\u2011inflammatory/neuroprotective mechanisms. \ue200cite\ue202turn1search1\ue202turn1search0\ue201",
+        "Reflect: Minocycline\u2019s main mechanistic evidence in AD models is modulation of microglial activation, reduction of pro\u2011inflammatory mediators, and anti\u2011apoptotic effects (with some preclinical reports of effects on amyloid/tau pathways as secondary observations). Thus the most specific CADRO assignment is F) Inflammation rather than Amyloid or Tau; although minocycline may have multi\u2011pathway actions, inflammation/microglial modulation is the dominant, documented mechanism in the context of these AD studies. \ue200cite\ue202turn0search3\ue202turn0search7\ue201",
+        "Web search / supporting results (most relevant sources): clinical trial record and summaries for NCT01463384 showing study title, dosing and MRI/MRS biomarker focus; trial listing and details. \ue200cite\ue202turn1search1\ue202turn1search0\ue201",
+        "Preclinical / mechanistic evidence: minocycline crosses the blood\u2013brain barrier and has reported neuroprotective, anti\u2011inflammatory and anti\u2011apoptotic effects in AD models. Representative publications and summaries documenting BBB penetration, microglial modulation, effects on A\u03b2/tau\u2011related pathways and neuroprotection are cited. \ue200cite\ue202turn0search0\ue202turn0search3\ue202turn0search8\ue201",
+        "Clinical context / caveat: Larger randomized clinical testing in mild AD failed to show slowing of cognitive decline (no disease\u2011modifying effect in those trials), which speaks to efficacy but does not change the mechanistic classification as an anti\u2011inflammatory/neuroprotective small molecule. \ue200cite\ue202turn0search1\ue202turn0search2\ue201"
+    ]
+}

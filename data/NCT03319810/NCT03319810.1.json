@@ -1,0 +1,419 @@
+{
+    "nct_id": "NCT03319810",
+    "title": "Proof of Concept of the Effect of Intravenous Immunoglobulin on Cerebral and Retinal Amyloid in Mild Cognitive Impairment Due to Alzheimer Disease",
+    "status": "COMPLETED",
+    "last_update_time": "2019-06-14",
+    "description_brief": "This is a proof of concept study to determine if changes in brain amyloid levels are evident three months after infusion of 0.4 g/kg of IVIG every 14 days x 5 infusions. Amyloid levels will be measured by Florbetapir PET and retinal scan.",
+    "description_detailed": "Study design:\n\nThis is a single center, open label, proof of concept, out-patient study. Subjects will undergo Florbetapir PET and have retinal amyloid levels measured, receive an infusion of IVIG at 0.4 g/kg every 14 days for a total of five infusions, and repeat PET and retinal amyloid measures three months after the first infusion.\n\nSubject population:\n\nThe study population will consist of male and female subjects diagnosed with mild cognitive impairment (MCI) due to Alzheimer disease (AD).\n\nEstimated study duration:\n\nThe duration of each study subject is approximately 4 months, including one screening visit over a period of approximately 28 days, 5 days of infusions over a 2-month period of time, and a follow-up visit at 3 months after the first infusion.\n\nDescription of study drug:\n\nOctagam is an FDA approved 10% human normal immunoglobulin solution ready for intravenous administration.\n\nStudy drug dosage:\n\nThe dose level of IVIG at 0.4 g/kg will be administered by IV infusion once every 14 days for two months.\n\nConcomitant therapy:\n\nConcomitant medications will be assessed at all study visits. Concomitant medications are prescribed or over-the-counter medications and should be consistent with the inclusion/exclusion criteria. Concomitant medication appropriate to the subject's condition may be prescribed during the course of the study with the exception of those listed above.\n\nRoutine vaccinations (i.e., flu vaccination) with commercially available therapeutics are permitted but must not be given within four weeks before or after the administration of the study drug.\n\nEvaluations by visit:\n\nScreening procedures at visit 1 will take place up to 28 days prior to Visit 2 (Day 1) dosing. Screening labs and assessments will be performed during the screening period. The first dose of study drug is administered on Day 1. Visits 2 through 6 have a \u00b11 day window and occur every 14 days over two months. The investigator will determine if a subject is suitable to continue following a missed infusion. Visit 7 has a \u00b17 day window.\n\nAll study screening data from Visit 1 including laboratory results must be reviewed for study eligibility prior to receiving first dose of study drug. Prior to infusion, a review of concomitant medications and AEs takes place. If the subject continues to be eligible for enrollment, the subject will be infused with study medication and will remain in the infusion clinic for at least 1 hour following the infusion for safety assessments on Visit 2 (Day 1), and 15 minutes for the subsequent visits.",
+    "phase": [
+        "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "primary_purpose": "TREATMENT",
+    "results": {
+        "participantFlowModule": {
+            "groups": [
+                {
+                    "id": "FG000",
+                    "title": "Infusion of IVIG",
+                    "description": "Octagam 10%: FDA approved human normal immunoglobulin solution ready for intravenous administration"
+                }
+            ],
+            "periods": [
+                {
+                    "title": "Overall Study",
+                    "milestones": [
+                        {
+                            "type": "STARTED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "5"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "5"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT COMPLETED",
+                            "achievements": [
+                                {
+                                    "groupId": "FG000",
+                                    "numSubjects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "baselineCharacteristicsModule": {
+            "groups": [
+                {
+                    "id": "BG000",
+                    "title": "Infusion of IVIG",
+                    "description": "Octagam 10%: FDA approved human normal immunoglobulin solution ready for intravenous administration"
+                }
+            ],
+            "denoms": [
+                {
+                    "units": "Participants",
+                    "counts": [
+                        {
+                            "groupId": "BG000",
+                            "value": "5"
+                        }
+                    ]
+                }
+            ],
+            "measures": [
+                {
+                    "title": "Age, Continuous",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "years",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "74.30",
+                                            "spread": "5.27"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Sex: Female, Male",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "Female",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Male",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Race (NIH/OMB)",
+                    "paramType": "COUNT_OF_PARTICIPANTS",
+                    "unitOfMeasure": "Participants",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "title": "American Indian or Alaska Native",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Asian",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Native Hawaiian or Other Pacific Islander",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Black or African American",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "White",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "More than one race",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Unknown or Not Reported",
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Region of Enrollment",
+                    "paramType": "NUMBER",
+                    "unitOfMeasure": "participants",
+                    "classes": [
+                        {
+                            "title": "United States",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Standard Uptake Value Ratio (SUVr)",
+                    "description": "SUVr is the ratio of activity per unit volume of a region of interest to the activity per unit whole body volume.",
+                    "paramType": "MEAN",
+                    "dispersionType": "STANDARD_DEVIATION",
+                    "unitOfMeasure": "standard uptake value ratio",
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "BG000",
+                                            "value": "1.57",
+                                            "spread": "0.16"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Baseline Standard Uptake Ratio Values (SUVr) of Florbetapir PET at 3 Months",
+                    "description": "Amyloid deposition in the brain is thought to lead to the development of cognitive decline and conversion to AD. Each participant's amyloid burden can also be quantified through the computation of a Standard Uptake Value ratio (SUVr).",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "standard uptake value ratio",
+                    "timeFrame": "Baseline to 3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Infusion of IVIG",
+                            "description": "Octagam 10%: FDA approved human normal immunoglobulin solution ready for intravenous administration"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "5"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-3.83",
+                                            "spread": "2.84"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "PRIMARY",
+                    "title": "Change in Baseline Retinal Amyloid Imaging (RAI) at 3 Months",
+                    "description": "This is a noninvasive imaging technique that can detect amyloid-beta deposition in the retinas of the eye.",
+                    "reportingStatus": "POSTED",
+                    "paramType": "MEAN",
+                    "dispersionType": "Standard Deviation",
+                    "unitOfMeasure": "autofluorescent spot count",
+                    "timeFrame": "Baseline to 3 months",
+                    "groups": [
+                        {
+                            "id": "OG000",
+                            "title": "Infusion of IVIG",
+                            "description": "Octagam 10%: FDA approved human normal immunoglobulin solution ready for intravenous administration"
+                        }
+                    ],
+                    "denoms": [
+                        {
+                            "units": "Participants",
+                            "counts": [
+                                {
+                                    "groupId": "OG000",
+                                    "value": "5"
+                                }
+                            ]
+                        }
+                    ],
+                    "classes": [
+                        {
+                            "title": "Right Eye",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-33.00",
+                                            "spread": "68.52"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Left Eye",
+                            "categories": [
+                                {
+                                    "measurements": [
+                                        {
+                                            "groupId": "OG000",
+                                            "value": "-55.75",
+                                            "spread": "46.95"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "adverseEventsModule": {
+            "frequencyThreshold": "0",
+            "timeFrame": "3 months",
+            "eventGroups": [
+                {
+                    "id": "EG000",
+                    "title": "Infusion of IVIG",
+                    "description": "Octagam 10%: FDA approved human normal immunoglobulin solution ready for intravenous administration",
+                    "deathsNumAffected": 0,
+                    "deathsNumAtRisk": 5,
+                    "seriousNumAffected": 0,
+                    "seriousNumAtRisk": 5,
+                    "otherNumAffected": 1,
+                    "otherNumAtRisk": 5
+                }
+            ],
+            "otherEvents": [
+                {
+                    "term": "dizziness",
+                    "organSystem": "General disorders",
+                    "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+                    "stats": [
+                        {
+                            "groupId": "EG000",
+                            "numEvents": 1,
+                            "numAffected": 1,
+                            "numAtRisk": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        "moreInfoModule": {
+            "limitationsAndCaveats": {
+                "description": "Small number of subjects analyzed."
+            },
+            "certainAgreement": {
+                "piSponsorEmployee": false,
+                "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+                "title": "Carol Parise, PhD, Research Scientist",
+                "organization": "Sutter Institute for Medical Research",
+                "email": "PariseC@sutterhealth.org",
+                "phone": "(916) 887-4744"
+            }
+        }
+    },
+    "target_category": "Disease-targeted biologic",
+    "drug": [
+        "Intravenous immunoglobulin (IVIG)",
+        "Octagam 10% (brand reported in study)"
+    ],
+    "placebo": [
+        "0.9% saline"
+    ],
+    "explanation_target": [
+        "Reason: The intervention is intravenous immunoglobulin (IVIG), a pooled human immunoglobulin preparation that contains naturally occurring anti-amyloid (A\u03b2) antibodies and has been shown to promote amyloid clearance and modulate neuroinflammation \u2014 i.e., it targets Alzheimer\u2019s pathology (amyloid). \ue200cite\ue202turn0search8\ue202turn0search5\ue201.",
+        "Act (key extracted details and supporting evidence): The study description and title state IVIG (0.4 g/kg IV) given every 14 days for 5 infusions with amyloid measured by Florbetapir PET and retinal imaging; a proof-of-concept paper reporting this regimen and short-term reductions in brain and retinal amyloid is indexed on PubMed and published in a peer-reviewed journal. \ue200cite\ue202turn0search0\ue202turn0search2\ue201.",
+        "Reflect (classification and caveats): Because IVIG is a biologic immunotherapy acting on amyloid pathology (disease mechanism) rather than a symptomatic cognitive enhancer or a neuropsychiatric treatment, the correct category is 'Disease-targeted biologic'. Note: larger randomized trials and meta-analyses have shown mixed or negative efficacy on clinical endpoints in established AD, so while the mechanism is disease-targeting, clinical benefit remains uncertain. The randomized IVIG MCI/AD trials and systematic reviews provide this context. \ue200cite\ue202turn0search1\ue202turn0search3\ue201."
+    ],
+    "agent_type": "A) Amyloid beta",
+    "explanation_agent": [
+        "Reason: The study tests intravenous immunoglobulin (IVIG, Octagam 10%) specifically to reduce cerebral and retinal amyloid in people with MCI due to Alzheimer disease \u2014 amyloid is the stated disease target measured by Florbetapir PET and retinal amyloid imaging. \ue200cite\ue202turn0search1\ue202turn0search0\ue201",
+        "Act (extracted details): Intervention = IVIG (Octagam 10%), dose/schedule = 0.4 g/kg IV every 14 days \u00d7 5 infusions, outcomes = florbetapir PET and retinal imaging showing reductions in brain and retinal amyloid in this proof\u2011of\u2011concept study. These trial details and the published proof\u2011of\u2011concept report support that the intervention is directed at A\u03b2 pathology. \ue200cite\ue202turn0search0\ue202turn0search4\ue201",
+        "Act (mechanism): IVIG preparations contain naturally occurring anti\u2011A\u03b2 antibodies and have been shown in preclinical and human studies to bind A\u03b2, enhance microglia\u2011mediated A\u03b2 clearance and promote efflux of A\u03b2, consistent with an anti\u2011amyloid mechanism (IVIG also modulates inflammation and may contain anti\u2011tau antibodies, but the explicit outcome measures in this trial are amyloid biomarkers). \ue200cite\ue202turn0search5\ue202turn0search8\ue201",
+        "Reflect (classification and caveats): Because the trial\u2019s intervention and primary biomarker endpoints are directed at removing/altering amyloid (A\u03b2) pathology, the most specific CADRO category is A) Amyloid beta. Note: IVIG has pleiotropic effects (anti\u2011inflammatory, possible anti\u2011tau components) and larger randomized IVIG trials and meta\u2011analyses have failed to show clear clinical benefit in established AD, so while the mechanism in this study is disease\u2011targeting for amyloid, clinical efficacy for dementia endpoints remains unproven. \ue200cite\ue202turn1search11\ue202turn0search4\ue201",
+        "Web search results (key sources used): 1) PubMed record of the proof\u2011of\u2011concept study reporting reduction of brain and retinal amyloid after IVIG in MCI (Kile et al., 2020). \ue200cite\ue202turn0search0\ue201; 2) Trial registry (NCT03319810 / Octagam 10% in MCI) with study design and dosing (proof\u2011of\u2011concept, Florbetapir PET + retinal imaging). \ue200cite\ue202turn0search1\ue201; 3) Full report/discussion of the small proof\u2011of\u2011concept study (journal article summarizing biomarker reductions and mechanisms). \ue200cite\ue202turn0search4\ue201; 4) Preclinical and mechanistic studies showing IVIG contains anti\u2011A\u03b2 antibodies and enhances microglial A\u03b2 clearance. \ue200cite\ue202turn0search5\ue202turn0search8\ue201; 5) Systematic reviews/meta\u2011analyses and phase\u20113 trial reports showing IVIG has not demonstrated consistent clinical benefit in mild\u2011moderate AD (context for clinical efficacy). \ue200cite\ue202turn1search11\ue202turn1search7\ue201"
+    ]
+}
